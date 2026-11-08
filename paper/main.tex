@@ -57,29 +57,62 @@ ef{app:margin}).
 
 \section{TailCat and recognition}\label{sec:data}
 
-\paragraph{Categories.} TailCat pairs categories of long-tail entities with near-miss foils from sibling categories, built from Wikidata: for example poets who wrote in Tamil (foils: Telugu and Kannada poets) or rivers in Kerala (foils: rivers in Karnataka and Tamil Nadu). Members are stratified over popularity (Wikipedia sitelinks) and must have articles in at least two languages, which removes single-wiki bot imports whose transliterated labels no reader could know. The pilot has 11 categories (\gzEntities{} entities) including a head control, US state capitals. \missing{full TailCat description}
+\paragraph{Categories.} TailCat pairs categories of long-tail entities with near-miss foils from sibling categories, built from Wikidata: for example poets who wrote in Tamil (foils: Telugu and Kannada poets) or rivers in Kerala (foils: rivers in Karnataka and Tamil Nadu). Members are stratified over popularity (Wikipedia sitelinks) and must have articles in at least two languages, which removes single-wiki bot imports whose transliterated labels no reader could know. The pilot has 11 categories (\gzEntities{} entities) including a head control, US state capitals. The full TailCat crosses 14 entity types (people, places, works and organisations) with 24 countries, 17 of them in South Asia, Africa, Southeast Asia and Latin America, and adds writers in 12 Indian languages. Foils come from the same type in neighbouring or easily confused countries. We keep a category only if it yields at least 30 members and 30 foils: \ptCategories{} categories and \ptMembers{} sampled members (at most 150 per category).
 
 \paragraph{Recognition.} An entity counts as recognised if the model (i) answers ``Yes'' to `Is ``$e$'' \emph{category}?' with a score $V(e)=P(\text{Yes})/(P(\text{Yes})+P(\text{No}))$ at or above the 95th percentile of the category's foils, so at most 5\% of foils pass, and (ii) picks $e$ out of three foils in a four-way choice. RBU is the share of recognised entities that are unreachable. The yes/no probe separates members from foils with AUROC \gzQwenInstAuroc{} for Qwen2.5-7B-Instruct, below the 0.85 we set in advance; the main results hold on the categories where it exceeds 0.85 on its own, and under a second probe wording (Appendix~\ref{app:recognition}).
 
 \section{How much recognised knowledge is unreachable?}\label{sec:howmuch}
 
-\missing{Section 4 text with Table 1 and Figure 1 once P3 lands}
+Table~\ref{tab:main} reports RBU for the two families. Under the sampler Qwen2.5-7B-Instruct ships with (temperature 0.7, top-$k$ 20, top-$p$ 0.8, repetition penalty 1.05) \gzQwenInstShipped{} of the recognised pilot entities are unreachable (95\% cluster-bootstrap CI \gzQwenInstShippedLo{} to \gzQwenInstShippedHi{}). Under plain top-$p$ 0.9 it is \gzQwenInstPnine{} (\gzQwenInstPnineLo{} to \gzQwenInstPnineHi{}), against \gzQwenBasePnine{} for the base model. On the full TailCat the numbers are \ptRbuQwenInst{} (\ptRbuQwenInstLo{} to \ptRbuQwenInstHi{}) for Qwen2.5-7B-Instruct and \ptRbuOlmoInst{} for OLMo-2-Instruct, against \ptRbuQwenBase{} and \ptRbuOlmoBase{} for their base models.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lcc}
+\toprule
+ & pilot & full TailCat \\
+\midrule
+Qwen2.5-7B-Instruct, shipped & \gzQwenInstShipped & \ptShippedQwenInst \\
+Qwen2.5-7B-Instruct, top-$p$ 0.9 & \gzQwenInstPnine & \ptRbuQwenInst \\
+Qwen2.5-7B base, top-$p$ 0.9 & \gzQwenBasePnine & \ptRbuQwenBase \\
+OLMo-2-Instruct, top-$p$ 0.9 & \goRbuOlmoInst & \ptRbuOlmoInst \\
+OLMo-2 base, top-$p$ 0.9 & \goRbuOlmoBase & \ptRbuOlmoBase \\
+\bottomrule
+\end{tabular}
+\caption{RBU: share of recognised entities that are robustly unreachable (mean over three prompt wordings). OLMo-2 ships no sampler (greedy decoding).}
+\label{tab:main}
+\end{table}
+
+\paragraph{The effect is not a quirk of wording or temperature.} Across five prompt wordings the coefficient of variation of RBU at top-$p$ 0.9 is \rbCvQwenInst{} for Qwen2.5-7B-Instruct and \rbCvOlmoInst{} for OLMo-2-Instruct. Lowering the temperature raises RBU: for the Qwen base model from \rbTempQwenBaseTone{} at $T=1$ to \rbTempQwenBaseTseven{} at $T=0.7$ and \rbTempQwenBaseTfive{} at $T=0.5$. Counting only the canonical label, not aliases, gives \rbLabelOnlyQwenInst{} against \rbTempQwenInstTone{} with aliases.
+
+\paragraph{Even head knowledge collapses.} The head control, US state capitals, was meant to be reachable by every model. The base model reaches all \gzCapitalsMembers{} capitals in our pilot list under top-$p$ 0.9; the instruct model reaches \gzCapitalsReachInst{}.
 
 \section{Where it comes from}\label{sec:where}
 
-\missing{Section 5}
+\paragraph{Post-training, stage by stage.} OLMo-2 releases its base model and each post-training stage. RBU at top-$p$ 0.9 is \goRbuOlmoBase{} for the base model, \goRbuOlmoSft{} after supervised fine-tuning, \goRbuOlmoDpo{} after preference tuning and \goRbuOlmoInst{} for the final model. Most of the rise happens at supervised fine-tuning. Among entities recognised by both, \goPairedInstOnly{} are unreachable only for the final model and \goPairedBaseOnly{} only for the base model; for Qwen2.5 the counts are \gzPairedInstOnly{} and \gzPairedBaseOnly{} (sign tests far below $p=0.01$). Neither fine-tuning objective can set a probability to zero by itself: the KL-regularised preference optimum keeps the support of the reference model, and cross-entropy training keeps logits finite. What they change is where the mass goes.
+
+\paragraph{The first token.} The share of unreachable recognised entities whose first failing token is the first token of the name rises from \goFirstTokOlmoBase{} (OLMo-2 base) to \goFirstTokOlmoInst{} (OLMo-2-Instruct), and from \gzQwenBaseFirstTok{} to \gzQwenInstFirstTok{} for Qwen2.5. The mean probability of the single most likely first answer token rises with it, from \goTopOneOlmoBase{} to \goTopOneOlmoInst{} (OLMo-2) and from \goTopOneQwenBase{} to \goTopOneQwenInst{} (Qwen2.5). Across \goSpearmanN{} (model, category) points, first-token concentration and RBU have Spearman correlation \goSpearman{}. Appendix~\ref{app:walk} shows real names token by token: the instruct model rules them out at the first token, while the base model starts them and loses them later.
+
+\paragraph{Mass, not rank.} Top-$k$ RBU barely moves across OLMo-2's stages (\goKfiftyOlmoBase{} to \goKfiftyOlmoInst{} at $k=50$) while top-$p$ RBU rises steeply. Post-training changes how much probability the head takes far more than the order of the candidates, so truncation by mass (top-$p$, min-$p$) is what deletes the tail.
 
 \section{What it does to measurement}\label{sec:measure}
 
-\missing{Section 6}
+Let $q_S(e)$ be the probability that one sample under sampler $S$ is entity $e$. After $N$ samples the expected number of distinct entities seen is $\sum_e[1-(1-q_S(e))^N]$, which rises to the size of the reachable set $\{e:q_S(e)>0\}$. Every unseen-species estimator, from Good-Turing to Chao1 and ACE, estimates the size of that support. Applied to truncated samples it estimates the reachable set, never the recognised set, and the shortfall is $\mathrm{RBU}(S)\times|\text{recognised}|$, which our test computes exactly. \citet{li2025unseen} observed that nucleus sampling lowers their knowledge estimates and sampled without it; the argument above explains why and quantifies it.
+
+Empirically, on the full TailCat with 1{,}000 samples per category under Qwen2.5-7B-Instruct's shipped sampler, the samples name \peQwenShippedSobs{} distinct members; Chao1 estimates \peQwenShippedChao{} and ACE \peQwenShippedAce{}, while \peQwenShippedReach{} members are reachable and the model recognises \peQwenShippedRecog{}. No sample named a member we had computed as unreachable (\peQwenShippedOutside{} such members). Under top-$p$ 0.9 the corresponding numbers are \peQwenPnineSobs{}, \peQwenPnineChao{}, \peQwenPnineReach{} and \peQwenPnineRecog{}.
 
 \section{Who loses}\label{sec:who}
 
-\missing{Section 7}
+\paragraph{Popularity.} We fit a logistic model of unreachability on $\log_{10}(1+\text{sitelinks})$ for recognised entities, with generalised estimating equations clustered by category \citep{liang1986longitudinal}. For Qwen2.5-7B-Instruct each tenfold increase in Wikipedia language coverage multiplies the odds of being unreachable by \ptOrUnreachQwenInst{} (95\% CI \ptOrUnreachQwenInstLo{} to \ptOrUnreachQwenInstHi{}); for OLMo-2-Instruct by \ptOrUnreachOlmoInst{}. The same model for recognition among all members gives \ptOrRecogQwenInst{} for Qwen2.5-7B-Instruct.
+
+\paragraph{Regions and types.} Appendix~\ref{app:breakdowns} breaks RBU down by world region and entity type.
 
 \section{A targeted fix}\label{sec:fix}
 
-\missing{Section 8}
+If most failures happen at the first token, a natural fix is to switch truncation off for the first answer token only and keep the shipped sampler afterwards. We tested this against a sweep of standard samplers on the pilot (1{,}000 samples per category per sampler), measuring RBU, the number of distinct real members produced and the invented-name rate (answers that match no member of the category in Wikidata and no foil).
+
+The fix fails our pre-registered bar of recovering half of the unreachable recognised entities. It recovers \pfRecoveredQwen{} for Qwen2.5-7B-Instruct (RBU from \pfQwenRefRbu{} to \pfQwenRelaxRbu{}, distinct members sampled from \pfQwenRefDistinct{} to \pfQwenRelaxDistinct{}, invented-name rate \pfInvDeltaQwen{} points) and \pfRecoveredOlmo{} for OLMo-2-Instruct (invented-name rate $+$\pfInvDeltaOlmo{} points). The reason is instructive. The first failing token is usually the first token, but most names fail again later under the same sampler, so relaxing one position rescues only names whose every failure is at the start.
+
+The full frontier is the more useful result (Appendix~\ref{app:frontier}). Removing truncation entirely makes every recognised entity reachable at a cost of \pfQwenUntrInv{} invented answers against \pfQwenRefInv{} under the shipped sampler for Qwen2.5-7B-Instruct; top-$p$ 0.99, top-$k$ 100 and epsilon sampling lie in between. The automatic invented-name rate overstates invention: it counts real members spelled differently or missing from Wikidata, and wrong answers, as invented. With looser matching the rates fall by about ten points while the differences between samplers barely change (relaxation: $+$\pfLooseDeltaQwen{} and $+$\pfLooseDeltaOlmo{} points). A hand audit of 200 such answers is pending.
 
 \section{Related work}
 
@@ -93,14 +126,30 @@ ef{app:margin}).
 
 \section*{Limitations}
 
-\missing{limitations}
+\paragraph{Recognition.} Our recognition test is a proxy. Its yes/no part separates members from near-miss foils with AUROC around 0.8, below the 0.85 we set in advance; chat models answer ``Yes'' readily to plausible foils. The four-way choice and the per-category foil threshold limit false positives, and the main results hold on the categories that pass on their own and under a second probe wording, but RBU is defined relative to this test.
+
+\paragraph{Tokenisation.} We test the tokenisation the model itself produces in context. A name can sometimes be produced through other token paths; in all sample checks no member was produced through a path we had scored unreachable.
+
+\paragraph{Numerics.} Exact zero depends on how logits are computed. Our robust verdict holds for any computation within a calibrated margin of ours; implementations further away (other GPUs, quantisation) need their own calibration.
+
+\paragraph{Scope.} Two model families at 7B scale, English prompts and Wikidata categories. Llama-3.1 and Gemma-2 were not run, and the multilingual analysis planned for Hindi, Tamil and Bengali prompts is future work. Wikidata membership is incomplete, which affects the invented-name rate more than RBU.
 
 \bibliography{references}
 
 \appendix
 \section{Numeric margin}\label{app:margin}
-\missing{appendix margin}
+For each model we sample 500 answers per pilot category with a separate seed, compute for each distinct answer the logit shift at which its reachability verdict flips (by bisection), and set $\epsilon$ to the smallest value on the grid $\{0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 6\}$ that covers every sampled answer. For Qwen2.5-7B-Instruct, \gzCalSeqs{} distinct sampled answers gave \gzCalExact{} exact-verdict contradictions and none at $\epsilon=\gzEps$; the 99.9th percentile of the relevant logit gap was \gzGapQnine{}. In the Qwen sample check, \gzExactViolations{} sampled answer would have contradicted the exact verdict and none contradicted the robust one.
+
 \section{Recognition validity}\label{app:recognition}
-\missing{appendix recognition}
+\missing{per-category AUROC table}
+
+\section{Walk-through examples}\label{app:walk}
+\missing{walk-through examples}
+
+\section{Breakdowns}\label{app:breakdowns}
+\missing{region and type tables}
+
+\section{Mitigation frontier}\label{app:frontier}
+\missing{frontier tables}
 
 \end{document}
