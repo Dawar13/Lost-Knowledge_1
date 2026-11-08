@@ -42,3 +42,6 @@ utc_time,host,gpu,script,model,gpu_hours,note
 2026-11-08T21:21:08Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,Qwen/Qwen2.5-0.5B-Instruct,0.0105,results/P3_scale/calibration peak 3.8 GiB
 2026-11-08T21:22:50Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,Qwen/Qwen2.5-0.5B-Instruct,0.0278,results/P3_scale peak 4.1 GiB
 2026-11-08T21:23:28Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,Qwen/Qwen2.5-1.5B-Instruct,0.0094,results/P3_scale/calibration peak 5.3 GiB
+2026-11-08T21:25:21Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,Qwen/Qwen2.5-1.5B-Instruct,0.0308,results/P3_scale peak 6.1 GiB
+2026-11-08T21:26:15Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,Qwen/Qwen2.5-3B-Instruct,0.0136,results/P3_scale/calibration peak 8.6 GiB
+2026-11-08T21:28:25Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,Qwen/Qwen2.5-3B-Instruct,0.0357,results/P3_scale peak 9.1 GiB

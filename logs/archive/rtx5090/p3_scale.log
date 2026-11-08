@@ -1,0 +1,186 @@
+queue: starting scale ladder at 2026-11-08T21:20:21Z
+torch 2.15.0+cu132  transformers 5.22.2
+CUDA_VISIBLE_DEVICES=None
+GPU 0: NVIDIA GeForce RTX 5090  free 30.9 / 31.4 GiB
+pid, process_name, used_gpu_memory [MiB]
+12078, python, 498 MiB
+
+These processes belong to other experiments. Never kill or signal them.
+HF token present: False (needed for gated Llama and Gemma weights)
+..............                                                           [100%]
+14 passed in 4.89s
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 6.7 GiB, leaving at least 24.2 GiB for others
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  90%|█████████ | 262/290 [00:00<00:00, 2586.04it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2669.50it/s]
+[selfcheck] gap rel_all  over 3392 positions: mean 0.5741, q0.5 0.5000, q0.9 0.9219, q0.99 1.8295, q0.999 3.3902, max 6.1641
+[selfcheck] gap rel_near over 3392 positions: mean 0.1164, q0.5 0.0625, q0.9 0.2500, q0.99 0.7500, q0.999 1.5381, max 2.9688
+[selfcheck] gap dG_T1.0  over 3392 positions: mean 0.0091, q0.5 0.0000, q0.9 0.0121, q0.99 0.2109, q0.999 0.5044, max 0.5147
+[selfcheck] gap dG_T0.7  over 3392 positions: mean 0.0138, q0.5 0.0000, q0.9 0.0230, q0.99 0.3565, q0.999 0.5406, max 0.5428
+[selfcheck] gap drank    over 3392 positions: mean 0.0607, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 2.6090, max 5.0000
+[selfcheck] shipped_hf   tamil_poets                distinct  267 exact-unreachable  35 robust @0.25:3 @0.5:1 @0.75:1 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   kerala_rivers              distinct   19 exact-unreachable   3 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   tamilnadu_hindu_temples    distinct   75 exact-unreachable  20 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   japanese_novelists         distinct  100 exact-unreachable  15 robust @0.25:4 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nepal_mountains            distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   brazil_universities        distinct   38 exact-unreachable  19 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   finland_lakes              distinct   92 exact-unreachable  21 robust @0.25:5 @0.5:3 @0.75:3 @1.0:1 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nigerian_painters          distinct  254 exact-unreachable  44 robust @0.25:4 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   bengali_film_directors     distinct  159 exact-unreachable  14 robust @0.25:5 @0.5:2 @0.75:2 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   assamese_writers           distinct  210 exact-unreachable  20 robust @0.25:4 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   us_state_capitals          distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamil_poets                distinct  478 exact-unreachable  10 robust @0.25:2 @0.5:1 @0.75:1 @1.0:1 @1.5:1 @2.0:1 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  319 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  397 exact-unreachable  11 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct  348 exact-unreachable   6 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct   42 exact-unreachable   5 robust @0.25:4 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct  244 exact-unreachable  12 robust @0.25:9 @0.5:3 @0.75:1 @1.0:1 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  430 exact-unreachable   5 robust @0.25:2 @0.5:2 @0.75:2 @1.0:1 @1.5:1 @2.0:1 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  484 exact-unreachable   9 robust @0.25:4 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  441 exact-unreachable   5 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  467 exact-unreachable   6 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct   14 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: shipped_hf 1.039, p0.90_T1 2.305 -> epsilon rule gives 3.0
+[selfcheck] TOTAL distinct 4881 exact-unreachable 266 robust @0.25:48 @0.5:12 @0.75:10 @1.0:4 @1.5:2 @2.0:2 @3.0:0 in 0.6 min (a margin passes when its robust count is 0)
+== Qwen2.5-0.5B-Instruct epsilon 3.0
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 6.7 GiB, leaving at least 24.2 GiB for others
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 15139.82it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[done] Qwen2.5-0.5B-Instruct in 1.7 min -> results/P3_scale/Qwen2.5-0.5B-Instruct
+[metrics] wrote 12 files to results/P3_scale/metrics/Qwen2.5-0.5B-Instruct
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 8.8 GiB, leaving at least 22.1 GiB for others
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 3552.72it/s]
+[selfcheck] gap rel_all  over 3359 positions: mean 0.4693, q0.5 0.4375, q0.9 0.6875, q0.99 1.0000, q0.999 1.3081, max 1.9375
+[selfcheck] gap rel_near over 3359 positions: mean 0.0549, q0.5 0.0000, q0.9 0.1875, q0.99 0.3750, q0.999 0.6250, max 0.7500
+[selfcheck] gap dG_T1.0  over 3359 positions: mean 0.0107, q0.5 0.0000, q0.9 0.0079, q0.99 0.4611, q0.999 0.5349, max 0.5349
+[selfcheck] gap dG_T0.7  over 3359 positions: mean 0.0130, q0.5 0.0000, q0.9 0.0095, q0.99 0.5307, q0.999 0.5840, max 0.5840
+[selfcheck] gap drank    over 3359 positions: mean 0.0375, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 2.0000, max 2.0000
+[selfcheck] shipped_hf   tamil_poets                distinct  143 exact-unreachable  11 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   kerala_rivers              distinct   20 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   tamilnadu_hindu_temples    distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   japanese_novelists         distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nepal_mountains            distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   brazil_universities        distinct    9 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   finland_lakes              distinct   12 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nigerian_painters          distinct  182 exact-unreachable   7 robust @0.25:1 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   bengali_film_directors     distinct   63 exact-unreachable  29 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   assamese_writers           distinct   18 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   us_state_capitals          distinct    6 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamil_poets                distinct  350 exact-unreachable  12 robust @0.25:3 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  113 exact-unreachable  12 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct   35 exact-unreachable   7 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct   22 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct    5 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct   23 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  153 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  358 exact-unreachable   4 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  213 exact-unreachable   7 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  150 exact-unreachable   5 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct   33 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: shipped_hf 0.695, p0.90_T1 0.570 -> epsilon rule gives 0.75
+[selfcheck] TOTAL distinct 1912 exact-unreachable 104 robust @0.25:6 @0.5:2 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 0.6 min (a margin passes when its robust count is 0)
+== Qwen2.5-1.5B-Instruct epsilon 0.75
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 8.8 GiB, leaving at least 22.1 GiB for others
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 17876.23it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[done] Qwen2.5-1.5B-Instruct in 1.8 min -> results/P3_scale/Qwen2.5-1.5B-Instruct
+[metrics] wrote 12 files to results/P3_scale/metrics/Qwen2.5-1.5B-Instruct
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 11.9 GiB, leaving at least 19.0 GiB for others
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  75%|███████▍  | 324/434 [00:00<00:00, 3192.34it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 3266.72it/s]
+[selfcheck] gap rel_all  over 3116 positions: mean 0.4788, q0.5 0.4375, q0.9 0.7344, q0.99 1.1250, q0.999 1.8340, max 1.9219
+[selfcheck] gap rel_near over 3116 positions: mean 0.0503, q0.5 0.0000, q0.9 0.2500, q0.99 0.4906, q0.999 0.8750, max 1.2500
+[selfcheck] gap dG_T1.0  over 3116 positions: mean 0.0051, q0.5 0.0000, q0.9 0.0004, q0.99 0.2136, q0.999 0.3235, max 0.5179
+[selfcheck] gap dG_T0.7  over 3116 positions: mean 0.0071, q0.5 0.0000, q0.9 0.0001, q0.99 0.2472, q0.999 0.4542, max 0.5429
+[selfcheck] gap drank    over 3116 positions: mean 0.0202, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 2.0000, max 3.0000
+[selfcheck] shipped_hf   tamil_poets                distinct    7 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   kerala_rivers              distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   tamilnadu_hindu_temples    distinct   71 exact-unreachable  12 robust @0.25:2 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   japanese_novelists         distinct    3 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nepal_mountains            distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   brazil_universities        distinct    5 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   finland_lakes              distinct   43 exact-unreachable   3 robust @0.25:2 @0.5:2 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nigerian_painters          distinct  104 exact-unreachable  13 robust @0.25:5 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   bengali_film_directors     distinct   17 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   assamese_writers           distinct   72 exact-unreachable  17 robust @0.25:2 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   us_state_capitals          distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamil_poets                distinct  144 exact-unreachable   5 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct   51 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  177 exact-unreachable  12 robust @0.25:5 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct   80 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct    7 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct    7 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  155 exact-unreachable   3 robust @0.25:2 @0.5:2 @0.75:2 @1.0:1 @1.5:1 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  363 exact-unreachable  18 robust @0.25:10 @0.5:3 @0.75:1 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  177 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  350 exact-unreachable   7 robust @0.25:2 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct    6 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: shipped_hf 0.695, p0.90_T1 1.805 -> epsilon rule gives 2.0
+[selfcheck] TOTAL distinct 1843 exact-unreachable 98 robust @0.25:31 @0.5:9 @0.75:3 @1.0:1 @1.5:1 @2.0:0 @3.0:0 in 0.8 min (a margin passes when its robust count is 0)
+== Qwen2.5-3B-Instruct epsilon 2.0
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 11.9 GiB, leaving at least 19.0 GiB for others
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 18310.58it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.05'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[done] Qwen2.5-3B-Instruct in 2.1 min -> results/P3_scale/Qwen2.5-3B-Instruct
+[metrics] wrote 12 files to results/P3_scale/metrics/Qwen2.5-3B-Instruct
+== scale ladder done

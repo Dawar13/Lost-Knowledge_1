@@ -1,0 +1,1068 @@
+{
+  "total": {
+    "distinct": 1843,
+    "unreachable": 98,
+    "robust_unreachable@0.25": 31,
+    "robust_unreachable@0.5": 9,
+    "robust_unreachable@0.75": 3,
+    "robust_unreachable@1.0": 1,
+    "robust_unreachable@1.5": 1,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "shipped_hf": 0.6953,
+    "p0.90_T1": 1.8047
+  },
+  "epsilon_rule": 2.0,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 3116,
+      "mean": 0.4787987205887331,
+      "q0.5": 0.4375,
+      "q0.9": 0.734375,
+      "q0.99": 1.125,
+      "q0.999": 1.833984375,
+      "max": 1.921875
+    },
+    "rel_near": {
+      "n_positions": 3116,
+      "mean": 0.05028482028241335,
+      "q0.5": 0.0,
+      "q0.9": 0.25,
+      "q0.99": 0.4906249999999943,
+      "q0.999": 0.875,
+      "max": 1.25
+    },
+    "dG_T1.0": {
+      "n_positions": 3116,
+      "mean": 0.005064255394165874,
+      "q0.5": 0.0,
+      "q0.9": 0.000385284423828125,
+      "q0.99": 0.21362888067960314,
+      "q0.999": 0.32354509830474854,
+      "max": 0.517925500869751
+    },
+    "dG_T0.7": {
+      "n_positions": 3116,
+      "mean": 0.007108063189568661,
+      "q0.5": 0.0,
+      "q0.9": 5.632638931274414e-05,
+      "q0.99": 0.24715756773948228,
+      "q0.999": 0.4541662931442261,
+      "max": 0.5429430603981018
+    },
+    "drank": {
+      "n_positions": 3116,
+      "mean": 0.020218228498074454,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 1.0,
+      "q0.999": 2.0,
+      "max": 3.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "shipped_hf",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 7,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 1,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 71,
+      "unreachable": 12,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kumara Swamy Temple, Dakshina Kopparthy Krishnaswamy Ayiramalayam<|im_end|>",
+          "failpos": 7,
+          "rank": 2,
+          "G_T1": 0.662277,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kumara Swamy Temple, Dakshina Kannada<|im_end|>",
+          "failpos": 3,
+          "rank": 3,
+          "G_T1": 0.616196,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kumara Swamy Temple, Srirangam<|im_end|>",
+          "failpos": 3,
+          "rank": 3,
+          "G_T1": 0.616196,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kumbhakonam Vishnuvartha Perumal Temple<|im_end|>",
+          "failpos": 8,
+          "rank": 2,
+          "G_T1": 0.738753,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kānchi Jeṭhākārāma Temple<|im_end|>",
+          "failpos": 5,
+          "rank": 1,
+          "G_T1": 0.617428,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kānkapura Rāma Śaṅkarī Temple<|im_end|>",
+          "failpos": 3,
+          "rank": 4,
+          "G_T1": 0.520843,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kārinyan Kovil<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.624029,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kāveri Kōśa Mahākālakēśvara Temple<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.632551,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kāveri Kōśa Bhāgavatamūrti Temple<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.632551,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kāveri Kōśaḷesvara Temple<|im_end|>",
+          "failpos": 8,
+          "rank": 7,
+          "G_T1": 0.52184,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 3,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 1,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 5,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 43,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 2,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Lake Vinter湖维特爾<|im_end|>",
+          "failpos": 6,
+          "rank": 2,
+          "G_T1": 0.798633,
+          "top_p": 0.8
+        },
+        {
+          "text": "Lake Vinter湖维腾湖<|im_end|>",
+          "failpos": 6,
+          "rank": 1,
+          "G_T1": 0.805335,
+          "top_p": 0.8
+        },
+        {
+          "text": "Lake Saunalampi<|im_end|>",
+          "failpos": 3,
+          "rank": 1,
+          "G_T1": 0.77869,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 104,
+      "unreachable": 13,
+      "robust_unreachable": {
+        "0.25": 5,
+        "0.5": 1,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Festus Osayimwesi Agbetuwa<|im_end|>",
+          "failpos": 5,
+          "rank": 3,
+          "G_T1": 0.524474,
+          "top_p": 0.8
+        },
+        {
+          "text": "Fela Okunnofo<|im_end|>",
+          "failpos": 4,
+          "rank": 2,
+          "G_T1": 0.5896,
+          "top_p": 0.8
+        },
+        {
+          "text": "Tobi Audu<|im_end|>",
+          "failpos": 1,
+          "rank": 6,
+          "G_T1": 0.566689,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chidera Akpata<|im_end|>",
+          "failpos": 4,
+          "rank": 5,
+          "G_T1": 0.654294,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chidera Akpokiri<|im_end|>",
+          "failpos": 4,
+          "rank": 4,
+          "G_T1": 0.569018,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chidera Akulikulie<|im_end|>",
+          "failpos": 5,
+          "rank": 3,
+          "G_T1": 0.624657,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chidera Akulikuli<|im_end|>",
+          "failpos": 5,
+          "rank": 3,
+          "G_T1": 0.624657,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chiwetel Eliogbo<|im_end|>",
+          "failpos": 6,
+          "rank": 3,
+          "G_T1": 0.716592,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chiwetel Eliogbe Ebohon<|im_end|>",
+          "failpos": 7,
+          "rank": 2,
+          "G_T1": 0.814947,
+          "top_p": 0.8
+        },
+        {
+          "text": "Chiwetel Ejiofor (Note: This is not a painter, but rather an actor)<|im_end|>",
+          "failpos": 17,
+          "rank": 2,
+          "G_T1": 0.890016,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 17,
+      "unreachable": 1,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Shomik Chakrabarti<|im_end|>",
+          "failpos": 3,
+          "rank": 3,
+          "G_T1": 0.547566,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 72,
+      "unreachable": 17,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 1,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Sakon Nathu Ray<|im_end|>",
+          "failpos": 2,
+          "rank": 4,
+          "G_T1": 0.531578,
+          "top_p": 0.8
+        },
+        {
+          "text": "Sakundar Mahato<|im_end|>",
+          "failpos": 2,
+          "rank": 6,
+          "G_T1": 0.655186,
+          "top_p": 0.8
+        },
+        {
+          "text": "Sudam Majumder<|im_end|>",
+          "failpos": 5,
+          "rank": 1,
+          "G_T1": 0.753676,
+          "top_p": 0.8
+        },
+        {
+          "text": "Sudhanwa Dasarnal<|im_end|>",
+          "failpos": 6,
+          "rank": 1,
+          "G_T1": 0.797376,
+          "top_p": 0.8
+        },
+        {
+          "text": "Sudipto Gupta<|im_end|>",
+          "failpos": 4,
+          "rank": 8,
+          "G_T1": 0.665564,
+          "top_p": 0.8
+        },
+        {
+          "text": "Alomalak Kazi Abdul Ali<|im_end|>",
+          "failpos": 6,
+          "rank": 1,
+          "G_T1": 0.544926,
+          "top_p": 0.8
+        },
+        {
+          "text": "Alomalak Bhattacharjee<|im_end|>",
+          "failpos": 5,
+          "rank": 1,
+          "G_T1": 0.757826,
+          "top_p": 0.8
+        },
+        {
+          "text": "Martinique Mamun<|im_end|>",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.508458,
+          "top_p": 0.8
+        },
+        {
+          "text": "Martinique Rahman<|im_end|>",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.508458,
+          "top_p": 0.8
+        },
+        {
+          "text": "Sailesh Chandra Neog<|im_end|>",
+          "failpos": 0,
+          "rank": 8,
+          "G_T1": 0.596404,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 2,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 144,
+      "unreachable": 5,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kurugaiyar<|im_end|>",
+          "failpos": 1,
+          "rank": 18,
+          "G_T1": 0.89994,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kurundarāmamūśi Virūpākṣa¡yaham<|im_end|>",
+          "failpos": 1,
+          "rank": 18,
+          "G_T1": 0.904763,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kudumikanar<|im_end|>",
+          "failpos": 3,
+          "rank": 2,
+          "G_T1": 0.924858,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kachiandhan<|im_end|>",
+          "failpos": 1,
+          "rank": 20,
+          "G_T1": 0.906986,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kāvīrājappaññāyaaru<|im_end|>",
+          "failpos": 7,
+          "rank": 5,
+          "G_T1": 0.900496,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 51,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kerala Neyri River<|im_end|>",
+          "failpos": 3,
+          "rank": 4,
+          "G_T1": 0.872626,
+          "top_p": 0.9
+        },
+        {
+          "text": "Pamari<|im_end|>",
+          "failpos": 2,
+          "rank": 12,
+          "G_T1": 0.912998,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 177,
+      "unreachable": 12,
+      "robust_unreachable": {
+        "0.25": 5,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kulandai Koyil (Kataragiri Koil)<|im_end|>",
+          "failpos": 12,
+          "rank": 23,
+          "G_T1": 0.90059,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kailasa Temple<|im_end|>",
+          "failpos": 2,
+          "rank": 1,
+          "G_T1": 0.906204,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kāverī Sri Ranganatha Swamy Temple<|im_end|>",
+          "failpos": 7,
+          "rank": 2,
+          "G_T1": 0.920284,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tirupati Bhuvaneshwari Temple<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.903289,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tirupathi Brahma Teertham<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.903289,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tirukovilur Kasi Viswanatha Temple<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.903289,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tirukovilur Temple<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.906132,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tirukovilkali Temple<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.906132,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tirukutralaisagaram Temple<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.906132,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tiruvannamalai Mahadeva Temple<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.903289,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 80,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Fukushu Kato<|im_end|>",
+          "failpos": 3,
+          "rank": 4,
+          "G_T1": 0.902659,
+          "top_p": 0.9
+        },
+        {
+          "text": "Hiroshi Arisugawa<|im_end|>",
+          "failpos": 4,
+          "rank": 1,
+          "G_T1": 0.845163,
+          "top_p": 0.9
+        },
+        {
+          "text": "Masuji Ishiguro<|im_end|>",
+          "failpos": 3,
+          "rank": 4,
+          "G_T1": 0.905205,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 7,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 7,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 155,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 2,
+        "0.75": 2,
+        "1.0": 1,
+        "1.5": 1,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Lake Vinterboda<|im_end|>",
+          "failpos": 3,
+          "rank": 18,
+          "G_T1": 0.946869,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lake Vinterreieveen<|im_end|>",
+          "failpos": 3,
+          "rank": 9,
+          "G_T1": 0.921471,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lake Peipős<|im_end|>",
+          "failpos": 3,
+          "rank": 18,
+          "G_T1": 0.905099,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 363,
+      "unreachable": 18,
+      "robust_unreachable": {
+        "0.25": 10,
+        "0.5": 3,
+        "0.75": 1,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Eulalia Anyangwa<|im_end|>",
+          "failpos": 3,
+          "rank": 36,
+          "G_T1": 0.903536,
+          "top_p": 0.9
+        },
+        {
+          "text": "Frisbie Adebanjo<|im_end|>",
+          "failpos": 2,
+          "rank": 3,
+          "G_T1": 0.914181,
+          "top_p": 0.9
+        },
+        {
+          "text": "Jesu Anyasogo<|im_end|>",
+          "failpos": 4,
+          "rank": 4,
+          "G_T1": 0.905583,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sulaiman Toure<|im_end|>",
+          "failpos": 3,
+          "rank": 1,
+          "G_T1": 0.925883,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tunji Dylan Odunlana<|im_end|>",
+          "failpos": 3,
+          "rank": 68,
+          "G_T1": 0.907613,
+          "top_p": 0.9
+        },
+        {
+          "text": "Takura Uche<|im_end|>",
+          "failpos": 3,
+          "rank": 73,
+          "G_T1": 0.896426,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tobi Lawen<|im_end|>",
+          "failpos": 3,
+          "rank": 3,
+          "G_T1": 0.939048,
+          "top_p": 0.9
+        },
+        {
+          "text": "Uche Chevron<|im_end|>",
+          "failpos": 2,
+          "rank": 3,
+          "G_T1": 0.904933,
+          "top_p": 0.9
+        },
+        {
+          "text": "Chima Magalu<|im_end|>",
+          "failpos": 1,
+          "rank": 12,
+          "G_T1": 0.892913,
+          "top_p": 0.9
+        },
+        {
+          "text": "Emmanuel Aligpọkwa Nwankwo<|im_end|>",
+          "failpos": 7,
+          "rank": 2,
+          "G_T1": 0.914603,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 177,
+      "unreachable": 1,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Shomacchā Debarkar<|im_end|>",
+          "failpos": 2,
+          "rank": 26,
+          "G_T1": 0.901029,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 350,
+      "unreachable": 7,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Rudra Buragohain<|im_end|>",
+          "failpos": 3,
+          "rank": 10,
+          "G_T1": 0.903083,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sudamanta Kumar Mridha<|im_end|>",
+          "failpos": 3,
+          "rank": 10,
+          "G_T1": 0.898144,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sudamanta Kumar Sarma<|im_end|>",
+          "failpos": 3,
+          "rank": 10,
+          "G_T1": 0.899349,
+          "top_p": 0.9
+        },
+        {
+          "text": "Paramananda Chandra Barua<|im_end|>",
+          "failpos": 2,
+          "rank": 3,
+          "G_T1": 0.920221,
+          "top_p": 0.9
+        },
+        {
+          "text": "Abhay Kumar Chattopadhyay<|im_end|>",
+          "failpos": 1,
+          "rank": 4,
+          "G_T1": 0.902645,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sayajibhongee<|im_end|>",
+          "failpos": 0,
+          "rank": 41,
+          "G_T1": 0.900128,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sidhanta Chowdhury<|im_end|>",
+          "failpos": 0,
+          "rank": 43,
+          "G_T1": 0.904022,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 6,
+      "unreachable": 1,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Phoenix<|im_end|>",
+          "failpos": 0,
+          "rank": 5,
+          "G_T1": 0.885576,
+          "top_p": 0.9
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "commit": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "code": {
+      "tree_sha256": "a30d1655cfec6090",
+      "git_head": "30538725a51c8f2e96a77ff1360e132cfda5c6b8",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "utc": "2026-11-08T21:26:15Z",
+    "cuda_visible_devices": null,
+    "seconds": 48.91917610168457,
+    "peak_gpu_gib": 8.57513427734375,
+    "args": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "data": "data/tailcat/pilot_v2",
+      "out": "results/P3_scale/calibration",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 1,
+      "gap_samples": 50,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cuda",
+      "limit_categories": null
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "p0.90_T0.5": {
+        "temperature": 0.5,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      },
+      "shipped_hf": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repetition_penalty": 1.05
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "commit": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "code": {
+    "tree_sha256": "a30d1655cfec6090",
+    "git_head": "30538725a51c8f2e96a77ff1360e132cfda5c6b8",
+    "git_dirty": false
+  },
+  "transformers": "5.22.2",
+  "torch": "2.15.0+cu132",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "utc": "2026-11-08T21:25:21Z",
+  "cuda_visible_devices": null,
+  "chat": true,
+  "specs": {
+    "untruncated_T1": {},
+    "p0.80_T1": {
+      "top_p": 0.8
+    },
+    "p0.90_T1": {
+      "top_p": 0.9
+    },
+    "p0.95_T1": {
+      "top_p": 0.95
+    },
+    "p0.90_T0.7": {
+      "temperature": 0.7,
+      "top_p": 0.9
+    },
+    "p0.90_T0.5": {
+      "temperature": 0.5,
+      "top_p": 0.9
+    },
+    "k20_T1": {
+      "top_k": 20
+    },
+    "k50_T1": {
+      "top_k": 50
+    },
+    "minp0.05_T1": {
+      "min_p": 0.05
+    },
+    "minp0.10_T1": {
+      "min_p": 0.1
+    },
+    "shipped_hf": {
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "repetition_penalty": 1.1
+    }
+  },
+  "templates": [
+    "Name {singular}. Reply with only the name.",
+    "Give one example of {plural}. Answer with the name only.",
+    "Tell me {singular}. Just the name, nothing else."
+  ],
+  "extra_processor_fields": {},
+  "margin": 0.75,
+  "n_entities": 2312,
+  "n_foils": 1724,
+  "seconds": 110.99070596694946,
+  "peak_gpu_gib": 6.093121528625488,
+  "args": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "data": "data/tailcat/pilot_v2",
+    "out": "results/P3_scale",
+    "chat": "auto",
+    "templates": 3,
+    "limit_per_category": null,
+    "batch_size": 32,
+    "dstar_specs": "shipped_hf,p0.90_T1",
+    "yesno_probe": "apriori",
+    "margin": 0.75,
+    "no_aliases": false,
+    "sample_check": false,
+    "n_samples": 1000,
+    "sample_specs": "shipped_hf,p0.90_T1",
+    "device": "cuda",
+    "seed": 0
+  }
+}

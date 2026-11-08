@@ -1,0 +1,40 @@
+{
+  "inputs_sha256": {
+    "Qwen2.5-3B-Instruct/reach.jsonl.gz": "92b52543836a60fa1636df047cc6bcbf0a1bb7d31af7f3608ab7f90b0c4ea0f2",
+    "Qwen2.5-3B-Instruct/recog.jsonl.gz": "f05d161ce66efe18ffd3d62d83e40a5904aba225b2a324e5332bd38f1a0e3c97",
+    "Qwen2.5-3B-Instruct/meta.json": "b9b953967565620834474449084d418a782a480f29e87e1b18961ea553e9d85d",
+    "Qwen2.5-3B-Instruct/sample_check.json": null,
+    "calibration/Qwen2.5-3B-Instruct/selfcheck.json": "141f5fd009f75cad1b2a22d18042f6ca88fee8223cdde0e1a405e11f3177bd3d",
+    "data:categories.json": "d3a10f2c393b9b1f455a28545924ee32b43c657af45950efc80eb706781ae7f1",
+    "data:entities.jsonl": "7cc454ad2d44a5dc1ed29a40ef9b891054d5ce3bb29dfd0318c037e0277ec122",
+    "data:foils.jsonl": "f58796b2a958d7dc8a562170ce1ced84d949df3e9fa9db70ca4201164eb2cce8",
+    "data:valid_names.json": "3ca540e23d848427a41d7822010df92d67f05ecae6973c441f4b350d8a26fb58",
+    "data:build_report.json": "0652a8d507b13e151f2aab89bde6b87787e6016aa6eb998641c93eeb7d62b141"
+  },
+  "code": {
+    "tree_sha256": "a30d1655cfec6090",
+    "git_head": "30538725a51c8f2e96a77ff1360e132cfda5c6b8",
+    "git_dirty": false
+  },
+  "utc": "2026-11-08T21:28:28Z",
+  "args": {
+    "results": "results/P3_scale",
+    "data": "data/tailcat/pilot_v2",
+    "instruct": "Qwen2.5-3B-Instruct",
+    "base": null,
+    "metrics_dir": "metrics/Qwen2.5-3B-Instruct"
+  },
+  "tables": [
+    "calibration_Qwen2.5-3B-Instruct.json",
+    "entities_Qwen2.5-3B-Instruct.csv",
+    "failpos_Qwen2.5-3B-Instruct.csv",
+    "headline.json",
+    "length_Qwen2.5-3B-Instruct.csv",
+    "popularity_Qwen2.5-3B-Instruct.csv",
+    "rbu_Qwen2.5-3B-Instruct.csv",
+    "rbu_by_category_Qwen2.5-3B-Instruct.csv",
+    "rbu_curves_Qwen2.5-3B-Instruct.csv",
+    "reachable_set_Qwen2.5-3B-Instruct.csv",
+    "validity_Qwen2.5-3B-Instruct.csv"
+  ]
+}
