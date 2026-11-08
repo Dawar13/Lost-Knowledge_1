@@ -184,6 +184,19 @@ def p3():
             put(f"ptSamples{tg}", r["sample_check_samples"], src, "int")
             put(f"ptViolations{tg}", r["violations"], src, "int")
             put(f"ptBoundary{tg}", r["boundary_hits"], src, "int")
+    # non-canonical token paths at scale: distinct entities ever produced only through another tokenisation
+    import gzip
+    from collections import defaultdict
+
+    nc, nsamp = defaultdict(set), defaultdict(int)
+    with gzip.open(R / "P3/Qwen2.5-7B-Instruct/samples.jsonl.gz", "rt", encoding="utf-8") as f:
+        for line in f:
+            s = json.loads(line)
+            if s["id_hit_qid"] is None and s["text_match_qid"]:
+                nc[s["spec"]].add((s["category"], s["text_match_qid"]))
+                nsamp[s["spec"]] += 1
+    put("ptNoncanonEntShipped", len(nc["shipped_hf"]), "P3 samples.jsonl.gz", "int")
+    put("ptNoncanonEntPnine", len(nc["p0.90_T1"]), "P3 samples.jsonl.gz", "int")
     put("ptCategories", val["Qwen2.5-7B-Instruct"]["n_categories"], src, "int")
     put("ptMembers", val["Qwen2.5-7B-Instruct"]["n_members"], src, "int")
     for r in _csv(R / "P3/g2/popularity_gee.csv"):

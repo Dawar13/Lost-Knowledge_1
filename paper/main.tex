@@ -128,7 +128,7 @@ The full frontier is the more useful result (Appendix~\ref{app:frontier}). Remov
 
 \paragraph{Recognition.} Our recognition test is a proxy. Its yes/no part separates members from near-miss foils with AUROC around 0.8, below the 0.85 we set in advance; chat models answer ``Yes'' readily to plausible foils. The four-way choice and the per-category foil threshold limit false positives, and the main results hold on the categories that pass on their own and under a second probe wording, but RBU is defined relative to this test.
 
-\paragraph{Tokenisation.} We test the tokenisation the model itself produces in context. A name can sometimes be produced through other token paths; in all sample checks no member was produced through a path we had scored unreachable.
+\paragraph{Tokenisation.} We test the tokenisation the model itself produces in context. A name can sometimes be produced through another token path. In the full-TailCat sample check of Qwen2.5-7B-Instruct, only \ptNoncanonEntShipped{} distinct entities (shipped sampler) and \ptNoncanonEntPnine{} (top-$p$ 0.9) were ever produced solely through a non-canonical path, so canonical scoring overstates RBU by a negligible amount.
 
 \paragraph{Numerics.} Exact zero depends on how logits are computed. Our robust verdict holds for any computation within a calibrated margin of ours; implementations further away (other GPUs, quantisation) need their own calibration.
 
