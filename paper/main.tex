@@ -1,0 +1,99 @@
+% MB5: Unreachable Knowledge. ACL 2027 (ARR, 4 January 2027). Draft.
+% Every number is a macro from numbers.tex, generated from results/ by `python -m mb5.paper_numbers`.
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\input{numbers}
+
+\title{Known but Unsayable: Decoding Defaults, Not Forgetting,\\ Hide What Language Models Know}
+
+\author{Anonymous ACL submission}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Language models are said to collapse onto common answers and lose the long tail of knowledge. We separate three cases: knowledge a model lacks, knowledge it holds but rarely says, and knowledge it holds but cannot say at all because the sampler gives it probability exactly zero. Top-p, top-k and min-p sampling delete low-ranked tokens before sampling, so a name loses all its probability if any one of its tokens is deleted. We give an exact, sampling-free test of this, one forward pass per answer, with a numeric margin that makes the verdict robust to floating-point differences between implementations. On \gzEntities{} long-tail entities, \gzQwenInstPnine{} of the entities that Qwen2.5-7B-Instruct verifies (yes/no and four-way choice against near-miss foils) can never be produced under top-p 0.9, and \gzQwenInstShipped{} under its shipped sampler, against \gzQwenBasePnine{} for its base model. Across the four post-training stages of OLMo-2 the share rises from \goRbuOlmoBase{} to \goRbuOlmoInst{}, most of it at supervised fine-tuning, and the cut moves to the first token of the name. Any estimate of model knowledge built from samples therefore measures the sampler, and we compute the gap exactly. \missing{P3, P4 and P5 sentences}
+\end{abstract}
+
+\section{Introduction}
+
+Ask a chat model to name a poet who wrote in Tamil and it will usually say Thiruvalluvar. Ask it whether \emph{Kumaragurupara Desikar} was a Tamil poet and it will usually say yes. Both behaviours are expected. The question this paper asks is different: can the model say \emph{Kumaragurupara Desikar} at all when asked for a Tamil poet, however many times we ask?
+
+Under the sampler the model ships with, often it cannot. Nucleus (top-p), top-k and min-p sampling keep only the most likely tokens at each step and delete the rest before sampling. If one token of a name falls outside the kept set at any step, the probability of the whole name is exactly zero. No number of samples, retries or self-consistency votes can produce it.
+
+This matters for the current debate on homogenisation and knowledge collapse. When a model never produces a rare fact, three different things can be true: the model does not store it; it stores it but gives it a small probability, so enough samples will find it; or it stores it and the sampler deletes it. The third case looks exactly like the first from samples, but it is a property of a decoding setting, not of the model's knowledge.
+
+We make the third case measurable. Our contributions:
+\begin{enumerate}
+\item \textbf{An exact reachability test.} One teacher-forced forward pass per answer tells, for any sampler that truncates (and for the full shipped processor chain), whether an answer has positive probability. We add a numeric margin so the verdict does not depend on floating-point differences between two computations of the same logits, and validate it against real samples from two model families with zero contradictions (Section~\ref{sec:method}).
+\item \textbf{A measurement of recognised-but-unreachable knowledge (RBU).} Among entities a model recognises, \gzQwenInstShipped{} of those tested are unreachable under Qwen2.5-7B-Instruct's shipped sampler (Section~\ref{sec:howmuch}).
+\item \textbf{A mechanism.} Post-training concentrates probability on a few first tokens; truncation then deletes the tail at the first token. RBU rises across OLMo-2's post-training stages and tracks first-token concentration (Section~\ref{sec:where}).
+\item \textbf{A correction for knowledge estimates from samples.} Unseen-species estimators applied to model samples converge to the reachable set, not to what the model recognises (Section~\ref{sec:measure}).
+\item \textbf{Who loses and a fix.} \missing{P3 and P5 summary} (Sections~\ref{sec:who} and~\ref{sec:fix}).
+\end{enumerate}
+
+\section{Exact reachability}\label{sec:method}
+
+\paragraph{Samplers.} At each decoding step a sampler applies, in the order used by Hugging Face \texttt{transformers}: repetition penalty, temperature $T$, top-$k$, top-$p$ and min-$p$. Each step sets some logits to $-\infty$; sampling draws from the softmax of the rest. A token is \emph{kept} if its processed logit is finite.
+
+\paragraph{Keep rules.} For a target token $t$ with logit $z_t$: top-$k$ keeps $t$ iff fewer than $k$ tokens have a larger logit; top-$p$ keeps $t$ iff $G(t)<p$, where $G(t)$ is the probability, at temperature $T$, of the tokens strictly more likely than $t$; min-$p$ keeps $t$ iff its probability is at least $\textit{min-p}$ times the top token's. We prove these rules equal the library's processors in unit tests on random logits.
+
+\paragraph{Reachability of an answer.} Write an entity $e$ after prompt $x$ as tokens $t_1\ldots t_L$ (the tokenisation the model itself produces in context). $e$ is reachable under sampler $S$ iff every $t_j$ is kept given $x$ and $t_{<j}$. One teacher-forced pass gives every $t_j$'s logits, so reachability is exact and needs no sampling. It also yields critical values: $p^*(e)=\max_j G_j(e)$ ($e$ is reachable under top-$p$ iff $p>p^*$), $k^*(e)$ and the critical min-$p$. For combined samplers (the shipped settings) we run the library's own processor chain at every position. An entity is reachable if any of its surface forms (label or up to three aliases) is.
+
+\paragraph{A numeric margin.} The same logits computed two ways (a batched teacher-forced pass, and key-value-cached generation) differ slightly in bfloat16, and bfloat16 logits often tie. A token on a truncation boundary can therefore be kept by one computation and cut by the other. We call $e$ \emph{robustly unreachable} if some token stays cut even after its logit is raised by $\epsilon$ relative to every other token. Every processor above is monotone in this shift, and the shift breaks all ties. $\epsilon$ is calibrated per model before each experiment: we sample about two thousand answers from the model, compute for each the logit shift at which its verdict would flip, and take the smallest value on a fixed grid that covers every sampled answer (Appendix~\ref{app:margin}). For Qwen2.5-7B-Instruct, $\epsilon=\gzEps$; the largest relative logit gap among the tokens that decide a verdict was \gzGapMax{} logits. Headline numbers use the robust verdict, a lower bound; exact and upper-bound values are reported beside them (Appendix~ef{app:margin}).
+
+\paragraph{Validation.} We draw 1{,}000 real samples per category from \texttt{generate()} under each claimed sampler and check that no answer we call robustly unreachable is ever produced. Across \gzSamples{} samples for Qwen2.5-7B-Instruct and \goSamples{} for the OLMo-2 post-trained stages there were \gzViolations{} and \goViolations{} violations. On CPU in float32 the two computations agree exactly and every sampled answer is scored reachable.
+
+\section{TailCat and recognition}\label{sec:data}
+
+\paragraph{Categories.} TailCat pairs categories of long-tail entities with near-miss foils from sibling categories, built from Wikidata: for example poets who wrote in Tamil (foils: Telugu and Kannada poets) or rivers in Kerala (foils: rivers in Karnataka and Tamil Nadu). Members are stratified over popularity (Wikipedia sitelinks) and must have articles in at least two languages, which removes single-wiki bot imports whose transliterated labels no reader could know. The pilot has 11 categories (\gzEntities{} entities) including a head control, US state capitals. \missing{full TailCat description}
+
+\paragraph{Recognition.} An entity counts as recognised if the model (i) answers ``Yes'' to `Is ``$e$'' \emph{category}?' with a score $V(e)=P(\text{Yes})/(P(\text{Yes})+P(\text{No}))$ at or above the 95th percentile of the category's foils, so at most 5\% of foils pass, and (ii) picks $e$ out of three foils in a four-way choice. RBU is the share of recognised entities that are unreachable. The yes/no probe separates members from foils with AUROC \gzQwenInstAuroc{} for Qwen2.5-7B-Instruct, below the 0.85 we set in advance; the main results hold on the categories where it exceeds 0.85 on its own, and under a second probe wording (Appendix~\ref{app:recognition}).
+
+\section{How much recognised knowledge is unreachable?}\label{sec:howmuch}
+
+\missing{Section 4 text with Table 1 and Figure 1 once P3 lands}
+
+\section{Where it comes from}\label{sec:where}
+
+\missing{Section 5}
+
+\section{What it does to measurement}\label{sec:measure}
+
+\missing{Section 6}
+
+\section{Who loses}\label{sec:who}
+
+\missing{Section 7}
+
+\section{A targeted fix}\label{sec:fix}
+
+\missing{Section 8}
+
+\section{Related work}
+
+\missing{verified citations from docs/05b}
+
+\section*{Limitations}
+
+\missing{limitations}
+
+\bibliography{references}
+
+\appendix
+\section{Numeric margin}\label{app:margin}
+\missing{appendix margin}
+\section{Recognition validity}\label{app:recognition}
+\missing{appendix recognition}
+
+\end{document}
