@@ -72,7 +72,8 @@ def chain_kept(chain, rows: torch.Tensor, targets: torch.Tensor, prefixes: list[
     the sort orders tied tokens."""
     if len(chain) == 0:
         return torch.ones(len(targets), dtype=torch.bool, device=rows.device)
-    ids = _left_pad_prefixes(prefixes, rows.device)
+    # prefixes may be passed already padded (a tensor) to avoid rebuilding it on every call
+    ids = prefixes if torch.is_tensor(prefixes) else _left_pad_prefixes(prefixes, rows.device)
     x = rows.clone()
     if torch.is_tensor(shift) or shift:  # scalar, or one shift per row
         x[torch.arange(len(targets), device=x.device), targets] += shift
@@ -95,6 +96,8 @@ def signed_margin(chain, rows: torch.Tensor, targets: torch.Tensor, prefixes: li
     dev = rows.device
     if len(chain) == 0:
         return torch.full((R,), DSTAR_BOUND, device=dev)
+    if not torch.is_tensor(prefixes):
+        prefixes = _left_pad_prefixes(prefixes, dev)
     B = DSTAR_BOUND
     k_top = chain_kept(chain, rows, targets, prefixes, shift=torch.full((R,), B, device=dev))
     k_bot = chain_kept(chain, rows, targets, prefixes, shift=torch.full((R,), -B, device=dev))
@@ -142,7 +145,7 @@ def score_items(
     keep_positions: bool = True,
     progress: bool = True,
     margin: float = 0.0,
-    dstar: bool = True,
+    dstar: bool | list[str] | tuple = True,
 ) -> list[dict]:
     """items: dicts with 'prompt_ids', 'answer_ids' (+ any metadata, copied through).
 
@@ -157,11 +160,14 @@ def score_items(
       neither            boundary: the verdict depends on numerics
     With margin 0 both equal the exact verdict.
 
-    dstar=True also records dstar__S, the answer's signed logit margin (minimum
-    over positions of signed_margin) and dstar_pos__S, so RBU can be computed
-    at any margin afterwards: robustly unreachable at eps iff dstar < -eps.
+    dstar=True (or a list of spec names) also records dstar__S, the answer's
+    signed logit margin (minimum over positions of signed_margin) and
+    dstar_pos__S, so RBU can be computed at any margin afterwards: robustly
+    unreachable at eps iff dstar < -eps. The bisection costs about 12 chain
+    evaluations per spec, so restrict it to the specs whose curve is reported.
     """
     chains = {name: build_chain(spec) for name, spec in specs.items()}
+    dspecs = set(chains) if dstar is True else set(dstar or ())
     # Sort by length to reduce padding; restore order at the end.
     order = sorted(range(len(items)), key=lambda i: len(items[i]["prompt_ids"]) + len(items[i]["answer_ids"]))
     results: list[dict | None] = [None] * len(items)
@@ -186,7 +192,7 @@ def score_items(
         dmarg: dict[str, list] = {n: [] for n in chains}
         for c0 in range(0, rows.shape[0], row_chunk):
             sl = slice(c0, c0 + row_chunk)
-            pre = prefixes[c0 : c0 + row_chunk]
+            pre = _left_pad_prefixes(prefixes[c0 : c0 + row_chunk], rows.device)  # built once per chunk
             st = row_stats(rows[sl], targets_t[sl])
             for key, v in st.items():
                 stats.setdefault(key, []).append(v.cpu())
@@ -199,9 +205,9 @@ def score_items(
                 else:
                     kept_hi[n].append(k0)
                     kept_lo[n].append(k0)
-                if dstar:
+                if n in dspecs:
                     dmarg[n].append(signed_margin(ch, rows[sl], targets_t[sl], pre).cpu())
-        dmarg = {n: torch.cat(v).tolist() for n, v in dmarg.items()} if dstar else {}
+        dmarg = {n: torch.cat(v).tolist() for n, v in dmarg.items() if v}
         stats = {k: torch.cat(v).tolist() for k, v in stats.items()}
         kept = {n: torch.cat(v).tolist() for n, v in kept.items()}
         kept_hi = {n: torch.cat(v).tolist() for n, v in kept_hi.items()}
@@ -221,7 +227,7 @@ def score_items(
                 d[f"kept__{n}"].append(bool(kept[n][r]))
                 d[f"kepthi__{n}"].append(bool(kept_hi[n][r]))
                 d[f"keptlo__{n}"].append(bool(kept_lo[n][r]))
-                if dstar:
+                if n in dspecs:
                     d[f"d__{n}"].append(dmarg[n][r])
         for k, i in enumerate(idx):
             d = per[k]
@@ -243,7 +249,7 @@ def score_items(
                 rec[f"robust_unreach__{n}"] = not all(hi)
                 rec[f"robust_reach__{n}"] = all(d[f"keptlo__{n}"])
                 rec[f"failpos_robust__{n}"] = next((j for j, v in enumerate(hi) if not v), -1)
-                if dstar:
+                if n in dspecs:
                     dm = d[f"d__{n}"]
                     jm = int(min(range(len(dm)), key=dm.__getitem__))
                     rec[f"dstar__{n}"] = round(float(dm[jm]), 4)

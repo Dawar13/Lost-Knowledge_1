@@ -37,6 +37,8 @@ def main():
     ap.add_argument("--templates", type=int, default=3)
     ap.add_argument("--limit-per-category", type=int, default=None)
     ap.add_argument("--batch-size", type=int, default=32)
+    ap.add_argument("--dstar-specs", default="shipped_hf,p0.90_T1",
+                    help="specs whose signed-margin curve (d*) is recorded; each costs ~12 chain evaluations")
     ap.add_argument("--margin", type=float, default=0.0,
                     help="raw-logit margin for the robust verdicts (calibrate with mb5.selfcheck; see docs/04)")
     ap.add_argument("--no-aliases", action="store_true")
@@ -100,7 +102,7 @@ def main():
                               "prompt_ids": p_ids, "answer_ids": a_ids})
     print(f"[reach] {len(items)} items ({len(ents)} entities x forms x {len(templates)} templates)")
     reach = score_items(model, items, specs, device=args.device, batch_size=args.batch_size, pad_id=pad_id,
-                        margin=args.margin)
+                        margin=args.margin, dstar=[s for s in args.dstar_specs.split(",") if s])
     write_jsonl(out / "reach.jsonl.gz", reach)
 
     # ---------------- recognition (members and foils)
