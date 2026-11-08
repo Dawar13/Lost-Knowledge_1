@@ -28,8 +28,33 @@ if [ "${SMOKE:-0}" = "1" ]; then
   exit 0
 fi
 
-python -m mb5.run_model --model Qwen/Qwen2.5-7B-Instruct --data "$DATA" --out "$OUT" \
-  --templates 3 --sample-check --n-samples 1000
-python -m mb5.run_model --model Qwen/Qwen2.5-7B --data "$DATA" --out "$OUT" --templates 3
+INST=Qwen/Qwen2.5-7B-Instruct
+BASE=Qwen/Qwen2.5-7B
+
+# Numeric margin (docs/04 section 2, rule pre-registered in notes/decisions.md):
+# dense self-check on each G0 model with seed 1 (the gate's own sample check uses
+# seed 0, so V1 validates epsilon out of sample); epsilon = the larger of the two
+# rule values. Set EPS to skip calibration (only to reproduce a logged run).
+if [ -z "${EPS:-}" ]; then
+  echo "== calibrating the numeric margin (seed 1)"
+  python -m mb5.selfcheck --model "$INST" --data "$DATA" --out "$OUT/calibration" --seed 1 \
+    --n-samples 500 --gap-samples 50 --specs shipped_hf,p0.90_T1
+  python -m mb5.selfcheck --model "$BASE" --data "$DATA" --out "$OUT/calibration" --seed 1 \
+    --n-samples 500 --gap-samples 50 --specs p0.90_T1
+  EPS=$(python - "$OUT/calibration" <<'PY'
+import json, sys
+from pathlib import Path
+vals = [json.loads(p.read_text())["epsilon_rule"] for p in sorted(Path(sys.argv[1]).glob("*/selfcheck.json"))]
+if len(vals) != 2 or any(v is None for v in vals):
+    sys.exit(f"epsilon calibration failed or exceeded the grid: {vals}")
+print(max(vals))
+PY
+)
+fi
+echo "== numeric margin epsilon = $EPS raw logits"
+
+python -m mb5.run_model --model "$INST" --data "$DATA" --out "$OUT" \
+  --templates 3 --sample-check --n-samples 1000 --margin "$EPS"
+python -m mb5.run_model --model "$BASE" --data "$DATA" --out "$OUT" --templates 3 --margin "$EPS"
 python -m mb5.analysis --results "$OUT" --gate G0 --instruct Qwen2.5-7B-Instruct --base Qwen2.5-7B
 echo "== decision written to results/gates/G0.md"

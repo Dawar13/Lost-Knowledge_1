@@ -80,6 +80,29 @@ def form_reachable(r, s, mode):
     return bool(r.get(f"robust_reach__{s}", exact))
 
 
+SENS_EPS = (0.0, 0.25, 0.5, 1.0, 2.0, 4.0)
+
+
+def rbu_sensitivity(reach, rec, spec, templates, eps_list=SENS_EPS):
+    """RBU-mean as a function of the margin, from the stored signed margins d*:
+    a form is unreachable at eps iff d* < -eps; an entity iff all its forms are.
+    Returns None if the run did not record d* for this spec."""
+    if not any(f"dstar__{spec}" in r for r in reach):
+        return None
+    dmax = defaultdict(lambda: -1e9)  # (entity, template) -> max over forms of d*
+    for r in reach:
+        key = (r["qid"] + "|" + r["category"], r["template"])
+        dmax[key] = max(dmax[key], r[f"dstar__{spec}"])
+    out = {}
+    for eps in eps_list:
+        tab = defaultdict(dict)
+        for (ek, t), d in dmax.items():
+            tab[(ek, t)][spec] = not (d < -eps)
+        per = rbu_by_category(tab, rec, spec, templates)
+        out[str(eps)] = pooled(per, list(per), 1)
+    return out
+
+
 def entity_table(reach, specs, mode="robust"):
     """(entity, template) -> spec -> reachable via any surface form; plus failure info for the label."""
     tab = defaultdict(lambda: defaultdict(bool))
@@ -153,6 +176,7 @@ def summarise_model(mdir: Path):
             "per_category": {c: {"n_rec": per[c][0], "rbu_mean": per[c][1] / per[c][0] if per[c][0] else None}
                              for c in cats},
         }
+        out["specs"][s]["rbu_mean_by_margin"] = rbu_sensitivity(reach, rec, s, templates)
         for m in ("exact", "upper"):
             pm = rbu_by_category(tabs[m][0], rec, s, templates)
             cm = list(pm)
@@ -293,6 +317,13 @@ def main():
         if base:
             row += f" {fmt(base['specs'].get(s, {}).get('rbu_mean'))} |"
         lines.append(row)
+    sens = {s: d["rbu_mean_by_margin"] for s, d in inst["specs"].items() if d.get("rbu_mean_by_margin")}
+    if sens:
+        lines += ["", "## Sensitivity of RBU to the margin (RBU mean; margin in raw logits)", "",
+                  "| sampler | " + " | ".join(f"eps {e}" for e in SENS_EPS) + " |",
+                  "|---|" + "---|" * len(SENS_EPS)]
+        for s, d in sens.items():
+            lines.append(f"| {s} | " + " | ".join(fmt(d[str(e)]) for e in SENS_EPS) + " |")
     lines += ["", "## Notes", ""] + [f"- {n}" for n in dec["notes"]]
     if paired:
         lines.append(f"- paired test at p0.90_T1: {paired}")

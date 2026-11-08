@@ -38,6 +38,7 @@ def _eos_ids(model) -> set[int]:
 
 
 GAP_KEYS = ("rel_all", "rel_near", "dG_T1.0", "dG_T0.7", "drank")
+EPS_GRID = (0.25, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0)
 
 
 @torch.no_grad()
@@ -55,7 +56,7 @@ def logit_gap(model, p_ids: list[int], n: int, max_new: int, pad_id: int, eos: s
     from .reachability import row_stats
 
     torch.manual_seed(seed)
-    base = torch.tensor([p_ids], dtype=torch.long, device="cuda")
+    base = torch.tensor([p_ids], dtype=torch.long, device=model.device)
     gaps: dict[str, list[float]] = {k: [] for k in GAP_KEYS}
     done = 0
     while done < n:
@@ -74,7 +75,7 @@ def logit_gap(model, p_ids: list[int], n: int, max_new: int, pad_id: int, eos: s
                 batch.append((p_ids, s))
                 gen_rows.append(raw[b, : len(s)])
         step = tf_batch or len(batch)  # tf_batch=1: unpadded teacher forcing, to isolate padding effects
-        tf = torch.cat([_forward_rows(model, batch[i: i + step], "cuda", pad_id)
+        tf = torch.cat([_forward_rows(model, batch[i: i + step], model.device, pad_id)
                         for i in range(0, len(batch), step)], 0)
         gen = torch.cat(gen_rows, 0)
         tgt = torch.tensor([t for _, s in batch for t in s], device=tf.device)
@@ -109,18 +110,21 @@ def main():
     ap.add_argument("--gap-only", action="store_true")
     ap.add_argument("--gap-tf-batch", type=int, default=None,
                     help="teacher-forcing batch size in the gap measurement (1 = no padding)")
-    ap.add_argument("--margins", default="0.25,0.5,0.75,1.0",
-                    help="candidate raw-logit margins; each re-scores every sampled sequence")
+    ap.add_argument("--margins", default="0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+                    help="margins at which to report how many sampled sequences would be called unreachable")
+    ap.add_argument("--device", default="cuda", help="cpu only for testing the code path")
+    ap.add_argument("--limit-categories", type=int, default=None, help="testing only")
     args = ap.parse_args()
 
     seed_all(args.seed)
-    require_gpu_memory(estimate_need_gib(args.model, args.batch_size))
+    if args.device == "cuda":
+        require_gpu_memory(estimate_need_gib(args.model, args.batch_size))
     t0 = time.time()
     chat = is_chat_model(args.model)
-    model, tok = load_model(args.model)
+    model, tok = load_model(args.model, device=args.device)
     specs = dict(GRID) | (shipped_specs(model.generation_config) if chat else {})
     eos = _eos_ids(model)
-    cats = json.loads((Path(args.data) / "categories.json").read_text())
+    cats = json.loads((Path(args.data) / "categories.json").read_text())[: args.limit_categories]
     shots = "" if chat else BASE_GEN_SHOTS
 
     gap_stats = None
@@ -144,26 +148,28 @@ def main():
                   ", ".join(f"{q} {v:.4f}" for q, v in gap_stats[k].items() if q != "n_positions"), flush=True)
 
     margins = [float(m) for m in args.margins.split(",")]
+    required: dict[str, float] = {}
     rows, total = [], {"distinct": 0, "unreachable": 0, **{f"robust_unreachable@{m}": 0 for m in margins}}
     for spec_name in ([] if args.gap_only else [s for s in args.specs.split(",") if s in specs]):
         for c in cats:
             prompt = render(tok, GEN_TEMPLATES[0].format(singular=c["singular"], plural=c["plural"]), chat, shots)
             p_ids = encode_prompt(tok, prompt, chat)
             spec = None if spec_name == "shipped_hf" else specs[spec_name]
-            samples = generate_samples(model, p_ids, args.n_samples, args.max_new_tokens, "cuda",
+            samples = generate_samples(model, p_ids, args.n_samples, args.max_new_tokens, args.device,
                                        tok.pad_token_id, spec, seed=args.seed)
             seqs = set()
             for s in samples:
                 cut = next((i for i, t in enumerate(s) if t in eos), None)
                 seqs.add(tuple(s if cut is None else s[: cut + 1]))  # keep the sampled EOS: it was kept too
             items = [{"prompt_ids": p_ids, "answer_ids": list(q)} for q in sorted(seqs) if q]
-            robust = {}
-            for m in margins:  # every sampled sequence must NOT be robustly unreachable
-                rm = score_items(model, items, {spec_name: specs[spec_name]}, batch_size=args.batch_size,
-                                 pad_id=tok.pad_token_id, progress=False, margin=m)
-                robust[m] = sum(r[f"robust_unreach__{spec_name}"] for r in rm)
+            recs = score_items(model, items, {spec_name: specs[spec_name]}, device=args.device, batch_size=args.batch_size,
+                               pad_id=tok.pad_token_id, progress=False, dstar=True)
+            # Every sequence here was sampled, so at a valid margin eps none may have d* < -eps.
+            need = [max(0.0, -r[f"dstar__{spec_name}"]) for r in recs]
+            required[spec_name] = max([required.get(spec_name, 0.0)] + need)
+            robust = {m: sum(x > m for x in need) for m in margins}
+            for m in margins:
                 total[f"robust_unreachable@{m}"] += robust[m]
-                recs = rm
             bad = [r for r in recs if not r[f"reach__{spec_name}"]]
             p = specs[spec_name].get("top_p")
             examples = []
@@ -179,12 +185,22 @@ def main():
             print(f"[selfcheck] {spec_name:12s} {c['id']:26s} distinct {len(items):4d} exact-unreachable {len(bad):3d} "
                   "robust " + " ".join(f"@{m}:{v}" for m, v in robust.items()), flush=True)
 
+    # Pre-registered rule (notes/decisions.md): epsilon = smallest grid value at least the
+    # largest margin any sampled sequence needed, plus the bisection resolution.
+    eps = None
+    if required:
+        need_max = max(required.values()) + 0.02
+        eps = next((g for g in EPS_GRID if g >= need_max), None)
+        print(f"[selfcheck] largest margin needed by a sampled sequence: " +
+              ", ".join(f"{s} {v:.3f}" for s, v in required.items()) + f" -> epsilon rule gives {eps}", flush=True)
     secs = time.time() - t0
     out = Path(args.out) / model_tag(args.model)
-    write_json(out / "selfcheck.json", {"total": total, "logit_gap": gap_stats, "rows": rows,
+    write_json(out / "selfcheck.json", {"total": total, "required_margin": required, "epsilon_rule": eps,
+                                        "epsilon_grid": list(EPS_GRID), "logit_gap": gap_stats, "rows": rows,
                                         "meta": run_meta(model, args.model) | {"seconds": secs, "args": vars(args),
                                                                                "specs": specs}})
-    append_gpu_ledger("selfcheck", args.model, secs, note=str(args.out))
+    if args.device == "cuda":
+        append_gpu_ledger("selfcheck", args.model, secs, note=str(args.out))
     print(f"[selfcheck] TOTAL distinct {total['distinct']} exact-unreachable {total['unreachable']} robust " +
           " ".join(f"@{m}:{total[f'robust_unreachable@{m}']}" for m in margins) +
           f" in {secs / 60:.1f} min (a margin passes when its robust count is 0)", flush=True)
