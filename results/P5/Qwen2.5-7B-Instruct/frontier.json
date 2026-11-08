@@ -1,0 +1,319 @@
+{
+  "g3": {
+    "recovered": 0.12277992277992283,
+    "invented_delta": -0.008454545454545492,
+    "passes": false,
+    "reference": "shipped_hf",
+    "note": "invented-name rate is automatic; the 200-answer hand audit is pending"
+  },
+  "rows": [
+    {
+      "spec": "untruncated_T1",
+      "definition": "{}",
+      "rbu_robust": 0.0,
+      "rbu_exact": 0.0,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 75,
+      "distinct_valid_answers": 96,
+      "member_rate": 0.3152915491676521,
+      "valid_rate": 0.42936414081688346,
+      "foil_rate": 0.0032748112435186027,
+      "invented_rate": 0.567361047939598,
+      "empty_rate": 0.0006363636363636364,
+      "recovered_vs_reference": 1.0,
+      "invented_delta_vs_reference": 0.04317922975777977
+    },
+    {
+      "spec": "p0.80_T1",
+      "definition": "{\"top_p\": 0.8}",
+      "rbu_robust": 0.9770992366412213,
+      "rbu_exact": 0.9847328244274809,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 30,
+      "distinct_valid_answers": 40,
+      "member_rate": 0.3293935812346577,
+      "valid_rate": 0.45476861532866625,
+      "foil_rate": 0.0030911901081916537,
+      "invented_rate": 0.5421401945631421,
+      "empty_rate": 9.09090909090909e-05,
+      "recovered_vs_reference": 0.011583011583011659,
+      "invented_delta_vs_reference": 0.017958376381323915
+    },
+    {
+      "spec": "p0.90_T1",
+      "definition": "{\"top_p\": 0.9}",
+      "rbu_robust": 0.9526717557251908,
+      "rbu_exact": 0.966412213740458,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 42,
+      "distinct_valid_answers": 58,
+      "member_rate": 0.325723121702747,
+      "valid_rate": 0.44851737311260687,
+      "foil_rate": 0.0024558850281971986,
+      "invented_rate": 0.549026741859196,
+      "empty_rate": 0.0005454545454545455,
+      "recovered_vs_reference": 0.036293436293436364,
+      "invented_delta_vs_reference": 0.024844923677377784
+    },
+    {
+      "spec": "p0.95_T1",
+      "definition": "{\"top_p\": 0.95}",
+      "rbu_robust": 0.9106870229007633,
+      "rbu_exact": 0.9297709923664123,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 55,
+      "distinct_valid_answers": 72,
+      "member_rate": 0.3229327754025289,
+      "valid_rate": 0.4441007914127172,
+      "foil_rate": 0.0023651414536523243,
+      "invented_rate": 0.5535340671336305,
+      "empty_rate": 0.0006363636363636364,
+      "recovered_vs_reference": 0.07876447876447885,
+      "invented_delta_vs_reference": 0.02935224895181232
+    },
+    {
+      "spec": "p0.99_T1",
+      "definition": "{\"top_p\": 0.99}",
+      "rbu_robust": 0.7396946564885496,
+      "rbu_exact": 0.7725190839694657,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 68,
+      "distinct_valid_answers": 89,
+      "member_rate": 0.31983989811698355,
+      "valid_rate": 0.4357318293459474,
+      "foil_rate": 0.0030019103065587194,
+      "invented_rate": 0.5612662603474938,
+      "empty_rate": 0.0006363636363636364,
+      "recovered_vs_reference": 0.25173745173745177,
+      "invented_delta_vs_reference": 0.037084442165675635
+    },
+    {
+      "spec": "k20_T1",
+      "definition": "{\"top_k\": 20}",
+      "rbu_robust": 0.7961832061068702,
+      "rbu_exact": 0.8442748091603054,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 71,
+      "distinct_valid_answers": 88,
+      "member_rate": 0.3296363636363636,
+      "valid_rate": 0.45290909090909093,
+      "foil_rate": 0.003727272727272727,
+      "invented_rate": 0.5433636363636364,
+      "empty_rate": 0.0,
+      "recovered_vs_reference": 0.19459459459459463,
+      "invented_delta_vs_reference": 0.01918181818181819
+    },
+    {
+      "spec": "k50_T1",
+      "definition": "{\"top_k\": 50}",
+      "rbu_robust": 0.6221374045801527,
+      "rbu_exact": 0.6992366412213741,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 74,
+      "distinct_valid_answers": 94,
+      "member_rate": 0.3230853192650537,
+      "valid_rate": 0.442605057303984,
+      "foil_rate": 0.0041841004184100415,
+      "invented_rate": 0.553210842277606,
+      "empty_rate": 0.0005454545454545455,
+      "recovered_vs_reference": 0.3706563706563707,
+      "invented_delta_vs_reference": 0.02902902409578778
+    },
+    {
+      "spec": "k100_T1",
+      "definition": "{\"top_k\": 100}",
+      "rbu_robust": 0.466412213740458,
+      "rbu_exact": 0.5793893129770993,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 75,
+      "distinct_valid_answers": 96,
+      "member_rate": 0.32181189739858107,
+      "valid_rate": 0.44005821357103875,
+      "foil_rate": 0.003911224304165909,
+      "invented_rate": 0.5560305621247953,
+      "empty_rate": 0.0005454545454545455,
+      "recovered_vs_reference": 0.5281853281853283,
+      "invented_delta_vs_reference": 0.0318487439429771
+    },
+    {
+      "spec": "minp0.02_T1",
+      "definition": "{\"min_p\": 0.02}",
+      "rbu_robust": 0.9496183206106871,
+      "rbu_exact": 0.966412213740458,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 49,
+      "distinct_valid_answers": 63,
+      "member_rate": 0.3287272727272727,
+      "valid_rate": 0.46054545454545454,
+      "foil_rate": 0.003,
+      "invented_rate": 0.5364545454545454,
+      "empty_rate": 0.0,
+      "recovered_vs_reference": 0.039382239382239365,
+      "invented_delta_vs_reference": 0.012272727272727213
+    },
+    {
+      "spec": "minp0.05_T1",
+      "definition": "{\"min_p\": 0.05}",
+      "rbu_robust": 0.9717557251908397,
+      "rbu_exact": 0.983206106870229,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 31,
+      "distinct_valid_answers": 40,
+      "member_rate": 0.3312727272727273,
+      "valid_rate": 0.4689090909090909,
+      "foil_rate": 0.002909090909090909,
+      "invented_rate": 0.5281818181818182,
+      "empty_rate": 0.0,
+      "recovered_vs_reference": 0.016988416988416973,
+      "invented_delta_vs_reference": 0.0040000000000000036
+    },
+    {
+      "spec": "minp0.10_T1",
+      "definition": "{\"min_p\": 0.1}",
+      "rbu_robust": 0.982442748091603,
+      "rbu_exact": 0.9870229007633587,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 28,
+      "distinct_valid_answers": 35,
+      "member_rate": 0.3331818181818182,
+      "valid_rate": 0.47909090909090907,
+      "foil_rate": 0.003,
+      "invented_rate": 0.5179090909090909,
+      "empty_rate": 0.0,
+      "recovered_vs_reference": 0.006177606177606232,
+      "invented_delta_vs_reference": -0.006272727272727319
+    },
+    {
+      "spec": "eps3e-4_T1",
+      "definition": "{\"epsilon\": 0.0003}",
+      "rbu_robust": 0.7587786259541984,
+      "rbu_exact": 0.8404580152671756,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 74,
+      "distinct_valid_answers": 96,
+      "member_rate": 0.32272148444606147,
+      "valid_rate": 0.4411497180280153,
+      "foil_rate": 0.00372930689466982,
+      "invented_rate": 0.555120975077315,
+      "empty_rate": 0.0005454545454545455,
+      "recovered_vs_reference": 0.2324324324324325,
+      "invented_delta_vs_reference": 0.030939156895496756
+    },
+    {
+      "spec": "reference",
+      "definition": "{\"temperature\": 0.7, \"top_k\": 20, \"top_p\": 0.8, \"repetition_penalty\": 1.05}",
+      "rbu_robust": 0.9885496183206107,
+      "rbu_exact": 0.9923664122137404,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 15,
+      "distinct_valid_answers": 17,
+      "member_rate": 0.32372727272727275,
+      "valid_rate": 0.4720909090909091,
+      "foil_rate": 0.003727272727272727,
+      "invented_rate": 0.5241818181818182,
+      "empty_rate": 0.0,
+      "recovered_vs_reference": 0.0,
+      "invented_delta_vs_reference": 0.0
+    },
+    {
+      "spec": "relax_first",
+      "definition": "{\"temperature\": 0.7, \"top_k\": 20, \"top_p\": 0.8, \"repetition_penalty\": 1.05, \"relax_first\": true}",
+      "rbu_robust": 0.867175572519084,
+      "rbu_exact": 0.8893129770992366,
+      "n_recognised": 1310,
+      "distinct_members_sampled": 41,
+      "distinct_valid_answers": 49,
+      "member_rate": 0.3312727272727273,
+      "valid_rate": 0.4807272727272727,
+      "foil_rate": 0.0035454545454545456,
+      "invented_rate": 0.5157272727272727,
+      "empty_rate": 0.0,
+      "recovered_vs_reference": 0.12277992277992283,
+      "invented_delta_vs_reference": -0.008454545454545492
+    }
+  ],
+  "recognition_validity": {
+    "auroc_yesno": 0.8346236773336331,
+    "mc_accuracy": 0.7673010380622838,
+    "n_members": 2312,
+    "n_foils": 1724,
+    "n_recognised": 1310
+  },
+  "meta": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "code": {
+      "tree_sha256": "a30d1655cfec6090",
+      "git_head": "30538725a51c8f2e96a77ff1360e132cfda5c6b8",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "utc": "2026-11-08T18:06:51Z",
+    "cuda_visible_devices": null,
+    "seconds": 814.9138472080231,
+    "peak_gpu_gib": 17.13119888305664,
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.99_T1": {
+        "top_p": 0.99
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "k100_T1": {
+        "top_k": 100
+      },
+      "minp0.02_T1": {
+        "min_p": 0.02
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      },
+      "eps3e-4_T1": {
+        "epsilon": 0.0003
+      },
+      "reference": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repetition_penalty": 1.05
+      },
+      "relax_first": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repetition_penalty": 1.05,
+        "relax_first": true
+      }
+    },
+    "args": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "data": "data/tailcat/pilot_v2",
+      "recog": "results/G0_5090/Qwen2.5-7B-Instruct/recog.jsonl.gz",
+      "reference": "shipped_hf",
+      "margin": 0.75,
+      "out": "results/P5",
+      "n_samples": 1000,
+      "template": 0,
+      "batch_size": 32,
+      "seed": 0
+    }
+  }
+}
