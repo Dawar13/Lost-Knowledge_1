@@ -1,0 +1,925 @@
+{
+  "n_candidates": 238,
+  "examples": [
+    {
+      "qid": "Q159106",
+      "category": "brazil_universities",
+      "label": "Federal University of Science and Innovation of Minas Gerais",
+      "sitelinks": 104,
+      "chat": [
+        {
+          "piece": "Federal",
+          "G_T1": 0.913554,
+          "rank": 2,
+          "kept_by_G": false
+        },
+        {
+          "piece": " University",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " of",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Science",
+          "G_T1": 0.999839,
+          "rank": 225,
+          "kept_by_G": false
+        },
+        {
+          "piece": " and",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Innovation",
+          "G_T1": 1.0,
+          "rank": 41,
+          "kept_by_G": false
+        },
+        {
+          "piece": " of",
+          "G_T1": 0.997944,
+          "rank": 10,
+          "kept_by_G": false
+        },
+        {
+          "piece": " Min",
+          "G_T1": 0.887492,
+          "rank": 78,
+          "kept_by_G": true
+        },
+        {
+          "piece": "as",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " G",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "erais",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Federal",
+          "G_T1": 0.260997,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": " University",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " of",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Science",
+          "G_T1": 0.994839,
+          "rank": 219,
+          "kept_by_G": false
+        },
+        {
+          "piece": " and",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Innovation",
+          "G_T1": 0.999693,
+          "rank": 224,
+          "kept_by_G": false
+        },
+        {
+          "piece": " of",
+          "G_T1": 0.921742,
+          "rank": 6,
+          "kept_by_G": false
+        },
+        {
+          "piece": " Min",
+          "G_T1": 0.409999,
+          "rank": 5,
+          "kept_by_G": true
+        },
+        {
+          "piece": "as",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " G",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "erais",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q156406",
+      "category": "brazil_universities",
+      "label": "State University of Feira de Santana",
+      "sitelinks": 103,
+      "chat": [
+        {
+          "piece": "State",
+          "G_T1": 0.99327,
+          "rank": 23,
+          "kept_by_G": false
+        },
+        {
+          "piece": " University",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " of",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Fe",
+          "G_T1": 0.999814,
+          "rank": 9,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ira",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " de",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Santana",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " State",
+          "G_T1": 0.777114,
+          "rank": 48,
+          "kept_by_G": true
+        },
+        {
+          "piece": " University",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " of",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Fe",
+          "G_T1": 0.914726,
+          "rank": 6,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ira",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " de",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Santana",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q38849",
+      "category": "japanese_novelists",
+      "label": "Shintarō Ishihara",
+      "sitelinks": 38,
+      "chat": [
+        {
+          "piece": "Sh",
+          "G_T1": 0.98288,
+          "rank": 19,
+          "kept_by_G": false
+        },
+        {
+          "piece": "int",
+          "G_T1": 0.90901,
+          "rank": 14,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ar",
+          "G_T1": 0.994342,
+          "rank": 1,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ish",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ih",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ara",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Sh",
+          "G_T1": 0.664449,
+          "rank": 16,
+          "kept_by_G": true
+        },
+        {
+          "piece": "int",
+          "G_T1": 0.867812,
+          "rank": 15,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ar",
+          "G_T1": 0.962133,
+          "rank": 1,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ish",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ih",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ara",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q1145646",
+      "category": "nepal_mountains",
+      "label": "Himalchuli",
+      "sitelinks": 33,
+      "chat": [
+        {
+          "piece": "H",
+          "G_T1": 0.996682,
+          "rank": 12,
+          "kept_by_G": false
+        },
+        {
+          "piece": "imal",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ch",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uli",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Himal",
+          "G_T1": 0.780233,
+          "rank": 3,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ch",
+          "G_T1": 0.991756,
+          "rank": 14,
+          "kept_by_G": false
+        },
+        {
+          "piece": "uli",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q16466024",
+      "category": "nepal_mountains",
+      "label": "Annapurna I",
+      "sitelinks": 26,
+      "chat": [
+        {
+          "piece": "An",
+          "G_T1": 0.996909,
+          "rank": 13,
+          "kept_by_G": false
+        },
+        {
+          "piece": "nap",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "urn",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "a",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " I",
+          "G_T1": 0.994013,
+          "rank": 1,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " An",
+          "G_T1": 0.819704,
+          "rank": 4,
+          "kept_by_G": true
+        },
+        {
+          "piece": "nap",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "urn",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "a",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " I",
+          "G_T1": 0.91692,
+          "rank": 2,
+          "kept_by_G": false
+        }
+      ]
+    },
+    {
+      "qid": "Q449534",
+      "category": "nepal_mountains",
+      "label": "Annapurna II",
+      "sitelinks": 24,
+      "chat": [
+        {
+          "piece": "An",
+          "G_T1": 0.996909,
+          "rank": 13,
+          "kept_by_G": false
+        },
+        {
+          "piece": "nap",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "urn",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "a",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " II",
+          "G_T1": 0.999645,
+          "rank": 8,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " An",
+          "G_T1": 0.819704,
+          "rank": 4,
+          "kept_by_G": true
+        },
+        {
+          "piece": "nap",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "urn",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "a",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " II",
+          "G_T1": 0.965109,
+          "rank": 6,
+          "kept_by_G": false
+        }
+      ]
+    },
+    {
+      "qid": "Q276260",
+      "category": "japanese_novelists",
+      "label": "Aya Kōda",
+      "sitelinks": 17,
+      "chat": [
+        {
+          "piece": "A",
+          "G_T1": 0.987688,
+          "rank": 27,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ya",
+          "G_T1": 0.894271,
+          "rank": 96,
+          "kept_by_G": true
+        },
+        {
+          "piece": " K",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.64764,
+          "rank": 2,
+          "kept_by_G": true
+        },
+        {
+          "piece": "da",
+          "G_T1": 0.927417,
+          "rank": 2,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " A",
+          "G_T1": 0.845207,
+          "rank": 73,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ya",
+          "G_T1": 0.573903,
+          "rank": 5,
+          "kept_by_G": true
+        },
+        {
+          "piece": " K",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.937736,
+          "rank": 3,
+          "kept_by_G": false
+        },
+        {
+          "piece": "da",
+          "G_T1": 0.341047,
+          "rank": 1,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q2413886",
+      "category": "japanese_novelists",
+      "label": "Ryukishi07",
+      "sitelinks": 16,
+      "chat": [
+        {
+          "piece": "R",
+          "G_T1": 0.963394,
+          "rank": 9,
+          "kept_by_G": false
+        },
+        {
+          "piece": "y",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uk",
+          "G_T1": 0.988944,
+          "rank": 10,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ishi",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "07",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Ry",
+          "G_T1": 0.613342,
+          "rank": 12,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uk",
+          "G_T1": 0.973533,
+          "rank": 11,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ishi",
+          "G_T1": 0.703849,
+          "rank": 3,
+          "kept_by_G": true
+        },
+        {
+          "piece": "07",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q1191514",
+      "category": "japanese_novelists",
+      "label": "Masumi Asano",
+      "sitelinks": 14,
+      "chat": [
+        {
+          "piece": "Mas",
+          "G_T1": 0.992104,
+          "rank": 46,
+          "kept_by_G": false
+        },
+        {
+          "piece": "umi",
+          "G_T1": 0.9615,
+          "rank": 8,
+          "kept_by_G": false
+        },
+        {
+          "piece": " As",
+          "G_T1": 0.678287,
+          "rank": 116,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ano",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Mas",
+          "G_T1": 0.801343,
+          "rank": 45,
+          "kept_by_G": true
+        },
+        {
+          "piece": "umi",
+          "G_T1": 0.921835,
+          "rank": 9,
+          "kept_by_G": false
+        },
+        {
+          "piece": " As",
+          "G_T1": 0.730322,
+          "rank": 8,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ano",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q18349",
+      "category": "japanese_novelists",
+      "label": "Ujaku Akita",
+      "sitelinks": 14,
+      "chat": [
+        {
+          "piece": "U",
+          "G_T1": 0.986129,
+          "rank": 24,
+          "kept_by_G": false
+        },
+        {
+          "piece": "j",
+          "G_T1": 0.985714,
+          "rank": 263,
+          "kept_by_G": false
+        },
+        {
+          "piece": "aku",
+          "G_T1": 0.829287,
+          "rank": 28,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ak",
+          "G_T1": 0.557253,
+          "rank": 6,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ita",
+          "G_T1": 0.984839,
+          "rank": 94,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " U",
+          "G_T1": 0.816958,
+          "rank": 53,
+          "kept_by_G": true
+        },
+        {
+          "piece": "j",
+          "G_T1": 0.921962,
+          "rank": 41,
+          "kept_by_G": false
+        },
+        {
+          "piece": "aku",
+          "G_T1": 0.868499,
+          "rank": 40,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ak",
+          "G_T1": 0.687657,
+          "rank": 24,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ita",
+          "G_T1": 0.895592,
+          "rank": 7,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q20190791",
+      "category": "nepal_mountains",
+      "label": "Annapurna South",
+      "sitelinks": 13,
+      "chat": [
+        {
+          "piece": "An",
+          "G_T1": 0.996909,
+          "rank": 13,
+          "kept_by_G": false
+        },
+        {
+          "piece": "nap",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "urn",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "a",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " South",
+          "G_T1": 0.999957,
+          "rank": 41,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " An",
+          "G_T1": 0.819704,
+          "rank": 4,
+          "kept_by_G": true
+        },
+        {
+          "piece": "nap",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "urn",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "a",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " South",
+          "G_T1": 0.985172,
+          "rank": 18,
+          "kept_by_G": false
+        }
+      ]
+    },
+    {
+      "qid": "Q2226953",
+      "category": "japanese_novelists",
+      "label": "Haruo Satō",
+      "sitelinks": 13,
+      "chat": [
+        {
+          "piece": "Har",
+          "G_T1": 0.922112,
+          "rank": 5,
+          "kept_by_G": false
+        },
+        {
+          "piece": "uo",
+          "G_T1": 0.999975,
+          "rank": 3,
+          "kept_by_G": false
+        },
+        {
+          "piece": " Sat",
+          "G_T1": 0.362587,
+          "rank": 2,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Har",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uo",
+          "G_T1": 0.982076,
+          "rank": 2,
+          "kept_by_G": false
+        },
+        {
+          "piece": " Sat",
+          "G_T1": 0.350341,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.252762,
+          "rank": 1,
+          "kept_by_G": true
+        }
+      ]
+    }
+  ],
+  "args": {
+    "results": "results/G1",
+    "instruct": "OLMo-2-1124-7B-Instruct",
+    "base": "OLMo-2-1124-7B",
+    "spec": "p0.90_T1",
+    "top_p": 0.9,
+    "n": 12
+  }
+}

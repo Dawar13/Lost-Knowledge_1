@@ -108,3 +108,4 @@ Run logs (stdout of every job): `logs/archive/a100/`, `logs/archive/rtx5090/`.
 | invented-name rate and hand audit of 200 generated names | generations + human audit | P5 (E11) |
 | multilingual RBU, mixed-effects regressions with popularity | full TailCat, 4 languages | P3 (E8, E9) |
 | human check of recognition on a sample of entities | human | before submission |
+| data audit: implausible sitelink counts (e.g. "Federal University of Science and Innovation of Minas Gerais", 104 sitelinks, top of the OLMo walkthrough) | CPU | before P3 runs |

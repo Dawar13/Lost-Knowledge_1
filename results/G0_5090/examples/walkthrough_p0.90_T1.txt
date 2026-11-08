@@ -1,0 +1,186 @@
+358 entities recognised by both models, cut at the first token by Qwen2.5-7B-Instruct and later by Qwen2.5-7B under p0.90_T1 (template 0). Most popular 12:
+
+=== Shintarō Ishihara  (japanese_novelists, 38 Wikipedia languages)
+  chat: pieces ['Sh', 'int', 'ar', 'ō', ' Ish', 'ih', 'ara']  (exact verdict: first failing position 0)
+     piece 0 'Sh'             mass ahead 0.998  rank    110  -> CUT at top-p 0.9
+     piece 1 'int'            mass ahead 0.952  rank     14  -> CUT at top-p 0.9
+     piece 2 'ar'             mass ahead 0.970  rank      1  -> CUT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Ish'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ih'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ara'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Sh', 'int', 'ar', 'ō', ' Ish', 'ih', 'ara']  (exact verdict: first failing position 2)
+     piece 0 ' Sh'            mass ahead 0.799  rank     16  -> KEPT at top-p 0.9
+     piece 1 'int'            mass ahead 0.819  rank      7  -> KEPT at top-p 0.9
+     piece 2 'ar'             mass ahead 0.971  rank      1  -> CUT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Ish'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ih'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ara'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Himalchuli  (nepal_mountains, 33 Wikipedia languages)
+  chat: pieces ['H', 'imal', 'ch', 'uli']  (exact verdict: first failing position 0)
+     piece 0 'H'              mass ahead 0.999  rank     64  -> CUT at top-p 0.9
+     piece 1 'imal'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'ch'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'uli'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Himal', 'ch', 'uli']  (exact verdict: first failing position 1)
+     piece 0 ' Himal'         mass ahead 0.847  rank      8  -> KEPT at top-p 0.9
+     piece 1 'ch'             mass ahead 0.936  rank      5  -> CUT at top-p 0.9
+     piece 2 'uli'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Yoko Tawada  (japanese_novelists, 30 Wikipedia languages)
+  chat: pieces ['Y', 'oko', ' T', 'aw', 'ada']  (exact verdict: first failing position 0)
+     piece 0 'Y'              mass ahead 0.942  rank      2  -> CUT at top-p 0.9
+     piece 1 'oko'            mass ahead 0.973  rank      6  -> CUT at top-p 0.9
+     piece 2 ' T'             mass ahead 0.982  rank      2  -> CUT at top-p 0.9
+     piece 3 'aw'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 'ada'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Y', 'oko', ' T', 'aw', 'ada']  (exact verdict: first failing position 2)
+     piece 0 ' Y'             mass ahead 0.686  rank      8  -> KEPT at top-p 0.9
+     piece 1 'oko'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 ' T'             mass ahead 0.929  rank      1  -> CUT at top-p 0.9
+     piece 3 'aw'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 'ada'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Saneatsu Mushanokōji  (japanese_novelists, 20 Wikipedia languages)
+  chat: pieces ['S', 'ane', 'atsu', ' Mush', 'an', 'ok', 'ō', 'ji']  (exact verdict: first failing position 0)
+     piece 0 'S'              mass ahead 0.998  rank     74  -> CUT at top-p 0.9
+     piece 1 'ane'            mass ahead 0.992  rank    393  -> CUT at top-p 0.9
+     piece 2 'atsu'           mass ahead 0.541  rank      1  -> KEPT at top-p 0.9
+     piece 3 ' Mush'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 'an'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ok'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ō'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 7 'ji'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' S', 'ane', 'atsu', ' Mush', 'an', 'ok', 'ō', 'ji']  (exact verdict: first failing position 1)
+     piece 0 ' S'             mass ahead 0.859  rank     28  -> KEPT at top-p 0.9
+     piece 1 'ane'            mass ahead 0.950  rank     50  -> CUT at top-p 0.9
+     piece 2 'atsu'           mass ahead 0.536  rank      1  -> KEPT at top-p 0.9
+     piece 3 ' Mush'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 'an'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ok'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ō'              mass ahead 0.641  rank      1  -> KEPT at top-p 0.9
+     piece 7 'ji'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Ryukishi07  (japanese_novelists, 16 Wikipedia languages)
+  chat: pieces ['R', 'y', 'uk', 'ishi', '0', '7']  (exact verdict: first failing position 0)
+     piece 0 'R'              mass ahead 0.995  rank     31  -> CUT at top-p 0.9
+     piece 1 'y'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'uk'             mass ahead 0.994  rank     12  -> CUT at top-p 0.9
+     piece 3 'ishi'           mass ahead 0.367  rank      1  -> KEPT at top-p 0.9
+     piece 4 '0'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 '7'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Ry', 'uk', 'ishi', '0', '7']  (exact verdict: first failing position 1)
+     piece 0 ' Ry'            mass ahead 0.470  rank      2  -> KEPT at top-p 0.9
+     piece 1 'uk'             mass ahead 0.982  rank     15  -> CUT at top-p 0.9
+     piece 2 'ishi'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 '0'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 '7'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Bruce Obomeyoma Onobrakpeya  (nigerian_painters, 16 Wikipedia languages)
+  chat: pieces ['Bruce', ' Ob', 'ome', 'y', 'oma', ' On', 'ob', 'r', 'ak', 'pe', 'ya']  (exact verdict: first failing position 0)
+     piece 0 'Bruce'          mass ahead 0.915  rank     67  -> CUT at top-p 0.9
+     piece 1 ' Ob'            mass ahead 1.000  rank     93  -> CUT at top-p 0.9
+     piece 2 'ome'            mass ahead 0.995  rank   1596  -> CUT at top-p 0.9
+     piece 3 'y'              mass ahead 0.682  rank      1  -> KEPT at top-p 0.9
+     piece 4 'oma'            mass ahead 0.818  rank     31  -> KEPT at top-p 0.9
+     piece 5 ' On'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ob'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 7 'r'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 8 'ak'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 9 'pe'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 10 'ya'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Bruce', ' Ob', 'ome', 'y', 'oma', ' On', 'ob', 'r', 'ak', 'pe', 'ya']  (exact verdict: first failing position 1)
+     piece 0 ' Bruce'         mass ahead 0.609  rank     30  -> KEPT at top-p 0.9
+     piece 1 ' Ob'            mass ahead 1.000  rank     46  -> CUT at top-p 0.9
+     piece 2 'ome'            mass ahead 0.992  rank   1060  -> CUT at top-p 0.9
+     piece 3 'y'              mass ahead 0.284  rank      1  -> KEPT at top-p 0.9
+     piece 4 'oma'            mass ahead 0.769  rank      7  -> KEPT at top-p 0.9
+     piece 5 ' On'            mass ahead 0.708  rank      3  -> KEPT at top-p 0.9
+     piece 6 'ob'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 7 'r'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 8 'ak'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 9 'pe'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 10 'ya'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Kaori Ekuni  (japanese_novelists, 16 Wikipedia languages)
+  chat: pieces ['Ka', 'ori', ' Ek', 'uni']  (exact verdict: first failing position 0)
+     piece 0 'Ka'             mass ahead 0.997  rank     54  -> CUT at top-p 0.9
+     piece 1 'ori'            mass ahead 0.676  rank      2  -> KEPT at top-p 0.9
+     piece 2 ' Ek'            mass ahead 0.878  rank    477  -> KEPT at top-p 0.9
+     piece 3 'uni'            mass ahead 0.530  rank      2  -> KEPT at top-p 0.9
+  base: pieces [' Ka', 'ori', ' Ek', 'uni']  (exact verdict: first failing position 2)
+     piece 0 ' Ka'            mass ahead 0.896  rank     45  -> KEPT at top-p 0.9
+     piece 1 'ori'            mass ahead 0.729  rank      1  -> KEPT at top-p 0.9
+     piece 2 ' Ek'            mass ahead 0.930  rank    186  -> CUT at top-p 0.9
+     piece 3 'uni'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Yone Noguchi  (japanese_novelists, 15 Wikipedia languages)
+  chat: pieces ['Y', 'one', ' N', 'og', 'uchi']  (exact verdict: first failing position 0)
+     piece 0 'Y'              mass ahead 0.942  rank      2  -> CUT at top-p 0.9
+     piece 1 'one'            mass ahead 0.999  rank    246  -> CUT at top-p 0.9
+     piece 2 ' N'             mass ahead 0.657  rank      2  -> KEPT at top-p 0.9
+     piece 3 'og'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 'uchi'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Y', 'one', ' N', 'og', 'uchi']  (exact verdict: first failing position 1)
+     piece 0 ' Y'             mass ahead 0.686  rank      8  -> KEPT at top-p 0.9
+     piece 1 'one'            mass ahead 0.974  rank     33  -> CUT at top-p 0.9
+     piece 2 ' N'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'og'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 'uchi'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Dhirendra Nath Ganguly  (bengali_film_directors, 15 Wikipedia languages)
+  chat: pieces ['D', 'hire', 'nd', 'ra', ' Nath', ' Gang', 'uly']  (exact verdict: first failing position 0)
+     piece 0 'D'              mass ahead 0.990  rank    126  -> CUT at top-p 0.9
+     piece 1 'hire'           mass ahead 0.974  rank     14  -> CUT at top-p 0.9
+     piece 2 'nd'             mass ahead 0.994  rank      1  -> CUT at top-p 0.9
+     piece 3 'ra'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Nath'          mass ahead 0.314  rank      1  -> KEPT at top-p 0.9
+     piece 5 ' Gang'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'uly'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' D', 'hire', 'nd', 'ra', ' Nath', ' Gang', 'uly']  (exact verdict: first failing position 1)
+     piece 0 ' D'             mass ahead 0.780  rank     57  -> KEPT at top-p 0.9
+     piece 1 'hire'           mass ahead 0.975  rank      6  -> CUT at top-p 0.9
+     piece 2 'nd'             mass ahead 0.777  rank      1  -> KEPT at top-p 0.9
+     piece 3 'ra'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Nath'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 ' Gang'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'uly'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Mori Mari  (japanese_novelists, 15 Wikipedia languages)
+  chat: pieces ['M', 'ori', ' Mari']  (exact verdict: first failing position 0)
+     piece 0 'M'              mass ahead 0.994  rank     23  -> CUT at top-p 0.9
+     piece 1 'ori'            mass ahead 0.972  rank      5  -> CUT at top-p 0.9
+     piece 2 ' Mari'          mass ahead 0.979  rank    642  -> CUT at top-p 0.9
+  base: pieces [' Mori', ' Mari']  (exact verdict: first failing position 1)
+     piece 0 ' Mori'          mass ahead 0.885  rank     38  -> KEPT at top-p 0.9
+     piece 1 ' Mari'          mass ahead 0.995  rank    308  -> CUT at top-p 0.9
+
+=== Masumi Asano  (japanese_novelists, 14 Wikipedia languages)
+  chat: pieces ['Mas', 'umi', ' As', 'ano']  (exact verdict: first failing position 0)
+     piece 0 'Mas'            mass ahead 0.996  rank     36  -> CUT at top-p 0.9
+     piece 1 'umi'            mass ahead 0.991  rank    115  -> CUT at top-p 0.9
+     piece 2 ' As'            mass ahead 0.894  rank    112  -> KEPT at top-p 0.9
+     piece 3 'ano'            mass ahead 0.948  rank      1  -> CUT at top-p 0.9
+  base: pieces [' Mas', 'umi', ' As', 'ano']  (exact verdict: first failing position 1)
+     piece 0 ' Mas'           mass ahead 0.870  rank     32  -> KEPT at top-p 0.9
+     piece 1 'umi'            mass ahead 0.983  rank     48  -> CUT at top-p 0.9
+     piece 2 ' As'            mass ahead 0.723  rank     40  -> KEPT at top-p 0.9
+     piece 3 'ano'            mass ahead 0.295  rank      1  -> KEPT at top-p 0.9
+
+=== Pramathesh Barua  (bengali_film_directors, 14 Wikipedia languages)
+  chat: pieces ['P', 'ram', 'ath', 'esh', ' Bar', 'ua']  (exact verdict: first failing position 0)
+     piece 0 'P'              mass ahead 0.983  rank     41  -> CUT at top-p 0.9
+     piece 1 'ram'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'ath'            mass ahead 0.972  rank      3  -> CUT at top-p 0.9
+     piece 3 'esh'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Bar'           mass ahead 0.535  rank      1  -> KEPT at top-p 0.9
+     piece 5 'ua'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Pr', 'am', 'ath', 'esh', ' Bar', 'ua']  (exact verdict: first failing position 1)
+     piece 0 ' Pr'            mass ahead 0.710  rank     38  -> KEPT at top-p 0.9
+     piece 1 'am'             mass ahead 0.973  rank     15  -> CUT at top-p 0.9
+     piece 2 'ath'            mass ahead 0.564  rank      1  -> KEPT at top-p 0.9
+     piece 3 'esh'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Bar'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ua'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9

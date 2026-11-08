@@ -1,0 +1,181 @@
+238 entities recognised by both models, cut at the first token by OLMo-2-1124-7B-Instruct and later by OLMo-2-1124-7B under p0.90_T1 (template 0). Most popular 12:
+
+=== Federal University of Science and Innovation of Minas Gerais  (brazil_universities, 104 Wikipedia languages)
+  chat: pieces ['Federal', ' University', ' of', ' Science', ' and', ' Innovation', ' of', ' Min', 'as', ' G', 'erais']  (exact verdict: first failing position 0)
+     piece 0 'Federal'        mass ahead 0.914  rank      2  -> CUT at top-p 0.9
+     piece 1 ' University'    mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 ' of'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 ' Science'       mass ahead 1.000  rank    225  -> CUT at top-p 0.9
+     piece 4 ' and'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 ' Innovation'    mass ahead 1.000  rank     41  -> CUT at top-p 0.9
+     piece 6 ' of'            mass ahead 0.998  rank     10  -> CUT at top-p 0.9
+     piece 7 ' Min'           mass ahead 0.887  rank     78  -> KEPT at top-p 0.9
+     piece 8 'as'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 9 ' G'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 10 'erais'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Federal', ' University', ' of', ' Science', ' and', ' Innovation', ' of', ' Min', 'as', ' G', 'erais']  (exact verdict: first failing position 3)
+     piece 0 ' Federal'       mass ahead 0.261  rank      1  -> KEPT at top-p 0.9
+     piece 1 ' University'    mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 ' of'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 ' Science'       mass ahead 0.995  rank    219  -> CUT at top-p 0.9
+     piece 4 ' and'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 ' Innovation'    mass ahead 1.000  rank    224  -> CUT at top-p 0.9
+     piece 6 ' of'            mass ahead 0.922  rank      6  -> CUT at top-p 0.9
+     piece 7 ' Min'           mass ahead 0.410  rank      5  -> KEPT at top-p 0.9
+     piece 8 'as'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 9 ' G'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 10 'erais'          mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== State University of Feira de Santana  (brazil_universities, 103 Wikipedia languages)
+  chat: pieces ['State', ' University', ' of', ' Fe', 'ira', ' de', ' Santana']  (exact verdict: first failing position 0)
+     piece 0 'State'          mass ahead 0.993  rank     23  -> CUT at top-p 0.9
+     piece 1 ' University'    mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 ' of'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 ' Fe'            mass ahead 1.000  rank      9  -> CUT at top-p 0.9
+     piece 4 'ira'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 ' de'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 ' Santana'       mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' State', ' University', ' of', ' Fe', 'ira', ' de', ' Santana']  (exact verdict: first failing position 3)
+     piece 0 ' State'         mass ahead 0.777  rank     48  -> KEPT at top-p 0.9
+     piece 1 ' University'    mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 ' of'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 ' Fe'            mass ahead 0.915  rank      6  -> CUT at top-p 0.9
+     piece 4 'ira'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 ' de'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 ' Santana'       mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Shintarō Ishihara  (japanese_novelists, 38 Wikipedia languages)
+  chat: pieces ['Sh', 'int', 'ar', 'ō', ' Ish', 'ih', 'ara']  (exact verdict: first failing position 0)
+     piece 0 'Sh'             mass ahead 0.983  rank     19  -> CUT at top-p 0.9
+     piece 1 'int'            mass ahead 0.909  rank     14  -> CUT at top-p 0.9
+     piece 2 'ar'             mass ahead 0.994  rank      1  -> CUT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Ish'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ih'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ara'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Sh', 'int', 'ar', 'ō', ' Ish', 'ih', 'ara']  (exact verdict: first failing position 2)
+     piece 0 ' Sh'            mass ahead 0.664  rank     16  -> KEPT at top-p 0.9
+     piece 1 'int'            mass ahead 0.868  rank     15  -> KEPT at top-p 0.9
+     piece 2 'ar'             mass ahead 0.962  rank      1  -> CUT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' Ish'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 5 'ih'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 6 'ara'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Himalchuli  (nepal_mountains, 33 Wikipedia languages)
+  chat: pieces ['H', 'imal', 'ch', 'uli']  (exact verdict: first failing position 0)
+     piece 0 'H'              mass ahead 0.997  rank     12  -> CUT at top-p 0.9
+     piece 1 'imal'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'ch'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'uli'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Himal', 'ch', 'uli']  (exact verdict: first failing position 1)
+     piece 0 ' Himal'         mass ahead 0.780  rank      3  -> KEPT at top-p 0.9
+     piece 1 'ch'             mass ahead 0.992  rank     14  -> CUT at top-p 0.9
+     piece 2 'uli'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Annapurna I  (nepal_mountains, 26 Wikipedia languages)
+  chat: pieces ['An', 'nap', 'urn', 'a', ' I']  (exact verdict: first failing position 0)
+     piece 0 'An'             mass ahead 0.997  rank     13  -> CUT at top-p 0.9
+     piece 1 'nap'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'urn'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'a'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' I'             mass ahead 0.994  rank      1  -> CUT at top-p 0.9
+  base: pieces [' An', 'nap', 'urn', 'a', ' I']  (exact verdict: first failing position 4)
+     piece 0 ' An'            mass ahead 0.820  rank      4  -> KEPT at top-p 0.9
+     piece 1 'nap'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'urn'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'a'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' I'             mass ahead 0.917  rank      2  -> CUT at top-p 0.9
+
+=== Annapurna II  (nepal_mountains, 24 Wikipedia languages)
+  chat: pieces ['An', 'nap', 'urn', 'a', ' II']  (exact verdict: first failing position 0)
+     piece 0 'An'             mass ahead 0.997  rank     13  -> CUT at top-p 0.9
+     piece 1 'nap'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'urn'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'a'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' II'            mass ahead 1.000  rank      8  -> CUT at top-p 0.9
+  base: pieces [' An', 'nap', 'urn', 'a', ' II']  (exact verdict: first failing position 4)
+     piece 0 ' An'            mass ahead 0.820  rank      4  -> KEPT at top-p 0.9
+     piece 1 'nap'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'urn'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'a'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' II'            mass ahead 0.965  rank      6  -> CUT at top-p 0.9
+
+=== Aya Kōda  (japanese_novelists, 17 Wikipedia languages)
+  chat: pieces ['A', 'ya', ' K', 'ō', 'da']  (exact verdict: first failing position 0)
+     piece 0 'A'              mass ahead 0.988  rank     27  -> CUT at top-p 0.9
+     piece 1 'ya'             mass ahead 0.894  rank     96  -> KEPT at top-p 0.9
+     piece 2 ' K'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.648  rank      2  -> KEPT at top-p 0.9
+     piece 4 'da'             mass ahead 0.927  rank      2  -> CUT at top-p 0.9
+  base: pieces [' A', 'ya', ' K', 'ō', 'da']  (exact verdict: first failing position 3)
+     piece 0 ' A'             mass ahead 0.845  rank     73  -> KEPT at top-p 0.9
+     piece 1 'ya'             mass ahead 0.574  rank      5  -> KEPT at top-p 0.9
+     piece 2 ' K'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.938  rank      3  -> CUT at top-p 0.9
+     piece 4 'da'             mass ahead 0.341  rank      1  -> KEPT at top-p 0.9
+
+=== Ryukishi07  (japanese_novelists, 16 Wikipedia languages)
+  chat: pieces ['R', 'y', 'uk', 'ishi', '07']  (exact verdict: first failing position 0)
+     piece 0 'R'              mass ahead 0.963  rank      9  -> CUT at top-p 0.9
+     piece 1 'y'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'uk'             mass ahead 0.989  rank     10  -> CUT at top-p 0.9
+     piece 3 'ishi'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 '07'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Ry', 'uk', 'ishi', '07']  (exact verdict: first failing position 1)
+     piece 0 ' Ry'            mass ahead 0.613  rank     12  -> KEPT at top-p 0.9
+     piece 1 'uk'             mass ahead 0.974  rank     11  -> CUT at top-p 0.9
+     piece 2 'ishi'           mass ahead 0.704  rank      3  -> KEPT at top-p 0.9
+     piece 3 '07'             mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Masumi Asano  (japanese_novelists, 14 Wikipedia languages)
+  chat: pieces ['Mas', 'umi', ' As', 'ano']  (exact verdict: first failing position 0)
+     piece 0 'Mas'            mass ahead 0.992  rank     46  -> CUT at top-p 0.9
+     piece 1 'umi'            mass ahead 0.962  rank      8  -> CUT at top-p 0.9
+     piece 2 ' As'            mass ahead 0.678  rank    116  -> KEPT at top-p 0.9
+     piece 3 'ano'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Mas', 'umi', ' As', 'ano']  (exact verdict: first failing position 1)
+     piece 0 ' Mas'           mass ahead 0.801  rank     45  -> KEPT at top-p 0.9
+     piece 1 'umi'            mass ahead 0.922  rank      9  -> CUT at top-p 0.9
+     piece 2 ' As'            mass ahead 0.730  rank      8  -> KEPT at top-p 0.9
+     piece 3 'ano'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+
+=== Ujaku Akita  (japanese_novelists, 14 Wikipedia languages)
+  chat: pieces ['U', 'j', 'aku', ' Ak', 'ita']  (exact verdict: first failing position 0)
+     piece 0 'U'              mass ahead 0.986  rank     24  -> CUT at top-p 0.9
+     piece 1 'j'              mass ahead 0.986  rank    263  -> CUT at top-p 0.9
+     piece 2 'aku'            mass ahead 0.829  rank     28  -> KEPT at top-p 0.9
+     piece 3 ' Ak'            mass ahead 0.557  rank      6  -> KEPT at top-p 0.9
+     piece 4 'ita'            mass ahead 0.985  rank     94  -> CUT at top-p 0.9
+  base: pieces [' U', 'j', 'aku', ' Ak', 'ita']  (exact verdict: first failing position 1)
+     piece 0 ' U'             mass ahead 0.817  rank     53  -> KEPT at top-p 0.9
+     piece 1 'j'              mass ahead 0.922  rank     41  -> CUT at top-p 0.9
+     piece 2 'aku'            mass ahead 0.868  rank     40  -> KEPT at top-p 0.9
+     piece 3 ' Ak'            mass ahead 0.688  rank     24  -> KEPT at top-p 0.9
+     piece 4 'ita'            mass ahead 0.896  rank      7  -> KEPT at top-p 0.9
+
+=== Annapurna South  (nepal_mountains, 13 Wikipedia languages)
+  chat: pieces ['An', 'nap', 'urn', 'a', ' South']  (exact verdict: first failing position 0)
+     piece 0 'An'             mass ahead 0.997  rank     13  -> CUT at top-p 0.9
+     piece 1 'nap'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'urn'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'a'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' South'         mass ahead 1.000  rank     41  -> CUT at top-p 0.9
+  base: pieces [' An', 'nap', 'urn', 'a', ' South']  (exact verdict: first failing position 4)
+     piece 0 ' An'            mass ahead 0.820  rank      4  -> KEPT at top-p 0.9
+     piece 1 'nap'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 2 'urn'            mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 3 'a'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 4 ' South'         mass ahead 0.985  rank     18  -> CUT at top-p 0.9
+
+=== Haruo Satō  (japanese_novelists, 13 Wikipedia languages)
+  chat: pieces ['Har', 'uo', ' Sat', 'ō']  (exact verdict: first failing position 0)
+     piece 0 'Har'            mass ahead 0.922  rank      5  -> CUT at top-p 0.9
+     piece 1 'uo'             mass ahead 1.000  rank      3  -> CUT at top-p 0.9
+     piece 2 ' Sat'           mass ahead 0.363  rank      2  -> KEPT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+  base: pieces [' Har', 'uo', ' Sat', 'ō']  (exact verdict: first failing position 1)
+     piece 0 ' Har'           mass ahead 0.000  rank      0  -> KEPT at top-p 0.9
+     piece 1 'uo'             mass ahead 0.982  rank      2  -> CUT at top-p 0.9
+     piece 2 ' Sat'           mass ahead 0.350  rank      1  -> KEPT at top-p 0.9
+     piece 3 'ō'              mass ahead 0.253  rank      1  -> KEPT at top-p 0.9

@@ -1,0 +1,955 @@
+{
+  "n_candidates": 358,
+  "examples": [
+    {
+      "qid": "Q38849",
+      "category": "japanese_novelists",
+      "label": "Shintarō Ishihara",
+      "sitelinks": 38,
+      "chat": [
+        {
+          "piece": "Sh",
+          "G_T1": 0.99798,
+          "rank": 110,
+          "kept_by_G": false
+        },
+        {
+          "piece": "int",
+          "G_T1": 0.952219,
+          "rank": 14,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ar",
+          "G_T1": 0.969588,
+          "rank": 1,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ish",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ih",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ara",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Sh",
+          "G_T1": 0.798862,
+          "rank": 16,
+          "kept_by_G": true
+        },
+        {
+          "piece": "int",
+          "G_T1": 0.819337,
+          "rank": 7,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ar",
+          "G_T1": 0.971355,
+          "rank": 1,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ish",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ih",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ara",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q1145646",
+      "category": "nepal_mountains",
+      "label": "Himalchuli",
+      "sitelinks": 33,
+      "chat": [
+        {
+          "piece": "H",
+          "G_T1": 0.998995,
+          "rank": 64,
+          "kept_by_G": false
+        },
+        {
+          "piece": "imal",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ch",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uli",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Himal",
+          "G_T1": 0.847066,
+          "rank": 8,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ch",
+          "G_T1": 0.936484,
+          "rank": 5,
+          "kept_by_G": false
+        },
+        {
+          "piece": "uli",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q451058",
+      "category": "japanese_novelists",
+      "label": "Yoko Tawada",
+      "sitelinks": 30,
+      "chat": [
+        {
+          "piece": "Y",
+          "G_T1": 0.942252,
+          "rank": 2,
+          "kept_by_G": false
+        },
+        {
+          "piece": "oko",
+          "G_T1": 0.972867,
+          "rank": 6,
+          "kept_by_G": false
+        },
+        {
+          "piece": " T",
+          "G_T1": 0.981671,
+          "rank": 2,
+          "kept_by_G": false
+        },
+        {
+          "piece": "aw",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ada",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Y",
+          "G_T1": 0.686374,
+          "rank": 8,
+          "kept_by_G": true
+        },
+        {
+          "piece": "oko",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " T",
+          "G_T1": 0.928579,
+          "rank": 1,
+          "kept_by_G": false
+        },
+        {
+          "piece": "aw",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ada",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q684481",
+      "category": "japanese_novelists",
+      "label": "Saneatsu Mushanokōji",
+      "sitelinks": 20,
+      "chat": [
+        {
+          "piece": "S",
+          "G_T1": 0.997568,
+          "rank": 74,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ane",
+          "G_T1": 0.991762,
+          "rank": 393,
+          "kept_by_G": false
+        },
+        {
+          "piece": "atsu",
+          "G_T1": 0.541342,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Mush",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "an",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ok",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ji",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " S",
+          "G_T1": 0.859163,
+          "rank": 28,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ane",
+          "G_T1": 0.949561,
+          "rank": 50,
+          "kept_by_G": false
+        },
+        {
+          "piece": "atsu",
+          "G_T1": 0.53643,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Mush",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "an",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ok",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ō",
+          "G_T1": 0.641076,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ji",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q2413886",
+      "category": "japanese_novelists",
+      "label": "Ryukishi07",
+      "sitelinks": 16,
+      "chat": [
+        {
+          "piece": "R",
+          "G_T1": 0.994866,
+          "rank": 31,
+          "kept_by_G": false
+        },
+        {
+          "piece": "y",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uk",
+          "G_T1": 0.994039,
+          "rank": 12,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ishi",
+          "G_T1": 0.367225,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "0",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "7",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Ry",
+          "G_T1": 0.470443,
+          "rank": 2,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uk",
+          "G_T1": 0.982277,
+          "rank": 15,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ishi",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "0",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "7",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q3645490",
+      "category": "nigerian_painters",
+      "label": "Bruce Obomeyoma Onobrakpeya",
+      "sitelinks": 16,
+      "chat": [
+        {
+          "piece": "Bruce",
+          "G_T1": 0.914834,
+          "rank": 67,
+          "kept_by_G": false
+        },
+        {
+          "piece": " Ob",
+          "G_T1": 0.999966,
+          "rank": 93,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ome",
+          "G_T1": 0.995057,
+          "rank": 1596,
+          "kept_by_G": false
+        },
+        {
+          "piece": "y",
+          "G_T1": 0.682432,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "oma",
+          "G_T1": 0.817835,
+          "rank": 31,
+          "kept_by_G": true
+        },
+        {
+          "piece": " On",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ob",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "r",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ak",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "pe",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ya",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Bruce",
+          "G_T1": 0.608913,
+          "rank": 30,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ob",
+          "G_T1": 0.99966,
+          "rank": 46,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ome",
+          "G_T1": 0.992417,
+          "rank": 1060,
+          "kept_by_G": false
+        },
+        {
+          "piece": "y",
+          "G_T1": 0.283564,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "oma",
+          "G_T1": 0.768556,
+          "rank": 7,
+          "kept_by_G": true
+        },
+        {
+          "piece": " On",
+          "G_T1": 0.707744,
+          "rank": 3,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ob",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "r",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ak",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "pe",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ya",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q447073",
+      "category": "japanese_novelists",
+      "label": "Kaori Ekuni",
+      "sitelinks": 16,
+      "chat": [
+        {
+          "piece": "Ka",
+          "G_T1": 0.997009,
+          "rank": 54,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ori",
+          "G_T1": 0.676432,
+          "rank": 2,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ek",
+          "G_T1": 0.878269,
+          "rank": 477,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uni",
+          "G_T1": 0.530089,
+          "rank": 2,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Ka",
+          "G_T1": 0.895935,
+          "rank": 45,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ori",
+          "G_T1": 0.728547,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Ek",
+          "G_T1": 0.929951,
+          "rank": 186,
+          "kept_by_G": false
+        },
+        {
+          "piece": "uni",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q1899252",
+      "category": "japanese_novelists",
+      "label": "Yone Noguchi",
+      "sitelinks": 15,
+      "chat": [
+        {
+          "piece": "Y",
+          "G_T1": 0.942252,
+          "rank": 2,
+          "kept_by_G": false
+        },
+        {
+          "piece": "one",
+          "G_T1": 0.998863,
+          "rank": 246,
+          "kept_by_G": false
+        },
+        {
+          "piece": " N",
+          "G_T1": 0.656969,
+          "rank": 2,
+          "kept_by_G": true
+        },
+        {
+          "piece": "og",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uchi",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Y",
+          "G_T1": 0.686374,
+          "rank": 8,
+          "kept_by_G": true
+        },
+        {
+          "piece": "one",
+          "G_T1": 0.974398,
+          "rank": 33,
+          "kept_by_G": false
+        },
+        {
+          "piece": " N",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "og",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uchi",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q337482",
+      "category": "bengali_film_directors",
+      "label": "Dhirendra Nath Ganguly",
+      "sitelinks": 15,
+      "chat": [
+        {
+          "piece": "D",
+          "G_T1": 0.989521,
+          "rank": 126,
+          "kept_by_G": false
+        },
+        {
+          "piece": "hire",
+          "G_T1": 0.973871,
+          "rank": 14,
+          "kept_by_G": false
+        },
+        {
+          "piece": "nd",
+          "G_T1": 0.994087,
+          "rank": 1,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ra",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Nath",
+          "G_T1": 0.314063,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Gang",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uly",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " D",
+          "G_T1": 0.779841,
+          "rank": 57,
+          "kept_by_G": true
+        },
+        {
+          "piece": "hire",
+          "G_T1": 0.975445,
+          "rank": 6,
+          "kept_by_G": false
+        },
+        {
+          "piece": "nd",
+          "G_T1": 0.7769,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ra",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Nath",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Gang",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "uly",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q515651",
+      "category": "japanese_novelists",
+      "label": "Mori Mari",
+      "sitelinks": 15,
+      "chat": [
+        {
+          "piece": "M",
+          "G_T1": 0.993632,
+          "rank": 23,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ori",
+          "G_T1": 0.971667,
+          "rank": 5,
+          "kept_by_G": false
+        },
+        {
+          "piece": " Mari",
+          "G_T1": 0.9789,
+          "rank": 642,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " Mori",
+          "G_T1": 0.884665,
+          "rank": 38,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Mari",
+          "G_T1": 0.994901,
+          "rank": 308,
+          "kept_by_G": false
+        }
+      ]
+    },
+    {
+      "qid": "Q1191514",
+      "category": "japanese_novelists",
+      "label": "Masumi Asano",
+      "sitelinks": 14,
+      "chat": [
+        {
+          "piece": "Mas",
+          "G_T1": 0.995688,
+          "rank": 36,
+          "kept_by_G": false
+        },
+        {
+          "piece": "umi",
+          "G_T1": 0.990677,
+          "rank": 115,
+          "kept_by_G": false
+        },
+        {
+          "piece": " As",
+          "G_T1": 0.894097,
+          "rank": 112,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ano",
+          "G_T1": 0.948053,
+          "rank": 1,
+          "kept_by_G": false
+        }
+      ],
+      "base": [
+        {
+          "piece": " Mas",
+          "G_T1": 0.869923,
+          "rank": 32,
+          "kept_by_G": true
+        },
+        {
+          "piece": "umi",
+          "G_T1": 0.983228,
+          "rank": 48,
+          "kept_by_G": false
+        },
+        {
+          "piece": " As",
+          "G_T1": 0.723288,
+          "rank": 40,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ano",
+          "G_T1": 0.294594,
+          "rank": 1,
+          "kept_by_G": true
+        }
+      ]
+    },
+    {
+      "qid": "Q334825",
+      "category": "bengali_film_directors",
+      "label": "Pramathesh Barua",
+      "sitelinks": 14,
+      "chat": [
+        {
+          "piece": "P",
+          "G_T1": 0.9834,
+          "rank": 41,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ram",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ath",
+          "G_T1": 0.97231,
+          "rank": 3,
+          "kept_by_G": false
+        },
+        {
+          "piece": "esh",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Bar",
+          "G_T1": 0.535027,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ua",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ],
+      "base": [
+        {
+          "piece": " Pr",
+          "G_T1": 0.709875,
+          "rank": 38,
+          "kept_by_G": true
+        },
+        {
+          "piece": "am",
+          "G_T1": 0.97296,
+          "rank": 15,
+          "kept_by_G": false
+        },
+        {
+          "piece": "ath",
+          "G_T1": 0.563628,
+          "rank": 1,
+          "kept_by_G": true
+        },
+        {
+          "piece": "esh",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": " Bar",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        },
+        {
+          "piece": "ua",
+          "G_T1": 0.0,
+          "rank": 0,
+          "kept_by_G": true
+        }
+      ]
+    }
+  ],
+  "args": {
+    "results": "results/G0_5090",
+    "instruct": "Qwen2.5-7B-Instruct",
+    "base": "Qwen2.5-7B",
+    "spec": "p0.90_T1",
+    "top_p": 0.9,
+    "n": 12
+  }
+}
