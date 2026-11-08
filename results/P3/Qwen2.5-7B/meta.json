@@ -1,0 +1,76 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "commit": "d149729398750b98c0af14eb82c78cfe92750796",
+  "code": {
+    "tree_sha256": "a30d1655cfec6090",
+    "git_head": "30538725a51c8f2e96a77ff1360e132cfda5c6b8",
+    "git_dirty": false
+  },
+  "transformers": "5.22.2",
+  "torch": "2.15.0+cu132",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "utc": "2026-11-08T20:47:11Z",
+  "cuda_visible_devices": null,
+  "chat": false,
+  "specs": {
+    "untruncated_T1": {},
+    "p0.80_T1": {
+      "top_p": 0.8
+    },
+    "p0.90_T1": {
+      "top_p": 0.9
+    },
+    "p0.95_T1": {
+      "top_p": 0.95
+    },
+    "p0.90_T0.7": {
+      "temperature": 0.7,
+      "top_p": 0.9
+    },
+    "p0.90_T0.5": {
+      "temperature": 0.5,
+      "top_p": 0.9
+    },
+    "k20_T1": {
+      "top_k": 20
+    },
+    "k50_T1": {
+      "top_k": 50
+    },
+    "minp0.05_T1": {
+      "min_p": 0.05
+    },
+    "minp0.10_T1": {
+      "min_p": 0.1
+    }
+  },
+  "templates": [
+    "Name {singular}. Reply with only the name.",
+    "Give one example of {plural}. Answer with the name only.",
+    "Tell me {singular}. Just the name, nothing else."
+  ],
+  "extra_processor_fields": {},
+  "margin": 0.75,
+  "n_entities": 33437,
+  "n_foils": 26478,
+  "seconds": 1798.808053970337,
+  "peak_gpu_gib": 17.534400939941406,
+  "args": {
+    "model": "Qwen/Qwen2.5-7B",
+    "data": "data/tailcat/full_v1_s150",
+    "out": "results/P3",
+    "chat": "auto",
+    "templates": 3,
+    "limit_per_category": null,
+    "batch_size": 32,
+    "dstar_specs": "shipped_hf,p0.90_T1",
+    "yesno_probe": "apriori",
+    "margin": 0.75,
+    "no_aliases": false,
+    "sample_check": false,
+    "n_samples": 1000,
+    "sample_specs": "shipped_hf,p0.90_T1",
+    "device": "cuda",
+    "seed": 0
+  }
+}
