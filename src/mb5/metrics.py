@@ -68,9 +68,8 @@ def write_csv(path: Path, rows: list[dict]):
     for r in rows[1:]:
         keys += [k for k in r if k not in keys]
     with open(path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=keys, lineterminator="
-")  # 
-: identical bytes on every OS and in git
+        # "\n" line ends (the csv default is "\r\n"): identical bytes on every machine and in git
+        w = csv.DictWriter(f, fieldnames=keys, lineterminator="\n")
         w.writeheader()
         for r in rows:
             w.writerow({k: _fmt(r.get(k)) for k in keys})
