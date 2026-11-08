@@ -69,7 +69,7 @@ def check(samples: list[list[int]], tok, items: list[dict], spec_name: str, name
     runreach_q: dict[str, bool] = {}
     for it in items:  # entity robustly unreachable only if EVERY surface form is
         runreach_q[it["qid"]] = runreach_q.get(it["qid"], True) and robust_unreach(it)
-    violations, exact_viol, boundary, noncanon = [], [], [], []
+    violations, exact_viol, boundary, noncanon, rows = [], [], [], [], []
     id_hits, text_hits = Counter(), Counter()
     for s in samples:
         hit = None
@@ -86,12 +86,17 @@ def check(samples: list[list[int]], tok, items: list[dict], spec_name: str, name
                 boundary.append(ex)  # exact verdict was "cut" but within the numeric margin
             if not hit[f"reach__{spec_name}"]:
                 exact_viol.append(ex)
-        text = norm(tok.decode(s, skip_special_tokens=True))
+        raw = tok.decode(s, skip_special_tokens=True)
+        text = norm(raw)
         q = name_index.get(text) or name_index.get(text.removeprefix("the "))
         if q is not None:
             text_hits[q] += 1
             if hit is None and runreach_q.get(q, False):
                 noncanon.append({"qid": q, "text": text})
+        rows.append({"text": raw, "norm_text": text, "ids": s, "text_match_qid": q,
+                     "id_hit_qid": hit["qid"] if hit else None, "id_hit_form": hit.get("form") if hit else None,
+                     "id_hit_reach_exact": bool(hit[f"reach__{spec_name}"]) if hit else None,
+                     "id_hit_robust_unreach": robust_unreach(hit) if hit else None})
     return {
         "spec": spec_name,
         "margin": items[0].get("margin", 0.0) if items else None,
@@ -109,4 +114,5 @@ def check(samples: list[list[int]], tok, items: list[dict], spec_name: str, name
         "noncanonical_examples": noncanon[:20],
         "distinct_valid_qids": sorted(text_hits),
         "valid_counts": dict(text_hits),
+        "_samples": rows,  # per-sample records; run_model moves them to samples.jsonl.gz
     }

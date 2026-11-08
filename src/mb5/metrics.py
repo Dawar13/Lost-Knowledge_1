@@ -20,6 +20,7 @@ Tables (per model unless noted; "mode" is robust / exact / upper, docs/04 s.2):
   popularity_<m>.csv       per sitelink quintile: recognition rate and RBU per spec
   length_<m>.csv           per label token length: recognition rate and RBU per spec
   reachable_set_<m>.csv    per spec x category x template: members reachable (all, recognised)
+  top_answers_<m>.csv      per spec x category: the 15 most frequent generated answers, counts, membership
   sample_check_<m>.csv     per spec x category: samples, valid, distinct valid, violations, boundary hits,
                            and coverage of the reachable set
   calibration_<m>.json     generate-vs-scorer logit gap, margins needed, epsilon rule
@@ -299,6 +300,28 @@ def model_tables(M: Model, rows, out: Path, tag: str, data: Path | None):
                             "sampled_within_reachable_t0": len(sampled & reach0),
                             "coverage_of_reachable_t0": len(sampled & reach0) / len(reach0) if reach0 else None})
         write_csv(out / f"sample_check_{tag}.csv", sc_rows)
+
+    # what the model actually said: most frequent answers per sampler and category
+    smp = M.dir / "samples.jsonl.gz"
+    if smp.exists():
+        from .sample_check import norm
+
+        valid = {}
+        if data and (data / "valid_names.json").exists():
+            valid = {c: {norm(n) for n in names}
+                     for c, names in json.loads((data / "valid_names.json").read_text(encoding="utf-8")).items()}
+        by = defaultdict(Counter)
+        for r in read_jsonl(smp):
+            by[(r["spec"], r["category"])][(r["norm_text"], r["text_match_qid"])] += 1
+        ans = []
+        for (s, c), cnt in sorted(by.items()):
+            n = sum(cnt.values())
+            for rank, ((t, q), k) in enumerate(cnt.most_common(15)):
+                ans.append({"spec": s, "category": c, "rank": rank + 1, "answer": t, "count": k, "share": k / n,
+                            "distinct_answers_in_category": len(cnt), "matched_member_qid": q,
+                            "in_sampled_members": q is not None,
+                            "in_all_wikidata_members": (t in valid.get(c, set())) if valid else None})
+        write_csv(out / f"top_answers_{tag}.csv", ans)
     return val, rbu
 
 

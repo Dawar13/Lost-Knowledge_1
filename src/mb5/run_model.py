@@ -118,14 +118,21 @@ def main():
     recog = []
     for e, v, m in zip(ents, v_mem, mc):
         recog.append({"qid": e["qid"], "category": e["category"], "kind": "member", "label": e["label"],
-                      "sitelinks": e["sitelinks"], "V": v, "mc_p": m["p_correct"], "mc_correct": m["correct"]})
+                      "sitelinks": e["sitelinks"], "V": v["V"], "logp_yes": v["logp_yes"], "logp_no": v["logp_no"],
+                      "mc_p": m["p_correct"], "mc_correct": m["correct"], "mc_options": m["options"],
+                      "mc_answer": m["answer"], "mc_chosen": m["chosen"], "mc_letter_probs": m["letter_probs"],
+                      "yesno_prompt": v["prompt"], "mc_prompt": m["prompt"]})
     for f, v in zip(foils, v_foil):
         recog.append({"qid": f["qid"], "category": f["category"], "kind": "foil", "label": f["label"],
-                      "sitelinks": f["sitelinks"], "V": v})
+                      "sitelinks": f["sitelinks"], "V": v["V"], "logp_yes": v["logp_yes"], "logp_no": v["logp_no"],
+                      "yesno_prompt": v["prompt"]})
     write_jsonl(out / "recog.jsonl.gz", recog)
+    # The exact generation prompts (one per category and wording), for the record and the appendix.
+    write_json(out / "prompts.json", {"generation": {f"{cid}|template{ti}": p for (cid, ti), p in prompt_cache.items()},
+                                      "templates": templates, "answer_prefix": pre})
 
     # ---------------- sampling sanity check (template 0 only)
-    sc_results = []
+    sc_results, sample_rows = [], []
     if args.sample_check:
         names = defaultdict(dict)
         for e in ents:
@@ -143,11 +150,14 @@ def main():
                                            seed=args.seed)
                 res = check(samples, tok, cat_items, spec_name, names[cid])
                 res["category"] = cid
+                for i, row in enumerate(res.pop("_samples")):  # every generated answer, kept verbatim
+                    sample_rows.append({"spec": spec_name, "category": cid, "i": i} | row)
                 sc_results.append(res)
                 print(f"[sample] {spec_name:12s} {cid:28s} valid {res['n_valid_text']:4d} distinct "
                       f"{res['distinct_valid']:3d} violations {res['violations']} boundary {res['boundary_hits']} "
                       f"exact_viol {res['exact_violations']} noncanonical {res['noncanonical']}", flush=True)
         write_json(out / "sample_check.json", sc_results)
+        write_jsonl(out / "samples.jsonl.gz", sample_rows)
 
     secs = time.time() - t0
     meta = run_meta(model, args.model) | {"chat": chat, "specs": specs, "templates": templates,

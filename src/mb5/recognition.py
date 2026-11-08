@@ -17,7 +17,7 @@ import random
 
 import torch
 
-from .prompts import BASE_MC_SHOTS, BASE_YESNO_SHOTS, MC, YESNO, encode_prompt, letter_tokens, render, yes_no_tokens
+from .prompts import BASE_MC_SHOTS, MC, encode_prompt, letter_tokens, render, render_yesno, yes_no_tokens
 
 
 @torch.no_grad()
@@ -46,17 +46,18 @@ def _lse(xs):
     return m + math.log(sum(math.exp(x - m) for x in xs))
 
 
-def yesno_scores(model, tok, chat: bool, queries: list[dict], device, pad_id, batch_size=32) -> list[float]:
-    """queries: dicts with 'name' and 'singular'. Returns V in [0,1]."""
+def yesno_scores(model, tok, chat: bool, queries: list[dict], device, pad_id, batch_size=32) -> list[dict]:
+    """queries: dicts with 'name' and 'singular'. Returns per query
+    {'V': P(Yes)/(P(Yes)+P(No)) in [0,1], 'logp_yes', 'logp_no' (pooled over
+    token variants, full-vocabulary log-probabilities), 'prompt' (exact text)}."""
     yes, no = yes_no_tokens(tok, chat)
-    shots = "" if chat else BASE_YESNO_SHOTS
-    prompts = [encode_prompt(tok, render(tok, YESNO.format(name=q["name"], singular=q["singular"]), chat, shots), chat)
-               for q in queries]
+    texts = [render_yesno(tok, q["name"], q["singular"], chat) for q in queries]
+    prompts = [encode_prompt(tok, t, chat) for t in texts]
     lps = next_token_logprobs(model, prompts, yes + no, device, pad_id, batch_size)
     out = []
-    for lp in lps:
+    for lp, t in zip(lps, texts):
         ly, ln = _lse(lp[: len(yes)]), _lse(lp[len(yes):])
-        out.append(1.0 / (1.0 + math.exp(ln - ly)))
+        out.append({"V": 1.0 / (1.0 + math.exp(ln - ly)), "logp_yes": ly, "logp_no": ln, "prompt": t})
     return out
 
 
@@ -67,21 +68,25 @@ def mc_scores(model, tok, chat: bool, queries: list[dict], foil_pool: dict[str, 
     rng = random.Random(seed)
     letters = letter_tokens(tok, chat)
     shots = "" if chat else BASE_MC_SHOTS
-    prompts, answers = [], []
+    prompts, answers, options, texts = [], [], [], []
     for q in queries:
         pool = [f for f in foil_pool.get(q["category"], []) if f.casefold() != q["name"].casefold()]
         foils = rng.sample(pool, 3) if len(pool) >= 3 else (pool + ["(none)"] * 3)[:3]
         opts = foils + [q["name"]]
         rng.shuffle(opts)
         ans = opts.index(q["name"])
-        text = MC.format(singular=q["singular"], a=opts[0], b=opts[1], c=opts[2], d=opts[3])
-        prompts.append(encode_prompt(tok, render(tok, text, chat, shots), chat))
+        text = render(tok, MC.format(singular=q["singular"], a=opts[0], b=opts[1], c=opts[2], d=opts[3]), chat, shots)
+        prompts.append(encode_prompt(tok, text, chat))
         answers.append(ans)
+        options.append(opts)
+        texts.append(text)
     lps = next_token_logprobs(model, prompts, letters, device, pad_id, batch_size)
     out = []
-    for lp, a in zip(lps, answers):
+    for lp, a, opts, t in zip(lps, answers, options, texts):
         m = max(lp)
         ps = [math.exp(x - m) for x in lp]
         s = sum(ps)
-        out.append({"p_correct": ps[a] / s, "correct": int(max(range(4), key=lp.__getitem__) == a)})
+        out.append({"p_correct": ps[a] / s, "correct": int(max(range(4), key=lp.__getitem__) == a),
+                    "options": opts, "answer": "ABCD"[a], "chosen": "ABCD"[max(range(4), key=lp.__getitem__)],
+                    "letter_probs": [p / s for p in ps], "prompt": t})
     return out

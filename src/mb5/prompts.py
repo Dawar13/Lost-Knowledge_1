@@ -27,12 +27,33 @@ MC = (
     "Answer with the letter only."
 )
 
-# Few-shot frames so base models answer in the right format. The examples are
-# deliberately unrelated to every TailCat category.
-BASE_YESNO_SHOTS = (
-    'Question: Is "Paris" a city in France? Answer Yes or No.\nAnswer: Yes\n\n'
-    'Question: Is "Lake Victoria" a mountain in Peru? Answer Yes or No.\nAnswer: No\n\n'
-)
+# Worked examples for the yes/no recognition probe, shown to BOTH base and chat
+# models (G0 attempt 3, option A in notes/decisions.md). Attempts 1 and 2 gave the
+# base model only the first and last example and the chat model none; the chat
+# model then said "Yes" too readily to plausible sibling foils. Two Yes, two No;
+# Kilimanjaro is a near miss (right type, neighbouring country). None of these is
+# a TailCat member or foil.
+YESNO_EXAMPLES = [
+    ("Paris", "a city in France", "Yes"),
+    ("Mount Kilimanjaro", "a mountain in Kenya", "No"),
+    ("Toni Morrison", "a novelist from the United States", "Yes"),
+    ("Lake Victoria", "a mountain in Peru", "No"),
+]
+BASE_YESNO_SHOTS = "".join(f"Question: {YESNO.format(name=n, singular=s)}\nAnswer: {a}\n\n"
+                           for n, s, a in YESNO_EXAMPLES)
+
+
+def render_yesno(tok, name: str, singular: str, chat: bool) -> str:
+    """Yes/no recognition prompt with the worked examples: plain Question/Answer
+    pairs for base models, prior user/assistant turns for chat models."""
+    q = YESNO.format(name=name, singular=singular)
+    if not chat:
+        return f"{BASE_YESNO_SHOTS}Question: {q}\nAnswer:"
+    msgs = []
+    for n, s, a in YESNO_EXAMPLES:
+        msgs += [{"role": "user", "content": YESNO.format(name=n, singular=s)}, {"role": "assistant", "content": a}]
+    msgs.append({"role": "user", "content": q})
+    return tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
 BASE_MC_SHOTS = (
     "Question: Which of the following is a planet?\nA. Sirius\nB. Mars\nC. Andromeda\nD. Halley\n"
     "Answer with the letter only.\nAnswer: B\n\n"

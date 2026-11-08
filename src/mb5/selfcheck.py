@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 import time
 from pathlib import Path
 
@@ -26,7 +27,7 @@ import torch
 
 from .common import (append_gpu_ledger, estimate_need_gib, is_chat_model, load_model, model_tag, peak_gib,
                      require_gpu_memory,
-                     run_meta, seed_all, write_json)
+                     run_meta, seed_all, write_json, write_jsonl)
 from .prompts import BASE_GEN_SHOTS, GEN_TEMPLATES, encode_prompt, render
 from .reachability import _forward_rows, score_items
 from .sample_check import generate_samples
@@ -150,6 +151,7 @@ def main():
 
     margins = [float(m) for m in args.margins.split(",")]
     required: dict[str, float] = {}
+    seq_rows: list[dict] = []
     rows, total = [], {"distinct": 0, "unreachable": 0, **{f"robust_unreachable@{m}": 0 for m in margins}}
     for spec_name in ([] if args.gap_only else [s for s in args.specs.split(",") if s in specs]):
         for c in cats:
@@ -158,13 +160,18 @@ def main():
             spec = None if spec_name == "shipped_hf" else specs[spec_name]
             samples = generate_samples(model, p_ids, args.n_samples, args.max_new_tokens, args.device,
                                        tok.pad_token_id, spec, seed=args.seed)
-            seqs = set()
+            seqs = Counter()
             for s in samples:
                 cut = next((i for i, t in enumerate(s) if t in eos), None)
-                seqs.add(tuple(s if cut is None else s[: cut + 1]))  # keep the sampled EOS: it was kept too
+                seqs[tuple(s if cut is None else s[: cut + 1])] += 1  # keep the sampled EOS: it was kept too
             items = [{"prompt_ids": p_ids, "answer_ids": list(q)} for q in sorted(seqs) if q]
             recs = score_items(model, items, {spec_name: specs[spec_name]}, device=args.device, batch_size=args.batch_size,
                                pad_id=tok.pad_token_id, progress=False, dstar=True)
+            for r in recs:  # every distinct sampled sequence, kept verbatim with its verdicts
+                seq_rows.append({"spec": spec_name, "category": c["id"], "text": tok.decode(r["answer_ids"]),
+                                 "ids": r["answer_ids"], "times_sampled": seqs[tuple(r["answer_ids"])],
+                                 "dstar": r[f"dstar__{spec_name}"], "reach_exact": r[f"reach__{spec_name}"],
+                                 "failpos_exact": r[f"failpos__{spec_name}"]})
             # Every sequence here was sampled, so at a valid margin eps none may have d* < -eps.
             need = [max(0.0, -r[f"dstar__{spec_name}"]) for r in recs]
             required[spec_name] = max([required.get(spec_name, 0.0)] + need)
@@ -200,6 +207,10 @@ def main():
                                         "epsilon_grid": list(EPS_GRID), "logit_gap": gap_stats, "rows": rows,
                                         "meta": run_meta(model, args.model) | {"seconds": secs, "peak_gpu_gib": peak_gib(), "args": vars(args),
                                                                                "specs": specs}})
+    if seq_rows:
+        write_jsonl(out / "selfcheck_samples.jsonl.gz", seq_rows)
+    if gap_stats is not None:  # raw values behind the summary statistics
+        write_jsonl(out / "logit_gap_raw.jsonl.gz", [{"stat": k, "values": gaps[k]} for k in GAP_KEYS])
     if args.device == "cuda":
         append_gpu_ledger("selfcheck", args.model, secs, note=f"{args.out} peak {peak_gib():.1f} GiB")
     print(f"[selfcheck] TOTAL distinct {total['distinct']} exact-unreachable {total['unreachable']} robust " +
