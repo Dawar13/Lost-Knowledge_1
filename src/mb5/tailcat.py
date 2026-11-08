@@ -138,6 +138,11 @@ def main():
     ap.add_argument("--foil-cap", type=int, default=None, help="override per-category foil cap")
     ap.add_argument("--only", default=None, help="comma-separated category ids")
     ap.add_argument("--refresh", action="store_true", help="ignore cached raw Wikidata results")
+    ap.add_argument("--drop-small", type=int, default=None,
+                    help="keep rule: drop categories with fewer members or foils than this (and failed ones), "
+                         "recorded as dropped in build_report.json, instead of stopping")
+    ap.add_argument("--cache-only", action="store_true", help="never query Wikidata; a category without a "
+                                                               "cached result counts as failed")
     args = ap.parse_args()
     cfg = yaml.safe_load(Path(args.config).read_text())
     s = cfg.get("settings", {})
@@ -159,6 +164,9 @@ def main():
         # other categories were built, skipped or failed.
         rng = random.Random(f"{seed}:{c['id']}")
         try:
+            if args.cache_only and not all((out / "raw" / f"{c['id']}.{k}.{args.lang}.json").exists()
+                                           for k in ("members", "foils")):
+                raise RuntimeError("no cached result (--cache-only)")
             mem = clean(cached_query(out, c["id"], "members", c["where"], args.lang, args.refresh), max_aliases)
             foil = clean(cached_query(out, c["id"], "foils", c["foil_where"], args.lang, args.refresh), 0)
         except RuntimeError as e:
@@ -182,13 +190,18 @@ def main():
         n_total = len(mem)
         mem = stratified_cap(mem, cap, bins, rng)
         foil = rng.sample(foil, min(foil_cap, len(foil)))
+        if args.drop_small and (len(mem) < args.drop_small or len(foil) < args.drop_small):
+            report.append({"category": c["id"], "dropped": "too small", "members_all": n_all, "min_sitelinks": min_sl,
+                           "members_total": n_total, "members_kept": len(mem), "foils_kept": len(foil)})
+            continue
         for m in mem:
             members_all.append({**m, "category": c["id"], "lang": args.lang})
         for f in foil:
             foils_all.append({"qid": f["qid"], "label": f["label"], "sitelinks": f["sitelinks"],
                               "category": c["id"], "lang": args.lang})
         cats.append({k: c[k] for k in ("id", "singular", "plural")} | {"control": bool(c.get("control", False)),
-                                                                     "n_members_total": n_total})
+                                                                     "n_members_total": n_total}
+                    | {k: c[k] for k in ("type", "country", "region", "language") if k in c})
         sl = sorted(m["sitelinks"] for m in mem) or [0]
         report.append({
             "category": c["id"], "members_all": n_all, "min_sitelinks": min_sl,
@@ -202,16 +215,23 @@ def main():
     write_jsonl(out / "foils.jsonl", foils_all)
     write_json(out / "build_report.json", report)
     write_json(out / "valid_names.json", valid_names)
+    if args.drop_small:
+        report += [{"category": cid, "dropped": "query failed"} for cid in failed]
+        write_json(out / "build_report.json", report)
     print("\n=== SANITY REPORT (read this) ===")
     for r in report:
+        if r.get("dropped"):
+            print(f"{r['category']:28s} DROPPED ({r['dropped']}) members {r.get('members_kept', '-')} "
+                  f"foils {r.get('foils_kept', '-')}")
+            continue
         flag = "" if r["members_kept"] >= 30 and r["foils_kept"] >= 30 else "   <-- TOO SMALL: fix the QID/query"
         print(f"{r['category']:28s} members {r['members_kept']:4d}/{r['members_total']:5d}  foils {r['foils_kept']:4d}"
               f"  median sitelinks {r['sitelinks_median']}{flag}")
         print(f"    e.g. {r['example_members']}\n    foils {r['example_foils']}")
     for cid in failed:
         print(f"{cid:28s} FAILED: Wikidata query did not complete; rewrite its query (see build log)")
-    print(f"\nWrote {len(members_all)} members, {len(foils_all)} foils to {out}")
-    if failed:
+    print(f"\nWrote {len(cats)} categories, {len(members_all)} members, {len(foils_all)} foils to {out}")
+    if failed and not args.drop_small:
         raise SystemExit(f"{len(failed)} categories failed: {failed}. Fix their queries and re-run "
                          "(successful categories are cached under raw/).")
 
