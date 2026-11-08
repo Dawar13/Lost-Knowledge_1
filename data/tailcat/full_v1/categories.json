@@ -1,0 +1,2424 @@
+[
+  {
+    "id": "poets__india",
+    "singular": "a poet from India",
+    "plural": "poets from India",
+    "control": false,
+    "n_members_total": 1521
+  },
+  {
+    "id": "poets__pakistan",
+    "singular": "a poet from Pakistan",
+    "plural": "poets from Pakistan",
+    "control": false,
+    "n_members_total": 408
+  },
+  {
+    "id": "poets__bangladesh",
+    "singular": "a poet from Bangladesh",
+    "plural": "poets from Bangladesh",
+    "control": false,
+    "n_members_total": 130
+  },
+  {
+    "id": "poets__sri_lanka",
+    "singular": "a poet from Sri Lanka",
+    "plural": "poets from Sri Lanka",
+    "control": false,
+    "n_members_total": 27
+  },
+  {
+    "id": "poets__nepal",
+    "singular": "a poet from Nepal",
+    "plural": "poets from Nepal",
+    "control": false,
+    "n_members_total": 58
+  },
+  {
+    "id": "poets__nigeria",
+    "singular": "a poet from Nigeria",
+    "plural": "poets from Nigeria",
+    "control": false,
+    "n_members_total": 135
+  },
+  {
+    "id": "poets__kenya",
+    "singular": "a poet from Kenya",
+    "plural": "poets from Kenya",
+    "control": false,
+    "n_members_total": 14
+  },
+  {
+    "id": "poets__ghana",
+    "singular": "a poet from Ghana",
+    "plural": "poets from Ghana",
+    "control": false,
+    "n_members_total": 33
+  },
+  {
+    "id": "poets__ethiopia",
+    "singular": "a poet from Ethiopia",
+    "plural": "poets from Ethiopia",
+    "control": false,
+    "n_members_total": 21
+  },
+  {
+    "id": "poets__south_africa",
+    "singular": "a poet from South Africa",
+    "plural": "poets from South Africa",
+    "control": false,
+    "n_members_total": 219
+  },
+  {
+    "id": "poets__indonesia",
+    "singular": "a poet from Indonesia",
+    "plural": "poets from Indonesia",
+    "control": false,
+    "n_members_total": 83
+  },
+  {
+    "id": "poets__philippines",
+    "singular": "a poet from the Philippines",
+    "plural": "poets from the Philippines",
+    "control": false,
+    "n_members_total": 82
+  },
+  {
+    "id": "poets__vietnam",
+    "singular": "a poet from Vietnam",
+    "plural": "poets from Vietnam",
+    "control": false,
+    "n_members_total": 114
+  },
+  {
+    "id": "poets__brazil",
+    "singular": "a poet from Brazil",
+    "plural": "poets from Brazil",
+    "control": false,
+    "n_members_total": 633
+  },
+  {
+    "id": "poets__mexico",
+    "singular": "a poet from Mexico",
+    "plural": "poets from Mexico",
+    "control": false,
+    "n_members_total": 395
+  },
+  {
+    "id": "poets__argentina",
+    "singular": "a poet from Argentina",
+    "plural": "poets from Argentina",
+    "control": false,
+    "n_members_total": 475
+  },
+  {
+    "id": "poets__colombia",
+    "singular": "a poet from Colombia",
+    "plural": "poets from Colombia",
+    "control": false,
+    "n_members_total": 106
+  },
+  {
+    "id": "poets__japan",
+    "singular": "a poet from Japan",
+    "plural": "poets from Japan",
+    "control": false,
+    "n_members_total": 747
+  },
+  {
+    "id": "poets__iran",
+    "singular": "a poet from Iran",
+    "plural": "poets from Iran",
+    "control": false,
+    "n_members_total": 479
+  },
+  {
+    "id": "poets__turkey",
+    "singular": "a poet from Turkey",
+    "plural": "poets from Turkey",
+    "control": false,
+    "n_members_total": 330
+  },
+  {
+    "id": "poets__poland",
+    "singular": "a poet from Poland",
+    "plural": "poets from Poland",
+    "control": false,
+    "n_members_total": 1509
+  },
+  {
+    "id": "poets__finland",
+    "singular": "a poet from Finland",
+    "plural": "poets from Finland",
+    "control": false,
+    "n_members_total": 454
+  },
+  {
+    "id": "poets__france",
+    "singular": "a poet from France",
+    "plural": "poets from France",
+    "control": false,
+    "n_members_total": 3604
+  },
+  {
+    "id": "poets__usa",
+    "singular": "a poet from the United States",
+    "plural": "poets from the United States",
+    "control": false,
+    "n_members_total": 4419
+  },
+  {
+    "id": "novelists__india",
+    "singular": "a novelist from India",
+    "plural": "novelists from India",
+    "control": false,
+    "n_members_total": 395
+  },
+  {
+    "id": "novelists__pakistan",
+    "singular": "a novelist from Pakistan",
+    "plural": "novelists from Pakistan",
+    "control": false,
+    "n_members_total": 81
+  },
+  {
+    "id": "novelists__bangladesh",
+    "singular": "a novelist from Bangladesh",
+    "plural": "novelists from Bangladesh",
+    "control": false,
+    "n_members_total": 27
+  },
+  {
+    "id": "novelists__sri_lanka",
+    "singular": "a novelist from Sri Lanka",
+    "plural": "novelists from Sri Lanka",
+    "control": false,
+    "n_members_total": 12
+  },
+  {
+    "id": "novelists__nepal",
+    "singular": "a novelist from Nepal",
+    "plural": "novelists from Nepal",
+    "control": false,
+    "n_members_total": 16
+  },
+  {
+    "id": "novelists__nigeria",
+    "singular": "a novelist from Nigeria",
+    "plural": "novelists from Nigeria",
+    "control": false,
+    "n_members_total": 84
+  },
+  {
+    "id": "novelists__kenya",
+    "singular": "a novelist from Kenya",
+    "plural": "novelists from Kenya",
+    "control": false,
+    "n_members_total": 15
+  },
+  {
+    "id": "novelists__ghana",
+    "singular": "a novelist from Ghana",
+    "plural": "novelists from Ghana",
+    "control": false,
+    "n_members_total": 30
+  },
+  {
+    "id": "novelists__ethiopia",
+    "singular": "a novelist from Ethiopia",
+    "plural": "novelists from Ethiopia",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "novelists__south_africa",
+    "singular": "a novelist from South Africa",
+    "plural": "novelists from South Africa",
+    "control": false,
+    "n_members_total": 96
+  },
+  {
+    "id": "novelists__indonesia",
+    "singular": "a novelist from Indonesia",
+    "plural": "novelists from Indonesia",
+    "control": false,
+    "n_members_total": 42
+  },
+  {
+    "id": "novelists__philippines",
+    "singular": "a novelist from the Philippines",
+    "plural": "novelists from the Philippines",
+    "control": false,
+    "n_members_total": 18
+  },
+  {
+    "id": "novelists__vietnam",
+    "singular": "a novelist from Vietnam",
+    "plural": "novelists from Vietnam",
+    "control": false,
+    "n_members_total": 14
+  },
+  {
+    "id": "novelists__brazil",
+    "singular": "a novelist from Brazil",
+    "plural": "novelists from Brazil",
+    "control": false,
+    "n_members_total": 339
+  },
+  {
+    "id": "novelists__mexico",
+    "singular": "a novelist from Mexico",
+    "plural": "novelists from Mexico",
+    "control": false,
+    "n_members_total": 101
+  },
+  {
+    "id": "novelists__argentina",
+    "singular": "a novelist from Argentina",
+    "plural": "novelists from Argentina",
+    "control": false,
+    "n_members_total": 112
+  },
+  {
+    "id": "novelists__colombia",
+    "singular": "a novelist from Colombia",
+    "plural": "novelists from Colombia",
+    "control": false,
+    "n_members_total": 63
+  },
+  {
+    "id": "novelists__japan",
+    "singular": "a novelist from Japan",
+    "plural": "novelists from Japan",
+    "control": false,
+    "n_members_total": 1477
+  },
+  {
+    "id": "novelists__iran",
+    "singular": "a novelist from Iran",
+    "plural": "novelists from Iran",
+    "control": false,
+    "n_members_total": 122
+  },
+  {
+    "id": "novelists__turkey",
+    "singular": "a novelist from Turkey",
+    "plural": "novelists from Turkey",
+    "control": false,
+    "n_members_total": 66
+  },
+  {
+    "id": "novelists__poland",
+    "singular": "a novelist from Poland",
+    "plural": "novelists from Poland",
+    "control": false,
+    "n_members_total": 76
+  },
+  {
+    "id": "novelists__finland",
+    "singular": "a novelist from Finland",
+    "plural": "novelists from Finland",
+    "control": false,
+    "n_members_total": 45
+  },
+  {
+    "id": "novelists__france",
+    "singular": "a novelist from France",
+    "plural": "novelists from France",
+    "control": false,
+    "n_members_total": 1737
+  },
+  {
+    "id": "painters__india",
+    "singular": "a painter from India",
+    "plural": "painters from India",
+    "control": false,
+    "n_members_total": 428
+  },
+  {
+    "id": "painters__pakistan",
+    "singular": "a painter from Pakistan",
+    "plural": "painters from Pakistan",
+    "control": false,
+    "n_members_total": 99
+  },
+  {
+    "id": "painters__bangladesh",
+    "singular": "a painter from Bangladesh",
+    "plural": "painters from Bangladesh",
+    "control": false,
+    "n_members_total": 58
+  },
+  {
+    "id": "painters__sri_lanka",
+    "singular": "a painter from Sri Lanka",
+    "plural": "painters from Sri Lanka",
+    "control": false,
+    "n_members_total": 11
+  },
+  {
+    "id": "painters__nepal",
+    "singular": "a painter from Nepal",
+    "plural": "painters from Nepal",
+    "control": false,
+    "n_members_total": 6
+  },
+  {
+    "id": "painters__nigeria",
+    "singular": "a painter from Nigeria",
+    "plural": "painters from Nigeria",
+    "control": false,
+    "n_members_total": 73
+  },
+  {
+    "id": "painters__kenya",
+    "singular": "a painter from Kenya",
+    "plural": "painters from Kenya",
+    "control": false,
+    "n_members_total": 6
+  },
+  {
+    "id": "painters__ghana",
+    "singular": "a painter from Ghana",
+    "plural": "painters from Ghana",
+    "control": false,
+    "n_members_total": 26
+  },
+  {
+    "id": "painters__ethiopia",
+    "singular": "a painter from Ethiopia",
+    "plural": "painters from Ethiopia",
+    "control": false,
+    "n_members_total": 18
+  },
+  {
+    "id": "painters__south_africa",
+    "singular": "a painter from South Africa",
+    "plural": "painters from South Africa",
+    "control": false,
+    "n_members_total": 145
+  },
+  {
+    "id": "painters__indonesia",
+    "singular": "a painter from Indonesia",
+    "plural": "painters from Indonesia",
+    "control": false,
+    "n_members_total": 95
+  },
+  {
+    "id": "painters__philippines",
+    "singular": "a painter from the Philippines",
+    "plural": "painters from the Philippines",
+    "control": false,
+    "n_members_total": 86
+  },
+  {
+    "id": "painters__vietnam",
+    "singular": "a painter from Vietnam",
+    "plural": "painters from Vietnam",
+    "control": false,
+    "n_members_total": 55
+  },
+  {
+    "id": "painters__brazil",
+    "singular": "a painter from Brazil",
+    "plural": "painters from Brazil",
+    "control": false,
+    "n_members_total": 673
+  },
+  {
+    "id": "painters__mexico",
+    "singular": "a painter from Mexico",
+    "plural": "painters from Mexico",
+    "control": false,
+    "n_members_total": 569
+  },
+  {
+    "id": "painters__argentina",
+    "singular": "a painter from Argentina",
+    "plural": "painters from Argentina",
+    "control": false,
+    "n_members_total": 445
+  },
+  {
+    "id": "painters__colombia",
+    "singular": "a painter from Colombia",
+    "plural": "painters from Colombia",
+    "control": false,
+    "n_members_total": 135
+  },
+  {
+    "id": "painters__japan",
+    "singular": "a painter from Japan",
+    "plural": "painters from Japan",
+    "control": false,
+    "n_members_total": 1240
+  },
+  {
+    "id": "painters__iran",
+    "singular": "a painter from Iran",
+    "plural": "painters from Iran",
+    "control": false,
+    "n_members_total": 232
+  },
+  {
+    "id": "painters__turkey",
+    "singular": "a painter from Turkey",
+    "plural": "painters from Turkey",
+    "control": false,
+    "n_members_total": 216
+  },
+  {
+    "id": "painters__poland",
+    "singular": "a painter from Poland",
+    "plural": "painters from Poland",
+    "control": false,
+    "n_members_total": 1848
+  },
+  {
+    "id": "painters__finland",
+    "singular": "a painter from Finland",
+    "plural": "painters from Finland",
+    "control": false,
+    "n_members_total": 632
+  },
+  {
+    "id": "painters__usa",
+    "singular": "a painter from the United States",
+    "plural": "painters from the United States",
+    "control": false,
+    "n_members_total": 6808
+  },
+  {
+    "id": "film_directors__india",
+    "singular": "a film director from India",
+    "plural": "film directors from India",
+    "control": false,
+    "n_members_total": 2577
+  },
+  {
+    "id": "film_directors__pakistan",
+    "singular": "a film director from Pakistan",
+    "plural": "film directors from Pakistan",
+    "control": false,
+    "n_members_total": 186
+  },
+  {
+    "id": "film_directors__bangladesh",
+    "singular": "a film director from Bangladesh",
+    "plural": "film directors from Bangladesh",
+    "control": false,
+    "n_members_total": 162
+  },
+  {
+    "id": "film_directors__sri_lanka",
+    "singular": "a film director from Sri Lanka",
+    "plural": "film directors from Sri Lanka",
+    "control": false,
+    "n_members_total": 52
+  },
+  {
+    "id": "film_directors__nepal",
+    "singular": "a film director from Nepal",
+    "plural": "film directors from Nepal",
+    "control": false,
+    "n_members_total": 53
+  },
+  {
+    "id": "film_directors__nigeria",
+    "singular": "a film director from Nigeria",
+    "plural": "film directors from Nigeria",
+    "control": false,
+    "n_members_total": 269
+  },
+  {
+    "id": "film_directors__kenya",
+    "singular": "a film director from Kenya",
+    "plural": "film directors from Kenya",
+    "control": false,
+    "n_members_total": 29
+  },
+  {
+    "id": "film_directors__ghana",
+    "singular": "a film director from Ghana",
+    "plural": "film directors from Ghana",
+    "control": false,
+    "n_members_total": 40
+  },
+  {
+    "id": "film_directors__ethiopia",
+    "singular": "a film director from Ethiopia",
+    "plural": "film directors from Ethiopia",
+    "control": false,
+    "n_members_total": 10
+  },
+  {
+    "id": "film_directors__south_africa",
+    "singular": "a film director from South Africa",
+    "plural": "film directors from South Africa",
+    "control": false,
+    "n_members_total": 151
+  },
+  {
+    "id": "film_directors__indonesia",
+    "singular": "a film director from Indonesia",
+    "plural": "film directors from Indonesia",
+    "control": false,
+    "n_members_total": 173
+  },
+  {
+    "id": "film_directors__philippines",
+    "singular": "a film director from the Philippines",
+    "plural": "film directors from the Philippines",
+    "control": false,
+    "n_members_total": 169
+  },
+  {
+    "id": "film_directors__vietnam",
+    "singular": "a film director from Vietnam",
+    "plural": "film directors from Vietnam",
+    "control": false,
+    "n_members_total": 49
+  },
+  {
+    "id": "film_directors__brazil",
+    "singular": "a film director from Brazil",
+    "plural": "film directors from Brazil",
+    "control": false,
+    "n_members_total": 523
+  },
+  {
+    "id": "film_directors__mexico",
+    "singular": "a film director from Mexico",
+    "plural": "film directors from Mexico",
+    "control": false,
+    "n_members_total": 439
+  },
+  {
+    "id": "film_directors__argentina",
+    "singular": "a film director from Argentina",
+    "plural": "film directors from Argentina",
+    "control": false,
+    "n_members_total": 497
+  },
+  {
+    "id": "film_directors__colombia",
+    "singular": "a film director from Colombia",
+    "plural": "film directors from Colombia",
+    "control": false,
+    "n_members_total": 97
+  },
+  {
+    "id": "film_directors__japan",
+    "singular": "a film director from Japan",
+    "plural": "film directors from Japan",
+    "control": false,
+    "n_members_total": 1405
+  },
+  {
+    "id": "film_directors__iran",
+    "singular": "a film director from Iran",
+    "plural": "film directors from Iran",
+    "control": false,
+    "n_members_total": 697
+  },
+  {
+    "id": "film_directors__turkey",
+    "singular": "a film director from Turkey",
+    "plural": "film directors from Turkey",
+    "control": false,
+    "n_members_total": 377
+  },
+  {
+    "id": "film_directors__poland",
+    "singular": "a film director from Poland",
+    "plural": "film directors from Poland",
+    "control": false,
+    "n_members_total": 798
+  },
+  {
+    "id": "film_directors__finland",
+    "singular": "a film director from Finland",
+    "plural": "film directors from Finland",
+    "control": false,
+    "n_members_total": 462
+  },
+  {
+    "id": "film_directors__france",
+    "singular": "a film director from France",
+    "plural": "film directors from France",
+    "control": false,
+    "n_members_total": 4275
+  },
+  {
+    "id": "film_directors__usa",
+    "singular": "a film director from the United States",
+    "plural": "film directors from the United States",
+    "control": false,
+    "n_members_total": 10536
+  },
+  {
+    "id": "composers__india",
+    "singular": "a composer from India",
+    "plural": "composers from India",
+    "control": false,
+    "n_members_total": 814
+  },
+  {
+    "id": "composers__pakistan",
+    "singular": "a composer from Pakistan",
+    "plural": "composers from Pakistan",
+    "control": false,
+    "n_members_total": 86
+  },
+  {
+    "id": "composers__bangladesh",
+    "singular": "a composer from Bangladesh",
+    "plural": "composers from Bangladesh",
+    "control": false,
+    "n_members_total": 55
+  },
+  {
+    "id": "composers__sri_lanka",
+    "singular": "a composer from Sri Lanka",
+    "plural": "composers from Sri Lanka",
+    "control": false,
+    "n_members_total": 15
+  },
+  {
+    "id": "composers__nepal",
+    "singular": "a composer from Nepal",
+    "plural": "composers from Nepal",
+    "control": false,
+    "n_members_total": 14
+  },
+  {
+    "id": "composers__nigeria",
+    "singular": "a composer from Nigeria",
+    "plural": "composers from Nigeria",
+    "control": false,
+    "n_members_total": 51
+  },
+  {
+    "id": "composers__kenya",
+    "singular": "a composer from Kenya",
+    "plural": "composers from Kenya",
+    "control": false,
+    "n_members_total": 6
+  },
+  {
+    "id": "composers__ghana",
+    "singular": "a composer from Ghana",
+    "plural": "composers from Ghana",
+    "control": false,
+    "n_members_total": 38
+  },
+  {
+    "id": "composers__ethiopia",
+    "singular": "a composer from Ethiopia",
+    "plural": "composers from Ethiopia",
+    "control": false,
+    "n_members_total": 13
+  },
+  {
+    "id": "composers__south_africa",
+    "singular": "a composer from South Africa",
+    "plural": "composers from South Africa",
+    "control": false,
+    "n_members_total": 151
+  },
+  {
+    "id": "composers__indonesia",
+    "singular": "a composer from Indonesia",
+    "plural": "composers from Indonesia",
+    "control": false,
+    "n_members_total": 82
+  },
+  {
+    "id": "composers__philippines",
+    "singular": "a composer from the Philippines",
+    "plural": "composers from the Philippines",
+    "control": false,
+    "n_members_total": 84
+  },
+  {
+    "id": "composers__vietnam",
+    "singular": "a composer from Vietnam",
+    "plural": "composers from Vietnam",
+    "control": false,
+    "n_members_total": 49
+  },
+  {
+    "id": "composers__brazil",
+    "singular": "a composer from Brazil",
+    "plural": "composers from Brazil",
+    "control": false,
+    "n_members_total": 1026
+  },
+  {
+    "id": "composers__mexico",
+    "singular": "a composer from Mexico",
+    "plural": "composers from Mexico",
+    "control": false,
+    "n_members_total": 388
+  },
+  {
+    "id": "composers__argentina",
+    "singular": "a composer from Argentina",
+    "plural": "composers from Argentina",
+    "control": false,
+    "n_members_total": 797
+  },
+  {
+    "id": "composers__colombia",
+    "singular": "a composer from Colombia",
+    "plural": "composers from Colombia",
+    "control": false,
+    "n_members_total": 194
+  },
+  {
+    "id": "composers__japan",
+    "singular": "a composer from Japan",
+    "plural": "composers from Japan",
+    "control": false,
+    "n_members_total": 1635
+  },
+  {
+    "id": "composers__iran",
+    "singular": "a composer from Iran",
+    "plural": "composers from Iran",
+    "control": false,
+    "n_members_total": 297
+  },
+  {
+    "id": "composers__turkey",
+    "singular": "a composer from Turkey",
+    "plural": "composers from Turkey",
+    "control": false,
+    "n_members_total": 345
+  },
+  {
+    "id": "composers__poland",
+    "singular": "a composer from Poland",
+    "plural": "composers from Poland",
+    "control": false,
+    "n_members_total": 999
+  },
+  {
+    "id": "composers__finland",
+    "singular": "a composer from Finland",
+    "plural": "composers from Finland",
+    "control": false,
+    "n_members_total": 630
+  },
+  {
+    "id": "composers__france",
+    "singular": "a composer from France",
+    "plural": "composers from France",
+    "control": false,
+    "n_members_total": 3723
+  },
+  {
+    "id": "composers__usa",
+    "singular": "a composer from the United States",
+    "plural": "composers from the United States",
+    "control": false,
+    "n_members_total": 11608
+  },
+  {
+    "id": "architects__india",
+    "singular": "an architect from India",
+    "plural": "architects from India",
+    "control": false,
+    "n_members_total": 75
+  },
+  {
+    "id": "architects__pakistan",
+    "singular": "an architect from Pakistan",
+    "plural": "architects from Pakistan",
+    "control": false,
+    "n_members_total": 26
+  },
+  {
+    "id": "architects__bangladesh",
+    "singular": "an architect from Bangladesh",
+    "plural": "architects from Bangladesh",
+    "control": false,
+    "n_members_total": 32
+  },
+  {
+    "id": "architects__sri_lanka",
+    "singular": "an architect from Sri Lanka",
+    "plural": "architects from Sri Lanka",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "architects__nepal",
+    "singular": "an architect from Nepal",
+    "plural": "architects from Nepal",
+    "control": false,
+    "n_members_total": 1
+  },
+  {
+    "id": "architects__nigeria",
+    "singular": "an architect from Nigeria",
+    "plural": "architects from Nigeria",
+    "control": false,
+    "n_members_total": 53
+  },
+  {
+    "id": "architects__kenya",
+    "singular": "an architect from Kenya",
+    "plural": "architects from Kenya",
+    "control": false,
+    "n_members_total": 2
+  },
+  {
+    "id": "architects__ghana",
+    "singular": "an architect from Ghana",
+    "plural": "architects from Ghana",
+    "control": false,
+    "n_members_total": 18
+  },
+  {
+    "id": "architects__ethiopia",
+    "singular": "an architect from Ethiopia",
+    "plural": "architects from Ethiopia",
+    "control": false,
+    "n_members_total": 0
+  },
+  {
+    "id": "architects__south_africa",
+    "singular": "an architect from South Africa",
+    "plural": "architects from South Africa",
+    "control": false,
+    "n_members_total": 42
+  },
+  {
+    "id": "architects__indonesia",
+    "singular": "an architect from Indonesia",
+    "plural": "architects from Indonesia",
+    "control": false,
+    "n_members_total": 16
+  },
+  {
+    "id": "architects__philippines",
+    "singular": "an architect from the Philippines",
+    "plural": "architects from the Philippines",
+    "control": false,
+    "n_members_total": 24
+  },
+  {
+    "id": "architects__vietnam",
+    "singular": "an architect from Vietnam",
+    "plural": "architects from Vietnam",
+    "control": false,
+    "n_members_total": 7
+  },
+  {
+    "id": "architects__brazil",
+    "singular": "an architect from Brazil",
+    "plural": "architects from Brazil",
+    "control": false,
+    "n_members_total": 270
+  },
+  {
+    "id": "architects__mexico",
+    "singular": "an architect from Mexico",
+    "plural": "architects from Mexico",
+    "control": false,
+    "n_members_total": 182
+  },
+  {
+    "id": "architects__argentina",
+    "singular": "an architect from Argentina",
+    "plural": "architects from Argentina",
+    "control": false,
+    "n_members_total": 205
+  },
+  {
+    "id": "architects__colombia",
+    "singular": "an architect from Colombia",
+    "plural": "architects from Colombia",
+    "control": false,
+    "n_members_total": 62
+  },
+  {
+    "id": "architects__japan",
+    "singular": "an architect from Japan",
+    "plural": "architects from Japan",
+    "control": false,
+    "n_members_total": 587
+  },
+  {
+    "id": "architects__iran",
+    "singular": "an architect from Iran",
+    "plural": "architects from Iran",
+    "control": false,
+    "n_members_total": 81
+  },
+  {
+    "id": "architects__turkey",
+    "singular": "an architect from Turkey",
+    "plural": "architects from Turkey",
+    "control": false,
+    "n_members_total": 123
+  },
+  {
+    "id": "architects__poland",
+    "singular": "an architect from Poland",
+    "plural": "architects from Poland",
+    "control": false,
+    "n_members_total": 989
+  },
+  {
+    "id": "architects__finland",
+    "singular": "an architect from Finland",
+    "plural": "architects from Finland",
+    "control": false,
+    "n_members_total": 476
+  },
+  {
+    "id": "architects__france",
+    "singular": "an architect from France",
+    "plural": "architects from France",
+    "control": false,
+    "n_members_total": 2607
+  },
+  {
+    "id": "architects__usa",
+    "singular": "an architect from the United States",
+    "plural": "architects from the United States",
+    "control": false,
+    "n_members_total": 2798
+  },
+  {
+    "id": "rivers__india",
+    "singular": "a river in India",
+    "plural": "rivers in India",
+    "control": false,
+    "n_members_total": 870
+  },
+  {
+    "id": "rivers__pakistan",
+    "singular": "a river in Pakistan",
+    "plural": "rivers in Pakistan",
+    "control": false,
+    "n_members_total": 68
+  },
+  {
+    "id": "rivers__bangladesh",
+    "singular": "a river in Bangladesh",
+    "plural": "rivers in Bangladesh",
+    "control": false,
+    "n_members_total": 178
+  },
+  {
+    "id": "rivers__sri_lanka",
+    "singular": "a river in Sri Lanka",
+    "plural": "rivers in Sri Lanka",
+    "control": false,
+    "n_members_total": 32
+  },
+  {
+    "id": "rivers__nepal",
+    "singular": "a river in Nepal",
+    "plural": "rivers in Nepal",
+    "control": false,
+    "n_members_total": 66
+  },
+  {
+    "id": "rivers__nigeria",
+    "singular": "a river in Nigeria",
+    "plural": "rivers in Nigeria",
+    "control": false,
+    "n_members_total": 82
+  },
+  {
+    "id": "rivers__kenya",
+    "singular": "a river in Kenya",
+    "plural": "rivers in Kenya",
+    "control": false,
+    "n_members_total": 181
+  },
+  {
+    "id": "rivers__ghana",
+    "singular": "a river in Ghana",
+    "plural": "rivers in Ghana",
+    "control": false,
+    "n_members_total": 45
+  },
+  {
+    "id": "rivers__ethiopia",
+    "singular": "a river in Ethiopia",
+    "plural": "rivers in Ethiopia",
+    "control": false,
+    "n_members_total": 146
+  },
+  {
+    "id": "rivers__south_africa",
+    "singular": "a river in South Africa",
+    "plural": "rivers in South Africa",
+    "control": false,
+    "n_members_total": 399
+  },
+  {
+    "id": "rivers__indonesia",
+    "singular": "a river in Indonesia",
+    "plural": "rivers in Indonesia",
+    "control": false,
+    "n_members_total": 390
+  },
+  {
+    "id": "rivers__philippines",
+    "singular": "a river in the Philippines",
+    "plural": "rivers in the Philippines",
+    "control": false,
+    "n_members_total": 101
+  },
+  {
+    "id": "rivers__vietnam",
+    "singular": "a river in Vietnam",
+    "plural": "rivers in Vietnam",
+    "control": false,
+    "n_members_total": 242
+  },
+  {
+    "id": "rivers__brazil",
+    "singular": "a river in Brazil",
+    "plural": "rivers in Brazil",
+    "control": false,
+    "n_members_total": 2266
+  },
+  {
+    "id": "rivers__mexico",
+    "singular": "a river in Mexico",
+    "plural": "rivers in Mexico",
+    "control": false,
+    "n_members_total": 182
+  },
+  {
+    "id": "rivers__argentina",
+    "singular": "a river in Argentina",
+    "plural": "rivers in Argentina",
+    "control": false,
+    "n_members_total": 159
+  },
+  {
+    "id": "rivers__colombia",
+    "singular": "a river in Colombia",
+    "plural": "rivers in Colombia",
+    "control": false,
+    "n_members_total": 139
+  },
+  {
+    "id": "rivers__japan",
+    "singular": "a river in Japan",
+    "plural": "rivers in Japan",
+    "control": false,
+    "n_members_total": 1057
+  },
+  {
+    "id": "rivers__iran",
+    "singular": "a river in Iran",
+    "plural": "rivers in Iran",
+    "control": false,
+    "n_members_total": 321
+  },
+  {
+    "id": "rivers__turkey",
+    "singular": "a river in Turkey",
+    "plural": "rivers in Turkey",
+    "control": false,
+    "n_members_total": 192
+  },
+  {
+    "id": "rivers__poland",
+    "singular": "a river in Poland",
+    "plural": "rivers in Poland",
+    "control": false,
+    "n_members_total": 1080
+  },
+  {
+    "id": "rivers__finland",
+    "singular": "a river in Finland",
+    "plural": "rivers in Finland",
+    "control": false,
+    "n_members_total": 345
+  },
+  {
+    "id": "rivers__france",
+    "singular": "a river in France",
+    "plural": "rivers in France",
+    "control": false,
+    "n_members_total": 3066
+  },
+  {
+    "id": "rivers__usa",
+    "singular": "a river in the United States",
+    "plural": "rivers in the United States",
+    "control": false,
+    "n_members_total": 7563
+  },
+  {
+    "id": "lakes__india",
+    "singular": "a lake in India",
+    "plural": "lakes in India",
+    "control": false,
+    "n_members_total": 291
+  },
+  {
+    "id": "lakes__pakistan",
+    "singular": "a lake in Pakistan",
+    "plural": "lakes in Pakistan",
+    "control": false,
+    "n_members_total": 50
+  },
+  {
+    "id": "lakes__bangladesh",
+    "singular": "a lake in Bangladesh",
+    "plural": "lakes in Bangladesh",
+    "control": false,
+    "n_members_total": 14
+  },
+  {
+    "id": "lakes__sri_lanka",
+    "singular": "a lake in Sri Lanka",
+    "plural": "lakes in Sri Lanka",
+    "control": false,
+    "n_members_total": 18
+  },
+  {
+    "id": "lakes__nepal",
+    "singular": "a lake in Nepal",
+    "plural": "lakes in Nepal",
+    "control": false,
+    "n_members_total": 37
+  },
+  {
+    "id": "lakes__nigeria",
+    "singular": "a lake in Nigeria",
+    "plural": "lakes in Nigeria",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "lakes__kenya",
+    "singular": "a lake in Kenya",
+    "plural": "lakes in Kenya",
+    "control": false,
+    "n_members_total": 23
+  },
+  {
+    "id": "lakes__ghana",
+    "singular": "a lake in Ghana",
+    "plural": "lakes in Ghana",
+    "control": false,
+    "n_members_total": 1
+  },
+  {
+    "id": "lakes__ethiopia",
+    "singular": "a lake in Ethiopia",
+    "plural": "lakes in Ethiopia",
+    "control": false,
+    "n_members_total": 20
+  },
+  {
+    "id": "lakes__south_africa",
+    "singular": "a lake in South Africa",
+    "plural": "lakes in South Africa",
+    "control": false,
+    "n_members_total": 8
+  },
+  {
+    "id": "lakes__indonesia",
+    "singular": "a lake in Indonesia",
+    "plural": "lakes in Indonesia",
+    "control": false,
+    "n_members_total": 180
+  },
+  {
+    "id": "lakes__philippines",
+    "singular": "a lake in the Philippines",
+    "plural": "lakes in the Philippines",
+    "control": false,
+    "n_members_total": 34
+  },
+  {
+    "id": "lakes__vietnam",
+    "singular": "a lake in Vietnam",
+    "plural": "lakes in Vietnam",
+    "control": false,
+    "n_members_total": 17
+  },
+  {
+    "id": "lakes__brazil",
+    "singular": "a lake in Brazil",
+    "plural": "lakes in Brazil",
+    "control": false,
+    "n_members_total": 1773
+  },
+  {
+    "id": "lakes__mexico",
+    "singular": "a lake in Mexico",
+    "plural": "lakes in Mexico",
+    "control": false,
+    "n_members_total": 26
+  },
+  {
+    "id": "lakes__argentina",
+    "singular": "a lake in Argentina",
+    "plural": "lakes in Argentina",
+    "control": false,
+    "n_members_total": 1072
+  },
+  {
+    "id": "lakes__colombia",
+    "singular": "a lake in Colombia",
+    "plural": "lakes in Colombia",
+    "control": false,
+    "n_members_total": 164
+  },
+  {
+    "id": "lakes__japan",
+    "singular": "a lake in Japan",
+    "plural": "lakes in Japan",
+    "control": false,
+    "n_members_total": 104
+  },
+  {
+    "id": "lakes__iran",
+    "singular": "a lake in Iran",
+    "plural": "lakes in Iran",
+    "control": false,
+    "n_members_total": 37
+  },
+  {
+    "id": "lakes__turkey",
+    "singular": "a lake in Turkey",
+    "plural": "lakes in Turkey",
+    "control": false,
+    "n_members_total": 109
+  },
+  {
+    "id": "lakes__poland",
+    "singular": "a lake in Poland",
+    "plural": "lakes in Poland",
+    "control": false,
+    "n_members_total": 988
+  },
+  {
+    "id": "lakes__finland",
+    "singular": "a lake in Finland",
+    "plural": "lakes in Finland",
+    "control": false,
+    "n_members_total": 3743
+  },
+  {
+    "id": "lakes__france",
+    "singular": "a lake in France",
+    "plural": "lakes in France",
+    "control": false,
+    "n_members_total": 328
+  },
+  {
+    "id": "lakes__usa",
+    "singular": "a lake in the United States",
+    "plural": "lakes in the United States",
+    "control": false,
+    "n_members_total": 3201
+  },
+  {
+    "id": "mountains__india",
+    "singular": "a mountain in India",
+    "plural": "mountains in India",
+    "control": false,
+    "n_members_total": 333
+  },
+  {
+    "id": "mountains__pakistan",
+    "singular": "a mountain in Pakistan",
+    "plural": "mountains in Pakistan",
+    "control": false,
+    "n_members_total": 168
+  },
+  {
+    "id": "mountains__bangladesh",
+    "singular": "a mountain in Bangladesh",
+    "plural": "mountains in Bangladesh",
+    "control": false,
+    "n_members_total": 13
+  },
+  {
+    "id": "mountains__sri_lanka",
+    "singular": "a mountain in Sri Lanka",
+    "plural": "mountains in Sri Lanka",
+    "control": false,
+    "n_members_total": 28
+  },
+  {
+    "id": "mountains__nepal",
+    "singular": "a mountain in Nepal",
+    "plural": "mountains in Nepal",
+    "control": false,
+    "n_members_total": 160
+  },
+  {
+    "id": "mountains__nigeria",
+    "singular": "a mountain in Nigeria",
+    "plural": "mountains in Nigeria",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "mountains__kenya",
+    "singular": "a mountain in Kenya",
+    "plural": "mountains in Kenya",
+    "control": false,
+    "n_members_total": 31
+  },
+  {
+    "id": "mountains__ghana",
+    "singular": "a mountain in Ghana",
+    "plural": "mountains in Ghana",
+    "control": false,
+    "n_members_total": 8
+  },
+  {
+    "id": "mountains__ethiopia",
+    "singular": "a mountain in Ethiopia",
+    "plural": "mountains in Ethiopia",
+    "control": false,
+    "n_members_total": 85
+  },
+  {
+    "id": "mountains__south_africa",
+    "singular": "a mountain in South Africa",
+    "plural": "mountains in South Africa",
+    "control": false,
+    "n_members_total": 142
+  },
+  {
+    "id": "mountains__indonesia",
+    "singular": "a mountain in Indonesia",
+    "plural": "mountains in Indonesia",
+    "control": false,
+    "n_members_total": 2095
+  },
+  {
+    "id": "mountains__philippines",
+    "singular": "a mountain in the Philippines",
+    "plural": "mountains in the Philippines",
+    "control": false,
+    "n_members_total": 121
+  },
+  {
+    "id": "mountains__vietnam",
+    "singular": "a mountain in Vietnam",
+    "plural": "mountains in Vietnam",
+    "control": false,
+    "n_members_total": 46
+  },
+  {
+    "id": "mountains__brazil",
+    "singular": "a mountain in Brazil",
+    "plural": "mountains in Brazil",
+    "control": false,
+    "n_members_total": 160
+  },
+  {
+    "id": "mountains__mexico",
+    "singular": "a mountain in Mexico",
+    "plural": "mountains in Mexico",
+    "control": false,
+    "n_members_total": 139
+  },
+  {
+    "id": "mountains__argentina",
+    "singular": "a mountain in Argentina",
+    "plural": "mountains in Argentina",
+    "control": false,
+    "n_members_total": 238
+  },
+  {
+    "id": "mountains__colombia",
+    "singular": "a mountain in Colombia",
+    "plural": "mountains in Colombia",
+    "control": false,
+    "n_members_total": 60
+  },
+  {
+    "id": "mountains__japan",
+    "singular": "a mountain in Japan",
+    "plural": "mountains in Japan",
+    "control": false,
+    "n_members_total": 1973
+  },
+  {
+    "id": "mountains__iran",
+    "singular": "a mountain in Iran",
+    "plural": "mountains in Iran",
+    "control": false,
+    "n_members_total": 246
+  },
+  {
+    "id": "mountains__turkey",
+    "singular": "a mountain in Turkey",
+    "plural": "mountains in Turkey",
+    "control": false,
+    "n_members_total": 206
+  },
+  {
+    "id": "mountains__poland",
+    "singular": "a mountain in Poland",
+    "plural": "mountains in Poland",
+    "control": false,
+    "n_members_total": 925
+  },
+  {
+    "id": "mountains__finland",
+    "singular": "a mountain in Finland",
+    "plural": "mountains in Finland",
+    "control": false,
+    "n_members_total": 177
+  },
+  {
+    "id": "mountains__france",
+    "singular": "a mountain in France",
+    "plural": "mountains in France",
+    "control": false,
+    "n_members_total": 1640
+  },
+  {
+    "id": "mountains__usa",
+    "singular": "a mountain in the United States",
+    "plural": "mountains in the United States",
+    "control": false,
+    "n_members_total": 3589
+  },
+  {
+    "id": "islands__india",
+    "singular": "an island of India",
+    "plural": "islands of India",
+    "control": false,
+    "n_members_total": 153
+  },
+  {
+    "id": "islands__pakistan",
+    "singular": "an island of Pakistan",
+    "plural": "islands of Pakistan",
+    "control": false,
+    "n_members_total": 12
+  },
+  {
+    "id": "islands__bangladesh",
+    "singular": "an island of Bangladesh",
+    "plural": "islands of Bangladesh",
+    "control": false,
+    "n_members_total": 25
+  },
+  {
+    "id": "islands__sri_lanka",
+    "singular": "an island of Sri Lanka",
+    "plural": "islands of Sri Lanka",
+    "control": false,
+    "n_members_total": 13
+  },
+  {
+    "id": "islands__nepal",
+    "singular": "an island of Nepal",
+    "plural": "islands of Nepal",
+    "control": false,
+    "n_members_total": 0
+  },
+  {
+    "id": "islands__nigeria",
+    "singular": "an island of Nigeria",
+    "plural": "islands of Nigeria",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "islands__kenya",
+    "singular": "an island of Kenya",
+    "plural": "islands of Kenya",
+    "control": false,
+    "n_members_total": 91
+  },
+  {
+    "id": "islands__ghana",
+    "singular": "an island of Ghana",
+    "plural": "islands of Ghana",
+    "control": false,
+    "n_members_total": 2
+  },
+  {
+    "id": "islands__ethiopia",
+    "singular": "an island of Ethiopia",
+    "plural": "islands of Ethiopia",
+    "control": false,
+    "n_members_total": 8
+  },
+  {
+    "id": "islands__south_africa",
+    "singular": "an island of South Africa",
+    "plural": "islands of South Africa",
+    "control": false,
+    "n_members_total": 20
+  },
+  {
+    "id": "islands__indonesia",
+    "singular": "an island of Indonesia",
+    "plural": "islands of Indonesia",
+    "control": false,
+    "n_members_total": 797
+  },
+  {
+    "id": "islands__philippines",
+    "singular": "an island of the Philippines",
+    "plural": "islands of the Philippines",
+    "control": false,
+    "n_members_total": 367
+  },
+  {
+    "id": "islands__vietnam",
+    "singular": "an island of Vietnam",
+    "plural": "islands of Vietnam",
+    "control": false,
+    "n_members_total": 85
+  },
+  {
+    "id": "islands__brazil",
+    "singular": "an island of Brazil",
+    "plural": "islands of Brazil",
+    "control": false,
+    "n_members_total": 164
+  },
+  {
+    "id": "islands__mexico",
+    "singular": "an island of Mexico",
+    "plural": "islands of Mexico",
+    "control": false,
+    "n_members_total": 271
+  },
+  {
+    "id": "islands__argentina",
+    "singular": "an island of Argentina",
+    "plural": "islands of Argentina",
+    "control": false,
+    "n_members_total": 48
+  },
+  {
+    "id": "islands__colombia",
+    "singular": "an island of Colombia",
+    "plural": "islands of Colombia",
+    "control": false,
+    "n_members_total": 36
+  },
+  {
+    "id": "islands__japan",
+    "singular": "an island of Japan",
+    "plural": "islands of Japan",
+    "control": false,
+    "n_members_total": 630
+  },
+  {
+    "id": "islands__iran",
+    "singular": "an island of Iran",
+    "plural": "islands of Iran",
+    "control": false,
+    "n_members_total": 30
+  },
+  {
+    "id": "islands__turkey",
+    "singular": "an island of Turkey",
+    "plural": "islands of Turkey",
+    "control": false,
+    "n_members_total": 98
+  },
+  {
+    "id": "islands__poland",
+    "singular": "an island of Poland",
+    "plural": "islands of Poland",
+    "control": false,
+    "n_members_total": 31
+  },
+  {
+    "id": "islands__finland",
+    "singular": "an island of Finland",
+    "plural": "islands of Finland",
+    "control": false,
+    "n_members_total": 13406
+  },
+  {
+    "id": "islands__france",
+    "singular": "an island of France",
+    "plural": "islands of France",
+    "control": false,
+    "n_members_total": 644
+  },
+  {
+    "id": "islands__usa",
+    "singular": "an island of the United States",
+    "plural": "islands of the United States",
+    "control": false,
+    "n_members_total": 1820
+  },
+  {
+    "id": "universities__india",
+    "singular": "a university in India",
+    "plural": "universities in India",
+    "control": false,
+    "n_members_total": 632
+  },
+  {
+    "id": "universities__pakistan",
+    "singular": "a university in Pakistan",
+    "plural": "universities in Pakistan",
+    "control": false,
+    "n_members_total": 155
+  },
+  {
+    "id": "universities__bangladesh",
+    "singular": "a university in Bangladesh",
+    "plural": "universities in Bangladesh",
+    "control": false,
+    "n_members_total": 38
+  },
+  {
+    "id": "universities__sri_lanka",
+    "singular": "a university in Sri Lanka",
+    "plural": "universities in Sri Lanka",
+    "control": false,
+    "n_members_total": 21
+  },
+  {
+    "id": "universities__nepal",
+    "singular": "a university in Nepal",
+    "plural": "universities in Nepal",
+    "control": false,
+    "n_members_total": 27
+  },
+  {
+    "id": "universities__nigeria",
+    "singular": "a university in Nigeria",
+    "plural": "universities in Nigeria",
+    "control": false,
+    "n_members_total": 179
+  },
+  {
+    "id": "universities__kenya",
+    "singular": "a university in Kenya",
+    "plural": "universities in Kenya",
+    "control": false,
+    "n_members_total": 41
+  },
+  {
+    "id": "universities__ghana",
+    "singular": "a university in Ghana",
+    "plural": "universities in Ghana",
+    "control": false,
+    "n_members_total": 20
+  },
+  {
+    "id": "universities__ethiopia",
+    "singular": "a university in Ethiopia",
+    "plural": "universities in Ethiopia",
+    "control": false,
+    "n_members_total": 36
+  },
+  {
+    "id": "universities__south_africa",
+    "singular": "a university in South Africa",
+    "plural": "universities in South Africa",
+    "control": false,
+    "n_members_total": 49
+  },
+  {
+    "id": "universities__indonesia",
+    "singular": "a university in Indonesia",
+    "plural": "universities in Indonesia",
+    "control": false,
+    "n_members_total": 294
+  },
+  {
+    "id": "universities__philippines",
+    "singular": "a university in the Philippines",
+    "plural": "universities in the Philippines",
+    "control": false,
+    "n_members_total": 273
+  },
+  {
+    "id": "universities__vietnam",
+    "singular": "a university in Vietnam",
+    "plural": "universities in Vietnam",
+    "control": false,
+    "n_members_total": 100
+  },
+  {
+    "id": "universities__brazil",
+    "singular": "a university in Brazil",
+    "plural": "universities in Brazil",
+    "control": false,
+    "n_members_total": 145
+  },
+  {
+    "id": "universities__mexico",
+    "singular": "a university in Mexico",
+    "plural": "universities in Mexico",
+    "control": false,
+    "n_members_total": 117
+  },
+  {
+    "id": "universities__argentina",
+    "singular": "a university in Argentina",
+    "plural": "universities in Argentina",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "universities__colombia",
+    "singular": "a university in Colombia",
+    "plural": "universities in Colombia",
+    "control": false,
+    "n_members_total": 79
+  },
+  {
+    "id": "universities__japan",
+    "singular": "a university in Japan",
+    "plural": "universities in Japan",
+    "control": false,
+    "n_members_total": 696
+  },
+  {
+    "id": "universities__iran",
+    "singular": "a university in Iran",
+    "plural": "universities in Iran",
+    "control": false,
+    "n_members_total": 202
+  },
+  {
+    "id": "universities__turkey",
+    "singular": "a university in Turkey",
+    "plural": "universities in Turkey",
+    "control": false,
+    "n_members_total": 25
+  },
+  {
+    "id": "universities__poland",
+    "singular": "a university in Poland",
+    "plural": "universities in Poland",
+    "control": false,
+    "n_members_total": 37
+  },
+  {
+    "id": "universities__finland",
+    "singular": "a university in Finland",
+    "plural": "universities in Finland",
+    "control": false,
+    "n_members_total": 11
+  },
+  {
+    "id": "universities__france",
+    "singular": "a university in France",
+    "plural": "universities in France",
+    "control": false,
+    "n_members_total": 34
+  },
+  {
+    "id": "universities__usa",
+    "singular": "a university in the United States",
+    "plural": "universities in the United States",
+    "control": false,
+    "n_members_total": 1178
+  },
+  {
+    "id": "museums__india",
+    "singular": "a museum in India",
+    "plural": "museums in India",
+    "control": false,
+    "n_members_total": 254
+  },
+  {
+    "id": "museums__pakistan",
+    "singular": "a museum in Pakistan",
+    "plural": "museums in Pakistan",
+    "control": false,
+    "n_members_total": 25
+  },
+  {
+    "id": "museums__bangladesh",
+    "singular": "a museum in Bangladesh",
+    "plural": "museums in Bangladesh",
+    "control": false,
+    "n_members_total": 47
+  },
+  {
+    "id": "museums__sri_lanka",
+    "singular": "a museum in Sri Lanka",
+    "plural": "museums in Sri Lanka",
+    "control": false,
+    "n_members_total": 31
+  },
+  {
+    "id": "museums__nepal",
+    "singular": "a museum in Nepal",
+    "plural": "museums in Nepal",
+    "control": false,
+    "n_members_total": 9
+  },
+  {
+    "id": "museums__nigeria",
+    "singular": "a museum in Nigeria",
+    "plural": "museums in Nigeria",
+    "control": false,
+    "n_members_total": 21
+  },
+  {
+    "id": "museums__kenya",
+    "singular": "a museum in Kenya",
+    "plural": "museums in Kenya",
+    "control": false,
+    "n_members_total": 17
+  },
+  {
+    "id": "museums__ghana",
+    "singular": "a museum in Ghana",
+    "plural": "museums in Ghana",
+    "control": false,
+    "n_members_total": 12
+  },
+  {
+    "id": "museums__ethiopia",
+    "singular": "a museum in Ethiopia",
+    "plural": "museums in Ethiopia",
+    "control": false,
+    "n_members_total": 4
+  },
+  {
+    "id": "museums__south_africa",
+    "singular": "a museum in South Africa",
+    "plural": "museums in South Africa",
+    "control": false,
+    "n_members_total": 51
+  },
+  {
+    "id": "museums__indonesia",
+    "singular": "a museum in Indonesia",
+    "plural": "museums in Indonesia",
+    "control": false,
+    "n_members_total": 274
+  },
+  {
+    "id": "museums__philippines",
+    "singular": "a museum in the Philippines",
+    "plural": "museums in the Philippines",
+    "control": false,
+    "n_members_total": 39
+  },
+  {
+    "id": "museums__vietnam",
+    "singular": "a museum in Vietnam",
+    "plural": "museums in Vietnam",
+    "control": false,
+    "n_members_total": 27
+  },
+  {
+    "id": "museums__brazil",
+    "singular": "a museum in Brazil",
+    "plural": "museums in Brazil",
+    "control": false,
+    "n_members_total": 473
+  },
+  {
+    "id": "museums__mexico",
+    "singular": "a museum in Mexico",
+    "plural": "museums in Mexico",
+    "control": false,
+    "n_members_total": 239
+  },
+  {
+    "id": "museums__argentina",
+    "singular": "a museum in Argentina",
+    "plural": "museums in Argentina",
+    "control": false,
+    "n_members_total": 122
+  },
+  {
+    "id": "museums__colombia",
+    "singular": "a museum in Colombia",
+    "plural": "museums in Colombia",
+    "control": false,
+    "n_members_total": 80
+  },
+  {
+    "id": "museums__japan",
+    "singular": "a museum in Japan",
+    "plural": "museums in Japan",
+    "control": false,
+    "n_members_total": 382
+  },
+  {
+    "id": "museums__iran",
+    "singular": "a museum in Iran",
+    "plural": "museums in Iran",
+    "control": false,
+    "n_members_total": 40
+  },
+  {
+    "id": "museums__turkey",
+    "singular": "a museum in Turkey",
+    "plural": "museums in Turkey",
+    "control": false,
+    "n_members_total": 301
+  },
+  {
+    "id": "museums__poland",
+    "singular": "a museum in Poland",
+    "plural": "museums in Poland",
+    "control": false,
+    "n_members_total": 427
+  },
+  {
+    "id": "museums__finland",
+    "singular": "a museum in Finland",
+    "plural": "museums in Finland",
+    "control": false,
+    "n_members_total": 259
+  },
+  {
+    "id": "museums__france",
+    "singular": "a museum in France",
+    "plural": "museums in France",
+    "control": false,
+    "n_members_total": 903
+  },
+  {
+    "id": "museums__usa",
+    "singular": "a museum in the United States",
+    "plural": "museums in the United States",
+    "control": false,
+    "n_members_total": 1594
+  },
+  {
+    "id": "films__india",
+    "singular": "a film from India",
+    "plural": "films from India",
+    "control": false,
+    "n_members_total": 16083
+  },
+  {
+    "id": "films__pakistan",
+    "singular": "a film from Pakistan",
+    "plural": "films from Pakistan",
+    "control": false,
+    "n_members_total": 556
+  },
+  {
+    "id": "films__bangladesh",
+    "singular": "a film from Bangladesh",
+    "plural": "films from Bangladesh",
+    "control": false,
+    "n_members_total": 607
+  },
+  {
+    "id": "films__sri_lanka",
+    "singular": "a film from Sri Lanka",
+    "plural": "films from Sri Lanka",
+    "control": false,
+    "n_members_total": 172
+  },
+  {
+    "id": "films__nepal",
+    "singular": "a film from Nepal",
+    "plural": "films from Nepal",
+    "control": false,
+    "n_members_total": 161
+  },
+  {
+    "id": "films__nigeria",
+    "singular": "a film from Nigeria",
+    "plural": "films from Nigeria",
+    "control": false,
+    "n_members_total": 567
+  },
+  {
+    "id": "films__kenya",
+    "singular": "a film from Kenya",
+    "plural": "films from Kenya",
+    "control": false,
+    "n_members_total": 56
+  },
+  {
+    "id": "films__ghana",
+    "singular": "a film from Ghana",
+    "plural": "films from Ghana",
+    "control": false,
+    "n_members_total": 86
+  },
+  {
+    "id": "films__ethiopia",
+    "singular": "a film from Ethiopia",
+    "plural": "films from Ethiopia",
+    "control": false,
+    "n_members_total": 19
+  },
+  {
+    "id": "films__south_africa",
+    "singular": "a film from South Africa",
+    "plural": "films from South Africa",
+    "control": false,
+    "n_members_total": 430
+  },
+  {
+    "id": "films__indonesia",
+    "singular": "a film from Indonesia",
+    "plural": "films from Indonesia",
+    "control": false,
+    "n_members_total": 1192
+  },
+  {
+    "id": "films__philippines",
+    "singular": "a film from the Philippines",
+    "plural": "films from the Philippines",
+    "control": false,
+    "n_members_total": 918
+  },
+  {
+    "id": "films__vietnam",
+    "singular": "a film from Vietnam",
+    "plural": "films from Vietnam",
+    "control": false,
+    "n_members_total": 131
+  },
+  {
+    "id": "films__brazil",
+    "singular": "a film from Brazil",
+    "plural": "films from Brazil",
+    "control": false,
+    "n_members_total": 1737
+  },
+  {
+    "id": "films__mexico",
+    "singular": "a film from Mexico",
+    "plural": "films from Mexico",
+    "control": false,
+    "n_members_total": 2428
+  },
+  {
+    "id": "films__argentina",
+    "singular": "a film from Argentina",
+    "plural": "films from Argentina",
+    "control": false,
+    "n_members_total": 2659
+  },
+  {
+    "id": "films__colombia",
+    "singular": "a film from Colombia",
+    "plural": "films from Colombia",
+    "control": false,
+    "n_members_total": 385
+  },
+  {
+    "id": "films__japan",
+    "singular": "a film from Japan",
+    "plural": "films from Japan",
+    "control": false,
+    "n_members_total": 4915
+  },
+  {
+    "id": "films__iran",
+    "singular": "a film from Iran",
+    "plural": "films from Iran",
+    "control": false,
+    "n_members_total": 984
+  },
+  {
+    "id": "films__turkey",
+    "singular": "a film from Turkey",
+    "plural": "films from Turkey",
+    "control": false,
+    "n_members_total": 1262
+  },
+  {
+    "id": "films__poland",
+    "singular": "a film from Poland",
+    "plural": "films from Poland",
+    "control": false,
+    "n_members_total": 1694
+  },
+  {
+    "id": "films__finland",
+    "singular": "a film from Finland",
+    "plural": "films from Finland",
+    "control": false,
+    "n_members_total": 1235
+  },
+  {
+    "id": "films__france",
+    "singular": "a film from France",
+    "plural": "films from France",
+    "control": false,
+    "n_members_total": 14274
+  },
+  {
+    "id": "films__usa",
+    "singular": "a film from the United States",
+    "plural": "films from the United States",
+    "control": false,
+    "n_members_total": 18961
+  },
+  {
+    "id": "football_clubs__india",
+    "singular": "a football club from India",
+    "plural": "football clubs from India",
+    "control": false,
+    "n_members_total": 101
+  },
+  {
+    "id": "football_clubs__pakistan",
+    "singular": "a football club from Pakistan",
+    "plural": "football clubs from Pakistan",
+    "control": false,
+    "n_members_total": 24
+  },
+  {
+    "id": "football_clubs__bangladesh",
+    "singular": "a football club from Bangladesh",
+    "plural": "football clubs from Bangladesh",
+    "control": false,
+    "n_members_total": 46
+  },
+  {
+    "id": "football_clubs__sri_lanka",
+    "singular": "a football club from Sri Lanka",
+    "plural": "football clubs from Sri Lanka",
+    "control": false,
+    "n_members_total": 21
+  },
+  {
+    "id": "football_clubs__nepal",
+    "singular": "a football club from Nepal",
+    "plural": "football clubs from Nepal",
+    "control": false,
+    "n_members_total": 31
+  },
+  {
+    "id": "football_clubs__nigeria",
+    "singular": "a football club from Nigeria",
+    "plural": "football clubs from Nigeria",
+    "control": false,
+    "n_members_total": 91
+  },
+  {
+    "id": "football_clubs__kenya",
+    "singular": "a football club from Kenya",
+    "plural": "football clubs from Kenya",
+    "control": false,
+    "n_members_total": 54
+  },
+  {
+    "id": "football_clubs__ghana",
+    "singular": "a football club from Ghana",
+    "plural": "football clubs from Ghana",
+    "control": false,
+    "n_members_total": 79
+  },
+  {
+    "id": "football_clubs__ethiopia",
+    "singular": "a football club from Ethiopia",
+    "plural": "football clubs from Ethiopia",
+    "control": false,
+    "n_members_total": 39
+  },
+  {
+    "id": "football_clubs__south_africa",
+    "singular": "a football club from South Africa",
+    "plural": "football clubs from South Africa",
+    "control": false,
+    "n_members_total": 92
+  },
+  {
+    "id": "football_clubs__indonesia",
+    "singular": "a football club from Indonesia",
+    "plural": "football clubs from Indonesia",
+    "control": false,
+    "n_members_total": 547
+  },
+  {
+    "id": "football_clubs__philippines",
+    "singular": "a football club from the Philippines",
+    "plural": "football clubs from the Philippines",
+    "control": false,
+    "n_members_total": 39
+  },
+  {
+    "id": "football_clubs__vietnam",
+    "singular": "a football club from Vietnam",
+    "plural": "football clubs from Vietnam",
+    "control": false,
+    "n_members_total": 58
+  },
+  {
+    "id": "football_clubs__brazil",
+    "singular": "a football club from Brazil",
+    "plural": "football clubs from Brazil",
+    "control": false,
+    "n_members_total": 970
+  },
+  {
+    "id": "football_clubs__mexico",
+    "singular": "a football club from Mexico",
+    "plural": "football clubs from Mexico",
+    "control": false,
+    "n_members_total": 255
+  },
+  {
+    "id": "football_clubs__argentina",
+    "singular": "a football club from Argentina",
+    "plural": "football clubs from Argentina",
+    "control": false,
+    "n_members_total": 217
+  },
+  {
+    "id": "football_clubs__colombia",
+    "singular": "a football club from Colombia",
+    "plural": "football clubs from Colombia",
+    "control": false,
+    "n_members_total": 58
+  },
+  {
+    "id": "football_clubs__japan",
+    "singular": "a football club from Japan",
+    "plural": "football clubs from Japan",
+    "control": false,
+    "n_members_total": 255
+  },
+  {
+    "id": "football_clubs__iran",
+    "singular": "a football club from Iran",
+    "plural": "football clubs from Iran",
+    "control": false,
+    "n_members_total": 179
+  },
+  {
+    "id": "football_clubs__turkey",
+    "singular": "a football club from Turkey",
+    "plural": "football clubs from Turkey",
+    "control": false,
+    "n_members_total": 302
+  },
+  {
+    "id": "football_clubs__poland",
+    "singular": "a football club from Poland",
+    "plural": "football clubs from Poland",
+    "control": false,
+    "n_members_total": 255
+  },
+  {
+    "id": "football_clubs__finland",
+    "singular": "a football club from Finland",
+    "plural": "football clubs from Finland",
+    "control": false,
+    "n_members_total": 158
+  },
+  {
+    "id": "football_clubs__france",
+    "singular": "a football club from France",
+    "plural": "football clubs from France",
+    "control": false,
+    "n_members_total": 581
+  },
+  {
+    "id": "football_clubs__usa",
+    "singular": "a football club from the United States",
+    "plural": "football clubs from the United States",
+    "control": false,
+    "n_members_total": 574
+  },
+  {
+    "id": "writers_lang__tamil",
+    "singular": "a writer who wrote in Tamil",
+    "plural": "writers who wrote in Tamil",
+    "control": false,
+    "n_members_total": 158
+  },
+  {
+    "id": "writers_lang__telugu",
+    "singular": "a writer who wrote in Telugu",
+    "plural": "writers who wrote in Telugu",
+    "control": false,
+    "n_members_total": 600
+  },
+  {
+    "id": "writers_lang__kannada",
+    "singular": "a writer who wrote in Kannada",
+    "plural": "writers who wrote in Kannada",
+    "control": false,
+    "n_members_total": 196
+  },
+  {
+    "id": "writers_lang__malayalam",
+    "singular": "a writer who wrote in Malayalam",
+    "plural": "writers who wrote in Malayalam",
+    "control": false,
+    "n_members_total": 415
+  },
+  {
+    "id": "writers_lang__bengali",
+    "singular": "a writer who wrote in Bengali",
+    "plural": "writers who wrote in Bengali",
+    "control": false,
+    "n_members_total": 1335
+  },
+  {
+    "id": "writers_lang__hindi",
+    "singular": "a writer who wrote in Hindi",
+    "plural": "writers who wrote in Hindi",
+    "control": false,
+    "n_members_total": 293
+  },
+  {
+    "id": "writers_lang__marathi",
+    "singular": "a writer who wrote in Marathi",
+    "plural": "writers who wrote in Marathi",
+    "control": false,
+    "n_members_total": 369
+  },
+  {
+    "id": "writers_lang__gujarati",
+    "singular": "a writer who wrote in Gujarati",
+    "plural": "writers who wrote in Gujarati",
+    "control": false,
+    "n_members_total": 337
+  },
+  {
+    "id": "writers_lang__punjabi",
+    "singular": "a writer who wrote in Punjabi",
+    "plural": "writers who wrote in Punjabi",
+    "control": false,
+    "n_members_total": 363
+  },
+  {
+    "id": "writers_lang__odia",
+    "singular": "a writer who wrote in Odia",
+    "plural": "writers who wrote in Odia",
+    "control": false,
+    "n_members_total": 217
+  },
+  {
+    "id": "writers_lang__assamese",
+    "singular": "a writer who wrote in Assamese",
+    "plural": "writers who wrote in Assamese",
+    "control": false,
+    "n_members_total": 83
+  },
+  {
+    "id": "writers_lang__urdu",
+    "singular": "a writer who wrote in Urdu",
+    "plural": "writers who wrote in Urdu",
+    "control": false,
+    "n_members_total": 99
+  }
+]

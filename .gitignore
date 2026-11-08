@@ -8,3 +8,6 @@ hf_home/
 logs/run/
 # data/tailcat and results/ are tracked (small; see results/INDEX.md). If a future split
 # or run gets large, move its raw files to external storage and record sha256 in the index.
+
+# full TailCat raw Wikidata cache: stored compressed as data/tailcat/full_v1_raw.tar.gz (sha256 in results/INDEX.md)
+data/tailcat/full_v1/raw/
