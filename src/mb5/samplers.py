@@ -15,6 +15,7 @@ from __future__ import annotations
 
 from transformers import LogitsProcessorList
 from transformers.generation.logits_process import (
+    EpsilonLogitsWarper,
     MinPLogitsWarper,
     RepetitionPenaltyLogitsProcessor,
     TemperatureLogitsWarper,
@@ -54,7 +55,26 @@ def build_chain(spec: dict) -> LogitsProcessorList:
     mp = spec.get("min_p")
     if mp is not None and float(mp) > 0.0:
         chain.append(MinPLogitsWarper(min_p=float(mp)))
+    eps = spec.get("epsilon")  # after min-p, as in transformers' generate()
+    if eps is not None and float(eps) > 0.0:
+        chain.append(EpsilonLogitsWarper(epsilon=float(eps)))
     return chain
+
+
+class FirstTokenRelaxed:
+    """First-token relaxation (P5, E11): at the first generated token apply only
+    repetition penalty and temperature (no top-k, top-p, min-p or epsilon cut);
+    from the second token on apply the full chain of `spec`. Used as a
+    logits_processor with a clean GenerationConfig. Every row of a batch shares
+    one prompt length, so the first step is identified by the sequence length."""
+
+    def __init__(self, spec: dict, prompt_len: int):
+        self.full = build_chain(spec)
+        self.light = build_chain({k: v for k, v in spec.items() if k in ("temperature", "repetition_penalty")})
+        self.prompt_len = prompt_len
+
+    def __call__(self, input_ids, scores):
+        return (self.light if input_ids.shape[1] == self.prompt_len else self.full)(input_ids, scores)
 
 
 def shipped_specs(gen_config) -> dict[str, dict]:

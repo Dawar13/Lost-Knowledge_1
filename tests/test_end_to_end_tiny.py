@@ -84,3 +84,32 @@ def test_margin_classification_is_ordered():
             if r[f"robust_reach__{n}"]:
                 assert r[f"reach__{n}"]
     assert any(r["robust_unreach__p0.5"] for r in recs) and any(r["robust_reach__p0.5"] for r in recs)
+
+
+def test_first_token_relaxation_matches_sampling():
+    """Everything the relaxed sampler draws is scored reachable under the
+    relax_first verdict, and the relaxation rescues answers that the plain
+    sampler cannot reach (otherwise the test is vacuous)."""
+    from transformers import LogitsProcessorList
+
+    from mb5.samplers import FirstTokenRelaxed
+
+    model = tiny_model()
+    prompt = [1, 7, 11, 13, 5]
+    torch.manual_seed(2)
+    candidates = sorted(set(sample(model, prompt, 600, {})))
+    items = [{"prompt_ids": prompt, "answer_ids": list(c)} for c in candidates]
+    specs = {"p0.5": {"top_p": 0.5}, "relax": {"top_p": 0.5, "relax_first": True}}
+    recs = score_items(model, items, specs, device="cpu", batch_size=16, pad_id=0, progress=False, margin=0.3)
+    reach = {tuple(it["answer_ids"]): r for it, r in zip(items, recs)}
+    assert any(r["reach__relax"] and not r["reach__p0.5"] for r in recs), "relaxation rescues nothing"
+    assert all(r["reach__relax"] or not r["reach__p0.5"] for r in recs)  # relaxing never removes reach
+    gc = GenerationConfig(do_sample=True, temperature=1.0, top_k=0, top_p=1.0, repetition_penalty=1.0,
+                          max_new_tokens=L_ANS, pad_token_id=0, eos_token_id=None)
+    torch.manual_seed(4)
+    inp = torch.tensor([prompt] * 1500)
+    out = model.generate(input_ids=inp, attention_mask=torch.ones_like(inp), generation_config=gc,
+                         logits_processor=LogitsProcessorList([FirstTokenRelaxed(specs["relax"], len(prompt))]))
+    for d in [tuple(x) for x in out[:, len(prompt):].tolist()]:
+        if d in reach:
+            assert reach[d]["reach__relax"], d

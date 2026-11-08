@@ -196,17 +196,24 @@ def score_items(
             st = row_stats(rows[sl], targets_t[sl])
             for key, v in st.items():
                 stats.setdefault(key, []).append(v.cpu())
+            first = torch.tensor([p == 0 for p in pos[c0 : c0 + row_chunk]])  # first answer token rows
             for n, ch in chains.items():
+                # relax_first (P5): no truncation at the first answer token, so that token is
+                # always kept (it has positive probability after temperature); the chain decides the rest.
+                relax = bool(specs[n].get("relax_first"))
                 k0 = chain_kept(ch, rows[sl], targets_t[sl], pre).cpu()
-                kept[n].append(k0)
+                kept[n].append(k0 | first if relax else k0)
                 if margin:
-                    kept_hi[n].append(chain_kept(ch, rows[sl], targets_t[sl], pre, shift=+margin).cpu())
-                    kept_lo[n].append(chain_kept(ch, rows[sl], targets_t[sl], pre, shift=-margin).cpu())
+                    hi = chain_kept(ch, rows[sl], targets_t[sl], pre, shift=+margin).cpu()
+                    lo = chain_kept(ch, rows[sl], targets_t[sl], pre, shift=-margin).cpu()
+                    kept_hi[n].append(hi | first if relax else hi)
+                    kept_lo[n].append(lo | first if relax else lo)
                 else:
-                    kept_hi[n].append(k0)
-                    kept_lo[n].append(k0)
+                    kept_hi[n].append(kept[n][-1])
+                    kept_lo[n].append(kept[n][-1])
                 if n in dspecs:
-                    dmarg[n].append(signed_margin(ch, rows[sl], targets_t[sl], pre).cpu())
+                    d = signed_margin(ch, rows[sl], targets_t[sl], pre).cpu()
+                    dmarg[n].append(torch.where(first, torch.full_like(d, DSTAR_BOUND), d) if relax else d)
         dmarg = {n: torch.cat(v).tolist() for n, v in dmarg.items() if v}
         stats = {k: torch.cat(v).tolist() for k, v in stats.items()}
         kept = {n: torch.cat(v).tolist() for n, v in kept.items()}

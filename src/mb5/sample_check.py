@@ -20,9 +20,9 @@ import unicodedata
 from collections import Counter
 
 import torch
-from transformers import GenerationConfig
+from transformers import GenerationConfig, LogitsProcessorList
 
-from .samplers import build_chain
+from .samplers import FirstTokenRelaxed, build_chain
 
 _STRIP = re.compile(r"^[\s\"'*`(\[]+|[\s\"'*`.,;:!?)\]]+$")
 
@@ -70,7 +70,8 @@ def generate_samples(model, prompt_ids: list[int], n: int, max_new_tokens: int, 
                                   repetition_penalty=1.0, max_new_tokens=max_new_tokens,
                                   pad_token_id=pad_id, eos_token_id=eos)
             gen = model.generate(input_ids=inp, attention_mask=att, generation_config=gc,
-                                 logits_processor=build_chain(spec))
+                                 logits_processor=(LogitsProcessorList([FirstTokenRelaxed(spec, inp.shape[1])])
+                                                   if spec.get("relax_first") else build_chain(spec)))
         outs.extend(gen[:, inp.shape[1]:].tolist())
     return outs
 
