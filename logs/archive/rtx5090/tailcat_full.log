@@ -1,0 +1,2099 @@
+[tailcat] poets__india
+  members: 2252 rows in 7.6s
+  foils: 697 rows in 1.8s
+[tailcat] poets__pakistan
+  members: 587 rows in 2.4s
+  foils: 2858 rows in 4.1s
+[tailcat] poets__bangladesh
+  members: 204 rows in 3.2s
+  foils: 2827 rows in 8.5s
+[tailcat] poets__sri_lanka
+  members: 40 rows in 1.7s
+  foils: 2452 rows in 12.9s
+[tailcat] poets__nepal
+  members: 64 rows in 0.9s
+  foils: 2827 rows in 0.5s
+[tailcat] poets__nigeria
+  members: 372 rows in 2.2s
+  foils: 148 rows in 1.1s
+[tailcat] poets__kenya
+  members: 57 rows in 1.6s
+  foils: 406 rows in 4.3s
+[tailcat] poets__ghana
+  members: 91 rows in 1.6s
+  foils: 429 rows in 2.4s
+[tailcat] poets__ethiopia
+  members: 34 rows in 0.9s
+  foils: 429 rows in 3.6s
+[tailcat] poets__south_africa
+  members: 417 rows in 4.3s
+  foils: 429 rows in 0.3s
+[tailcat] poets__indonesia
+  members: 112 rows in 3.5s
+  foils: 276 rows in 3.6s
+[tailcat] poets__philippines
+  members: 112 rows in 4.1s
+  foils: 276 rows in 5.5s
+[tailcat] poets__vietnam
+  members: 164 rows in 1.2s
+  foils: 224 rows in 3.3s
+[tailcat] poets__brazil
+  members: 1433 rows in 12.9s
+  foils: 1113 rows in 10.5s
+[tailcat] poets__mexico
+  members: 835 rows in 3.4s
+  foils: 1113 rows in 2.6s
+[tailcat] poets__argentina
+  members: 868 rows in 3.2s
+  foils: 2267 rows in 7.7s
+[tailcat] poets__colombia
+  members: 246 rows in 1.6s
+  foils: 2267 rows in 4.5s
+[tailcat] poets__japan
+  members: 1869 rows in 6.2s
+  foils: 707 rows in 11.3s
+[tailcat] poets__iran
+  members: 607 rows in 2.9s
+  foils: 1417 rows in 20.3s
+[tailcat] poets__turkey
+  members: 830 rows in 3.5s
+  foils: 1409 rows in 2.6s
+[tailcat] poets__poland
+  members: 2115 rows in 19.8s
+  foils: 1800 rows in 5.6s
+[tailcat] poets__finland
+  members: 994 rows in 3.4s
+  foils: 1463 rows in 13.6s
+[tailcat] poets__france
+  query failed (504); attempt 1/4
+  members: 5992 rows in 100.6s
+  foils: 3061 rows in 13.2s
+[tailcat] poets__usa
+  members: 6401 rows in 37.8s
+  foils: 4289 rows in 9.9s
+[tailcat] novelists__india
+  members: 581 rows in 2.6s
+  foils: 116 rows in 2.0s
+[tailcat] novelists__pakistan
+  members: 96 rows in 1.8s
+  foils: 724 rows in 5.8s
+[tailcat] novelists__bangladesh
+  members: 36 rows in 1.6s
+  foils: 675 rows in 4.7s
+[tailcat] novelists__sri_lanka
+  members: 16 rows in 2.5s
+  foils: 617 rows in 7.0s
+[tailcat] novelists__nepal
+  members: 21 rows in 1.2s
+  foils: 675 rows in 0.3s
+[tailcat] novelists__nigeria
+  members: 122 rows in 3.4s
+  foils: 63 rows in 1.9s
+[tailcat] novelists__kenya
+  members: 21 rows in 1.4s
+  foils: 133 rows in 2.0s
+[tailcat] novelists__ghana
+  members: 42 rows in 1.1s
+  foils: 143 rows in 1.4s
+[tailcat] novelists__ethiopia
+  members: 11 rows in 0.7s
+  foils: 143 rows in 6.0s
+[tailcat] novelists__south_africa
+  members: 119 rows in 1.5s
+  foils: 143 rows in 0.3s
+[tailcat] novelists__indonesia
+  members: 58 rows in 8.0s
+  foils: 54 rows in 2.6s
+[tailcat] novelists__philippines
+  members: 25 rows in 2.4s
+  foils: 87 rows in 2.1s
+[tailcat] novelists__vietnam
+  members: 29 rows in 0.6s
+  foils: 83 rows in 2.3s
+[tailcat] novelists__brazil
+  members: 504 rows in 3.7s
+  foils: 262 rows in 6.7s
+[tailcat] novelists__mexico
+  members: 162 rows in 6.0s
+  foils: 262 rows in 1.7s
+[tailcat] novelists__argentina
+  members: 160 rows in 5.0s
+  foils: 666 rows in 2.3s
+[tailcat] novelists__colombia
+  members: 103 rows in 3.0s
+  foils: 666 rows in 7.3s
+[tailcat] novelists__japan
+  members: 5180 rows in 4.4s
+  foils: 424 rows in 6.0s
+[tailcat] novelists__iran
+  members: 143 rows in 6.5s
+  foils: 188 rows in 2.6s
+[tailcat] novelists__turkey
+  members: 92 rows in 3.7s
+  foils: 199 rows in 4.9s
+[tailcat] novelists__poland
+  members: 83 rows in 7.1s
+  foils: 113 rows in 2.1s
+[tailcat] novelists__finland
+  members: 86 rows in 2.0s
+  foils: 117 rows in 10.0s
+[tailcat] novelists__france
+  members: 2845 rows in 10.9s
+  foils: 471 rows in 7.1s
+[tailcat] novelists__usa
+  query failed (504); attempt 1/4
+  query failed (504); attempt 2/4
+  FAILED: Wikidata query failed repeatedly; rewrite the WHERE clause (P131* and P279* paths time out; use hint:Prior hint:runFirst on the most selective pattern).
+[tailcat] painters__india
+  members: 1358 rows in 7.7s
+  foils: 157 rows in 3.3s
+[tailcat] painters__pakistan
+  members: 117 rows in 4.8s
+  foils: 1706 rows in 6.5s
+[tailcat] painters__bangladesh
+  members: 81 rows in 3.5s
+  foils: 1474 rows in 10.7s
+[tailcat] painters__sri_lanka
+  members: 16 rows in 1.3s
+  foils: 1438 rows in 12.0s
+[tailcat] painters__nepal
+  members: 8 rows in 1.4s
+  foils: 1474 rows in 0.3s
+[tailcat] painters__nigeria
+  members: 500 rows in 4.5s
+  foils: 75 rows in 1.6s
+[tailcat] painters__kenya
+  members: 20 rows in 3.2s
+  foils: 541 rows in 3.5s
+[tailcat] painters__ghana
+  members: 55 rows in 2.6s
+  foils: 520 rows in 3.5s
+[tailcat] painters__ethiopia
+  members: 41 rows in 1.2s
+  foils: 520 rows in 3.1s
+[tailcat] painters__south_africa
+  members: 270 rows in 6.3s
+  foils: 520 rows in 0.4s
+[tailcat] painters__indonesia
+  members: 230 rows in 9.8s
+  foils: 232 rows in 2.8s
+[tailcat] painters__philippines
+  members: 130 rows in 1.2s
+  foils: 332 rows in 4.0s
+[tailcat] painters__vietnam
+  members: 102 rows in 1.2s
+  foils: 360 rows in 8.9s
+[tailcat] painters__brazil
+  members: 1260 rows in 8.2s
+  foils: 1130 rows in 7.1s
+[tailcat] painters__mexico
+  members: 916 rows in 4.1s
+  foils: 1130 rows in 5.7s
+[tailcat] painters__argentina
+  members: 855 rows in 3.3s
+  foils: 2176 rows in 7.9s
+[tailcat] painters__colombia
+  members: 275 rows in 1.3s
+  foils: 2176 rows in 13.3s
+[tailcat] painters__japan
+  members: 3587 rows in 7.9s
+  foils: 1044 rows in 6.2s
+[tailcat] painters__iran
+  members: 348 rows in 2.6s
+  foils: 875 rows in 7.4s
+[tailcat] painters__turkey
+  members: 758 rows in 4.0s
+  foils: 1307 rows in 2.8s
+[tailcat] painters__poland
+  members: 2987 rows in 23.4s
+  foils: 2612 rows in 12.7s
+[tailcat] painters__finland
+  members: 1352 rows in 4.1s
+  foils: 5097 rows in 6.9s
+[tailcat] painters__france
+  query failed (504); attempt 1/4
+  query failed (504); attempt 2/4
+  FAILED: Wikidata query failed repeatedly; rewrite the WHERE clause (P131* and P279* paths time out; use hint:Prior hint:runFirst on the most selective pattern).
+[tailcat] painters__usa
+  query failed (504); attempt 1/4
+  members: 12985 rows in 222.5s
+  foils: 9152 rows in 58.6s
+[tailcat] film_directors__india
+  members: 3200 rows in 6.0s
+  foils: 358 rows in 2.5s
+[tailcat] film_directors__pakistan
+  members: 216 rows in 3.1s
+  foils: 4326 rows in 9.4s
+[tailcat] film_directors__bangladesh
+  members: 204 rows in 1.3s
+  foils: 3411 rows in 14.2s
+[tailcat] film_directors__sri_lanka
+  members: 59 rows in 2.8s
+  foils: 3399 rows in 12.7s
+[tailcat] film_directors__nepal
+  members: 104 rows in 2.9s
+  foils: 3411 rows in 0.5s
+[tailcat] film_directors__nigeria
+  members: 490 rows in 4.4s
+  foils: 97 rows in 1.8s
+[tailcat] film_directors__kenya
+  members: 41 rows in 1.7s
+  foils: 506 rows in 3.7s
+[tailcat] film_directors__ghana
+  members: 56 rows in 1.0s
+  foils: 531 rows in 2.0s
+[tailcat] film_directors__ethiopia
+  members: 16 rows in 14.7s
+  foils: 531 rows in 2.3s
+[tailcat] film_directors__south_africa
+  members: 280 rows in 1.8s
+  foils: 531 rows in 0.3s
+[tailcat] film_directors__indonesia
+  members: 297 rows in 8.9s
+  foils: 376 rows in 1.8s
+[tailcat] film_directors__philippines
+  members: 245 rows in 1.4s
+  foils: 428 rows in 3.9s
+[tailcat] film_directors__vietnam
+  members: 131 rows in 2.4s
+  foils: 542 rows in 7.7s
+[tailcat] film_directors__brazil
+  members: 902 rows in 3.1s
+  foils: 1052 rows in 3.9s
+[tailcat] film_directors__mexico
+  members: 680 rows in 2.0s
+  foils: 1052 rows in 4.7s
+[tailcat] film_directors__argentina
+  members: 848 rows in 4.1s
+  foils: 1582 rows in 12.7s
+[tailcat] film_directors__colombia
+  members: 204 rows in 2.4s
+  foils: 1582 rows in 3.5s
+[tailcat] film_directors__japan
+  members: 3320 rows in 14.7s
+  foils: 1569 rows in 6.7s
+[tailcat] film_directors__iran
+  members: 1126 rows in 6.0s
+  foils: 1193 rows in 10.1s
+[tailcat] film_directors__turkey
+  members: 977 rows in 7.5s
+  foils: 1524 rows in 3.7s
+[tailcat] film_directors__poland
+  members: 1134 rows in 8.5s
+  foils: 1410 rows in 6.0s
+[tailcat] film_directors__finland
+  members: 791 rows in 9.1s
+  foils: 1551 rows in 3.8s
+[tailcat] film_directors__france
+  members: 6306 rows in 22.3s
+  foils: 3726 rows in 12.6s
+[tailcat] film_directors__usa
+  query failed (504); attempt 1/4
+  members: 13687 rows in 92.1s
+  foils: 6376 rows in 6.2s
+[tailcat] composers__india
+  members: 1079 rows in 18.5s
+  foils: 160 rows in 2.9s
+[tailcat] composers__pakistan
+  members: 97 rows in 3.7s
+  foils: 1537 rows in 12.6s
+[tailcat] composers__bangladesh
+  members: 82 rows in 2.2s
+  foils: 1175 rows in 14.3s
+[tailcat] composers__sri_lanka
+  members: 25 rows in 1.8s
+  foils: 1161 rows in 7.2s
+[tailcat] composers__nepal
+  members: 22 rows in 0.9s
+  foils: 1175 rows in 0.4s
+[tailcat] composers__nigeria
+  members: 96 rows in 3.9s
+  foils: 63 rows in 3.7s
+[tailcat] composers__kenya
+  members: 12 rows in 1.9s
+  foils: 110 rows in 1.3s
+[tailcat] composers__ghana
+  members: 51 rows in 2.5s
+  foils: 108 rows in 3.3s
+[tailcat] composers__ethiopia
+  members: 14 rows in 2.1s
+  foils: 108 rows in 4.4s
+[tailcat] composers__south_africa
+  members: 218 rows in 4.3s
+  foils: 108 rows in 0.4s
+[tailcat] composers__indonesia
+  members: 125 rows in 5.1s
+  foils: 186 rows in 1.8s
+[tailcat] composers__philippines
+  members: 116 rows in 2.2s
+  foils: 195 rows in 8.4s
+[tailcat] composers__vietnam
+  members: 70 rows in 2.1s
+  foils: 241 rows in 7.4s
+[tailcat] composers__brazil
+  members: 2352 rows in 13.2s
+  foils: 1908 rows in 6.9s
+[tailcat] composers__mexico
+  members: 642 rows in 5.5s
+  foils: 1908 rows in 4.8s
+[tailcat] composers__argentina
+  members: 1595 rows in 6.0s
+  foils: 2994 rows in 7.3s
+[tailcat] composers__colombia
+  members: 315 rows in 4.9s
+  foils: 2994 rows in 14.7s
+[tailcat] composers__japan
+  members: 4636 rows in 10.0s
+  foils: 668 rows in 4.0s
+[tailcat] composers__iran
+  members: 458 rows in 2.8s
+  foils: 781 rows in 7.2s
+[tailcat] composers__turkey
+  members: 684 rows in 13.5s
+  foils: 1230 rows in 7.3s
+[tailcat] composers__poland
+  members: 1370 rows in 12.9s
+  foils: 1935 rows in 10.5s
+[tailcat] composers__finland
+  members: 1183 rows in 5.6s
+  foils: 2588 rows in 7.9s
+[tailcat] composers__france
+  members: 5987 rows in 37.4s
+  foils: 4468 rows in 23.6s
+[tailcat] composers__usa
+  members: 15041 rows in 61.7s
+  query failed (504); attempt 1/4
+  foils: 6948 rows in 106.1s
+[tailcat] architects__india
+  members: 170 rows in 6.2s
+  foils: 76 rows in 2.0s
+[tailcat] architects__pakistan
+  members: 36 rows in 1.8s
+  foils: 291 rows in 2.3s
+[tailcat] architects__bangladesh
+  members: 54 rows in 1.1s
+  foils: 206 rows in 8.7s
+[tailcat] architects__sri_lanka
+  members: 14 rows in 0.9s
+  foils: 224 rows in 13.2s
+[tailcat] architects__nepal
+  members: 1 rows in 2.6s
+  foils: 206 rows in 0.3s
+[tailcat] architects__nigeria
+  members: 71 rows in 4.1s
+  foils: 33 rows in 2.3s
+[tailcat] architects__kenya
+  members: 10 rows in 2.0s
+  foils: 75 rows in 3.8s
+[tailcat] architects__ghana
+  members: 23 rows in 1.0s
+  foils: 81 rows in 1.2s
+[tailcat] architects__ethiopia
+  members: 4 rows in 1.1s
+  foils: 81 rows in 4.3s
+[tailcat] architects__south_africa
+  members: 142 rows in 1.3s
+  foils: 81 rows in 0.2s
+[tailcat] architects__indonesia
+  members: 30 rows in 12.3s
+  foils: 44 rows in 2.2s
+[tailcat] architects__philippines
+  members: 30 rows in 1.4s
+  foils: 44 rows in 3.6s
+[tailcat] architects__vietnam
+  members: 14 rows in 1.5s
+  foils: 60 rows in 1.5s
+[tailcat] architects__brazil
+  members: 909 rows in 4.2s
+  foils: 696 rows in 3.3s
+[tailcat] architects__mexico
+  members: 323 rows in 5.0s
+  foils: 696 rows in 3.5s
+[tailcat] architects__argentina
+  members: 489 rows in 5.3s
+  foils: 1232 rows in 4.4s
+[tailcat] architects__colombia
+  members: 207 rows in 1.6s
+  foils: 1232 rows in 7.0s
+[tailcat] architects__japan
+  members: 1523 rows in 4.1s
+  foils: 159 rows in 2.0s
+[tailcat] architects__iran
+  members: 121 rows in 3.2s
+  foils: 434 rows in 7.4s
+[tailcat] architects__turkey
+  members: 398 rows in 2.4s
+  foils: 424 rows in 3.4s
+[tailcat] architects__poland
+  members: 1580 rows in 9.1s
+  foils: 1797 rows in 3.9s
+[tailcat] architects__finland
+  members: 1153 rows in 3.0s
+  foils: 2494 rows in 4.1s
+[tailcat] architects__france
+  members: 6141 rows in 27.2s
+  foils: 6308 rows in 22.3s
+[tailcat] architects__usa
+  members: 8195 rows in 17.3s
+  foils: 3728 rows in 14.8s
+[tailcat] rivers__india
+  members: 5635 rows in 29.2s
+  foils: 5471 rows in 11.1s
+[tailcat] rivers__pakistan
+  members: 4897 rows in 14.1s
+  foils: 6832 rows in 42.7s
+[tailcat] rivers__bangladesh
+  members: 574 rows in 3.2s
+  foils: 10517 rows in 14.7s
+[tailcat] rivers__sri_lanka
+  members: 132 rows in 1.2s
+  foils: 6176 rows in 12.7s
+[tailcat] rivers__nepal
+  members: 154 rows in 1.2s
+  foils: 10517 rows in 0.5s
+[tailcat] rivers__nigeria
+  members: 277 rows in 7.2s
+  foils: 921 rows in 7.8s
+[tailcat] rivers__kenya
+  members: 185 rows in 4.2s
+  foils: 1698 rows in 10.6s
+[tailcat] rivers__ghana
+  members: 736 rows in 4.9s
+  foils: 462 rows in 8.0s
+[tailcat] rivers__ethiopia
+  members: 1421 rows in 2.5s
+  foils: 462 rows in 7.8s
+[tailcat] rivers__south_africa
+  members: 803 rows in 5.7s
+  foils: 462 rows in 0.3s
+[tailcat] rivers__indonesia
+  members: 19999 rows in 22.3s
+  foils: 8665 rows in 6.6s
+[tailcat] rivers__philippines
+  members: 4507 rows in 5.9s
+  foils: 19993 rows in 18.3s
+[tailcat] rivers__vietnam
+  members: 4158 rows in 4.5s
+  foils: 20000 rows in 22.9s
+[tailcat] rivers__brazil
+  members: 5352 rows in 22.2s
+  foils: 2219 rows in 8.4s
+[tailcat] rivers__mexico
+  members: 575 rows in 9.9s
+  foils: 2219 rows in 6.4s
+[tailcat] rivers__argentina
+  members: 173 rows in 3.1s
+  foils: 5453 rows in 10.2s
+[tailcat] rivers__colombia
+  members: 2046 rows in 2.7s
+  foils: 5754 rows in 8.5s
+[tailcat] rivers__japan
+  members: 2503 rows in 20.2s
+  foils: 1988 rows in 9.7s
+[tailcat] rivers__iran
+  members: 1197 rows in 9.5s
+  foils: 7026 rows in 10.9s
+[tailcat] rivers__turkey
+  members: 2129 rows in 5.4s
+  foils: 1634 rows in 27.8s
+[tailcat] rivers__poland
+  members: 1472 rows in 6.1s
+  foils: 949 rows in 14.1s
+[tailcat] rivers__finland
+  members: 630 rows in 6.8s
+  foils: 2150 rows in 21.7s
+[tailcat] rivers__france
+  members: 5375 rows in 37.8s
+  foils: 2043 rows in 25.4s
+[tailcat] rivers__usa
+  members: 19965 rows in 44.2s
+  foils: 7859 rows in 14.1s
+[tailcat] lakes__india
+  members: 440 rows in 13.6s
+  foils: 107 rows in 3.1s
+[tailcat] lakes__pakistan
+  members: 84 rows in 5.2s
+  foils: 525 rows in 6.0s
+[tailcat] lakes__bangladesh
+  members: 23 rows in 2.1s
+  foils: 524 rows in 6.3s
+[tailcat] lakes__sri_lanka
+  members: 20 rows in 0.8s
+  foils: 463 rows in 19.4s
+[tailcat] lakes__nepal
+  members: 43 rows in 0.8s
+  foils: 524 rows in 0.3s
+[tailcat] lakes__nigeria
+  members: 44 rows in 2.2s
+  foils: 39 rows in 4.7s
+[tailcat] lakes__kenya
+  members: 25 rows in 2.9s
+  foils: 93 rows in 2.4s
+[tailcat] lakes__ghana
+  members: 14 rows in 2.6s
+  foils: 69 rows in 1.4s
+[tailcat] lakes__ethiopia
+  members: 49 rows in 0.8s
+  foils: 69 rows in 1.5s
+[tailcat] lakes__south_africa
+  members: 9 rows in 1.5s
+  foils: 69 rows in 0.2s
+[tailcat] lakes__indonesia
+  members: 1569 rows in 3.7s
+  foils: 63 rows in 1.3s
+[tailcat] lakes__philippines
+  members: 39 rows in 8.5s
+  foils: 1593 rows in 28.5s
+[tailcat] lakes__vietnam
+  members: 24 rows in 5.4s
+  foils: 1608 rows in 4.8s
+[tailcat] lakes__brazil
+  members: 2003 rows in 22.7s
+  foils: 1470 rows in 10.9s
+[tailcat] lakes__mexico
+  members: 37 rows in 22.3s
+  foils: 1470 rows in 15.7s
+[tailcat] lakes__argentina
+  members: 1294 rows in 12.9s
+  foils: 2040 rows in 15.9s
+[tailcat] lakes__colombia
+  members: 176 rows in 2.7s
+  foils: 2040 rows in 16.5s
+[tailcat] lakes__japan
+  members: 134 rows in 5.8s
+  foils: 908 rows in 13.4s
+[tailcat] lakes__iran
+  members: 85 rows in 16.8s
+  foils: 236 rows in 10.7s
+[tailcat] lakes__turkey
+  members: 152 rows in 4.8s
+  foils: 172 rows in 4.2s
+[tailcat] lakes__poland
+  members: 1412 rows in 22.5s
+  foils: 10531 rows in 38.9s
+[tailcat] lakes__finland
+  members: 10424 rows in 44.8s
+  foils: 8934 rows in 6.9s
+[tailcat] lakes__france
+  members: 457 rows in 14.2s
+  foils: 579 rows in 6.3s
+[tailcat] lakes__usa
+  members: 19994 rows in 10.0s
+  foils: 19784 rows in 15.9s
+[tailcat] mountains__india
+  members: 2534 rows in 24.1s
+  foils: 4758 rows in 13.4s
+[tailcat] mountains__pakistan
+  members: 4698 rows in 9.7s
+  foils: 19719 rows in 7.3s
+[tailcat] mountains__bangladesh
+  members: 60 rows in 4.0s
+  foils: 7225 rows in 41.3s
+[tailcat] mountains__sri_lanka
+  members: 339 rows in 2.7s
+  foils: 2591 rows in 41.8s
+[tailcat] mountains__nepal
+  members: 228 rows in 2.9s
+  foils: 7225 rows in 0.5s
+[tailcat] mountains__nigeria
+  members: 212 rows in 11.7s
+  foils: 185 rows in 4.1s
+[tailcat] mountains__kenya
+  members: 127 rows in 2.0s
+  foils: 1107 rows in 5.5s
+[tailcat] mountains__ghana
+  members: 58 rows in 3.4s
+  foils: 339 rows in 1.8s
+[tailcat] mountains__ethiopia
+  members: 895 rows in 3.9s
+  foils: 339 rows in 13.6s
+[tailcat] mountains__south_africa
+  members: 5219 rows in 3.0s
+  foils: 339 rows in 0.3s
+[tailcat] mountains__indonesia
+  members: 19952 rows in 15.4s
+  foils: 5257 rows in 4.3s
+[tailcat] mountains__philippines
+  members: 1888 rows in 8.7s
+  foils: 19948 rows in 17.8s
+[tailcat] mountains__vietnam
+  members: 3369 rows in 2.6s
+  foils: 19933 rows in 31.4s
+[tailcat] mountains__brazil
+  members: 3247 rows in 16.2s
+  foils: 8787 rows in 18.5s
+[tailcat] mountains__mexico
+  members: 18222 rows in 12.1s
+  foils: 8787 rows in 6.1s
+[tailcat] mountains__argentina
+  query failed (502); attempt 1/4
+  members: 5582 rows in 27.4s
+  foils: 18203 rows in 15.5s
+[tailcat] mountains__colombia
+  members: 3205 rows in 9.3s
+  foils: 18204 rows in 22.6s
+[tailcat] mountains__japan
+  members: 5634 rows in 24.4s
+  foils: 5031 rows in 47.9s
+[tailcat] mountains__iran
+  members: 19754 rows in 16.1s
+  foils: 7801 rows in 13.7s
+[tailcat] mountains__turkey
+  members: 3103 rows in 10.4s
+  foils: 19732 rows in 6.7s
+[tailcat] mountains__poland
+  members: 1166 rows in 27.5s
+  foils: 1779 rows in 60.2s
+[tailcat] mountains__finland
+  members: 246 rows in 16.8s
+  foils: 1618 rows in 27.0s
+[tailcat] mountains__france
+  members: 4356 rows in 20.9s
+  foils: 5042 rows in 10.7s
+[tailcat] mountains__usa
+  members: 19989 rows in 37.9s
+  foils: 14144 rows in 17.4s
+[tailcat] islands__india
+  members: 345 rows in 3.8s
+  foils: 99 rows in 3.2s
+[tailcat] islands__pakistan
+  members: 14 rows in 6.2s
+  foils: 377 rows in 9.0s
+[tailcat] islands__bangladesh
+  members: 85 rows in 2.2s
+  foils: 359 rows in 11.4s
+[tailcat] islands__sri_lanka
+  members: 82 rows in 2.9s
+  foils: 429 rows in 13.6s
+[tailcat] islands__nepal
+  members: 0 rows in 1.9s
+  foils: 359 rows in 0.3s
+[tailcat] islands__nigeria
+  members: 24 rows in 1.3s
+  foils: 108 rows in 3.4s
+[tailcat] islands__kenya
+  members: 97 rows in 2.5s
+  foils: 42 rows in 8.6s
+[tailcat] islands__ghana
+  members: 11 rows in 2.9s
+  foils: 121 rows in 1.7s
+[tailcat] islands__ethiopia
+  members: 18 rows in 1.3s
+  foils: 121 rows in 10.7s
+[tailcat] islands__south_africa
+  members: 102 rows in 5.1s
+  foils: 121 rows in 0.2s
+[tailcat] islands__indonesia
+  members: 4933 rows in 27.9s
+  foils: 2904 rows in 3.1s
+[tailcat] islands__philippines
+  members: 2398 rows in 14.9s
+  foils: 5439 rows in 23.1s
+[tailcat] islands__vietnam
+  members: 506 rows in 3.4s
+  foils: 7331 rows in 36.2s
+[tailcat] islands__brazil
+  members: 1978 rows in 13.1s
+  foils: 1004 rows in 11.0s
+[tailcat] islands__mexico
+  members: 559 rows in 3.6s
+  foils: 1004 rows in 7.5s
+[tailcat] islands__argentina
+  members: 447 rows in 4.6s
+  foils: 2537 rows in 13.8s
+[tailcat] islands__colombia
+  members: 557 rows in 4.4s
+  foils: 2537 rows in 11.7s
+[tailcat] islands__japan
+  members: 1056 rows in 11.6s
+  foils: 3192 rows in 8.3s
+[tailcat] islands__iran
+  members: 32 rows in 7.4s
+  foils: 294 rows in 7.1s
+[tailcat] islands__turkey
+  members: 280 rows in 5.4s
+  foils: 593 rows in 10.2s
+[tailcat] islands__poland
+  members: 39 rows in 3.5s
+  foils: 15907 rows in 9.0s
+[tailcat] islands__finland
+  members: 15990 rows in 7.8s
+  foils: 4982 rows in 6.8s
+[tailcat] islands__france
+  members: 1270 rows in 5.9s
+  foils: 358 rows in 8.5s
+[tailcat] islands__usa
+  members: 16167 rows in 17.3s
+  foils: 19352 rows in 8.4s
+[tailcat] universities__india
+  members: 1201 rows in 5.2s
+  foils: 288 rows in 1.4s
+[tailcat] universities__pakistan
+  members: 240 rows in 2.4s
+  foils: 1571 rows in 4.1s
+[tailcat] universities__bangladesh
+  members: 48 rows in 1.4s
+  foils: 1441 rows in 10.6s
+[tailcat] universities__sri_lanka
+  members: 32 rows in 1.5s
+  foils: 1249 rows in 11.4s
+[tailcat] universities__nepal
+  members: 52 rows in 5.7s
+  foils: 1441 rows in 0.3s
+[tailcat] universities__nigeria
+  members: 397 rows in 5.6s
+  foils: 104 rows in 2.8s
+[tailcat] universities__kenya
+  members: 61 rows in 3.4s
+  foils: 455 rows in 4.8s
+[tailcat] universities__ghana
+  members: 43 rows in 2.4s
+  foils: 458 rows in 3.6s
+[tailcat] universities__ethiopia
+  members: 58 rows in 3.0s
+  foils: 458 rows in 4.9s
+[tailcat] universities__south_africa
+  members: 65 rows in 3.5s
+  foils: 458 rows in 0.2s
+[tailcat] universities__indonesia
+  members: 873 rows in 5.6s
+  foils: 609 rows in 3.3s
+[tailcat] universities__philippines
+  members: 447 rows in 6.2s
+  foils: 1035 rows in 4.0s
+[tailcat] universities__vietnam
+  members: 162 rows in 3.4s
+  foils: 1320 rows in 4.2s
+[tailcat] universities__brazil
+  members: 265 rows in 1.7s
+  foils: 166 rows in 1.4s
+[tailcat] universities__mexico
+  members: 306 rows in 5.3s
+  foils: 166 rows in 1.1s
+[tailcat] universities__argentina
+  members: 27 rows in 2.7s
+  foils: 571 rows in 2.1s
+[tailcat] universities__colombia
+  members: 139 rows in 6.7s
+  foils: 571 rows in 3.6s
+[tailcat] universities__japan
+  members: 780 rows in 6.5s
+  foils: 789 rows in 5.4s
+[tailcat] universities__iran
+  members: 370 rows in 2.2s
+  query failed (502); attempt 1/4
+  foils: 275 rows in 15.7s
+[tailcat] universities__turkey
+  members: 35 rows in 1.3s
+  foils: 401 rows in 4.6s
+[tailcat] universities__poland
+  members: 43 rows in 7.7s
+  foils: 44 rows in 4.2s
+[tailcat] universities__finland
+  members: 13 rows in 3.5s
+  foils: 24 rows in 6.4s
+[tailcat] universities__france
+  members: 70 rows in 7.5s
+  foils: 155 rows in 3.1s
+[tailcat] universities__usa
+  members: 1835 rows in 5.4s
+  foils: 341 rows in 3.6s
+[tailcat] museums__india
+  members: 392 rows in 7.1s
+  foils: 106 rows in 2.5s
+[tailcat] museums__pakistan
+  members: 28 rows in 5.4s
+  foils: 462 rows in 5.5s
+[tailcat] museums__bangladesh
+  members: 78 rows in 2.9s
+  foils: 420 rows in 5.6s
+[tailcat] museums__sri_lanka
+  members: 33 rows in 2.7s
+  foils: 470 rows in 4.0s
+[tailcat] museums__nepal
+  members: 12 rows in 2.3s
+  foils: 420 rows in 0.2s
+[tailcat] museums__nigeria
+  members: 100 rows in 2.6s
+  foils: 41 rows in 1.2s
+[tailcat] museums__kenya
+  members: 20 rows in 5.9s
+  foils: 108 rows in 5.3s
+[tailcat] museums__ghana
+  members: 21 rows in 2.2s
+  foils: 120 rows in 3.6s
+[tailcat] museums__ethiopia
+  members: 8 rows in 1.7s
+  foils: 120 rows in 3.4s
+[tailcat] museums__south_africa
+  members: 92 rows in 3.7s
+  foils: 120 rows in 0.3s
+[tailcat] museums__indonesia
+  members: 614 rows in 3.4s
+  foils: 100 rows in 3.0s
+[tailcat] museums__philippines
+  members: 56 rows in 5.2s
+  foils: 658 rows in 3.1s
+[tailcat] museums__vietnam
+  members: 44 rows in 3.3s
+  foils: 670 rows in 4.2s
+[tailcat] museums__brazil
+  members: 1114 rows in 5.5s
+  foils: 755 rows in 12.2s
+[tailcat] museums__mexico
+  members: 361 rows in 14.7s
+  foils: 755 rows in 5.9s
+[tailcat] museums__argentina
+  members: 649 rows in 2.9s
+  foils: 1475 rows in 11.2s
+[tailcat] museums__colombia
+  members: 106 rows in 6.5s
+  foils: 1475 rows in 8.6s
+[tailcat] museums__japan
+  members: 913 rows in 6.4s
+  foils: 1100 rows in 9.7s
+[tailcat] museums__iran
+  members: 70 rows in 1.5s
+  foils: 651 rows in 3.8s
+[tailcat] museums__turkey
+  members: 623 rows in 7.3s
+  foils: 569 rows in 2.7s
+[tailcat] museums__poland
+  members: 541 rows in 6.2s
+  foils: 990 rows in 2.8s
+[tailcat] museums__finland
+  members: 428 rows in 4.2s
+  foils: 629 rows in 4.5s
+[tailcat] museums__france
+  members: 1325 rows in 4.6s
+  foils: 2684 rows in 7.7s
+[tailcat] museums__usa
+  members: 3697 rows in 11.6s
+  foils: 2827 rows in 12.1s
+[tailcat] films__india
+  members: 18726 rows in 12.7s
+  foils: 1618 rows in 1.9s
+[tailcat] films__pakistan
+  members: 729 rows in 1.7s
+  foils: 16837 rows in 9.1s
+[tailcat] films__bangladesh
+  members: 894 rows in 3.3s
+  foils: 18723 rows in 18.6s
+[tailcat] films__sri_lanka
+  members: 575 rows in 1.7s
+  query failed (504); attempt 1/4
+  foils: 18676 rows in 101.7s
+[tailcat] films__nepal
+  members: 381 rows in 3.2s
+  foils: 18723 rows in 0.9s
+[tailcat] films__nigeria
+  members: 1681 rows in 10.1s
+  foils: 204 rows in 1.9s
+[tailcat] films__kenya
+  members: 84 rows in 0.9s
+  foils: 1710 rows in 4.8s
+[tailcat] films__ghana
+  members: 120 rows in 1.5s
+  foils: 1763 rows in 4.9s
+[tailcat] films__ethiopia
+  members: 29 rows in 0.9s
+  foils: 1763 rows in 5.0s
+[tailcat] films__south_africa
+  members: 650 rows in 3.4s
+  foils: 1763 rows in 0.3s
+[tailcat] films__indonesia
+  members: 2418 rows in 7.0s
+  foils: 2297 rows in 2.0s
+[tailcat] films__philippines
+  members: 1948 rows in 4.3s
+  foils: 2768 rows in 4.7s
+[tailcat] films__vietnam
+  members: 351 rows in 1.6s
+  foils: 4356 rows in 3.7s
+[tailcat] films__brazil
+  members: 2377 rows in 6.6s
+  foils: 3866 rows in 13.1s
+[tailcat] films__mexico
+  members: 3311 rows in 7.3s
+  foils: 3866 rows in 11.6s
+[tailcat] films__argentina
+  members: 3361 rows in 54.5s
+  foils: 5676 rows in 14.6s
+[tailcat] films__colombia
+  members: 524 rows in 4.0s
+  foils: 5676 rows in 26.5s
+[tailcat] films__japan
+  members: 8789 rows in 23.1s
+  foils: 11540 rows in 24.5s
+[tailcat] films__iran
+  members: 2394 rows in 2.4s
+  foils: 3412 rows in 2.6s
+[tailcat] films__turkey
+  members: 2684 rows in 6.5s
+  foils: 3382 rows in 9.2s
+[tailcat] films__poland
+  members: 2211 rows in 12.4s
+  foils: 3709 rows in 14.9s
+[tailcat] films__finland
+  members: 1954 rows in 6.1s
+  foils: 3799 rows in 11.8s
+[tailcat] films__france
+  members: 16402 rows in 53.2s
+  foils: 14185 rows in 29.9s
+[tailcat] films__usa
+  members: 19375 rows in 22.3s
+  foils: 18549 rows in 31.9s
+[tailcat] football_clubs__india
+  members: 143 rows in 5.1s
+  foils: 116 rows in 3.4s
+[tailcat] football_clubs__pakistan
+  members: 49 rows in 4.3s
+  foils: 384 rows in 5.1s
+[tailcat] football_clubs__bangladesh
+  members: 67 rows in 2.5s
+  foils: 192 rows in 5.9s
+[tailcat] football_clubs__sri_lanka
+  members: 22 rows in 1.5s
+  foils: 210 rows in 4.2s
+[tailcat] football_clubs__nepal
+  members: 38 rows in 2.1s
+  foils: 192 rows in 0.2s
+[tailcat] football_clubs__nigeria
+  members: 114 rows in 4.6s
+  foils: 203 rows in 2.2s
+[tailcat] football_clubs__kenya
+  members: 75 rows in 2.3s
+  foils: 166 rows in 16.3s
+[tailcat] football_clubs__ghana
+  members: 128 rows in 2.5s
+  foils: 189 rows in 3.2s
+[tailcat] football_clubs__ethiopia
+  members: 52 rows in 3.1s
+  foils: 189 rows in 5.2s
+[tailcat] football_clubs__south_africa
+  members: 157 rows in 5.4s
+  foils: 189 rows in 0.2s
+[tailcat] football_clubs__indonesia
+  members: 713 rows in 9.0s
+  foils: 124 rows in 5.7s
+[tailcat] football_clubs__philippines
+  members: 62 rows in 3.9s
+  foils: 775 rows in 8.3s
+[tailcat] football_clubs__vietnam
+  members: 62 rows in 4.8s
+  foils: 775 rows in 3.5s
+[tailcat] football_clubs__brazil
+  members: 1058 rows in 11.1s
+  foils: 337 rows in 4.2s
+[tailcat] football_clubs__mexico
+  members: 331 rows in 4.8s
+  foils: 337 rows in 4.3s
+[tailcat] football_clubs__argentina
+  members: 270 rows in 1.8s
+  foils: 1389 rows in 10.6s
+[tailcat] football_clubs__colombia
+  members: 67 rows in 2.3s
+  foils: 1389 rows in 8.7s
+[tailcat] football_clubs__japan
+  members: 369 rows in 3.3s
+  foils: 426 rows in 2.8s
+[tailcat] football_clubs__iran
+  members: 241 rows in 4.0s
+  foils: 522 rows in 2.3s
+[tailcat] football_clubs__turkey
+  members: 473 rows in 5.1s
+  foils: 663 rows in 1.7s
+[tailcat] football_clubs__poland
+  members: 318 rows in 6.3s
+  foils: 488 rows in 4.0s
+[tailcat] football_clubs__finland
+  members: 184 rows in 1.3s
+  foils: 871 rows in 1.9s
+[tailcat] football_clubs__france
+  members: 1254 rows in 9.8s
+  foils: 1247 rows in 2.4s
+[tailcat] football_clubs__usa
+  members: 1048 rows in 2.0s
+  foils: 3712 rows in 2.9s
+[tailcat] writers_lang__tamil
+  members: 169 rows in 1.0s
+  foils: 1266 rows in 73.1s
+[tailcat] writers_lang__telugu
+  members: 789 rows in 4.9s
+  foils: 406 rows in 2.1s
+[tailcat] writers_lang__kannada
+  members: 238 rows in 1.4s
+  query failed (502); attempt 1/4
+  foils: 957 rows in 14.0s
+[tailcat] writers_lang__malayalam
+  members: 477 rows in 3.4s
+  foils: 406 rows in 0.2s
+[tailcat] writers_lang__bengali
+  members: 3125 rows in 6.9s
+  foils: 1583 rows in 4.7s
+[tailcat] writers_lang__hindi
+  members: 346 rows in 2.3s
+  foils: 640 rows in 3.7s
+[tailcat] writers_lang__marathi
+  members: 489 rows in 2.4s
+  foils: 708 rows in 1.8s
+[tailcat] writers_lang__gujarati
+  members: 371 rows in 3.8s
+  foils: 832 rows in 6.1s
+[tailcat] writers_lang__punjabi
+  members: 599 rows in 3.7s
+  foils: 489 rows in 2.9s
+[tailcat] writers_lang__odia
+  members: 1490 rows in 2.3s
+  foils: 3216 rows in 14.0s
+[tailcat] writers_lang__assamese
+  members: 93 rows in 1.8s
+  foils: 4614 rows in 17.0s
+[tailcat] writers_lang__urdu
+  members: 151 rows in 2.7s
+  foils: 939 rows in 5.8s
+
+=== SANITY REPORT (read this) ===
+poets__india                 members  400/ 1521  foils  200  median sitelinks 5
+    e.g. ['Samsul Huda Bihari', 'Pinaki Thakur', 'Sadhu Ramchand Murmu', 'Kopparapu Subba Rao', 'Gottapu Srinivasa Rao', 'Hamidi Kashmiri']
+    foils ['Habibullah Siraji', 'Mustafa Majeed', 'Azizur Rahman', 'Jasimuddin', 'Kazi Akram Hossain', 'Nasira Zuberi']
+poets__pakistan              members  400/  408  foils  200  median sitelinks 4
+    e.g. ['Naseer Turabi', 'Shahbaz Malik', 'Omar Ali', 'Hilal Naqvi', 'Syed Salman Gilani', 'Daud Haider']
+    foils ['Ibrahim al-Dirawi', 'Oachira P. R. Sankarankutty', 'Reza Rafi', 'Janamanchi Seshadri Sarma', 'Makhmoor Saeedi', 'T. N. Srikantaiah']
+poets__bangladesh            members  130/  130  foils  200  median sitelinks 4
+    e.g. ['Rubana Huq', 'Khan Mohammad Moinuddin', 'Shantanu Kaiser', 'Kazi Jesin', 'Abdur Rahman Boyati', 'Abul Hasan']
+    foils ['Qasimul Haque Gayawi', 'Gopi Kottoor', 'Bashir Bhadravahi', 'Madhav Ramanuj', 'Prabha Kiran Jain', 'Krishna Udayasankar']
+poets__sri_lanka             members   27/   27  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Siri Gunasinghe', 'Richard Lionel Spittel', 'Chelvy Thiyagarajah', 'Marcelline Jayakody', 'Regi Siriwardena', 'Sharmila Seyyid']
+    foils ['Pucadyil Ittoop John', 'Rezaur Rahman', 'Rubi Rahman', 'Hunsur Krishnamurthy', 'Khoshnur Alamgir', 'Suddala Hanumantu']
+poets__nepal                 members   58/   58  foils  200  median sitelinks 4
+    e.g. ['Ramesh Kshitij', 'Manu Brajaki', 'Chittadhar Hridaya', 'Kshetra Pratap Adhikari', 'Bhupi Sherchan', 'Bartika Eam Rai']
+    foils ['Kanhaiya Lal Nandan', 'Tariq Gujjar', 'Maheswar Neog', 'Anna Sujatha Mathai', 'Vennela Satyam', 'Mrityunjay Prabhakar']
+poets__nigeria               members  135/  135  foils   47  median sitelinks 7
+    e.g. ['Mark Nwagwu', 'Tanure Ojaide', 'Bassey Ikpi', 'Sam Omatseye', 'Jimi Solanke', 'Iyorwuese Hagher']
+    foils ['P. A. K. Aboagye', 'Ama Ata Aidoo', 'Nathaniel Attoh', 'Chief Moomen', 'Salah Ahmed Ibrahim', 'Stevie Wonder']
+poets__kenya                 members   14/   14  foils  156  median sitelinks 6   <-- TOO SMALL: fix the QID/query
+    e.g. ['Marjorie Oludhe Macgoye', 'Mwana Kupona', 'Abdilatif Abdalla', 'Khadija Abdalla Bajaber', 'Khadambi Asalache', 'Philo Ikonya']
+    foils ['Rasaq Malik Gbolahan', 'Iyorwuese Hagher', 'Florence Orabueze', 'Ayo Ayoola-Amale', 'Hafsat Abdulwaheed', 'Dhoodaan']
+poets__ghana                 members   33/   33  foils  149  median sitelinks 5
+    e.g. ['W. E. B. Du Bois', 'Nathaniel Attoh', 'Kobena Eyi Acquah', 'Ama Ata Aidoo', 'C. Eric Lincoln', 'P. A. K. Aboagye']
+    foils ['Fidelis Uchenna Okoro', 'Chimamanda Ngozi Adichie', 'Jekwu Anyaegbuna', 'Romeo Oriogun', 'Abubakar Gimba', 'Wole Soyinka']
+poets__ethiopia              members   21/   21  foils  149  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Gebre-Hanna', 'Tsegaye Gabre-Medhin', 'Billene Seyoum Woldeyes', 'Tessema Eshete', 'Agegnehu Engida', 'Alemtsehay Wedajo']
+    foils ['Florence Orabueze', 'Shailja Patel', 'Abimbola Lagunju', 'Funso Aiyejina', 'Logan February', 'Mwana Kupona']
+poets__south_africa          members  219/  219  foils  149  median sitelinks 5
+    e.g. ['Vernie February', 'P.J. Philander', 'Zindzi Mandela', 'Tumi Molekane', 'Benedict Wallet Vilakazi', 'Lesego Rampolokeng']
+    foils ['Iyorwuese Hagher', 'Bassey Ikpi', 'Chuma Mmeka', 'J. P. Clark', 'Tolu Ogunlesi', 'Uche Nduka']
+poets__indonesia             members   83/   83  foils  196  median sitelinks 6
+    e.g. ['Sitor Situmorang', 'Empu Panuluh', 'W.S. Rendra', 'Jan Engelbert Tatengkeng', 'Emha Ainun Nadjib', 'Abdullah Bin Nuh']
+    foils ['Thanh Hai', 'Anh Thơ', 'Nguyen Chi Thien', 'Carlos Bulosan', 'Trinh Cong Son', 'Louie Jon Agustin Sanchez']
+poets__philippines           members   82/   82  foils  197  median sitelinks 4
+    e.g. ['Merlie M. Alunan', 'Rolando Tinio', 'Edwin Agustín Lozada', 'Elena Patron', 'Benigno Ramos', 'Pedro Bucaneg']
+    foils ['Nguyễn Khuyến', 'Dimas Arika Mihardja', 'Norman Erikson Pasaribu', 'Trịnh Bửu Hoài', 'Xuan Dieu', 'Sitok Srengenge']
+poets__vietnam               members  114/  114  foils  165  median sitelinks 4
+    e.g. ['Trinh Cong Son', 'Đồ Phồn', 'Luu Trong Lu', 'Vo Van Ai', 'Nguyễn Đức Mậu', 'Hoàng Cầm']
+    foils ['Agam Wispi', 'Florentino Collantes', 'Medy Loekito', 'Ramadhan K.H.', 'Ildefonso Santos', 'Emha Ainun Nadjib']
+poets__brazil                members  400/  633  foils  200  median sitelinks 4
+    e.g. ['Francisco da Silveira Bueno', 'Paulo Scott', 'Maranhão Sobrinho', 'Antônio Peregrino Maciel Monteiro, 2nd Baron of Itamaracá', 'Zeferino Brasil', 'Catulo da Paixão Cearense']
+    foils ['Mercedes Dantas Lacombe', 'Julio Dominguez «El Bardino»', 'Carlos Obregón Borrero', 'Susana Martres', 'Felipe Aldana', 'Osvaldo Lamborghini']
+poets__mexico                members  395/  395  foils  200  median sitelinks 4
+    e.g. ['Luis Aguilar', 'José Ramón Enríquez', 'R. de Zayas Enríquez', 'Griselda Álvarez', 'Juan de la Cueva de Garoza', 'José María Espinasa']
+    foils ['Felipe Aldana', 'Francisco Álvarez de Velasco y Zorrilla', 'Jorge Assaf', 'Luciano Lamberti', 'Carlos Barocela', 'Juan Cruz Varela']
+poets__argentina             members  400/  475  foils  200  median sitelinks 3
+    e.g. ['Antonio Porchia', 'Noni Benegas', 'Canela', 'Ulyses Petit de Murat', 'Rafael Obligado', 'Raúl Gustavo Aguirre']
+    foils ['Juan B. Delgado', 'Paulo César Pinheiro', 'Luis Felipe Fabre', 'Ana Montenegro', 'Andrés Quintana Roo', 'Nirvana Paz']
+poets__colombia              members  106/  106  foils  200  median sitelinks 4
+    e.g. ['Enrique Buenaventura', 'María Mercedes Carranza', 'Zacarías Reyán', 'Alberto Rafael Santofimio Botero', 'Carmelina Soto', 'Eduardo Talero']
+    foils ['Waldo Motta', 'Arievaldo Viana', 'José Maria do Amaral', 'Rubem Alves', 'Guimarães Rosa', 'Antônio Maria']
+poets__japan                 members  400/  747  foils  200  median sitelinks 6
+    e.g. ['Kansuke Naka', 'Ukō Shioi', 'Saionji Shōshi', 'Sei Ito', 'Jun Tanaka', 'Fujiwara no Sadakata']
+    foils ['Zang Di', 'Yao Feng', 'Oh Sae-young', 'Park Sangsoon', 'Shu Ting', 'Bian Zhilin']
+poets__iran                  members  400/  479  foils  200  median sitelinks 5
+    e.g. ['Ebrat Naeini', 'Hilal Nasiri', 'Amir Pazevari', 'Bijan Abdolkarimi', 'Akram Fahimian', 'Mohammad-Ali Eslami Nodooshan']
+    foils ['Can Muhammed', 'Şükrü Erbaş', 'Shamsur Rahman', 'Khawaja Pervez', 'Onat Kutlar', 'Ghulam Muhammad Qasir']
+poets__turkey                members  330/  330  foils  200  median sitelinks 4
+    e.g. ['Mevlâna İdris Zengin', 'Bekir Sıtkı Erdoğan', 'Cenap Şahabettin', 'İnci Asena', 'Orhan Veli Kanık', 'Özdemir Asaf']
+    foils ['Ali Khamenei', 'Ali Pahlavan', 'Nikos Fokas', 'Charalampos Anninos', 'Stavros Vavoúris', 'Morteza Shams']
+poets__poland                members  400/ 1509  foils  200  median sitelinks 3
+    e.g. ['Karol Baliński', 'Damian Kowal', 'Marlena Zynger', 'Anka Kowalska', 'Dorota Masłowska', 'Ludwik Lipnicki']
+    foils ['Margit von Schoultz-Frankenhaeuser', 'Alena Melicharová', 'Henriikka Tavi', 'Filip Klega', 'Jan Antonín Pitínský', 'Petra Slováková']
+poets__finland               members  400/  454  foils  200  median sitelinks 3
+    e.g. ['Kerstin Söderholm', 'Niillas Holmberg', 'Erika Husberg', 'Armas Äikiä', 'Heidi Iivari', 'Miki Liukkonen']
+    foils ['Annes Meister', 'Indrek Tart', 'Vilhelm Fredrik Palmblad', 'Paul Andersson', 'Harald Rajamets', 'Ida Börjel']
+poets__france                members  400/ 3604  foils  200  median sitelinks 4
+    e.g. ['Savinien Lapointe', 'Adine Joliveau', 'Jacques de Billy', 'Mathurin-Léonard Duphot', 'Vénus Khoury-Ghata', 'Marceau Esquieu']
+    foils ['Raffaele Carrieri', 'Luigi Polacchi', 'Georges Eekhoud', 'Fortunato Depero', 'Santo Calì', 'Antonio Porta']
+poets__usa                   members  400/ 4419  foils  200  median sitelinks 4
+    e.g. ['Kara Jackson', 'Lourdes Casal', 'Mindy Aloff', 'Kate Daniels', 'Karel Mauser', 'William Cleaver Wilkinson']
+    foils ['John Purser', 'P. K. Page', 'Catherine Amy Dawson Scott', 'Nell Regan', 'E. J. Pratt', 'Camille Roy']
+novelists__india             members  395/  395  foils   92  median sitelinks 5
+    e.g. ['Ponjikara Raphi', 'Rajashree', 'Sitadebi Khadanga', 'Mannu Bhandari', 'Cho Dharman', 'Anita Desai']
+    foils ['Mohsin Hamid', 'Sahab Qazalbash', 'Agha Saleem', 'Humayun Iqbal', 'Abdul Jabbar Junejo', 'Sadat Hossain']
+novelists__pakistan          members   81/   81  foils  200  median sitelinks 5
+    e.g. ['Saadat Hasan Manto', 'Husne Ara Shahed', 'Tabassum Kāshmīrī', 'Parveen Atif', 'Sultana Meher', 'Intizar Hussain']
+    foils ['Yandamuri Veerendranath', 'Pragyan Prabartika Dash', 'Annie Thayyil', 'Farnoosh Moshiri', 'Akhtar Mohiuddin', 'Reza Baraheni']
+novelists__bangladesh        members   27/   27  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Tahmima Anam', 'Sadat Hossain', 'Mokbula Manzoor', 'Monica Ali', 'Rizia Rahman', 'Bulbon Osman']
+    foils ['Saima Akram Chudhery', 'Shantichitra', 'Soniah Kamal', 'Ampasayya Naveen', 'T. V. Kochubava', 'Kamala Hampana']
+novelists__sri_lanka         members   12/   12  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Ambalavaner Sivanandan', 'Tharaka Wasalamudaliarachchi', 'Rosemary Rogers', 'Mary Anne Mohanraj', 'Ru Freeman', 'Michelle de Kretser']
+    foils ['Rosy Thomas', 'Mufti Nurunnessa Khatun', 'Manikuntala Bhattacharya', 'Upendranath Gangopadhyay', "Na D'Souza", 'Jyotsna Milan']
+novelists__nepal             members   16/   16  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Bal Krishna Pokharel', 'Bijaya Malla', 'Shashikala Manandhar', 'Sanu Sharma', 'Laxmi Prasad Devkota', 'Sudheer Sharma']
+    foils ['Sohinder Singh Wanjara Bedi', 'Sumrit Shahi', 'Taradas Bandyopadhyay', 'Prabir Kumar Goswami', 'Anuradha Bhattacharyya', 'Rita Chowdhury']
+novelists__nigeria           members   84/   84  foils   45  median sitelinks 8
+    e.g. ['Okey Ndibe', 'Pauline Uwakweh', 'Abubakar Adam Ibrahim', 'Adaora Lily Ulasi', 'Lindsay Barrett', 'Abidemi Sanusi']
+    foils ['Yaa Gyasi', 'Micere Githae Mugo', 'Carolyne Adalla', "Ngũgĩ wa Thiong'o", 'Meja Mwangi', 'P. A. K. Aboagye']
+novelists__kenya             members   15/   15  foils   93  median sitelinks 9   <-- TOO SMALL: fix the QID/query
+    e.g. ['Rebeka Njau', 'Miriam Were', 'Yvonne Adhiambo Owuor', 'Micere Githae Mugo', 'Ken Waliaula', 'Carolyne Adalla']
+    foils ['Emmanuel Iduma', 'Timothy Ogene', 'Eghosa Imasuen', 'Ben Okri', 'Tsehay Melaku', 'Maaza Mengiste']
+novelists__ghana             members   30/   30  foils   99  median sitelinks 8
+    e.g. ['C. Eric Lincoln', 'Kojo Laing', 'Yaa Gyasi', 'Peace Adzo Medie', 'Cameron Duodu', 'Francis Selormey']
+    foils ['Emmanuel Iduma', 'Jane Tapsubei Creider', 'Ossie Enekwe', 'Chris Abani', 'Henry Akubuiro', 'Carolyne Adalla']
+novelists__ethiopia          members    9/    9  foils   99  median sitelinks 7   <-- TOO SMALL: fix the QID/query
+    e.g. ['Tsehay Melaku', 'Kebede Mikael', 'Bewketu Seyoum', 'Hama Tuma', 'Abe Gubegna', 'Nega Mezlekia']
+    foils ['Moraa Gitaa', 'Okey Ndibe', 'Richard Ali', 'Akwaeke Emezi', 'Yewande Omotoso', 'Carolyne Adalla']
+novelists__south_africa      members   96/   96  foils   99  median sitelinks 5
+    e.g. ['Lisa Fugard', 'Peter Temple', 'Nick Mulgrew', 'Nthikeng Mohlele', 'Lauren Liebenberg', 'Jenefer Shute']
+    foils ['Lindsay Barrett', 'Teju Cole', 'Akin Adesokan', 'Pita Nwana', 'Olumide Popoola', 'Miriam Were']
+novelists__indonesia         members   42/   42  foils   32  median sitelinks 5
+    e.g. ['A. Damhoeri', 'Djenar Maesa Ayu', 'Ilana Tan', 'Muhidin M. Dahlan', 'Yati Maryati Wiharja', 'Suwarsih Djojopuspito']
+    foils ['Genevieve L. Asenjo', 'Trần Tiêu', 'Carmen Concha', 'HaveYouSeenThisGirL', 'Nam Le', 'Armine Rhea Mendoza']
+novelists__philippines       members   18/   18  foils   56  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Azucena Grajo Uranza', 'Genevieve L. Asenjo', 'Armine Rhea Mendoza', 'Felisa Batacan', 'Bienvenido Santos', 'José Rizal']
+    foils ['Ziggy Zezsyazeoviennazabrizkie', 'Oka Rusmini', 'Nguyễn Đức Mậu', 'Stefani Hid', 'Trần Tiêu', 'Elvianus Katoppo']
+novelists__vietnam           members   14/   14  foils   60  median sitelinks 6   <-- TOO SMALL: fix the QID/query
+    e.g. ['Thị Bảo Hòa Huỳnh', 'Trịnh Bửu Hoài', 'Nam Le', 'Trần Tiêu', 'Kim Thúy', 'Nguyễn Đức Mậu']
+    foils ['Maria Cabase', 'Genevieve L. Asenjo', 'Muhidin M. Dahlan', 'Carmen Concha', 'A. Damhoeri', 'HaveYouSeenThisGirL']
+novelists__brazil            members  339/  339  foils  174  median sitelinks 5
+    e.g. ['Felipe Machado', 'Chico Buarque', 'Janer Cristaldo', 'Micheliny Verunschk', 'Tati Bernardi', 'Patrícia Bins']
+    foils ['Felipe Pérez', 'Fernando Monacelli', 'Macedonio Fernández', 'Roberto Arlt', 'Miguel Ángel Manrique', 'Fito Páez']
+novelists__mexico            members  101/  101  foils  174  median sitelinks 6
+    e.g. ['Juan Villoro', 'Alberto Chimal', 'Manuel Luis Martinez', 'José López Portillo y Rojas', 'Heriberto Frías', 'Álvaro Enrigue']
+    foils ['Juan Gabriel Vásquez', 'Flavia Company', 'Gustavo Bolívar', 'Elisa Mújica', 'Norah Lange', 'María Paz Ruiz Gil']
+novelists__argentina         members  112/  112  foils  200  median sitelinks 5
+    e.g. ['María Elena Walsh', 'Edgardo Cozarinsky', 'Santiago Craig', 'Federico Axat', 'Carlos Gorostiza', 'Abelardo Castillo']
+    foils ['Carlos Méro', 'Modesto Carone', 'Giselda Leirner', 'Rafael Bernal', 'Patrícia Melo', 'Niceto de Zamacois']
+novelists__colombia          members   63/   63  foils  200  median sitelinks 5
+    e.g. ['Manuel Mejía Vallejo', 'Germán Castro Caycedo', 'Gil Colunje', 'Giuseppe Caputo', 'Gustavo Bolívar', 'Octavio Escobar Giraldo']
+    foils ['Silviano Santiago', 'Viana Moog', 'Roberto Drummond', 'Alberto Chimal', 'Rubens Teixeira Scavone', 'Autran Dourado']
+novelists__japan             members  400/ 1477  foils  200  median sitelinks 4
+    e.g. ['Ōson Sakurai', 'Tadashi Ohta', 'Akiko Akazome', 'Soichiro Hatano', 'Yukiya Murasaki', 'Taisuke Fujishima']
+    foils ['He Xi', 'Yun I-hyeong', 'Zhu Lin', 'Yilin Zhong', 'Lee Ki-ho', "Jia'nan Qian"]
+novelists__iran              members  122/  122  foils  147  median sitelinks 6
+    e.g. ['Mohammad Hejazi', 'Nahid Kabiri', 'Ali Mohammad Afghani', 'Yaqub Yadali', 'Masoumeh Abad', 'Fereshteh Molavi']
+    foils ['Salma Shaheen', 'Amna Mufti', 'Shawkat Osman', 'Saadat Hasan Manto', 'Işık Yanar', 'Süreyya Evren']
+novelists__turkey            members   66/   66  foils  159  median sitelinks 9
+    e.g. ['Buket Uzuner', 'Refi Cevad Ulunay', 'Mustafa Miyasoğlu', 'Alev Alatlı', 'Elia R. Carmona', 'Sümeyye Koç']
+    foils ['Ersi Sotiropoulos', 'Majid Gheisari', 'Zoya Pirzad', 'Hossein Mortezaeian Abkenar', 'Mehdi Khalaji', 'Alki Zei']
+novelists__poland            members   76/   76  foils   68  median sitelinks 6
+    e.g. ['Maria Sadowska', 'Witold Gombrowicz', 'Olga Tokarczuk', 'Bogusław Sujkowski', 'Gabriela Zapolska', 'Bolesław Prus']
+    foils ['Magdalena Wagnerová', 'Pavel Kohout', 'Pentti H. Tikkanen', 'Juhani Aho', 'Martina Navratilova', 'Pentti Haanpää']
+novelists__finland           members   45/   45  foils   97  median sitelinks 4
+    e.g. ['Merja Jalo', 'Kati Hiekkapelto', 'Onni Palaste', 'Anu Kaaja', 'Jalo Kalima', 'Erik Andrén']
+    foils ['Ann Mari Falk', 'Kristina Ohlsson', 'Lauri Räpp', 'Sophie Elkan', 'Stig Larsson', 'Carl Jonas Love Almqvist']
+novelists__france            members  400/ 1737  foils  200  median sitelinks 5
+    e.g. ['André Lichtenberger', 'Henri de Bornier', 'Jean-Daniel Baltassat', 'Laurence Plazenet', 'François Coppée', 'François Lange']
+    foils ['Valeria Montaldi', 'Corinna Teresa Ubertis', 'Giulia Niccolai', 'Francesca Melandri', 'Tom Lanoye', 'Sandra Petrignani']
+painters__india              members  400/  428  foils  116  median sitelinks 5
+    e.g. ['Devyani Krishna', 'Asha Jha', 'Jayasree P.G.', 'Sohan Qadri', 'Srimati Lal', 'Paramjit Singh']
+    foils ['David Alesworth', 'Sunny Sanwar', 'Gullu Butt', 'Quamrul Hassan', 'Chitranibha Chowdhury', 'Rashid Rana']
+painters__pakistan           members   99/   99  foils  200  median sitelinks 4
+    e.g. ['Hashem Khan', 'Atia Islam Anne', 'Asim Butt', 'Nahid Raza', 'Kazi Anowar Hossain', 'Hajra Mansoor']
+    foils ['Edmund Thomas Clint', 'Pushpamala N.', 'Abid Surti', 'Shokouh Riazi', 'Shanti Devi Paswan', 'Atul Dodiya']
+painters__bangladesh         members   58/   58  foils  200  median sitelinks 4
+    e.g. ['Safiuddin Ahmed', 'Kazi Abdul Baset', 'Somnath Hore', 'Tayeba Begum Lipi', 'Monsur Ul Karim', 'SM Sultan']
+    foils ['Krishna Shamrao Kulkarni', 'Satyajit Ray', 'Sekar Ayyanthole', 'Jyotsna Bhatt', 'Trilok Singh Chitarkar', 'Evelyn Grace Ince']
+painters__sri_lanka          members   11/   11  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Ivan Peries', 'Harold Peiris', 'Ena de Silva', 'Anoli Perera', 'George Keyt', 'Barbara Sansoni']
+    foils ['A.S. Nair', 'Hemant Rao', 'Harish Johari', 'Zarina', 'Sujata Bajaj', 'Monsur Ul Karim']
+painters__nepal              members    6/    6  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Sabita Dangol', 'Raj Man Singh Chitrakar', 'Kiran Manandhar', 'Uttam Nepali', 'Batsyayana', 'Suman Pokhrel']
+    foils ['Murtoza Bashir', 'S. Nandagopal', 'Debi Prasad Roy Choudhury', 'Ruheena Malik', 'Lalita Lajmi', 'K. M. Adimoolam']
+painters__nigeria            members   73/   73  foils   30  median sitelinks 8
+    e.g. ['Kelechi Amadi-Obi', 'Alimi Adewale', 'Samson Akinnire', 'Isio De-laVega Wanogho', 'Monilola Olayemi Ilupeju', 'Moyo Okediji']
+    foils ['Kobina Nyarko', 'Amon Kotei', 'Anita-Pearl Ankor', 'Kaloki Nyamai', 'Allan deSouza', 'Atta Kwami']
+painters__kenya              members    6/    6  foils   91  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Allan deSouza', 'Wangechi Mutu', 'Kaloki Nyamai', 'Michael Armitage', 'David Maillu', 'Joseph Bertiers']
+    foils ['Kohar Kevorkian', 'Tayo Adenaike', 'Tesfaye Urgessa', 'Tony Nsofor', 'Jimoh Buraimoh', 'Suzanna Ogunjami']
+painters__ghana              members   26/   26  foils   77  median sitelinks 8   <-- TOO SMALL: fix the QID/query
+    e.g. ['Kofi Setordji', 'Anita-Pearl Ankor', 'James Cudjoe', 'Ibrahim Mahama', 'Kudjoe Affutu', 'Betty Acquah']
+    foils ['Ikechukwu Francis Okoronkowo', 'Tayo Adenaike', 'Ada Udechukwu', 'Daddy K', 'Anne Njemanze', 'Nkiru Nzegwu']
+painters__ethiopia           members   18/   18  foils   79  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Gedewon', 'Awol Erizku', 'Kidist Hailu Degaffe', 'Martha Nasibù', 'Wosene Worke Kosrof', 'Alefelege Selam']
+    foils ['Kaltume Bulama Gana', 'Obiora Udechukwu', 'Sunday Jack Akpan', 'Twins Seven-Seven', 'Kelechi Amadi-Obi', 'Muraina Oyelami']
+painters__south_africa       members  145/  145  foils   79  median sitelinks 6
+    e.g. ['Ethel May Dixie', 'Garth Erasmus', 'Cecil Michaelis', 'Carl Walter Meyer', 'Irma Stern', 'Vladimir Tretchikoff']
+    foils ['Colette Omogbai', 'Marcia Kure', 'Victor Ekpuk', 'Kolade Oshinowo', 'Anne Njemanze', 'Chidi Kwubiri']
+painters__indonesia          members   95/   95  foils  141  median sitelinks 3
+    e.g. ['Wakidi', 'Widi Dwinanda', 'Abdul Djalil Pirous', 'Mohammad Irfan', 'Amrus Natalsya', 'I Gusti Nyoman Lempad']
+    foils ['Nena Saguil', 'Romeo Tabuena', 'Dao Droste', 'Anton Del Castillo', 'Nguyễn Khoa Toàn', 'David Medalla']
+painters__philippines        members   86/   86  foils  150  median sitelinks 3
+    e.g. ['Onib Olmedo', 'Nena Saguil', 'Camille Dela Rosa', 'Martino Abellana', 'Santiago Bose', 'Joy Mallari']
+    foils ['Popo Iskandar', 'Danarto', 'Văn Cao', 'Kartika Affandi', 'Lee Man Fong', 'Nguyễn Văn Tỵ']
+painters__vietnam            members   55/   55  foils  181  median sitelinks 3
+    e.g. ['Mai Long', 'Trinh Cong Son', 'Văn Đen', 'Tô Ngọc Vân', 'Nguyễn Khang', 'Đinh Ý Nhi']
+    foils ['Batara Lubis', 'Marina Joesoef', 'Miguel Zaragoza', 'Jerry Elizalde Navarro', 'Made Wianta', 'Ugo Untoro']
+painters__brazil             members  400/  673  foils  200  median sitelinks 3
+    e.g. ['Pedro Alexandrino Borges', 'Alice Brueggemann', 'Fernando Lemos', 'João Batista Ribeiro de Andrade Fernandes', 'Lia do Rio', 'Arnaud Pallière']
+    foils ['Alberto Taboada', 'Adriana Marmorek', 'María Rosa Yorio', 'Martín Boneo', 'Carlos Regazzoni', 'Fernando Birri']
+painters__mexico             members  400/  569  foils  200  median sitelinks 4
+    e.g. ['Francisco Icaza', 'Pedro Cerisola', 'Laureana Toledo', 'Cayetano Corona Gaspariano', 'Carlomagno Pedro Martínez', 'Emilio Rosenblueth Stearns']
+    foils ['Bernardo Ríos', 'Andrés de Santa Maria', 'Natalia Castañeda Arbelaez', 'Martha Boto', 'Luis Tomasello', 'María Isabel Salazar de Lince']
+painters__argentina          members  400/  445  foils  200  median sitelinks 3
+    e.g. ['Enrique de Larrañaga', 'Alejandro Bustillo', 'Tristán Bauer', 'Batuz', 'Eduardo Barnes', 'Antonia Brunet de Annat']
+    foils ['Luis Rey', 'Jerônimo José Telles Júnior', 'Maximilian Emil Hehl', 'Alejandro Zohn', 'Nuno Ramos', 'Antônio Poteiro']
+painters__colombia           members  135/  135  foils  200  median sitelinks 3
+    e.g. ['Gonzalo Ariza', 'Luis García Hevia', 'Santiago Martínez Delgado', 'Lola Fernández', 'Chanoir', 'María Fernanda Cuartas']
+    foils ['Clóvis Graciano', 'Walter Bandeira', 'Mauricio de Sousa', 'Zé Rodrix', 'Rufino Tamayo', 'Fernando Leal']
+painters__japan              members  400/ 1240  foils  200  median sitelinks 3
+    e.g. ['Kanamori Nantō', 'Kunimitsu Utagawa', 'Matsukawa Hanzan', 'Mitsuko Tabe', 'Ogata Kōrin', 'Murakami Kagaku']
+    foils ['Chung Jung-soo', 'Rex How', 'Congzhou Chen', 'Leng Jun', 'Sanzhi Lin', 'Lin Fengmian']
+painters__iran               members  232/  232  foils  200  median sitelinks 4
+    e.g. ['Faramarz Pilaram', 'Farzin Fakhr Yaseri', 'Hovnatanyan Harutyun', 'Reza Khodadadi', 'Masoumeh Mozaffari', 'Ali Divandari']
+    foils ['Mezahir Avşar', 'AKM Abdur Rouf', 'Maide Arel', 'Samarjit Roy Chowdhury', 'Cihangir Akşit', 'Shahzia Sikander']
+painters__turkey             members  216/  216  foils  200  median sitelinks 3
+    e.g. ['Fernando Gerassi', 'Ekber Kazım Muğan', 'Feyhaman Duran', 'Vera Sogoyan', 'Deniz Kurtel', 'Nur Esen']
+    foils ['Alexandros Alexandrakis', 'Niki Goulandri', 'Farhad Ostovani', 'Spiros Papalucas', 'Costantino Condoianni', 'Darvish Fakhr']
+painters__poland             members  400/ 1848  foils  200  median sitelinks 2
+    e.g. ['Stanisław Stückgold', 'Tomasz Barczyk', 'Ignacy Pieńkowski', 'Jan Bocheński', 'Edward Kokoszko', 'Mariusz Pałka']
+    foils ['Aleš Svoboda', 'Andreas Alariesto', 'Miloš Mlha Uhrin', 'Valle Rosenberg', 'Väinö Kunnas', 'Oldřich Kulhánek']
+painters__finland            members  400/  632  foils  200  median sitelinks 3
+    e.g. ['Leo Lindsten', 'Kaj Stenvall', 'Katri Tätilä', 'Enni Id', 'Veikko Hirvimäki', 'Ann-Marie Häyrén']
+    foils ['Otto Gripensvärd', 'Doris Hennix', 'Edvard August Bergh', 'Esther Kjerner', 'Navitrolla', 'Wilhelmina Krafft']
+painters__usa                members  400/ 6808  foils  200  median sitelinks 4
+    e.g. ['Ralph Earl', 'Antonio Jacobsen', 'John Appleton Brown', 'Emanuel Vardi', 'Bruce Goff', 'Walter Shirlaw']
+    foils ['Hope Bourne', 'Clarence Gagnon', 'Isabelle Borg', 'Landon Mackenzie', 'Donald Pass', 'William Pether']
+film_directors__india        members  400/ 2577  foils  200  median sitelinks 5
+    e.g. ['Sampath Nandi', 'Homi Wadia', 'Sunil Sikand', 'Rahul Ravindran', 'P. J. Antony', 'Rohan Sippy']
+    foils ['Gazi Mazharul Anwar', 'Nargis Akhter', 'Raza Mir', 'Adnan Al Rajeev', 'Sangeeta', 'Faridur Reza Sagar']
+film_directors__pakistan     members  186/  186  foils  200  median sitelinks 4
+    e.g. ['Sarmad Sultan Khoosat', 'Ashir Azeem', 'Sudhir', 'Hamza Ali Abbasi', 'Hashmot', 'Amar Khan']
+    foils ['S. Balachander', 'Shekar Basha', 'Murasoli Maran', 'Saritha', 'Udayasankar', 'Omar Lulu']
+film_directors__bangladesh   members  162/  162  foils  200  median sitelinks 4
+    e.g. ['Saidul Anam Tutul', 'ATM Shamsuzzaman', 'Kazi Morshed', 'Dipankar Dipon', 'Abu Shahed Emon', 'Harunur Rashid']
+    foils ['Anurag Singh', 'Fazil', "Homen D' Wai", 'Amrit Pal', 'Kanwal Sethi', 'Parvez Sharma']
+film_directors__sri_lanka    members   52/   52  foils  200  median sitelinks 4
+    e.g. ['Robin Tampoe', 'Gamini Fonseka', 'Malaka Dewapriya', 'Tissa Abeysekara', 'Chinthana Dharmadasa', 'Channa Perera']
+    foils ['Lalit Bhusal', 'Sachin Yardi', 'Jayan Naduvathazhath', 'Raghuveer', 'T. S. Nagabharana', 'Faisal Saif']
+film_directors__nepal        members   53/   53  foils  200  median sitelinks 5
+    e.g. ['Dipendra K Khanal', 'Nilu Doma Sherpa', 'Deepak Rauniyar', 'Dayaram Dahal', 'Pradeep Rimal', 'Nischal Basnet']
+    foils ['Ratnaja', 'Shashi Kapoor', 'Praveen Nischol', 'S. V. Krishna Reddy', 'Bhadran', 'Sajid Yahiya']
+film_directors__nigeria      members  269/  269  foils   69  median sitelinks 10
+    e.g. ['Teniola Aladese', 'Mike Bamiloye', 'Zeb Ejiro', 'Akin Alabi', 'Andy Chukwu', 'Niji Akanni']
+    foils ['Kalsoume Sinare', 'Nana Ama McBrown', 'Nadia Buari', 'Jinna Mutune', 'Raju Patel', 'Angela Wanjiku Wamai']
+film_directors__kenya        members   29/   29  foils  200  median sitelinks 7   <-- TOO SMALL: fix the QID/query
+    e.g. ['Achieng Ajulu-Bushell', 'Jim Chuchu', 'Jane Munene-Murago', 'Maureen Koech', 'Wanuri Kahiu', 'Raju Patel']
+    foils ['Bimbo Oshin', 'Chinonye Chukwu', 'JJ Bunny', 'Yared Zeleke', 'Steve Egboro', 'Ekene Som Mekwunye']
+film_directors__ghana        members   40/   40  foils  200  median sitelinks 9
+    e.g. ['Yaw Skyface', 'Akosua Busia', 'Akosua Adoma Owusu', 'Anthony Nti', 'Yvonne Nelson', 'Emmanuel Apea']
+    foils ['Omoni Oboli', 'Misan Harriman', 'Nora Awolowo', "Mak 'Kusare", 'Kevin Nwankwor', 'Wale Adenuga']
+film_directors__ethiopia     members   10/   10  foils  200  median sitelinks 8   <-- TOO SMALL: fix the QID/query
+    e.g. ['Yared Zeleke', 'Hermon Hailay', 'Salem Mekuria', 'Adanech Admassu', 'Tariku Birhanu', 'Gelila Bekele']
+    foils ['Ijeoma Grace Agu', 'Jadesola Osiberu', 'Lizz Njagah', 'Jide Kosoko', 'Akin Lewis', 'Chet Anekwe']
+film_directors__south_africa members  151/  151  foils  200  median sitelinks 7
+    e.g. ['Liesl Tommy', 'Michael Raeburn', 'Dirk de Villiers', 'Mishqah Parthiephal', 'Michael Oblowitz', 'Ivan Botha']
+    foils ['Mbithi Masya', 'Bolanle Austen-Peters', 'Adewale Akinnuoye-Agbaje', 'Ali Nuhu', 'Iyabo Ojo', 'Maureen Koech']
+film_directors__indonesia    members  173/  173  foils  200  median sitelinks 5
+    e.g. ['D. Djajakusuma', 'Ria Irawan', 'Gareth Evans', 'Andibachtiar Yusuf', 'Sekar Ayu Asmara', 'Rako Prijanto']
+    foils ['Luu Huynh', 'The Chau Ngo', 'Shasha Nakhai', 'Virginia R. Moreno', 'Chi Bảo', 'Aina Dumlao']
+film_directors__philippines  members  169/  169  foils  200  median sitelinks 4
+    e.g. ['Efren Reyes, Sr.', 'Sheron Dayoc', 'Behn Cervantes', "Mario O'Hara", 'Khavn De La Cruz', 'Harlene Bautista']
+    foils ['Đặng Thái Huyền', 'Luu Huynh', 'Lola Amaria', 'H. Tjut Djalil', 'Linh Nga', 'Dede Yusuf']
+film_directors__vietnam      members   49/   49  foils  200  median sitelinks 3
+    e.g. ['Luu Huynh', 'Huỳnh Đông', 'La Thoại Tân', 'Cuong ngo', 'Hồng Ánh', 'Hoàng Vĩnh Lộc']
+    foils ['Lav Diaz', 'Ishmael Bernal', 'Rizal Mantovani', 'Danny Zialcita', 'Nasri Cheppy', 'Monty Tiwa']
+film_directors__brazil       members  400/  523  foils  200  median sitelinks 5
+    e.g. ['Pio Zamuner', 'Maria Luísa Mendonça', 'Juliano Dornelles', 'Anselmo Duarte', 'Arturo Carrari', 'Ivete Sangalo']
+    foils ['Simón Feldman', 'Simón Brand', 'Martin Donovan', 'Rodrigo Moreno', 'Octavio Getino', 'Carola Reyna']
+film_directors__mexico       members  400/  439  foils  200  median sitelinks 6
+    e.g. ['Catalina Aguilar Mastretta', 'René Cardona Jr.', 'Harding Junior', 'Héctor Ortega', 'Nancy Cárdenas', 'Everardo González']
+    foils ['Orestes Caviglia', 'Daniel Miglioranza', 'Oscar Grillo', 'Don Napy', 'Martin Donovan', 'Enrique García Velloso']
+film_directors__argentina    members  400/  497  foils  200  median sitelinks 5
+    e.g. ['Julia Solomonoff', 'Fernando Spiner', 'Adolfo Aristarain', 'María Luisa Bemberg', 'Manuel Romero', 'Lucía Cedrón']
+    foils ['Marcelo Galvão', 'Monique Gardenberg', 'Roberto Bomtempo', 'Salma Hayek', 'Mário Vaz Filho', 'Maya Da-Rin']
+film_directors__colombia     members   97/   97  foils  200  median sitelinks 5
+    e.g. ['Celmira Zuluaga Aparicio', 'Jasmin Gassmann', 'Patricia Ayala Ruiz', 'Paola Baldión', 'Victor Nieto', 'Rodrigo Triana']
+    foils ['Carlos Carrera', 'Ana Flávia Cavalcanti', 'Humberto Mauro', 'Helena Ignez', 'Carlos Villatoro', 'Juan Solari']
+film_directors__japan        members  400/ 1405  foils  200  median sitelinks 6
+    e.g. ['Takehiko Inoue', 'Kaoru Osanai', 'Akinori Nishiyama', 'Hajime Katoki', 'Hisakatsu Kubota', 'Tetsuya Nakatake']
+    foils ['Stanley Kwan', 'Shin Dong-il', 'Andy Lau', 'Chen Daming', 'Lee Kae-byeok', 'Park Soo-young']
+film_directors__iran         members  400/  697  foils  200  median sitelinks 4
+    e.g. ['Moharram Zeinalzadeh', 'Reza Bahrami (Artist)', 'Ghasem Jafari', 'Faramarz Sedighi', 'Bijan Birang', 'Jamshid Andalibi']
+    foils ['Nebil Özgentürk', 'Khan Ataur Rahman', 'Burak Çevik', 'Asad Bukhari', 'Ceylan Özgün Özçelik', 'Barış Atay']
+film_directors__turkey       members  377/  377  foils  200  median sitelinks 5
+    e.g. ['Kutluğ Ataman', 'Mert Kılıç', 'Hakkı Kurtuluş', 'Cüneyt Arkın', 'İlker Ayrık', 'Mehmet Ali Konar']
+    foils ['Valiollah Khakdan', 'Jalal Moghadam', 'Morteza Aghili', 'Homayoun As’adian', 'Soheila Golestani', 'Ruhollah Hejazi']
+film_directors__poland       members  400/  798  foils  200  median sitelinks 5
+    e.g. ['Konrad Niewolski', 'Łukasz Madziar', 'Zygmunt Hübner', 'Janusz Weychert', 'Marek Halter', 'Ignacy Gogolewski']
+    foils ['Tomáš Etzler', 'Erkki Pirtola', 'Katariina Lahti', 'Jukka Hilden', 'Jiří Vejdělek', 'Stanislav Strnad']
+film_directors__finland      members  400/  462  foils  200  median sitelinks 4
+    e.g. ['Pirkko Saisio', 'Antti Raivio', 'Ari Matikainen', 'Axel Slangus', 'Hamy Ramezan', 'Jimi Tenor']
+    foils ['Filippa Pierrou', 'Peter Torbiörnsson', 'Arnold Altmäe', 'Thor L. Brooks', 'Anders Banke', 'Ingrid Janbell']
+film_directors__france       members  400/ 4275  foils  200  median sitelinks 5
+    e.g. ['Patrick Cabouat', 'Stéphane Ly-Cuong', 'René Guissart', 'Mathias Théry', 'Lasse Braun', 'Jean-Loup Felicioli']
+    foils ['Ninni Bruschetta', 'Primo Zeglio', 'Osvaldo Cavandoli', 'Vittorio Sindoni', 'Roberto Catani', 'Stefania Sandrelli']
+film_directors__usa          members  400/10536  foils  200  median sitelinks 7
+    e.g. ['Robert Kramer', 'Theo Anthony', 'Vincent J. Donehue', 'Gene Nelson', 'Francis Stokes', 'James Thomas Aubrey, Jr.']
+    foils ['Andrea Dorfman', 'Kid Koala', 'Bonnie Sherr Klein', 'Guylaine Maroist', 'F. Percy Smith', 'Yannick Bisson']
+composers__india             members  400/  814  foils  122  median sitelinks 5
+    e.g. ['Sai Shravanam', 'Sai Karthik', 'Atif Afzal', 'Manikanth Kadri', 'T. Rajendar', 'B. A. Chidambaranath']
+    foils ['Farid Ahmed', 'Shawkat Ali Emon', 'Amjad Bobby', 'Azad Rahman', 'Sanjoy', 'Tufail Niazi']
+composers__pakistan          members   86/   86  foils  200  median sitelinks 4
+    e.g. ['Amjad Bobby', 'Ali Zafar', 'Niaz Ahmed', 'Junaid Khan', 'Shantanu Biswas', 'Khadem Hossain Khan']
+    foils ['Rudra Baruah', 'Amar Nath', 'Arya Aziminejad', 'Vidyasagar', 'S. Ramanathan', 'Bijibal']
+composers__bangladesh        members   55/   55  foils  200  median sitelinks 3
+    e.g. ['Pritom Ahmed', 'Belal Khan', 'Ziaur Rahman Zia', 'Ferdous Ara', 'Humayun Ahmed', 'Bappa Mazumder']
+    foils ['Ahmed Ghulamali Chagla', 'Shivnath Mishra', 'Munna Kasi', 'B. Ajaneesh Loknath', 'Taufiq Qureshi', 'Ravi Shankar']
+composers__sri_lanka         members   15/   15  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Namal Udugama', 'Dinesh Subasinghe', 'W. D. Amaradeva', 'Nanda Malini', 'Gerald Wickremesooriya', 'R. Muttusamy']
+    foils ['Prashant Pillai', 'Harshit Saxena', 'Shreya Ghoshal', 'Shivkumar Sharma', 'Jasimuddin', 'Purushottam Upadhyay']
+composers__nepal             members   14/   14  foils  200  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Roshan Thapa', 'Amber Gurung', 'Shanti Thatal', 'Rajan Ishan', 'Bacchu Kailash', 'Nabin Bhattarai']
+    foils ['N. Ravikiran', 'Viram Jasani', 'Rudra Baruah', 'Sadhana Sargam', 'Ghantasala Venkateswara Rao', 'Anandji Virji Shah']
+composers__nigeria           members   51/   51  foils   44  median sitelinks 8
+    e.g. ['Tope Alabi', 'Samuel Ekpe Akpabot', 'Agboola Shadare', 'Keziah Jones', 'Kefee', 'Tony Allen']
+    foils ['Philip Gbeho', 'Hermann Stern', 'JAE5', 'Emmanuel Gyimah Labi', 'Paa Kow', 'M.anifest']
+composers__kenya             members    6/    6  foils   64  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Kevin Wyre', 'Ayub Ogada', 'Kanyeria', 'Suzanna Owíyo', 'Tedd Josiah', 'Clemo']
+    foils ['Etsegenet Mekonnen', 'Anu Afolayan', 'Femi Kuti', 'Cobhams Asuquo', 'I. K. Dairo', 'Fela Sowande']
+composers__ghana             members   38/   38  foils   57  median sitelinks 4
+    e.g. ['A. B. Crentsil', 'Pax Nicholas', 'Koby Maxwell', 'StreetBeatz', 'King Bruce', 'Alfred P. Addaquay']
+    foils ['Ayo Bankole', 'Samuel Ekpe Akpabot', 'Sarz', 'Muraina Oyelami', 'Slim Burna', 'Harcourt Whyte']
+composers__ethiopia          members   13/   13  foils   57  median sitelinks 9   <-- TOO SMALL: fix the QID/query
+    e.g. ['Teddy Afro', 'Kamuzu Kassa', 'Mulugeta Abate', 'Girma Yifrashewa', 'Etsegenet Mekonnen', 'Emahoy Tsegué-Maryam Guèbrou']
+    foils ['Cobhams Asuquo', 'Funsho Ogundipe', 'Kulanen Ikyo', 'Tunde Jegede', 'Thomas King Ekundayo Phillips', 'William Onyeabor']
+composers__south_africa      members  151/  151  foils   57  median sitelinks 5
+    e.g. ['Trevor Rabin', 'Nozinja', 'Tshawe Baqwa', 'Maria Bird', 'Mzilikazi Khumalo', 'Stephanus Le Roux Marais']
+    foils ['Thomas King Ekundayo Phillips', 'Tunde Jegede', 'Tony Allen', 'Noel DaCosta', 'Pa Odiase', 'Yinka Ayefele']
+composers__indonesia         members   82/   82  foils  133  median sitelinks 5
+    e.g. ['Rahayu Supanggah', 'Saykoji', 'Titiek Puspa', 'Andjar Any', 'Amir Pasaribu', 'Dougy Mandagi']
+    foils ['Lucrecia Kasilag', 'Huy Du', 'Nguyễn Đức Toàn', 'Thanh Lam', 'Felipe Padilla de Leon', 'Jonathan Manalo']
+composers__philippines       members   84/   84  foils  131  median sitelinks 5
+    e.g. ['Ernani Cuenco', 'Joey Benin', 'Ruby Rodriguez', 'Hajji Alejandro', 'Epifanio de los Santos', 'Fred Elizalde']
+    foils ['Dewa Budjana', 'Yovie Widianto', 'Cornel Simanjuntak', 'Benyamin Sueb', 'A. Riyanto', 'Lam Phương']
+composers__vietnam           members   49/   49  foils  166  median sitelinks 4
+    e.g. ['Nguyễn Đình Tấn', 'Phạm Thị Huệ', 'Hoàng Vân', 'Lưu Hữu Phước', 'Đỗ Nhuận', 'Nguyen Thanh Tung']
+    foils ['Julio Nakpil', 'Slamet Abdul Sjukur', 'Ming Luhulima', 'Hajji Alejandro', 'George de Fretes', 'Nippy Noya']
+composers__brazil            members  400/ 1026  foils  200  median sitelinks 4
+    e.g. ['Celia Mara', 'Dominguinhos', 'Lulu Santos', 'Jacob do Bandolim', 'Dona Ivone Lara', 'Ana Paula Valadão']
+    foils ['Elvino Vardaro', 'Eduardo Arolas', 'Carla Rivarola', 'Luis Antonio Calvo', 'Fulvio Salamanca', 'Susana Baron Supervielle']
+composers__mexico            members  388/  388  foils  200  median sitelinks 4
+    e.g. ['Dulce María', 'Víctor Cordero Aurrecoechea', 'Zoe Chamberlain', 'Sergio Vallín', 'Antonio Zepeda', 'José María Bustamante']
+    foils ['Alejandro Civilotti', 'Julio Pane', 'Pablo Sbaraglia', 'Virgilio Expósito', 'Osvaldo Golijov', 'Giora Feidman']
+composers__argentina         members  400/  797  foils  200  median sitelinks 3
+    e.g. ['Alejo Stivel', 'Eduardo Rovner', 'Ángel Cárdenas', 'Jorge Cardoso', 'Roberto Caló', 'Florindo Sassone']
+    foils ['Nivaldo Ornelas', 'Aloysio de Alencar Pinto', 'Mark Aanderud', 'Ivan Busic', 'Leoncio Lara', 'Walter Smetak']
+composers__colombia          members  194/  194  foils  200  median sitelinks 3
+    e.g. ['Enrique Díaz Tovar', 'Jesús Bermúdez Silva', 'Isadorita', 'Naëla', 'Elkin Ramírez', 'Elder Dayán Díaz']
+    foils ['Toninho Ramos', 'Lhasa de Sela', 'Genaro Codina', 'João Antônio Rodrigues de Carvalho', 'Moreira da Silva', 'Luis Hernández Bretón']
+composers__japan             members  400/ 1635  foils  200  median sitelinks 4
+    e.g. ['Makoto Shinohara', 'Tatsuya Gashūin', 'Junko Mori', 'Kenjirō Ezaki', 'Michio Miyagi', 'Keisuke Shinohara']
+    foils ['Tablo', 'Buren Bayaer', 'Epaksa', 'J.Y. Park', 'Yang Hyun-suk', 'Ma Xiaohui']
+composers__iran              members  297/  297  foils  200  median sitelinks 5
+    e.g. ['Bamdad Afshar', 'Shahyar Ghanbari', 'Ali Salimi', 'Sheida Gharachedaghi', 'Hormoz Farhat', 'Arya Aramnejad']
+    foils ['Rehman Verma', 'Yasemin Mori', 'Bilge Özgen', 'Bedriye Hoşgör', 'Barlas Erinç', 'Hasan Saltık']
+composers__turkey            members  345/  345  foils  200  median sitelinks 5
+    e.g. ['Füsun Köksal', 'Mazhar Alanson', 'Erkan Ocaklı', 'Sezen Cumhur Önal', 'Âşık Veysel', 'Mehmet Aktuğ']
+    foils ['Yannis Philippakis', 'Elton Ahi', 'Hassan Yousef-Zamani', 'Hossein Dehlavi', 'Javad Maroufi', 'Mazyar Fallahi']
+composers__poland            members  400/  999  foils  200  median sitelinks 4
+    e.g. ['Dawid Ajzensztadt', 'Maurycy Karasowski', 'Marcin Wartecki', 'Abel Korzeniowski', 'Krzysztof Knittel', 'Lech Makowiecki']
+    foils ['Marta Jiráčková', 'Miloš Vacek', 'Heikki L', 'Taneli Jarva', 'Klaus Wirzenius', 'Kerkko Koskinen']
+composers__finland           members  400/  630  foils  200  median sitelinks 4
+    e.g. ['Toni Edelmann', 'Aarre Merikanto', 'Aija Puurtinen', 'Jouko Mäki-Lohiluoma', 'Anna-Mari Kähärä', 'Tauno Marttinen']
+    foils ['Sulev Salm', 'Mai Leisz', 'Bobby Ljunggren', 'Adolf Fredrik Lindblad', 'Nils Lindberg', 'Jan Allan']
+composers__france            members  400/ 3723  foils  200  median sitelinks 5
+    e.g. ['Armand Vestris', 'Gausbert Amiel', 'Jean-Marc Padovani', 'Hortense Parent', 'Antonin Marmontel', 'Alexei Khvostenko']
+    foils ['Battista Restelli', 'Pupo', 'Niccolò Agliardi', 'David Poltrock', 'Pippo Pollina', 'Steve Willaert']
+composers__usa               members  400/11608  foils  200  median sitelinks 5
+    e.g. ['Frank Edwin Ward', 'Dennis Kamakahi', 'Audrey Mika', 'Bruno Klein', 'Oliver Wallace', 'Arístides Chavier Arévalo']
+    foils ['Oscar Thiffault', 'Yves Laferrière', 'Frederic Hymen Cowen', 'Dee Shipman', 'Chris Kibble', 'Vincent Cavanagh']
+architects__india            members   75/   75  foils   44  median sitelinks 4
+    e.g. ['Ambarish Srivastava', 'Charles Correa', 'Chitra Vishwanath', 'Meenakshi Srinivasan', 'Kanippayyur Shankaran Namboodiripad', 'Anupama Kundoo']
+    foils ['Syed Mainul Hossain', 'Abu Sayeed M Ahmed', 'Saleh Uddin', 'Fazlur Khan', 'Habib Fida Ali', 'Mubasshar Hussein']
+architects__pakistan         members   26/   26  foils  156  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Rafiq Azam', 'Mustapha Khalid Palash', 'Ali Asghar Khan', 'Bashirul Haq', 'Ali Alam', 'Yasmeen Lari']
+    foils ['Chitra Vishwanath', 'Farzaneh Sadegh', 'Prasanna Pandian', 'Sonali Rastogi', 'Mohammad Hassan Ghadiri Abyaneh', 'Farah Pahlavi']
+architects__bangladesh       members   32/   32  foils   87  median sitelinks 4
+    e.g. ['Qazi Azizul Mowla', 'Kazi Khaleed Ashraf', 'Masudur Rahman Khan', 'Mubasshar Hussein', 'Aupee Karim', 'Ahmed Rajib Haider']
+    foils ['Yasmeen Lari', 'G. Shankar', 'Meenakshi Srinivasan', 'Bhai Ram Singh', 'Anupama Kundoo', 'Arif Hasan']
+architects__sri_lanka        members    9/    9  foils  107  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Homi Billimoria', 'Justin Samarasekera', 'S. A. David', 'Barbara Sansoni', 'Minnette de Silva', 'Geoffrey Bawa']
+    foils ['Rabiul Hussain', 'Aarati Kanekar', 'Pravina Mehta', 'Ashiesh Shah', 'Muzharul Islam', 'Laxman Mahadeo Chitale']
+architects__nepal            members    1/    1  foils  101  median sitelinks 16   <-- TOO SMALL: fix the QID/query
+    e.g. ['Hisila Yami']
+    foils ['Mustapha Khalid Palash', 'Zahoor ul Akhlaq', 'Hema Sankalia', 'Ali Alam', 'Anu Sabhlok', 'Aqeel Abbas Jafri']
+architects__nigeria          members   53/   53  foils   20  median sitelinks 8   <-- TOO SMALL: fix the QID/query
+    e.g. ['David Aradeon', 'David Oyedepo', 'Diezani Alison-Madueke', 'Herbert Macaulay', 'Yusuf Barnabas Bala', 'Isaac Fola-Alade']
+    foils ['Gizella Tetteh Agbotui', "Dan 'chizi' Aceda", 'Emma Miloyo', 'Wisdom Tsidore Seyena-Susu', 'Theodore S. Clerk', 'Simon Edem Asimah']
+architects__kenya            members    2/    2  foils   53  median sitelinks 12   <-- TOO SMALL: fix the QID/query
+    e.g. ["Dan 'chizi' Aceda", 'Emma Miloyo']
+    foils ['Tom Ikimi', 'Mohammed Daggash', 'Chinwe Ohajuruka', 'David Aradeon', 'Gaise Baba', 'Alex Ifeanyichukwu Ekwueme']
+architects__ghana            members   18/   18  foils   55  median sitelinks 9   <-- TOO SMALL: fix the QID/query
+    e.g. ['Salifu Adam Braimah', 'Lesley Lokko', 'Theodore S. Clerk', 'Kwame Governs Agbodza', 'Alero Olympio', 'Gizella Tetteh Agbotui']
+    foils ['Nnimmo Bassey', 'Gideon Gwani', 'David Aradeon', 'Ola Uduku', 'Olufemi Majekodunmi', 'Alan Vaughan-Richards']
+architects__ethiopia         members    0/    0  foils   55  median sitelinks 0   <-- TOO SMALL: fix the QID/query
+    e.g. []
+    foils ['Itunu Hotonu', 'Samuel Oboh', 'Herbert Macaulay', 'Gideon Gwani', 'Suraj Abdurrahman', 'Stephen Ajadi']
+architects__south_africa     members   42/   42  foils   55  median sitelinks 4
+    e.g. ['Roy Kantorowich', 'Manfred Hermer', 'Johan de Ridder', 'John Johnstone Kirkness', 'James Cope Christie', 'Norman Eaton']
+    foils ['Itunu Hotonu', 'Nwamaka Nwobi Okoye', 'Halima Tayo Alao', 'Ibrahim Bunu', 'Offiong Ekanem Ejindu', 'Alex Ifeanyichukwu Ekwueme']
+architects__indonesia        members   16/   16  foils   31  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Y. B. Mangunwijaya', 'Elora Hardy', 'Johan Silas', 'Tulus', 'Frans Louis Wiemans', 'Eko Alvares']
+    foils ['Francisco Mañosa', 'Vo Trong Nghia', 'Carlos Arguelles', 'Hoàng Thúc Hào', 'Trần Tuấn Việt', 'Leandro Locsin']
+architects__philippines      members   24/   24  foils   23  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Fernando H. Ocampo', 'Juan M. Arellano', 'Pablo Antonio', 'Jonavi Raisa Quiray', 'José María Zaragoza', 'Juan Nakpil']
+    foils ['Nguyen Cao Luyen', 'Friedrich Silaban', 'I Gusti Nyoman Lempad', 'Tulus', 'Ir Herbowo', 'Gunadharma']
+architects__vietnam          members    7/    7  foils   40  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Trần Tuấn Việt', 'Hoàng Thúc Hào', 'Chu Kim Duc', 'Nguyễn Vĩnh Tiến', 'Vo Trong Nghia', 'Ngô Viết Thụ']
+    foils ['Liem Bwan Tjie', 'Shamcey Supsup', 'Gunadharma', 'Susanty Manuhutu', 'Juan Carlo Calma', 'Francisco Mañosa']
+architects__brazil           members  270/  270  foils  200  median sitelinks 3
+    e.g. ['Jesuíno do Monte Carmelo', 'Karl Rath', 'Maximilian Emil Hehl', 'Flávio Império', 'Roberto Tibau', 'Fausto Nilo']
+    foils ['Andrés Kálnay', 'José Ignacio Díaz', 'Sofía von Ellrichshausen', 'Willy Müller', 'Hernán Giralt', 'Lucindo Espinosa']
+architects__mexico           members  182/  182  foils  200  median sitelinks 3
+    e.g. ['Margarita Chávez Murguía', 'Mauricio Rocha', 'Lorenzo de la Hidalga', 'Clara de Buen Richkarday', 'Oscar Hagerman', 'Víctor Legorreta']
+    foils ['Mabel Lapacó', 'Julio Dormal', 'Inés Moisset', 'Patricio Pouchulu', 'Jorge Arango', 'Nicolás Bossicovich']
+architects__argentina        members  205/  205  foils  200  median sitelinks 3
+    e.g. ['Olga Paterlini', 'Andrés Kálnay', 'Jorge de Lassaletta', 'Miguel Ocampo', 'Silvia Kolbowski', 'Evelia Peralta']
+    foils ['Antonio Caramelo', 'Chu Ming Silveira', 'Billy Blanco', 'Margarita Chávez Murguía', 'José Albano Volkmer', 'Ary Rodrigo Perez']
+architects__colombia         members   62/   62  foils  200  median sitelinks 2
+    e.g. ['Gerardo de Francisco', 'Julián Orrego', 'Manuel Lago', 'Simón Vélez', 'Helga María Rivas Ardila', 'Felipe Hernandez']
+    foils ['Roberto Birindelli', 'Luis Rodrigo Álvarez', 'Antônio Bezerra Baltar', 'Carlos Prado', 'Flávio Império', 'Guillermo Carrillo Arena']
+architects__japan            members  400/  587  foils   73  median sitelinks 2
+    e.g. ['Yūichi Yoshida', 'Yoshio Kobayashi', 'Hiroshi Miyazaki', 'Yoshihiro Masuko', 'Yasushi Tsukamoto', 'Junpei Nakamura']
+    foils ['Li Xinggang', 'Li Jinfa', 'Zhang Jinqiu', 'Jong Soung Kimm', 'Meng Zhaozhen', 'Michael Kwan']
+architects__iran             members   81/   81  foils  149  median sitelinks 4
+    e.g. ['Farzaneh Sadegh', 'Nader Ardalan', 'Abdallah Khan', "Ali E'ta", 'Ata Omidvar', 'Hossein Sadri']
+    foils ['Selçuk Milar', 'Sadri Şener', 'Işılay Saygın', 'Özum Itez', 'Orhan Arda', 'Berke Hatipoğlu']
+architects__turkey           members  123/  123  foils  200  median sitelinks 3
+    e.g. ['Onur Ağaoğlu', 'Leman Cevat Tomsu', 'Zeki Sayar', 'Füsun Eczacıbaşı', 'Münevver Belen Gözeler', 'Buğra Gülsoy']
+    foils ['Karim Pirnia', 'Seyed Mohammad Oreyzi', 'Iannis Xenakis', 'Vasilios Douras', 'Takis Ch. Zenetos', 'Leandros Spartiotis']
+architects__poland           members  400/  989  foils  200  median sitelinks 3
+    e.g. ['Piotr Sembrat', 'Czesław Domaniewski', 'Zbigniew Wierzbicki', 'Barbara Gancarczyk', 'Jacek Ewý', 'Mieczysław Łęczycki']
+    foils ['Ragnar Gustafsson', 'Carl-Johan Slotte', 'Juha Leiviskä', 'Antti Koponen', 'Arto Sipinen', 'Maija Kovari']
+architects__finland          members  400/  476  foils  200  median sitelinks 3
+    e.g. ['Bertel Saarnio', 'Per Wilhelm Palmroth', 'Esko Toiviainen', 'Reima Pietilä', 'Albert Petrelius', 'Lambert Petterson']
+    foils ['Viktor Niitsoo', 'Eric Schuwert', 'Gustaf Dahl', 'Bengt Hidemark', 'Gunnar Sundbärg', 'Johan af Kleen']
+architects__france           members  400/ 2607  foils  200  median sitelinks 3
+    e.g. ['Paul Gottereau', 'André Mollet', 'Jean de Bodt', 'Charles Bourgeois', 'Pierre Guillemin', 'Henri Tauzin']
+    foils ['Armando Bernabiti', 'Mario Bacciocchi', 'Gabor Acs', 'Giovanni Antonio Dosio', 'Simone Giusti', 'Ernest Van Humbeeck']
+architects__usa              members  400/ 2798  foils  200  median sitelinks 3
+    e.g. ['Robert Piotrowski', 'John K. Dow', 'Enock Hill Turnock', 'Harvey S. Ladew', 'Morris H. Whitehouse', 'John Merven Carrère']
+    foils ['Henry Yevele', 'William Mitcheson Timlin', 'Charles Arnold Barber', 'Gavin Affleck', 'William Eden Nesfield', 'Elisabeth Scott']
+rivers__india                members  400/  870  foils  198  median sitelinks 4
+    e.g. ['Manjira River', 'Jam River', 'Kewāni Nadi', 'Gambhir river, Madhya Pradesh', 'Mindhola River', 'Kundali River']
+    foils ['Banar River', 'Biskhali River', 'Nabaganga River', 'Braldu River', 'Gogni Nala', 'Louhajang River']
+rivers__pakistan             members   68/   68  foils  200  median sitelinks 9
+    e.g. ['Kunhar River', 'Hunza River', 'Ghizer River', 'Jagran River', 'Poonch River', 'Shimshal']
+    foils ['Tammileru River', 'Saraswati River', 'Bindusara River', 'Dina river', 'Utharappalli River', 'Son River']
+rivers__bangladesh           members  178/  178  foils  200  median sitelinks 3
+    e.g. ['Nagar River (Rangpur)', 'Longai River', 'Louhajang River', 'Gumti River', 'Kumar River', 'Velamoti River']
+    foils ['Andheri River', 'Padalio River', 'Indori river', 'Liladi River', 'Siran River', 'Tawa River']
+rivers__sri_lanka            members   32/   32  foils  200  median sitelinks 3
+    e.g. ['Kotmale River', 'Akkarayan Aru', 'Pallavarayankaddu Aru', 'Maskeliya Oya', 'Kehelgamu Oya', 'Kelani River']
+    foils ['Dhansiri River', 'Karunaiyar River', 'Pykara', 'Assi River', 'Khalkhalio River', 'Chitra River']
+rivers__nepal                members   66/   66  foils  200  median sitelinks 4
+    e.g. ['Thuli Bheri River', 'Bauraha khola', 'Kahun Khola', 'Sabha River', 'Beki River', 'Kosi River']
+    foils ['Pench River', 'Mahananda River', 'Baur River', 'Burha River', 'Maner River', 'Arasalar River']
+rivers__nigeria              members   82/   82  foils  200  median sitelinks 9
+    e.g. ['Ase River', 'Benin River', 'Anambra River', 'River Goulbi de Maradi', 'Oba River', 'Orashi River']
+    foils ['Wamgong', 'Tana River', 'Musini River', 'Wandole', 'Tabani', 'Mwachema River']
+rivers__kenya                members  181/  181  foils  200  median sitelinks 2
+    e.g. ['Mtoni River (Kilifi)', 'Windundu', 'Terter', 'Ol Arabel', 'Wamgong', 'Syuuni']
+    foils ['Ngeji River', 'Logiya River', "Zamra Shet'", 'Sagan River', 'Zarima River', 'Gaminda']
+rivers__ghana                members   45/   45  foils  200  median sitelinks 9
+    e.g. ['Nini River', 'Bia River', 'Owabi River', 'Nasia', 'White Volta', 'Black Volta']
+    foils ['Naro Moru River', 'Escravos River', 'Njaba River', 'Witu', 'Wamba', 'River Goulbi de Maradi']
+rivers__ethiopia             members  146/  146  foils  200  median sitelinks 7
+    e.g. ['Sagan River', 'Zarima River', 'Genfel', 'May Gabat', 'Katar', 'Akaki River']
+    foils ["Jama'are River", 'Nawolo River', 'Kalain River', 'Wakala', 'Ol Arabel', 'Thika River']
+rivers__south_africa         members  399/  399  foils  200  median sitelinks 3
+    e.g. ['Illovo River', 'Watervalrivier', 'Brakspruit', 'Waterkloof', 'Waterkloofrivier', 'Watervalrivier']
+    foils ['Windundu', 'Wawathi', 'Tebesi', 'Kaekalkiryon', 'Umba River', 'Locheremoit River']
+rivers__indonesia            members  390/  390  foils  200  median sitelinks 5
+    e.g. ['Musi River', 'Paguyaman River', 'Alalak River', 'Batang Merangin', 'Noel Ponu River', 'Kali Sunter']
+    foils ['Sông Vạc', 'Iloilo River', 'Bacoor River', 'Bình Di River', 'Agusan River', 'Ngòi Bo']
+rivers__philippines          members  101/  101  foils  200  median sitelinks 3
+    e.g. ['Chico River', 'Iloilo River', 'Sibalom River', 'Tagum River', 'Bicol River', 'Amburayan River']
+    foils ['Sông Thốt Nốt', 'Dak Dam River', 'Dak Glun', 'Lau Tenges', 'Bắc Khê River', 'Bản Thín River']
+rivers__vietnam              members  242/  242  foils  200  median sitelinks 2
+    e.g. ['Tonlé San', 'Thi Tinh River', 'Perfume River', 'Sông Cầu Trí', 'Chay River', 'Trẹm River']
+    foils ['Kali Bondoyudo', 'Amburayan River', 'Batang Alai River', 'Tunasan River', 'Mamasa River', 'Baliem River']
+rivers__brazil               members  400/ 2266  foils  200  median sitelinks 4
+    e.g. ['Turvo Pequeno River', 'Cais River', 'Papagaio River', 'Itapetinga River', 'Novo River', 'Río Cuareim']
+    foils ['Aluminé River', 'Salí River', 'Neuquén River', 'Guamués River', 'Cruz del Eje River', 'Blanco River']
+rivers__mexico               members  182/  182  foils  200  median sitelinks 3
+    e.g. ['Tecolutla River', 'Turbio River, Mexico', 'Casas Grandes River', 'Tomatlán River', 'Aguanaval River', 'Usumacinta River']
+    foils ['Guatiquía River', 'Tunjuelo River', 'Casanare River', 'Cesar River', 'Río Bermejito', 'Cusiana River']
+rivers__argentina            members  159/  159  foils  200  median sitelinks 7
+    e.g. ['Río Grande de Tierra del Fuego', 'Río de la Plata', 'Arrecifes River', 'Desaguadero River', 'Traful River', 'Chalía River']
+    foils ['Tijuípe River', 'Rio Roncador', 'Eiru River', 'Suchiate River', 'Da Dúvida River', 'Branco River']
+rivers__colombia             members  139/  139  foils  200  median sitelinks 8
+    e.g. ['Guáitara River', 'Zulia River', 'Putumayo River', 'San Francisco River', 'Fucha River', 'Guanía River']
+    foils ['Tijucas River', 'Mundaú River', 'Jaú River', 'Piracicaba River', 'Alambari River', 'Jatobá River']
+rivers__japan                members  400/ 1057  foils  200  median sitelinks 2
+    e.g. ['Omaru River', 'Kanzaki River', 'Nagao River', 'Ōkuri River', 'Chikugo River', 'Sakai River']
+    foils ['Yalu River', 'Torsa River', 'Ziya River', 'Gar Tsangpo', 'Tuo River', 'Qagan Us He']
+rivers__iran                 members  321/  321  foils  200  median sitelinks 3
+    e.g. ['Garm River', 'Dastjerd River', 'Jahan Bin River', 'Taleghan River', 'Gadar River', 'Bahmanshir']
+    foils ['Ghizer River', 'Neelum River', 'Sevget', 'Afrin River', 'Haro River', 'Veleka']
+rivers__turkey               members  192/  192  foils  200  median sitelinks 4
+    e.g. ['Dalaman Brook', 'Xanthe', 'Meles river', 'Barhal Çayı', 'Kızılırmak River', 'Çoruh']
+    foils ['Ab-e Sefid River', 'Acheron', 'Almyrós Potamós', 'Joknek River', 'Garmab Dasht River', 'Meydan Chayi']
+rivers__poland               members  400/ 1080  foils  200  median sitelinks 3
+    e.g. ['Raba', 'Zgłowiączka', 'Grajcarek', 'Wilanówka', 'Sopot', 'Usnarka']
+    foils ['Nokianvirta', 'Zdobnice', 'Oulujoki', 'Punkva', 'Waldfluß', 'Křetínka']
+rivers__finland              members  345/  345  foils  200  median sitelinks 3
+    e.g. ['Espoonjoki', 'Čulloveaijohka', 'Eteläjoki', 'Airijoki', 'Liŋkinjohka', 'Finnoonoja']
+    foils ['Jaama River', 'Vállasjohka', 'Vaskjõgi', 'Vändra River', 'Vindel River', 'Arussaare River']
+rivers__france               members  400/ 3066  foils  200  median sitelinks 4
+    e.g. ['Belvitte', 'Rahin', 'Drac Blanc', 'Eau Blanche', 'Virlange', 'Ressègue']
+    foils ['Sille', 'Lienne', 'Salm', 'Crupet', 'Rulles', 'Tirso']
+rivers__usa                  members  400/ 7563  foils  200  median sitelinks 2
+    e.g. ['One Hundred and Two River', 'Priest River', 'Cloquet River', 'Hawkwright Creek', 'South Fork Kings River', 'East Branch Raven Creek']
+    foils ['Rivière Cabasta', 'River Whitewater', 'Petite rivière de la Loutre', 'Echoing River', 'Rivière Maganasipi', 'Rivière Atihkaameukw']
+lakes__india                 members  291/  291  foils   63  median sitelinks 5
+    e.g. ['Rankala Lake', 'Raja Talab', 'Kareri Lake', 'Palair Lake', 'Agastya lake', 'Jumma Talao']
+    foils ['Chalan Beel', 'Kalankar Lake', 'Bijoy Singh Dighi', 'Hadero Lake', 'Pari Lake', 'Zharba Lake']
+lakes__pakistan              members   50/   50  foils  200  median sitelinks 5
+    e.g. ['Hamal Lake', 'Pyala Lake', 'Ansoo Lake', 'Pari Lake', 'Upper Kachura Lake', 'Kacheli Lake']
+    foils ['Panna Tal', 'Nigeen Lake', 'Bhrigu Lake', 'Bellandur Lake', 'Ulsoor Lake', 'Hamoun-e Puzak']
+lakes__bangladesh            members   14/   14  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Gulshan Lake', 'Dhanmondi Lake', 'Chalan Beel', 'Chapaigachir Beel', 'Niladri Lake', 'Islamic University Lake']
+    foils ['Shounter Lake', 'Mir Alam Tank', 'Paruthipattu Lake', 'Chitlapakkam aeri', 'Damodar Kund', 'Kharfaq Lake']
+lakes__sri_lanka             members   18/   18  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Parakrama Samudra', 'Ullackalie Lagoon', 'Negombo Lagoon', 'Diyawanna Lake', 'Uppu Aru Lagoon', 'Minneriya tank']
+    foils ['Lower Lake, Bhopal', 'Valankulam Lake', 'Loktak Lake', 'Chittaura Jheel', 'Kukkarahalli lake', 'Kaggadasapura Lake']
+lakes__nepal                 members   37/   37  foils  200  median sitelinks 3
+    e.g. ['Maidi lake', 'Jakhera Lake', 'Begnas Lake', 'Bulbule Lake', 'Barhakune Daha', 'Jakhera Tal']
+    foils ['Wular Lake', 'Honnamana Kere', 'Sarakki lake', 'Rama Lake', 'Najafgarh lake', 'Avadi Lake']
+lakes__nigeria               members    9/    9  foils   24  median sitelinks 11   <-- TOO SMALL: fix the QID/query
+    e.g. ['Oguta Lake', 'Lake Chad', 'Lower Usuma Dam', 'Lake Maladumba', 'Kainji Lake', 'Agulu']
+    foils ['Lake Bogoria', 'Mzima Springs', 'Lake Namboyo', 'Lake Solai', 'Tana River Delta Ramsar Site', 'Mim Lake']
+lakes__kenya                 members   23/   23  foils   28  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Lake Bogoria', 'Mzima Springs', 'Lake Jipe', 'Lake Naivasha', 'Lake Shaka Babo', 'Nasikie Engida']
+    foils ['Eleyele Lake', 'Asejire Reservoir', 'Lake Chamo', 'Lake Abaya', 'Chini (reservoir)', 'Lake Chad']
+lakes__ghana                 members    1/    1  foils   32  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Mim Lake']
+    foils ['Lake Alice', 'Lake Elmenteita', 'Asejire Reservoir', 'Lake Logipi', 'Lagos Lagoon', 'Lake Chad']
+lakes__ethiopia              members   20/   20  foils   31  median sitelinks 20   <-- TOO SMALL: fix the QID/query
+    e.g. ['Lake Abaya', 'Lake Abijatta', 'Lake Tana', 'Lake Karum', 'Lake Bario', 'Lake Langano']
+    foils ['Lake Victoria', 'Oguta Lake', 'Lake Ol Bolossat', 'Lake Chad', 'Lagos Lagoon', 'Lake Maladumba']
+lakes__south_africa          members    8/    8  foils   32  median sitelinks 11   <-- TOO SMALL: fix the QID/query
+    e.g. ['Lake Sibhayi', 'Lake St. Lucia', 'Albert Falls Reservoir', 'Soetendalsvlei', 'Lake Fundudzi', 'Lake Chrissie']
+    foils ['Nasikie Engida', 'Lake Naivasha', 'Lake Solai', 'Lake Bogoria', 'Lake Ellis', 'Agulu']
+lakes__indonesia             members  180/  180  foils   51  median sitelinks 2
+    e.g. ['Lake Rombebai', 'Situ Rantun', 'Situ Rawa Cipondoh', 'Lake Bangka Belitung Islands', 'Ranu Pani', 'Lake Satonda']
+    foils ['Dong Chuong Lake', 'Lake Wood', 'Lake Venado', 'Kayangan Lake', 'Lake Bato', 'Trúc Bạch Lake']
+lakes__philippines           members   34/   34  foils  197  median sitelinks 5
+    e.g. ['Mapanuepe Lake', 'Lake Wood', 'Lake Dasay', 'Lake Leonard', 'Lake Buhi', 'Lake Apo']
+    foils ['Huu Tiep Lake', 'Danau Ciranca', 'Lake Wanayasa', 'Situ Kalenbuah', 'Situ Rantun', 'Danau Anggi Gigi']
+lakes__vietnam               members   17/   17  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Thủ Lệ Lake', 'Than Tho Lake', 'Pleiku Lake', 'Ba Bể Lake', 'Dong Chuong Lake', 'Trúc Bạch Lake']
+    foils ['Lake Tamblingan', 'Patenggang Lake', 'Situ Maung', 'Lake Pinamaloy', 'Situ Cangkuang', 'Telaga Ngebel']
+lakes__brazil                members  400/ 1773  foils  200  median sitelinks 2
+    e.g. ['Açude do Placa', 'Lago Ida', 'Lago Mamoriacá', 'Lago da Cabaça', 'Sobradinho Reservoir', 'Lago Curupira']
+    foils ['Ciénaga de Zárate', 'Laguna La Compañía', 'Laguna Sirena', 'Estero Chipá', 'Ciénaga Quesada', 'Lago Hui Hui']
+lakes__mexico                members   26/   26  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Lake Arareco', 'Metztitlan lake', 'Laguna Miramar', 'Lake Pátzcuaro', 'Lake Cuitzeo', 'Laguna de Tecocomulco']
+    foils ['Laguna de Los Huesos', 'Laguna del Barón', 'Ciénaga Tamaca', 'Laguna La Amarga', 'Laguna de los Calientes', 'Ciénaga Peranchó']
+lakes__argentina             members  400/ 1072  foils  200  median sitelinks 2
+    e.g. ['Laguna Linco', 'Laguna Puig Poi', 'Embalse La Viña', 'Lac Fontana', 'Laguna La Cotorra', 'Laguna Ratón']
+    foils ['Lago Abufari', 'Lagoa do Garapuá', 'Lago Jabur', 'Açude Condado', 'Açude Paraiso', 'Lago São Raimundo']
+lakes__colombia              members  164/  164  foils  200  median sitelinks 2
+    e.g. ['Ciénaga de Tadía', 'Laguna Pigalpí', 'Uaruá Ipana', 'Ciénaga Tupe', 'Ciénaga Punta de Blanco', 'Ciénaga de la Salina']
+    foils ['Lago Anori', 'Lago Cocuaí', 'Lago Mucura', 'Lagoa dos Pássaros', 'Lago Gujubim', 'Lago Baunilha']
+lakes__japan                 members  104/  104  foils  200  median sitelinks 3
+    e.g. ['Lake Ushiku', 'Imuta-ike', 'Hashienuma', 'Lake Suigetsu', 'Takahoko-numa', 'Lake Hyōko']
+    foils ['Aqkol', 'Wanquan Hu', 'Liansi Dang', 'Dorsoidong Co', 'Urru Lake', 'Dapeng Hu']
+lakes__iran                  members   37/   37  foils  159  median sitelinks 4
+    e.g. ['Sabz Lake', 'Dokhaharan Lake', 'Gahar Lake', 'Caspian Sea', 'Zarivar Lake', 'Sahun Lake']
+    foils ['Sheosar Lake', 'Lake Eymir', 'Lake Durusu', 'Pyala Lake', 'Upper Kachura Lake', 'Lake Çıldır']
+lakes__turkey                members  109/  109  foils   97  median sitelinks 5
+    e.g. ['Lake Sapanca', 'Akgöl', 'Lake Akşehir', 'Lake Kuyucuk', 'Lake Gölcük', 'Lake Limni']
+    foils ['Kotychi', 'Gori Lake', 'Sabz Lake', 'Lake Pamvotida', 'Skra lake', 'Lake Vouliagmeni']
+lakes__poland                members  400/  988  foils  200  median sitelinks 2
+    e.g. ['Jezioro Gielądzkie', 'Cisie Lake', 'Jezioro Brajnickie', 'Jezioro Krzywe', 'Jezioro Chrzypskie', 'Lake Narie']
+    foils ['Ihalanjärvi', 'Kivijärvi', 'Housulampi', 'Siiamojärvi', 'Vääräjärvi', 'Valkeajärvi']
+lakes__finland               members  400/ 3743  foils  200  median sitelinks 2
+    e.g. ['Pieni-Ruotimo', 'Venejärvi', 'Vahvanen', 'Torsa', 'Lavasjärvi', 'Toböle träsk']
+    foils ['Guoutelisjaure', 'Küläjärv', 'Yli Naartijärvi', 'Aisjaure', 'Dammträsk', 'Lake Tõlinõmme']
+lakes__france                members  328/  328  foils  200  median sitelinks 3
+    e.g. ['Grand Lac de Clairvaux', 'Lac du Miey', 'Lac des Chanteraines', "Lac d'Argento", 'Lac de la Case', 'Lac de Darbon']
+    foils ['Lake Ry de Rome', 'Lake Gurzia', 'Weißbrunnsee', 'Lago di Caprolace', 'Lago di Salarno', 'Lago di Valbona']
+lakes__usa                   members  400/ 3201  foils  200  median sitelinks 2
+    e.g. ['Nixon Lake', 'Lake Iroquois', 'Lake Linka', 'Phelps Lake', 'Shamrock Lake', 'Lake Denmark']
+    foils ["Loch Coir' a' Ghrunnda", 'Loch an Eilein', 'Lac Métivier', 'Saltlick Lake', 'Lac du Vieux Chantier', 'Lac Bush']
+mountains__india             members  333/  333  foils  174  median sitelinks 4
+    e.g. ['Devistan I', 'Gilbert Hill', 'Maithai jama Haphong', 'Chandra Parbat', 'Rimo I', 'Nokrek']
+    foils ['Gasherbrum', 'Zardak Peak', 'Mitre Peak', 'Dansam', 'Latok', 'Baintha Brakk']
+mountains__pakistan          members  168/  168  foils  200  median sitelinks 6
+    e.g. ['Shaigiri', 'Gumbat', 'Gasherbrum III', 'Mandu Kangri', 'Chumik', 'Snow Dome, Concordia']
+    foils ['Lungser Kangri', 'Mount Mand', 'Kūh-e Pīr Chāvosh', 'Meesapulimala', 'Avalanche Peak I', 'Betlingchhip']
+mountains__bangladesh        members   13/   13  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Mukhra Thuthai haphong', 'Mowdok tiang', 'Thaingkhiang Taung', 'Maithai jama Haphong', 'Kala pahar', 'Sippi Arsuang']
+    foils ['Yukshin Gardan Sar', 'Nanda Pal', 'Sispara', 'Tiger Hill, Darjeeling', 'Sangthang', 'Baba Budangiri']
+mountains__sri_lanka         members   28/   28  foils  200  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Gongala', 'Dimbulagala', 'Totapolakanda', 'Bible Rock', 'Rassagala', 'Gonmollikanda']
+    foils ['Lushai hills', 'Harmukh Mountain', 'Chamrao Parbat I', 'Indrasan', 'Bharte khunta', 'Arwa Group']
+mountains__nepal             members  160/  160  foils  200  median sitelinks 6
+    e.g. ['Ghustang', 'Pikey Peak', 'Nirekha', 'Khiji Tholedemba', 'Arakam Tse', 'Yala Peak']
+    foils ['Dhupgarh', 'Aathanad', 'Akher Tsagh', 'Sudarshan Parbat', 'Rajmahal Hills', 'Alavaimalai']
+mountains__nigeria           members    9/    9  foils   39  median sitelinks 9   <-- TOO SMALL: fix the QID/query
+    e.g. ['Oshie Ridge', 'Chappal Waddi', 'Ara Rock', 'Wase Rock', 'Shere Hills', 'Zuma Rock']
+    foils ["Ng'iro", 'Nguruman Escarpment', 'Kinangop Plateau', 'Menengai', 'Mount Kenya', 'Paka']
+mountains__kenya             members   31/   31  foils   94  median sitelinks 11
+    e.g. ['Mau Escarpment', 'Ol Doinyo Eburru', 'Elmenteita Badlands', 'Mount Elgon', 'Mount Marsabit', 'Korosi']
+    foils ['Abul Kasim', 'Borawli', 'Oshie Ridge', 'Dofan', 'Mount Fentale', 'Adwa']
+mountains__ghana             members    8/    8  foils   40  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Mount Dzebobo', 'Mim Bour', 'Mount Afadja', 'Mount Adaklu', 'Leklata', 'Aduadu']
+    foils ['Zuma Rock', 'Mega Basalt Field', 'Mount Longonot', 'Wase Rock', 'Mount Homa', 'Kitaingo']
+mountains__ethiopia          members   85/   85  foils   40  median sitelinks 9
+    e.g. ['Borale Ale', 'Mount Damota', 'Ras Dashen', 'Mount Welel', 'Gara Muleta', 'Danakil mountain']
+    foils ['Mount Dimlang', 'Ol Doinyo Orok', 'Batian', 'Zuma Rock', 'Mount Marsabit', 'Nguruman Escarpment']
+mountains__south_africa      members  142/  142  foils   40  median sitelinks 2
+    e.g. ['Kleinrivier Mountains', 'Kolberg', 'Platfontein', 'Kranskop', 'Kerkenberg', 'Witelsberg']
+    foils ['Mount Mtelo', 'Mount Dimlang', 'Mount Silali', 'Ara Rock', 'Chappal Waddi', 'Kitaingo']
+mountains__indonesia         members  400/ 2095  foils  167  median sitelinks 3
+    e.g. ['Gle Garut', 'Gunung Pelang', 'Cot Simpangrot', 'Gle Kling', 'Bukit Deudeup', 'Gunung Tamruk Pinang']
+    foils ['Bà Rá mountain', 'Mount Sam', 'Mount Samat', 'Mount Bagsak', 'Phu Si Lung', 'Shiceng Dashan']
+mountains__philippines       members  121/  121  foils  200  median sitelinks 7
+    e.g. ['Pinatubo', 'Latukan', 'Mount Busa', 'Mount Isarog', 'Musuan Peak', 'Mounts Palay-Palay–Mataas-na-Gulod Protected Landscape']
+    foils ['Burni Pematang Tamiang', 'Gunung Aleu Kuyun', 'Bur Pilar', 'Mountain Uning Sigugur', 'Gunung Simpangwoh', 'Gle Blang Malo']
+mountains__vietnam           members   46/   46  foils  200  median sitelinks 4
+    e.g. ['Shiceng Dashan', 'Núi Cấm', 'Bà Rá mountain', 'Chu Pong Massif', 'Black Virgin Mountain', 'Nhoi mountain']
+    foils ['Blang Uberuber', 'Patoc', 'Mount Pangrango', 'Mountain Uning', 'Gle Gire', 'Mount Burangrang']
+mountains__brazil            members  160/  160  foils  200  median sitelinks 4
+    e.g. ['Pedra Redonda', 'Pico do Jaraguá', 'Morro da Mesa', 'Pedra Bonita', 'Morro do Cantagalo', 'Serra da Noruega']
+    foils ['Cordón del Plata', 'Cardenal Antonio Samoré Pass', 'Cumbres Calchaquíes', 'Cerro Solo', 'Cerro Peineta', 'Sierras de Balcarce']
+mountains__mexico            members  139/  139  foils  200  median sitelinks 4
+    e.g. ['Cerro Mohinora', 'Sierra La Madera', 'Cerro El Zamorano', 'Sierra Gomas', 'Cerro del Judío', 'Cerro de Santa Catarina']
+    foils ['Cerro Pirque', 'Mesas de Iguaje', 'Cerro de La Popa', 'Aguja Poincenot', 'Nevado de Chañi', 'Cumbres Calchaquíes']
+mountains__argentina         members  238/  238  foils  200  median sitelinks 4
+    e.g. ['Cerro Tres Picos', 'Cerro Quemado', 'Cerro Cono', 'Cerro Bonete', 'Cerro Leones', 'Cerro del Nacimiento']
+    foils ['Cerro del Cubilete', 'Pico do Itambé', 'Bufa', 'São Francisco Ridge', 'Serra da Piedade', 'Morro Dona Marta']
+mountains__colombia          members   60/   60  foils  200  median sitelinks 7
+    e.g. ['Cerros de Mavecure', 'Cerro Palúa', 'Morro Gacho', 'Serranía de Macuira', 'Cumbal', 'Pico La Reina']
+    foils ['Cerro El Pilón', 'Serra da Capivara', 'Sierra de la Giganta', 'Dedo de Deus', 'Morro da Polícia', 'Sierra los Toros']
+mountains__japan             members  400/ 1973  foils  200  median sitelinks 3
+    e.g. ['Mount Momokura', 'Mount Kachō', 'Mount Unabetsu', 'Mount Nakanoone', 'Mount Shiraga', 'Mount Utagaki']
+    foils ['Gorupogisan', 'Tai Mo Shan', 'Por Kai Shan', 'Daban mountains', 'Seongjusan', 'Gangssibong']
+mountains__iran              members  246/  246  foils  200  median sitelinks 3
+    e.g. ['Nātīsh Kūh', 'Chin Kalagh', 'Mount Chehelcheshmeh', 'Mount Bar Aftab (Khorheh)', 'Mount Jahan Bin', 'Qom salt dome']
+    foils ['Noshaq', 'Kösedağ', 'Tilla Charouni', 'Ağacan Dağı', 'Skil Brum', 'Kızıl Dağ']
+mountains__turkey            members  206/  206  foils  200  median sitelinks 2
+    e.g. ['Karacadağ (Ankara)', 'Erek Dağı', 'Arık Dağı', 'Çakmak Dağı', 'Şakorat Dağı', 'Ağadeve Dağı']
+    foils ['Titaros', 'Mount Megali Koprana', 'Mount Shahvar', 'Borzeh', "Qal'eh gorikhteh", 'Galatsi']
+mountains__poland            members  400/  925  foils  200  median sitelinks 4
+    e.g. ['Rysianka', 'Koziniec', 'Cienków Postrzedni', 'Jedlińska Kopa', 'Orlik', 'Dzielec']
+    foils ['Kočka (Žitenice)', 'Žalý', 'Červený vrch', 'Juohkkoaivi', 'Šindelná hora', 'Suchý vrch']
+mountains__finland           members  177/  177  foils  200  median sitelinks 2
+    e.g. ['Västerbergen', 'Ruototunturi', 'Storlagnen', 'Kummelskars Grund', 'Saana', 'Langskata']
+    foils ['Gállgielas', 'Rijddatjåhkkå', 'Norra Sytertoppen', 'Tåsjöberget', 'Östra Fjällfjället', 'Stokkafjellet']
+mountains__france            members  400/ 1640  foils  200  median sitelinks 4
+    e.g. ['Grande Motte', 'Pic del Rosselló', 'Tuc de Poilanèr', 'Puy de Niermont', 'Mont Chabrier', 'Sommet de Finiels']
+    foils ['Monte Santa Croce', 'Monte Raschio', 'Punta della Gragliasca', 'Surettahorn', 'Monte Bersaio', 'Grivola']
+mountains__usa               members  400/ 3589  foils  200  median sitelinks 5
+    e.g. ['Ranger Peak', 'Eagle Mountain', 'Nickerson Mountain', 'Mount Hancock', 'Castle Rock', 'Squak Mountain']
+    foils ['Wolfhole Crag', 'Bravo Peak', 'Mount Daly', 'RCAF Station Puntzi Mountain', 'Sgùrr Dhomhnuill', 'Allstones Peak']
+islands__india               members  153/  153  foils   36  median sitelinks 6
+    e.g. ['Smith Island', 'Ambu Island', 'Karlo Island', 'Nallathanni Theevu', 'Boning Island', 'Netaji Subhash Chandra Bose Island']
+    foils ['Khiprianwala Island', 'Jaliadwip', 'Char Nizam', 'Urir Char', 'Malan Island', 'Manpura Island']
+islands__pakistan            members   12/   12  foils  183  median sitelinks 6   <-- TOO SMALL: fix the QID/query
+    e.g. ['Baba and Bhit Islands', 'Malan Island', 'Astola Island', 'Churna Island', 'Shams Pir Island', 'Baba Island']
+    foils ['Nancowry Island', 'West Island', 'Ashuradeh', 'Yeshwantgad', 'Piram Island', 'Agatti Island']
+islands__bangladesh          members   25/   25  foils  164  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Manpura Island', 'Jahaijar Char', 'Char Atra', 'Putunir Island', "St. Martin's Island", 'Char Tufania']
+    foils ['Viringili (Maliku Atoll)', 'Diviseema', 'Perumbalam', 'Pulomilo', 'Arnala Island', 'Sathar Island']
+islands__sri_lanka           members   13/   13  foils  177  median sitelinks 10   <-- TOO SMALL: fix the QID/query
+    e.g. ['Velanai Island', 'Neduntheevu', 'Iranaitivu', 'Taprobana', 'Karaitivu', 'Mannar Island']
+    foils ['Middle Andaman Island', "Old Woman's Island", 'Nallathanni Theevu', 'Kukri Mukri', 'Ashar Char', 'Viringili (Maliku Atoll)']
+islands__nepal               members    0/    0  foils  165  median sitelinks 0   <-- TOO SMALL: fix the QID/query
+    e.g. []
+    foils ['Middle Ground Coastal Battery', 'Stewart Island, Diglipur', 'Bitra Island', 'Baba Island', 'Nicholson Island', 'Sagar Island']
+islands__nigeria             members    9/    9  foils   93  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Topo Island', 'Andoni Island', 'Bonny Island', 'Snake Island', 'Tobacco Island', 'Banana Island']
+    foils ['Ziwaiu Island', 'Usuli Island', 'Mogare Island', 'Ankishi', 'Ndau Island', 'Kiwayu']
+islands__kenya               members   91/   91  foils   17  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Gengra Island', 'Sifu Island', 'Mogare Island', 'Lesukut', 'Kiwayu', 'Enwoiti Island']
+    foils ['Tobacco Island', 'Tana Qirqos', 'Mitraha', 'Victoria Island', 'Gelila Zakarias', 'Topo Island']
+islands__ghana               members    2/    2  foils  100  median sitelinks 7   <-- TOO SMALL: fix the QID/query
+    e.g. ['Bobowasi Island', 'Dodi Island']
+    foils ['Wayaga Island', 'Mombasa Noord', 'Yalombo Island', 'Nanet Island', 'Chamarung Island', 'Takawiri Island']
+islands__ethiopia            members    8/    8  foils  100  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Gelila Zakarias', 'Rema Island', 'Mitraha', 'Daga Island', 'Aruro Island', 'Dek']
+    foils ['Mageta Island', 'Mzenzi Island', 'Mombasa Island', 'Kiwayu', 'Manda Island', 'Buruji']
+islands__south_africa        members   20/   20  foils   98  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Brenton Island', 'Bird Island', 'Schaapeneiland', 'St. Croix Island, Algoa Bay', 'Dyer Island', 'Jahleel Island']
+    foils ['Enwoiti Island', 'Kiambone Kwa Kibwana', 'Tenewi ya Juu', 'Usuli Island', 'Kiwaiyu Island', 'Gberefu Island']
+islands__indonesia           members  400/  797  foils  200  median sitelinks 3
+    e.g. ['Maikoor Island', 'Tomia Island', 'Nubi Island', 'Sumba Island', 'Sailus Kecil Island', 'Sukun Island']
+    foils ['Barque Canada Reef', 'Manolebeng Island', 'Canimeran Island', 'Hòn Chút', 'Pandanan Island', 'Polillo']
+islands__philippines         members  367/  367  foils  200  median sitelinks 3
+    e.g. ['Nogas Island', 'Boayan Island', 'Dequey Island', 'Horse', 'Lumbucan Island', 'Lubang Island']
+    foils ['Pura Island', 'Obimayor Island', 'Dullah Island', 'Kalukalukuang Island', 'Solor Island', 'Madura Island']
+islands__vietnam             members   85/   85  foils  200  median sitelinks 2
+    e.g. ['Cù Lao Xanh', 'Canh Cuoc island', 'Pearson Reef', 'Côn Sơn Island', 'Long Sơn', 'Hòn Nhạn']
+    foils ['Batam Island', 'Bangka Island', 'Idoh Island', 'Pulau Lakaloro', 'Padar Besar Island', 'Ilin Island']
+islands__brazil              members  164/  164  foils   83  median sitelinks 3
+    e.g. ['Ilha Santa Rita', 'Ilha Marechal Deodoro', 'Ilha dos Valadares', 'Vitória', 'Ilha do Rijo', 'Ilha Grande dos Marinheiros']
+    foils ['Islote Rojo', 'Tortuguilla Island', 'Cayo Córdoba', 'Isla Entre Ríos', 'Isla Leones', 'Cabruna Island']
+islands__mexico              members  271/  271  foils   80  median sitelinks 2
+    e.g. ['Isla Miramar', 'Isla Lobos', 'Isla Santa Catalina', 'San Luis Island', 'Isla El Llorón', 'Jaina Island']
+    foils ['Mangle Island', 'Ceycén Island', 'Isla Zuraita', 'Isla Schwarz', 'Islote Laguna', 'Isla Shag']
+islands__argentina           members   48/   48  foils  200  median sitelinks 3
+    e.g. ['Isla Bermejo', 'Weddell Island', 'Isla de los Leones', 'Isla Chafariz', 'Isla Tovita', 'Islote Puntudo']
+    foils ['Isla Juan A. Ramírez', 'Alcatrazes Island', 'Ilha do Medo', 'Ilha dos Lençóis', 'Isla San Luis', 'Cabo Rojo']
+islands__colombia            members   36/   36  foils  200  median sitelinks 5
+    e.g. ['Saint Andrew', 'Isla Maravilla', 'Isla Barú', 'Cayo Córdoba', 'Rocky Cay', 'Cayo Bolívar']
+    foils ['Isla Ana', 'Isla El Coyote', 'Isla La Lechuguilla', 'São Vicente Island', 'Isla Santa Maria', 'Ilha Acaraí']
+islands__japan               members  400/  630  foils  200  median sitelinks 3
+    e.g. ['Kuba Island', 'Bentenjima', 'Kouri Island', 'Ikitsuki Island', 'Nonoshima', 'Toriagejima']
+    foils ['Tai Mo To', 'Maehwado', 'Baishishan Dao', 'Wenwei Zhou', 'Dawanshan Dao', 'Gexian Island']
+islands__iran                members   30/   30  foils  110  median sitelinks 11
+    e.g. ['Kabudan Island', 'Ommolkorm Island', 'Khargu Island', 'Larak Island', 'Qeshm Island', 'Ashuradeh']
+    foils ['Armutlu Peninsula', 'Yelkenli Island', 'Toprak Island', 'Hayırsız Island', 'Burgaz Adası', 'Lale Island']
+islands__turkey              members   98/   98  foils  200  median sitelinks 5
+    e.g. ['Marmara Island', 'Aslı Isle', 'Lade', 'Hayırsız Island', 'Yılancık Island', 'Garip Island']
+    foils ['Manto islet', 'Cephalonia', 'Lesser Tunb Island', 'Skorpios', 'Kyra Panagia', 'Prasso Skantzouras Alonnisou']
+islands__poland              members   31/   31  foils  200  median sitelinks 5
+    e.g. ['Karsibór', 'Sobieszewska island', 'Szeroki Ostrów', 'Wiślica Gord', 'Port Island', 'Ostrów Grabowski']
+    foils ['Högholmsklobben', 'Hakkalansaari', 'Hättö', 'Peksosaaret', 'Pieni Halmesaari', 'Triörs bådan']
+islands__finland             members  400/13406  foils  200  median sitelinks 2
+    e.g. ['Trantman', 'Vavetkari', 'Algrunden', 'Petäjäsaari', 'Lilla Storgrund', 'Louhisaari']
+    foils ['Rögrund', 'Vesitükimaa', 'Kapussaare islet', 'Ejgdeholmen', 'Tarv', 'Anekäbrud']
+islands__france              members  400/  644  foils  200  median sitelinks 3
+    e.g. ['île de Croÿ', 'îlot Saint-Ferréol', 'Ilet Boisseau', 'Île Grimault', 'Île Boh', 'île Pelée']
+    foils ['San Paolo Island', 'Isola di Molino', 'Il Fungo', 'Isola di Tuerredda', 'Isola delle Bisce', 'Isola di Soffi']
+islands__usa                 members  400/ 1820  foils  200  median sitelinks 3
+    e.g. ['Soldier Key', 'Matia Island', 'Brant Island', 'Oglodak Island', 'Crawfish Key', 'Fairbank Island']
+    foils ['Little Hall Island', 'Sandy Bay Island', 'Housay', 'Beveridge Island', "Read's Island", 'Haviujaq Island']
+universities__india          members  400/  632  foils  193  median sitelinks 3
+    e.g. ['Bangalore University', 'National Institute of Rehabilitation Training and Research', 'Darrang College', 'Vivekananda Satavarshiki Mahavidyalaya', 'Jamia Naeemia Moradabad', 'Tamil Nadu Physical Education and Sports University']
+    foils ['Al-Ghazali University', 'Gambat Institute of Medical Sciences', 'Baqai Medical University', 'College of Aviation & Technology', 'Khushal Khan Khattak University', 'University of Veterinary and Animal Sciences']
+universities__pakistan       members  155/  155  foils  200  median sitelinks 3
+    e.g. ['University of Gwadar', 'King Edward Medical University', 'Women University of Azad Jammu and Kashmir', 'Islamia College University', 'Sir Syed CASE Institute of Technology', 'Government College Gujranwala']
+    foils ['Lala Lajpat Rai University of Veterinary and Animal Sciences', 'Periyar Maniammai Institute of Science and Technology', 'I. K. Gujral Punjab Technical University', 'Karnataka State Open University', 'Indian Institute of Information Technology, Sri City', 'University College for Women, Koti']
+universities__bangladesh     members   38/   38  foils  200  median sitelinks 2
+    e.g. ['Government Physical Education College, Dhaka', 'Navy Medical College, Chattogram', 'Bangladesh Army University of Science & Technology, Khulna', 'Bangladesh Naval Academy', 'Munshiganj Medical College', 'Al-Jamiatul Islamiah Azizul Uloom Babunagar']
+    foils ['Maharshi Devraha Baba Medical College, Deoria', 'Institute of Space Technology', 'Rajalakshmi Engineering College', 'Medini Rai Medical College and Hospital, Palamu', 'Government Dental College, Silchar', 'Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya']
+universities__sri_lanka      members   21/   21  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Uva Wellassa University', 'Wayamba University of Sri Lanka', 'University of Kelaniya', 'Open University of Sri Lanka', 'Buddhist and Pali University of Sri Lanka', 'University of Vavuniya']
+    foils ['Maharana Pratap University of Agriculture and Technology', 'Jesus and Mary College', 'Government Siddha Medical College Palayamkottai', 'Institute of Hotel Management', 'Utkal University of Culture', 'Memari College']
+universities__nepal          members   27/   27  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Madhesh Agricultural University', 'Manipal Teaching Hospital', 'Purbanchal University', "St. Xavier's College, Kathmandu", 'Nepal Sanskrit University', 'Tri Chandra College']
+    foils ['Centre for Social Forestry and Eco-Rehabilitation', 'Hyderabad Institute of Arts, Science and Technology', 'Kerala Agricultural University', 'Lahore School of Fashion Design', 'Rajiv Gandhi University', 'Islamic Fiqh Academy, India']
+universities__nigeria        members  179/  179  foils   61  median sitelinks 5
+    e.g. ['Nok University Kachia', 'Joseph Sarwuan Tarka University', 'Moje College Of Education', 'Imo State College of Education', 'Ibrahim Badamasi Babangida University', 'Kaduna State College of Education, Gidan-Waya, Kafanchan']
+    foils ['Ghana Communication Technology University', 'Machakos Institute of Technology', 'KCA University', 'Umma University', 'Kisii University', 'Regent University College of Science and Technology']
+universities__kenya          members   41/   41  foils  200  median sitelinks 4
+    e.g. ['Daystar University', 'International Centre of Technology', 'Garissa University', 'Alupe University', 'Egerton University', 'Maasai Mara University']
+    foils ['Addis Continental Institute of Public Health', 'Chukwuemeka Odumegwu Ojukwu University', 'Bayelsa Medical University', 'Sule Lamido University', 'Olusegun Agagu University of Science and Technology', 'Kings University']
+universities__ghana          members   20/   20  foils  200  median sitelinks 6   <-- TOO SMALL: fix the QID/query
+    e.g. ['Sikkim Manipal University, Ghana Learning Centre, Accra', 'University of Health and Allied Sciences', 'Central University College', 'Cape Coast Technical University', 'Ghana Communication Technology University', 'University of Environment and Sustainable Development']
+    foils ['Summit University', 'Umma University', 'Hope Waddell Training Institution', 'Chukwuemeka Odumegwu Ojukwu University', 'University of Nigeria', 'Laikipia University']
+universities__ethiopia       members   36/   36  foils  200  median sitelinks 4
+    e.g. ['Hawassa University', 'International Leadership Institute', 'Kunuz College', 'Mizan Tepi University', 'Debre Markos University', 'Dambi Dolo University']
+    foils ['Laikipia University', 'Federal University of Technology Akure', 'Lebanese Community School', 'Federal University of Health Sciences, Azare', 'Philomath University', 'Umma University']
+universities__south_africa   members   49/   49  foils  200  median sitelinks 9
+    e.g. ['Darul Uloom Zakariyya', 'Sol Plaatje University', 'University of Natal', 'Tshwane University of Technology', 'Vista University', 'University of the Cape of Good Hope']
+    foils ['Loyola Jesuit College', 'Federal College of Education, Okene', 'Precious Cornerstone University', 'University of Delta, Agbor', 'Plateau State University', 'Institute for Industrial Technology']
+universities__indonesia      members  294/  294  foils  200  median sitelinks 3
+    e.g. ['Surabaya Shipbuilding State Polytechnic', 'Riau University', 'State University of Malang', 'Akademi Komunitas Negeri Seni dan Budaya Yogyakarta', 'Universitas Respublica', 'STMIK STIKOM Balikpapan']
+    foils ['University of Caloocan City', 'Adventist University of the Philippines', 'University of Northern Philippines', 'Asian Institute of Maritime Studies', 'La Verdad Christian College', 'Saint Paul University Iloilo']
+universities__philippines    members  273/  273  foils  200  median sitelinks 3
+    e.g. ['Angelicum School Iloilo', 'Southwestern University', 'Batangas State University Jose P. Laurel Polytechnic College', 'Metropolitan Hospital College of Nursing', 'Saint Columban College', 'University of the Immaculate Conception']
+    foils ['Universitas 17 Agustus 1945 Surabaya', 'Universitas Dr. Soetomo', 'Satya Wacana Christian University', 'Indonesian Institute of the Arts', 'Narotama University', 'University of Bengkulu']
+universities__vietnam        members  100/  100  foils  200  median sitelinks 3
+    e.g. ['Ho Chi Minh City Open University', 'Da Nang University of Science and Technology', 'Vietnamese-Japanese Foreign Language-Technology College', 'RMIT University Vietnam', 'Van Lang University', 'Kien Giang University']
+    foils ['Lipa City Colleges', 'Nuswantoro Dian University', 'Universitas Klabat', 'Muhammadiyah University Purwokerto', 'Telkom University', 'Haluoleo University']
+universities__brazil         members  145/  145  foils   88  median sitelinks 4
+    e.g. ['State University of Minas Gerais', 'Universidade Federal de Roraima', 'Pontifícia Universidade Católica de São Paulo', 'Universidade Federal de Ouro Preto', 'State University of the Centre-West', 'Federal Rural University of Amazonia']
+    foils ['Universidad de Cartagena', 'University of Santander', 'José María Córdova Military Academy', 'University of the Llanos', 'South Colombian University', 'Universidad Industrial de Santander']
+universities__mexico         members  117/  117  foils   87  median sitelinks 3
+    e.g. ['Autonomous University of Tlaxcala', 'Universidad Autónoma de Guadalajara', 'Center for Research and Development in Health Sciences', 'Universidad Autónoma Agraria Antonio Narro', 'Universidad Iberoamericana Puebla', 'The College of Jalisco']
+    foils ['University of Quindio', 'Central University', 'Francisco de Paula Santander University', 'CES University', 'Autonomous University of Colombia', 'Simón Bolívar University']
+universities__argentina      members    9/    9  foils  200  median sitelinks 3   <-- TOO SMALL: fix the QID/query
+    e.g. ['Instituto Tecnológico de Córdoba', 'Higher Education Army Institute', 'Army War Academy', 'Center for Distributive, Labor and Social Studies', 'Universidad Obrera Nacional', 'National Conservatory of Argentina']
+    foils ['Universidad Autónoma del Estado de Morelos', 'Instituto Tecnológico Superior de Irapuato', 'Panamerican University', 'University of the Caribbean', 'Universidade Potiguar', 'Federal University of Fronteira Sul']
+universities__colombia       members   79/   79  foils  200  median sitelinks 4
+    e.g. ['District University of Bogotá', 'Universidad de Cartagena', 'Universidad Nacional de Colombia. Sede Caribe', 'Institución Universitaria Politécnico Grancolombiano', 'South Colombian University', 'Sergio Arboleda University']
+    foils ['Law School of Fluminense Federal University', 'Universidad Modelo', 'University of the Americas Puebla', 'Gama Filho University', 'Federal University of Science and Innovation of Minas Gerais', 'Universidade Federal do Amazonas']
+universities__japan          members  400/  696  foils  200  median sitelinks 4
+    e.g. ['Digital Hollywood University', 'Seijoh University', 'Kumamoto Gakuen University', "Women's College, Meiji University", 'The Japanese Red Cross Hiroshima College of Nursing', 'International University of Health and Welfare']
+    foils ["Xi'an University of Architecture and Technology", 'Jeju National University', 'Zunyi Medical University', 'Jiangsu Normal University', 'University of Jinan', 'Zhaoqing University']
+universities__iran           members  202/  202  foils  180  median sitelinks 4
+    e.g. ['Islamic Azad University of Shiraz', 'Islamic Azad University of Birjand', 'Islamic Azad University of Garmsar', 'Sharif University of Technology International Campus', 'Iran Centre of Management Studies', 'Mazandaran University of Science and Technology']
+    foils ['Pakistan Institute of Development Economics', 'Greenwich University', 'University of Narowal', 'Preston University, Pakistan', 'Allama Iqbal Open University', 'University of Azad Jammu and Kashmir']
+universities__turkey         members   25/   25  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Istanbul Kent University', 'Kocaeli Health and Technology University', 'Istanbul Health and Technology University', 'Turkish National Police Academy', 'Middle East Technical University', "Medresetü'z-Zehra"]
+    foils ['Shahrud University of Technology', 'Al-Mustafa International University', 'University of Piraeus', 'Tabriz University of Technology', 'Islamic Azad University of Najafabad', 'Iranshahr Velayat University']
+universities__poland         members   37/   37  foils   42  median sitelinks 11
+    e.g. ['University of Silesia in Katowice', 'Krakow University of Economics', 'Nicolaus Copernicus University in Toruń', 'Rzeszów University of Technology', 'Magdalena Abakanowicz University of the Arts Poznań', 'University of Life Sciences in Poznań']
+    foils ['Technical University of Liberec', 'Westmoravian College Třebíč', 'University of International and Public Relations Prague', 'University of Hradec Králové', 'University of West Bohemia', 'University of Chemistry and Technology']
+universities__finland        members   11/   11  foils   23  median sitelinks 19   <-- TOO SMALL: fix the QID/query
+    e.g. ['Aalto University School of Engineering', 'Lappeenranta-Lahti University of Technology LUT', 'Royal Academy of Turku', 'University of Joensuu', 'Tampere University of Technology', 'University of Jyväskylä']
+    foils ['Luleå University of Technology', 'University of Tartu', 'Chalmers University of Technology', 'Örebro University', 'Växjö University', 'Uppsala University']
+universities__france         members   34/   34  foils  107  median sitelinks 5
+    e.g. ["Institut d'études politiques de Saint-Germain-en-Laye", 'Institut national des langues et civilisations orientales', 'Israelite Seminary of France', 'University of France', 'Joseph Fourier University', 'INSA Hauts-de-France']
+    foils ['École pratique des hautes études commerciales', 'Polimoda', 'Accademia italiana', 'University of Perugia', 'Università degli Studi di Roma "Unitelma Sapienza"', 'Pontificio istituto ambrosiano di musica sacra']
+universities__usa            members  400/ 1178  foils  191  median sitelinks 4
+    e.g. ['Lenoir–Rhyne University', 'Binghamton University', 'Northland International University', 'Lone Star College–CyFair', 'Marian University', 'Purdue University Northwest']
+    foils ['Astrophysics Research Institute', 'Edmonton Normal School', 'University of West London', 'Université Sainte-Anne', 'Heriot-Watt University', 'Northern Lights College']
+museums__india               members  254/  254  foils   72  median sitelinks 4
+    e.g. ['Jaisalmer Folklore Museum', 'Pimpri Chinchwad Science Park', 'Birla Planetarium', 'Government Museum, Bengaluru', 'Puducherry Science Centre & Planetarium', 'Mahakavi Bharathi Memorial Library']
+    foils ['Faridpur Museum', 'Victoria Museum, Karachi', 'Bagha Museum', 'National Art Gallery', 'Mymensingh Museum', 'Bir Sreshtho Mostafa Kamal Memorial Museum']
+museums__pakistan            members   25/   25  foils  200  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Lahore Museum', 'Archaeological Museum Umerkot', 'Fakir Khana', 'Kalasha Dur Museum', 'Bahawalpur Museum', 'Dir Museum']
+    foils ['Rajasthan State Archives', 'Fort Dansborg', 'Government Museum, Chennai', 'Heritage Jail Museum', "Shankar's International Dolls Museum", 'Shahrud Museum']
+museums__bangladesh          members   47/   47  foils  200  median sitelinks 3
+    e.g. ['Bangladesh Railway Museum', 'Zia Memorial Museum', 'Osmany Museum', 'National Art Gallery', 'Bangabandhu Boat Museum', 'Bangladesh Military Museum']
+    foils ['Rabindra Museum', 'Odisha State Museum', 'Nagaland State Museum', 'Bharatiya Lok Kala Mandal', 'Government Museum, Mathura', 'Sir Cowasji Jehangir Public Hall']
+museums__sri_lanka           members   31/   31  foils  200  median sitelinks 4
+    e.g. ['Archaeological Museum, Vavuniya', 'Postal museum, Colombo', 'Temple of the Tooth Museum', 'Sri Lanka Planetarium', 'Bogambara Prison', 'National Maritime Museum']
+    foils ['Rani Durgawati Museum', 'Science Centre Surat', 'Begusarai Museum', 'State Bank Archives and Museum', 'INA War Museum', 'City Museum']
+museums__nepal               members    9/    9  foils  200  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Mahendra Museum', 'Narayanhiti Palace', 'Patan Museum', 'Tansen Durbar', 'Bronze and Brass Museum', 'Natural History Museum of Nepal']
+    foils ['Chhatrapati Shivaji Maharaj Vastu Sangrahalaya', 'Rajiv Gandhi Regional Museum of Natural History', 'Regional Museum of Natural History, Bhopal', 'Sindh Museum', 'Alipore Central Jail', 'District Science Center - Tirunelveli']
+museums__nigeria             members   21/   21  foils   29  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Museum of West African Art', 'Jos Museum', 'Didi Museum', 'Yemisi Shyllon Museum of Art', 'Seriki William Abass Slave Museum', 'National Museum Kaduna']
+    foils ['Bomas of Kenya', 'Wajir Museum', 'Elmina Java Museum', 'Manhiya Palace Museum', 'Nairobi National Museum', 'Meru Museum']
+museums__kenya               members   17/   17  foils   25  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Kisumu Museum', 'Tambach Museum', 'Malindi Museum', 'Meru Museum', 'Kitale Museum', 'Kapenguria Museum']
+    foils ['Didi Museum', 'Adwa 00KM Museum', 'Nigerian National Museum, Lagos', 'Esiẹ Museum', 'Badagry Heritage Museum', 'National War Museum, Umuahia']
+museums__ghana               members   12/   12  foils   38  median sitelinks 6   <-- TOO SMALL: fix the QID/query
+    e.g. ['Volta Regional Museum', 'Nurom Hat Museum', 'Cape Coast Castle Museum', 'Bisa Abrewa Museum', 'Despite Automobile Museum', 'Elmina Java Museum']
+    foils ['Narok Museum', 'Virtual Museum of Modern Nigerian Art', 'Kanta Museum', 'Kapenguria Museum', 'Yemisi Shyllon Museum of Art', 'National Museum of Unity, Ibadan']
+museums__ethiopia            members    4/    4  foils   38  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['Zoma Museum', '"Red Terror" Martyrs\' Memorial Museum', 'Adwa 00KM Museum', 'Ethiopia Museum of Art and Science']
+    foils ['Garissa Museum', 'Karen Blixen Museum', 'Seriki William Abass Slave Museum', 'Wajir Museum', 'Narok Museum', 'Oron Museum']
+museums__south_africa        members   51/   51  foils   38  median sitelinks 3
+    e.g. ['Slave Lodge', 'Drostdy Museum', 'Government House, Orange Free State', 'Hester Rupert Art Museum', "Dingaan's spring", 'Willem Prinsloo Agricultural Museum']
+    foils ['National War Museum, Umuahia', 'Jos Museum', 'Didi Museum', 'Hyrax Hill Prehistoric Site and Museum', 'Kitale Museum', 'Museum of West African Art']
+museums__indonesia           members  274/  274  foils   66  median sitelinks 3
+    e.g. ['Siraja Teluk Bayur Museum', 'Kites Museum of Indonesia', 'Wayang Sendang Mas Museum', 'Kraton Sumenep', 'Kretek Museum', 'Rahmah El Yunusiyah Museum']
+    foils ['Camiña Balay Nga Bato', "Southern Women's Museum", 'The World Coffee Museum', 'Rizal Shrine', 'Pasig City Museum', 'Yersin Museum']
+museums__philippines         members   39/   39  foils  200  median sitelinks 2
+    e.g. ['Casa Santa Museum', 'Museo Pambata', 'Jesse Robredo Museum', 'Father Burgos House', 'Pasig City Museum', 'Apolinario Mabini Shrine']
+    foils ['Museum sultan of Ternate', 'Neka Art Museum', 'Pedir Museum', 'Purbakala Archaeological Museum', 'Malacca Gallery', 'Old city museum']
+museums__vietnam             members   27/   27  foils  200  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Vietnam Museum of Revolution', 'The World Coffee Museum', 'Quang Ninh Museum', 'Presidential Palace Historical Site', 'Hue Museum of Royal Fine Arts', 'Museum of Cham Sculpture']
+    foils ['Tebing Tinggi Museum', 'Bharugano Wuna Museum', 'Philtranco Transport Heritage Museum', 'Indonesian Plantation Museum 2', 'Bank Indonesia Museum, Surabaya', 'Museum sultan of Ternate']
+museums__brazil              members  400/  473  foils  200  median sitelinks 2
+    e.g. ['Baths of King João VI at Caju', 'Centro de Memória Dorina Nowill', 'Brazilian Historic and Geographic Institute', 'Museum of Biblical Archeology Paulo Bork', 'Museu da Indústria do Ceará', 'Museu Municipal de Arte']
+    foils ['Museum of Colonial Art', 'Popayán Archdiocesan Museum of Religious Art', 'Museum of Antioquia', 'Chapel of Our Lady of Chiquinquirá', 'Desiderio Torres Regional Museum', 'Planetarium of Rosario']
+museums__mexico              members  239/  239  foils  200  median sitelinks 2
+    e.g. ['Museo de la Ciudad de Querétaro', 'Museo Regional de Guadalajara', 'Museo del Tequila y el Mezcal', 'Casa del Poeta López Velarde', 'Casa del Lago Juan José Arreola', 'Observatorio 1873']
+    foils ['Museo Carlos Gardel, Buenos Aires', 'Museum of Contemporary Art of Rosario', 'Museum of Architecture and Design', 'Vine and Wine Museum', 'Juan Manuel Fangio Museum', 'Eden Hotel']
+museums__argentina           members  122/  122  foils  200  median sitelinks 2
+    e.g. ['Museo Usina Molet', 'Héctor Carlos Janson Historic and  Numismatics Museum', 'Museo del Estudio Jurídico', 'Municipal Museum of Visual Arts', 'José Antonio Terry Regional Museum of Painting', 'Rocsen Multifaceted Museum']
+    foils ['Palácio do Ingá', 'Gaetano Ferolla Museum of Public Transport', 'Museu do Trabalho', 'Parque Histórico de Carambeí', 'Museu do Oratório', 'Birds Museum of Mexico']
+museums__colombia            members   80/   80  foils  200  median sitelinks 3
+    e.g. ['EPM Water Museum', 'Archeological Museum of Pasca', 'Pamplona Colonial House Museum', 'zoologico de barranquilla', 'Botanical Garden of Medellín', 'Popayán Archdiocesan Museum of Religious Art']
+    foils ['Museu da Borracha Governador Geraldo Mesquita', 'House of the Ottoni (Regional Museum)', 'Casa Barão do Serro Azul', 'Museu do Trabalho', 'Museo Regional de Querétaro', 'Museu da Escola Catarinense']
+museums__japan               members  382/  382  foils  200  median sitelinks 2
+    e.g. ['Ise-Shima Summit Memorial Museum', 'Ando Museum', 'Matsudo Museum', 'Suruga Bay Deep Sea Water Museum', 'Kaga-Honda Museum', 'Hikaru Museum']
+    foils ['Confucius Museum', 'Luoyang Museum', 'War and Women’s Human Rights Museum', 'Xuanren Temple', 'Hunan Provincial Science and Technology Museum', 'Zhongying Street Historical Museum']
+museums__iran                members   40/   40  foils  200  median sitelinks 3
+    e.g. ['Rais Ali Delvari House', 'Gilan Rural Heritage Museum', 'Safir Office Machines Museum', 'Tabriz Municipality Museum', 'Qazvini House', 'Mirror and Lighting Museum']
+    foils ['Tire City Museum', 'Sinop Archaeological Museum', 'Chitral Museum', 'Natural History Museum of Ege University', 'Muğla Museum', 'City Museum, Gorkhatri']
+museums__turkey              members  301/  301  foils  200  median sitelinks 4
+    e.g. ['Türkiye İş Bankası Museum', 'Church of the Taxiarchs, Cunda', 'Bergama Museum', 'Thyatira', 'Çanakkale Naval Museum', 'Mimar Sinan and City Museum']
+    foils ['Kastanofyto Folklore Museum', 'Wine and Vine Museum', 'Byzantine museum of Argolis', 'Zoological Museum of the University of Patras', 'Byzantine and Post-Byzantine Collection of Chania', 'Book and Documented Heritage Museum of Iran']
+museums__poland              members  400/  427  foils  200  median sitelinks 3
+    e.g. ['Ogród czasu', 'Civil defence shelter in Przemyśl', 'Podlaskie Museum in Białystok', 'Museum of Kraków', 'Grzybowo', 'Museum of Zamość']
+    foils ['Litomyšl Town Gallery', 'Hermas', 'Fort Science', 'Gallery of Modern Art in Roudnice nad Labem', 'Regional Gallery of Fine Arts in Zlín', 'Památník Vojna']
+museums__finland             members  259/  259  foils  200  median sitelinks 3
+    e.g. ['Historical Museum of Riihimäki', 'Veteran’s Home Museum', 'Carlsro', 'Fiskars Museum', 'Kerimäen kotiseutumuseo', 'Tampere Lenin Museum']
+    foils ['Rõuge museum', 'Värska Farm Museum', 'Butterfly House at Hagaparken', 'Museum of New Art', 'Gothenburg Natural History Museum', 'Brucebo']
+museums__france              members  400/  903  foils  200  median sitelinks 2
+    e.g. ['Musée Stella Matutina', "Maison de la baie de Somme et de l'Oiseau", 'Carreau Wendel Museum', 'Musée Gallo-Romain de Saint-Romain-en-Gal', 'Musée provençal des transports', 'Musée français du pétrole']
+    foils ['Sacred Art Museum (Montespertoli)', 'Grotta di Lamalunga', 'Galleria Storica  Vigili del Fuoco', 'Museo Clemente Rospigliosi', 'Samnite Sanctuary at Pietrabbondante', 'Villa Litta, Lainate']
+museums__usa                 members  400/ 1594  foils  200  median sitelinks 2
+    e.g. ['Somali Museum of Minnesota', 'DeLand House Museum', 'Public Museum of Grand Rapids', 'Professional Wrestling Hall of Fame and Museum', 'Silver River Museum', 'Pensacola Museum of History']
+    foils ['The Fusilier Museum', 'Northern Ontario Railroad Museum', "Clockmakers' Museum", 'BC Archives', 'Ulster Museum', "Sailors' Reading Room"]
+films__india                 members  400/16083  foils  200  median sitelinks 3
+    e.g. ['Upaharam', 'Azhakiya Ravanan', 'I Love You', 'Nammoora Hammera', 'Aval Oru Thodar Kathai', 'Valliettan']
+    foils ['Buz-e-Chini', 'Number One Shakib Khan', 'Dil Mera Dhadkan Teri', 'Chandranath', 'Bhat De', 'Ghalib']
+films__pakistan              members  400/  556  foils  200  median sitelinks 2
+    e.g. ['Harano Din', 'Zill-e-Shah', 'Babylicious', 'Raaz', 'Malangi', 'Balu Mahi']
+    foils ['Nartaki', 'Mere Mehboob', 'Pather Panchali', 'Risk', 'Rajmata Jijau', 'Badnam Farishte']
+films__bangladesh            members  400/  607  foils  200  median sitelinks 2
+    e.g. ['Khodar Pore Ma', 'Gariber Sansar', 'Sobar Upore Tumi', 'Taarkata', 'Ghuddi', 'Noy Number Bipod Sanket']
+    foils ['Muhoorthangal', 'Dhaam Dhoom', 'Chhota Bheem Aur Ganesh:In The Amazing Odessey', 'Murattu Kaalai', 'Thodallullu', 'Thalaivan']
+films__sri_lanka             members  172/  172  foils  200  median sitelinks 2
+    e.g. ['Kiwwada Nahi Nokiwwada Nahi', 'Aloko Udapadi', 'Ohoma Harida', 'Maharaja Gemunu', 'Gamperaliya', 'Ahas Gauwa']
+    foils ['Innale', 'Damul', 'Iniyum Kurukshetrum', 'Jaan Hazir Hai', 'Arya', 'Mit Jayenge Mitane Wale']
+films__nepal                 members  161/  161  foils  200  median sitelinks 2
+    e.g. ['Pooja, Sir', 'Hami Tin Bhai', 'Apabad', 'Resham Filili', 'Anaagat', 'Classic']
+    foils ['O Teri', 'Ajantrik', 'Dharma Devathai', 'Bioscope', 'Bangarada Kalasha', 'Srinatha Kavi Sarvabhowmudu']
+films__nigeria               members  400/  567  foils  131  median sitelinks 5
+    e.g. ["Tiwa's Baggage", 'Braids on a Bald Head', 'Three Thieves', 'Loving Rona', 'Looking for Baami', 'Bitter Rain']
+    foils ['Supa Modo', 'Poacher', 'The Burial of Kojo', 'I Sing of a Well', 'Veve', 'Love Brewed in the African Pot']
+films__kenya                 members   56/   56  foils  200  median sitelinks 5
+    e.g. ['Togetherness Supreme', 'In My Genes', 'World Tofauti', '18 Hours', 'Nairobi Half Life', 'The Unbroken Spirit']
+    foils ['The Griot', 'Day of Destiny', 'Bad Comments', "Knocking on Heaven's Door", 'Under the Carpet', "House of Ga'a"]
+films__ghana                 members   86/   86  foils  200  median sitelinks 7
+    e.g. ['Amakye and Dede', 'Heritage Africa', 'Potato Potahto', 'The Art of Ama Ata Aidoo', 'Devil in the Detail', 'Keteke']
+    foils ['Accident', 'Through Her Eyes', 'Code of Silence', 'Under the Carpet', 'Fine Wine', 'The Grave Dust']
+films__ethiopia              members   19/   19  foils  200  median sitelinks 5   <-- TOO SMALL: fix the QID/query
+    e.g. ['Faya Dayi', 'Blood Is Not Fresh Water', 'Imperfect Journey', 'Lamb', 'Siryet', 'Teza']
+    foils ['She is', 'Sharon Stone', 'Ayinla', 'Diamonds in the Sky', 'The Mirror Boy', 'Ijakumo']
+films__south_africa          members  400/  430  foils  200  median sitelinks 5
+    e.g. ['Sew the Winter to My Skin', 'Vaya', 'Safe House', 'Remember', "The Sorcerer's Apprentice", 'Thieves of Fortune']
+    foils ['Mansoor', 'Sanitation Day', 'Loving Rona', 'The Eve', 'Strain', 'One Lagos Night']
+films__indonesia             members  400/ 1192  foils  200  median sitelinks 2
+    e.g. ['Dua Kekasih', 'Test Pack', 'Broken Hearts', 'Petualangan Singa Pemberani Atlantos', 'Satu Malam Dua Cinta', 'Tauhid']
+    foils ['The White Silk Dress', 'Division of Existence', 'Kasal', '7 Pasiklab sa Army', 'One Hit Wonder', 'Sinagtala']
+films__philippines           members  400/  918  foils  200  median sitelinks 2
+    e.g. ['Korea', 'Mano Po', 'Our Mighty Yaya', 'Tiktik: The Aswang Chronicles', 'Shake, Rattle & Roll X', 'Bakit Hindi Ka Crush Ng Crush Mo?']
+    foils ['Bunda: Kisah Cinta 2 Kodi', 'Aruna & Her Palate', 'Aku atau Dia', 'Innocent Vengeance', 'Who Is the Champion?', 'The Warrior 3']
+films__vietnam               members  131/  131  foils  200  median sitelinks 3
+    e.g. ['Thạch Thảo', 'Blood Moon Party', 'The 10th House', 'Battle of Moscow', 'When the Tenth Month Comes', 'Sky Tour: The Movie']
+    foils ['Alpha, the Right to Kill', 'Identitas', 'Syahadat Cinta', 'Abakada... Ina', 'Forever Holiday in Bali', 'The Science of Fictions']
+films__brazil                members  400/ 1737  foils  200  median sitelinks 3
+    e.g. ['Os Doces Bárbaros', 'Cidade Ameaçada', 'Mar de Rosas', 'O Dia do Galo', 'O Mistério do Samba', "Wood & Stock: Sexo, Orégano e Rock'n'Roll"]
+    foils ['La mano que aprieta', 'The Clan', 'I Am Not Lorena', 'The Abyss Opens', 'Road to La Paz', 'Detective']
+films__mexico                members  400/ 2428  foils  200  median sitelinks 3
+    e.g. ['Mark of the Devil', "Grandma's Wedding", 'Immersion', 'Él', 'Never Too Young to Dream', 'I Still Know What You Did Last Summer']
+    foils ['No apto para menores', 'Rouge Amargo', 'Los secretos del buzón', 'A Light in the Window', 'Una excursión a los indios ranqueles', 'Nacha Regules']
+films__argentina             members  400/ 2659  foils  200  median sitelinks 4
+    e.g. ['El Ausente', 'Agua', 'El Perseguidor', 'Gente bien', 'Familia rodante', 'Alma en pena']
+    foils ['El Grito, México 1968', 'Un Monstruo de Mil Cabezas', 'Angelitos negros', 'Por Si No Te Vuelvo a Ver', 'Celeste & Estrela', 'Independent Roads']
+films__colombia              members  385/  385  foils  200  median sitelinks 3
+    e.g. ['Amigo de nadie', 'Se Nos Armó la Gorda Al Doble Misión Las Vegas', 'Wandering Shadows', 'The Bicycle Racer', 'Another Forever', 'Al final del espectro']
+    foils ['Aztec Batman: Clash of Empires', 'Inspector Faustão and the Vagabond', 'The Return of the Monster', 'The Altar Boy, the Priest and the Gardener', 'Chac: Dios de la lluvia', 'Rapiña']
+films__japan                 members  400/ 4915  foils  200  median sitelinks 4
+    e.g. ['Another', 'Akogare no Hawaii Kōro', 'Saikano – The Ultimate Weapon', 'Wangan Dōro', 'Scar Yosaburo', 'As the Gods Will']
+    foils ['The Tragedy of Deaf Sam-yong', 'The Wailing', 'The Weight', 'The Ultimate Task', "C'est si bon", 'In The Handful Of Time']
+films__iran                  members  400/  984  foils  200  median sitelinks 3
+    e.g. ['Fat Shaker', 'Büyük Yemin', 'Bam 6.6', 'Taste of Cherry', 'Maydegol', 'Det Means Girl']
+    foils ['White Fire', 'Imam Din Gohavia', 'Nikah', 'Khulay Aasman Ke Neechay', 'Night of Silence', '10 Days of a Good Man']
+films__turkey                members  400/ 1262  foils  200  median sitelinks 3
+    e.g. ['Satın Alınan Adam', 'Yengeç Sepeti', 'Borrowed Bride', 'Atatürk', 'Private Lesson', 'The Bitter Cherry']
+    foils ['The Sergeant', 'How to Have Sex', 'Nomos 4000', 'The Nights of Zayandeh-Rood', 'Kelid', 'The Scout']
+films__poland                members  400/ 1694  foils  200  median sitelinks 4
+    e.g. ['Zaczarowany rower', 'Palimpsest', 'Journey for One Smile', 'Nie ma takiego numeru', 'Ga, Ga: Glory to Heroes', 'Sniadanie do lózka']
+    foils ['Get Away', 'Wrong Side Up', 'Pekko Aikamiespojan poikamiesaika', 'HeavySaurus: The Movie', 'Raise the Bar', 'Svatba upírů']
+films__finland               members  400/ 1235  foils  200  median sitelinks 3
+    e.g. ['The Border', 'A Charming Mass Suicide', 'The Creeps', 'Promise', "Kaisa's Enchanted Forest", 'Kalevala: The New Era']
+    foils ['Pervert Park', 'Reflexion 2001', '33.333', 'Shame', 'Guttersnipes', 'Peter och Petra']
+films__france                members  400/14274  foils  200  median sitelinks 5
+    e.g. ['Shéhérazade', 'Petite Solange', 'Cross', 'Garçon stupide', "Just Don't Think I'll Scream", 'Il gèle en enfer']
+    foils ['Anni Ribelli', 'Go Go Tales', "Oh, Grandmother's Dead", 'Time Stood Still', 'Quasi vera', 'All of Life in One Night']
+films__usa                   members  400/18961  foils  200  median sitelinks 10
+    e.g. ["Let's Dance", 'Victim of Desire', 'The Ice Runner', "You Can't Run Away from It", 'Scooby-Doo! Abracadabra-Doo', 'The Eleanor Roosevelt Story']
+    foils ['Straightheads', 'Hollywood North', 'Karakara', 'Sinful Davey', 'Brooklyn', 'Red Road']
+football_clubs__india        members  101/  101  foils   69  median sitelinks 4
+    e.g. ['Gokulam Kerala FC', 'DSK Shivajians F.C.', 'Border Security Force SC', 'Bhawanipore F.C.', 'Goa football team', 'FC Goa']
+    foils ['Agrani Bank Ltd. SC', 'Muktijoddha Sangsad KC', 'Abahani Limited Dhaka', 'SSGC F.C.', 'KESC F.C.', 'Afghan F.C.']
+football_clubs__pakistan     members   24/   24  foils  200  median sitelinks 4   <-- TOO SMALL: fix the QID/query
+    e.g. ['PMC Club Athletico Faisalabad', 'Pakistan Navy F.C.', 'Karachi United', 'Pakistan Army F.C.', 'ZTBL F.C.', 'KESC F.C.']
+    foils ['Saba Novin Qom F.C.', 'F.C. Ararat Tehran', 'Mizoram football team', 'Sanat Mes Kerman F.C.', 'Giti Pasand Isfahan F.C.', 'Siah Jamegan F.C.']
+football_clubs__bangladesh   members   46/   46  foils  125  median sitelinks 3
+    e.g. ['Rahmatganj MFS', 'Bangladesh Police AC', 'Arambagh Krira Sangha', 'Wari Club Dhaka', 'Jatrabari KC', 'Agrani Bank Ltd. SC']
+    foils ['Oil India Ltd', 'Rajasthan United FC', 'PMC Club Athletico Faisalabad', 'Huma F.C.', 'Techno Aryan F.C.', 'Gokulam Kerala FC']
+football_clubs__sri_lanka    members   21/   21  foils  147  median sitelinks 6   <-- TOO SMALL: fix the QID/query
+    e.g. ['New Young SC', 'Army SC', 'Sri Lanka Police SC', 'Navy SC', 'Up Country Lions SC', 'Kalutara Park SC']
+    foils ['Chhattisgarh football team', 'Real Kashmir F.C.', 'FC Bengaluru United', 'Pune FC', 'Tamil Nadu football team', 'Rajasthan United FC']
+football_clubs__nepal        members   31/   31  foils  125  median sitelinks 3
+    e.g. ['Morang XI', 'Sankata Boys Sports Club', 'Sporting Ilam De Mechi FC', 'Satdobato Youth Club', 'Jawalakhel YC', 'Boys Union Club']
+    foils ['United Sikkim F.C.', 'HBL F.C.', 'Chandigarh football team', 'Karnataka football team', 'Dalhousie AC', 'Karachi United']
+football_clubs__nigeria      members   91/   91  foils  133  median sitelinks 5
+    e.g. ['Jasper United', 'Leventis United', 'Ifeanyi Ubah F.C.', 'Warri Wolves F.C.', 'Go Round F.C.', 'Yobe Desert Stars']
+    foils ['Nzema Kotoko F.C.', 'Kenya Police Bullets', 'Accra Hearts of Oak SC', 'New Edubiase United', 'Tudu Mighty Jets FC', 'Kenya Revenue Authority F.C.']
+football_clubs__kenya        members   54/   54  foils  130  median sitelinks 4
+    e.g. ['Nairobi City Stars', 'Ulinzi Stars F.C.', 'Kenya Pipeline F.C.', 'Admiral F.C.', 'Reunion F.C.', 'FC Talanta']
+    foils ['JUTH F.C.', 'Jasper United', 'Ibom Youths FC', 'Dire Dawa City', 'Ikorodu City F.C.', 'Bendel Insurance F.C.']
+football_clubs__ghana        members   79/   79  foils  145  median sitelinks 4
+    e.g. ['Ebusua Dwarfs', 'Tamale City Football Club', 'Voradep', 'Bechem United', 'Real Sportive', 'Samartex']
+    foils ['Bandari F.C.', 'Sony Sugar F.C.', 'Star Base Football Club', 'Katsina United FC', 'Racca Rovers', 'El-Kanemi Warriors']
+football_clubs__ethiopia     members   39/   39  foils  145  median sitelinks 6
+    e.g. ['Nyala SC', 'Muger Cement', 'Shashemene City', 'Adama City F.C.', 'Guna Trading F.C.', 'Ethiopian Coffee FC']
+    foils ['Gombe United F.C.', 'Dalhatu United', 'APS Bomet FC', 'Ligi Ndogo S.F.C.', 'Reunion F.C.', 'MFM FC']
+football_clubs__south_africa members   92/   92  foils  145  median sitelinks 4
+    e.g. ['Maluti FET College F.C.', 'Highlands Park F.C.', 'Marumo Gallants F.C.', 'Rangers F.C.', 'Jomo Cosmos F.C.', 'FC AK']
+    foils ['Jigawa Golden Stars F.C.', 'Leventis United', 'A.F.C. Leopards', 'Ligi Ndogo S.F.C.', 'Eldoret KCC', 'Rising Stars F.C.']
+football_clubs__indonesia    members  400/  547  foils   97  median sitelinks 2
+    e.g. ['Citeureup Raya F.C.', 'Persipa Pati', 'PS Peureulak Raya', 'Deltras F.C.', 'PS Gianyar', 'Caladium F.C.']
+    foils ['Stallion–Laguna F.C.', 'Thể Công–Viettel FC', 'Manila Nomads F.C.', 'TDC Bình Dương Football Club', 'Dong Nai F.C.', 'Loyola Meralco Sparks F.C.']
+football_clubs__philippines  members   39/   39  foils  200  median sitelinks 4
+    e.g. ['Forza F.C.', 'Manila Lions F.C.', 'Philippine Air Force F.C.', 'Maharlika Manila F.C.', "Giligan's F.C.", 'FEU Lady Tamaraw Booters football']
+    foils ['Manado United', 'Persifa Fak-fak', 'RANS Nusantara F.C.', 'Maung Anom F.C.', 'Sarudu F.C.', 'Patriot Bekasi F.C.']
+football_clubs__vietnam      members   58/   58  foils  200  median sitelinks 7
+    e.g. ['Haiphong Football Club', 'Sanna Khanh Hoa F.C.', 'Thep Can Tho FC', 'MerryLand Quy Nhon Binh Dinh FC', 'PVF-CAND FC', 'Khanh Hoa F.C.']
+    foils ['Assyabaab Surabaya', 'Persekap Pekalongan Regency', 'Persidi Idi Rayeuk', 'Pekanbaru United F.C.', 'Persebi Bima', 'Maluku F.C.']
+football_clubs__brazil       members  400/  970  foils  200  median sitelinks 5
+    e.g. ['Guarany Futebol Clube', 'Clube Esportivo de Futebol', 'Sociedade Esportiva River Plate', 'Flamengo Esporte Clube', 'União Futebol Clube', 'Sport Club Atibaia']
+    foils ['Boca Alumni', 'Real Pilar Fútbol Club', 'Club Atlético Paraná', 'Club Atlético Los Andes', 'Deportivo Coreano', 'Defensores de Belgrano de Villa Ramallo']
+football_clubs__mexico       members  255/  255  foils  200  median sitelinks 3
+    e.g. ['Coras de Tepic', 'Indios de Ciudad Juárez', 'Club León', 'Lobos de Tlaxcala', 'Dorados de Sinaloa Premier', 'Mazatlán Fútbol Club']
+    foils ['9 de Julio de Morteros', 'Godoy Cruz Antonio Tomba', 'Tiro al aire', 'San Jorge de Tucumán', 'Deportes Quindío', 'Club de Gimnasia y Esgrima La Plata']
+football_clubs__argentina    members  217/  217  foils  200  median sitelinks 5
+    e.g. ['Club Atlético Del Plata', 'Deportivo Riestra', '9 de Julio de Morteros', 'Deportivo Merlo', 'Club Sportivo Buenos Aires', 'Huracán de Comodoro Rivadavia']
+    foils ['Clube Atlético Matogrossense', 'Princesa do Solimões Esporte Clube', 'Associação Atlética Anapolina', 'Grêmio FBPA', 'Esporte Clube Primeiro Passo Vitória da Conquista', 'Sahuayo F.C.']
+football_clubs__colombia     members   58/   58  foils  200  median sitelinks 11
+    e.g. ['Córdoba F.C.', 'Orsomarso S.C.', 'Deportivo Pasto', 'Universitario Popayán', 'Once Caldas', 'Independiente Yumbo']
+    foils ['Esporte Clube Mogiana', 'Associação Trairiense de Futebol', 'Red Bull Bragantino (women)', 'Cachoeiro Futebol Clube', 'Clube Atlético Pimentense', 'Esporte Clube Guarani']
+football_clubs__japan        members  255/  255  foils  200  median sitelinks 3
+    e.g. ['Sendai Sasuke FC', 'Toyama Shinjo Club', 'Fujieda MYFC', 'Cento Cuore HARIMA', 'Rijo Shukyu-Dan', 'Takushoku University Association Football Club']
+    foils ['Jeju SK FC', 'Heng Tai', 'Xiamen Egret Island F.C.', 'Kunming Ruilong F.C.', 'Qinghai Senke F.C.', 'Shanghai Sunfun F.C.']
+football_clubs__iran         members  179/  179  foils  200  median sitelinks 4
+    e.g. ['F.C. Rayka Babol', 'Foolad Youth Academy', 'Shahin Bushehr F.C.', 'Nirou Moharekeh Qazvin F.C.', 'Esteghlal Zahedan F.C.', 'Mes Soongoun Varzaghan F.C.']
+    foils ['1930 Bafraspor', 'Strugglers FC', 'Manisa FK', 'Hilal SK', 'Adana Demirspor', 'Palandökenspor']
+football_clubs__turkey       members  302/  302  foils  200  median sitelinks 4
+    e.g. ['Harp Okulu S.K.', 'Kastamonuspor', 'Cizrespor', 'Trabzon Telekomspor', 'Karacabey Belediyespor', 'Muhafızgücü']
+    foils ['Asteras Vlachioti F.C.', 'Sepahan F.C.', 'P.A.S. Apollon Kryas Vrysis', 'Oikonomos Tsaritsanis FC', 'Panakrotiriakos', 'Achilleas Neokaisareia F.C.']
+football_clubs__poland       members  255/  255  foils  200  median sitelinks 4
+    e.g. ['Skawinka Skawina', 'Stal Stalowa Wola', 'Polonia Bytom', 'Bałtyk Gdynia', 'Bytovia Bytów', 'Kaszubia Kościerzyna']
+    foils ['Helsingin Palloseura', 'FK Admira Prague', 'SK Sulko Zábřeh', 'Salon Piivolley', 'SK Polaban Nymburk', 'Porin Palloilijat']
+football_clubs__finland      members  158/  158  foils  200  median sitelinks 3
+    e.g. ['FC Kiisto', 'Oulun Palloseura', 'FC Lahti', 'TP-47', 'FC Jazz', 'MYPA']
+    foils ['FA Tartu Kalev', 'Sandareds IF', 'Jõhvi FC Phoenix', 'Segeltorps IF', 'Häggenås SK', 'Vilhelmina BK']
+football_clubs__france       members  400/  581  foils  200  median sitelinks 4
+    e.g. ['Thionville FC', 'Racing Club de Basse-Terre', 'OGC Nice (Women)', 'Athlético Marseille', 'Paris Foot Gay', 'FC Gueugnon']
+    foils ['S.S.C. Gragnano', 'K.S.C. Lokeren Oost-Vlaanderen', 'A.S. Morolo Calcio', 'S.S.D. Sansepolcro Calcio', 'Wolvertem SC', 'VK Zepperen']
+football_clubs__usa          members  400/  574  foils  200  median sitelinks 3
+    e.g. ['NTX Rayados', 'Athletic Club Boise', 'Reading United AC', 'AHFC Royals', 'Boston Bolts', 'Seacoast United Mariners']
+    foils ['Kidlington F.C.', 'Enfield 1893 F.C.', 'Tigers FC', 'Notts Olympic F.C.', 'Dunstable Town F.C.', 'CS St-Hubert']
+writers_lang__tamil          members  158/  158  foils  200  median sitelinks 4
+    e.g. ['Rasamanikanar', 'Krithika', 'Azhagiya Periyavan', 'C. N. Annadurai', 'Lakshmi Thiripurasundari', 'A. S. Gnanasambandan']
+    foils ['E. K. Krishnan Ezhuthachan', 'V. S. Ramadevi', 'Surabhi Madhava Rayalu', 'Mohammad Ismail', 'Balabhadrapatruni Ramani', 'M. P. Sankunni Nair']
+writers_lang__telugu         members  400/  600  foils  200  median sitelinks 3
+    e.g. ['Acharya Phanindra', 'Srinivas Vasudev', 'Kilambi Ramanujachari', 'Avasarala Seshagirirao', 'Mokkapati Ramamurthy', 'Taduri Lakshminarasimharao']
+    foils ['Ko. Channabasappa', 'H. S. Shivaprakash', 'R. Chudamani', 'A. K. Ramanujan', 'A. C. Navanitakiruttinan', 'Subha']
+writers_lang__kannada        members  196/  196  foils  200  median sitelinks 5
+    e.g. ['T. R. Subba Rao', 'Vasudhendra', 'Aralumallige Parthasarathy', 'Gudibande Poornima', 'Muddana', 'Gourish Kaikini']
+    foils ['Addepalli Satyanarayana', 'Constanzo Beschi', 'Vemulawada Bheemakavi', 'Tripuribhatla Viraraghava Svami', 'Gudipati Venkatachalam', 'Aripirala Narayana Rao']
+writers_lang__malayalam      members  400/  415  foils  200  median sitelinks 5
+    e.g. ['Khadija Mumtaz', 'M. P. Paul', 'Mallika Yunis', 'Vrindavanam Venugopalan', 'T. K. Ramakrishnan', 'Rajashree Warrier']
+    foils ['T. P. Kailasam', 'Anuradha Ramanan', 'Era Natarasan', 'Thiru Narayana Iyengar', 'Andayya', 'B D Ganapathy']
+writers_lang__bengali        members  400/ 1335  foils  200  median sitelinks 4
+    e.g. ['Maleka Begum', 'Radhamohana Thakura', 'Benojir Ahmed', 'Topon Bagchi', 'Kedarnath Bandyopadhyay', 'Gananath Sen']
+    foils ['Kalicharan Pattnaik', 'Darchhawna', 'Kishori Charan Das', 'Debabrata Das', 'Prahlad Chandra Tasa', 'Krishna Chandra Jena']
+writers_lang__hindi          members  293/  293  foils  200  median sitelinks 6
+    e.g. ['Gaurishankar Hirachand Ojha', 'Ramesh Kuntal Megh', "Suryakant Tripathi 'Nirala'", 'Meena Kotwal', 'Neelam Jain', 'Ratnasundarsuri']
+    foils ['Sai Paranjpye', 'Jameela Nishat', 'Shakuntala Paranjpye', 'Joseph Ezekiel Rajpurkar', 'Vidya Bal', 'Suresh Khopade']
+writers_lang__marathi        members  369/  369  foils  200  median sitelinks 4
+    e.g. ['Dhanashree Halbe', 'G. M. Pawar', 'A. H. Salunkhe', 'Viththal Dattatreya Ghate', 'Keshav Meshram', 'Anand Yadav']
+    foils ['Dheera Bhagat', 'Nagendra', 'Girija Kumar Mathur', 'Kishorsinh Solanki', 'Viveki Rai', 'Ruswa Majhalumi']
+writers_lang__gujarati       members  337/  337  foils  200  median sitelinks 4
+    e.g. ['Harish Nagrecha', 'Amrit Keshav Nayak', 'Prahlad Parekh', 'Suresh Joshi', 'Ratana Rustamajī Mārśala', 'Navalram Trivedi']
+    foils ['Maitreyi Pushpa', 'P. N. Oak', 'Indira Sant', 'Govindrao Tembe', 'Shripad Krushna Kolhatkar', 'Nagnath S. Inamdar']
+writers_lang__punjabi        members  363/  363  foils  200  median sitelinks 3
+    e.g. ['Verma Malik', 'Sadiq Lali', 'Sukhjit', 'Butta Singh Chohan', 'Sandeep Chauhan', 'Gurdev Singh Rupana']
+    foils ['Gaurishankar Hirachand Ojha', 'Chhatrapal Singh', 'Ram Ratan Bhatnagar', 'Qurratulain Hyder', 'Daagh Dehlvi', 'Siddiqa Begum']
+writers_lang__odia           members  217/  217  foils  200  median sitelinks 3
+    e.g. ['Ramachandra Behera', 'Dileswar Rana', 'Bhima Bhoi', 'Gurukrushna Goswami', 'Vikram Dev Varma', 'Dhaneswar Mohapatra']
+    foils ['Pramathanath Roy Chowdhury', 'Habibullah Pathan', 'Santa Chattopadhyay', 'Piyush Dasgupta', 'Ananda Chandra Bedantabagish', 'Waheedul Haq']
+writers_lang__assamese       members   83/   83  foils  200  median sitelinks 6
+    e.g. ['Indra Bania', 'Kumud Chandra Hazarika', 'Nagen Saikia', 'Benudhar Sharma', 'Anuradha Sharma Pujari', 'Atul Chandra Barua']
+    foils ['Sarkar Aziz', 'Swarnakumari Devi', 'Braja Sundar Das', 'Suresh Chandra Chakraborty', 'Chintamani Mohanty', 'Bonya Ahmed']
+writers_lang__urdu           members   99/   99  foils  200  median sitelinks 8
+    e.g. ['Jameela Nishat', 'Aamina Sheikh', 'Mohsin Hamid', 'Shamim Hanafi', 'Ilyas Qadri', 'Rasheed Hassan Khan']
+    foils ['Rajendra Yadav', 'Khaqan Haider Ghazi', 'Shiv Kumar Batalvi', 'Mohan Bhagwat', 'Tajammul Kaleem', 'Bhupendranath Dutta']
+novelists__usa               FAILED: Wikidata query did not complete; rewrite its query (see build log)
+painters__france             FAILED: Wikidata query did not complete; rewrite its query (see build log)
+
+Wrote 65860 members, 57377 foils to data/tailcat/full_v1
+2 categories failed: ['novelists__usa', 'painters__france']. Fix their queries and re-run (successful categories are cached under raw/).

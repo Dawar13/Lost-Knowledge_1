@@ -1,0 +1,21 @@
+{
+  "pooled": {
+    "p0.90_T1": {
+      "S_obs": 564,
+      "chao1": 628.1666666666666,
+      "members": 33437,
+      "reachable": 2062,
+      "recognised": 11677,
+      "recognised_and_reachable": 913,
+      "sampled_outside_reachable": 5,
+      "ace": 605.0237115095126,
+      "ace_undefined_categories": 20,
+      "S_obs_where_ace_defined": 512,
+      "chao1_over_reachable": 0.3046395085677336,
+      "chao1_over_recognised": 0.05379520995689532,
+      "shortfall_vs_recognised": 11048.833333333334,
+      "rbu_times_recognised": 10764
+    }
+  },
+  "note": "template 0, robust verdict"
+}

@@ -1,0 +1,20 @@
+{
+  "tail_deleted_headline": true,
+  "wording_robust": true,
+  "V1_at_scale": true,
+  "multilingual": "not run in this pass (provisional translations only; see notes/decisions.md)",
+  "popularity_primary": {
+    "slope_per_decade": -1.9009419122184616,
+    "se": 0.10237744901611813,
+    "p": 5.836289528609418e-77,
+    "odds_ratio_per_decade": 0.14942780504040104,
+    "or_ci": [
+      0.12226044528291823,
+      0.18263199408052364
+    ],
+    "n_rows": 46542,
+    "n_clusters": 277,
+    "model": "Qwen2.5-7B-Instruct",
+    "outcome": "unreachable at p0.90_T1, given recognised"
+  }
+}

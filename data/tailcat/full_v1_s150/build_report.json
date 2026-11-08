@@ -1,0 +1,7833 @@
+[
+  {
+    "category": "poets__india",
+    "members_all": 2251,
+    "min_sitelinks": 2,
+    "members_total": 1521,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 61,
+    "example_members": [
+      "Krant M. L. Verma",
+      "Manasi Pradhan",
+      "Manibhushan Bhattacharya",
+      "TK Ramanuja Kavirajar",
+      "Srijato Bandyopadhyay",
+      "Champa Sharma"
+    ],
+    "example_foils": [
+      "Ishrat Afreen",
+      "Bimal Guha",
+      "Bakht Zada Danish",
+      "Badshah Munir Bukhari",
+      "Ashraf Shad",
+      "Younus AlGohar"
+    ]
+  },
+  {
+    "category": "poets__pakistan",
+    "members_all": 586,
+    "min_sitelinks": 2,
+    "members_total": 408,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 20,
+    "example_members": [
+      "Anwara Syed Haq",
+      "Akmal Lewane",
+      "Ali Gul Sangi",
+      "Ehsan Danish",
+      "Syed Wasi Shah",
+      "Mushtaq Ajiz"
+    ],
+    "example_foils": [
+      "P. Kunhiraman Nair",
+      "Gurdas Ram Alam",
+      "Akbar Ali",
+      "Kamala Surayya",
+      "Ali Torab Jahromi",
+      "Manibhushan Bhattacharya"
+    ]
+  },
+  {
+    "category": "poets__bangladesh",
+    "members_all": 204,
+    "min_sitelinks": 2,
+    "members_total": 130,
+    "members_kept": 130,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 68,
+    "example_members": [
+      "Marzuk Russell",
+      "Ohidul Alam",
+      "Khalekdad Chowdhury",
+      "Ahsan Habib",
+      "Mahbubul Alam",
+      "Jahanara Arzu"
+    ],
+    "example_foils": [
+      "Benudhar Rajkhowa",
+      "Bibhas Roy Chowdhury",
+      "Laxminarayan Sahu",
+      "Kanaka Ha Ma",
+      "Daim Iqbal Daim",
+      "Ravula Suryanarayana Murty"
+    ]
+  },
+  {
+    "category": "poets__sri_lanka",
+    "dropped": "too small",
+    "members_all": 40,
+    "min_sitelinks": 2,
+    "members_total": 27,
+    "members_kept": 27,
+    "foils_kept": 100
+  },
+  {
+    "category": "poets__nepal",
+    "members_all": 64,
+    "min_sitelinks": 2,
+    "members_total": 58,
+    "members_kept": 58,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 63,
+    "example_members": [
+      "Bartika Eam Rai",
+      "Suman Pokhrel",
+      "Heman Yatri",
+      "Bal Krishna Pokharel",
+      "Kedarman Byathit",
+      "Madan Mohan Mishra"
+    ],
+    "example_foils": [
+      "Aseem Ahmed Abbasee",
+      "Amreek Singh Pooni",
+      "Shahadat Hossain",
+      "Ibn-e-Safi",
+      "Rahmat Ali Rahmat",
+      "Udayan Thakker"
+    ]
+  },
+  {
+    "category": "poets__nigeria",
+    "members_all": 372,
+    "min_sitelinks": 2,
+    "members_total": 135,
+    "members_kept": 135,
+    "foils_kept": 47,
+    "sitelinks_median": 7,
+    "sitelinks_max": 114,
+    "example_members": [
+      "Mark Nwagwu",
+      "Tanure Ojaide",
+      "Bassey Ikpi",
+      "Sam Omatseye",
+      "Jimi Solanke",
+      "Iyorwuese Hagher"
+    ],
+    "example_foils": [
+      "P. A. K. Aboagye",
+      "Ama Ata Aidoo",
+      "Nathaniel Attoh",
+      "Chief Moomen",
+      "Salah Ahmed Ibrahim",
+      "Stevie Wonder"
+    ]
+  },
+  {
+    "category": "poets__kenya",
+    "dropped": "too small",
+    "members_all": 57,
+    "min_sitelinks": 2,
+    "members_total": 14,
+    "members_kept": 14,
+    "foils_kept": 100
+  },
+  {
+    "category": "poets__ghana",
+    "members_all": 91,
+    "min_sitelinks": 2,
+    "members_total": 33,
+    "members_kept": 33,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 99,
+    "example_members": [
+      "Kwame Dawes",
+      "Kojo Laing",
+      "Ian Jazzi",
+      "Raphael Armattoe",
+      "Atukwei Okai",
+      "Frank Kobina Parkes"
+    ],
+    "example_foils": [
+      "Obi Nwakanma",
+      "Ifeoma Aggrey-Fynn",
+      "Chin Ce",
+      "Uche Nduka",
+      "Abd al-Qadir dan Tafa",
+      "Sam Omatseye"
+    ]
+  },
+  {
+    "category": "poets__ethiopia",
+    "dropped": "too small",
+    "members_all": 34,
+    "min_sitelinks": 2,
+    "members_total": 21,
+    "members_kept": 21,
+    "foils_kept": 100
+  },
+  {
+    "category": "poets__south_africa",
+    "members_all": 417,
+    "min_sitelinks": 2,
+    "members_total": 219,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 128,
+    "example_members": [
+      "Sheila Cussons",
+      "Clinton Marius",
+      "Eitemal",
+      "P.J. Philander",
+      "Hennie Aucamp",
+      "Nontsizi Mgqwetho"
+    ],
+    "example_foils": [
+      "Echezonachukwu Nduka",
+      "Nnadi Samuel",
+      "Isidore Okpewho",
+      "Alhaji Garba Gashuwa",
+      "Ifesinachi Comedy Nwanyanwu",
+      "Niyi Osundare"
+    ]
+  },
+  {
+    "category": "poets__indonesia",
+    "members_all": 112,
+    "min_sitelinks": 2,
+    "members_total": 83,
+    "members_kept": 83,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 30,
+    "example_members": [
+      "Ahda Imran",
+      "Toeti Heraty",
+      "Kwee Tek Hoay",
+      "Nirwan Dewanto",
+      "Panji Utama",
+      "Melanie Berentz"
+    ],
+    "example_foils": [
+      "Flavio Zaragoza",
+      "Tôn Nữ Thu Hồng",
+      "Nguyễn Hữu Đang",
+      "Phạm Thái Hòa",
+      "Danton Remoto",
+      "Nhã Ca"
+    ]
+  },
+  {
+    "category": "poets__philippines",
+    "members_all": 112,
+    "min_sitelinks": 2,
+    "members_total": 82,
+    "members_kept": 82,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 89,
+    "example_members": [
+      "Carlos Bulosan",
+      "Danny Sillada",
+      "Elena Patron",
+      "Edith Tiempo",
+      "Claro Caluya",
+      "José Palma"
+    ],
+    "example_foils": [
+      "Sitok Srengenge",
+      "Tran Dan",
+      "Widji Thukul",
+      "Ratna Indraswari",
+      "Hoàng Phủ Ngọc Tường",
+      "Soe Tjen Marching"
+    ]
+  },
+  {
+    "category": "poets__vietnam",
+    "members_all": 164,
+    "min_sitelinks": 2,
+    "members_total": 114,
+    "members_kept": 114,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 64,
+    "example_members": [
+      "Doan Le",
+      "Nguyen Chi Thien",
+      "Dang Than",
+      "Nhã Ca",
+      "Nguyễn Phúc Trinh Thuận",
+      "Đạm Phương"
+    ],
+    "example_foils": [
+      "Amir Hamzah",
+      "Medy Loekito",
+      "Djamil Suherman",
+      "Ratna Indraswari",
+      "Sitor Situmorang",
+      "Dwi Ery Santoso"
+    ]
+  },
+  {
+    "category": "poets__brazil",
+    "members_all": 1433,
+    "min_sitelinks": 2,
+    "members_total": 633,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 46,
+    "example_members": [
+      "Ítalo Anderson",
+      "Ana Aurora do Amaral Lisboa",
+      "Gilka Machado",
+      "Júlia da Costa",
+      "Belmiro Braga",
+      "Geraldo Mattos"
+    ],
+    "example_foils": [
+      "Patricia Rodón",
+      "Julio Ardiles Gray",
+      "Carlos Alvarado-Larroucau",
+      "Marcos Ricardo Barnatán",
+      "Rodolfo Alonso",
+      "Alberto Navarro Viola"
+    ]
+  },
+  {
+    "category": "poets__mexico",
+    "members_all": 835,
+    "min_sitelinks": 2,
+    "members_total": 395,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 122,
+    "example_members": [
+      "Denisse Buendía",
+      "Mercedes Pinto",
+      "Minerva Bloom",
+      "Laureana Wright de Kleinhas",
+      "Luis Alberto Urrea",
+      "Daniel Saldaña París"
+    ],
+    "example_foils": [
+      "Adrián Abonizio",
+      "Ricardo Molinari",
+      "Alberto Taboada",
+      "Martín Coronado",
+      "Enrique Buenaventura",
+      "Noni Benegas"
+    ]
+  },
+  {
+    "category": "poets__argentina",
+    "members_all": 868,
+    "min_sitelinks": 2,
+    "members_total": 475,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 194,
+    "example_members": [
+      "Fernando Nadra",
+      "Macedonio Fernández",
+      "Maybell Lebron",
+      "Hugo Wast",
+      "Leónidas Barletta",
+      "Esteban de Luca"
+    ],
+    "example_foils": [
+      "Antônio Vicente da Fontoura Xavier",
+      "Pita Amor",
+      "R. de Zayas Enríquez",
+      "Carlos Fuentes",
+      "Polibio Alves",
+      "Dora Ferreira da Silva"
+    ]
+  },
+  {
+    "category": "poets__colombia",
+    "members_all": 246,
+    "min_sitelinks": 2,
+    "members_total": 106,
+    "members_kept": 106,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 38,
+    "example_members": [
+      "Óscar Delgado",
+      "Laura Restrepo",
+      "Soledad Acosta",
+      "Carlos Vásquez Tamayo",
+      "Luisa Ballesteros Rosas",
+      "Silveria Espinosa de Rendón"
+    ],
+    "example_foils": [
+      "Beatriz Francisca de Assis Brandão",
+      "Cláudia Alencar",
+      "Amparo Davila",
+      "Antônio Olinto",
+      "Luis Alberto Urrea",
+      "Alvacir Raposo"
+    ]
+  },
+  {
+    "category": "poets__japan",
+    "members_all": 1869,
+    "min_sitelinks": 2,
+    "members_total": 747,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 49,
+    "example_members": [
+      "Tekkan Yosano",
+      "Kikuo Takano",
+      "Ueda Akinari",
+      "Nanao Sakaki",
+      "Ryōzen",
+      "Musō Soseki"
+    ],
+    "example_foils": [
+      "Ko Hyeong-ryeol",
+      "Kim Seon-wu",
+      "Chen Jingrong",
+      "Gi Hyeong-do",
+      "Shin Dong-yeop",
+      "Chang Man-yong"
+    ]
+  },
+  {
+    "category": "poets__iran",
+    "members_all": 607,
+    "min_sitelinks": 2,
+    "members_total": 479,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 161,
+    "example_members": [
+      "Touran Agha Khanoum Qajar",
+      "Abu al-Abbas ibn Ata",
+      "Mohammad Zohari",
+      "Yousef Ali Mir Shakak",
+      "Mohammad Ali Dai al-Islam",
+      "Ashig Huseyn Javan"
+    ],
+    "example_foils": [
+      "Fâik Âli Ozansoy",
+      "Farigh Bukhari",
+      "Yaşar Nabi Nayır",
+      "Ata ul Haq Qasmi",
+      "Ayaz Gul",
+      "Can Togay"
+    ]
+  },
+  {
+    "category": "poets__turkey",
+    "members_all": 830,
+    "min_sitelinks": 2,
+    "members_total": 330,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 80,
+    "example_members": [
+      "Âşık İhsanî",
+      "Semih İpek",
+      "Hüseyin Haydar",
+      "Güven Turan",
+      "Reşit Süreyya Gürsey",
+      "Behlül Mahi"
+    ],
+    "example_foils": [
+      "Ali Pahlavan",
+      "Dimitrios Antoniou",
+      "Shahrzad",
+      "Dimitris Papaditsas",
+      "Árgīs Kórakas",
+      "Qani"
+    ]
+  },
+  {
+    "category": "poets__poland",
+    "members_all": 2115,
+    "min_sitelinks": 2,
+    "members_total": 1509,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 130,
+    "example_members": [
+      "Wiesław Janusz Mikulski",
+      "Janina Kossak-Pelenska",
+      "Tadeusz Sławek",
+      "Andreas Johannes Painta",
+      "Juliusz Kriss",
+      "Felicjan Faleński"
+    ],
+    "example_foils": [
+      "Gustaf Alexander Aminoff",
+      "Miloš Kratochvíl",
+      "Hector",
+      "Luisa Nováková",
+      "Milan Uhde",
+      "Olli Karjalainen"
+    ]
+  },
+  {
+    "category": "poets__finland",
+    "members_all": 994,
+    "min_sitelinks": 2,
+    "members_total": 454,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 85,
+    "example_members": [
+      "Jouni Tossavainen",
+      "Aku Päiviö",
+      "Klaus Juhana Kemell",
+      "Ragnar Ekelund",
+      "Jukka Kuoppamäki",
+      "Paavo Haavikko"
+    ],
+    "example_foils": [
+      "Arvid August Afzelius",
+      "Margit Adorf",
+      "Thavet Atlas",
+      "Herman Sätherberg",
+      "Julia Nyberg",
+      "Johan Henric Kellgren"
+    ]
+  },
+  {
+    "category": "poets__france",
+    "members_all": 5992,
+    "min_sitelinks": 2,
+    "members_total": 3604,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 144,
+    "example_members": [
+      "Bèrtran Ôbrée",
+      "François le Coigneaux Bachaumont",
+      "Sabas Maury",
+      "Pierre Laudun d'Aigaliers",
+      "André Theuriet",
+      "Françoise James-Ousénie"
+    ],
+    "example_foils": [
+      "Eugenia Martinet",
+      "Grégoire Le Roy",
+      "Diego Calcagno",
+      "Guglielmo Beroardi",
+      "Reimond Kimpe",
+      "Edmond Verstraeten"
+    ]
+  },
+  {
+    "category": "poets__usa",
+    "members_all": 6401,
+    "min_sitelinks": 2,
+    "members_total": 4419,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 146,
+    "example_members": [
+      "Carrie Williams Clifford",
+      "Andrea Cheng",
+      "Dylan Geick",
+      "James Avery",
+      "A. F. Moritz",
+      "Oswald LeWinter"
+    ],
+    "example_foils": [
+      "Hugh MacDonald",
+      "Reine-Aimée Côté",
+      "Julian Bell",
+      "Jon Silkin",
+      "William R. P. George",
+      "Gal Gjurin"
+    ]
+  },
+  {
+    "category": "novelists__india",
+    "members_all": 581,
+    "min_sitelinks": 2,
+    "members_total": 395,
+    "members_kept": 150,
+    "foils_kept": 92,
+    "sitelinks_median": 5,
+    "sitelinks_max": 96,
+    "example_members": [
+      "Nanak Singh",
+      "Manjiri Prabhu",
+      "Niranjan Boha",
+      "Sunita Deshpande",
+      "Jerry Pinto",
+      "Ajay Swain"
+    ],
+    "example_foils": [
+      "Bulbon Osman",
+      "Hasan Fakri",
+      "Bano Qudsia",
+      "Sultana Meher",
+      "Ali Akbar Natiq",
+      "Adib Khan"
+    ]
+  },
+  {
+    "category": "novelists__pakistan",
+    "members_all": 96,
+    "min_sitelinks": 2,
+    "members_total": 81,
+    "members_kept": 81,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 68,
+    "example_members": [
+      "Bushra Rahman",
+      "Parveen Atif",
+      "Neelam Bashir",
+      "Syed Waliullah",
+      "Sultana Meher",
+      "Aliya Bukhari"
+    ],
+    "example_foils": [
+      "Kartar Singh Duggal",
+      "Gobind Malhi",
+      "Sheida Mohammadi",
+      "Sarah Thomas",
+      "Abha Dawesar",
+      "Ritu Lalit"
+    ]
+  },
+  {
+    "category": "novelists__bangladesh",
+    "dropped": "too small",
+    "members_all": 36,
+    "min_sitelinks": 2,
+    "members_total": 27,
+    "members_kept": 27,
+    "foils_kept": 100
+  },
+  {
+    "category": "novelists__sri_lanka",
+    "dropped": "too small",
+    "members_all": 16,
+    "min_sitelinks": 2,
+    "members_total": 12,
+    "members_kept": 12,
+    "foils_kept": 100
+  },
+  {
+    "category": "novelists__nepal",
+    "dropped": "too small",
+    "members_all": 21,
+    "min_sitelinks": 2,
+    "members_total": 16,
+    "members_kept": 16,
+    "foils_kept": 100
+  },
+  {
+    "category": "novelists__nigeria",
+    "members_all": 122,
+    "min_sitelinks": 2,
+    "members_total": 84,
+    "members_kept": 84,
+    "foils_kept": 45,
+    "sitelinks_median": 8,
+    "sitelinks_max": 114,
+    "example_members": [
+      "Okey Ndibe",
+      "Pauline Uwakweh",
+      "Abubakar Adam Ibrahim",
+      "Adaora Lily Ulasi",
+      "Lindsay Barrett",
+      "Abidemi Sanusi"
+    ],
+    "example_foils": [
+      "Yaa Gyasi",
+      "Micere Githae Mugo",
+      "Carolyne Adalla",
+      "Ngũgĩ wa Thiong'o",
+      "Meja Mwangi",
+      "P. A. K. Aboagye"
+    ]
+  },
+  {
+    "category": "novelists__kenya",
+    "dropped": "too small",
+    "members_all": 21,
+    "min_sitelinks": 2,
+    "members_total": 15,
+    "members_kept": 15,
+    "foils_kept": 93
+  },
+  {
+    "category": "novelists__ghana",
+    "members_all": 42,
+    "min_sitelinks": 2,
+    "members_total": 30,
+    "members_kept": 30,
+    "foils_kept": 99,
+    "sitelinks_median": 8,
+    "sitelinks_max": 76,
+    "example_members": [
+      "C. Eric Lincoln",
+      "Kojo Laing",
+      "Yaa Gyasi",
+      "Peace Adzo Medie",
+      "Cameron Duodu",
+      "Francis Selormey"
+    ],
+    "example_foils": [
+      "Emmanuel Iduma",
+      "Jane Tapsubei Creider",
+      "Ossie Enekwe",
+      "Chris Abani",
+      "Henry Akubuiro",
+      "Carolyne Adalla"
+    ]
+  },
+  {
+    "category": "novelists__ethiopia",
+    "dropped": "too small",
+    "members_all": 11,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 99
+  },
+  {
+    "category": "novelists__south_africa",
+    "members_all": 119,
+    "min_sitelinks": 2,
+    "members_total": 96,
+    "members_kept": 96,
+    "foils_kept": 99,
+    "sitelinks_median": 5,
+    "sitelinks_max": 128,
+    "example_members": [
+      "Lisa Fugard",
+      "Peter Temple",
+      "Nick Mulgrew",
+      "Nthikeng Mohlele",
+      "Lauren Liebenberg",
+      "Jenefer Shute"
+    ],
+    "example_foils": [
+      "Lindsay Barrett",
+      "Teju Cole",
+      "Akin Adesokan",
+      "Pita Nwana",
+      "Olumide Popoola",
+      "Miriam Were"
+    ]
+  },
+  {
+    "category": "novelists__indonesia",
+    "members_all": 58,
+    "min_sitelinks": 2,
+    "members_total": 42,
+    "members_kept": 42,
+    "foils_kept": 32,
+    "sitelinks_median": 5,
+    "sitelinks_max": 47,
+    "example_members": [
+      "A. Damhoeri",
+      "Djenar Maesa Ayu",
+      "Ilana Tan",
+      "Muhidin M. Dahlan",
+      "Yati Maryati Wiharja",
+      "Suwarsih Djojopuspito"
+    ],
+    "example_foils": [
+      "Genevieve L. Asenjo",
+      "Trần Tiêu",
+      "Carmen Concha",
+      "HaveYouSeenThisGirL",
+      "Nam Le",
+      "Armine Rhea Mendoza"
+    ]
+  },
+  {
+    "category": "novelists__philippines",
+    "dropped": "too small",
+    "members_all": 25,
+    "min_sitelinks": 2,
+    "members_total": 18,
+    "members_kept": 18,
+    "foils_kept": 56
+  },
+  {
+    "category": "novelists__vietnam",
+    "dropped": "too small",
+    "members_all": 29,
+    "min_sitelinks": 2,
+    "members_total": 14,
+    "members_kept": 14,
+    "foils_kept": 60
+  },
+  {
+    "category": "novelists__brazil",
+    "members_all": 504,
+    "min_sitelinks": 2,
+    "members_total": 339,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 134,
+    "example_members": [
+      "Walmir Ayala",
+      "João Silvério Trevisan",
+      "Max Mallmann",
+      "Ruth Guimarães",
+      "Denise Stoklos",
+      "Max Fleiuss"
+    ],
+    "example_foils": [
+      "Jorge Fernández Díaz",
+      "Juan Pablo Plata Figueroa",
+      "María Moreno",
+      "Gustavo Álvarez Gardeazábal",
+      "Luisa Sofovich",
+      "Bedros Hadjian"
+    ]
+  },
+  {
+    "category": "novelists__mexico",
+    "members_all": 162,
+    "min_sitelinks": 2,
+    "members_total": 101,
+    "members_kept": 101,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 81,
+    "example_members": [
+      "Mercedes Pinto",
+      "José López Portillo y Rojas",
+      "Susana Pagano",
+      "José Revueltas",
+      "Luis Gonzaga Ortiz",
+      "B. Traven"
+    ],
+    "example_foils": [
+      "Selva Almada",
+      "José María Cantilo",
+      "Germán Castro Caycedo",
+      "Fernando Vallejo",
+      "Andrés Caicedo",
+      "Carlos María Ocantos"
+    ]
+  },
+  {
+    "category": "novelists__argentina",
+    "members_all": 160,
+    "min_sitelinks": 2,
+    "members_total": 112,
+    "members_kept": 112,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 72,
+    "example_members": [
+      "Fito Páez",
+      "Marta Traba",
+      "Vera Fogwill",
+      "Roberto Arlt",
+      "José Pedroni",
+      "Jorge Consiglio"
+    ],
+    "example_foils": [
+      "Nélida Piñon",
+      "Micheliny Verunschk",
+      "Gustavo Sainz",
+      "Ondina Ferreira",
+      "Juan Pablo Villalobos",
+      "Jeferson Tenório"
+    ]
+  },
+  {
+    "category": "novelists__colombia",
+    "members_all": 103,
+    "min_sitelinks": 2,
+    "members_total": 63,
+    "members_kept": 63,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 209,
+    "example_members": [
+      "Juan Gabriel Vásquez",
+      "Winston Morales Chavarro",
+      "Alfonso Carvajal",
+      "Manuel Mejía Vallejo",
+      "Álvaro Cepeda Samudio",
+      "Ricardo Cano Gaviria"
+    ],
+    "example_foils": [
+      "Lima Barreto",
+      "Tabajara Ruas",
+      "Emília Moncorvo Bandeira de Melo",
+      "Mário Peixoto",
+      "Virgílio Cardoso de Oliveira",
+      "Carmen Amezcua"
+    ]
+  },
+  {
+    "category": "novelists__japan",
+    "members_all": 5180,
+    "min_sitelinks": 2,
+    "members_total": 1477,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 65,
+    "example_members": [
+      "Hitoshi Yasuda",
+      "Eiji Ōtsuka",
+      "Rena Matsui",
+      "Rieko Nakagawa",
+      "Bizan Kawakami",
+      "Yūshō Takiguchi"
+    ],
+    "example_foils": [
+      "Gu Suyeon",
+      "Eun Mi-hee",
+      "Qiu Xiaolong",
+      "Hwang Sun-won",
+      "Lee Mankyo",
+      "Chu Chunqiu"
+    ]
+  },
+  {
+    "category": "novelists__iran",
+    "members_all": 143,
+    "min_sitelinks": 2,
+    "members_total": 122,
+    "members_kept": 122,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 54,
+    "example_members": [
+      "Bozorg Alavi",
+      "Fariba Kalhor",
+      "Alireza Gholami",
+      "Fereshteh Molavi",
+      "Nasteen Mojabi",
+      "Jamal Mirsadeghi"
+    ],
+    "example_foils": [
+      "Latife Tekin",
+      "Shakil Adilzada",
+      "Yiğit Okur",
+      "Suat Derviş",
+      "Refik Halit Karay",
+      "Salma Shaheen"
+    ]
+  },
+  {
+    "category": "novelists__turkey",
+    "members_all": 92,
+    "min_sitelinks": 2,
+    "members_total": 66,
+    "members_kept": 66,
+    "foils_kept": 100,
+    "sitelinks_median": 9,
+    "sitelinks_max": 138,
+    "example_members": [
+      "Adalet Ağaoğlu",
+      "Aziz Nesin",
+      "Halide Edib Adıvar",
+      "Yaşar Kemal",
+      "Selma Rıza",
+      "Suat Derviş"
+    ],
+    "example_foils": [
+      "Bozorg Alavi",
+      "Asġar Ilāhī",
+      "Pan Bouyoucas",
+      "Mohammad Hejazi",
+      "Jalal Al-e-Ahmad",
+      "Nader Ebrahimi"
+    ]
+  },
+  {
+    "category": "novelists__poland",
+    "members_all": 83,
+    "min_sitelinks": 2,
+    "members_total": 76,
+    "members_kept": 76,
+    "foils_kept": 68,
+    "sitelinks_median": 6,
+    "sitelinks_max": 140,
+    "example_members": [
+      "Maria Sadowska",
+      "Witold Gombrowicz",
+      "Olga Tokarczuk",
+      "Bogusław Sujkowski",
+      "Gabriela Zapolska",
+      "Bolesław Prus"
+    ],
+    "example_foils": [
+      "Magdalena Wagnerová",
+      "Pavel Kohout",
+      "Pentti H. Tikkanen",
+      "Juhani Aho",
+      "Martina Navratilova",
+      "Pentti Haanpää"
+    ]
+  },
+  {
+    "category": "novelists__finland",
+    "members_all": 86,
+    "min_sitelinks": 2,
+    "members_total": 45,
+    "members_kept": 45,
+    "foils_kept": 97,
+    "sitelinks_median": 4,
+    "sitelinks_max": 85,
+    "example_members": [
+      "Merja Jalo",
+      "Kati Hiekkapelto",
+      "Onni Palaste",
+      "Anu Kaaja",
+      "Jalo Kalima",
+      "Erik Andrén"
+    ],
+    "example_foils": [
+      "Ann Mari Falk",
+      "Kristina Ohlsson",
+      "Lauri Räpp",
+      "Sophie Elkan",
+      "Stig Larsson",
+      "Carl Jonas Love Almqvist"
+    ]
+  },
+  {
+    "category": "novelists__france",
+    "members_all": 2845,
+    "min_sitelinks": 2,
+    "members_total": 1737,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 167,
+    "example_members": [
+      "Alfred Jarry",
+      "Ariel Kenig",
+      "Magdeleine du Genestoux",
+      "Marc Chadourne",
+      "Mélanie Waldor",
+      "Michel Zevaco"
+    ],
+    "example_foils": [
+      "Giada Trebeschi",
+      "Boris Levit-Broun",
+      "George Garnir",
+      "Cesarina Vighy",
+      "Louise-Marie Danhaive",
+      "Charles Poplimont"
+    ]
+  },
+  {
+    "category": "painters__india",
+    "members_all": 1358,
+    "min_sitelinks": 2,
+    "members_total": 428,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 144,
+    "example_members": [
+      "Madanjeet Singh",
+      "Durga Bai Vyam",
+      "Sadhu Aliyur",
+      "Gurcharan Singh",
+      "Anish Kapoor",
+      "Purnendu Shekhar Pattrea"
+    ],
+    "example_foils": [
+      "Hajra Mansoor",
+      "Mian Ijaz ul Hassan",
+      "Ahmed Salim",
+      "Qayyum Chowdhury",
+      "Hashem Khan",
+      "Ruheena Malik"
+    ]
+  },
+  {
+    "category": "painters__pakistan",
+    "members_all": 117,
+    "min_sitelinks": 2,
+    "members_total": 99,
+    "members_kept": 99,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 58,
+    "example_members": [
+      "Rizvan Rahman",
+      "Rashid Rana",
+      "Oskar Kokoschka",
+      "Muhammad Arshad Khan",
+      "Rafiqun Nabi",
+      "Mian Ijaz ul Hassan"
+    ],
+    "example_foils": [
+      "M. V. Devan",
+      "Poornima Dayal",
+      "Amir Aghaei",
+      "Upendra Maharathi",
+      "Levon Minasyan",
+      "Naba Kishore Mishra"
+    ]
+  },
+  {
+    "category": "painters__bangladesh",
+    "members_all": 81,
+    "min_sitelinks": 2,
+    "members_total": 58,
+    "members_kept": 58,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 21,
+    "example_members": [
+      "Monsur Ul Karim",
+      "Kazi Abul Kasem",
+      "Syed Rashad Imam Tanmoy",
+      "Nobo Kumar Bhadra",
+      "Syed Iqbal Mand Banu",
+      "Samarjit Roy Chowdhury"
+    ],
+    "example_foils": [
+      "Jogen Chowdhury",
+      "A.S. Nair",
+      "Gautam Vaghela",
+      "Sadanand Bakre",
+      "Ghulam Rasool Santosh",
+      "Vijay Sharma"
+    ]
+  },
+  {
+    "category": "painters__sri_lanka",
+    "dropped": "too small",
+    "members_all": 16,
+    "min_sitelinks": 2,
+    "members_total": 11,
+    "members_kept": 11,
+    "foils_kept": 100
+  },
+  {
+    "category": "painters__nepal",
+    "dropped": "too small",
+    "members_all": 8,
+    "min_sitelinks": 2,
+    "members_total": 6,
+    "members_kept": 6,
+    "foils_kept": 100
+  },
+  {
+    "category": "painters__nigeria",
+    "members_all": 500,
+    "min_sitelinks": 2,
+    "members_total": 73,
+    "members_kept": 73,
+    "foils_kept": 30,
+    "sitelinks_median": 8,
+    "sitelinks_max": 22,
+    "example_members": [
+      "Kelechi Amadi-Obi",
+      "Alimi Adewale",
+      "Samson Akinnire",
+      "Isio De-laVega Wanogho",
+      "Monilola Olayemi Ilupeju",
+      "Moyo Okediji"
+    ],
+    "example_foils": [
+      "Kobina Nyarko",
+      "Amon Kotei",
+      "Anita-Pearl Ankor",
+      "Kaloki Nyamai",
+      "Allan deSouza",
+      "Atta Kwami"
+    ]
+  },
+  {
+    "category": "painters__kenya",
+    "dropped": "too small",
+    "members_all": 20,
+    "min_sitelinks": 2,
+    "members_total": 6,
+    "members_kept": 6,
+    "foils_kept": 91
+  },
+  {
+    "category": "painters__ghana",
+    "dropped": "too small",
+    "members_all": 55,
+    "min_sitelinks": 2,
+    "members_total": 26,
+    "members_kept": 26,
+    "foils_kept": 77
+  },
+  {
+    "category": "painters__ethiopia",
+    "dropped": "too small",
+    "members_all": 41,
+    "min_sitelinks": 2,
+    "members_total": 18,
+    "members_kept": 18,
+    "foils_kept": 79
+  },
+  {
+    "category": "painters__south_africa",
+    "members_all": 270,
+    "min_sitelinks": 2,
+    "members_total": 145,
+    "members_kept": 145,
+    "foils_kept": 79,
+    "sitelinks_median": 6,
+    "sitelinks_max": 39,
+    "example_members": [
+      "Ethel May Dixie",
+      "Garth Erasmus",
+      "Cecil Michaelis",
+      "Carl Walter Meyer",
+      "Irma Stern",
+      "Vladimir Tretchikoff"
+    ],
+    "example_foils": [
+      "Colette Omogbai",
+      "Marcia Kure",
+      "Victor Ekpuk",
+      "Kolade Oshinowo",
+      "Anne Njemanze",
+      "Chidi Kwubiri"
+    ]
+  },
+  {
+    "category": "painters__indonesia",
+    "members_all": 230,
+    "min_sitelinks": 2,
+    "members_total": 95,
+    "members_kept": 95,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 16,
+    "example_members": [
+      "Erika Richardo",
+      "Syahrizal Koto",
+      "Ida Bagus Made",
+      "But Mochtar",
+      "Febri Antoni",
+      "Syaukat Banjaransari"
+    ],
+    "example_foils": [
+      "Harkin Deximire",
+      "Nam Sơn",
+      "Onib Olmedo",
+      "José Honorato Lozano",
+      "Công Văn Trung",
+      "Kublai Millan"
+    ]
+  },
+  {
+    "category": "painters__philippines",
+    "members_all": 130,
+    "min_sitelinks": 2,
+    "members_total": 86,
+    "members_kept": 86,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 89,
+    "example_members": [
+      "José T. Joya",
+      "Yasmin Sison-Ching",
+      "Camille Dela Rosa",
+      "Arturo R. Luz",
+      "Botong Francisco",
+      "Imelda Cajipe-Endaya"
+    ],
+    "example_foils": [
+      "Tran Dong Luong",
+      "Trần Quang Trân",
+      "Nurdin B.S.",
+      "Trinh Cong Son",
+      "Tô Ngọc Vân",
+      "Made Wianta"
+    ]
+  },
+  {
+    "category": "painters__vietnam",
+    "members_all": 102,
+    "min_sitelinks": 2,
+    "members_total": 55,
+    "members_kept": 55,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 16,
+    "example_members": [
+      "Trần Trọng Vũ",
+      "Linh Chi",
+      "Tôn Thất Sa",
+      "Đào Sĩ Chu",
+      "Trần Quang Trân",
+      "Mai Long"
+    ],
+    "example_foils": [
+      "Imelda Cajipe-Endaya",
+      "Yunizar",
+      "Hardi",
+      "Sudjana Kerton",
+      "Ida Bagus Made Togog",
+      "Norma Belleza"
+    ]
+  },
+  {
+    "category": "painters__brazil",
+    "members_all": 1260,
+    "min_sitelinks": 2,
+    "members_total": 673,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 23,
+    "example_members": [
+      "Maria Bonomi",
+      "Caíto",
+      "Cornélio Penna",
+      "Felisberto Ranzini",
+      "Augusto Bracet",
+      "Marianne Peretti"
+    ],
+    "example_foils": [
+      "Jorge Tobon",
+      "Ciro Bustos",
+      "Vicente Forte",
+      "Bernardo Kuczer",
+      "Elda Cerrato",
+      "José Fioravanti"
+    ]
+  },
+  {
+    "category": "painters__mexico",
+    "members_all": 916,
+    "min_sitelinks": 2,
+    "members_total": 569,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 99,
+    "example_members": [
+      "José Sacal",
+      "Carmen Parra",
+      "Verónica Ruiz de Velasco",
+      "Alberto Pérez-Gómez",
+      "Knut Pani",
+      "Cristina Kahlo y Calderón"
+    ],
+    "example_foils": [
+      "Alejandra Pizarnik",
+      "Juan Carlos Migliavacca",
+      "Alejandro Christophersen",
+      "Ramón Gómez Cornet",
+      "Carlos Regazzoni",
+      "Félix Monti"
+    ]
+  },
+  {
+    "category": "painters__argentina",
+    "members_all": 855,
+    "min_sitelinks": 2,
+    "members_total": 445,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 44,
+    "example_members": [
+      "Oscar Chichoni",
+      "Julia Solomonoff",
+      "Miguel Hunt",
+      "Eduardo Risso",
+      "Román Viñoly Barreto",
+      "Manuel Espinosa"
+    ],
+    "example_foils": [
+      "Francisco Cornejo",
+      "Alice Soares",
+      "Guillermo García Oropeza",
+      "Alexandre Chan",
+      "Ernesto Ríos Rocha",
+      "Sylvia Ordóñez"
+    ]
+  },
+  {
+    "category": "painters__colombia",
+    "members_all": 275,
+    "min_sitelinks": 2,
+    "members_total": 135,
+    "members_kept": 135,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 70,
+    "example_members": [
+      "Leonel Gutiérrez Tamayo",
+      "Juan Mayr",
+      "Jesusita Vallejo",
+      "Ángel Loochkartt",
+      "Álvaro Barrios",
+      "Leobardo Perez Jimenez"
+    ],
+    "example_foils": [
+      "Zeca Mendes",
+      "Felipe Santiago Gutiérrez",
+      "Salvador Ferrando",
+      "Roberto Montenegro",
+      "Izrael Szajnbrum",
+      "Rufino Tamayo"
+    ]
+  },
+  {
+    "category": "painters__japan",
+    "members_all": 3587,
+    "min_sitelinks": 2,
+    "members_total": 1240,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 202,
+    "example_members": [
+      "Kyōkichi Tanaka",
+      "Keibun",
+      "Sō Shiseki",
+      "Artegg-yumi",
+      "Tamagawa Shūchō",
+      "Kunihiko Moriguchi"
+    ],
+    "example_foils": [
+      "Ha Ilji",
+      "Hu Xieqing",
+      "Wang Ya-chen",
+      "Cui Jie",
+      "Li Songsong",
+      "Ya Ming"
+    ]
+  },
+  {
+    "category": "painters__iran",
+    "members_all": 348,
+    "min_sitelinks": 2,
+    "members_total": 232,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 24,
+    "example_members": [
+      "Farhad Ostovani",
+      "Alfonso Avanessian",
+      "Guity Novin",
+      "Daryush Shokof",
+      "Hossein Qollar-Aqasi",
+      "Mohammad Hossein Latifi"
+    ],
+    "example_foils": [
+      "Jak İhmalyan",
+      "Sarkis Erganyan",
+      "Haider Ali",
+      "İsmail Altınok",
+      "Jale Yılmabaşar",
+      "Abdur Rahman Chughtai"
+    ]
+  },
+  {
+    "category": "painters__turkey",
+    "members_all": 758,
+    "min_sitelinks": 2,
+    "members_total": 216,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 60,
+    "example_members": [
+      "Tiraje Dikmen",
+      "Burhan Doğançay",
+      "Hikmet Onat",
+      "Cihangir Akşit",
+      "Onay Akbaş",
+      "Nihal Martli"
+    ],
+    "example_foils": [
+      "Konstantinos Maleas",
+      "Theofanis Dimitriou",
+      "Nazanin Pouyandeh",
+      "Golnar Adili",
+      "Tarlan Rafiee",
+      "Giorgos Sikeliotis"
+    ]
+  },
+  {
+    "category": "painters__poland",
+    "members_all": 2987,
+    "min_sitelinks": 2,
+    "members_total": 1848,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 35,
+    "example_members": [
+      "Zbigniew Siestrzeńcewicz",
+      "Zofia Romer",
+      "Elżbieta Chachaj",
+      "Urszula Plewka-Schmidt",
+      "Stanisław Chlebowski",
+      "Dominik Figurny"
+    ],
+    "example_foils": [
+      "Miroslava Zychová",
+      "Jiří Urban",
+      "Lauri Saari",
+      "Elsa Snellman",
+      "Karel Jerie",
+      "Veikko Kiljunen"
+    ]
+  },
+  {
+    "category": "painters__finland",
+    "members_all": 1352,
+    "min_sitelinks": 2,
+    "members_total": 632,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 53,
+    "example_members": [
+      "Ahti Hammar",
+      "Ingrid Ruin",
+      "Hannu Väisänen",
+      "Anne Koskinen",
+      "Osmo Rauhala",
+      "Gunnar Clément"
+    ],
+    "example_foils": [
+      "Johan Petter Cumelin",
+      "Märtha Tynell",
+      "Nils Tirén",
+      "Vivica Strokirk",
+      "August Johnsson",
+      "Petronella Gustava Stenhoff"
+    ]
+  },
+  {
+    "category": "painters__usa",
+    "members_all": 12985,
+    "min_sitelinks": 2,
+    "members_total": 6808,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 45,
+    "example_members": [
+      "Peter Plagens",
+      "George Fuller",
+      "Alice Baber",
+      "Charles Fraser",
+      "Imogene Robinson Morrell",
+      "John Blennerhassett Martin"
+    ],
+    "example_foils": [
+      "Walter Spencer Stanhope Tyrwhitt",
+      "Michael Spicer, Baron Spicer",
+      "John Paul",
+      "Matthew Smith",
+      "Françoise Sullivan",
+      "Tom Phillips"
+    ]
+  },
+  {
+    "category": "film_directors__india",
+    "members_all": 3200,
+    "min_sitelinks": 2,
+    "members_total": 2577,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 62,
+    "example_members": [
+      "Nimmala Shankar",
+      "Paramita Roy",
+      "Sidharth Bharathan",
+      "Rajpal Yadav",
+      "S. Krishna",
+      "Rohini"
+    ],
+    "example_foils": [
+      "Ruhul Amin",
+      "Fazeelat Aslam",
+      "Shibli Sadik",
+      "Sheikh Niamat Ali",
+      "Ejaz Durrani",
+      "S. Suleman"
+    ]
+  },
+  {
+    "category": "film_directors__pakistan",
+    "members_all": 216,
+    "min_sitelinks": 2,
+    "members_total": 186,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 54,
+    "example_members": [
+      "Montazur Rahman Akbar",
+      "Asad Malik",
+      "Sharmeen Obaid-Chinoy",
+      "Samina Peerzada",
+      "Javed Sheikh",
+      "Tamiz Uddin Rizvi"
+    ],
+    "example_foils": [
+      "Kedar Shinde",
+      "Sidharth Malhotra",
+      "Dayal Padmanabhan",
+      "Bharath Gopi",
+      "Pa Ranjith",
+      "Aditya Om"
+    ]
+  },
+  {
+    "category": "film_directors__bangladesh",
+    "members_all": 204,
+    "min_sitelinks": 2,
+    "members_total": 162,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 21,
+    "example_members": [
+      "ATM Shamsuzzaman",
+      "Wajed Ali Sumon",
+      "Alamgir",
+      "Sadik Ahmed",
+      "Dilip Biswas",
+      "Mejbaur Rahman Sumon"
+    ],
+    "example_foils": [
+      "Nimai Ghosh",
+      "Sethu Sriram",
+      "Abhishek Jain",
+      "Kommineni Seshagiri Rao",
+      "Saagar K Chandra",
+      "Jis Joy"
+    ]
+  },
+  {
+    "category": "film_directors__sri_lanka",
+    "members_all": 59,
+    "min_sitelinks": 2,
+    "members_total": 52,
+    "members_kept": 52,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 14,
+    "example_members": [
+      "Bandu Samarasinghe",
+      "Asoka Handagama",
+      "Udara Palliyaguruge",
+      "Siri Gunasinghe",
+      "Vimukthi Jayasundara",
+      "Andrew Jayamanne"
+    ],
+    "example_foils": [
+      "Sivan",
+      "Amit Masurkar",
+      "Divya Khosla Kumar",
+      "Gunasekhar",
+      "Arindam Chaudhuri",
+      "Lenin M. Sivam"
+    ]
+  },
+  {
+    "category": "film_directors__nepal",
+    "members_all": 104,
+    "min_sitelinks": 2,
+    "members_total": 53,
+    "members_kept": 53,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 29,
+    "example_members": [
+      "Jharana Thapa",
+      "Arpan Thapa",
+      "Deepak Rauniyar",
+      "Deepak Rayamajhi",
+      "Sunil Babu Pant",
+      "Tulsi Ghimiray"
+    ],
+    "example_foils": [
+      "Niranjan Pal",
+      "Bappaditya Bandopadhyay",
+      "Dronamraju China Kameswara Rao",
+      "Wajahat Mirza",
+      "Ali Kazimi",
+      "R Ajay Gnanamuthu"
+    ]
+  },
+  {
+    "category": "film_directors__nigeria",
+    "members_all": 490,
+    "min_sitelinks": 2,
+    "members_total": 269,
+    "members_kept": 150,
+    "foils_kept": 69,
+    "sitelinks_median": 10,
+    "sitelinks_max": 54,
+    "example_members": [
+      "Jadesola Osiberu",
+      "Misan Harriman",
+      "Jeta Amata",
+      "Bimbo Akintola",
+      "Tam Fiofori",
+      "Mabel Oboh"
+    ],
+    "example_foils": [
+      "Sam Aryeetey",
+      "Kofi Asamoah",
+      "Hawa Essuman",
+      "Nuotama Bodomo",
+      "Juliet Ibrahim",
+      "Akosua Adoma Owusu"
+    ]
+  },
+  {
+    "category": "film_directors__kenya",
+    "dropped": "too small",
+    "members_all": 41,
+    "min_sitelinks": 2,
+    "members_total": 29,
+    "members_kept": 29,
+    "foils_kept": 100
+  },
+  {
+    "category": "film_directors__ghana",
+    "members_all": 56,
+    "min_sitelinks": 2,
+    "members_total": 40,
+    "members_kept": 40,
+    "foils_kept": 100,
+    "sitelinks_median": 9,
+    "sitelinks_max": 30,
+    "example_members": [
+      "Kalsoume Sinare",
+      "Mikki Osei Berko",
+      "Nana Oforiatta Ayim",
+      "Yaw Skyface",
+      "King Ampaw",
+      "Nana Obiri Yeboah"
+    ],
+    "example_foils": [
+      "Chineze Anyaene",
+      "Chike Nwoffiah",
+      "Brashaad Mayweather",
+      "Ndave David Njoku",
+      "Uzee Usman",
+      "Shan George"
+    ]
+  },
+  {
+    "category": "film_directors__ethiopia",
+    "dropped": "too small",
+    "members_all": 16,
+    "min_sitelinks": 2,
+    "members_total": 10,
+    "members_kept": 10,
+    "foils_kept": 100
+  },
+  {
+    "category": "film_directors__south_africa",
+    "members_all": 280,
+    "min_sitelinks": 2,
+    "members_total": 151,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 45,
+    "example_members": [
+      "Jonathan Liebesman",
+      "Pippa Ehrlich",
+      "Rob De Mezieres",
+      "Milisuthando Bongela",
+      "Mmabatho Montsho",
+      "John Barker"
+    ],
+    "example_foils": [
+      "Bimbo Oshin",
+      "Funke Akindele-Bello",
+      "Ngozi Onwurah",
+      "Phoebe Boswell",
+      "Dolly Unachukwu",
+      "Enioluwa Adeoluwa"
+    ]
+  },
+  {
+    "category": "film_directors__indonesia",
+    "members_all": 297,
+    "min_sitelinks": 2,
+    "members_total": 173,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 24,
+    "example_members": [
+      "Ryan Adriandhy",
+      "Alam Surawidjaja",
+      "Marcella Zalianty",
+      "Misbach Yusa Biran",
+      "Mirwan Suwarso",
+      "Asmirandah"
+    ],
+    "example_foils": [
+      "Cholo Laurel",
+      "Lê Mộng Hoàng",
+      "Chris Martinez",
+      "Pepe Diokno",
+      "Meiling Melançon",
+      "Michael de Mesa"
+    ]
+  },
+  {
+    "category": "film_directors__philippines",
+    "members_all": 245,
+    "min_sitelinks": 2,
+    "members_total": 169,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 25,
+    "example_members": [
+      "Eric Quizon",
+      "Van Partible",
+      "Mark Shandii Bacolod",
+      "Cesar Montano",
+      "Tony Ferrer",
+      "Jun Aristorenas"
+    ],
+    "example_foils": [
+      "Lucky Kuswandi",
+      "Bayu Skak",
+      "Livi Zheng",
+      "Sekar Ayu Asmara",
+      "Misbach Yusa Biran",
+      "Tora Sudiro"
+    ]
+  },
+  {
+    "category": "film_directors__vietnam",
+    "members_all": 131,
+    "min_sitelinks": 2,
+    "members_total": 49,
+    "members_kept": 49,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 36,
+    "example_members": [
+      "Lâm Lê",
+      "Linh Nga",
+      "Trong Ninh Luu",
+      "Hoàng Vĩnh Lộc",
+      "Trần Quang",
+      "Hồ Quang Minh"
+    ],
+    "example_foils": [
+      "Emmanuel Borlaza",
+      "Sardono Waluyo Kusumo",
+      "Dingdong Dantes",
+      "Virginia R. Moreno",
+      "Ruel S. Bayani",
+      "Brigida Perez Villanueva"
+    ]
+  },
+  {
+    "category": "film_directors__brazil",
+    "members_all": 902,
+    "min_sitelinks": 2,
+    "members_total": 523,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 60,
+    "example_members": [
+      "Ewerton de Castro",
+      "Marina Meliande",
+      "Moacyr Góes",
+      "Max Nunes",
+      "Oduvaldo Vianna",
+      "Luís Carlos Miele"
+    ],
+    "example_foils": [
+      "Mario C. Lugones",
+      "Nicolás Gil Lavedra",
+      "Rodolfo Federico Carnevale",
+      "Ana de Skalon",
+      "Gabriel Medina",
+      "Edgardo Cozarinsky"
+    ]
+  },
+  {
+    "category": "film_directors__mexico",
+    "members_all": 680,
+    "min_sitelinks": 2,
+    "members_total": 439,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 106,
+    "example_members": [
+      "Paula Astorga",
+      "Carmen Toscano",
+      "Luis Vélez",
+      "René Castillo",
+      "Joselito Rodríguez",
+      "Eduardo Verástegui"
+    ],
+    "example_foils": [
+      "Emilia Saleny",
+      "Eliseo Subiela",
+      "Lina Rodríguez",
+      "Jorge Prelorán",
+      "Lucía Cedrón",
+      "Pepe Sánchez"
+    ]
+  },
+  {
+    "category": "film_directors__argentina",
+    "members_all": 848,
+    "min_sitelinks": 2,
+    "members_total": 497,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 31,
+    "example_members": [
+      "Pedro Saborido",
+      "Mariel Maciá",
+      "Ángel Acciaresi",
+      "Armando Bó",
+      "Rodrigo Fernández Engler",
+      "Daniela Völker"
+    ],
+    "example_foils": [
+      "Raúl Araiza",
+      "Sura Berditchevsky",
+      "Fernando Coimbra",
+      "Julián Soler",
+      "Yadira Pascault Orozco",
+      "José Benavides hijo"
+    ]
+  },
+  {
+    "category": "film_directors__colombia",
+    "members_all": 204,
+    "min_sitelinks": 2,
+    "members_total": 97,
+    "members_kept": 97,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 209,
+    "example_members": [
+      "Gustavo Bolívar",
+      "Luis Ernesto Arocha",
+      "Jorge Alí Triana",
+      "Iván Argote",
+      "Gustavo Nieto Roa",
+      "Jaime Osorio Márquez"
+    ],
+    "example_foils": [
+      "Alejandro Pelayo",
+      "Otavio Juliano",
+      "Paulo Leão",
+      "Tulio Demicheli",
+      "Florinda Bolkan",
+      "Lael Rodrigues"
+    ]
+  },
+  {
+    "category": "film_directors__japan",
+    "members_all": 3320,
+    "min_sitelinks": 2,
+    "members_total": 1405,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 177,
+    "example_members": [
+      "Yukiyo Teramoto",
+      "Akihiro Hata",
+      "Yumi Kamakura",
+      "Hironobu Sakaguchi",
+      "Tatsuo Ōsone",
+      "Osamu Kasai"
+    ],
+    "example_foils": [
+      "Kim Tae-gwan",
+      "Doo-yong Lee",
+      "Lee Yun-ki",
+      "Hu Wei",
+      "Choi Moo-ryong",
+      "Song Fang"
+    ]
+  },
+  {
+    "category": "film_directors__iran",
+    "members_all": 1126,
+    "min_sitelinks": 2,
+    "members_total": 697,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 38,
+    "example_members": [
+      "Hamid Reza Afshar",
+      "Hossein Mohseni",
+      "Mohammad Ali Sajjadi",
+      "Rasoul Mollagholipour",
+      "Mehdi Fakhimzadeh",
+      "Mohammad-Ali Fardin"
+    ],
+    "example_foils": [
+      "Selman Nacar",
+      "Mehmet Aslantuğ",
+      "Vedat Türkali",
+      "Onur Karaman",
+      "Kartal Tibet",
+      "Emre Kayış"
+    ]
+  },
+  {
+    "category": "film_directors__turkey",
+    "members_all": 977,
+    "min_sitelinks": 2,
+    "members_total": 377,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 40,
+    "example_members": [
+      "Remzi Jöntürk",
+      "Çayan Demirel",
+      "Cüneyt Arkın",
+      "Uğur Yücel",
+      "Cahide Sonku",
+      "İbrahim Büyükak"
+    ],
+    "example_foils": [
+      "Granaz Moussavi",
+      "Milad Goodarzi",
+      "Sara Rastegar",
+      "Mary Apick",
+      "Sadaf Foroughi",
+      "Varuzh Karim-Masihi"
+    ]
+  },
+  {
+    "category": "film_directors__poland",
+    "members_all": 1134,
+    "min_sitelinks": 2,
+    "members_total": 798,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 80,
+    "example_members": [
+      "Jakub Czekaj",
+      "Brygida Frosztęga-Kmiecik",
+      "Szymon Lenkowski",
+      "Jerzy Łukaszewicz",
+      "Tadeusz Kański",
+      "Hieronim Przybył"
+    ],
+    "example_foils": [
+      "Jiří Strach",
+      "Hanna Hemilä",
+      "Hannu-Pekka Björkman",
+      "Annika Grof",
+      "Lasse Pöysti",
+      "Martin Kopp"
+    ]
+  },
+  {
+    "category": "film_directors__finland",
+    "members_all": 791,
+    "min_sitelinks": 2,
+    "members_total": 462,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 29,
+    "example_members": [
+      "Eino Jurkka",
+      "Petteri Saario",
+      "Lasse Pöysti",
+      "Rike Jokela",
+      "Georg Grotenfelt",
+      "Arvo Tamminen"
+    ],
+    "example_foils": [
+      "Jarl Kulle",
+      "Toomas Kirss",
+      "Philip Zandén",
+      "Ernst Eklund",
+      "Matts Adolf Stenström",
+      "Catti Edfeldt"
+    ]
+  },
+  {
+    "category": "film_directors__france",
+    "members_all": 6306,
+    "min_sitelinks": 2,
+    "members_total": 4275,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 78,
+    "example_members": [
+      "André Heuzé",
+      "Étienne Comar",
+      "Vladimir Léon",
+      "Stephen Cafiero",
+      "Henri Gambart",
+      "Sophie Marceau"
+    ],
+    "example_foils": [
+      "Paolo Gioli",
+      "Nicola Vitale Materi",
+      "Andrea Prandstraller",
+      "Antonio Frazzi",
+      "Ansano Giannarelli",
+      "Vincenzo Badolisani"
+    ]
+  },
+  {
+    "category": "film_directors__usa",
+    "members_all": 13687,
+    "min_sitelinks": 2,
+    "members_total": 10536,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 106,
+    "example_members": [
+      "Carlo Hartyon",
+      "Jason Zada",
+      "Douglas McGrath",
+      "Dana Perry",
+      "Lori Petty",
+      "Michael Mailer"
+    ],
+    "example_foils": [
+      "Larysa Kondracki",
+      "Roger Price",
+      "Gavin Heffernan",
+      "Emmanuelle Schick Garcia",
+      "Christopher Hampton",
+      "Danae Elon"
+    ]
+  },
+  {
+    "category": "composers__india",
+    "members_all": 1079,
+    "min_sitelinks": 2,
+    "members_total": 814,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 96,
+    "example_members": [
+      "Rajkumar R. Pandey",
+      "Leon James",
+      "Shyamal Mitra",
+      "Sundar C. Babu",
+      "Pasupuleti Ramesh Naidu",
+      "M. B. Sreenivasan"
+    ],
+    "example_foils": [
+      "Hadiqa Kiani",
+      "Nisar Bazmi",
+      "Subal Das",
+      "Foad Nasser Babu",
+      "Habib Wahid",
+      "Ahsan Ali Taj"
+    ]
+  },
+  {
+    "category": "composers__pakistan",
+    "members_all": 97,
+    "min_sitelinks": 2,
+    "members_total": 86,
+    "members_kept": 86,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 60,
+    "example_members": [
+      "Noor Zehra",
+      "Amjad Bobby",
+      "Feroz Nizami",
+      "Nisar Bazmi",
+      "Jawad Ahmad",
+      "Satya Saha"
+    ],
+    "example_foils": [
+      "Nobin Paul",
+      "B. Sasikumar",
+      "Abdolhossein Mokhtabad",
+      "Nongmaithem Pahari",
+      "Girish Panchwadkar",
+      "Vikram Montrose"
+    ]
+  },
+  {
+    "category": "composers__bangladesh",
+    "members_all": 82,
+    "min_sitelinks": 2,
+    "members_total": 55,
+    "members_kept": 55,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 32,
+    "example_members": [
+      "Khadem Hossain Khan",
+      "Azad Rahman",
+      "Fakir Aftabuddin Khan",
+      "Prince Mahmud",
+      "Maksud Jamil Mintu",
+      "Emon Saha"
+    ],
+    "example_foils": [
+      "Rambhadracharya",
+      "Abhijit Banerjee",
+      "Akassh",
+      "Mahesh Kale",
+      "Jnan Prakash Ghosh",
+      "Ahmed Jan Thirakwa"
+    ]
+  },
+  {
+    "category": "composers__sri_lanka",
+    "dropped": "too small",
+    "members_all": 25,
+    "min_sitelinks": 2,
+    "members_total": 15,
+    "members_kept": 15,
+    "foils_kept": 100
+  },
+  {
+    "category": "composers__nepal",
+    "dropped": "too small",
+    "members_all": 22,
+    "min_sitelinks": 2,
+    "members_total": 14,
+    "members_kept": 14,
+    "foils_kept": 100
+  },
+  {
+    "category": "composers__nigeria",
+    "members_all": 96,
+    "min_sitelinks": 2,
+    "members_total": 51,
+    "members_kept": 51,
+    "foils_kept": 44,
+    "sitelinks_median": 8,
+    "sitelinks_max": 55,
+    "example_members": [
+      "Tope Alabi",
+      "Samuel Ekpe Akpabot",
+      "Agboola Shadare",
+      "Keziah Jones",
+      "Kefee",
+      "Tony Allen"
+    ],
+    "example_foils": [
+      "Philip Gbeho",
+      "Hermann Stern",
+      "JAE5",
+      "Emmanuel Gyimah Labi",
+      "Paa Kow",
+      "M.anifest"
+    ]
+  },
+  {
+    "category": "composers__kenya",
+    "dropped": "too small",
+    "members_all": 12,
+    "min_sitelinks": 2,
+    "members_total": 6,
+    "members_kept": 6,
+    "foils_kept": 64
+  },
+  {
+    "category": "composers__ghana",
+    "members_all": 51,
+    "min_sitelinks": 2,
+    "members_total": 38,
+    "members_kept": 38,
+    "foils_kept": 57,
+    "sitelinks_median": 4,
+    "sitelinks_max": 99,
+    "example_members": [
+      "A. B. Crentsil",
+      "Pax Nicholas",
+      "Koby Maxwell",
+      "StreetBeatz",
+      "King Bruce",
+      "Alfred P. Addaquay"
+    ],
+    "example_foils": [
+      "Ayo Bankole",
+      "Samuel Ekpe Akpabot",
+      "Sarz",
+      "Muraina Oyelami",
+      "Slim Burna",
+      "Harcourt Whyte"
+    ]
+  },
+  {
+    "category": "composers__ethiopia",
+    "dropped": "too small",
+    "members_all": 14,
+    "min_sitelinks": 2,
+    "members_total": 13,
+    "members_kept": 13,
+    "foils_kept": 57
+  },
+  {
+    "category": "composers__south_africa",
+    "members_all": 218,
+    "min_sitelinks": 2,
+    "members_total": 151,
+    "members_kept": 150,
+    "foils_kept": 57,
+    "sitelinks_median": 5,
+    "sitelinks_max": 98,
+    "example_members": [
+      "Hugh Masekela",
+      "Pierre-Henri Wicomb",
+      "Sello Chicco Twala",
+      "Jabu Khanyile",
+      "Barry Jordan",
+      "Jonathan Butler"
+    ],
+    "example_foils": [
+      "Ayo Bankole",
+      "Fela Sowande",
+      "Clemo",
+      "Funsho Ogundipe",
+      "Ayub Ogada",
+      "Samuel Ekpe Akpabot"
+    ]
+  },
+  {
+    "category": "composers__indonesia",
+    "members_all": 125,
+    "min_sitelinks": 2,
+    "members_total": 82,
+    "members_kept": 82,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 23,
+    "example_members": [
+      "Saykoji",
+      "Pak Kasur",
+      "Dwiki Dharmawan",
+      "Younky Soewarno",
+      "Nortier Simanungkalit",
+      "Wage Rudolf Soepratman"
+    ],
+    "example_foils": [
+      "Đặng Hữu Phúc",
+      "Vũ Nhật Tân",
+      "George Canseco",
+      "Gerard Salonga",
+      "Joey Ayala",
+      "Tata Esteban"
+    ]
+  },
+  {
+    "category": "composers__philippines",
+    "members_all": 116,
+    "min_sitelinks": 2,
+    "members_total": 84,
+    "members_kept": 84,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 33,
+    "example_members": [
+      "Vincent Bueno",
+      "Ruby Rodriguez",
+      "Tata Esteban",
+      "Amada Santos Ocampo",
+      "Romeo Diaz",
+      "Tats Faustino"
+    ],
+    "example_foils": [
+      "Chen Ning-chi",
+      "Saykoji",
+      "Phan Huỳnh Điểu",
+      "Đinh Nhu",
+      "Thích Trung Hiếu",
+      "Erwin Gutawa"
+    ]
+  },
+  {
+    "category": "composers__vietnam",
+    "members_all": 70,
+    "min_sitelinks": 2,
+    "members_total": 49,
+    "members_kept": 49,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 16,
+    "example_members": [
+      "Trinh Cong Son",
+      "Bao Vang",
+      "Viet Khang",
+      "Vũ Nhật Tân",
+      "Nguyễn Đình Thi",
+      "Nguyễn Xuân Khoát"
+    ],
+    "example_foils": [
+      "Benyamin Sueb",
+      "Dewa Alit",
+      "Gesang Martohartono",
+      "Julio Nakpil",
+      "K. P. H. Notoprojo",
+      "Nicanor Abelardo"
+    ]
+  },
+  {
+    "category": "composers__brazil",
+    "members_all": 2350,
+    "min_sitelinks": 2,
+    "members_total": 1026,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 36,
+    "example_members": [
+      "Eduardo",
+      "Maurício Manfrini",
+      "Alexandre Ribeiro da Costa",
+      "Ney Rosauro",
+      "Kevin O Chris",
+      "Vanessa Silva"
+    ],
+    "example_foils": [
+      "Juan Pablo Vega",
+      "Julieta Rada",
+      "Juan Alais",
+      "José Luis Fernández",
+      "Sylvia Kersenbaum",
+      "Vicente Demarco"
+    ]
+  },
+  {
+    "category": "composers__mexico",
+    "members_all": 642,
+    "min_sitelinks": 2,
+    "members_total": 388,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 81,
+    "example_members": [
+      "Juan Trigos",
+      "Julio Ituarte",
+      "Augusto Novaro",
+      "Nacho Méndez",
+      "Natalia Cruz",
+      "Marcela Gándara"
+    ],
+    "example_foils": [
+      "Rodolfo Sciammarella",
+      "Astor Piazzolla",
+      "Sergio de Castro",
+      "Alberto Favero",
+      "Ignacio Corsini",
+      "Ariel"
+    ]
+  },
+  {
+    "category": "composers__argentina",
+    "members_all": 1595,
+    "min_sitelinks": 2,
+    "members_total": 797,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 41,
+    "example_members": [
+      "Gustavo Llull",
+      "Silvia Fómina",
+      "Carlos Ángel Lázzari",
+      "Sol Pereyra",
+      "Eddie Sierra",
+      "José Ricardo"
+    ],
+    "example_foils": [
+      "Marino Pinto",
+      "Almir Bezerra",
+      "Pery Ribeiro",
+      "Mitar Subotić",
+      "Marcos Brunet",
+      "Sátiro Bilhar"
+    ]
+  },
+  {
+    "category": "composers__colombia",
+    "members_all": 315,
+    "min_sitelinks": 2,
+    "members_total": 194,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 77,
+    "example_members": [
+      "Manuel Medrano",
+      "Carlos Bonilla Chávez",
+      "Edmundo Arias",
+      "Mario Gareña",
+      "Soraya",
+      "Yeison Jiménez"
+    ],
+    "example_foils": [
+      "Juan Sebastián Lach Lau",
+      "Juliana Rojas",
+      "Genaro Codina",
+      "Nuno Mindelis",
+      "Benedito Lacerda",
+      "Sergio Luque"
+    ]
+  },
+  {
+    "category": "composers__japan",
+    "members_all": 4635,
+    "min_sitelinks": 2,
+    "members_total": 1635,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 39,
+    "example_members": [
+      "Itaru Watanabe",
+      "Hidehiko Matsumoto",
+      "Takehito Shimizu",
+      "Kenta Hamano",
+      "Claude Ciari",
+      "Kazumasa Oda"
+    ],
+    "example_foils": [
+      "Kŭg-yŏng Yun",
+      "Guo Wenjing",
+      "Choi Min-ho",
+      "Sa Chen",
+      "Chen Baohua",
+      "Jin Bora"
+    ]
+  },
+  {
+    "category": "composers__iran",
+    "members_all": 458,
+    "min_sitelinks": 2,
+    "members_total": 297,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 27,
+    "example_members": [
+      "Ahmad Mansour",
+      "Sirvan Khosravi",
+      "Nima Aziminejad",
+      "Hossein Nassehi",
+      "Farhad Besharati",
+      "Hossein Alizadeh"
+    ],
+    "example_foils": [
+      "Can Atilla",
+      "Çetin Işıközlü",
+      "Kâzım Karabekir",
+      "Ahmet Şafak",
+      "Keriman Halis",
+      "Kurken Alemshah"
+    ]
+  },
+  {
+    "category": "composers__turkey",
+    "members_all": 684,
+    "min_sitelinks": 2,
+    "members_total": 345,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Turgay Erdener",
+      "Ozan Kotra",
+      "İzak Algazi",
+      "Emrah Karaduman",
+      "Ferdi Tayfur",
+      "Stepan Babelyan"
+    ],
+    "example_foils": [
+      "Stavros Kouyioumtzis",
+      "Kostas Grigoreas",
+      "Giorgos Batis",
+      "Vaggelis Papazoglou",
+      "Michalis Chatzigiannis",
+      "Sakis Tolis"
+    ]
+  },
+  {
+    "category": "composers__poland",
+    "members_all": 1370,
+    "min_sitelinks": 2,
+    "members_total": 999,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 60,
+    "example_members": [
+      "Antoni Kopff",
+      "Inka",
+      "Iza Lach",
+      "Janusz Kępski",
+      "Jerzy Małek",
+      "Jan Astriab"
+    ],
+    "example_foils": [
+      "Kauko Käyhkö",
+      "Ville Pusa",
+      "Aki Yli-Salomäki",
+      "Milan Hlavsa",
+      "Ilmari Krohn",
+      "Holger Fransman"
+    ]
+  },
+  {
+    "category": "composers__finland",
+    "members_all": 1183,
+    "min_sitelinks": 2,
+    "members_total": 630,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 34,
+    "example_members": [
+      "Teho Majamäki",
+      "Jarkko Hartikainen",
+      "Sanna Kurki-Suonio",
+      "Pauli Impivaara",
+      "Martin Segerstråle",
+      "Jarkko Saapunki"
+    ],
+    "example_foils": [
+      "Bo Nilsson",
+      "Kristofer Åström",
+      "Diana Krull",
+      "Mai Leisz",
+      "Torbjörn Iwan Lundquist",
+      "August Berwald"
+    ]
+  },
+  {
+    "category": "composers__france",
+    "members_all": 5987,
+    "min_sitelinks": 2,
+    "members_total": 3723,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 137,
+    "example_members": [
+      "Bernard Ringeissen",
+      "Carolin Petit",
+      "Folquet de Marseille",
+      "Léon Alfred Lhôte",
+      "Edouard Millault",
+      "Myth Syzer"
+    ],
+    "example_foils": [
+      "Jef Van Hoof",
+      "Yakamoto Kotzuga",
+      "Jean-Luc Differdange",
+      "Enzo Gragnaniello",
+      "Jovanotti",
+      "Adolphe Fischer"
+    ]
+  },
+  {
+    "category": "composers__usa",
+    "members_all": 15041,
+    "min_sitelinks": 2,
+    "members_total": 11608,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 82,
+    "example_members": [
+      "George Wilkins",
+      "Sammy Gallop",
+      "Jim Knapp",
+      "John Shanks",
+      "Thomas Hecht",
+      "Daniel Bell"
+    ],
+    "example_foils": [
+      "Pete M. Wyer",
+      "Erik Routley",
+      "Heather Small",
+      "Bernie Finkelstein",
+      "Hans Redlich",
+      "Lionel Sainsbury"
+    ]
+  },
+  {
+    "category": "architects__india",
+    "members_all": 170,
+    "min_sitelinks": 2,
+    "members_total": 75,
+    "members_kept": 75,
+    "foils_kept": 44,
+    "sitelinks_median": 4,
+    "sitelinks_max": 41,
+    "example_members": [
+      "Ambarish Srivastava",
+      "Charles Correa",
+      "Chitra Vishwanath",
+      "Meenakshi Srinivasan",
+      "Kanippayyur Shankaran Namboodiripad",
+      "Anupama Kundoo"
+    ],
+    "example_foils": [
+      "Syed Mainul Hossain",
+      "Abu Sayeed M Ahmed",
+      "Saleh Uddin",
+      "Fazlur Khan",
+      "Habib Fida Ali",
+      "Mubasshar Hussein"
+    ]
+  },
+  {
+    "category": "architects__pakistan",
+    "dropped": "too small",
+    "members_all": 36,
+    "min_sitelinks": 2,
+    "members_total": 26,
+    "members_kept": 26,
+    "foils_kept": 100
+  },
+  {
+    "category": "architects__bangladesh",
+    "members_all": 54,
+    "min_sitelinks": 2,
+    "members_total": 32,
+    "members_kept": 32,
+    "foils_kept": 87,
+    "sitelinks_median": 4,
+    "sitelinks_max": 28,
+    "example_members": [
+      "Qazi Azizul Mowla",
+      "Kazi Khaleed Ashraf",
+      "Masudur Rahman Khan",
+      "Mubasshar Hussein",
+      "Aupee Karim",
+      "Ahmed Rajib Haider"
+    ],
+    "example_foils": [
+      "Yasmeen Lari",
+      "G. Shankar",
+      "Meenakshi Srinivasan",
+      "Bhai Ram Singh",
+      "Anupama Kundoo",
+      "Arif Hasan"
+    ]
+  },
+  {
+    "category": "architects__sri_lanka",
+    "dropped": "too small",
+    "members_all": 14,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 100
+  },
+  {
+    "category": "architects__nepal",
+    "dropped": "too small",
+    "members_all": 1,
+    "min_sitelinks": 2,
+    "members_total": 1,
+    "members_kept": 1,
+    "foils_kept": 100
+  },
+  {
+    "category": "architects__nigeria",
+    "dropped": "too small",
+    "members_all": 71,
+    "min_sitelinks": 2,
+    "members_total": 53,
+    "members_kept": 53,
+    "foils_kept": 20
+  },
+  {
+    "category": "architects__kenya",
+    "dropped": "too small",
+    "members_all": 10,
+    "min_sitelinks": 2,
+    "members_total": 2,
+    "members_kept": 2,
+    "foils_kept": 53
+  },
+  {
+    "category": "architects__ghana",
+    "dropped": "too small",
+    "members_all": 23,
+    "min_sitelinks": 2,
+    "members_total": 18,
+    "members_kept": 18,
+    "foils_kept": 55
+  },
+  {
+    "category": "architects__ethiopia",
+    "dropped": "too small",
+    "members_all": 4,
+    "min_sitelinks": 2,
+    "members_total": 0,
+    "members_kept": 0,
+    "foils_kept": 55
+  },
+  {
+    "category": "architects__south_africa",
+    "members_all": 142,
+    "min_sitelinks": 2,
+    "members_total": 42,
+    "members_kept": 42,
+    "foils_kept": 55,
+    "sitelinks_median": 4,
+    "sitelinks_max": 19,
+    "example_members": [
+      "Roy Kantorowich",
+      "Manfred Hermer",
+      "Johan de Ridder",
+      "John Johnstone Kirkness",
+      "James Cope Christie",
+      "Norman Eaton"
+    ],
+    "example_foils": [
+      "Itunu Hotonu",
+      "Nwamaka Nwobi Okoye",
+      "Halima Tayo Alao",
+      "Ibrahim Bunu",
+      "Offiong Ekanem Ejindu",
+      "Alex Ifeanyichukwu Ekwueme"
+    ]
+  },
+  {
+    "category": "architects__indonesia",
+    "dropped": "too small",
+    "members_all": 30,
+    "min_sitelinks": 2,
+    "members_total": 16,
+    "members_kept": 16,
+    "foils_kept": 31
+  },
+  {
+    "category": "architects__philippines",
+    "dropped": "too small",
+    "members_all": 30,
+    "min_sitelinks": 2,
+    "members_total": 24,
+    "members_kept": 24,
+    "foils_kept": 23
+  },
+  {
+    "category": "architects__vietnam",
+    "dropped": "too small",
+    "members_all": 14,
+    "min_sitelinks": 2,
+    "members_total": 7,
+    "members_kept": 7,
+    "foils_kept": 40
+  },
+  {
+    "category": "architects__brazil",
+    "members_all": 909,
+    "min_sitelinks": 2,
+    "members_total": 270,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 98,
+    "example_members": [
+      "Pedro Paulo de Melo Saraiva",
+      "Pedro Alexandre Cavroé",
+      "Anton Sepp",
+      "Edmundo Souto",
+      "Valentim da Fonseca e Silva",
+      "Mário Reali"
+    ],
+    "example_foils": [
+      "Diana Agrest",
+      "Eduardo Catalano",
+      "Sofía von Ellrichshausen",
+      "Simón Vélez",
+      "Pedro Nel Gómez Agudelo",
+      "Luz Amorocho"
+    ]
+  },
+  {
+    "category": "architects__mexico",
+    "members_all": 323,
+    "min_sitelinks": 2,
+    "members_total": 182,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 47,
+    "example_members": [
+      "Luis Rodrigo Álvarez",
+      "Guillermo Rossell de la Lama",
+      "J. Francisco Serrano Cacho",
+      "Ricardo Legorreta",
+      "Carlos Contreras Elizondo",
+      "Clara de Buen Richkarday"
+    ],
+    "example_foils": [
+      "Cristina Bergoglio",
+      "Diana Agrest",
+      "Marcello Rodriguez Pons",
+      "Carlo Zucchi",
+      "Atilio Boveri",
+      "Ricardo Feierstein"
+    ]
+  },
+  {
+    "category": "architects__argentina",
+    "members_all": 489,
+    "min_sitelinks": 2,
+    "members_total": 205,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 38,
+    "example_members": [
+      "Dante López Rodríguez",
+      "Olga Paterlini",
+      "Sofía von Ellrichshausen",
+      "Guillermo Gonzalez Ruiz",
+      "Hugo Porta",
+      "Alejandro Virasoro"
+    ],
+    "example_foils": [
+      "Oswaldo Arthur Bratke",
+      "Álvaro Vital Brazil",
+      "João Artacho Jurado",
+      "Nireu Oliveira Cavalcanti",
+      "Ary Rodrigo Perez",
+      "Jaime Lerner"
+    ]
+  },
+  {
+    "category": "architects__colombia",
+    "members_all": 207,
+    "min_sitelinks": 2,
+    "members_total": 62,
+    "members_kept": 62,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 14,
+    "example_members": [
+      "Silvia Arango",
+      "Thomas Reed",
+      "Patricio Samper Gnecco",
+      "Julián Orrego",
+      "Guillermo Bermúdez",
+      "Julián Lombana"
+    ],
+    "example_foils": [
+      "Rafael Lozano-Hemmer",
+      "Alejandro Zohn",
+      "Francisco Antonio de Guerrero y Torres",
+      "Raul Belém Machado",
+      "Juan Sordo Madaleno",
+      "Fernando Pasini"
+    ]
+  },
+  {
+    "category": "architects__japan",
+    "members_all": 1523,
+    "min_sitelinks": 2,
+    "members_total": 587,
+    "members_kept": 150,
+    "foils_kept": 73,
+    "sitelinks_median": 2,
+    "sitelinks_max": 39,
+    "example_members": [
+      "Eizō Shiina",
+      "Kunio Watanabe",
+      "Yoshiaki Ōyabu",
+      "Bunzo Yamaguchi",
+      "Tokutoshi Torii",
+      "Shin'ichi Tanabe"
+    ],
+    "example_foils": [
+      "Keye Luke",
+      "Wu Liangyong",
+      "Wu Wei",
+      "Lim Wan Fung, Bernard Vincent",
+      "José Lei",
+      "Patrick Lau"
+    ]
+  },
+  {
+    "category": "architects__iran",
+    "members_all": 121,
+    "min_sitelinks": 2,
+    "members_total": 81,
+    "members_kept": 81,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 64,
+    "example_members": [
+      "Farah Pahlavi",
+      "Hossein Ali Khan Hendesi Goran",
+      "Mulla Alaul Maulk Tuni",
+      "Reza Daneshmir",
+      "Victoria Ohanjanyan",
+      "Mohammad Beheshti Shirazi"
+    ],
+    "example_foils": [
+      "Aptullah Kuran",
+      "Berke Hatipoğlu",
+      "Saleh Uddin",
+      "Tarık Akıltopu",
+      "Feridun Buğeker",
+      "Khaleda Ekram"
+    ]
+  },
+  {
+    "category": "architects__turkey",
+    "members_all": 398,
+    "min_sitelinks": 2,
+    "members_total": 123,
+    "members_kept": 123,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Aptullah Kuran",
+      "Şefik Birkiye",
+      "Uğur Tanyeli",
+      "Leyla Asım Turgut",
+      "Hilmi Şenalp",
+      "Münevver Belen Gözeler"
+    ],
+    "example_foils": [
+      "Scopas",
+      "Demetri Porphyrios",
+      "Touka Neyestani",
+      "Vasilios Kouremenos",
+      "Argyrios Adalis",
+      "Anastasia E. Tzakou"
+    ]
+  },
+  {
+    "category": "architects__poland",
+    "members_all": 1580,
+    "min_sitelinks": 2,
+    "members_total": 989,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 45,
+    "example_members": [
+      "Ludwik Gintel",
+      "Zygmunt Skupniewicz",
+      "Agnieszka Labus",
+      "Aleksander Ludwik Kozubowski",
+      "Bohdan Lachert",
+      "Julian Puterman-Sadłowski"
+    ],
+    "example_foils": [
+      "Ernst Gustaf Hedman",
+      "Kalle Vartola",
+      "Helge Railo",
+      "Yrjö Armas Waskinen",
+      "Per Wilhelm Palmroth",
+      "Petr Kolínský"
+    ]
+  },
+  {
+    "category": "architects__finland",
+    "members_all": 1153,
+    "min_sitelinks": 2,
+    "members_total": 476,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 43,
+    "example_members": [
+      "Pekka Mäki",
+      "Sigurd Wettenhovi-Aspa",
+      "Matti K. Mäkinen",
+      "Paavo Joensalo",
+      "Emil Werner von Essen",
+      "Esko Korhonen"
+    ],
+    "example_foils": [
+      "Axel Bergman",
+      "Otto August Mankell",
+      "Folke Löfström",
+      "Jon Höjer",
+      "Carl Axel Setterberg",
+      "Karl M. Bengtson"
+    ]
+  },
+  {
+    "category": "architects__france",
+    "members_all": 6141,
+    "min_sitelinks": 2,
+    "members_total": 2607,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 23,
+    "example_members": [
+      "Gaston Aubry",
+      "Charles Christiani",
+      "Léon-Thomas Dupré",
+      "Joseph Hiriart",
+      "Jean Beausire",
+      "Bertrand Lemoine"
+    ],
+    "example_foils": [
+      "Henry van de Velde",
+      "Elena Manferdini",
+      "Umberto Riva",
+      "Walter Van Den Broeck",
+      "Rie Haan",
+      "Pietro Studiati Berni"
+    ]
+  },
+  {
+    "category": "architects__usa",
+    "members_all": 8195,
+    "min_sitelinks": 2,
+    "members_total": 2798,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 46,
+    "example_members": [
+      "William Allen",
+      "Milton L. Grigg",
+      "Duncan G. Stroik",
+      "Henry Wildhagen",
+      "John Randal McDonald",
+      "Karl Pullich"
+    ],
+    "example_foils": [
+      "James Glen Sivewright Gibson",
+      "Sarah Wigglesworth",
+      "Matthew Brettingham",
+      "Alfred Gelder",
+      "Foad Rafii",
+      "John Rebecca"
+    ]
+  },
+  {
+    "category": "rivers__india",
+    "members_all": 5635,
+    "min_sitelinks": 2,
+    "members_total": 870,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 47,
+    "example_members": [
+      "Dharla River",
+      "Jamunia River",
+      "Ganga River",
+      "Surya River",
+      "Pranhita River",
+      "Kim River"
+    ],
+    "example_foils": [
+      "Atharobanki River",
+      "Nagar River",
+      "Lower Karatoya River",
+      "Shoilmari River",
+      "Feni River",
+      "Umkrem River"
+    ]
+  },
+  {
+    "category": "rivers__pakistan",
+    "members_all": 4897,
+    "min_sitelinks": 2,
+    "members_total": 68,
+    "members_kept": 68,
+    "foils_kept": 100,
+    "sitelinks_median": 9,
+    "sitelinks_max": 159,
+    "example_members": [
+      "Hub River",
+      "Kundar River",
+      "Jagran River",
+      "Gomal River",
+      "Lutkho River",
+      "Nai Gaj"
+    ],
+    "example_foils": [
+      "Jamni River",
+      "Abnik River",
+      "Pambar River (Southern Tamil Nadu)",
+      "Vaan River",
+      "Walayar River",
+      "Und River"
+    ]
+  },
+  {
+    "category": "rivers__bangladesh",
+    "members_all": 574,
+    "min_sitelinks": 2,
+    "members_total": 178,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 55,
+    "example_members": [
+      "Ilisha River",
+      "Feni River",
+      "Haraboti River",
+      "Jinai River",
+      "Sonarbon River",
+      "Bankkhali River"
+    ],
+    "example_foils": [
+      "Ganga Water Lift Project",
+      "Vasishta Nadi",
+      "Diju River",
+      "Bara River",
+      "River Jindi",
+      "Doni River"
+    ]
+  },
+  {
+    "category": "rivers__sri_lanka",
+    "members_all": 132,
+    "min_sitelinks": 2,
+    "members_total": 32,
+    "members_kept": 32,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 31,
+    "example_members": [
+      "Malvathu River",
+      "Walawe River",
+      "Mi Oya",
+      "Maskeliya Oya",
+      "Kala Oya",
+      "Kalu River"
+    ],
+    "example_foils": [
+      "Tirap River",
+      "Meenachil River",
+      "Thennar River",
+      "Chakra River",
+      "Jidai River",
+      "Venna River"
+    ]
+  },
+  {
+    "category": "rivers__nepal",
+    "members_all": 154,
+    "min_sitelinks": 2,
+    "members_total": 66,
+    "members_kept": 66,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 113,
+    "example_members": [
+      "Mugu Karnali",
+      "Tila River",
+      "Kosi River",
+      "Chaku River",
+      "Karra River",
+      "Sabha River"
+    ],
+    "example_foils": [
+      "Dindi River",
+      "Chitravathi River",
+      "North Karo River",
+      "Galwan River",
+      "Arunavati River",
+      "Kankawati River"
+    ]
+  },
+  {
+    "category": "rivers__nigeria",
+    "members_all": 277,
+    "min_sitelinks": 2,
+    "members_total": 82,
+    "members_kept": 82,
+    "foils_kept": 100,
+    "sitelinks_median": 9,
+    "sitelinks_max": 156,
+    "example_members": [
+      "Dodo River",
+      "River Goulbi de Maradi",
+      "Ilo river",
+      "Ovia River",
+      "Ka River",
+      "Bunsuru"
+    ],
+    "example_foils": [
+      "Locheremoit River",
+      "Weu",
+      "Tantar",
+      "Temochewa",
+      "Tamabero",
+      "Wayona"
+    ]
+  },
+  {
+    "category": "rivers__kenya",
+    "members_all": 185,
+    "min_sitelinks": 2,
+    "members_total": 181,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 47,
+    "example_members": [
+      "Wamba",
+      "Wangutu",
+      "Suyiani",
+      "Mwakwembe River",
+      "Tegu",
+      "Gilgil River"
+    ],
+    "example_foils": [
+      "Calabar River",
+      "Kabenna River",
+      "Great Kwa River",
+      "Benin River",
+      "Gololcha River",
+      "Gra Adiam"
+    ]
+  },
+  {
+    "category": "rivers__ghana",
+    "members_all": 736,
+    "min_sitelinks": 2,
+    "members_total": 45,
+    "members_kept": 45,
+    "foils_kept": 100,
+    "sitelinks_median": 9,
+    "sitelinks_max": 78,
+    "example_members": [
+      "Anum River",
+      "Aboabo River",
+      "Volta River",
+      "Subin River",
+      "Dortsedor River",
+      "Wiwi River"
+    ],
+    "example_foils": [
+      "Kerio River",
+      "Kwa Ibo River",
+      "Thiba River",
+      "Gura river",
+      "Perkerra River",
+      "Otin River"
+    ]
+  },
+  {
+    "category": "rivers__ethiopia",
+    "members_all": 1421,
+    "min_sitelinks": 2,
+    "members_total": 146,
+    "members_kept": 146,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 248,
+    "example_members": [
+      "May Sho'ate",
+      "Ferrey River",
+      "Zikuli River",
+      "Omo River",
+      "Jikawo River",
+      "Qortem Zer'a"
+    ],
+    "example_foils": [
+      "Tangege",
+      "Nyahururu River",
+      "Gurara River",
+      "Donga River",
+      "Nyagombro River",
+      "Erinle River"
+    ]
+  },
+  {
+    "category": "rivers__south_africa",
+    "members_all": 803,
+    "min_sitelinks": 2,
+    "members_total": 399,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 90,
+    "example_members": [
+      "Assegaai River",
+      "Hyslop's Creek",
+      "Lomati River",
+      "Ngwempisi River",
+      "Wasbankspruit",
+      "Thomas River"
+    ],
+    "example_foils": [
+      "Tamabero",
+      "Gucha River",
+      "Brass River",
+      "Wei Wei",
+      "Birirbei River",
+      "Tambaya (Kiambu)"
+    ]
+  },
+  {
+    "category": "rivers__indonesia",
+    "members_all": 19999,
+    "min_sitelinks": 2,
+    "members_total": 390,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 44,
+    "example_members": [
+      "Kali Jatikramat",
+      "Masiwang River",
+      "Kali Cakung",
+      "Ci Lamaya",
+      "Kali Gangsa",
+      "Tangka River"
+    ],
+    "example_foils": [
+      "Agno River",
+      "Nam Youn",
+      "Naga River",
+      "Cái Nha Trang River",
+      "Ngòi Lâu",
+      "Sông Ngàn Sâu"
+    ]
+  },
+  {
+    "category": "rivers__philippines",
+    "members_all": 4507,
+    "min_sitelinks": 2,
+    "members_total": 101,
+    "members_kept": 101,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 35,
+    "example_members": [
+      "Subangdaku River",
+      "Agos River",
+      "Ilagan River",
+      "Sawaga River",
+      "Manupali River",
+      "Agusan River"
+    ],
+    "example_foils": [
+      "Sepik",
+      "Sông Lại Giang",
+      "Sông Ngàn Sâu",
+      "Kaingan River",
+      "Singingi River",
+      "Seremuk River"
+    ]
+  },
+  {
+    "category": "rivers__vietnam",
+    "members_all": 4158,
+    "min_sitelinks": 2,
+    "members_total": 242,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 118,
+    "example_members": [
+      "Ia Pett",
+      "Nam Mu",
+      "Ngòi Hút",
+      "Ia Khé",
+      "Ea Krông Hding",
+      "Nanxi River"
+    ],
+    "example_foils": [
+      "Magat River",
+      "Arut River",
+      "Baliung River",
+      "Jembayan River",
+      "Tapoa River",
+      "Kapuas River"
+    ]
+  },
+  {
+    "category": "rivers__brazil",
+    "members_all": 5352,
+    "min_sitelinks": 2,
+    "members_total": 2266,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 15,
+    "example_members": [
+      "Barbado River",
+      "Tijuípe River",
+      "Pimenta Bueno River",
+      "Quilombo River",
+      "Tinguá River",
+      "Una River"
+    ],
+    "example_foils": [
+      "Jáchal River",
+      "Río Lavayén",
+      "Futaleufú River",
+      "Cravo Norte River",
+      "Río Bermejito",
+      "Cesar River"
+    ]
+  },
+  {
+    "category": "rivers__mexico",
+    "members_all": 575,
+    "min_sitelinks": 2,
+    "members_total": 182,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 100,
+    "example_members": [
+      "Río Ramos",
+      "Balsas River",
+      "Río Grande",
+      "Lerma River",
+      "Atoyac River",
+      "Juchipila River"
+    ],
+    "example_foils": [
+      "Tiquié River",
+      "Nare River",
+      "Chico River",
+      "Castaño Viejo River",
+      "Ajajú River",
+      "Murrí River"
+    ]
+  },
+  {
+    "category": "rivers__argentina",
+    "members_all": 173,
+    "min_sitelinks": 2,
+    "members_total": 159,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 89,
+    "example_members": [
+      "Riacho Arazá",
+      "Encuentro River",
+      "Tunuyán River",
+      "Chalía River",
+      "San Javier River",
+      "Pilcomayo River"
+    ],
+    "example_foils": [
+      "Buriti River",
+      "Rio Verruga",
+      "Putumayo River",
+      "Lourenço Velho River",
+      "Cariús River",
+      "Água Quente River"
+    ]
+  },
+  {
+    "category": "rivers__colombia",
+    "members_all": 2046,
+    "min_sitelinks": 2,
+    "members_total": 139,
+    "members_kept": 139,
+    "foils_kept": 100,
+    "sitelinks_median": 8,
+    "sitelinks_max": 218,
+    "example_members": [
+      "Ajajú River",
+      "Nare River",
+      "Cinaruco River",
+      "Tarra River",
+      "Rio Negro",
+      "Cahuinari River"
+    ],
+    "example_foils": [
+      "São João River",
+      "Dos Patos River",
+      "Das Flores River",
+      "Itariri River",
+      "Jaú River",
+      "Aporema River"
+    ]
+  },
+  {
+    "category": "rivers__japan",
+    "members_all": 2503,
+    "min_sitelinks": 2,
+    "members_total": 1057,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 27,
+    "example_members": [
+      "Koise River",
+      "Tenryū River",
+      "Aburuma River",
+      "Asono River",
+      "Kannō River",
+      "Kiso Three Rivers"
+    ],
+    "example_foils": [
+      "Gan'en He",
+      "Tso Kung Tam",
+      "Jinsha River",
+      "Kunges River",
+      "Qiemo River",
+      "Category:East River (Hangzhou)"
+    ]
+  },
+  {
+    "category": "rivers__iran",
+    "members_all": 1197,
+    "min_sitelinks": 2,
+    "members_total": 321,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 78,
+    "example_members": [
+      "Babol River",
+      "Damghan River",
+      "Ahram River",
+      "Baft River",
+      "Sarijeh River",
+      "Alwand River"
+    ],
+    "example_foils": [
+      "Pactolus",
+      "Great Zab",
+      "Kunar River",
+      "Rezovska",
+      "Thermodon",
+      "Beşgöz Creek"
+    ]
+  },
+  {
+    "category": "rivers__turkey",
+    "members_all": 2129,
+    "min_sitelinks": 2,
+    "members_total": 192,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 142,
+    "example_members": [
+      "Tohumluk River",
+      "Meles river",
+      "Sille River",
+      "Boğa Brook",
+      "Afrin River",
+      "Rezovska"
+    ],
+    "example_foils": [
+      "Golestan River",
+      "Erythropotamos",
+      "Tar River",
+      "Haliacmon",
+      "Pavllë",
+      "Charadros"
+    ]
+  },
+  {
+    "category": "rivers__poland",
+    "members_all": 1472,
+    "min_sitelinks": 2,
+    "members_total": 1080,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 58,
+    "example_members": [
+      "Dzierzbia",
+      "Kraska",
+      "Guber",
+      "Żółty Potok",
+      "Pełcznica",
+      "Zgłowiączka"
+    ],
+    "example_foils": [
+      "Kocába",
+      "Bystřice",
+      "Mohelka",
+      "Morešveaijohka",
+      "Želivka",
+      "Hrubý potok"
+    ]
+  },
+  {
+    "category": "rivers__finland",
+    "members_all": 630,
+    "min_sitelinks": 2,
+    "members_total": 345,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 43,
+    "example_members": [
+      "Piesjoki",
+      "Velluanjoki",
+      "Vääräjoki",
+      "Tammerkoski",
+      "Malinovka",
+      "Vepsänjoki"
+    ],
+    "example_foils": [
+      "Piirioja",
+      "Ura River",
+      "Bergvallsån",
+      "Koosa River",
+      "Tidan",
+      "Riguldi River"
+    ]
+  },
+  {
+    "category": "rivers__france",
+    "members_all": 5375,
+    "min_sitelinks": 2,
+    "members_total": 3066,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 44,
+    "example_members": [
+      "Lentillà",
+      "Orge",
+      "Aixette",
+      "Aber-Benoît",
+      "Vieux Rhône",
+      "Vienne"
+    ],
+    "example_foils": [
+      "Serio",
+      "Torto",
+      "Recco (torrente)",
+      "Nestore",
+      "Spöl",
+      "Ofanto"
+    ]
+  },
+  {
+    "category": "rivers__usa",
+    "members_all": 19965,
+    "min_sitelinks": 2,
+    "members_total": 7563,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 26,
+    "example_members": [
+      "Little Knife River",
+      "Yentna River",
+      "Rogue River",
+      "Laurel Fork",
+      "Carr River",
+      "Nacimiento River"
+    ],
+    "example_foils": [
+      "Waterhen River",
+      "River Leach",
+      "River Dee",
+      "Rivière Achazi",
+      "River Heddon",
+      "Rivière Kapaquatche"
+    ]
+  },
+  {
+    "category": "lakes__india",
+    "members_all": 440,
+    "min_sitelinks": 2,
+    "members_total": 291,
+    "members_kept": 150,
+    "foils_kept": 63,
+    "sitelinks_median": 5,
+    "sitelinks_max": 47,
+    "example_members": [
+      "Kapra Lake",
+      "Ramanthapur Lake",
+      "Vibhutipura Lake",
+      "Seruvalsar and Manimahesh Lake",
+      "Dal Lake",
+      "Berijam Lake"
+    ],
+    "example_foils": [
+      "Banani Lake",
+      "Chapaigachir Beel",
+      "Adlkhu Dhand",
+      "Niladri Lake",
+      "Madhobpur Lake",
+      "Daral Lake"
+    ]
+  },
+  {
+    "category": "lakes__pakistan",
+    "members_all": 84,
+    "min_sitelinks": 2,
+    "members_total": 50,
+    "members_kept": 50,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 21,
+    "example_members": [
+      "Saidgai Lake",
+      "Zharba Lake",
+      "Hadero Lake",
+      "Baghsar Lake",
+      "Pari Lake",
+      "Shandur Lake"
+    ],
+    "example_foils": [
+      "Tso Moriri",
+      "Joysagar Lake",
+      "Dora Beel",
+      "Lahartara Pond",
+      "Lake Pichola",
+      "Vembanad"
+    ]
+  },
+  {
+    "category": "lakes__bangladesh",
+    "dropped": "too small",
+    "members_all": 23,
+    "min_sitelinks": 2,
+    "members_total": 14,
+    "members_kept": 14,
+    "foils_kept": 100
+  },
+  {
+    "category": "lakes__sri_lanka",
+    "dropped": "too small",
+    "members_all": 20,
+    "min_sitelinks": 2,
+    "members_total": 18,
+    "members_kept": 18,
+    "foils_kept": 100
+  },
+  {
+    "category": "lakes__nepal",
+    "members_all": 43,
+    "min_sitelinks": 2,
+    "members_total": 37,
+    "members_kept": 37,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 30,
+    "example_members": [
+      "Depang lake",
+      "Parvati Kunda",
+      "Gangapurna Lake",
+      "Kubinde Daha",
+      "Kamal lake",
+      "Ali Taal"
+    ],
+    "example_foils": [
+      "Modak Sagar",
+      "Railadevi talav",
+      "Brahma Sarovar",
+      "Velachery Lake",
+      "Gopi Talav",
+      "Yele Mallappa Shetty Lake"
+    ]
+  },
+  {
+    "category": "lakes__nigeria",
+    "dropped": "too small",
+    "members_all": 44,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 24
+  },
+  {
+    "category": "lakes__kenya",
+    "dropped": "too small",
+    "members_all": 25,
+    "min_sitelinks": 2,
+    "members_total": 23,
+    "members_kept": 23,
+    "foils_kept": 28
+  },
+  {
+    "category": "lakes__ghana",
+    "dropped": "too small",
+    "members_all": 14,
+    "min_sitelinks": 2,
+    "members_total": 1,
+    "members_kept": 1,
+    "foils_kept": 32
+  },
+  {
+    "category": "lakes__ethiopia",
+    "dropped": "too small",
+    "members_all": 49,
+    "min_sitelinks": 2,
+    "members_total": 20,
+    "members_kept": 20,
+    "foils_kept": 31
+  },
+  {
+    "category": "lakes__south_africa",
+    "dropped": "too small",
+    "members_all": 9,
+    "min_sitelinks": 2,
+    "members_total": 8,
+    "members_kept": 8,
+    "foils_kept": 32
+  },
+  {
+    "category": "lakes__indonesia",
+    "members_all": 1569,
+    "min_sitelinks": 2,
+    "members_total": 180,
+    "members_kept": 150,
+    "foils_kept": 51,
+    "sitelinks_median": 2,
+    "sitelinks_max": 26,
+    "example_members": [
+      "Herang Lake",
+      "Situ Cibugang",
+      "Lake Matano",
+      "Lake Wanayasa",
+      "Situ Ijan",
+      "Gedangkulut Lake"
+    ],
+    "example_foils": [
+      "Lake Apo",
+      "Lake Tikub",
+      "Lake Aguingay",
+      "Lake Manguao",
+      "Lake Bulusan",
+      "Xuan Huong Lake"
+    ]
+  },
+  {
+    "category": "lakes__philippines",
+    "members_all": 39,
+    "min_sitelinks": 2,
+    "members_total": 34,
+    "members_kept": 34,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 31,
+    "example_members": [
+      "Lake Dasay",
+      "Lake Balinsasayao",
+      "Lake Lanao",
+      "Kayangan Lake",
+      "Alligator Lake",
+      "Lake Apo"
+    ],
+    "example_foils": [
+      "Situ Cibugang",
+      "Danau Tigi",
+      "Situ Kidewong",
+      "Situ Jampang Pulo",
+      "Hồ Yên Thắng",
+      "Rawa Citamiang"
+    ]
+  },
+  {
+    "category": "lakes__vietnam",
+    "dropped": "too small",
+    "members_all": 24,
+    "min_sitelinks": 2,
+    "members_total": 17,
+    "members_kept": 17,
+    "foils_kept": 100
+  },
+  {
+    "category": "lakes__brazil",
+    "members_all": 2003,
+    "min_sitelinks": 2,
+    "members_total": 1773,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Lago Mergulhão",
+      "Lago do Ferreira",
+      "Lago Quirimiri",
+      "Açude Piabas",
+      "Lagoa Redonda",
+      "Lagoa Jatobazinho"
+    ],
+    "example_foils": [
+      "Ciénaga el Potrero",
+      "Laguna El Zorro",
+      "Laguna Ciega",
+      "Laguna Tordillo",
+      "Laguna del Monte",
+      "Laguna López"
+    ]
+  },
+  {
+    "category": "lakes__mexico",
+    "dropped": "too small",
+    "members_all": 37,
+    "min_sitelinks": 2,
+    "members_total": 26,
+    "members_kept": 26,
+    "foils_kept": 100
+  },
+  {
+    "category": "lakes__argentina",
+    "members_all": 1294,
+    "min_sitelinks": 2,
+    "members_total": 1072,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 20,
+    "example_members": [
+      "Laguna La Boya",
+      "Laguna Sucia",
+      "Lac Fontana",
+      "Laguna Fernández",
+      "Laguna MacCay",
+      "Laguna María Antonia"
+    ],
+    "example_foils": [
+      "Lagoa do Retavado",
+      "Lago Mamoriacá",
+      "Represa Capitão da Mata",
+      "Açude General Sampaio",
+      "Lago Juruá Puca",
+      "Lago Curuá"
+    ]
+  },
+  {
+    "category": "lakes__colombia",
+    "members_all": 176,
+    "min_sitelinks": 2,
+    "members_total": 164,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 23,
+    "example_members": [
+      "Ciénaga Peranchó",
+      "Ciénaga Playoncito",
+      "Ciénaga de Vásquez",
+      "Laguna de Suesca",
+      "Laguna Peña Negra",
+      "Ciénaga Simoa"
+    ],
+    "example_foils": [
+      "Açude São Miguel",
+      "Lago Baunilha",
+      "Lagoa das Pipocas",
+      "Açude Cachoeira",
+      "Feia Lake",
+      "Lago Castanha-mirim"
+    ]
+  },
+  {
+    "category": "lakes__japan",
+    "members_all": 134,
+    "min_sitelinks": 2,
+    "members_total": 104,
+    "members_kept": 104,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 31,
+    "example_members": [
+      "Lake Kasumigaura",
+      "Oguni-numa Pond",
+      "Lake Miike",
+      "Lake Hokuryu",
+      "Lake Abashiri",
+      "Gōnoike"
+    ],
+    "example_foils": [
+      "Gyarab Pünco",
+      "Beimin Hu",
+      "Yaohu Lake",
+      "Dapeng Hu",
+      "Pangkog Co",
+      "Xên Co"
+    ]
+  },
+  {
+    "category": "lakes__iran",
+    "members_all": 85,
+    "min_sitelinks": 2,
+    "members_total": 37,
+    "members_kept": 37,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 207,
+    "example_members": [
+      "Dokhaharan Lake",
+      "Keeyow Lake",
+      "Arzhan Lake",
+      "Tashk Lake",
+      "Shorabil Lake",
+      "Gahar Lake"
+    ],
+    "example_foils": [
+      "Lake Gaga",
+      "Lake Simenit",
+      "Akgöl",
+      "Lake Akşehir",
+      "Izmis Lake",
+      "Lake Eymir"
+    ]
+  },
+  {
+    "category": "lakes__turkey",
+    "members_all": 152,
+    "min_sitelinks": 2,
+    "members_total": 109,
+    "members_kept": 109,
+    "foils_kept": 97,
+    "sitelinks_median": 5,
+    "sitelinks_max": 35,
+    "example_members": [
+      "Lake Sapanca",
+      "Akgöl",
+      "Lake Akşehir",
+      "Lake Kuyucuk",
+      "Lake Gölcük",
+      "Lake Limni"
+    ],
+    "example_foils": [
+      "Kotychi",
+      "Gori Lake",
+      "Sabz Lake",
+      "Lake Pamvotida",
+      "Skra lake",
+      "Lake Vouliagmeni"
+    ]
+  },
+  {
+    "category": "lakes__poland",
+    "members_all": 1412,
+    "min_sitelinks": 2,
+    "members_total": 988,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 26,
+    "example_members": [
+      "Łękuk",
+      "Nature reserve Czarnówek Lake",
+      "Dębowa Lake",
+      "Głowińskie Lake",
+      "Linie",
+      "Szczycienko"
+    ],
+    "example_foils": [
+      "Honkalampi",
+      "Valkeinen",
+      "Koutusjärvi",
+      "Ronkajärvi",
+      "Pitkälampi",
+      "Korppinen"
+    ]
+  },
+  {
+    "category": "lakes__finland",
+    "members_all": 10424,
+    "min_sitelinks": 2,
+    "members_total": 3743,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 77,
+    "example_members": [
+      "Mäntyjärvi",
+      "Näätimäinen",
+      "Ala-Outojärvi",
+      "Ahvenlampi",
+      "Äijänpäivänjärvi",
+      "Luttu"
+    ],
+    "example_foils": [
+      "Stor-Kvarntjärnen",
+      "Bustadtjärnen",
+      "Bysjön, Värmland",
+      "Lill-Arvträsket",
+      "Vin",
+      "Lindjärv"
+    ]
+  },
+  {
+    "category": "lakes__france",
+    "members_all": 457,
+    "min_sitelinks": 2,
+    "members_total": 328,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 11,
+    "example_members": [
+      "Lac des Rouites",
+      "Grand lac d'Oro",
+      "Lac Euphrosine",
+      "Lac de Panthier",
+      "Lac d'Apremont",
+      "Lac Bleu d'Ilhéou"
+    ],
+    "example_foils": [
+      "Lake of the Idols",
+      "Lago Revelli",
+      "Lago del Predil",
+      "Lago di Fondi",
+      "Lago di Centro Cadore",
+      "Lago Ciardonnet"
+    ]
+  },
+  {
+    "category": "lakes__usa",
+    "members_all": 19994,
+    "min_sitelinks": 2,
+    "members_total": 3201,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 107,
+    "example_members": [
+      "Waldo Lake",
+      "Roland Lake",
+      "Leech Lake",
+      "Bear Lake",
+      "Lake El Reno",
+      "Grebe Lake"
+    ],
+    "example_foils": [
+      "Lac Nasser",
+      "Lac Cardou",
+      "Hobsons Lake",
+      "Lac du Vieux Moulin à Scie",
+      "Lac en l'Air",
+      "Lac Carmichael"
+    ]
+  },
+  {
+    "category": "mountains__india",
+    "members_all": 2534,
+    "min_sitelinks": 2,
+    "members_total": 333,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 60,
+    "example_members": [
+      "Devar Mala",
+      "Shikar Beh",
+      "Panwali Kantha Bugyal",
+      "Sherpi Kangri",
+      "Swargarohini",
+      "Calvarimount"
+    ],
+    "example_foils": [
+      "Tor Zawar",
+      "Urdok III",
+      "Lobsang Spire",
+      "Terich Mir West IV",
+      "Yukshin Gardan Sar",
+      "Summa Ri"
+    ]
+  },
+  {
+    "category": "mountains__pakistan",
+    "members_all": 4698,
+    "min_sitelinks": 2,
+    "members_total": 168,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 112,
+    "example_members": [
+      "Skyang Kangri",
+      "Istor-o-Nal",
+      "Kanjut Sar",
+      "Distaghil Sar",
+      "Karun Kuh",
+      "Baltoro Kangri"
+    ],
+    "example_foils": [
+      "Mount Kamar Dasht",
+      "Malayagiri",
+      "Kuh-e Rahmat",
+      "Mount Doberar",
+      "Kalsubai",
+      "Mount Derak"
+    ]
+  },
+  {
+    "category": "mountains__bangladesh",
+    "dropped": "too small",
+    "members_all": 60,
+    "min_sitelinks": 2,
+    "members_total": 13,
+    "members_kept": 13,
+    "foils_kept": 100
+  },
+  {
+    "category": "mountains__sri_lanka",
+    "dropped": "too small",
+    "members_all": 339,
+    "min_sitelinks": 2,
+    "members_total": 28,
+    "members_kept": 28,
+    "foils_kept": 100
+  },
+  {
+    "category": "mountains__nepal",
+    "members_all": 228,
+    "min_sitelinks": 2,
+    "members_total": 160,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 238,
+    "example_members": [
+      "Thulagi Chuli",
+      "Annapurna II",
+      "Ramthang Lho",
+      "Yakawa Kang",
+      "Cho Polu",
+      "Takargo"
+    ],
+    "example_foils": [
+      "Saf Minal",
+      "Gasherbrum IV",
+      "Balakun",
+      "Mulkila",
+      "Deomali",
+      "Chembra Peak"
+    ]
+  },
+  {
+    "category": "mountains__nigeria",
+    "dropped": "too small",
+    "members_all": 212,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 39
+  },
+  {
+    "category": "mountains__kenya",
+    "members_all": 127,
+    "min_sitelinks": 2,
+    "members_total": 31,
+    "members_kept": 31,
+    "foils_kept": 94,
+    "sitelinks_median": 11,
+    "sitelinks_max": 89,
+    "example_members": [
+      "Mau Escarpment",
+      "Ol Doinyo Eburru",
+      "Elmenteita Badlands",
+      "Mount Elgon",
+      "Mount Marsabit",
+      "Korosi"
+    ],
+    "example_foils": [
+      "Abul Kasim",
+      "Borawli",
+      "Oshie Ridge",
+      "Dofan",
+      "Mount Fentale",
+      "Adwa"
+    ]
+  },
+  {
+    "category": "mountains__ghana",
+    "dropped": "too small",
+    "members_all": 58,
+    "min_sitelinks": 2,
+    "members_total": 8,
+    "members_kept": 8,
+    "foils_kept": 40
+  },
+  {
+    "category": "mountains__ethiopia",
+    "members_all": 895,
+    "min_sitelinks": 2,
+    "members_total": 85,
+    "members_kept": 85,
+    "foils_kept": 40,
+    "sitelinks_median": 9,
+    "sitelinks_max": 47,
+    "example_members": [
+      "Borale Ale",
+      "Mount Damota",
+      "Ras Dashen",
+      "Mount Welel",
+      "Gara Muleta",
+      "Danakil mountain"
+    ],
+    "example_foils": [
+      "Mount Dimlang",
+      "Ol Doinyo Orok",
+      "Batian",
+      "Zuma Rock",
+      "Mount Marsabit",
+      "Nguruman Escarpment"
+    ]
+  },
+  {
+    "category": "mountains__south_africa",
+    "members_all": 5219,
+    "min_sitelinks": 2,
+    "members_total": 142,
+    "members_kept": 142,
+    "foils_kept": 40,
+    "sitelinks_median": 2,
+    "sitelinks_max": 72,
+    "example_members": [
+      "Kleinrivier Mountains",
+      "Kolberg",
+      "Platfontein",
+      "Kranskop",
+      "Kerkenberg",
+      "Witelsberg"
+    ],
+    "example_foils": [
+      "Mount Mtelo",
+      "Mount Dimlang",
+      "Mount Silali",
+      "Ara Rock",
+      "Chappal Waddi",
+      "Kitaingo"
+    ]
+  },
+  {
+    "category": "mountains__indonesia",
+    "members_all": 19952,
+    "min_sitelinks": 2,
+    "members_total": 2095,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 32,
+    "example_members": [
+      "Cot Eumpueng Cut",
+      "Gle Singgah Mata",
+      "Cot Serampeung",
+      "Bur Berawang Naru",
+      "Gunung Leuser",
+      "Bukit Bata"
+    ],
+    "example_foils": [
+      "Paco",
+      "Ma-adios",
+      "Mount Baloy",
+      "San Cristobal",
+      "Mount Santo Tomas",
+      "Ko Kouan Chan"
+    ]
+  },
+  {
+    "category": "mountains__philippines",
+    "members_all": 1888,
+    "min_sitelinks": 2,
+    "members_total": 121,
+    "members_kept": 121,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 70,
+    "example_members": [
+      "Smith Volcano",
+      "Mount Porras",
+      "Mount Diwata",
+      "Mount Pulong Bato",
+      "Drake Peak",
+      "Laguna Caldera"
+    ],
+    "example_foils": [
+      "Burni Gemok",
+      "Gle Data",
+      "Bur Pepara",
+      "Burni Pematang Tamiang",
+      "Bukit Meudangara",
+      "Mountain Kumbang"
+    ]
+  },
+  {
+    "category": "mountains__vietnam",
+    "members_all": 3369,
+    "min_sitelinks": 2,
+    "members_total": 46,
+    "members_kept": 46,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 46,
+    "example_members": [
+      "Nui Lon",
+      "Nhoi mountain",
+      "Mount Ban",
+      "Dong Ap Bia",
+      "Núi Nưa",
+      "Núi Sốc Lu"
+    ],
+    "example_foils": [
+      "Mountain Tanggak",
+      "Gunung Kuali",
+      "Peunimpun",
+      "Kuali",
+      "Dempo",
+      "Gle Manyang"
+    ]
+  },
+  {
+    "category": "mountains__brazil",
+    "members_all": 3247,
+    "min_sitelinks": 2,
+    "members_total": 160,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 59,
+    "example_members": [
+      "Morro da Urca",
+      "Pico da Tijuca",
+      "Juréia Massif",
+      "Pico Caratuva",
+      "Pico da Carioca",
+      "Morro do Capão Doce"
+    ],
+    "example_foils": [
+      "Cerro Tres Picos",
+      "Socompa",
+      "Payún",
+      "Monte Wood",
+      "Cerro El Tablazo",
+      "Nevado Olivares"
+    ]
+  },
+  {
+    "category": "mountains__mexico",
+    "members_all": 18222,
+    "min_sitelinks": 2,
+    "members_total": 139,
+    "members_kept": 139,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 65,
+    "example_members": [
+      "Cerro Pizarro",
+      "Xítle",
+      "Tláloc",
+      "Cerro La Cruz del Marqués",
+      "El Tecajete",
+      "Double Peak"
+    ],
+    "example_foils": [
+      "Nevado",
+      "Cerro Penitentes",
+      "Cerro Tamaná",
+      "Cerro El Volador",
+      "Sierra de Guayaguas",
+      "Sierra Pie de Palo"
+    ]
+  },
+  {
+    "category": "mountains__argentina",
+    "members_all": 5582,
+    "min_sitelinks": 2,
+    "members_total": 238,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 72,
+    "example_members": [
+      "Cerro Pico Truncado",
+      "Cerro Ap Iwan",
+      "Cerro Pietrobelli",
+      "Pico Salamanca",
+      "Mercedario",
+      "Cerro Abanico"
+    ],
+    "example_foils": [
+      "Morro do Juramento",
+      "Massif of Urucum",
+      "Serra da Boa Vista, Ceará",
+      "Serra do Roncador",
+      "Sierra de Tepoztlan",
+      "Monte Serrat"
+    ]
+  },
+  {
+    "category": "mountains__colombia",
+    "members_all": 3205,
+    "min_sitelinks": 2,
+    "members_total": 60,
+    "members_kept": 60,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 46,
+    "example_members": [
+      "Cerro Irapa",
+      "Cerro Tasajero",
+      "Guadalupe Hill",
+      "Pico Cristóbal Colón",
+      "Cerro Pintado",
+      "Cerro Chimayoy"
+    ],
+    "example_foils": [
+      "Serra da Boa Vista, Ceará",
+      "Cerro Mesa Ahumada",
+      "Bufa",
+      "Morro Cara de Cão",
+      "Cerro El Penitente",
+      "Cerro del ¥wmaπB"
+    ]
+  },
+  {
+    "category": "mountains__japan",
+    "members_all": 5634,
+    "min_sitelinks": 2,
+    "members_total": 1973,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 18,
+    "example_members": [
+      "Mount Tairyūji",
+      "Jippō Zan",
+      "Ōgon Zan",
+      "Mount Tsunomure",
+      "Mount Akagio",
+      "Mount Fujiwara"
+    ],
+    "example_foils": [
+      "Daban mountains",
+      "Violet Hill",
+      "She Shan",
+      "Chokpori",
+      "Oeumsan",
+      "Kwai Tau Leng"
+    ]
+  },
+  {
+    "category": "mountains__iran",
+    "members_all": 19754,
+    "min_sitelinks": 2,
+    "members_total": 246,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Malek Sīāh Kūh",
+      "Mount Khurzin",
+      "Sefid Kooh",
+      "Mount Bozgush",
+      "Mount Bel",
+      "Mount Doberar"
+    ],
+    "example_foils": [
+      "Rakaposhi",
+      "Shīri",
+      "Akher Tsagh",
+      "Çedirge Dağı",
+      "Mizri Ghar",
+      "Babadağ"
+    ]
+  },
+  {
+    "category": "mountains__turkey",
+    "members_all": 3103,
+    "min_sitelinks": 2,
+    "members_total": 206,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 112,
+    "example_members": [
+      "Kargapazarı Dağları",
+      "Bobyezbaba Dağı",
+      "Harkever Dağı",
+      "Mount Ekecik",
+      "Little Ararat",
+      "Akdağ"
+    ],
+    "example_foils": [
+      "Mount Bagh Dasht",
+      "Pinovo",
+      "Andithonas",
+      "Kūh-e Mīr Ḩājjī",
+      "Artemisio",
+      "Mainalo"
+    ]
+  },
+  {
+    "category": "mountains__poland",
+    "members_all": 1166,
+    "min_sitelinks": 2,
+    "members_total": 925,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 12,
+    "example_members": [
+      "Kobyla",
+      "Góra Zborów",
+      "Gilowa Gora",
+      "Popielak",
+      "Zadnia Kopka",
+      "Błatnia"
+    ],
+    "example_foils": [
+      "Zábrdský kopec",
+      "Jedová",
+      "Aanuhvaarri",
+      "Vlčice",
+      "Hvězda",
+      "Lysá"
+    ]
+  },
+  {
+    "category": "mountains__finland",
+    "members_all": 246,
+    "min_sitelinks": 2,
+    "members_total": 177,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 25,
+    "example_members": [
+      "Vardberget",
+      "Koivakero",
+      "Ráššoaivi",
+      "Tammukkaoaivi",
+      "Langskata",
+      "Sammaltunturi"
+    ],
+    "example_foils": [
+      "Pingisvaara",
+      "Åsberget",
+      "Huikavaara",
+      "Balsberget",
+      "Njullá",
+      "Valskaftet"
+    ]
+  },
+  {
+    "category": "mountains__france",
+    "members_all": 4356,
+    "min_sitelinks": 2,
+    "members_total": 1640,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 50,
+    "example_members": [
+      "Tête des Faux",
+      "L'Aliet",
+      "Puy de Grandval",
+      "Testa di Tablesses",
+      "Mont de la Coche",
+      "Pic de Serra Gallinera"
+    ],
+    "example_foils": [
+      "Grande Uia di Ciardonei",
+      "Monte Finestra",
+      "Cima dei Preti",
+      "Mount Stromboli",
+      "Monte Lattias",
+      "Monte Costa Calda"
+    ]
+  },
+  {
+    "category": "mountains__usa",
+    "members_all": 19989,
+    "min_sitelinks": 2,
+    "members_total": 3589,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 21,
+    "example_members": [
+      "Thicketty Mountain",
+      "Desolation Peak",
+      "Cerro El Bolo",
+      "Bitch Mountain",
+      "Cliff Mountain",
+      "Devils Desk"
+    ],
+    "example_foils": [
+      "Kirkland Hill",
+      "Mount Greenock",
+      "Xerxes Peak",
+      "Beinn Thunicaraidh",
+      "Cracker Creek Cone",
+      "Mount Kinney"
+    ]
+  },
+  {
+    "category": "islands__india",
+    "members_all": 345,
+    "min_sitelinks": 2,
+    "members_total": 153,
+    "members_kept": 150,
+    "foils_kept": 36,
+    "sitelinks_median": 6,
+    "sitelinks_max": 67,
+    "example_members": [
+      "Diviseema",
+      "Nisargadhama",
+      "Bitra Island",
+      "Alia Bet",
+      "Jhow Island",
+      "Tarāsa Dwīp"
+    ],
+    "example_foils": [
+      "St. Martin's Island",
+      "Hatia Island",
+      "Buddo Island",
+      "Clifton Oyster Rocks",
+      "Char Nizam",
+      "Ashar Char"
+    ]
+  },
+  {
+    "category": "islands__pakistan",
+    "dropped": "too small",
+    "members_all": 14,
+    "min_sitelinks": 2,
+    "members_total": 12,
+    "members_kept": 12,
+    "foils_kept": 100
+  },
+  {
+    "category": "islands__bangladesh",
+    "dropped": "too small",
+    "members_all": 85,
+    "min_sitelinks": 2,
+    "members_total": 25,
+    "members_kept": 25,
+    "foils_kept": 100
+  },
+  {
+    "category": "islands__sri_lanka",
+    "dropped": "too small",
+    "members_all": 82,
+    "min_sitelinks": 2,
+    "members_total": 13,
+    "members_kept": 13,
+    "foils_kept": 100
+  },
+  {
+    "category": "islands__nepal",
+    "dropped": "too small",
+    "members_all": 0,
+    "min_sitelinks": 2,
+    "members_total": 0,
+    "members_kept": 0,
+    "foils_kept": 100
+  },
+  {
+    "category": "islands__nigeria",
+    "dropped": "too small",
+    "members_all": 24,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 93
+  },
+  {
+    "category": "islands__kenya",
+    "dropped": "too small",
+    "members_all": 97,
+    "min_sitelinks": 2,
+    "members_total": 91,
+    "members_kept": 91,
+    "foils_kept": 17
+  },
+  {
+    "category": "islands__ghana",
+    "dropped": "too small",
+    "members_all": 11,
+    "min_sitelinks": 2,
+    "members_total": 2,
+    "members_kept": 2,
+    "foils_kept": 100
+  },
+  {
+    "category": "islands__ethiopia",
+    "dropped": "too small",
+    "members_all": 18,
+    "min_sitelinks": 2,
+    "members_total": 8,
+    "members_kept": 8,
+    "foils_kept": 100
+  },
+  {
+    "category": "islands__south_africa",
+    "dropped": "too small",
+    "members_all": 102,
+    "min_sitelinks": 2,
+    "members_total": 20,
+    "members_kept": 20,
+    "foils_kept": 98
+  },
+  {
+    "category": "islands__indonesia",
+    "members_all": 4933,
+    "min_sitelinks": 2,
+    "members_total": 797,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 159,
+    "example_members": [
+      "Sekatung Island",
+      "Jawang Island",
+      "Rani Island",
+      "Marak Island",
+      "Harimau Island",
+      "Sibarubaru Island"
+    ],
+    "example_foils": [
+      "Siayan Island",
+      "Amboyna Cay",
+      "Ponson Island",
+      "Bantac Island",
+      "Hòn Mê",
+      "Bongao Island"
+    ]
+  },
+  {
+    "category": "islands__philippines",
+    "members_all": 2398,
+    "min_sitelinks": 2,
+    "members_total": 367,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 120,
+    "example_members": [
+      "Dicilingan Maliit Island",
+      "Loaita Island",
+      "Danjugan Island",
+      "Maclambay Island",
+      "Capare Island",
+      "Botique Island"
+    ],
+    "example_foils": [
+      "Kedumpit Island",
+      "Raya Island",
+      "Babi Island",
+      "Pulau Doangdoangan Kecil",
+      "Nibuang Batu Kalang Island",
+      "Hoga Island"
+    ]
+  },
+  {
+    "category": "islands__vietnam",
+    "members_all": 506,
+    "min_sitelinks": 2,
+    "members_total": 85,
+    "members_kept": 85,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 74,
+    "example_members": [
+      "Barque Canada Reef",
+      "Hòn Mai",
+      "Hon Tre Lon",
+      "Cát Hải",
+      "Tree Island",
+      "Boundary Island (Hainan, China)"
+    ],
+    "example_foils": [
+      "Suluan Island",
+      "Sumba Island",
+      "Ugar Island",
+      "La Monja Island",
+      "Maitara Island",
+      "Karimun Island"
+    ]
+  },
+  {
+    "category": "islands__brazil",
+    "members_all": 1978,
+    "min_sitelinks": 2,
+    "members_total": 164,
+    "members_kept": 150,
+    "foils_kept": 83,
+    "sitelinks_median": 3,
+    "sitelinks_max": 70,
+    "example_members": [
+      "Guajirú island",
+      "Ilha Guriri",
+      "Ilha das Couves",
+      "Área de Proteção Ambiental da Ilha do Combu",
+      "Island of Cabbage",
+      "Ilha do Chico Pedro"
+    ],
+    "example_foils": [
+      "Isla Venezuela",
+      "Cayo Bolívar",
+      "Isla Shag",
+      "Isla Gorgona",
+      "Santa Cruz del Islote",
+      "Isla Bermejo"
+    ]
+  },
+  {
+    "category": "islands__mexico",
+    "members_all": 559,
+    "min_sitelinks": 2,
+    "members_total": 271,
+    "members_kept": 150,
+    "foils_kept": 80,
+    "sitelinks_median": 2,
+    "sitelinks_max": 41,
+    "example_members": [
+      "San Pedro Nolasco Island",
+      "Isla Santo Domingo",
+      "Isla Coronado",
+      "Isla Pajaros",
+      "Isla La Raza",
+      "Janitzio Island"
+    ],
+    "example_foils": [
+      "Islote Rojo",
+      "Isla Entre Ríos",
+      "Isla Gorgona",
+      "Aristizábal Island",
+      "Isla Zuraita",
+      "Isla Paulino"
+    ]
+  },
+  {
+    "category": "islands__argentina",
+    "members_all": 447,
+    "min_sitelinks": 2,
+    "members_total": 48,
+    "members_kept": 48,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 56,
+    "example_members": [
+      "Isla Santa Rosa",
+      "Península Stokes",
+      "Isla Arce",
+      "Isla Curuzú Chalí",
+      "Islote Rojo",
+      "Islote Gran Robredo"
+    ],
+    "example_foils": [
+      "Ilha do Veiga",
+      "Isla Gaytanes",
+      "Isla Dauto",
+      "Isla Cardones",
+      "Isla de Sacrificios",
+      "Ilha das Onças"
+    ]
+  },
+  {
+    "category": "islands__colombia",
+    "members_all": 557,
+    "min_sitelinks": 2,
+    "members_total": 36,
+    "members_kept": 36,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 35,
+    "example_members": [
+      "Cabruna Island",
+      "Isla Venezuela",
+      "Roncador Cay",
+      "Isla de los Micos",
+      "Crab Cay",
+      "Isla El Morro"
+    ],
+    "example_foils": [
+      "Santa Catarina Island",
+      "Clubes Island",
+      "Isla Alcatraz",
+      "Isla Melendres",
+      "Ilha do Corisco",
+      "Ilha do Capim"
+    ]
+  },
+  {
+    "category": "islands__japan",
+    "members_all": 1056,
+    "min_sitelinks": 2,
+    "members_total": 630,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 52,
+    "example_members": [
+      "Ashijima",
+      "Kohama Island",
+      "Nōmijima",
+      "Kamashima",
+      "Amuro Island",
+      "Mieshima"
+    ],
+    "example_foils": [
+      "Yuen Kong Chau",
+      "Dalieshan",
+      "Shengsi Islands",
+      "Fun Chau",
+      "Dawangjia Island",
+      "Taipa"
+    ]
+  },
+  {
+    "category": "islands__iran",
+    "members_all": 32,
+    "min_sitelinks": 2,
+    "members_total": 30,
+    "members_kept": 30,
+    "foils_kept": 100,
+    "sitelinks_median": 11,
+    "sitelinks_max": 59,
+    "example_members": [
+      "Kish Island",
+      "Eshekar",
+      "Dara Island",
+      "Farsi Island",
+      "Qeshm Island",
+      "Greater Faror Island"
+    ],
+    "example_foils": [
+      "Baba and Bhit Islands",
+      "Cıfıtkalesi Islet",
+      "Metelik Island",
+      "Güvercinada",
+      "Kızılada, Fethiye",
+      "Mada Adası"
+    ]
+  },
+  {
+    "category": "islands__turkey",
+    "members_all": 280,
+    "min_sitelinks": 2,
+    "members_total": 98,
+    "members_kept": 98,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 55,
+    "example_members": [
+      "Karantina Island",
+      "Halilbey Island",
+      "Yellice Adası",
+      "Küçükkiremit Island (Muğla)",
+      "Bayrak Island (Aydın)",
+      "Kaşık Island"
+    ],
+    "example_foils": [
+      "Kastellorizo",
+      "Paximadia ena",
+      "Prasso Skantzouras Alonnisou",
+      "Metopi",
+      "Gialesino islet",
+      "Arkoi"
+    ]
+  },
+  {
+    "category": "islands__poland",
+    "members_all": 39,
+    "min_sitelinks": 2,
+    "members_total": 31,
+    "members_kept": 31,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 70,
+    "example_members": [
+      "Bolko Island",
+      "Sobieszewska island",
+      "Wielka Żuława",
+      "Kepa Parnicka",
+      "Upałty",
+      "Ostrów Lednicki"
+    ],
+    "example_foils": [
+      "Albläktören",
+      "Kiirasaari",
+      "Raudastensaaret",
+      "Långökubben",
+      "Vohlinen",
+      "Naskinsaari"
+    ]
+  },
+  {
+    "category": "islands__finland",
+    "members_all": 15990,
+    "min_sitelinks": 2,
+    "members_total": 13406,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 5,
+    "example_members": [
+      "Roeoeren",
+      "Saamkarinletot",
+      "Karvonmatala",
+      "Krislakari",
+      "Tervonniemi",
+      "Korkiakari"
+    ],
+    "example_foils": [
+      "Hävringe",
+      "Södermalm",
+      "Mörtö-Bunsön",
+      "Tärendöholmen",
+      "Degerön",
+      "Stora Rotholmen"
+    ]
+  },
+  {
+    "category": "islands__france",
+    "members_all": 1270,
+    "min_sitelinks": 2,
+    "members_total": 644,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 63,
+    "example_members": [
+      "Île des Cygnes",
+      "Île Bryer",
+      "Bassas da India",
+      "Île Ti",
+      "île de Brunec",
+      "Île Godec"
+    ],
+    "example_foils": [
+      "Cavoli Island",
+      "Isolino Partegora",
+      "Giglio",
+      "Formiche della Zanca",
+      "Lo Scialandro",
+      "Budelli"
+    ]
+  },
+  {
+    "category": "islands__usa",
+    "members_all": 16167,
+    "min_sitelinks": 2,
+    "members_total": 1820,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 84,
+    "example_members": [
+      "Amatignak Island",
+      "Little Gasparilla Island",
+      "Great Spruce Head Island",
+      "Butler Island",
+      "Sarichef Island",
+      "Williamson Rocks"
+    ],
+    "example_foils": [
+      "Iqalulialuk",
+      "Le Corps-Mort",
+      "Eilean a' Chàr",
+      "South Spicer Island",
+      "Anarnittuq Island",
+      "South Aulatsivik Island"
+    ]
+  },
+  {
+    "category": "universities__india",
+    "members_all": 1150,
+    "min_sitelinks": 2,
+    "members_total": 632,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 30,
+    "example_members": [
+      "Yogi Vemana University",
+      "Tilak Maharashtra Vidyapeeth",
+      "Gaya College",
+      "Biyani International Institute of Engineering & Technology",
+      "Rajiv Gandhi National Institute of Youth Development",
+      "Raiganj University"
+    ],
+    "example_foils": [
+      "National Textile University",
+      "Pakistan Institute of Fashion and Design",
+      "Minhaj International University",
+      "Defence Services Command and Staff College (Bangladesh)",
+      "Women's Institute of Science & Humanities",
+      "Imperial College of Business Studies"
+    ]
+  },
+  {
+    "category": "universities__pakistan",
+    "members_all": 232,
+    "min_sitelinks": 2,
+    "members_total": 155,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 18,
+    "example_members": [
+      "University of Faisalabad",
+      "Habib University",
+      "Punjab Tianjin University of Technology",
+      "Azad Jammu and Kashmir Medical College",
+      "Hazara University",
+      "University of Narowal"
+    ],
+    "example_foils": [
+      "School of Open Learning",
+      "Saveetha Institute of Medical And Technical Sciences",
+      "MKCG Medical College and Hospital",
+      "Vimala College",
+      "Islamic Azad University of Saveh",
+      "Indian Institute of Science Education and Research, Pune"
+    ]
+  },
+  {
+    "category": "universities__bangladesh",
+    "members_all": 47,
+    "min_sitelinks": 2,
+    "members_total": 38,
+    "members_kept": 38,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 6,
+    "example_members": [
+      "Navy Medical College, Chattogram",
+      "Islamic Research Center Bangladesh",
+      "National Institute of Textile Engineering and Research",
+      "Defence Services Command and Staff College (Bangladesh)",
+      "Bandarban University",
+      "Police Staff College, Bangladesh"
+    ],
+    "example_foils": [
+      "Islamic Fiqh Academy, India",
+      "Jamal Mohamed College",
+      "ILMA University",
+      "Dakshin Dinajpur University",
+      "St. Pius X College",
+      "International Institute of Tamil Studies"
+    ]
+  },
+  {
+    "category": "universities__sri_lanka",
+    "dropped": "too small",
+    "members_all": 32,
+    "min_sitelinks": 2,
+    "members_total": 21,
+    "members_kept": 21,
+    "foils_kept": 100
+  },
+  {
+    "category": "universities__nepal",
+    "dropped": "too small",
+    "members_all": 52,
+    "min_sitelinks": 2,
+    "members_total": 27,
+    "members_kept": 27,
+    "foils_kept": 100
+  },
+  {
+    "category": "universities__nigeria",
+    "members_all": 377,
+    "min_sitelinks": 2,
+    "members_total": 179,
+    "members_kept": 150,
+    "foils_kept": 61,
+    "sitelinks_median": 5,
+    "sitelinks_max": 24,
+    "example_members": [
+      "Madonna University",
+      "Ibrahim Badamasi Babangida University",
+      "Lens University",
+      "Federal University, Otuoke",
+      "Federal University of Education, Zaria",
+      "Al-Qalam University, Katsina"
+    ],
+    "example_foils": [
+      "Alupe University",
+      "Central University College",
+      "Sikkim Manipal University, Ghana Learning Centre, Accra",
+      "University of Kabianga",
+      "DataLink University College",
+      "Great Lakes University of Kisumu"
+    ]
+  },
+  {
+    "category": "universities__kenya",
+    "members_all": 61,
+    "min_sitelinks": 2,
+    "members_total": 41,
+    "members_kept": 41,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 16,
+    "example_members": [
+      "Inoorero University",
+      "Pwani University",
+      "University of Kabianga",
+      "Dedan Kimathi University of Technology",
+      "Mount Kenya University",
+      "Multimedia University of Kenya"
+    ],
+    "example_foils": [
+      "Peaceland University Enugu",
+      "Arba Minch University",
+      "Federal University, Birnin Kebbi",
+      "Clifford University",
+      "University of Abuja",
+      "Aminu Saleh College of Education"
+    ]
+  },
+  {
+    "category": "universities__ghana",
+    "dropped": "too small",
+    "members_all": 41,
+    "min_sitelinks": 2,
+    "members_total": 20,
+    "members_kept": 20,
+    "foils_kept": 100
+  },
+  {
+    "category": "universities__ethiopia",
+    "members_all": 58,
+    "min_sitelinks": 2,
+    "members_total": 36,
+    "members_kept": 36,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 33,
+    "example_members": [
+      "Jimma University",
+      "Adigrat University",
+      "Hawassa University",
+      "Mizan Tepi University",
+      "Debre Tabor University",
+      "University of Gondar"
+    ],
+    "example_foils": [
+      "Kingsley Ozumba Mbadiwe University",
+      "Peaceland University Enugu",
+      "University of Embu",
+      "Madonna University",
+      "National Open University of Nigeria",
+      "Al-Ansar University Maiduguri"
+    ]
+  },
+  {
+    "category": "universities__south_africa",
+    "members_all": 65,
+    "min_sitelinks": 2,
+    "members_total": 49,
+    "members_kept": 49,
+    "foils_kept": 100,
+    "sitelinks_median": 9,
+    "sitelinks_max": 58,
+    "example_members": [
+      "North-West University",
+      "Eastern Cape Technikon",
+      "Stellenbosch University",
+      "Technikon Natal",
+      "University of Cape Town",
+      "Vaal University of Technology"
+    ],
+    "example_foils": [
+      "Christopher University",
+      "Peaceland University Enugu",
+      "Alupe University",
+      "Ebonyi State University",
+      "University of Calabar",
+      "Al-Hikmah University, Ilorin"
+    ]
+  },
+  {
+    "category": "universities__indonesia",
+    "members_all": 867,
+    "min_sitelinks": 2,
+    "members_total": 294,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 43,
+    "example_members": [
+      "Ma Chung University",
+      "University of Palangka Raya",
+      "Hasanuddin University",
+      "Ahmad Dahlan University",
+      "Sunan Kalijaga Islamic University",
+      "Universitas Wijayakusuma Purwokerto"
+    ],
+    "example_foils": [
+      "Kien Giang University",
+      "Pangasinan State University—Urdaneta",
+      "Cagayan State University",
+      "Notre Dame of Marbel University",
+      "Immaculate Heart of Mary College-Parañaque",
+      "Saint Mary's University"
+    ]
+  },
+  {
+    "category": "universities__philippines",
+    "members_all": 433,
+    "min_sitelinks": 2,
+    "members_total": 273,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 10,
+    "example_members": [
+      "Baliuag University",
+      "Adamson University",
+      "Lyceum-Northwestern University",
+      "School of the Holy Child, Angeles, Inc.",
+      "Angelicum College",
+      "Southern Leyte State University"
+    ],
+    "example_foils": [
+      "Sepuluh Nopember Institute of Technology",
+      "State University of Surabaya",
+      "Hanoi University of Industry",
+      "Muhammadiyah University of Ponorogo",
+      "University of Timor",
+      "Universitas Advent Indonesia"
+    ]
+  },
+  {
+    "category": "universities__vietnam",
+    "members_all": 159,
+    "min_sitelinks": 2,
+    "members_total": 100,
+    "members_kept": 100,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 23,
+    "example_members": [
+      "University of Languages and International Studies",
+      "Ho Chi Minh City University of Technology",
+      "Van Xuan University of Technology",
+      "Dong Thap University",
+      "Van Hien University",
+      "Ho Chi Minh City University of Science"
+    ],
+    "example_foils": [
+      "Negros State College of Agriculture",
+      "Southern de Oro Philippines College",
+      "Universitas Muhammadiyah Purworejo",
+      "Indonesian International Islamic University",
+      "Divine Word College of San Jose",
+      "Trinity University of Asia"
+    ]
+  },
+  {
+    "category": "universities__brazil",
+    "members_all": 258,
+    "min_sitelinks": 2,
+    "members_total": 145,
+    "members_kept": 145,
+    "foils_kept": 88,
+    "sitelinks_median": 4,
+    "sitelinks_max": 104,
+    "example_members": [
+      "State University of Minas Gerais",
+      "Universidade Federal de Roraima",
+      "Pontifícia Universidade Católica de São Paulo",
+      "Universidade Federal de Ouro Preto",
+      "State University of the Centre-West",
+      "Federal Rural University of Amazonia"
+    ],
+    "example_foils": [
+      "Universidad de Cartagena",
+      "University of Santander",
+      "José María Córdova Military Academy",
+      "University of the Llanos",
+      "South Colombian University",
+      "Universidad Industrial de Santander"
+    ]
+  },
+  {
+    "category": "universities__mexico",
+    "members_all": 275,
+    "min_sitelinks": 2,
+    "members_total": 117,
+    "members_kept": 117,
+    "foils_kept": 87,
+    "sitelinks_median": 3,
+    "sitelinks_max": 58,
+    "example_members": [
+      "Autonomous University of Tlaxcala",
+      "Universidad Autónoma de Guadalajara",
+      "Center for Research and Development in Health Sciences",
+      "Universidad Autónoma Agraria Antonio Narro",
+      "Universidad Iberoamericana Puebla",
+      "The College of Jalisco"
+    ],
+    "example_foils": [
+      "University of Quindio",
+      "Central University",
+      "Francisco de Paula Santander University",
+      "CES University",
+      "Autonomous University of Colombia",
+      "Simón Bolívar University"
+    ]
+  },
+  {
+    "category": "universities__argentina",
+    "dropped": "too small",
+    "members_all": 20,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 100
+  },
+  {
+    "category": "universities__colombia",
+    "members_all": 136,
+    "min_sitelinks": 2,
+    "members_total": 79,
+    "members_kept": 79,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 21,
+    "example_members": [
+      "Central University",
+      "University of Cundinamarca",
+      "Luis Amigó Catholic University",
+      "University of Pamplona",
+      "Central University of Valle del Cauca",
+      "La Gran Colombia University"
+    ],
+    "example_foils": [
+      "Universidad Autónoma Metropolitana Unidad Xochimilco",
+      "Universidade Federal do Acre",
+      "Universidade Paranaense",
+      "Universidade Católica de Santos",
+      "Autonomous University of Nayarit",
+      "Universidade Potiguar"
+    ]
+  },
+  {
+    "category": "universities__japan",
+    "members_all": 775,
+    "min_sitelinks": 2,
+    "members_total": 696,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 36,
+    "example_members": [
+      "Nagoya City University",
+      "Aichi University of Education",
+      "Suwa University of Science",
+      "Momoyama Gakuin University",
+      "Shobi University",
+      "Nishogakusha University"
+    ],
+    "example_foils": [
+      "Minzu University of China",
+      "Xinzhou Teachers University",
+      "Shanghai Finance University",
+      "Southwest University of Science and Technology",
+      "Hong Kong CyberU",
+      "Macau University of Science and Technology"
+    ]
+  },
+  {
+    "category": "universities__iran",
+    "members_all": 366,
+    "min_sitelinks": 2,
+    "members_total": 202,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 23,
+    "example_members": [
+      "List of universities of medical sciences of Iran",
+      "Islamic Azad University of Nishapur",
+      "Islamic Azad University of Birjand",
+      "Petroleum University of Technology",
+      "Islamic Azad University of Mashhad",
+      "Semnan University of Medical Sciences"
+    ],
+    "example_foils": [
+      "TOBB University of Economics and Technology",
+      "Ankara Science University",
+      "Ayub School of Nursing",
+      "Tameer-e-Nau Public College, Quetta",
+      "Darülfünun",
+      "Kafkas University"
+    ]
+  },
+  {
+    "category": "universities__turkey",
+    "dropped": "too small",
+    "members_all": 34,
+    "min_sitelinks": 2,
+    "members_total": 25,
+    "members_kept": 25,
+    "foils_kept": 100
+  },
+  {
+    "category": "universities__poland",
+    "members_all": 42,
+    "min_sitelinks": 2,
+    "members_total": 37,
+    "members_kept": 37,
+    "foils_kept": 42,
+    "sitelinks_median": 11,
+    "sitelinks_max": 74,
+    "example_members": [
+      "University of Silesia in Katowice",
+      "Krakow University of Economics",
+      "Nicolaus Copernicus University in Toruń",
+      "Rzeszów University of Technology",
+      "Magdalena Abakanowicz University of the Arts Poznań",
+      "University of Life Sciences in Poznań"
+    ],
+    "example_foils": [
+      "Technical University of Liberec",
+      "Westmoravian College Třebíč",
+      "University of International and Public Relations Prague",
+      "University of Hradec Králové",
+      "University of West Bohemia",
+      "University of Chemistry and Technology"
+    ]
+  },
+  {
+    "category": "universities__finland",
+    "dropped": "too small",
+    "members_all": 13,
+    "min_sitelinks": 2,
+    "members_total": 11,
+    "members_kept": 11,
+    "foils_kept": 23
+  },
+  {
+    "category": "universities__france",
+    "members_all": 67,
+    "min_sitelinks": 2,
+    "members_total": 34,
+    "members_kept": 34,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 41,
+    "example_members": [
+      "INSA Hauts-de-France",
+      "Groupement de Recherche et d’Études en Gestion à HEC Paris",
+      "Lorraine INP",
+      "Supinfocom",
+      "Toulouse School of Economics",
+      "Universitat de Perpinyà"
+    ],
+    "example_foils": [
+      "Polo delle Scienze Sociali di Novoli",
+      "University of Genoa",
+      "Universities in Leuven",
+      "IUAV University of Venice",
+      "Theological University of Northern Italy – Turin Campus",
+      "Academy of Fine Arts, Verona"
+    ]
+  },
+  {
+    "category": "universities__usa",
+    "members_all": 1781,
+    "min_sitelinks": 2,
+    "members_total": 1178,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Misericordia University",
+      "University of Illinois Springfield",
+      "State University of New York at Canton",
+      "Roosevelt University",
+      "State University of New York at Geneseo",
+      "Chancellor University"
+    ],
+    "example_foils": [
+      "St Mary's University, Twickenham",
+      "Acadia University",
+      "University of Science, Arts and Technology",
+      "University of Wales Trinity Saint David",
+      "Canadian Securities Institute",
+      "Yukon University"
+    ]
+  },
+  {
+    "category": "museums__india",
+    "members_all": 389,
+    "min_sitelinks": 2,
+    "members_total": 254,
+    "members_kept": 150,
+    "foils_kept": 72,
+    "sitelinks_median": 4,
+    "sitelinks_max": 32,
+    "example_members": [
+      "Partition Museum",
+      "Mural Art Museum",
+      "Khazana Building Museum",
+      "Jawahar Kala Kendra",
+      "Devaswom Museum",
+      "Puducherry Science Centre & Planetarium"
+    ],
+    "example_foils": [
+      "Swadhinata Museum",
+      "Water Museum",
+      "Pushkalavati Museum",
+      "Ethnological Museum",
+      "State Bank of Pakistan Museum & Art Gallery",
+      "Sindh Museum"
+    ]
+  },
+  {
+    "category": "museums__pakistan",
+    "dropped": "too small",
+    "members_all": 28,
+    "min_sitelinks": 2,
+    "members_total": 25,
+    "members_kept": 25,
+    "foils_kept": 100
+  },
+  {
+    "category": "museums__bangladesh",
+    "members_all": 78,
+    "min_sitelinks": 2,
+    "members_total": 47,
+    "members_kept": 47,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 25,
+    "example_members": [
+      "Varendra Research Museum",
+      "Shaeed Smriti Songrohosala",
+      "Paharpur Archaeological Museum",
+      "Bangladesh Military Museum",
+      "National Museum of Science and Technology",
+      "Bangabandhu Boat Museum"
+    ],
+    "example_foils": [
+      "Mysore Sand Sculpture Museum",
+      "Nagpur Central Museum",
+      "Jagdish and Kamla Mittal Museum of Indian Art",
+      "National Salt Satyagraha Memorial",
+      "Museum of Santal Culture",
+      "Jain Heritage Museum"
+    ]
+  },
+  {
+    "category": "museums__sri_lanka",
+    "members_all": 33,
+    "min_sitelinks": 2,
+    "members_total": 31,
+    "members_kept": 31,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 9,
+    "example_members": [
+      "Mulkirigala Museum",
+      "Kasagala Museum",
+      "Postal museum, Colombo",
+      "Folk Museum",
+      "Kotte Museum",
+      "Independence Memorial Museum"
+    ],
+    "example_foils": [
+      "Bharat Bhavan",
+      "New Palace, Kolhapur",
+      "Government Museum, Alwar",
+      "Shankar Memorial National Cartoon Museum and Art Gallery",
+      "National Art Gallery",
+      "Kurukshetra Panorama and Science Centre"
+    ]
+  },
+  {
+    "category": "museums__nepal",
+    "dropped": "too small",
+    "members_all": 12,
+    "min_sitelinks": 2,
+    "members_total": 9,
+    "members_kept": 9,
+    "foils_kept": 100
+  },
+  {
+    "category": "museums__nigeria",
+    "dropped": "too small",
+    "members_all": 99,
+    "min_sitelinks": 2,
+    "members_total": 21,
+    "members_kept": 21,
+    "foils_kept": 29
+  },
+  {
+    "category": "museums__kenya",
+    "dropped": "too small",
+    "members_all": 20,
+    "min_sitelinks": 2,
+    "members_total": 17,
+    "members_kept": 17,
+    "foils_kept": 25
+  },
+  {
+    "category": "museums__ghana",
+    "dropped": "too small",
+    "members_all": 21,
+    "min_sitelinks": 2,
+    "members_total": 12,
+    "members_kept": 12,
+    "foils_kept": 38
+  },
+  {
+    "category": "museums__ethiopia",
+    "dropped": "too small",
+    "members_all": 8,
+    "min_sitelinks": 2,
+    "members_total": 4,
+    "members_kept": 4,
+    "foils_kept": 38
+  },
+  {
+    "category": "museums__south_africa",
+    "members_all": 91,
+    "min_sitelinks": 2,
+    "members_total": 51,
+    "members_kept": 51,
+    "foils_kept": 38,
+    "sitelinks_median": 3,
+    "sitelinks_max": 19,
+    "example_members": [
+      "Slave Lodge",
+      "Drostdy Museum",
+      "Government House, Orange Free State",
+      "Hester Rupert Art Museum",
+      "Dingaan's spring",
+      "Willem Prinsloo Agricultural Museum"
+    ],
+    "example_foils": [
+      "National War Museum, Umuahia",
+      "Jos Museum",
+      "Didi Museum",
+      "Hyrax Hill Prehistoric Site and Museum",
+      "Kitale Museum",
+      "Museum of West African Art"
+    ]
+  },
+  {
+    "category": "museums__indonesia",
+    "members_all": 611,
+    "min_sitelinks": 2,
+    "members_total": 274,
+    "members_kept": 150,
+    "foils_kept": 66,
+    "sitelinks_median": 3,
+    "sitelinks_max": 33,
+    "example_members": [
+      "Pustaka Lontar Museum",
+      "Lewu Hante Museum",
+      "Asmat Museum of Culture and Progress",
+      "Blanco Renaissance Museum",
+      "Rahmah El Yunusiyah Museum",
+      "Gedong Kirtya"
+    ],
+    "example_foils": [
+      "Hue Museum of Royal Fine Arts",
+      "Museo Valenzuela",
+      "Father Burgos House",
+      "Yersin Museum",
+      "Pasig City Museum",
+      "Quang Ninh Museum"
+    ]
+  },
+  {
+    "category": "museums__philippines",
+    "members_all": 56,
+    "min_sitelinks": 2,
+    "members_total": 39,
+    "members_kept": 39,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 8,
+    "example_members": [
+      "Jesse Robredo Museum",
+      "Jorge B. Vargas Museum and Filipiniana Research Center",
+      "Cathedral Museum of Cebu",
+      "Apolinario Mabini Shrine",
+      "Casa Manila",
+      "National Museum Western Visayas"
+    ],
+    "example_foils": [
+      "Jamin Gintings Museum",
+      "\"Waja Sampai Kaputing\" Museum",
+      "Rambu Solo' Ne' Gandeng Museum",
+      "Museum Tani Jawa Indonesia",
+      "Saint Mary Juanda Museum",
+      "Pedir Museum"
+    ]
+  },
+  {
+    "category": "museums__vietnam",
+    "dropped": "too small",
+    "members_all": 44,
+    "min_sitelinks": 2,
+    "members_total": 27,
+    "members_kept": 27,
+    "foils_kept": 100
+  },
+  {
+    "category": "museums__brazil",
+    "members_all": 1071,
+    "min_sitelinks": 2,
+    "members_total": 473,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 13,
+    "example_members": [
+      "Brazilian Expeditionary Force Museum",
+      "Museu de Arte Sacra do Pará",
+      "José Antônio Pereira Museum",
+      "Bosque Municipal Fábio Barreto",
+      "Museu Regional dos Inhamuns",
+      "Museu Sacaca"
+    ],
+    "example_foils": [
+      "Museo de Memoria de Colombia",
+      "Atalaya train station",
+      "Gabriel Garcia Marquez House Museum",
+      "Juan Manuel Fangio Museum",
+      "Termas de Río Hondo train station",
+      "Museum of Spanish Art Enrique Larreta"
+    ]
+  },
+  {
+    "category": "museums__mexico",
+    "members_all": 357,
+    "min_sitelinks": 2,
+    "members_total": 239,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 41,
+    "example_members": [
+      "Museo Metropolitano de Monterrey",
+      "Museo Pedro Coronel",
+      "Museo de Charrería",
+      "Fine Arts Museum of Toluca",
+      "Museo del Telégrafo",
+      "Museo Kaluz"
+    ],
+    "example_foils": [
+      "Estación Cultural Lucinda Larrosa Museum",
+      "Museo de Arte Miguel Urrutia",
+      "Museum of Contemporary Art of Bogotá",
+      "Municipal Museum of Natural Sciences Punta Hermengo",
+      "Botanical Garden of Medellín",
+      "Museum of the City of Rosario Wladimir Mikielievich"
+    ]
+  },
+  {
+    "category": "museums__argentina",
+    "members_all": 566,
+    "min_sitelinks": 2,
+    "members_total": 122,
+    "members_kept": 122,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 17,
+    "example_members": [
+      "AMALITA Collection",
+      "Faculty of Natural Sciences and Museum UNLP",
+      "Punta Mogotes Lighthouses",
+      "Glaciarium",
+      "Museo Regional Americanista",
+      "Museo Pachamama"
+    ],
+    "example_foils": [
+      "Sítio Roberto Burle Marx",
+      "Museu Histórico Jacinto de Sousa",
+      "Fábrica de Arte Marcos Amaro",
+      "Museu Nacional de Imigração e Colonização",
+      "Museu de Biologia Professor Mello Leitão",
+      "Jardín de Esculturas"
+    ]
+  },
+  {
+    "category": "museums__colombia",
+    "members_all": 104,
+    "min_sitelinks": 2,
+    "members_total": 80,
+    "members_kept": 80,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 29,
+    "example_members": [
+      "Casa Museo Maestro Pedro Nel Gómez",
+      "Casa del Fundador Gonzalo Suárez Rendón",
+      "Quinta de San Pedro Alejandrino",
+      "Chicó Museum",
+      "Hacienda Cañasgordas",
+      "Taminango Museum"
+    ],
+    "example_foils": [
+      "Museu de Arte Sacra do Pará",
+      "Memorial dos Povos Indígenas",
+      "Casa del Poeta López Velarde",
+      "Museu do Homem Americano",
+      "Glass Museum",
+      "Museo Regional de Querétaro"
+    ]
+  },
+  {
+    "category": "museums__japan",
+    "members_all": 902,
+    "min_sitelinks": 2,
+    "members_total": 382,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 14,
+    "example_members": [
+      "Kojima Citizens Exchange Center",
+      "Nifrel",
+      "Osaka Prefectural Sayamaike Museum",
+      "Banshū Winery",
+      "Kanie-cho Folk Historical Material Museum",
+      "Akan International Crane Center"
+    ],
+    "example_foils": [
+      "Anyang Museum (안양박물관)",
+      "Xinjiang Geology and Minerals Museum",
+      "Baoji Bronze Ware Museum",
+      "Inner Mongolia Museum",
+      "Haenyeo Museum",
+      "Lin Zexu Memorial Museum of Macau"
+    ]
+  },
+  {
+    "category": "museums__iran",
+    "members_all": 70,
+    "min_sitelinks": 2,
+    "members_total": 40,
+    "members_kept": 40,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 17,
+    "example_members": [
+      "Tabriz Vocational Museum",
+      "Measure Museum",
+      "Babol Museum",
+      "Qazvin Museum",
+      "Museum of Anthropology Tehran",
+      "Astaneh-e Moqaddaseh Museum"
+    ],
+    "example_foils": [
+      "Doğançay Museum",
+      "Adıyaman Archaeological Museum",
+      "Troy Museum",
+      "İzmir Atatürk Museum",
+      "Mehmet Akif Ersoy Literature Museum Library",
+      "Burdur Archaeological Museum"
+    ]
+  },
+  {
+    "category": "museums__turkey",
+    "members_all": 621,
+    "min_sitelinks": 2,
+    "members_total": 301,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 90,
+    "example_members": [
+      "Batman Museum",
+      "Republic Museum",
+      "Konya Archaeological Museum",
+      "Atatürk Museum",
+      "Great Palace Mosaic Museum",
+      "Museum of Modern Glass Art, Eskişehir"
+    ],
+    "example_foils": [
+      "Cinema Museum of Thessaloniki",
+      "Museum of Plaster Casts",
+      "Mecidiye Museum Mosque",
+      "Old Acropolis Museum",
+      "Sarakatsani Folklore Museum of Serres",
+      "Byzantine Museum of Phthiotis"
+    ]
+  },
+  {
+    "category": "museums__poland",
+    "members_all": 524,
+    "min_sitelinks": 2,
+    "members_total": 427,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 26,
+    "example_members": [
+      "Old Mine Science and Art Centre in Wałbrzych",
+      "District Museum in Nowy Sącz",
+      "Tatra National Park Nature Education Center in Zakopane",
+      "Antonina Leśniewska Museum of Pharmacy",
+      "Treblinka Museum",
+      "Diocesan Museum in Pelplin"
+    ],
+    "example_foils": [
+      "City museum in Aš",
+      "Turkansaari Open Air Museum",
+      "Schwarzenberg Palace",
+      "Chlupáč Museum",
+      "Museum of Viticulture, Horticulture and Landscaping",
+      "Hotel and Restaurant Museum"
+    ]
+  },
+  {
+    "category": "museums__finland",
+    "members_all": 428,
+    "min_sitelinks": 2,
+    "members_total": 259,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 31,
+    "example_members": [
+      "Finnish Museum of Refrigeration",
+      "Tampere Mineral Museum",
+      "Ahola",
+      "Serlachius Manor",
+      "Tamminiemi",
+      "Ostrobothnian Museum"
+    ],
+    "example_foils": [
+      "Mart Saar house museum",
+      "Hiiumaa Military Museum",
+      "Estonian Museum of Applied Art and Design",
+      "Sörmlandsgården",
+      "Nobel Prize Museum",
+      "Koidula Museum"
+    ]
+  },
+  {
+    "category": "museums__france",
+    "members_all": 1311,
+    "min_sitelinks": 2,
+    "members_total": 903,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 20,
+    "example_members": [
+      "Musée du Fumeur",
+      "Musée de l'espace de Kourou",
+      "Musée Jeanne d'Arc",
+      "Château de Faulin",
+      "Hôtel des Créneaux",
+      "Musée d'art moderne Richard-Anacréon"
+    ],
+    "example_foils": [
+      "Villa Argentina (Viareggio)",
+      "City museum of Amalfi",
+      "Argentario Aquarium",
+      "Villa dei Mosaici (Spello)",
+      "Necropolis of Monterozzi",
+      "Spedale del Bigallo"
+    ]
+  },
+  {
+    "category": "museums__usa",
+    "members_all": 3675,
+    "min_sitelinks": 2,
+    "members_total": 1594,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 29,
+    "example_members": [
+      "Kentucky Railway Museum",
+      "Old Idaho State Penitentiary",
+      "Charter Oak Schoolhouse",
+      "Brattleboro Museum and Art Center",
+      "Ohio State Reformatory",
+      "Forestiere Underground Gardens"
+    ],
+    "example_foils": [
+      "Museum of Freemasonry",
+      "Whitrope Siding",
+      "Dare-Dare",
+      "Strangers' Hall",
+      "Pitt Rivers Museum",
+      "Centre d'interprétation des mammifères marins"
+    ]
+  },
+  {
+    "category": "films__india",
+    "members_all": 18710,
+    "min_sitelinks": 2,
+    "members_total": 16083,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 21,
+    "example_members": [
+      "Silk Sakkath Maga",
+      "Pelli Naati Pramanalu",
+      "Malaiyoor Mambattiyan",
+      "Eazhaiyin Sirippil",
+      "Needhiyin Nizhal",
+      "Bikhre Moti"
+    ],
+    "example_foils": [
+      "Antarjal",
+      "Rajdhanir Buke",
+      "Anondo Osru",
+      "Kura Pokkhir Shunne Ura",
+      "A Kind of Childhood",
+      "Akhri Qurbani"
+    ]
+  },
+  {
+    "category": "films__pakistan",
+    "members_all": 728,
+    "min_sitelinks": 2,
+    "members_total": 556,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 18,
+    "example_members": [
+      "Sikandra",
+      "Aina",
+      "Sab Say Bara Rupiya",
+      "Beti",
+      "Ann Daata",
+      "Tich Button"
+    ],
+    "example_foils": [
+      "Sringaram",
+      "Vegam",
+      "Thirunelveli",
+      "Kannan Varuvaan",
+      "Sthree",
+      "The Pink Mirror"
+    ]
+  },
+  {
+    "category": "films__bangladesh",
+    "members_all": 892,
+    "min_sitelinks": 2,
+    "members_total": 607,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 9,
+    "example_members": [
+      "Ei Ghor Ei Songsar",
+      "Bengali Beauty",
+      "Super Hero",
+      "Priya Amar Priya",
+      "Borbaad",
+      "Ke Apon Ke Por"
+    ],
+    "example_foils": [
+      "Ladki Sahyadri Ki",
+      "Rahasyam",
+      "Jailor Gaari Abbayi",
+      "Ek Phool Teen Kante",
+      "Prem Mhanje Prem Mhanje Prem Asta",
+      "Nokkethadhoorathu Kannum Nattu"
+    ]
+  },
+  {
+    "category": "films__sri_lanka",
+    "members_all": 574,
+    "min_sitelinks": 2,
+    "members_total": 172,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 10,
+    "example_members": [
+      "Machan",
+      "Daruwane",
+      "Bandhanaya",
+      "Koti Sana",
+      "The Frozen Fire",
+      "Kolomba Sanniya"
+    ],
+    "example_foils": [
+      "Muran",
+      "Dasara Bullodu",
+      "Khadeeja",
+      "Aayiram Vilakku",
+      "Jannat 2",
+      "Gyara Hazar Ladkian"
+    ]
+  },
+  {
+    "category": "films__nepal",
+    "members_all": 381,
+    "min_sitelinks": 2,
+    "members_total": 161,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 12,
+    "example_members": [
+      "Paral Ko Aago",
+      "Fairytale of Kathmandu",
+      "Naakaa",
+      "Mother's Wish",
+      "Kusume Rumal 2",
+      "The Contagious Apparitions of Dambarey Dendrite"
+    ],
+    "example_foils": [
+      "My Dear Marthandan",
+      "Kaadu",
+      "High Range",
+      "Madhuchandralekha",
+      "3D Saamri",
+      "Mukha"
+    ]
+  },
+  {
+    "category": "films__nigeria",
+    "members_all": 1681,
+    "min_sitelinks": 2,
+    "members_total": 567,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 14,
+    "example_members": [
+      "Shola Arikusa",
+      "Nimbe",
+      "Egg of Life",
+      "La Femme Anjola",
+      "Family on Fire",
+      "Over Her Dead Body"
+    ],
+    "example_foils": [
+      "In Another Life",
+      "Double-Cross",
+      "Veve",
+      "Aloe Vera",
+      "The Cut",
+      "Subira"
+    ]
+  },
+  {
+    "category": "films__kenya",
+    "members_all": 83,
+    "min_sitelinks": 2,
+    "members_total": 56,
+    "members_kept": 56,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 22,
+    "example_members": [
+      "Intellectual Scum",
+      "The Letter",
+      "The Pearl of Africa",
+      "18 Hours",
+      "The Elephant Queen",
+      "Battle of the Sacred Tree"
+    ],
+    "example_foils": [
+      "Akpe: Return of the Beast",
+      "A Place Called Happy",
+      "October 1",
+      "Elesin Oba, The King's Horseman",
+      "Heroes & Zeros",
+      "Lionheart"
+    ]
+  },
+  {
+    "category": "films__ghana",
+    "members_all": 118,
+    "min_sitelinks": 2,
+    "members_total": 86,
+    "members_kept": 86,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 16,
+    "example_members": [
+      "Julor",
+      "Amakye and Dede",
+      "Diabolo",
+      "Contract",
+      "My Very Ghanaian Wedding",
+      "Elmina"
+    ],
+    "example_foils": [
+      "Dangerous Twins",
+      "Tempting Fate",
+      "Celebrity Marriage",
+      "Jagun Jagun",
+      "Chief Daddy",
+      "Sharon Stone"
+    ]
+  },
+  {
+    "category": "films__ethiopia",
+    "dropped": "too small",
+    "members_all": 29,
+    "min_sitelinks": 2,
+    "members_total": 19,
+    "members_kept": 19,
+    "foils_kept": 100
+  },
+  {
+    "category": "films__south_africa",
+    "members_all": 650,
+    "min_sitelinks": 2,
+    "members_total": 430,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 45,
+    "example_members": [
+      "The Bushman's Secrets",
+      "Free Willy: Escape from Pirate's Cove",
+      "Yankee Zulu",
+      "Kill and Kill Again",
+      "Die Pro",
+      "Salomien"
+    ],
+    "example_foils": [
+      "Amina",
+      "Merry Men 2",
+      "The Governor",
+      "Shola Arikusa",
+      "Nairobi Half Life",
+      "Heroes and Villains"
+    ]
+  },
+  {
+    "category": "films__indonesia",
+    "members_all": 2414,
+    "min_sitelinks": 2,
+    "members_total": 1192,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 9,
+    "example_members": [
+      "Kuntilanak",
+      "Tiger from Tjampa",
+      "Love Knots",
+      "Enam Djam di Jogja",
+      "Uka-Uka the Movie: Nini Tulang",
+      "Super Didi"
+    ],
+    "example_foils": [
+      "Journey from the Fall",
+      "Kristo",
+      "ZsaZsa Zaturnnah Ze Moveeh",
+      "Guni-Guni",
+      "Raketeros",
+      "Ang Panday"
+    ]
+  },
+  {
+    "category": "films__philippines",
+    "members_all": 1943,
+    "min_sitelinks": 2,
+    "members_total": 918,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 2,
+    "sitelinks_max": 17,
+    "example_members": [
+      "Kutob",
+      "My Fairy Tail Love Story",
+      "Da Possessed",
+      "My Kuya's Wedding",
+      "Hiling",
+      "Mga Anak ni Facifica Falayfay"
+    ],
+    "example_foils": [
+      "Dalam Mihrab Cinta",
+      "Pocong Keliling",
+      "Semesta Mendukung",
+      "Sunyi",
+      "Gema Hati Bernyanyi",
+      "Rina"
+    ]
+  },
+  {
+    "category": "films__vietnam",
+    "members_all": 350,
+    "min_sitelinks": 2,
+    "members_total": 131,
+    "members_kept": 131,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 32,
+    "example_members": [
+      "Mai",
+      "Battle of Moscow",
+      "Fool for Love",
+      "Tracer",
+      "The 10th House",
+      "The Song About a Musician in Thang Long Citadel"
+    ],
+    "example_foils": [
+      "The Doll",
+      "Spirit Doll",
+      "1st Sem",
+      "Don't Give Up on Us",
+      "Devil on Top",
+      "Hijab"
+    ]
+  },
+  {
+    "category": "films__brazil",
+    "members_all": 2368,
+    "min_sitelinks": 2,
+    "members_total": 1737,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 36,
+    "example_members": [
+      "A Mulher de Todos",
+      "Fim de Festa",
+      "Time and the Wind",
+      "Burning Betrayal",
+      "Nise: The Heart of Madness",
+      "The Chick's Ability"
+    ],
+    "example_foils": [
+      "La Vuelta de Martín Fierro",
+      "The Uncovering",
+      "Lost Horizon",
+      "Don Carmelo il capo",
+      "The Red Thread",
+      "I Saw Three Black Lights"
+    ]
+  },
+  {
+    "category": "films__mexico",
+    "members_all": 3304,
+    "min_sitelinks": 2,
+    "members_total": 2428,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 53,
+    "example_members": [
+      "Rayando el sol",
+      "Los Ángeles",
+      "Hipólito, el de Santa",
+      "Un par de roba chicos",
+      "Black Angustias",
+      "After the Storm"
+    ],
+    "example_foils": [
+      "Bastards y Diablos",
+      "Alma",
+      "Pájaro Loco",
+      "Arriba el Telón o el Patio de la Morocha",
+      "Historia de crímenes",
+      "Subí que te llevo"
+    ]
+  },
+  {
+    "category": "films__argentina",
+    "members_all": 3351,
+    "min_sitelinks": 2,
+    "members_total": 2659,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 19,
+    "example_members": [
+      "Mi tía Nora",
+      "Juvenilia",
+      "The Crime of Oribe",
+      "In the Open",
+      "Rapado",
+      "Born and Bred"
+    ],
+    "example_foils": [
+      "Mysteries from Beyond the Grave",
+      "Daniel & Ana",
+      "The Love That Flees",
+      "The She-Wolf",
+      "Chocante",
+      "The Americano"
+    ]
+  },
+  {
+    "category": "films__colombia",
+    "members_all": 522,
+    "min_sitelinks": 2,
+    "members_total": 385,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 34,
+    "example_members": [
+      "Liveforever",
+      "Buscando a Miguel",
+      "Love for Rent",
+      "Wandering Shadows",
+      "Santa & Andres",
+      "They Carry Death"
+    ],
+    "example_foils": [
+      "Original Sin",
+      "Such Is My Country",
+      "The Return of the Monster",
+      "Plaza de la Soledad",
+      "La Leyenda del Charro Negro",
+      "This Is Not a Movie"
+    ]
+  },
+  {
+    "category": "films__japan",
+    "members_all": 8681,
+    "min_sitelinks": 2,
+    "members_total": 4915,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Snow Country",
+      "On the Road Forever",
+      "Red Quay",
+      "Plastic City",
+      "Life of a Woman",
+      "Gonza the Spearman"
+    ],
+    "example_foils": [
+      "Ten Months",
+      "Lease Wife",
+      "Steal My Heart",
+      "The Last Woman of Shang",
+      "As Time Goes By",
+      "This Charming Girl"
+    ]
+  },
+  {
+    "category": "films__iran",
+    "members_all": 2392,
+    "min_sitelinks": 2,
+    "members_total": 984,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 38,
+    "example_members": [
+      "Crazy Rook",
+      "Khastegi",
+      "Taleh",
+      "I Feel Sleepy",
+      "On the basement",
+      "A Tale of Shemroon"
+    ],
+    "example_foils": [
+      "Pehchan",
+      "Devlerin Aşkı",
+      "Big Man, Little Love",
+      "Billu Badshah",
+      "Hürkuş: Göklerdeki Kahraman",
+      "Honey"
+    ]
+  },
+  {
+    "category": "films__turkey",
+    "members_all": 2678,
+    "min_sitelinks": 2,
+    "members_total": 1262,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 37,
+    "example_members": [
+      "Dokunmayın Şabanıma",
+      "A Step into the Darkness",
+      "Wild Desire",
+      "Dilber's Eight Days",
+      "Particle",
+      "Karılar Koğuşu"
+    ],
+    "example_foils": [
+      "Subah-o-Shyam",
+      "Mozaffar",
+      "The Sale",
+      "Slaughterhouse",
+      "Maryam",
+      "Smac"
+    ]
+  },
+  {
+    "category": "films__poland",
+    "members_all": 2208,
+    "min_sitelinks": 2,
+    "members_total": 1694,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 40,
+    "example_members": [
+      "Flood",
+      "All That I Love",
+      "Kac Wawa",
+      "Elephant",
+      "The Lynx",
+      "Każdemu wolno kochać"
+    ],
+    "example_foils": [
+      "Soita minulle, Helena!",
+      "Gracious Curves",
+      "Paavo, a Life in Five Courses",
+      "Red Line",
+      "Prezident Blaník",
+      "Wild Generation"
+    ]
+  },
+  {
+    "category": "films__finland",
+    "members_all": 1942,
+    "min_sitelinks": 2,
+    "members_total": 1235,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 33,
+    "example_members": [
+      "The Host Who Plays the Accordian",
+      "Tree Without Fruit",
+      "The Café of my Memories",
+      "The Twin",
+      "Hen",
+      "Where Once We Walked"
+    ],
+    "example_foils": [
+      "Gröna gubbar från Y.R.",
+      "The Dance Club",
+      "Between Us Barons",
+      "The Biscuit",
+      "Interlude",
+      "The Charmer"
+    ]
+  },
+  {
+    "category": "films__france",
+    "members_all": 16371,
+    "min_sitelinks": 2,
+    "members_total": 14274,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 62,
+    "example_members": [
+      "Ciboulette",
+      "Les Bateliers de la Volga",
+      "The Rainbow Thief",
+      "The Jackals",
+      "The Passengers",
+      "The Red Needle"
+    ],
+    "example_foils": [
+      "The Children Are Watching Us",
+      "Bread, Love and Dreams",
+      "Ma l'amore... sì!",
+      "Garden of Delights",
+      "Río Maldito",
+      "Zorro, the Navarra Marquis"
+    ]
+  },
+  {
+    "category": "films__usa",
+    "members_all": 19339,
+    "min_sitelinks": 2,
+    "members_total": 18961,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 10,
+    "sitelinks_max": 62,
+    "example_members": [
+      "Open Range",
+      "Being John Malkovich",
+      "Home of the Brave",
+      "Someone to Watch Over Me",
+      "The Astronaut Farmer",
+      "Our Relations"
+    ],
+    "example_foils": [
+      "Strawberry Fields",
+      "Meet Me Tonight",
+      "Arn – The Kingdom at Road's End",
+      "The Price of a Song",
+      "Mithila Makhaan",
+      "The Rossiter Case"
+    ]
+  },
+  {
+    "category": "football_clubs__india",
+    "members_all": 143,
+    "min_sitelinks": 2,
+    "members_total": 101,
+    "members_kept": 101,
+    "foils_kept": 69,
+    "sitelinks_median": 4,
+    "sitelinks_max": 36,
+    "example_members": [
+      "Gokulam Kerala FC",
+      "DSK Shivajians F.C.",
+      "Border Security Force SC",
+      "Bhawanipore F.C.",
+      "Goa football team",
+      "FC Goa"
+    ],
+    "example_foils": [
+      "Agrani Bank Ltd. SC",
+      "Muktijoddha Sangsad KC",
+      "Abahani Limited Dhaka",
+      "SSGC F.C.",
+      "KESC F.C.",
+      "Afghan F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__pakistan",
+    "dropped": "too small",
+    "members_all": 49,
+    "min_sitelinks": 2,
+    "members_total": 24,
+    "members_kept": 24,
+    "foils_kept": 100
+  },
+  {
+    "category": "football_clubs__bangladesh",
+    "members_all": 67,
+    "min_sitelinks": 2,
+    "members_total": 46,
+    "members_kept": 46,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 25,
+    "example_members": [
+      "Chattogram City FC",
+      "Arambagh Krira Sangha",
+      "Eskaton Sabuj Sangha Club",
+      "Dhaka City F.C.",
+      "Bangladesh Army Football Team",
+      "Dhaka Wanderers Club"
+    ],
+    "example_foils": [
+      "Ozone FC",
+      "DSK Shivajians F.C.",
+      "Pakistan Civil Aviation Authority F.C.",
+      "Pakistan Army F.C.",
+      "Rangdajied United F.C.",
+      "F.C. Kerala"
+    ]
+  },
+  {
+    "category": "football_clubs__sri_lanka",
+    "dropped": "too small",
+    "members_all": 22,
+    "min_sitelinks": 2,
+    "members_total": 21,
+    "members_kept": 21,
+    "foils_kept": 100
+  },
+  {
+    "category": "football_clubs__nepal",
+    "members_all": 38,
+    "min_sitelinks": 2,
+    "members_total": 31,
+    "members_kept": 31,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 15,
+    "example_members": [
+      "Lalitpur City FC",
+      "Chyasal Youth Club",
+      "Ranipokhari Corner Team",
+      "Sankata Boys Sports Club",
+      "Jhapa XI",
+      "African United Club"
+    ],
+    "example_foils": [
+      "Odisha FC",
+      "New Delhi Heroes FC",
+      "FC Goa",
+      "Calcutta Cricket and Football Club",
+      "Sporting Clube de Goa",
+      "Gokulam Kerala FC"
+    ]
+  },
+  {
+    "category": "football_clubs__nigeria",
+    "members_all": 114,
+    "min_sitelinks": 2,
+    "members_total": 91,
+    "members_kept": 91,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 34,
+    "example_members": [
+      "Pelican Stars F.C.",
+      "Gateway United F.C.",
+      "Kaduna United F.C.",
+      "ACB Lagos",
+      "DreamStar F.C. Ladies",
+      "Naija Ratels"
+    ],
+    "example_foils": [
+      "Sporting Saint Mirren F.C.",
+      "Dreams FC",
+      "Mahakama F.C.",
+      "Bandari F.C.",
+      "Keta Sandlanders Football Club",
+      "Ulinzi Stars F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__kenya",
+    "members_all": 75,
+    "min_sitelinks": 2,
+    "members_total": 54,
+    "members_kept": 54,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 22,
+    "example_members": [
+      "Kenya Revenue Authority F.C.",
+      "Reunion F.C.",
+      "Vihiga Queens FC",
+      "Mathare Youth F.C.",
+      "APS Bomet FC",
+      "Nakuru AllStars"
+    ],
+    "example_foils": [
+      "Ogaden Anbassa",
+      "Sharks F.C.",
+      "Saint George SC",
+      "Yobe Desert Stars",
+      "Stationery Stores F.C.",
+      "Sidama Coffee"
+    ]
+  },
+  {
+    "category": "football_clubs__ghana",
+    "members_all": 128,
+    "min_sitelinks": 2,
+    "members_total": 79,
+    "members_kept": 79,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 32,
+    "example_members": [
+      "Sekondi Hasaacas F.C.",
+      "Tema Youth",
+      "Sporting Saint Mirren F.C.",
+      "Paa Grant Soccer Academy",
+      "Abububu Labourers",
+      "Sekondi Wise Fighters"
+    ],
+    "example_foils": [
+      "Calabar Rovers",
+      "Udoji United F.C.",
+      "NITEL Vasco Da Gama F.C.",
+      "Sporting Lagos F.C.",
+      "Oserian F.C.",
+      "Zamfara United F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__ethiopia",
+    "members_all": 52,
+    "min_sitelinks": 2,
+    "members_total": 39,
+    "members_kept": 39,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 27,
+    "example_members": [
+      "Wolaita Tussa S.C.",
+      "EEPCO F.C.",
+      "Nyala SC",
+      "CBE F.C.",
+      "Wolayta Dicha",
+      "Dedebit"
+    ],
+    "example_foils": [
+      "Vihiga United",
+      "New Nigeria Bank F.C.",
+      "ABS F.C.",
+      "Sofapaka F.C.",
+      "Enyimba International F.C.",
+      "Pelican Stars F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__south_africa",
+    "members_all": 157,
+    "min_sitelinks": 2,
+    "members_total": 92,
+    "members_kept": 92,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 49,
+    "example_members": [
+      "F.C. Cape Town",
+      "Mpumalanga Black Aces F.C.",
+      "Carara Kicks F.C.",
+      "Port Elizabeth City F.C.",
+      "Bizana Pondo Chiefs F.C.",
+      "Battswood F.C."
+    ],
+    "example_foils": [
+      "Eldoret KCC",
+      "ACB Lagos",
+      "Ifeanyi Ubah F.C.",
+      "Ikorodu City F.C.",
+      "Delta Force F.C.",
+      "Nakumatt FC"
+    ]
+  },
+  {
+    "category": "football_clubs__indonesia",
+    "members_all": 713,
+    "min_sitelinks": 2,
+    "members_total": 547,
+    "members_kept": 150,
+    "foils_kept": 97,
+    "sitelinks_median": 2,
+    "sitelinks_max": 30,
+    "example_members": [
+      "PSBS Batusangkar",
+      "Persipani Paniai",
+      "Persijap Jepara",
+      "Persisum Sumbawa",
+      "PSKK Kupang City",
+      "PSM Makassar Putri"
+    ],
+    "example_foils": [
+      "Mendiola FC 1991",
+      "Hải Quan",
+      "Lam Dong F.C.",
+      "Navibank Saigon F.C.",
+      "Cần Thơ F.C.",
+      "Phu Tho FC (2019)"
+    ]
+  },
+  {
+    "category": "football_clubs__philippines",
+    "members_all": 62,
+    "min_sitelinks": 2,
+    "members_total": 39,
+    "members_kept": 39,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 23,
+    "example_members": [
+      "Forza F.C.",
+      "Stallion–Laguna F.C.",
+      "Manila All-Japan F.C.",
+      "Tuloy F.C.",
+      "Mendiola FC 1991",
+      "Philippine Navy F.C."
+    ],
+    "example_foils": [
+      "Gaspa Palopo",
+      "PSKS Krakatau Steel Cilegon",
+      "Persimer Merauke",
+      "Persikoban Banjar",
+      "Phu Yen F.C.",
+      "Wamena United F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__vietnam",
+    "members_all": 62,
+    "min_sitelinks": 2,
+    "members_total": 58,
+    "members_kept": 58,
+    "foils_kept": 100,
+    "sitelinks_median": 7,
+    "sitelinks_max": 30,
+    "example_members": [
+      "Navibank Saigon F.C.",
+      "Huda Hue F.C.",
+      "Ho Chi Minh City FC (2025)",
+      "Khanh Hoa F.C.",
+      "Sài Gòn F.C.",
+      "Hải Quan"
+    ],
+    "example_foils": [
+      "Persipura U-21",
+      "PS Tapin",
+      "Binatama Bupolo FC",
+      "Pelita Bandung Raya",
+      "Persikoban Banjar",
+      "Saint Prima F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__brazil",
+    "members_all": 1057,
+    "min_sitelinks": 2,
+    "members_total": 970,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 71,
+    "example_members": [
+      "São Raimundo Esporte Clube",
+      "Jacobinense Esporte Clube",
+      "Clube Desportivo Sete de Setembro",
+      "Clube Atlético Catarinense",
+      "Sport Club Maguary",
+      "São Francisco Futebol Clube"
+    ],
+    "example_foils": [
+      "Pacífico F.C.",
+      "Club Atlético Chaco For Ever",
+      "Club Social y Deportivo Liniers",
+      "Deportivo Pereira",
+      "San Martín de Mendoza",
+      "Alianza de Cutral Có"
+    ]
+  },
+  {
+    "category": "football_clubs__mexico",
+    "members_all": 331,
+    "min_sitelinks": 2,
+    "members_total": 255,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 59,
+    "example_members": [
+      "Halcones de Morelos",
+      "Atlético Estado de México",
+      "Leones Negros de la Universidad de Guadalajara",
+      "Los Cabos United",
+      "Atlético Cuernavaca",
+      "Pachuca junio"
+    ],
+    "example_foils": [
+      "Club Atlético Vélez Sarsfield",
+      "Club Atlético Famaillá",
+      "Deportes Palmira",
+      "Crucero del Norte Mutual Club",
+      "Club Atlético Aldosivi",
+      "Arsenal de Llavallol"
+    ]
+  },
+  {
+    "category": "football_clubs__argentina",
+    "members_all": 270,
+    "min_sitelinks": 2,
+    "members_total": 217,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 78,
+    "example_members": [
+      "Club Sportivo Belgrano",
+      "Club Atlético Atlanta",
+      "Concepción Fútbol Club",
+      "Talleres de Perico",
+      "Deportivo Español",
+      "Comisión de Actividades Infantiles"
+    ],
+    "example_foils": [
+      "Rio Branco Esporte Clube (Roraima)",
+      "Porto Vitória FC",
+      "União Futebol Clube",
+      "Atlético Clube Coríntians",
+      "Associação Cultural Esporte Clube Baraúnas",
+      "Tiburones Rojos de Veracruz"
+    ]
+  },
+  {
+    "category": "football_clubs__colombia",
+    "members_all": 67,
+    "min_sitelinks": 2,
+    "members_total": 58,
+    "members_kept": 58,
+    "foils_kept": 100,
+    "sitelinks_median": 11,
+    "sitelinks_max": 59,
+    "example_members": [
+      "Boyacá Patriotas",
+      "Atlético Huila",
+      "Atlético Bucaramanga",
+      "Deportivo Pereira",
+      "La Equidad",
+      "Independiente Santa Fe"
+    ],
+    "example_foils": [
+      "Sport Club Bom Jesus",
+      "Tanabi Esporte Clube",
+      "Red Bull Bragantino (women)",
+      "Esporte Clube Águia Negra",
+      "Social Futebol Clube",
+      "Sport Club Internacional"
+    ]
+  },
+  {
+    "category": "football_clubs__japan",
+    "members_all": 367,
+    "min_sitelinks": 2,
+    "members_total": 255,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 52,
+    "example_members": [
+      "Granscena Niigata FC",
+      "Fuji University FC",
+      "AS.Laranja Kyoto",
+      "RB Omiya Ardija",
+      "Fujieda MYFC",
+      "Ehime FC"
+    ],
+    "example_foils": [
+      "FC Gangneung",
+      "HKFC Soccer Section",
+      "Hangzhou Sanchao",
+      "Chuncheon Citizen FC",
+      "Gangwon FC",
+      "Kwun Tong FA"
+    ]
+  },
+  {
+    "category": "football_clubs__iran",
+    "members_all": 241,
+    "min_sitelinks": 2,
+    "members_total": 179,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 87,
+    "example_members": [
+      "Oghab F.C.",
+      "Paykan F.C.",
+      "Part Sazan Mashhad F.C.",
+      "Esteghlal Ahvaz F.C.",
+      "Khoneh Be Khoneh F.C.",
+      "Fath Tehran F.C."
+    ],
+    "example_foils": [
+      "Uşakspor",
+      "Galatasaray S.K.",
+      "Feriköy SK",
+      "Altınordu İdman Yurdu SK",
+      "Yeni Milasspor",
+      "Harp Okulu S.K."
+    ]
+  },
+  {
+    "category": "football_clubs__turkey",
+    "members_all": 473,
+    "min_sitelinks": 2,
+    "members_total": 302,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 92,
+    "example_members": [
+      "Kayserispor",
+      "Van Büyükşehir Belediyespor",
+      "Tokatspor",
+      "Kastamonuspor",
+      "Pendikspor",
+      "Denizlispor"
+    ],
+    "example_foils": [
+      "Aris Palaiochori F.C.",
+      "Aris Petroupolis F.C.",
+      "Amvrakia Kostakioi F.C.",
+      "Tamynaikos F.C.",
+      "Pegah F.C.",
+      "Shahrdari Bandar Anzali F.C."
+    ]
+  },
+  {
+    "category": "football_clubs__poland",
+    "members_all": 318,
+    "min_sitelinks": 2,
+    "members_total": 255,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 64,
+    "example_members": [
+      "1. FC Kattowitz",
+      "Chełmianka Chełm",
+      "Concordia Knurów",
+      "Lechia Zielona Góra",
+      "UKS SMS Łódź",
+      "Olimpia Grudziądz"
+    ],
+    "example_foils": [
+      "Tuusulan Palloseura",
+      "Atlantis FC",
+      "TPS Turku",
+      "SK Hranice",
+      "FK Tatran Prachatice",
+      "SK Baťov 1930"
+    ]
+  },
+  {
+    "category": "football_clubs__finland",
+    "members_all": 184,
+    "min_sitelinks": 2,
+    "members_total": 158,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 52,
+    "example_members": [
+      "Lappfjärds Bollklubb",
+      "FC Lahti",
+      "Kajaanin Palloilijat",
+      "Esbo Bollklubb",
+      "Ruutupaidat",
+      "Kemi City F.C."
+    ],
+    "example_foils": [
+      "Borås AIK",
+      "Lidköpings IF",
+      "JK Baltika Narva",
+      "Nybro IF",
+      "Stafsinge IF",
+      "Askeröds IF"
+    ]
+  },
+  {
+    "category": "football_clubs__france",
+    "members_all": 1254,
+    "min_sitelinks": 2,
+    "members_total": 581,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 61,
+    "example_members": [
+      "Valenciennes F.C.",
+      "U.S.O.Bruay-la-Buissière",
+      "SA Thiers",
+      "RC Ancenis",
+      "CS Avion",
+      "US Laon"
+    ],
+    "example_foils": [
+      "A.C. Ancona",
+      "A.C. Formigine A.S.D.",
+      "Ostuni Sport",
+      "A.S.D. Vittorio Falmec San Martino Colle",
+      "A.S.D.C. Magenta",
+      "A.S.D. Pontevecchio"
+    ]
+  },
+  {
+    "category": "football_clubs__usa",
+    "members_all": 1048,
+    "min_sitelinks": 2,
+    "members_total": 574,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 64,
+    "example_members": [
+      "IMG Academy Bradenton",
+      "Memphis 901 FC",
+      "New York AO Krete",
+      "Olimpia",
+      "Peachtree City MOBA",
+      "San Diego FC"
+    ],
+    "example_foils": [
+      "Holmer Green F.C.",
+      "Inter Cardiff F.C.",
+      "Barnes Football Club",
+      "Bangor F.C.",
+      "Fleetwood Town F.C.",
+      "Irlam F.C."
+    ]
+  },
+  {
+    "category": "writers_lang__tamil",
+    "members_all": 169,
+    "min_sitelinks": 2,
+    "members_total": 158,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 64,
+    "example_members": [
+      "Pulavar K. Govindan",
+      "C. Rajagopalachari",
+      "Māṅkuṭi Marutaṉār",
+      "Natana Kasinathan",
+      "R. Raghava Iyengar",
+      "Sandilyan"
+    ],
+    "example_foils": [
+      "Addepalli Ramamohana Rao",
+      "Karur Neelakanta Pillai",
+      "Vinjamuri Anasuya Devi",
+      "P. V. Shajikumar",
+      "Thalappil Pradeep",
+      "Burgula Ramakrishna Rao"
+    ]
+  },
+  {
+    "category": "writers_lang__telugu",
+    "members_all": 789,
+    "min_sitelinks": 2,
+    "members_total": 600,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 115,
+    "example_members": [
+      "Tenneti Viswanadham",
+      "Konda Venkatappaiah",
+      "Vakkantham Suryanarayana Rao",
+      "Mangipudi Venkatasarma",
+      "Jvālāmukhi",
+      "Syed Naseer Ahamed"
+    ],
+    "example_foils": [
+      "S. Theodore Baskaran",
+      "S. R. Ekkundi",
+      "Venkataramiah Sitaramiah",
+      "Javaregowda",
+      "Tamilvanan",
+      "Phakirappa Gurubasappa Halakatti"
+    ]
+  },
+  {
+    "category": "writers_lang__kannada",
+    "members_all": 238,
+    "min_sitelinks": 2,
+    "members_total": 196,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 53,
+    "example_members": [
+      "Sudha Murthy",
+      "Kavitha Lankesh",
+      "Banu Mushtaq",
+      "Puripanda Appala Swamy",
+      "Nittoor Srinivasa Rau",
+      "Gottfried Weigle"
+    ],
+    "example_foils": [
+      "Natana Kasinathan",
+      "Akkiraju Umakantham",
+      "Vedam Venkataraya Sastry",
+      "Kotikalapudi Seethamma",
+      "Vavilala Vasudeva Sastri",
+      "Kashinathuni Nageshwara Rao"
+    ]
+  },
+  {
+    "category": "writers_lang__malayalam",
+    "members_all": 477,
+    "min_sitelinks": 2,
+    "members_total": 415,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 5,
+    "sitelinks_max": 21,
+    "example_members": [
+      "Chattampi Swamikal",
+      "Rafeeq Ahammed",
+      "K. Balakrishnan",
+      "Mali Madhavan Nair",
+      "Kesari Balakrishna Pillai",
+      "Moorkoth Kumaran"
+    ],
+    "example_foils": [
+      "S. M. Abdul Jabbar",
+      "T. N. Srikantaiah",
+      "Chakravarti Sulibele",
+      "M. Chidananda Murthy",
+      "Niranjana",
+      "Hariharan Srinivasan"
+    ]
+  },
+  {
+    "category": "writers_lang__bengali",
+    "members_all": 3124,
+    "min_sitelinks": 2,
+    "members_total": 1335,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 95,
+    "example_members": [
+      "Rajnarayan Basu",
+      "Mahendranath Gupta",
+      "Ram Brahma Sanyal",
+      "Mahtab Chand Bahadur",
+      "Rashid Ahmed Chowdhury",
+      "Qazi Mutasim Billah"
+    ],
+    "example_foils": [
+      "Sudhir Pattnaik",
+      "Prahalada Pani",
+      "Devendranath Acharya",
+      "Guru Prasad Mohanty",
+      "Binod Kanungo",
+      "Sitakant Mahapatra"
+    ]
+  },
+  {
+    "category": "writers_lang__hindi",
+    "members_all": 346,
+    "min_sitelinks": 2,
+    "members_total": 293,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 63,
+    "example_members": [
+      "Mahadevi Varma",
+      "Mithileshwar",
+      "Narendra Mohan",
+      "Arvind Kumar",
+      "Arun Kamal",
+      "Kailash Vajpeyi"
+    ],
+    "example_foils": [
+      "Vishnu Sakharam Khandekar",
+      "Pralhad Keshav Atre",
+      "Shri Thanedar",
+      "Shanta Gokhale",
+      "Bhaskar Ramchandra Tambe",
+      "Shankar Damodar Pendse"
+    ]
+  },
+  {
+    "category": "writers_lang__marathi",
+    "members_all": 489,
+    "min_sitelinks": 2,
+    "members_total": 369,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 61,
+    "example_members": [
+      "Aruna Ramchandra Dhere",
+      "Krushnaji Prabhakar Khadilkar",
+      "Dattatraya Bhikaji Kulkarni",
+      "Yadunath Thatte",
+      "Laxman Balwant Bhopatkar",
+      "Ranjit Desai"
+    ],
+    "example_foils": [
+      "Shankarlal Shastri",
+      "Buddhisagarsuri",
+      "Itamar Ben-Gvir",
+      "Bharatendu Harishchandra",
+      "A. R. Akela",
+      "Phanishwar Nath 'Renu'"
+    ]
+  },
+  {
+    "category": "writers_lang__gujarati",
+    "members_all": 371,
+    "min_sitelinks": 2,
+    "members_total": 337,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 27,
+    "example_members": [
+      "Bholabhai Patel",
+      "Jayant Gadit",
+      "Dhwanil Parekh",
+      "Ruswa Majhalumi",
+      "Muljibhai Nayak",
+      "Bindu Bhatt"
+    ],
+    "example_foils": [
+      "Sudama Panday 'Dhoomil'",
+      "Yarlagadda Lakshmi Prasad",
+      "Acharya Kuber Nath Rai",
+      "Vishnu Vaman Bapat",
+      "Shekhar Joshi",
+      "Raghunath Pandit"
+    ]
+  },
+  {
+    "category": "writers_lang__punjabi",
+    "members_all": 599,
+    "min_sitelinks": 2,
+    "members_total": 363,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 4,
+    "sitelinks_max": 54,
+    "example_members": [
+      "Harchand Singh Bedi",
+      "Mahinderpal Dhaliwal",
+      "Takht Singh",
+      "Shah Sharaf",
+      "Gurbhajan Gill",
+      "The PropheC"
+    ],
+    "example_foils": [
+      "Ahmed Raza Khan Barelvi",
+      "Abid Surti",
+      "Hamid al-Ansari Ghazi",
+      "Kamlesh Pandey",
+      "Ahmad Faraz",
+      "Shyamsundar Das"
+    ]
+  },
+  {
+    "category": "writers_lang__odia",
+    "members_all": 1490,
+    "min_sitelinks": 2,
+    "members_total": 217,
+    "members_kept": 150,
+    "foils_kept": 100,
+    "sitelinks_median": 3,
+    "sitelinks_max": 27,
+    "example_members": [
+      "Gayatribala Panda",
+      "Lal Mohan Patnaik",
+      "Kadambini Mohakud",
+      "Chakradhara Mohapatra",
+      "Subrat Kumar Senapati",
+      "Binod Kanungo"
+    ],
+    "example_foils": [
+      "Shashishekhar Basu",
+      "Mannan Hira",
+      "Muhammad Qudrat-i-Khuda",
+      "Chandi Charan Sen",
+      "Ferdousi Mazumder",
+      "Atulya Ghosh"
+    ]
+  },
+  {
+    "category": "writers_lang__assamese",
+    "members_all": 93,
+    "min_sitelinks": 2,
+    "members_total": 83,
+    "members_kept": 83,
+    "foils_kept": 100,
+    "sitelinks_median": 6,
+    "sitelinks_max": 26,
+    "example_members": [
+      "Bhubanmohan Baruah",
+      "Satyanath Bora",
+      "Heerendra Nath Dutt",
+      "Nathan Brown",
+      "Laxminath Phookan",
+      "Atulananda Goswami"
+    ],
+    "example_foils": [
+      "Sanat Kumar Saha",
+      "Suresh Chandra Chakraborty",
+      "Pratap Chandra Ghosh",
+      "Bijay Mohanty",
+      "Muhammad Qudrat-i-Khuda",
+      "Uddhab Charan Nayak"
+    ]
+  },
+  {
+    "category": "writers_lang__urdu",
+    "members_all": 151,
+    "min_sitelinks": 2,
+    "members_total": 99,
+    "members_kept": 99,
+    "foils_kept": 100,
+    "sitelinks_median": 8,
+    "sitelinks_max": 110,
+    "example_members": [
+      "Nida Fazli",
+      "Zubaida Yazdani",
+      "Hamidi Kashmiri",
+      "Khwaja Ahmad Abbas",
+      "Parveen Shakir",
+      "Nadeem Aslam"
+    ],
+    "example_foils": [
+      "Janaki Devi Bajaj",
+      "The PropheC",
+      "Sangtar",
+      "Sardara Singh Johl",
+      "Ishar Singh",
+      "Ajit Saini"
+    ]
+  },
+  {
+    "category": "novelists__usa",
+    "dropped": "query failed"
+  },
+  {
+    "category": "painters__france",
+    "dropped": "query failed"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "pooled": {
+    "p0.90_T1": {
+      "S_obs": 432,
+      "chao1": 469.6666666666667,
+      "members": 33437,
+      "reachable": 2134,
+      "recognised": 15514,
+      "recognised_and_reachable": 1252,
+      "sampled_outside_reachable": 2,
+      "ace": 431.30044734754154,
+      "ace_undefined_categories": 20,
+      "S_obs_where_ace_defined": 383,
+      "chao1_over_reachable": 0.22008747266479226,
+      "chao1_over_recognised": 0.030273731253491473,
+      "shortfall_vs_recognised": 15044.333333333334,
+      "rbu_times_recognised": 14262
+    },
+    "shipped_hf": {
+      "S_obs": 141,
+      "chao1": 141.0,
+      "members": 33437,
+      "reachable": 231,
+      "recognised": 15514,
+      "recognised_and_reachable": 194,
+      "sampled_outside_reachable": 6,
+      "ace": 141.0,
+      "ace_undefined_categories": 0,
+      "S_obs_where_ace_defined": 141,
+      "chao1_over_reachable": 0.6103896103896104,
+      "chao1_over_recognised": 0.009088565166945985,
+      "shortfall_vs_recognised": 15373.0,
+      "rbu_times_recognised": 15320
+    }
+  },
+  "note": "template 0, robust verdict"
+}
