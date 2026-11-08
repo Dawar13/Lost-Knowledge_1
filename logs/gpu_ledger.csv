@@ -1,0 +1,11 @@
+utc_time,host,gpu,script,model,gpu_hours,note
+2026-11-08T05:31:08Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-0.5B-Instruct,0.0164,results/smoke
+2026-11-08T05:35:57Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,selfcheck,Qwen/Qwen2.5-0.5B-Instruct,0.0278,results/selfcheck
+2026-11-08T05:38:47Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,selfcheck,Qwen/Qwen2.5-0.5B-Instruct,0.0069,results/selfcheck_gap
+2026-11-08T05:40:27Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,selfcheck,Qwen/Qwen2.5-0.5B-Instruct,0.0066,results/selfcheck_gap
+2026-11-08T06:36:33Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,selfcheck,Qwen/Qwen2.5-0.5B-Instruct,0.0696,results/selfcheck_margin
+2026-11-08T07:42:24Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,selfcheck,Qwen/Qwen2.5-7B-Instruct,0.0990,results/G0/calibration
+2026-11-08T08:29:45Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,selfcheck,Qwen/Qwen2.5-7B,0.1208,results/G0/calibration peak 18.0 GiB
+2026-11-08T08:42:26Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-7B-Instruct,0.2006,results/G0 KILLED by agent after 12.0 min (d* on all specs too slow; no outputs)
+2026-11-08T09:04:22Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-7B-Instruct,0.2878,results/G0 peak 16.3 GiB
+2026-11-08T09:11:19Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-7B,0.1133,results/G0 peak 16.3 GiB
