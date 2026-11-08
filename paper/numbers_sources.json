@@ -1,4 +1,5 @@
 {
+ "reproGpuHours": "logs/gpu_ledger.csv",
  "gzQwenInstShipped": "results/G0_5090/metrics/rbu_Qwen2.5-7B-Instruct.csv",
  "gzQwenInstShippedLo": "results/G0_5090/metrics/rbu_Qwen2.5-7B-Instruct.csv",
  "gzQwenInstShippedHi": "results/G0_5090/metrics/rbu_Qwen2.5-7B-Instruct.csv",
