@@ -84,11 +84,11 @@ def main():
                 y.append(int(not d["p0.90_T1"]))
                 xs.append(math.log10(1 + sl[ek]))
                 g.append(ek.split("|", 1)[1])
-        pr = gee_logit(y, xs, g) | {"model": m, "outcome": "unreachable_p0.90_T1 | recognised"}
+        pr = gee_logit(y, xs, g) | {"model": m, "outcome": "unreachable at p0.90_T1, given recognised"}
         yr = [int(bool(v)) for v in rec.values()]
         xr = [math.log10(1 + sl.get(k, 0)) for k in rec]
         gr = [k.split("|", 1)[1] for k in rec]
-        rr = gee_logit(yr, xr, gr) | {"model": m, "outcome": "recognised | member"}
+        rr = gee_logit(yr, xr, gr) | {"model": m, "outcome": "recognised, among members"}
         pop_rows += [pr, rr]
         # region and type breakdowns
         for key_fn, sink, name in ((lambda c: cat_meta(c)[1], region_rows, "region"),
