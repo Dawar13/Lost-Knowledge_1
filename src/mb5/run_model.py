@@ -22,6 +22,7 @@ import torch
 from .common import (append_gpu_ledger, estimate_need_gib, is_chat_model, load_model, model_tag, peak_gib, read_jsonl,
                      require_gpu_memory, run_meta, seed_all, write_json, write_jsonl)
 from .prompts import BASE_GEN_SHOTS, GEN_TEMPLATES, answer_prefix, encode_pair, encode_prompt, render
+from .firsttoken import first_token_stats
 from .reachability import score_items
 from .recognition import mc_scores, yesno_scores
 from .sample_check import check, generate_samples, norm
@@ -39,6 +40,8 @@ def main():
     ap.add_argument("--batch-size", type=int, default=32)
     ap.add_argument("--dstar-specs", default="shipped_hf,p0.90_T1",
                     help="specs whose signed-margin curve (d*) is recorded; each costs ~12 chain evaluations")
+    ap.add_argument("--yesno-probe", default="apriori", choices=["apriori", "worked4"],
+                    help="yes/no recognition probe version (prompts.YESNO_PROBES); apriori is the main protocol")
     ap.add_argument("--margin", type=float, default=0.0,
                     help="raw-logit margin for the robust verdicts (calibrate with mb5.selfcheck; see docs/04)")
     ap.add_argument("--no-aliases", action="store_true")
@@ -104,13 +107,15 @@ def main():
     reach = score_items(model, items, specs, device=args.device, batch_size=args.batch_size, pad_id=pad_id,
                         margin=args.margin, dstar=[s for s in args.dstar_specs.split(",") if s])
     write_jsonl(out / "reach.jsonl.gz", reach)
+    # First-token concentration per prompt (the mechanism predictor, E5).
+    write_json(out / "first_token.json", {"rows": first_token_stats(model, tok, prompt_cache, chat, args.device)})
 
     # ---------------- recognition (members and foils)
     q_mem = [{"name": e["label"], "singular": cats[e["category"]]["singular"], "category": e["category"]} for e in ents]
     q_foil = [{"name": f["label"], "singular": cats[f["category"]]["singular"], "category": f["category"]} for f in foils]
     print(f"[recog] yes/no on {len(q_mem)} members and {len(q_foil)} foils")
-    v_mem = yesno_scores(model, tok, chat, q_mem, args.device, pad_id, args.batch_size)
-    v_foil = yesno_scores(model, tok, chat, q_foil, args.device, pad_id, args.batch_size)
+    v_mem = yesno_scores(model, tok, chat, q_mem, args.device, pad_id, args.batch_size, probe=args.yesno_probe)
+    v_foil = yesno_scores(model, tok, chat, q_foil, args.device, pad_id, args.batch_size, probe=args.yesno_probe)
     pool = defaultdict(list)
     for f in foils:
         pool[f["category"]].append(f["label"])

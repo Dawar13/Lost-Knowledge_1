@@ -151,3 +151,21 @@ def test_signed_margin_is_the_flip_point():
             k0 = chain_kept(ch, rows, t, prefixes)
             clear = d.abs() > tol
             assert torch.equal(k0[clear], (d > 0)[clear]), spec
+
+
+def test_apriori_yesno_probe_reproduces_the_original_prompt():
+    """The main (a-priori) probe must give byte-identical base prompts to G0
+    attempts 1 and 2; chat models get the question alone."""
+    from mb5.prompts import render_yesno
+
+    original = ('Question: Is "Paris" a city in France? Answer Yes or No.\nAnswer: Yes\n\n'
+                'Question: Is "Lake Victoria" a mountain in Peru? Answer Yes or No.\nAnswer: No\n\n'
+                'Question: Is "Kambar" a poet who wrote in Tamil? Answer Yes or No.\nAnswer:')
+    assert render_yesno(None, "Kambar", "a poet who wrote in Tamil", chat=False) == original
+
+    class FakeTok:
+        def apply_chat_template(self, msgs, tokenize, add_generation_prompt):
+            return repr(msgs)
+
+    assert render_yesno(FakeTok(), "Kambar", "a poet who wrote in Tamil", chat=True) == repr(
+        [{"role": "user", "content": 'Is "Kambar" a poet who wrote in Tamil? Answer Yes or No.'}])

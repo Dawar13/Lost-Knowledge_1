@@ -46,12 +46,13 @@ def _lse(xs):
     return m + math.log(sum(math.exp(x - m) for x in xs))
 
 
-def yesno_scores(model, tok, chat: bool, queries: list[dict], device, pad_id, batch_size=32) -> list[dict]:
+def yesno_scores(model, tok, chat: bool, queries: list[dict], device, pad_id, batch_size=32,
+                 probe: str = "apriori") -> list[dict]:
     """queries: dicts with 'name' and 'singular'. Returns per query
     {'V': P(Yes)/(P(Yes)+P(No)) in [0,1], 'logp_yes', 'logp_no' (pooled over
     token variants, full-vocabulary log-probabilities), 'prompt' (exact text)}."""
     yes, no = yes_no_tokens(tok, chat)
-    texts = [render_yesno(tok, q["name"], q["singular"], chat) for q in queries]
+    texts = [render_yesno(tok, q["name"], q["singular"], chat, probe) for q in queries]
     prompts = [encode_prompt(tok, t, chat) for t in texts]
     lps = next_token_logprobs(model, prompts, yes + no, device, pad_id, batch_size)
     out = []

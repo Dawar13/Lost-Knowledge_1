@@ -39,18 +39,28 @@ YESNO_EXAMPLES = [
     ("Toni Morrison", "a novelist from the United States", "Yes"),
     ("Lake Victoria", "a mountain in Peru", "No"),
 ]
+
+# Two versions of the yes/no probe (notes/decisions.md, G0 attempts 2 and 3; option B):
+#   apriori  the protocol fixed before any data (MAIN): chat models get the question alone,
+#            base models get the Paris and Lake Victoria examples so they answer in format.
+#   worked4  all four examples for both model types (G0 attempt 3; a sensitivity analysis:
+#            it raised the chat model's Yes rate and lowered AUROC).
+YESNO_PROBES = {"apriori": {"chat": [], "base": [YESNO_EXAMPLES[0], YESNO_EXAMPLES[3]]},
+                "worked4": {"chat": YESNO_EXAMPLES, "base": YESNO_EXAMPLES}}
 BASE_YESNO_SHOTS = "".join(f"Question: {YESNO.format(name=n, singular=s)}\nAnswer: {a}\n\n"
-                           for n, s, a in YESNO_EXAMPLES)
+                           for n, s, a in YESNO_PROBES["apriori"]["base"])
 
 
-def render_yesno(tok, name: str, singular: str, chat: bool) -> str:
-    """Yes/no recognition prompt with the worked examples: plain Question/Answer
-    pairs for base models, prior user/assistant turns for chat models."""
+def render_yesno(tok, name: str, singular: str, chat: bool, probe: str = "apriori") -> str:
+    """Yes/no recognition prompt: examples as Question/Answer pairs for base
+    models, as prior user/assistant turns for chat models."""
     q = YESNO.format(name=name, singular=singular)
+    shots = YESNO_PROBES[probe]["chat" if chat else "base"]
     if not chat:
-        return f"{BASE_YESNO_SHOTS}Question: {q}\nAnswer:"
+        pre = "".join(f"Question: {YESNO.format(name=n, singular=s)}\nAnswer: {a}\n\n" for n, s, a in shots)
+        return f"{pre}Question: {q}\nAnswer:"
     msgs = []
-    for n, s, a in YESNO_EXAMPLES:
+    for n, s, a in shots:
         msgs += [{"role": "user", "content": YESNO.format(name=n, singular=s)}, {"role": "assistant", "content": a}]
     msgs.append({"role": "user", "content": q})
     return tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
