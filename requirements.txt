@@ -4,5 +4,6 @@ numpy
 pyyaml
 requests
 pytest
+# Exact versions used for G0 and later: requirements-lock.txt (pip install -r requirements-lock.txt)
 # Phase 3+ only (fast sampling at scale; cross-check against HF semantics first):
 # vllm
