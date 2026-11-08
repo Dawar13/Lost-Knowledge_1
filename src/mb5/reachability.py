@@ -74,10 +74,41 @@ def chain_kept(chain, rows: torch.Tensor, targets: torch.Tensor, prefixes: list[
         return torch.ones(len(targets), dtype=torch.bool, device=rows.device)
     ids = _left_pad_prefixes(prefixes, rows.device)
     x = rows.clone()
-    if shift:
+    if torch.is_tensor(shift) or shift:  # scalar, or one shift per row
         x[torch.arange(len(targets), device=x.device), targets] += shift
     out = chain(ids, x)
     return torch.isfinite(out.gather(1, targets[:, None]).squeeze(1))
+
+
+DSTAR_BOUND = 8.0  # raw logits; |d*| is clipped here
+DSTAR_ITERS = 10  # bisection steps: resolution 2 * 8 / 2**10 = 0.016 logits
+
+
+def signed_margin(chain, rows: torch.Tensor, targets: torch.Tensor, prefixes: list[list[int]]) -> torch.Tensor:
+    """Per row, the signed logit margin d of the target under the chain:
+    d > 0: kept, and still kept with its logit lowered by up to d;
+    d < 0: cut, and still cut with its logit raised by up to |d|.
+    Found by bisection on the shift (kept is monotone in it), clipped to
+    +-DSTAR_BOUND. An answer's margin is the minimum over its positions, so it
+    is robustly unreachable at margin eps iff that minimum is below -eps."""
+    R = len(targets)
+    dev = rows.device
+    if len(chain) == 0:
+        return torch.full((R,), DSTAR_BOUND, device=dev)
+    B = DSTAR_BOUND
+    k_top = chain_kept(chain, rows, targets, prefixes, shift=torch.full((R,), B, device=dev))
+    k_bot = chain_kept(chain, rows, targets, prefixes, shift=torch.full((R,), -B, device=dev))
+    lo = torch.full((R,), -B, device=dev)  # largest shift known to be cut
+    hi = torch.full((R,), B, device=dev)  # smallest shift known to be kept
+    for _ in range(DSTAR_ITERS):
+        mid = (lo + hi) / 2
+        k = chain_kept(chain, rows, targets, prefixes, shift=mid)
+        hi = torch.where(k, mid, hi)
+        lo = torch.where(k, lo, mid)
+    d = -(lo + hi) / 2
+    d = torch.where(k_bot, torch.full_like(d, B), d)  # kept even at -B
+    d = torch.where(~k_top, torch.full_like(d, -B), d)  # cut even at +B
+    return d
 
 
 @torch.no_grad()
@@ -111,6 +142,7 @@ def score_items(
     keep_positions: bool = True,
     progress: bool = True,
     margin: float = 0.0,
+    dstar: bool = True,
 ) -> list[dict]:
     """items: dicts with 'prompt_ids', 'answer_ids' (+ any metadata, copied through).
 
@@ -124,6 +156,10 @@ def score_items(
       robust_reach__S    every position survives with the target lowered by margin
       neither            boundary: the verdict depends on numerics
     With margin 0 both equal the exact verdict.
+
+    dstar=True also records dstar__S, the answer's signed logit margin (minimum
+    over positions of signed_margin) and dstar_pos__S, so RBU can be computed
+    at any margin afterwards: robustly unreachable at eps iff dstar < -eps.
     """
     chains = {name: build_chain(spec) for name, spec in specs.items()}
     # Sort by length to reduce padding; restore order at the end.
@@ -147,6 +183,7 @@ def score_items(
         kept: dict[str, list] = {n: [] for n in chains}
         kept_hi: dict[str, list] = {n: [] for n in chains}
         kept_lo: dict[str, list] = {n: [] for n in chains}
+        dmarg: dict[str, list] = {n: [] for n in chains}
         for c0 in range(0, rows.shape[0], row_chunk):
             sl = slice(c0, c0 + row_chunk)
             pre = prefixes[c0 : c0 + row_chunk]
@@ -162,6 +199,9 @@ def score_items(
                 else:
                     kept_hi[n].append(k0)
                     kept_lo[n].append(k0)
+                if dstar:
+                    dmarg[n].append(signed_margin(ch, rows[sl], targets_t[sl], pre).cpu())
+        dmarg = {n: torch.cat(v).tolist() for n, v in dmarg.items()} if dstar else {}
         stats = {k: torch.cat(v).tolist() for k, v in stats.items()}
         kept = {n: torch.cat(v).tolist() for n, v in kept.items()}
         kept_hi = {n: torch.cat(v).tolist() for n, v in kept_hi.items()}
@@ -169,7 +209,7 @@ def score_items(
         # Aggregate per item.
         per = [dict(rank=[], gap=[], **{f"G_T{T}": [] for T in TEMPS}, **{f"logp_T{T}": [] for T in TEMPS},
                     **{f"kept__{n}": [] for n in chains}, **{f"kepthi__{n}": [] for n in chains},
-                    **{f"keptlo__{n}": [] for n in chains}) for _ in batch]
+                    **{f"keptlo__{n}": [] for n in chains}, **{f"d__{n}": [] for n in chains}) for _ in batch]
         for r, k in enumerate(owner):
             d = per[k]
             d["rank"].append(stats["rank"][r])
@@ -181,6 +221,8 @@ def score_items(
                 d[f"kept__{n}"].append(bool(kept[n][r]))
                 d[f"kepthi__{n}"].append(bool(kept_hi[n][r]))
                 d[f"keptlo__{n}"].append(bool(kept_lo[n][r]))
+                if dstar:
+                    d[f"d__{n}"].append(dmarg[n][r])
         for k, i in enumerate(idx):
             d = per[k]
             rec = {key: val for key, val in items[i].items() if key not in ("prompt_ids",)}
@@ -201,6 +243,11 @@ def score_items(
                 rec[f"robust_unreach__{n}"] = not all(hi)
                 rec[f"robust_reach__{n}"] = all(d[f"keptlo__{n}"])
                 rec[f"failpos_robust__{n}"] = next((j for j, v in enumerate(hi) if not v), -1)
+                if dstar:
+                    dm = d[f"d__{n}"]
+                    jm = int(min(range(len(dm)), key=dm.__getitem__))
+                    rec[f"dstar__{n}"] = round(float(dm[jm]), 4)
+                    rec[f"dstar_pos__{n}"] = jm
             if keep_positions:
                 rec["G_T1.0_pos"] = [round(x, 6) for x in d["G_T1.0"]]
                 rec["rank_pos"] = d["rank"]

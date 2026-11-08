@@ -126,3 +126,28 @@ def test_shifted_top_p_matches_strict_rule_without_ties():
             kept = chain_kept(build_chain({"top_p": 0.9}), rows, tt, [[0]] * B, shift=m)
             clear = (G - 0.9).abs() > EPS
             assert torch.equal(kept[clear], (G < 0.9)[clear]), (m, t)
+
+
+def test_signed_margin_is_the_flip_point():
+    """d from signed_margin: the target is kept with shift -d + tol and cut with
+    shift -d - tol (tol = bisection resolution), on tie-heavy logits, for
+    single and combined samplers. Its sign agrees with the unshifted verdict
+    away from the boundary."""
+    from mb5.reachability import DSTAR_BOUND, signed_margin
+
+    tol = 2 * DSTAR_BOUND / 2**10 + 1e-4
+    rows = (torch.randn(B, V) * 3 * 8).round() / 8
+    prefixes = [[int(x) for x in torch.randint(0, V, (3,))] for _ in range(B)]
+    for spec in ({"top_p": 0.9}, {"top_k": 20}, {"min_p": 0.05},
+                 {"repetition_penalty": 1.05, "temperature": 0.7, "top_k": 20, "top_p": 0.8}):
+        ch = build_chain(spec)
+        for t0 in range(0, V, 37):
+            t = (torch.arange(B) * 13 + t0) % V
+            d = signed_margin(ch, rows, t, prefixes)
+            inside = d.abs() < DSTAR_BOUND - tol
+            up = chain_kept(ch, rows, t, prefixes, shift=-d + tol)
+            down = chain_kept(ch, rows, t, prefixes, shift=-d - tol)
+            assert torch.all(up[inside]) and not torch.any(down[inside]), spec
+            k0 = chain_kept(ch, rows, t, prefixes)
+            clear = d.abs() > tol
+            assert torch.equal(k0[clear], (d > 0)[clear]), spec
