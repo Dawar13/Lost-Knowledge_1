@@ -5,3 +5,6 @@ data/tailcat/
 results/*/
 !results/gates/
 .env
+.venv/
+hf_home/
+logs/run/
