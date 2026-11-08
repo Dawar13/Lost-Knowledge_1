@@ -167,10 +167,18 @@ def main():
         mem_q = {m["qid"] for m in mem}
         mem_names = {m["label"].casefold() for m in mem} | {a.casefold() for m in mem for a in m["aliases"]}
         foil = [f for f in foil if f["qid"] not in mem_q and f["label"].casefold() not in mem_names]
-        n_total = len(mem)
+        n_all = len(mem)
         # Uncapped name list: used to judge whether a generated name is a real member
         # (coverage in P4, invented-name rate in P5). Never judge validity against the capped list.
+        # It keeps every member, including those below min_sitelinks: such a name is real, not invented.
         valid_names[c["id"]] = sorted(mem_names)
+        # Sampled members and foils need Wikipedia articles in at least min_sitelinks languages.
+        # Single-wiki entries are mostly bot imports (GeoNames peaks, lake and temple databases)
+        # whose transliterated labels no reader or model could know (G0 audit, notes/decisions.md).
+        min_sl = c.get("min_sitelinks", s.get("min_sitelinks", 0))
+        mem = [m for m in mem if m["sitelinks"] >= min_sl]
+        foil = [f for f in foil if f["sitelinks"] >= min_sl]
+        n_total = len(mem)
         mem = stratified_cap(mem, cap, bins, rng)
         foil = rng.sample(foil, min(foil_cap, len(foil)))
         for m in mem:
@@ -182,7 +190,8 @@ def main():
                                                                      "n_members_total": n_total})
         sl = sorted(m["sitelinks"] for m in mem) or [0]
         report.append({
-            "category": c["id"], "members_total": n_total, "members_kept": len(mem), "foils_kept": len(foil),
+            "category": c["id"], "members_all": n_all, "min_sitelinks": min_sl,
+            "members_total": n_total, "members_kept": len(mem), "foils_kept": len(foil),
             "sitelinks_median": sl[len(sl) // 2], "sitelinks_max": sl[-1],
             "example_members": [m["label"] for m in rng.sample(mem, min(6, len(mem)))],
             "example_foils": [f["label"] for f in rng.sample(foil, min(6, len(foil)))],

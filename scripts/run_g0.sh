@@ -5,7 +5,7 @@
 set -euo pipefail
 export PYTHONPATH=src
 OUT=${OUT:-results/G0}
-DATA=${DATA:-data/tailcat/pilot}
+DATA=${DATA:-data/tailcat/pilot_v2}  # v2: G0 audit fixes (notes/decisions.md); v1 was the A100 attempt
 
 echo "== environment and GPU (shared card: never kill other jobs)"
 python -m mb5.check_env

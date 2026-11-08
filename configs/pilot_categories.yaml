@@ -23,6 +23,9 @@ settings:
   strata: 5
   max_aliases: 3
   seed: 0
+  # Added after the G0 audit (notes/decisions.md, 2026-11-08), uniform for every
+  # category: sampled members and foils need Wikipedia articles in >= 2 languages.
+  min_sitelinks: 2
 
 categories:
   - id: tamil_poets
@@ -104,21 +107,26 @@ categories:
   - id: bengali_film_directors
     singular: a director of Bengali-language films
     plural: directors of Bengali-language films
+    # G0 audit: without citizenship the list included directors of international
+    # films with Bengali among their languages (Sam Hargrave, Edward Burtynsky).
     where: >-
       ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q9610 ; wdt:P57 ?item .
+      { ?item wdt:P27 wd:Q668 } UNION { ?item wdt:P27 wd:Q902 }
     foil_where: >-
       ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q5885 ; wdt:P57 ?item .
+      ?item wdt:P27 wd:Q668 .
 
   - id: assamese_writers
     singular: a writer who wrote in Assamese
     plural: writers who wrote in Assamese
-    # Language pattern first: same membership, 0.6 s instead of 44 s.
+    # G0 audit: P1412 ("languages spoken") admitted people who did not write in
+    # Assamese (19th-century missionaries, Nepali and Odia writers). P6886 is
+    # "writing language", which is exactly the category. Foils use the same property.
     where: >-
-      { ?item wdt:P6886 wd:Q29401 } UNION { ?item wdt:P1412 wd:Q29401 } hint:Prior hint:runFirst true .
-      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 .
+      ?item wdt:P6886 wd:Q29401 . ?item wdt:P31 wd:Q5 .
     foil_where: >-
-      { ?item wdt:P1412 wd:Q33810 } UNION { ?item wdt:P1412 wd:Q9610 } hint:Prior hint:runFirst true .
-      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 .
+      { ?item wdt:P6886 wd:Q33810 } UNION { ?item wdt:P6886 wd:Q9610 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 .
 
   # Head control: every model should reach nearly all of these. If RBU is high
   # here too, suspect a pipeline bug before believing anything else.
