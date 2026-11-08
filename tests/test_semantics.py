@@ -169,3 +169,18 @@ def test_apriori_yesno_probe_reproduces_the_original_prompt():
 
     assert render_yesno(FakeTok(), "Kambar", "a poet who wrote in Tamil", chat=True) == repr(
         [{"role": "user", "content": 'Is "Kambar" a poet who wrote in Tamil? Answer Yes or No.'}])
+
+
+def test_kv_batch_size_keeps_qwen_at_200_and_shrinks_for_no_gqa():
+    """Qwen2.5-7B (4 KV heads) keeps the G0 batch of 200, so its samples are
+    unchanged; OLMo-2-7B (32 KV heads, no grouped-query attention) gets less."""
+    from types import SimpleNamespace
+
+    from mb5.sample_check import kv_batch_size
+
+    qwen = SimpleNamespace(config=SimpleNamespace(num_hidden_layers=28, num_key_value_heads=4,
+                                                  num_attention_heads=28, hidden_size=3584, head_dim=128))
+    olmo = SimpleNamespace(config=SimpleNamespace(num_hidden_layers=32, num_key_value_heads=32,
+                                                  num_attention_heads=32, hidden_size=4096, head_dim=128))
+    assert kv_batch_size(qwen, 72) == 200 and kv_batch_size(qwen, 90) == 200
+    assert 8 <= kv_batch_size(olmo, 84) < 100

@@ -33,10 +33,28 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s)
 
 
+KV_BUDGET_GIB = 3.0  # cap on the KV cache of one generation batch
+
+
+def kv_batch_size(model, seq_len: int, cap: int = 200, budget_gib: float = KV_BUDGET_GIB) -> int:
+    """Largest batch (at most `cap`) whose KV cache fits in `budget_gib`. Models
+    without grouped-query attention (e.g. OLMo-2-7B: 32 KV heads) need about 9
+    times the cache of Qwen2.5-7B (4 KV heads), so a fixed batch of 200 does not
+    fit next to the weights. Qwen2.5 keeps 200, so its G0 samples are unchanged."""
+    c = model.config.get_text_config() if hasattr(model.config, "get_text_config") else model.config
+    layers = c.num_hidden_layers
+    kv_heads = getattr(c, "num_key_value_heads", None) or c.num_attention_heads
+    head_dim = getattr(c, "head_dim", None) or c.hidden_size // c.num_attention_heads
+    per_token = 2 * layers * kv_heads * head_dim * 2  # keys and values, bf16
+    return max(8, min(cap, int(budget_gib * 2**30 / (per_token * seq_len))))
+
+
 @torch.no_grad()
 def generate_samples(model, prompt_ids: list[int], n: int, max_new_tokens: int, device, pad_id: int,
-                     spec: dict | None, batch_size: int = 200, seed: int = 0) -> list[list[int]]:
+                     spec: dict | None, batch_size: int | None = None, seed: int = 0) -> list[list[int]]:
     torch.manual_seed(seed)
+    if batch_size is None:
+        batch_size = kv_batch_size(model, len(prompt_ids) + max_new_tokens)
     outs: list[list[int]] = []
     base = torch.tensor([prompt_ids], dtype=torch.long, device=device)
     eos = model.generation_config.eos_token_id
