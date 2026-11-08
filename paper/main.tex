@@ -35,11 +35,11 @@ This matters for the current debate on homogenisation and knowledge collapse. Wh
 
 We make the third case measurable. Our contributions:
 \begin{enumerate}
-\item \textbf{An exact reachability test.} One teacher-forced forward pass per answer tells, for any sampler that truncates (and for the full shipped processor chain), whether an answer has positive probability. We add a numeric margin so the verdict does not depend on floating-point differences between two computations of the same logits, and validate it against real samples from two model families with zero contradictions (Section~\ref{sec:method}).
-\item \textbf{A measurement of recognised-but-unreachable knowledge (RBU).} Among entities a model recognises, \gzQwenInstShipped{} of those tested are unreachable under Qwen2.5-7B-Instruct's shipped sampler (Section~\ref{sec:howmuch}).
-\item \textbf{A mechanism.} Post-training concentrates probability on a few first tokens; truncation then deletes the tail at the first token. RBU rises across OLMo-2's post-training stages and tracks first-token concentration (Section~\ref{sec:where}).
-\item \textbf{A correction for knowledge estimates from samples.} Unseen-species estimators applied to model samples converge to the reachable set, not to what the model recognises (Section~\ref{sec:measure}).
-\item \textbf{Who loses and a fix.} \missing{P3 and P5 summary} (Sections~\ref{sec:who} and~\ref{sec:fix}).
+\item \textbf{Recognised-but-unreachable knowledge.} We pair an exact reachability test (one teacher-forced pass per answer, also used for ordinary words by \citealp{awad2026lost}) with a recognition test against near-miss foils, and add a numeric margin so the verdict does not depend on floating-point differences between two computations of the same logits. Real samples from two model families never contradict it (Section~\ref{sec:method}).
+\item \textbf{How much.} Among entities Qwen2.5-7B-Instruct recognises, \gzQwenInstShipped{} of those in our pilot are unreachable under its shipped sampler (Section~\ref{sec:howmuch}).
+\item \textbf{Where it comes from.} Across OLMo-2's post-training stages RBU rises mostly at supervised fine-tuning, the cut moves to the first token of the name, and first-token concentration tracks RBU; truncation by probability mass, not by rank, does the deleting (Section~\ref{sec:where}).
+\item \textbf{What it does to measurement.} Unseen-species estimators applied to model samples converge to the reachable set, not to what the model recognises; we compute the gap exactly (Section~\ref{sec:measure}).
+\item \textbf{Who loses, and what a fix can and cannot do.} Rare entities are deleted more often (Section~\ref{sec:who}). Relaxing truncation at the first token alone recovers little, because names fail again later; we report the full frontier between reachable knowledge and invented answers instead (Section~\ref{sec:fix}).
 \end{enumerate}
 
 \section{Exact reachability}\label{sec:method}
