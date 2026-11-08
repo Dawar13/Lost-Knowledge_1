@@ -19,7 +19,7 @@ from pathlib import Path
 
 import torch
 
-from .common import (append_gpu_ledger, estimate_need_gib, is_chat_model, load_model, model_tag, read_jsonl,
+from .common import (append_gpu_ledger, estimate_need_gib, is_chat_model, load_model, model_tag, peak_gib, read_jsonl,
                      require_gpu_memory, run_meta, seed_all, write_json, write_jsonl)
 from .prompts import BASE_GEN_SHOTS, GEN_TEMPLATES, answer_prefix, encode_pair, encode_prompt, render
 from .reachability import score_items
@@ -150,11 +150,11 @@ def main():
     secs = time.time() - t0
     meta = run_meta(model, args.model) | {"chat": chat, "specs": specs, "templates": templates,
                                          "extra_processor_fields": extra, "margin": args.margin,
-                                         "n_entities": len(ents), "n_foils": len(foils), "seconds": secs,
+                                         "n_entities": len(ents), "n_foils": len(foils), "seconds": secs, "peak_gpu_gib": peak_gib(),
                                          "args": vars(args)}
     write_json(out / "meta.json", meta)
     if args.device == "cuda":
-        append_gpu_ledger("run_model", args.model, secs, note=str(args.out))
+        append_gpu_ledger("run_model", args.model, secs, note=f"{args.out} peak {peak_gib():.1f} GiB")
     print(f"[done] {tag} in {secs / 60:.1f} min -> {out}")
 
 

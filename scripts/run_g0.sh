@@ -30,6 +30,10 @@ fi
 
 INST=Qwen/Qwen2.5-7B-Instruct
 BASE=Qwen/Qwen2.5-7B
+# Shared card: lower BS if the memory estimate (common.estimate_need_gib) does not fit.
+BS=${BS:-32}
+# Resumable: a step whose output already exists is skipped (delete it to redo the step).
+done_step() { [ -f "$1" ] && echo "== skip (exists): $1"; }
 
 # Numeric margin (docs/04 section 2, rule pre-registered in notes/decisions.md):
 # dense self-check on each G0 model with seed 1 (the gate's own sample check uses
@@ -37,10 +41,12 @@ BASE=Qwen/Qwen2.5-7B
 # rule values. Set EPS to skip calibration (only to reproduce a logged run).
 if [ -z "${EPS:-}" ]; then
   echo "== calibrating the numeric margin (seed 1)"
+  done_step "$OUT/calibration/${INST#*/}/selfcheck.json" || \
   python -m mb5.selfcheck --model "$INST" --data "$DATA" --out "$OUT/calibration" --seed 1 \
-    --n-samples 500 --gap-samples 50 --specs shipped_hf,p0.90_T1
+    --n-samples 500 --gap-samples 50 --specs shipped_hf,p0.90_T1 --batch-size "$BS"
+  done_step "$OUT/calibration/${BASE#*/}/selfcheck.json" || \
   python -m mb5.selfcheck --model "$BASE" --data "$DATA" --out "$OUT/calibration" --seed 1 \
-    --n-samples 500 --gap-samples 50 --specs p0.90_T1
+    --n-samples 500 --gap-samples 50 --specs p0.90_T1 --batch-size "$BS"
   EPS=$(python - "$OUT/calibration" <<'PY'
 import json, sys
 from pathlib import Path
@@ -53,8 +59,11 @@ PY
 fi
 echo "== numeric margin epsilon = $EPS raw logits"
 
+done_step "$OUT/${INST#*/}/meta.json" || \
 python -m mb5.run_model --model "$INST" --data "$DATA" --out "$OUT" \
-  --templates 3 --sample-check --n-samples 1000 --margin "$EPS"
-python -m mb5.run_model --model "$BASE" --data "$DATA" --out "$OUT" --templates 3 --margin "$EPS"
+  --templates 3 --sample-check --n-samples 1000 --margin "$EPS" --batch-size "$BS"
+done_step "$OUT/${BASE#*/}/meta.json" || \
+python -m mb5.run_model --model "$BASE" --data "$DATA" --out "$OUT" --templates 3 --margin "$EPS" \
+  --batch-size "$BS"
 python -m mb5.analysis --results "$OUT" --gate G0 --instruct Qwen2.5-7B-Instruct --base Qwen2.5-7B
 echo "== decision written to results/gates/G0.md"

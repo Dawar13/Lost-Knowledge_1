@@ -212,3 +212,8 @@ def run_meta(model, hf_id: str) -> dict:
 
 def model_tag(hf_id: str) -> str:
     return hf_id.split("/")[-1]
+
+
+def peak_gib() -> float | None:
+    """Peak memory our allocator held during this process (for grounding estimate_need_gib)."""
+    return torch.cuda.max_memory_allocated() / 2**30 if torch.cuda.is_available() else None

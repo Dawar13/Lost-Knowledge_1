@@ -24,7 +24,8 @@ from pathlib import Path
 
 import torch
 
-from .common import (append_gpu_ledger, estimate_need_gib, is_chat_model, load_model, model_tag, require_gpu_memory,
+from .common import (append_gpu_ledger, estimate_need_gib, is_chat_model, load_model, model_tag, peak_gib,
+                     require_gpu_memory,
                      run_meta, seed_all, write_json)
 from .prompts import BASE_GEN_SHOTS, GEN_TEMPLATES, encode_prompt, render
 from .reachability import _forward_rows, score_items
@@ -197,10 +198,10 @@ def main():
     out = Path(args.out) / model_tag(args.model)
     write_json(out / "selfcheck.json", {"total": total, "required_margin": required, "epsilon_rule": eps,
                                         "epsilon_grid": list(EPS_GRID), "logit_gap": gap_stats, "rows": rows,
-                                        "meta": run_meta(model, args.model) | {"seconds": secs, "args": vars(args),
+                                        "meta": run_meta(model, args.model) | {"seconds": secs, "peak_gpu_gib": peak_gib(), "args": vars(args),
                                                                                "specs": specs}})
     if args.device == "cuda":
-        append_gpu_ledger("selfcheck", args.model, secs, note=str(args.out))
+        append_gpu_ledger("selfcheck", args.model, secs, note=f"{args.out} peak {peak_gib():.1f} GiB")
     print(f"[selfcheck] TOTAL distinct {total['distinct']} exact-unreachable {total['unreachable']} robust " +
           " ".join(f"@{m}:{total[f'robust_unreachable@{m}']}" for m in margins) +
           f" in {secs / 60:.1f} min (a margin passes when its robust count is 0)", flush=True)
