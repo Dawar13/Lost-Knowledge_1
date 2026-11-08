@@ -29,6 +29,7 @@ GRID: dict[str, dict] = {
     "p0.90_T1": {"top_p": 0.90},
     "p0.95_T1": {"top_p": 0.95},
     "p0.90_T0.7": {"temperature": 0.7, "top_p": 0.90},
+    "p0.90_T0.5": {"temperature": 0.5, "top_p": 0.90},  # temperature sweep (E7), added for P3
     "k20_T1": {"top_k": 20},
     "k50_T1": {"top_k": 50},  # transformers' generate() default when a config sets nothing
     "minp0.05_T1": {"min_p": 0.05},

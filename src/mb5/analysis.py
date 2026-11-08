@@ -25,7 +25,7 @@ import numpy as np
 
 from .common import read_jsonl, write_json
 
-HEADLINE_SPECS = ["shipped_hf", "shipped_json", "p0.80_T1", "p0.90_T1", "p0.95_T1", "p0.90_T0.7",
+HEADLINE_SPECS = ["shipped_hf", "shipped_json", "p0.80_T1", "p0.90_T1", "p0.95_T1", "p0.90_T0.7", "p0.90_T0.5",
                   "k20_T1", "k50_T1", "minp0.05_T1", "minp0.10_T1", "untruncated_T1"]
 
 
