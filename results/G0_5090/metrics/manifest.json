@@ -17,13 +17,13 @@
     "data:build_report.json": "0652a8d507b13e151f2aab89bde6b87787e6016aa6eb998641c93eeb7d62b141"
   },
   "code": {
-    "tree_sha256": "2bc43f343d9f3303",
-    "git_head": "a0dd56a2691fa9aa843d0f68f05e62d8f183de3d",
+    "tree_sha256": "28367e6a6478e3ab",
+    "git_head": "0ea6b4f0a1cf4672c3202fa1208cbc9d2e58b4a7",
     "git_dirty": false
   },
-  "utc": "2026-11-08T12:01:09Z",
+  "utc": "2026-11-08T12:07:45Z",
   "args": {
-    "results": "results/G0",
+    "results": "results/G0_5090",
     "data": "data/tailcat/pilot_v2",
     "instruct": "Qwen2.5-7B-Instruct",
     "base": "Qwen2.5-7B"
@@ -38,6 +38,7 @@
     "headline.json",
     "length_Qwen2.5-7B-Instruct.csv",
     "length_Qwen2.5-7B.csv",
+    "manifest.json",
     "paired.csv",
     "popularity_Qwen2.5-7B-Instruct.csv",
     "popularity_Qwen2.5-7B.csv",
