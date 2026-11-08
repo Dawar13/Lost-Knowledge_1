@@ -9,3 +9,8 @@ utc_time,host,gpu,script,model,gpu_hours,note
 2026-11-08T08:42:26Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-7B-Instruct,0.2006,results/G0 KILLED by agent after 12.0 min (d* on all specs too slow; no outputs)
 2026-11-08T09:04:22Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-7B-Instruct,0.2878,results/G0 peak 16.3 GiB
 2026-11-08T09:11:19Z,netan-private-instance-taken-approval-002,NVIDIA A100-SXM4-80GB,run_model,Qwen/Qwen2.5-7B,0.1133,results/G0 peak 16.3 GiB
+2026-11-08T11:01:24Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,Qwen/Qwen2.5-0.5B-Instruct,0.0054,results/smoke peak 3.5 GiB
+2026-11-08T11:03:01Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,Qwen/Qwen2.5-7B-Instruct,0.0242,results/G0/calibration peak 17.5 GiB
+2026-11-08T11:05:13Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,Qwen/Qwen2.5-7B,0.0360,results/G0/calibration peak 18.0 GiB
+2026-11-08T11:09:50Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,Qwen/Qwen2.5-7B-Instruct,0.0764,results/G0 peak 17.4 GiB
+2026-11-08T11:12:09Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,Qwen/Qwen2.5-7B,0.0380,results/G0 peak 17.4 GiB
