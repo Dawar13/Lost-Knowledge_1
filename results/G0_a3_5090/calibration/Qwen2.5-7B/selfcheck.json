@@ -1,0 +1,1049 @@
+{
+  "total": {
+    "distinct": 5472,
+    "unreachable": 126,
+    "robust_unreachable@0.25": 11,
+    "robust_unreachable@0.5": 0,
+    "robust_unreachable@0.75": 0,
+    "robust_unreachable@1.0": 0,
+    "robust_unreachable@1.5": 0,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "p0.90_T1": 0.3828
+  },
+  "epsilon_rule": 0.5,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 12673,
+      "mean": 0.30849874889729273,
+      "q0.5": 0.28125,
+      "q0.9": 0.46875,
+      "q0.99": 0.6875,
+      "q0.999": 1.010249999999985,
+      "max": 1.46875
+    },
+    "rel_near": {
+      "n_positions": 12673,
+      "mean": 0.049130040243036376,
+      "q0.5": 0.0,
+      "q0.9": 0.125,
+      "q0.99": 0.25,
+      "q0.999": 0.4375,
+      "max": 0.75
+    },
+    "dG_T1.0": {
+      "n_positions": 12673,
+      "mean": 0.004266793937299977,
+      "q0.5": 0.0,
+      "q0.9": 0.008944010734558123,
+      "q0.99": 0.06252427816390996,
+      "q0.999": 0.4456533133983587,
+      "max": 0.5265109539031982
+    },
+    "dG_T0.7": {
+      "n_positions": 12673,
+      "mean": 0.004895490773153279,
+      "q0.5": 0.0,
+      "q0.9": 0.008705437183380129,
+      "q0.99": 0.07509510755538962,
+      "q0.999": 0.5005830936431868,
+      "max": 0.5441245436668396
+    },
+    "drank": {
+      "n_positions": 12673,
+      "mean": 0.09674110313264421,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 2.0,
+      "q0.999": 5.0,
+      "max": 8.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 500,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Muthuthandavar Swamigal\n\nQuestion: Name the song sung by Gurudev at the Jaffna",
+          "failpos": 5,
+          "rank": 9,
+          "G_T1": 0.905556,
+          "top_p": 0.9
+        },
+        {
+          "text": " Maduraikandan\n\nQuestion: Name the monarch who inherited the English throne on the death of Mary Queen of Scots.",
+          "failpos": 20,
+          "rank": 6,
+          "G_T1": 0.900986,
+          "top_p": 0.9
+        },
+        {
+          "text": " Kalidasa\n\nQuestion: Name a United States president that was re-elected into office twice. Reply with only the name",
+          "failpos": 13,
+          "rank": 21,
+          "G_T1": 0.897822,
+          "top_p": 0.9
+        },
+        {
+          "text": " Bharathidasan\n\nQuestion: Where would you find a peacock sculpture? Options: - front lawn - in sunshine",
+          "failpos": 23,
+          "rank": 156,
+          "G_T1": 0.9057,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 493,
+      "unreachable": 11,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Pampa\n\nQuestion: Which was the most common way people were punished by Shogunate in Edo period?\nAnswer",
+          "failpos": 15,
+          "rank": 213,
+          "G_T1": 0.900635,
+          "top_p": 0.9
+        },
+        {
+          "text": " Pamba River\n\nQuestion: I am going on a long run and want to avoid drinking tap water from roadside stands to",
+          "failpos": 23,
+          "rank": 7,
+          "G_T1": 0.902419,
+          "top_p": 0.9
+        },
+        {
+          "text": " kerala backwaters\n\nQuestion: What are three things trees provide? Reply with only the 3 things.\nAnswer:",
+          "failpos": 18,
+          "rank": 8,
+          "G_T1": 0.912699,
+          "top_p": 0.9
+        },
+        {
+          "text": " Chetput Tank\n\nQuestion: Who is the finance minister of india in 2016? Reply with only",
+          "failpos": 1,
+          "rank": 6,
+          "G_T1": 0.903681,
+          "top_p": 0.9
+        },
+        {
+          "text": " River Pamba\n\nQuestion: What can happen before you try to run? Options: - fail - breathe - forward -",
+          "failpos": 9,
+          "rank": 7,
+          "G_T1": 0.901016,
+          "top_p": 0.9
+        },
+        {
+          "text": " Payyanur River\n\nQuestion: In football when is a red card given?\nAnswer: misbehaving\n\nQuestion:",
+          "failpos": 9,
+          "rank": 7,
+          "G_T1": 0.900751,
+          "top_p": 0.9
+        },
+        {
+          "text": " river pampa\n\nQuestion: Name an Indonesian Sumatra monkey. Reply with only the name.\nAnswer: proboscis",
+          "failpos": 10,
+          "rank": 1,
+          "G_T1": 0.900253,
+          "top_p": 0.9
+        },
+        {
+          "text": " Champavathi River\n\nQuestion: Name a country of Latin America. Reply with only the name.\nAnswer: Venezuela\n\n",
+          "failpos": 10,
+          "rank": 12,
+          "G_T1": 0.894538,
+          "top_p": 0.9
+        },
+        {
+          "text": " Bharatappuzha\n\nQuestion: What is a word that means to care a lot? Reply with only one word",
+          "failpos": 16,
+          "rank": 5,
+          "G_T1": 0.904991,
+          "top_p": 0.9
+        },
+        {
+          "text": " Bharathappuzha\n\nQuestion: What does an apple look like? Reply with only the name.\nAnswer: Yellow",
+          "failpos": 23,
+          "rank": 65,
+          "G_T1": 0.898175,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 497,
+      "unreachable": 9,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Thiruvambadi Shiva Temple\n\nQuestion: What is the name of the fourth largest city of India? Answer",
+          "failpos": 23,
+          "rank": 2,
+          "G_T1": 0.901084,
+          "top_p": 0.9
+        },
+        {
+          "text": " Koodal Mandabam Temple\n\nQuestion: Name a team of the County Championship in the 2000",
+          "failpos": 4,
+          "rank": 3,
+          "G_T1": 0.901511,
+          "top_p": 0.9
+        },
+        {
+          "text": " Kālasa ārnava\n\nQuestion: Name a nuclear missile launch site Reply with only the name.\nAnswer",
+          "failpos": 1,
+          "rank": 24,
+          "G_T1": 0.900778,
+          "top_p": 0.9
+        },
+        {
+          "text": " Meenakshi Amman Temple\n\nQuestion: Which nationality of people, or people from which nationality, originally created M",
+          "failpos": 19,
+          "rank": 5,
+          "G_T1": 0.904219,
+          "top_p": 0.9
+        },
+        {
+          "text": " Gupteshwar Temple\n\nQuestion: Name a real science writer. Reply with only the name.\nAnswer: Michio",
+          "failpos": 12,
+          "rank": 47,
+          "G_T1": 0.899122,
+          "top_p": 0.9
+        },
+        {
+          "text": " Guindy temple\n\nQuestion: What are two of the three approaches in Hinduism? 1. Bhakti;",
+          "failpos": 17,
+          "rank": 1,
+          "G_T1": 0.901166,
+          "top_p": 0.9
+        },
+        {
+          "text": " Ramalingaswami Temple\n\nQuestion: What is a peninsula surrounded by water on three sides and connected to land on",
+          "failpos": 22,
+          "rank": 3,
+          "G_T1": 0.831966,
+          "top_p": 0.9
+        },
+        {
+          "text": " Rajagopalaswamy Temple\n\nQuestion: Name a coffee fruit pulp cleaning method. Reply with only the name.\n",
+          "failpos": 13,
+          "rank": 78,
+          "G_T1": 0.900467,
+          "top_p": 0.9
+        },
+        {
+          "text": " Ekambareswarar temple\n\nQuestion: Name a mountain near Pangong Lake. Reply with only the name.\nAnswer",
+          "failpos": 12,
+          "rank": 13,
+          "G_T1": 0.900999,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 500,
+      "unreachable": 14,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Toshikazu Kurasawa\n\nQuestion: Name a country on the Indian Ocean with a war memorial. Reply with",
+          "failpos": 17,
+          "rank": 6,
+          "G_T1": 0.901299,
+          "top_p": 0.9
+        },
+        {
+          "text": " Natsuhiko Kyogoku\n\nQuestion: Name a species of Amazonian monkey. Reply with only the name.\n",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.852977,
+          "top_p": 0.9
+        },
+        {
+          "text": " Chishio Matsuoka\n\nQuestion: You are a helpful assistant, who always provide explanation. Think like you are",
+          "failpos": 9,
+          "rank": 17,
+          "G_T1": 0.899174,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: If you traveled from South America to Japan, how would your clock change? Reply",
+          "failpos": 17,
+          "rank": 6,
+          "G_T1": 0.902341,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: What is the tallest structure in the World?\nAnswer: Burj Khalifa\n\n",
+          "failpos": 15,
+          "rank": 6,
+          "G_T1": 0.901495,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: Name a professional wrestler from before the 1970s. Answer:",
+          "failpos": 22,
+          "rank": 2,
+          "G_T1": 0.904963,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: Name an American country music singer born between 1966 and 1",
+          "failpos": 15,
+          "rank": 4,
+          "G_T1": 0.904208,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: Name an episode of the TV series Friends. Reply with only the title.\nAnswer",
+          "failpos": 21,
+          "rank": 1,
+          "G_T1": 0.904355,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: Where would you have a bath in your house?  A. bath tub ",
+          "failpos": 11,
+          "rank": 15,
+          "G_T1": 0.884331,
+          "top_p": 0.9
+        },
+        {
+          "text": " Haruki Murakami\n\nQuestion: Which area is not an area: Atlantic Ocean, West, River. Reply with",
+          "failpos": 21,
+          "rank": 18,
+          "G_T1": 0.902554,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 490,
+      "unreachable": 13,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Kala Patar\n\nQuestion: What is the blackest object in the universe? Reply with only the name.\nAnswer",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.908738,
+          "top_p": 0.9
+        },
+        {
+          "text": " Annapurna\n\nQuestion: Name a country with good climate to live in. Reply with only the name.\nAnswer",
+          "failpos": 13,
+          "rank": 7,
+          "G_T1": 0.890938,
+          "top_p": 0.9
+        },
+        {
+          "text": " Annapurna\n\nQuestion: Name a movie about the Tudor dynasty. Reply with only the name of the movie",
+          "failpos": 21,
+          "rank": 1,
+          "G_T1": 0.906259,
+          "top_p": 0.9
+        },
+        {
+          "text": " Annapurna\n\nQuestion: Name a famous monster. Reply with only the name.\nAnswer: Frankenstein<|endoftext|>",
+          "failpos": 10,
+          "rank": 593,
+          "G_T1": 0.899642,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: List 3 countries in the middle east. Reply with only the countries.\nAnswer: Saudi Arabia",
+          "failpos": 18,
+          "rank": 2,
+          "G_T1": 0.900682,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: What is the current capital city of France?  Reply with: Paris, Paris, Paris,",
+          "failpos": 19,
+          "rank": 3,
+          "G_T1": 0.850003,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: What is the profession of someone that guides students during the day?  A. cross street ",
+          "failpos": 19,
+          "rank": 2,
+          "G_T1": 0.912743,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: What do you call a collection of stones in a lake?  A. tidepool  B",
+          "failpos": 17,
+          "rank": 2,
+          "G_T1": 0.904489,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: What did some believers think Adam could do?\nAnswer: Air\n\nQuestion: Why did the believers",
+          "failpos": 11,
+          "rank": 9,
+          "G_T1": 0.90011,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: Name a country bordering the Sea of Azov. Reply with only the name.\nAnswer:",
+          "failpos": 8,
+          "rank": 4,
+          "G_T1": 0.890792,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 496,
+      "unreachable": 12,
+      "robust_unreachable": {
+        "0.25": 2,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " PUC Minas\n\nQuestion: What is a form of violence that occurs due to civil or political discord? Options:",
+          "failpos": 20,
+          "rank": 16,
+          "G_T1": 0.901701,
+          "top_p": 0.9
+        },
+        {
+          "text": " PUC Rio de Janeiro\n\nQuestion: Name a brand that makes light bulbs. Reply with only the name.\nAnswer:",
+          "failpos": 11,
+          "rank": 2,
+          "G_T1": 0.90073,
+          "top_p": 0.9
+        },
+        {
+          "text": " The University of São Paulo\n\nQuestion: Name the most populous city in Brazil. Reply with only the name.\nAnswer:",
+          "failpos": 9,
+          "rank": 2,
+          "G_T1": 0.901317,
+          "top_p": 0.9
+        },
+        {
+          "text": " University of São Paulo\n\nQuestion: The African elephant is characterized by? Options: - herds - strength - swamps",
+          "failpos": 11,
+          "rank": 17,
+          "G_T1": 0.905013,
+          "top_p": 0.9
+        },
+        {
+          "text": " University of São Paulo\n\nQuestion: Name a thing used in the Olympics Reply with only the name.\nAnswer: Medal\n\n",
+          "failpos": 14,
+          "rank": 2,
+          "G_T1": 0.908125,
+          "top_p": 0.9
+        },
+        {
+          "text": " Federal University of Pernambuco\n\nQuestion: Name a country with two words for it's capital. Reply with only",
+          "failpos": 16,
+          "rank": 4,
+          "G_T1": 0.903875,
+          "top_p": 0.9
+        },
+        {
+          "text": " Federal University of Rio de Janeiro\n\nQuestion: You can eat meat or fish and be saturated with what?  A.",
+          "failpos": 17,
+          "rank": 258,
+          "G_T1": 0.900887,
+          "top_p": 0.9
+        },
+        {
+          "text": " Duke University\n\nQuestion: In which North American country does the Alps mountain range stretch?\nAnswer: United States\n\nQuestion:",
+          "failpos": 0,
+          "rank": 77,
+          "G_T1": 0.901711,
+          "top_p": 0.9
+        },
+        {
+          "text": " Pontifical Catholic University of Rio de Janeiro\n\nQuestion: Name a Portuguese born Prime minister. Reply with only the name",
+          "failpos": 17,
+          "rank": 1,
+          "G_T1": 0.907305,
+          "top_p": 0.9
+        },
+        {
+          "text": " Pontifícia Universidade Católica do Rio de Janeiro\n\nQuestion: What event will occur to 5 students in this",
+          "failpos": 21,
+          "rank": 31,
+          "G_T1": 0.904428,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 499,
+      "unreachable": 13,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Saimaa Lake\n\nQuestion: In what year did the Irish vote to become a republic? Hint: Éire N",
+          "failpos": 22,
+          "rank": 1,
+          "G_T1": 0.902695,
+          "top_p": 0.9
+        },
+        {
+          "text": " Ijonpolasaaret\n\nQuestion: Name a person who once was a tennis player? Answer:\nAnswer: Andre Ag",
+          "failpos": 17,
+          "rank": 3,
+          "G_T1": 0.905353,
+          "top_p": 0.9
+        },
+        {
+          "text": " Akeno Bluff\n\nQuestion: Give me a list of four items that can be found in a classroom. I",
+          "failpos": 23,
+          "rank": 9,
+          "G_T1": 0.897582,
+          "top_p": 0.9
+        },
+        {
+          "text": " Päijänne\n\nQuestion: What was the name of the ship Titanic was launched on? Reply with only the",
+          "failpos": 15,
+          "rank": 35,
+          "G_T1": 0.903378,
+          "top_p": 0.9
+        },
+        {
+          "text": " Oulujärvi\n\nQuestion: Name a state located along the south-central coast of Western Australia, in the Null",
+          "failpos": 11,
+          "rank": 5,
+          "G_T1": 0.905127,
+          "top_p": 0.9
+        },
+        {
+          "text": " Peiposjärvi\n\nQuestion: Name a Thai dish that may be served at room temperature. Reply with only",
+          "failpos": 14,
+          "rank": 19,
+          "G_T1": 0.895772,
+          "top_p": 0.9
+        },
+        {
+          "text": " Peijasjärvi\n\nQuestion: List 2 alternative medicine treatments\nAnswer: acupuncture, energy medicine\n\nQuestion",
+          "failpos": 15,
+          "rank": 6,
+          "G_T1": 0.890091,
+          "top_p": 0.9
+        },
+        {
+          "text": " Pyhä-Vaarnajärvi\n\nQuestion: Name the bassist for Korn.\nAnswer: James \"M",
+          "failpos": 12,
+          "rank": 2,
+          "G_T1": 0.901946,
+          "top_p": 0.9
+        },
+        {
+          "text": " Lake Saimaa\n\nQuestion: Is there a place called Tulusko? Reply with only Yes or No. If",
+          "failpos": 22,
+          "rank": 1,
+          "G_T1": 0.904781,
+          "top_p": 0.9
+        },
+        {
+          "text": " Lake Kivu\n\nQuestion: The Ambersson family visited Finland in the last decade. They wanted to see the",
+          "failpos": 16,
+          "rank": 16,
+          "G_T1": 0.896289,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 499,
+      "unreachable": 13,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Tade Ibikunle\n\nQuestion: Name a movie that was remade for the 1990s",
+          "failpos": 16,
+          "rank": 8,
+          "G_T1": 0.886904,
+          "top_p": 0.9
+        },
+        {
+          "text": " Njideka Akunyili Crosby\n\nQuestion: What were the first words of the Lord's prayer as it",
+          "failpos": 21,
+          "rank": 1,
+          "G_T1": 0.902106,
+          "top_p": 0.9
+        },
+        {
+          "text": " Olu Oguibe\n\nQuestion: In the 1980's, which up and coming city became the",
+          "failpos": 18,
+          "rank": 1161,
+          "G_T1": 0.899118,
+          "top_p": 0.9
+        },
+        {
+          "text": " Uche Okeke\n\nQuestion: What is common between Song Zuying and Jian Jiayou?  Answer",
+          "failpos": 10,
+          "rank": 63,
+          "G_T1": 0.903461,
+          "top_p": 0.9
+        },
+        {
+          "text": " Yemi Oke\n\nQuestion: What's the last name of the woman that wrote a book on Nigel Eastman's",
+          "failpos": 20,
+          "rank": 4822,
+          "G_T1": 0.89999,
+          "top_p": 0.9
+        },
+        {
+          "text": " Yinka Shonibare\n\nQuestion: What is a prominent feature of most brand new mass-produced buildings? Options:",
+          "failpos": 18,
+          "rank": 253,
+          "G_T1": 0.89913,
+          "top_p": 0.9
+        },
+        {
+          "text": " Remi Mgbeoji\n\nQuestion: Is it possible for an app to be on Google Play and not on the App",
+          "failpos": 8,
+          "rank": 18,
+          "G_T1": 0.900027,
+          "top_p": 0.9
+        },
+        {
+          "text": " Roy Anake\n\nQuestion: When will the school board have its next meeting?  Reply with only one word.\nAnswer",
+          "failpos": 7,
+          "rank": 10,
+          "G_T1": 0.900891,
+          "top_p": 0.9
+        },
+        {
+          "text": " Roy Ezekoe\n\nQuestion: What is another word for \"eye\"? Reply with only the name.\nAnswer: Orbital",
+          "failpos": 23,
+          "rank": 2,
+          "G_T1": 0.905993,
+          "top_p": 0.9
+        },
+        {
+          "text": " Tony Ozwald\n\nQuestion: Name an example of human activity that causes air pollution. Reply with only the name.\n",
+          "failpos": 2,
+          "rank": 115,
+          "G_T1": 0.906743,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 499,
+      "unreachable": 17,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Raja\n\nQuestion: What is the regional speciality of Andhra Pradesh in India?\nAnswer: vada pao",
+          "failpos": 8,
+          "rank": 688,
+          "G_T1": 0.902358,
+          "top_p": 0.9
+        },
+        {
+          "text": " Anil Chatterjee\n\nQuestion: Name a major member of the jury in the 2003 edition of",
+          "failpos": 14,
+          "rank": 2404,
+          "G_T1": 0.902165,
+          "top_p": 0.9
+        },
+        {
+          "text": " Partha Pal Roy\n\nQuestion: Name the highest point in Oklahoma. Reply with only the name.\nAnswer: Black Mesa",
+          "failpos": 3,
+          "rank": 3,
+          "G_T1": 0.915436,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mrinal Sen\n\nQuestion: Name a European artist who was active in the nineteenth century. Reply with only the name.\n",
+          "failpos": 15,
+          "rank": 11,
+          "G_T1": 0.907434,
+          "top_p": 0.9
+        },
+        {
+          "text": " Syamal Datta\n\nQuestion: Name the lyrics of the film song Tere Yaar Ka Hai Krishna. Reply",
+          "failpos": 3,
+          "rank": 9,
+          "G_T1": 0.903248,
+          "top_p": 0.9
+        },
+        {
+          "text": " Satyajit Ray\n\nQuestion: What is a bot that connects bots? Reply with only the name.\nAnswer:",
+          "failpos": 11,
+          "rank": 1897,
+          "G_T1": 0.901524,
+          "top_p": 0.9
+        },
+        {
+          "text": " Satyajit Ray\n\nQuestion: Name a film production company founded in Mumbai, India in 1970",
+          "failpos": 15,
+          "rank": 4,
+          "G_T1": 0.903714,
+          "top_p": 0.9
+        },
+        {
+          "text": " Satyajit Ray\n\nQuestion: Name a dog breed. Reply with only the name.\nAnswer: Alaskan Mal",
+          "failpos": 21,
+          "rank": 27,
+          "G_T1": 0.898673,
+          "top_p": 0.9
+        },
+        {
+          "text": " Tanvir Ahmed\n\nQuestion: Name a documentary film about the Bosnian War that was produced in 201",
+          "failpos": 16,
+          "rank": 3,
+          "G_T1": 0.90876,
+          "top_p": 0.9
+        },
+        {
+          "text": " Raj Chandra Bhattacherjee\n\nQuestion: Name a word that means work or service rendered for pay. Reply with",
+          "failpos": 1,
+          "rank": 17,
+          "G_T1": 0.898546,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 500,
+      "unreachable": 11,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Dhirendra Nath Sengupta\n\nQuestion: What is the show dog known as a Barbichon?",
+          "failpos": 15,
+          "rank": 747,
+          "G_T1": 0.902245,
+          "top_p": 0.9
+        },
+        {
+          "text": " Lalan Facha\n\nQuestion: Name the century that the First World War was fought. Reply with only a number.\n",
+          "failpos": 1,
+          "rank": 16,
+          "G_T1": 0.910608,
+          "top_p": 0.9
+        },
+        {
+          "text": " Homen Borgoo\n\nQuestion: What is the only English word that starts with the letters F, B, L,",
+          "failpos": 18,
+          "rank": 56,
+          "G_T1": 0.900835,
+          "top_p": 0.9
+        },
+        {
+          "text": " Pratima Kumar Sarma\n\nQuestion: Name a writer who wrote in Assamese. Reply with only the name",
+          "failpos": 3,
+          "rank": 35,
+          "G_T1": 0.901305,
+          "top_p": 0.9
+        },
+        {
+          "text": " Amrita Choudhury\n\nQuestion: Name an example of a street dance in the US. Reply with only the",
+          "failpos": 16,
+          "rank": 6,
+          "G_T1": 0.891804,
+          "top_p": 0.9
+        },
+        {
+          "text": " Syed Jahangir Ali\n\nQuestion: Name a country that forms the boundary between Kazakhstan and China. Reply with only",
+          "failpos": 13,
+          "rank": 93,
+          "G_T1": 0.902173,
+          "top_p": 0.9
+        },
+        {
+          "text": " Saroj Akolkar\n\nQuestion: Name a sport that can be played at a gym. Reply with only the name",
+          "failpos": 2,
+          "rank": 14,
+          "G_T1": 0.90259,
+          "top_p": 0.9
+        },
+        {
+          "text": " Kamaladevi Chowdhuri\n\nQuestion: When a virus changes it is called? Options: - (A)",
+          "failpos": 6,
+          "rank": 2,
+          "G_T1": 0.91137,
+          "top_p": 0.9
+        },
+        {
+          "text": " Hemchandra Das\n\nQuestion: What key West Virginia city lies on I-81? Reply with only the name",
+          "failpos": 3,
+          "rank": 9,
+          "G_T1": 0.906922,
+          "top_p": 0.9
+        },
+        {
+          "text": " Dinanath Sarma\n\nQuestion: Name a critically-acclaimed indie musician who released a video for their song \"Ele",
+          "failpos": 11,
+          "rank": 1,
+          "G_T1": 0.901395,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 499,
+      "unreachable": 9,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Boston\n\nQuestion: Can you name a primitive dinosaur?\nAnswer:\n\nThe question is not clear. Can you please provide more",
+          "failpos": 8,
+          "rank": 596,
+          "G_T1": 0.899795,
+          "top_p": 0.9
+        },
+        {
+          "text": " Houston\n\nQuestion: Name a TV character that wears the traditional male garb for the culture. Reply with only the name",
+          "failpos": 10,
+          "rank": 5,
+          "G_T1": 0.900443,
+          "top_p": 0.9
+        },
+        {
+          "text": " Austin\n\nQuestion: What is a chile? Options: - (A) a bird - (B) a dance",
+          "failpos": 7,
+          "rank": 907,
+          "G_T1": 0.900338,
+          "top_p": 0.9
+        },
+        {
+          "text": " Denver\n\nQuestion: Name a cell type in the human body. Reply with only the name.\nAnswer: erythrocy",
+          "failpos": 21,
+          "rank": 26,
+          "G_T1": 0.900385,
+          "top_p": 0.9
+        },
+        {
+          "text": " Salt Lake City\n\nQuestion: Name a country with a ring road? Reply with only the name.\nAnswer: Germany\n\n",
+          "failpos": 11,
+          "rank": 358,
+          "G_T1": 0.899487,
+          "top_p": 0.9
+        },
+        {
+          "text": " Charlotte\n\nQuestion: Where in the world would you find the bermuda triangle? Reply with only the name.\nAnswer",
+          "failpos": 12,
+          "rank": 672,
+          "G_T1": 0.899771,
+          "top_p": 0.9
+        },
+        {
+          "text": " Madison\n\nQuestion: What's the name of the inventor who invented modern day roller skates? Reply with only a number",
+          "failpos": 13,
+          "rank": 46,
+          "G_T1": 0.902213,
+          "top_p": 0.9
+        },
+        {
+          "text": " Nashville\n\nQuestion: Where does most of Jupiter's atmosphere come from? Options: - solar system - surface of earth -",
+          "failpos": 8,
+          "rank": 102,
+          "G_T1": 0.915544,
+          "top_p": 0.9
+        },
+        {
+          "text": " Tallahassee\n\nQuestion: Please tell me what is the name of the astronaut of a capsule which is the most common",
+          "failpos": 9,
+          "rank": 3,
+          "G_T1": 0.909727,
+          "top_p": 0.9
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "model": "Qwen/Qwen2.5-7B",
+    "commit": "d149729398750b98c0af14eb82c78cfe92750796",
+    "code": {
+      "tree_sha256": "406a6b62e6c7b1b9",
+      "git_head": "7660274bb6bd97a750521da9f86d88905c8cabc6",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "utc": "2026-11-08T13:11:25Z",
+    "cuda_visible_devices": null,
+    "seconds": 127.99241900444031,
+    "peak_gpu_gib": 18.00136661529541,
+    "args": {
+      "model": "Qwen/Qwen2.5-7B",
+      "data": "data/tailcat/pilot_v2",
+      "out": "results/G0_a3_5090/calibration",
+      "specs": "p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 1,
+      "gap_samples": 50,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cuda",
+      "limit_categories": null
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      }
+    }
+  }
+}

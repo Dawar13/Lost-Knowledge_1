@@ -24,10 +24,17 @@ for judging generated names in P4 and P5). Full sha256 values: `metrics/manifest
 | run | status | GPU | code | data | models (snapshot) | epsilon | verdict | GPU-h |
 |---|---|---|---|---|---|---|---|---|
 | `G0_a100` | superseded | A100-SXM4-80GB, shared | 0d09276 (calibration abdccc6, 6ce67a6) | pilot (v1) | Qwen2.5-7B-Instruct (a09a354), Qwen2.5-7B (d149729) | 0.75 | BLOCKED: V2 AUROC 0.791 | 0.822 incl. 0.201 stopped run |
-| `G0_5090` | **gate (current)** | RTX 5090 32 GB, dedicated | 9486a4b | pilot_v2 | same snapshots | 0.75 | BLOCKED: V2 AUROC 0.835 | 0.180 |
+| `G0_5090` | **gate, a-priori recognition probe** (proposed main analysis under option B) | RTX 5090 32 GB, dedicated | 9486a4b | pilot_v2 | same snapshots | 0.75 | BLOCKED: V2 AUROC 0.835 | 0.180 |
+| `G0_a3_5090` | gate, option A probe (worked examples): failed fix; sensitivity analysis; full prompt and sample artefacts | RTX 5090 32 GB, dedicated | 7660274 | pilot_v2 | same snapshots | 0.75 | BLOCKED: V2 AUROC 0.817 | 0.188 |
 
-Gate reports: `gates/G0.md` (attempt 2), `gates/G0_attempt1_a100.md`; per-category diagnostics
-`gates/G0_diagnostics.md`, `gates/G0_attempt1_a100_diagnostics.md`. GPU ledger: `logs/gpu_ledger.csv`.
+Attempts 2 and 3 have identical reachability verdicts and calibrations (verified row by row); they differ
+only in the yes/no recognition prompt. So the prompts and sampled answers stored with attempt 3
+(`prompts.json`, `samples.jsonl.gz`, `selfcheck_samples.jsonl.gz`) are also those of attempt 2's
+reachability and sample check.
+
+Gate reports: `gates/G0.md` (attempt 3, latest), `gates/G0_attempt2_5090.md`, `gates/G0_attempt1_a100.md`;
+per-category diagnostics `gates/*_diagnostics.md`. GPU ledger: `logs/gpu_ledger.csv`.
+Human sign-off pending (option B proposed).
 
 Layout of a gate run directory:
 
@@ -40,6 +47,16 @@ Layout of a gate run directory:
 <run>/calibration/<model>/selfcheck.json   epsilon calibration: logit gap, margins needed, rule value
 <run>/summary.json, diagnostics.*  gate analysis and per-category diagnostics
 <run>/metrics/                     every table below
+
+From G0 attempt 3 onwards (not in attempts 1 and 2), every run also keeps what was asked and answered:
+<run>/<model>/prompts.json         exact generation prompts, one per category and wording (chat template included)
+<run>/<model>/recog.jsonl.gz       + exact yes/no and 4-way prompts, quiz options, correct and chosen letter,
+                                   letter probabilities, raw log P(Yes) and log P(No)
+<run>/<model>/samples.jsonl.gz     every answer generated in the sample check: text, token ids, matched entity,
+                                   verdict of the matched answer
+<run>/calibration/<model>/selfcheck_samples.jsonl.gz   every distinct calibration sample: text, ids,
+                                   times sampled, signed margin d*, exact verdict
+<run>/calibration/<model>/logit_gap_raw.jsonl.gz       raw generate-vs-scorer gap values
 ```
 
 ## Metric tables (`<run>/metrics/`) and where they go in the paper
@@ -59,6 +76,7 @@ Layout of a gate run directory:
 | `rbu_by_category_<m>.csv` | per sampler x category RBU (robust, exact) | appendix table |
 | `calibration_<m>.json` | generate-vs-scorer logit gap, margin needed, epsilon rule | Section 2 and appendix (numeric margin) |
 | `entities_<m>.csv` | master table: one row per (entity, template) with recognition, popularity, critical values, verdicts | any further analysis |
+| `top_answers_<m>.csv` | (attempt 3 on) the 15 most frequent generated answers per sampler and category, counts, whether a real member | qualitative examples; P4 and P5 previews |
 
 ## Instrument development runs (dev: never cite as results)
 

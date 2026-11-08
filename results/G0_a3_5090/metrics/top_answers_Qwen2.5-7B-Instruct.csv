@@ -1,0 +1,216 @@
+spec,category,rank,answer,count,share,distinct_answers_in_category,matched_member_qid,in_sampled_members,in_all_wikidata_members
+p0.90_T1,assamese_writers,1,bhupen hazarika,68,0.068,475,,False,False
+p0.90_T1,assamese_writers,2,bishnu prasad rabha,40,0.04,475,,False,False
+p0.90_T1,assamese_writers,3,bhabananda baruah,34,0.034,475,,False,False
+p0.90_T1,assamese_writers,4,indranath sengupta,28,0.028,475,,False,False
+p0.90_T1,assamese_writers,5,birendra kumar bhattacharyya,25,0.025,475,,False,False
+p0.90_T1,assamese_writers,6,bhabananda barua,23,0.023,475,,False,False
+p0.90_T1,assamese_writers,7,amulya kumar ghosh,17,0.017,475,,False,False
+p0.90_T1,assamese_writers,8,birendra kumar bhattacharya,16,0.016,475,Q3595897,True,True
+p0.90_T1,assamese_writers,9,indranil choudhury,15,0.015,475,,False,False
+p0.90_T1,assamese_writers,10,himangshu barua,15,0.015,475,,False,False
+p0.90_T1,assamese_writers,11,gaurinath sarma,14,0.014,475,,False,False
+p0.90_T1,assamese_writers,12,himansu barua,13,0.013,475,,False,False
+p0.90_T1,assamese_writers,13,bhabananda hazarika,11,0.011,475,,False,False
+p0.90_T1,assamese_writers,14,indranath sircar,10,0.01,475,,False,False
+p0.90_T1,assamese_writers,15,bhabananda phukan,9,0.009,475,,False,False
+p0.90_T1,bengali_film_directors,1,satyajit ray,668,0.668,224,Q8873,True,True
+p0.90_T1,bengali_film_directors,2,amitabh bachchan,17,0.017,224,,False,False
+p0.90_T1,bengali_film_directors,3,santosh sivan,11,0.011,224,,False,False
+p0.90_T1,bengali_film_directors,4,srijit mukherjee,9,0.009,224,,False,False
+p0.90_T1,bengali_film_directors,5,amit ghosh,9,0.009,224,,False,False
+p0.90_T1,bengali_film_directors,6,sujit ganguly,7,0.007,224,,False,False
+p0.90_T1,bengali_film_directors,7,smita patil,7,0.007,224,,False,False
+p0.90_T1,bengali_film_directors,8,srijon chattopadhyay,6,0.006,224,,False,False
+p0.90_T1,bengali_film_directors,9,saeed akhtar khan,6,0.006,224,,False,False
+p0.90_T1,bengali_film_directors,10,sohel rana,6,0.006,224,Q13059314,True,True
+p0.90_T1,bengali_film_directors,11,saran,6,0.006,224,,False,False
+p0.90_T1,bengali_film_directors,12,sabbir akhtar,5,0.005,224,,False,False
+p0.90_T1,bengali_film_directors,13,srijon chowdhury,4,0.004,224,,False,False
+p0.90_T1,bengali_film_directors,14,sabbir khan,4,0.004,224,,False,False
+p0.90_T1,bengali_film_directors,15,sudhir chowdhury,3,0.003,224,,False,False
+p0.90_T1,brazil_universities,1,universidade de são paulo,723,0.723,2,Q835960,True,True
+p0.90_T1,brazil_universities,2,university of são paulo,277,0.277,2,Q835960,True,True
+p0.90_T1,finland_lakes,1,lake saimaa,323,0.323,280,,False,True
+p0.90_T1,finland_lakes,2,lake ladoga,253,0.253,280,,False,False
+p0.90_T1,finland_lakes,3,lake kemijärvi,21,0.021,280,,False,False
+p0.90_T1,finland_lakes,4,lake helsinki,20,0.02,280,,False,False
+p0.90_T1,finland_lakes,5,lake geneva,13,0.013,280,,False,False
+p0.90_T1,finland_lakes,6,lake päijänne,12,0.012,280,,False,False
+p0.90_T1,finland_lakes,7,lake karelia,10,0.01,280,,False,False
+p0.90_T1,finland_lakes,8,lake vesijärvi,10,0.01,280,,False,False
+p0.90_T1,finland_lakes,9,lake pielinen,9,0.009,280,,False,False
+p0.90_T1,finland_lakes,10,lake inari,9,0.009,280,,False,True
+p0.90_T1,finland_lakes,11,lake kittilä,7,0.007,280,,False,False
+p0.90_T1,finland_lakes,12,lake älvi,6,0.006,280,,False,False
+p0.90_T1,finland_lakes,13,lake paijanne,6,0.006,280,,False,False
+p0.90_T1,finland_lakes,14,lakeålaren,4,0.004,280,,False,False
+p0.90_T1,finland_lakes,15,lake lagoda,4,0.004,280,,False,False
+p0.90_T1,japanese_novelists,1,haruki murakami,1000,1.0,1,,False,True
+p0.90_T1,kerala_rivers,1,periyar,247,0.247,358,,False,False
+p0.90_T1,kerala_rivers,2,nila river,167,0.167,358,,False,False
+p0.90_T1,kerala_rivers,3,kaveri,23,0.023,358,,False,False
+p0.90_T1,kerala_rivers,4,kochi river,21,0.021,358,,False,False
+p0.90_T1,kerala_rivers,5,kumarakom creek,15,0.015,358,,False,False
+p0.90_T1,kerala_rivers,6,kallada river,14,0.014,358,Q3595330,True,True
+p0.90_T1,kerala_rivers,7,kadalimala river,11,0.011,358,,False,False
+p0.90_T1,kerala_rivers,8,kali river,10,0.01,358,Q3461744,True,True
+p0.90_T1,kerala_rivers,9,kerala backwaters,10,0.01,358,,False,False
+p0.90_T1,kerala_rivers,10,kaveri river,9,0.009,358,,False,False
+p0.90_T1,kerala_rivers,11,kunthi river,9,0.009,358,,False,False
+p0.90_T1,kerala_rivers,12,kunthipuzha,9,0.009,358,,False,False
+p0.90_T1,kerala_rivers,13,nila河,8,0.008,358,,False,False
+p0.90_T1,kerala_rivers,14,kembla river,8,0.008,358,,False,False
+p0.90_T1,kerala_rivers,15,kunnamkulam river,7,0.007,358,,False,False
+p0.90_T1,nepal_mountains,1,everest,519,0.519,3,,False,False
+p0.90_T1,nepal_mountains,2,annapurna,251,0.251,3,Q16466024,True,True
+p0.90_T1,nepal_mountains,3,mount everest,230,0.23,3,Q513,True,True
+p0.90_T1,nigerian_painters,1,ben enwonwu,81,0.081,672,Q4885605,True,True
+p0.90_T1,nigerian_painters,2,toyin ojih odutola,22,0.022,672,,False,False
+p0.90_T1,nigerian_painters,3,el anatsui,20,0.02,672,Q1323876,True,True
+p0.90_T1,nigerian_painters,4,yusuf grillo,19,0.019,672,,False,False
+p0.90_T1,nigerian_painters,5,olu oguibe,19,0.019,672,,False,False
+p0.90_T1,nigerian_painters,6,yinka shonibare,16,0.016,672,Q4526104,True,True
+p0.90_T1,nigerian_painters,7,titus kari,9,0.009,672,,False,False
+p0.90_T1,nigerian_painters,8,odili donald odita,8,0.008,672,Q15452872,True,True
+p0.90_T1,nigerian_painters,9,yussuf grillo,8,0.008,672,,False,False
+p0.90_T1,nigerian_painters,10,victor uchendu,8,0.008,672,,False,False
+p0.90_T1,nigerian_painters,11,yemi adenomon,8,0.008,672,,False,False
+p0.90_T1,nigerian_painters,12,yusuf grunspan,7,0.007,672,,False,False
+p0.90_T1,nigerian_painters,13,victor ugochukwu,7,0.007,672,,False,False
+p0.90_T1,nigerian_painters,14,yemi oke,7,0.007,672,,False,False
+p0.90_T1,nigerian_painters,15,yusuf grunshi,7,0.007,672,,False,False
+p0.90_T1,tamil_poets,1,泰戈尔,365,0.365,212,,False,False
+p0.90_T1,tamil_poets,2,tiruvalluvar,143,0.143,212,,False,False
+p0.90_T1,tamil_poets,3,thiruvalluvar,116,0.116,212,,False,False
+p0.90_T1,tamil_poets,4,tyagaraja,69,0.069,212,,False,False
+p0.90_T1,tamil_poets,5,thiruvasagam,18,0.018,212,,False,False
+p0.90_T1,tamil_poets,6,subramania bharati,13,0.013,212,,False,False
+p0.90_T1,tamil_poets,7,subramanya bharathi,13,0.013,212,Q256286,True,True
+p0.90_T1,tamil_poets,8,tyagaiyar,8,0.008,212,,False,False
+p0.90_T1,tamil_poets,9,kambar,8,0.008,212,Q1535227,True,True
+p0.90_T1,tamil_poets,10,kalidasa,6,0.006,212,,False,False
+p0.90_T1,tamil_poets,11,tayumanavar,5,0.005,212,,False,False
+p0.90_T1,tamil_poets,12,tyagaraja saraswati,5,0.005,212,,False,False
+p0.90_T1,tamil_poets,13,subramania bharathi,4,0.004,212,Q256286,True,True
+p0.90_T1,tamil_poets,14,kamban,4,0.004,212,Q1535227,True,True
+p0.90_T1,tamil_poets,15,thirukkural author: thiruvalluvar,3,0.003,212,,False,False
+p0.90_T1,tamilnadu_hindu_temples,1,aramel temple,123,0.123,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,2,brihadisvara temple,116,0.116,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,3,meenakshi temple,92,0.092,287,Q1424358,True,True
+p0.90_T1,tamilnadu_hindu_temples,4,thanjavur brihadisvara temple,71,0.071,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,5,ekambareswarar temple,57,0.057,287,Q3522369,True,True
+p0.90_T1,tamilnadu_hindu_temples,6,meenakshi amman temple,32,0.032,287,Q1424358,True,True
+p0.90_T1,tamilnadu_hindu_temples,7,srirangam temple,22,0.022,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,8,sabarimala temple,20,0.02,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,9,thanjai nataraja temple,17,0.017,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,10,thanjavar temple,14,0.014,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,11,madurai meenakshi temple,13,0.013,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,12,tirupati balaji temple,10,0.01,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,13,ekambaranathar temple,8,0.008,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,14,temple of srirangam,7,0.007,287,,False,False
+p0.90_T1,tamilnadu_hindu_temples,15,varadaraja perumal temple,7,0.007,287,,False,False
+p0.90_T1,us_state_capitals,1,atlanta,363,0.363,7,Q23556,True,True
+p0.90_T1,us_state_capitals,2,phoenix,199,0.199,7,Q16556,True,True
+p0.90_T1,us_state_capitals,3,albany,122,0.122,7,Q24861,True,True
+p0.90_T1,us_state_capitals,4,denver,94,0.094,7,Q16554,True,True
+p0.90_T1,us_state_capitals,5,boston,87,0.087,7,Q100,True,True
+p0.90_T1,us_state_capitals,6,austin,83,0.083,7,Q16559,True,True
+p0.90_T1,us_state_capitals,7,sacramento,52,0.052,7,Q18013,True,True
+shipped_hf,assamese_writers,1,bhupen hazarika,200,0.2,30,,False,False
+shipped_hf,assamese_writers,2,bhabananda baruah,160,0.16,30,,False,False
+shipped_hf,assamese_writers,3,bhabananda barua,116,0.116,30,,False,False
+shipped_hf,assamese_writers,4,birendra kumar bhattacharya,86,0.086,30,Q3595897,True,True
+shipped_hf,assamese_writers,5,birendra kumar bhattacharyya,80,0.08,30,,False,False
+shipped_hf,assamese_writers,6,bhabananda bhuyan,61,0.061,30,,False,False
+shipped_hf,assamese_writers,7,indranath sengupta,45,0.045,30,,False,False
+shipped_hf,assamese_writers,8,himangshu barua,42,0.042,30,,False,False
+shipped_hf,assamese_writers,9,himansu barua,34,0.034,30,,False,False
+shipped_hf,assamese_writers,10,indranil choudhury,26,0.026,30,,False,False
+shipped_hf,assamese_writers,11,bhabananda buruwal,19,0.019,30,,False,False
+shipped_hf,assamese_writers,12,indranil barua,16,0.016,30,,False,False
+shipped_hf,assamese_writers,13,indranil bhattacharya,13,0.013,30,,False,False
+shipped_hf,assamese_writers,14,indranil baruah,12,0.012,30,,False,False
+shipped_hf,assamese_writers,15,homen gohain,11,0.011,30,,False,False
+shipped_hf,bengali_film_directors,1,satyajit ray,747,0.747,32,Q8873,True,True
+shipped_hf,bengali_film_directors,2,smita patil,50,0.05,32,,False,False
+shipped_hf,bengali_film_directors,3,sujit ganguly,23,0.023,32,,False,False
+shipped_hf,bengali_film_directors,4,santosh sivan,23,0.023,32,,False,False
+shipped_hf,bengali_film_directors,5,sudip mukherjee,22,0.022,32,,False,False
+shipped_hf,bengali_film_directors,6,srijit mukherjee,18,0.018,32,,False,False
+shipped_hf,bengali_film_directors,7,srijon chowdhury,17,0.017,32,,False,False
+shipped_hf,bengali_film_directors,8,saran,16,0.016,32,,False,False
+shipped_hf,bengali_film_directors,9,suman ghosh,15,0.015,32,Q7636932,True,True
+shipped_hf,bengali_film_directors,10,sarmad khan,14,0.014,32,,False,False
+shipped_hf,bengali_film_directors,11,sarmad khoosat,6,0.006,32,,False,False
+shipped_hf,bengali_film_directors,12,sarmad roy,5,0.005,32,,False,False
+shipped_hf,bengali_film_directors,13,sohel rana,5,0.005,32,Q13059314,True,True
+shipped_hf,bengali_film_directors,14,srijon chattopadhyay,5,0.005,32,,False,False
+shipped_hf,bengali_film_directors,15,sudip ghosh,5,0.005,32,,False,False
+shipped_hf,brazil_universities,1,universidade de são paulo,1000,1.0,1,Q835960,True,True
+shipped_hf,finland_lakes,1,lake saimaa,632,0.632,2,,False,True
+shipped_hf,finland_lakes,2,lake ladoga,368,0.368,2,,False,False
+shipped_hf,japanese_novelists,1,haruki murakami,1000,1.0,1,,False,True
+shipped_hf,kerala_rivers,1,periyar,234,0.234,112,,False,False
+shipped_hf,kerala_rivers,2,kallada river,57,0.057,112,Q3595330,True,True
+shipped_hf,kerala_rivers,3,kunnamkulam river,55,0.055,112,,False,False
+shipped_hf,kerala_rivers,4,kumarakom creek,46,0.046,112,,False,False
+shipped_hf,kerala_rivers,5,kochi river,41,0.041,112,,False,False
+shipped_hf,kerala_rivers,6,kölvira river,41,0.041,112,,False,False
+shipped_hf,kerala_rivers,7,kaveri,41,0.041,112,,False,False
+shipped_hf,kerala_rivers,8,kunthipuzha,38,0.038,112,,False,False
+shipped_hf,kerala_rivers,9,kölvilu river,31,0.031,112,,False,False
+shipped_hf,kerala_rivers,10,karnadana river,24,0.024,112,,False,False
+shipped_hf,kerala_rivers,11,köllam river,24,0.024,112,,False,False
+shipped_hf,kerala_rivers,12,kaveri river,23,0.023,112,,False,False
+shipped_hf,kerala_rivers,13,ködiyar river,19,0.019,112,,False,False
+shipped_hf,kerala_rivers,14,kunthi river,19,0.019,112,,False,False
+shipped_hf,kerala_rivers,15,köliya river,19,0.019,112,,False,False
+shipped_hf,nepal_mountains,1,everest,738,0.738,2,,False,False
+shipped_hf,nepal_mountains,2,annapurna,262,0.262,2,Q16466024,True,True
+shipped_hf,nigerian_painters,1,eli obioha,112,0.112,105,,False,False
+shipped_hf,nigerian_painters,2,ben enwonwu,97,0.097,105,Q4885605,True,True
+shipped_hf,nigerian_painters,3,yemi adenomon,61,0.061,105,,False,False
+shipped_hf,nigerian_painters,4,yusuf grunspan,59,0.059,105,,False,False
+shipped_hf,nigerian_painters,5,olu oguibe,56,0.056,105,,False,False
+shipped_hf,nigerian_painters,6,yemi ogunshakin,44,0.044,105,,False,False
+shipped_hf,nigerian_painters,7,yusuf grillo,43,0.043,105,,False,False
+shipped_hf,nigerian_painters,8,yemi oke,41,0.041,105,,False,False
+shipped_hf,nigerian_painters,9,yusuf grunshi,29,0.029,105,,False,False
+shipped_hf,nigerian_painters,10,yemi olaoluwa,20,0.02,105,,False,False
+shipped_hf,nigerian_painters,11,titus kari,19,0.019,105,,False,False
+shipped_hf,nigerian_painters,12,elijah obi,18,0.018,105,,False,False
+shipped_hf,nigerian_painters,13,victor uchenna uzoigwe,18,0.018,105,,False,False
+shipped_hf,nigerian_painters,14,yemi olaopa,17,0.017,105,,False,False
+shipped_hf,nigerian_painters,15,roy eke,16,0.016,105,,False,False
+shipped_hf,tamil_poets,1,泰戈尔,476,0.476,69,,False,False
+shipped_hf,tamil_poets,2,tiruvalluvar,183,0.183,69,,False,False
+shipped_hf,tamil_poets,3,thiruvalluvar,154,0.154,69,,False,False
+shipped_hf,tamil_poets,4,"泰戈尔(注:实际上泰戈尔是用孟加拉语写作的,但他也是印度多",28,0.028,69,,False,False
+shipped_hf,tamil_poets,5,"泰戈尔(注:实际上泰戈尔是用孟加拉语写作的,但他也是印度著名的",24,0.024,69,,False,False
+shipped_hf,tamil_poets,6,"泰戈尔(注:实际上泰戈尔是用孟加拉语写作的,但因其影响力巨大",21,0.021,69,,False,False
+shipped_hf,tamil_poets,7,"泰戈尔(注:实际上泰戈尔是用孟加拉语写作的,但因其在印度",7,0.007,69,,False,False
+shipped_hf,tamil_poets,8,"泰戈尔(注:泰戈尔实际上是用孟加拉语创作的,但他也是印度多语言",7,0.007,69,,False,False
+shipped_hf,tamil_poets,9,"tamil nadu's literary history is rich with poets, but one notable example is泰米尔语",5,0.005,69,,False,False
+shipped_hf,tamil_poets,10,"泰戈尔(注:泰戈尔实际上用孟加拉语写作,但因其影响力巨大,有时",5,0.005,69,,False,False
+shipped_hf,tamil_poets,11,"泰戈尔(注:泰戈尔实际上使用孟加拉语写作,但因其影响力巨大,有时",5,0.005,69,,False,False
+shipped_hf,tamil_poets,12,"泰戈尔(注:泰戈尔实际上是用孟加拉语创作的,但因其影响力巨大",4,0.004,69,,False,False
+shipped_hf,tamil_poets,13,"泰戈尔(注:泰戈尔实际上使用孟加拉语写作,但因其在印度的影响力",4,0.004,69,,False,False
+shipped_hf,tamil_poets,14,tamil nadu's literary history is vast and includes many poets. one notable poet is tyagaraja. however,4,0.004,69,,False,False
+shipped_hf,tamil_poets,15,"泰戈尔(注:实际上泰戈尔是用孟加拉语写作的,但因其影响广泛",3,0.003,69,,False,False
+shipped_hf,tamilnadu_hindu_temples,1,brihadisvara temple,268,0.268,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,2,aramel temple,256,0.256,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,3,meenakshi temple,230,0.23,12,Q1424358,True,True
+shipped_hf,tamilnadu_hindu_temples,4,thanjavur brihadisvara temple,85,0.085,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,5,ekambareswarar temple,60,0.06,12,Q3522369,True,True
+shipped_hf,tamilnadu_hindu_temples,6,thanjai nataraja temple,41,0.041,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,7,thanjai periya temple,25,0.025,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,8,thanjai nataraja temple (chidambaram temple,11,0.011,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,9,thanjai periya kovil (ranganathaswamy temple,8,0.008,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,10,thanjai periyar temple,8,0.008,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,11,thanjai periya kovil (ramanathaswamy temple,7,0.007,12,,False,False
+shipped_hf,tamilnadu_hindu_temples,12,thanjai periya kalyana vishnu temple,1,0.001,12,,False,False
+shipped_hf,us_state_capitals,1,atlanta,557,0.557,4,Q23556,True,True
+shipped_hf,us_state_capitals,2,phoenix,235,0.235,4,Q16556,True,True
+shipped_hf,us_state_capitals,3,albany,127,0.127,4,Q24861,True,True
+shipped_hf,us_state_capitals,4,denver,81,0.081,4,Q16554,True,True
