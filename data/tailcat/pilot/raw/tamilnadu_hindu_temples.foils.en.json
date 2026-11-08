@@ -1,0 +1,6958 @@
+{
+  "key": "a989dd9fd279785c",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { { ?item wdt:P131* wd:Q1186 } UNION { ?item wdt:P131* wd:Q1185 } hint:Prior hint:runFirst true . ?item wdt:P31/wdt:P279* wd:Q842402 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:26:21Z",
+  "rows": [
+    {
+      "qid": "Q6479891",
+      "label": "Lakshmi Narasimha Temple, Nuggehalli",
+      "aliases": [
+        "Lakshminarasimha Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6479889",
+      "label": "Lakshmi Narasimha Temple, Bhadravathi",
+      "aliases": [
+        "Lakshminarasimha Temple, Shimoga"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6479943",
+      "label": "Lakshminarasimha Temple, Haranhalli",
+      "aliases": [
+        "Chennakesava temple Haranhalli",
+        "Kesava temple Haranhalli",
+        "Lakshmi Narasimha temple Harnahalli",
+        "Laxmi Narasimha temple Harnahalli"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6732769",
+      "label": "Mahadeva Temple, Itagi",
+      "aliases": [
+        "Mahadeva Temple, Ittagi"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q6744203",
+      "label": "Mallikarjuna Temple, Basaralu",
+      "aliases": [
+        "Mallikarjuna Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6947633",
+      "label": "Mylara Lingeshwara Temple",
+      "aliases": [
+        "Mailara Lingeshwara Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6958784",
+      "label": "Nageshvara Temple",
+      "aliases": [
+        "Naganatheshvara",
+        "Nageshvara temple"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q6982048",
+      "label": "Navalinga Temple",
+      "aliases": [
+        "Kukkanur group of temples",
+        "Kuknur group of temples"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7072079",
+      "label": "O.T.C. Hanuman Temple, Palayam",
+      "aliases": [
+        "O.T.C. Hanuman Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7129759",
+      "label": "Panachikkadu Temple",
+      "aliases": [
+        "Panachikadu",
+        "Dakshina Mookambika Temple",
+        "Panachikad Temple"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7131411",
+      "label": "Panniyur Sri Varahamoorthy Temple",
+      "aliases": [
+        "Kumbidi Varaha and Bhumidevi temples complex",
+        "Panniyur Hindu temples complex",
+        "Varahamurty temple, Panniyoor"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7156991",
+      "label": "Pazhaya Sreekanteswaram Temple",
+      "aliases": [
+        "Old Sreekanteswaram Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7262220",
+      "label": "Puthenkavu Bhagavathy Temple",
+      "aliases": [
+        "Puthencavu"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7424190",
+      "label": "Sarkaradevi Temple",
+      "aliases": [
+        "Sarkara Devi Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7559998",
+      "label": "Someshwara Temple, Kolar",
+      "aliases": [
+        "Somesvara Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7586384",
+      "label": "Srikanteshwara Temple, Nanjangud",
+      "aliases": [
+        "Sri Srikanteshvara Temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7785378",
+      "label": "Thirunakkara Sree Mahadeva Temple, Kottayam",
+      "aliases": [
+        "Thirunakkara Mahadeva temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7785484",
+      "label": "Thiruvallam Parasurama Temple",
+      "aliases": [
+        "Parasuramesvara temple, Tiruvallam"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3530967",
+      "label": "Thiruvanchikulam Mahadeva Temple",
+      "aliases": [
+        "Thiruvanchikalam Shiva temple",
+        "Thiruvanchikulam Siva Temple",
+        "KIlatali Siva temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3536222",
+      "label": "Chennakesava Temple",
+      "aliases": [
+        "Belur temple, Kesava",
+        "Chennakeshava temple, Belur",
+        "Chennakeshava temple, Hassan",
+        "Kesava Temple and Inscriptions",
+        "Kesava temple, Belur",
+        "Keshava temple, Belur"
+      ],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q3537565",
+      "label": "Ananthapura Lake Temple",
+      "aliases": [
+        "Anantapadmanabhasvami temple, Anantapuram",
+        "Anantapuram Vishnu temple",
+        "Anantha Padmanabha Swamy temple, Kumbala",
+        "Sree Ananthapadmanabha Swamy, Kumbla temple"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3595367",
+      "label": "Sreevallabha Temple, Thiruvalla",
+      "aliases": [
+        "Sri Vallabha Kovil, Thiruvalla",
+        "Thiruvalla Vallabha temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4663603",
+      "label": "Abaya Pradhan Temple",
+      "aliases": [
+        "Uyyavantha Perumal Temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4737591",
+      "label": "Aluvamkudi Sree Mahadeva Temple",
+      "aliases": [
+        "Aluvamkudi Mahadeva Temple",
+        "Aluvamkudi Mahadevar Temple",
+        "Aluvamkudi Shiva Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4751490",
+      "label": "Ananthasayana temple",
+      "aliases": [
+        "Ananthasayana Temple"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4768005",
+      "label": "Annapurneshwari Temple, Cherukunnu",
+      "aliases": [
+        "Annapurna temple, Cherukunnu",
+        "Cherukunnu Annapoorna Kovil"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4955605",
+      "label": "Brahmeshvara Temple, Kikkeri",
+      "aliases": [
+        "Brahmeshwara temple",
+        "Kikkeri Hoysala temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5069829",
+      "label": "Chammanad devi temple",
+      "aliases": [
+        "Chammanadu Bhagavathi Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5071410",
+      "label": "Chandramouleshwara Temple, Unkal",
+      "aliases": [
+        "Chandramauleshwara Temple, Unkal",
+        "Unukal Shiva temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112515",
+      "label": "Thiruvullakkav Dharmashastha Temple",
+      "aliases": [
+        "Thiruvullakkavu Sree Dharma Shastha Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112523",
+      "label": "Thiruvegappuram Shankaranarayana Temple",
+      "aliases": [
+        "Thiruvegappura Mahadevar Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112558",
+      "label": "Thuravoor Mahakshetra temple",
+      "aliases": [
+        "Thuravoor Maha Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13112590",
+      "label": "Thrikkur Mahadeva Temple",
+      "aliases": [
+        "Mahadeva cave temple, Thrikkur",
+        "Trikkur rock-cut Shiva temple",
+        "Trikur Cave temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13112595",
+      "label": "Thrikodithanam Mahavishnu Temple",
+      "aliases": [
+        "Divya Kshetram, Thrikkodithanam",
+        "Thrickodithanam Mahakshetram",
+        "Thrickodithanam Vishnu temple",
+        "Thrikkodithanam Divyadesam"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112621",
+      "label": "Thrissileri Mahadeva Temple",
+      "aliases": [
+        "Thrissilery Shiva Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13112831",
+      "label": "Nankulam Karipookkav Temple",
+      "aliases": [
+        "Nankulam Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112879",
+      "label": "Nalukulangara Devi Temple",
+      "aliases": [
+        "Nalukulangara"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112902",
+      "label": "Nityananda Temple",
+      "aliases": [
+        "Kanhangad Swami Nithyanand Ashram"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13112976",
+      "label": "Neithalakkavu shethram",
+      "aliases": [
+        "Sree Naithalakavu Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113003",
+      "label": "Nemom Mahadeva Temple",
+      "aliases": [
+        "Taliyadichapuram Siva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113035",
+      "label": "Panchami Devi Temple, Nedumangad",
+      "aliases": [
+        "Sree Panchami Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113089",
+      "label": "Pandalam Valiya Koyikkal kshethram",
+      "aliases": [
+        "Pandalam Valiya Koyikkal Sree Dharma Sastha Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113115",
+      "label": "Parambanthali Temple",
+      "aliases": [
+        "Parambanthally Maha Shiva Kshethram"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13113179",
+      "label": "Pattupurakkal Bhagavathi Temple",
+      "aliases": [
+        "Pattupurakkal Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113291",
+      "label": "Pisharikkal Bhagavathy Temple, Chalakudy",
+      "aliases": [
+        "Pisharikal Bhagavathy Kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113397",
+      "label": "Pulpally Sita Devi Temple",
+      "aliases": [
+        "Sree Seethadevi Lava Kusa Temple Pulpally"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113405",
+      "label": "Poonilarkav Bhagavathy Temple",
+      "aliases": [
+        "Poonilarkavu Devi temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113468",
+      "label": "Peruvanam Mahadeva Temple",
+      "aliases": [
+        "Irattiyappan temple, Peruvanam",
+        "Madattilappan temple, Peruvanam"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13113795",
+      "label": "Madavoorpara Cave Temple",
+      "aliases": [
+        "Madavoorpara Rock cut cave"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13113796",
+      "label": "Mathumpadi Devi Temple",
+      "aliases": [
+        "Maduthumpadi Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113971",
+      "label": "Mangottukaavu Kshethram",
+      "aliases": [
+        "Sree Mangottukavu Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114111",
+      "label": "Mukhthala Srikrishna Swamy Temple",
+      "aliases": [
+        "Mukhathala murari temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114153",
+      "label": "Munnodi Devi Temple",
+      "aliases": [
+        "Munnodi Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114498",
+      "label": "Vadakkan Koickal Devi Temple",
+      "aliases": [
+        "Vadakkan Koyikkal Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114501",
+      "label": "Vadakkan Paravoor Peruvaram Mahadeva Temple",
+      "aliases": [
+        "Peruvaram Mahadeva Temple North Paravur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114582",
+      "label": "Valiya Koonambaikulam temple",
+      "aliases": [
+        "Valiya koonambaikulam sree Bhadrakali devi temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q13114640",
+      "label": "Kannanperur Devi Temple",
+      "aliases": [
+        "Vazhapalli Kannamperaur Sri Durga Devi Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13114645",
+      "label": "Vazhapalli Layaur Kalari Sri Maha Shivaparvati Temple",
+      "aliases": [
+        "Vazhappally Sree Mahadeva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114767",
+      "label": "Venganelloor Thiruveempilappan Temple",
+      "aliases": [
+        "Venganellur MahaSiva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114878",
+      "label": "Vairankode Bhagavathy Temple",
+      "aliases": [
+        "Bhagavathy",
+        "Sree Vairankode Bhagavathi Temple",
+        "Sree Vairankode Bhagavathy Temple",
+        "Vairankode Bhagavathi Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13114897",
+      "label": "Sastamangalam Mahadeva Temple",
+      "aliases": [
+        "Sasthamangalam Sree Mahadevar Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114937",
+      "label": "Sree Venugopalaswami Devasthanam",
+      "aliases": [
+        "Sri Venugopala Krishna Swami temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q825236",
+      "label": "Badami cave temples",
+      "aliases": [
+        "Badami temples",
+        "cave temples",
+        "Group of monuments at Badami"
+      ],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q1473969",
+      "label": "Padmanabhaswamy Temple",
+      "aliases": [
+        "Anantha Padmanabhaswamy TEMPLE",
+        "Sree Padmanabhaswamy Temple"
+      ],
+      "sitelinks": 27
+    },
+    {
+      "qid": "Q1520207",
+      "label": "Sabarimala temple complex",
+      "aliases": [
+        "Sabarimala Ayyappa Temple",
+        "Sabarimala Sannidhanam"
+      ],
+      "sitelinks": 29
+    },
+    {
+      "qid": "Q2044395",
+      "label": "Udupi Sri Krishna Matha",
+      "aliases": [
+        "Udupi Shri Krishna Matha, Udupi Krishna Mutt, Udupi Sri Krishna Temple, Parasu Teertha, Udupi Sri Krishna Matha"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q2502406",
+      "label": "Virupaksha Temple",
+      "aliases": [
+        "Virupaksha Temple and Bazar"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q2666459",
+      "label": "Guruvayur Temple",
+      "aliases": [
+        "Guruvayoor temple",
+        "Krishna temple, Guruvayur"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q3312281",
+      "label": "Vadakkunnathan Temple, Thrissur",
+      "aliases": [
+        "Rama temple, Trichur",
+        "Sankaranarayana temple, Trichur",
+        "Thenkailasam temple, Trichur",
+        "Tiruchchaperur temple",
+        "Trichur Vadakkunnatha temple",
+        "Vadakkumnathan Temple",
+        "Vadakkunathan Temple"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q3517561",
+      "label": "Hoysaleswara Temple",
+      "aliases": [
+        "Halebeedu Shiva Temple",
+        "Halebidu Temple",
+        "Hoysalesvara Temple"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q3517573",
+      "label": "Lad Khan Temple",
+      "aliases": [
+        "Ladkhan temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3517721",
+      "label": "Bhutanatha group of temples, Badami",
+      "aliases": [
+        "Badami Bhutanatha temples",
+        "Badami structural temples",
+        "Bhootanath temples, Badami",
+        "Bhutanatha group of temple on the east margin of the tank"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q5287741",
+      "label": "Doddabasappa Temple, Dambal",
+      "aliases": [
+        "Dod Basappa Temple",
+        "Dodbasappa Temple",
+        "Dodda Basappa Temple",
+        "Great Nandi Temple of Dambal"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5405064",
+      "label": "Ettumanoor Mahadevar Temple",
+      "aliases": [
+        "Ettumanoor Shiva temple",
+        "Ettumanur Sree Mahadeva temple",
+        "Shri Mahadeva Temple, Ettumanur"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5620424",
+      "label": "Guru Narasimha Temple",
+      "aliases": [
+        "Guru Narasimha"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6080700",
+      "label": "Ishvara Temple, Arasikere",
+      "aliases": [
+        "Isvara Temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6345127",
+      "label": "Kadampuzha Devi Temple",
+      "aliases": [
+        "Kadampuzha Bhagavathy Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6345784",
+      "label": "Kaduthuruthy Mahadeva Temple",
+      "aliases": [
+        "Kaduthuruthy Shiva Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6348580",
+      "label": "Kaitabheshvara Temple, Kubatur",
+      "aliases": [
+        "Kaitabhesvara",
+        "Kaitabhesvara Temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6353755",
+      "label": "Kalleshvara temple",
+      "aliases": [
+        "Kalleswara Swami Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6367167",
+      "label": "Kappil Bhagavathy Temple",
+      "aliases": [
+        "Kappil Bhagavathy Temple Varkala"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6373544",
+      "label": "Cherthala Karthyayani Temple",
+      "aliases": [
+        "Cherthala Devi temple",
+        "Cherthala temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6374558",
+      "label": "Kasivisvesvara Temple, Lakkundi",
+      "aliases": [
+        "Kashi Vishvanatha temple, Lakkundi",
+        "Kashivisveshvara temple, Lakkundi",
+        "Kasivisveswar temple, Lakkundi"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6379319",
+      "label": "Kaviyoor Mahadeva Temple, Kerala",
+      "aliases": [
+        "Kaviyur Shiva temple",
+        "Mahadeva kovil, Kaviyoor"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6382538",
+      "label": "Kedareshvara Temple, Balligavi",
+      "aliases": [
+        "Kedaresvara Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6382540",
+      "label": "Kedareswara temple, Halebidu",
+      "aliases": [
+        "Kedaresvara Temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6434330",
+      "label": "Kottekkad Temple",
+      "aliases": [
+        "Sree Kottekkad Bhagavathy Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6434361",
+      "label": "Kottukal cave temple",
+      "aliases": [
+        "Kottukkal Rock cut temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6445542",
+      "label": "Kurakkavu Temple",
+      "aliases": [
+        "Sree Kurakkavu Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123458086",
+      "label": "Cheranellore Bhagavathy Temple, Ernakulam",
+      "aliases": [
+        "Bhagavati temple Ernakulam",
+        "Cheranellore Durga temple, Kochi"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123458997",
+      "label": "Elamkunnapuzha Subramanya Swamy Temple",
+      "aliases": [
+        "Elankunnapuzha Subrahmanya Temple",
+        "Sree Subrahmanya Swami temple Elamkunnapuzha",
+        "Subrahmanya Swami temple Elamkunnapuzha"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123778564",
+      "label": "Parappadam",
+      "aliases": [
+        "Parappadam Devi Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124002366",
+      "label": "Koythuruthiveli",
+      "aliases": [
+        "Koythuruthiveli Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124044226",
+      "label": "Maruthachikkal Temple",
+      "aliases": [
+        "Maruthachikkal"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124044365",
+      "label": "Mudivachazhikathu Paradevatha Temple",
+      "aliases": [
+        "Mudivachazhikathu",
+        "Mudivachazhikathu Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124057624",
+      "label": "Kalavamkodam Shaktheeswara Temple",
+      "aliases": [
+        "Kalavamkodam",
+        "Kalavamkodam Shaktheeswaram Temple",
+        "Kalavamkodam Temple",
+        "Shaktheeswara Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124069634",
+      "label": "Thanneermukkom Chalinarayanapuram Temple",
+      "aliases": [
+        "Chalinarayanapuram Temple",
+        "Thanneermukkom Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124074492",
+      "label": "Kandamkulangara Bhagavathi Temple",
+      "aliases": [
+        "Kandamkulangara"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124074962",
+      "label": "Saktheeswaram Temple",
+      "aliases": [
+        "Saktheeswaram Temple Virippukala"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124075670",
+      "label": "Thumbunkal Sreeparadevatha Bhadrakali Temple",
+      "aliases": [
+        "Thumbunkal"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124075951",
+      "label": "Panayida Annapoorneshwari Temple",
+      "aliases": [
+        "Panayida Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124130784",
+      "label": "Aymanam Narasimham Temple",
+      "aliases": [
+        "Narasimhaswamy Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124162480",
+      "label": "Pattathil Madam Temple",
+      "aliases": [
+        "Pattathil Madam Devi Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124173218",
+      "label": "Vattakkattu Viswanath Temple",
+      "aliases": [
+        "Vattakkattu Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124240110",
+      "label": "Thirumala Devaswom Temple Thuravoor",
+      "aliases": [
+        "TD Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124240302",
+      "label": "Arthikulangara Temple",
+      "aliases": [
+        "Arthikulangara"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124258797",
+      "label": "Kundathil Dharmashastha Temple",
+      "aliases": [
+        "Kundathil Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124284941",
+      "label": "Kavunkal Devi Temple",
+      "aliases": [
+        "Poonjilikavil Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124330728",
+      "label": "Kanakkoor Dhanwantari Temple",
+      "aliases": [
+        "Kanakkoor Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124387335",
+      "label": "Mundyathal Vishnumoorthi Devasthanam",
+      "aliases": [
+        "Mundyathal Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124387570",
+      "label": "Alayil Bhagavathi Temple",
+      "aliases": [
+        "Alayil Bhagavathi Kshetham",
+        "Sree Alayil Bhagavathi Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124462763",
+      "label": "Madakkattu Temple",
+      "aliases": [
+        "Madappattu",
+        "Madakkattu",
+        "Madakkattu Dharmasastha Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124515328",
+      "label": "Thiruvarppu Siva Temple",
+      "aliases": [
+        "Sivan Kovil"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124515341",
+      "label": "Kochambalam Devi Temple",
+      "aliases": [
+        "Kochambalam",
+        "Thiruvarppu Devi Temple",
+        "Thiruvarppu Kochambalam"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124546985",
+      "label": "Pallippurathukavu Devi Temple",
+      "aliases": [
+        "Pallipurathukavu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124606871",
+      "label": "Arayukulangara Temple",
+      "aliases": [
+        "Arayukulangara",
+        "Arayukulangara Sreekrishnaswamy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124650414",
+      "label": "Mutharamman Devasthanam",
+      "aliases": [
+        "Mutharamman Devasthanam temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124650423",
+      "label": "Muttathu Tirumala temple",
+      "aliases": [
+        "Tirumala temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124692898",
+      "label": "Vettakkal Ghantakarna Temple",
+      "aliases": [
+        "Chellappuram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124732153",
+      "label": "Konattussery Devi-Ghandakarna Temple",
+      "aliases": [
+        "Konattussery Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q125417627",
+      "label": "Parappukkavu Bhagavathy Temple",
+      "aliases": [
+        "Parappukkavu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125919664",
+      "label": "Venmony Mahadevar Temple",
+      "aliases": [
+        "Mahadevar Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q126710631",
+      "label": "Shrungagiri Sri Shanmukha Swamy Temple",
+      "aliases": [
+        "Sri Armugam temple",
+        "Sri Murugan Temple",
+        "Sri Shanmukha Temple",
+        "Armugam temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q126922401",
+      "label": "Sri Banashankari Temple, Bengaluru",
+      "aliases": [
+        "Banashankari Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q127325203",
+      "label": "Therur Mahadeva Temple",
+      "aliases": [
+        "Therur Sree Mahadeva Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q127427594",
+      "label": "Sri Jnanakshi Rajarajeshwari Temple",
+      "aliases": [
+        "Sri Rajarajeshwari Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q134932844",
+      "label": "Neeroor Shiva Temple",
+      "aliases": [
+        "Neeroor"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q135113226",
+      "label": "Kulassery Temple",
+      "aliases": [
+        "Kulassery Hanuman Lakshmi Narasimha Temple",
+        "Kulassery Lakshmi Narasimha Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q135684020",
+      "label": "Brahmamangalam Methrukkovil Temple",
+      "aliases": [
+        "Methrukkovil"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q136289008",
+      "label": "Thalayolaparambu Karthyayani Temple",
+      "aliases": [
+        "Thalayolaparambu Devi Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138497809",
+      "label": "Iruvail shri durgaparameswari temple",
+      "aliases": [
+        "Shri Durgaparameshwari Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138499049",
+      "label": "Shri Gurudevadatta Samsthanam, Odiyoor",
+      "aliases": [
+        "Shri Gurudevadatta Samsthanam"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138836905",
+      "label": "Shri Bande Mahakali Temple",
+      "aliases": [
+        "Bande Mahakali Temple, Mahakali Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q140600134",
+      "label": "Sree Vengasserikavu temple",
+      "aliases": [
+        "Sree Vengasserikavu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q141639345",
+      "label": "Theruvath Sree Arayil Bhagavathy, Kanhangad",
+      "aliases": [
+        "Kanhangad Theruvath Sree Arayil Bhagavathy Devalayam"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141640358",
+      "label": "Nidiyenga Melalikkavu",
+      "aliases": [
+        "Nidiyenga Melalikavu",
+        "Sree Nidiyenga Melalikkavu"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q13115236",
+      "label": "Haripad Sree Subrahmanya Swamy temple",
+      "aliases": [
+        "Dakshina Palani",
+        "South Palani temple",
+        "Sree Subramanya Swami temple, Harippad",
+        "Subramanya Swami temple, Haripad"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15077801",
+      "label": "Kandiyoor Sree Mahadeva Temple",
+      "aliases": [
+        "Kandiyur Mahadeva temple",
+        "Mahadeva temple, Kandiyur Kerala"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q15260943",
+      "label": "Nannesvara Temple, Lakkundi",
+      "aliases": [
+        "Nanesvara temple",
+        "Nanneswara temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15271611",
+      "label": "Rameshvara Temple, Koodli",
+      "aliases": [
+        "Rameshwara Temple (Kudli)",
+        "Ramesvara temple Kudli"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15275557",
+      "label": "Saumyakeshava Temple, Nagamangala",
+      "aliases": [
+        "Sauymakesava"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16133801",
+      "label": "Katanam Bharnikav Bhadrakali Temple",
+      "aliases": [
+        "Bharanikavu Devi Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16133826",
+      "label": "Pandavarkavu",
+      "aliases": [
+        "Muthukulam Pandavarkavu temple",
+        "Pandavarkkavu"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16133871",
+      "label": "Thottipal Bhagavati Kshetram",
+      "aliases": [
+        "Thottippal Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134112",
+      "label": "Udayamperoor Perumthrikkovil Temple",
+      "aliases": [
+        "Perunthirukovil, Udayamperur",
+        "Udayamperur Peruntirukkoyil temple, Kochi"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16134161",
+      "label": "Kalari Temple",
+      "aliases": [
+        "Kadayattu Kalari Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134182",
+      "label": "Sri Rajarajeshwari Temple in Manchadikara",
+      "aliases": [
+        "Manchadikara Sri Raja Rajeshwari Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134249",
+      "label": "Kalarcode Temple",
+      "aliases": [
+        "Kalarcode",
+        "Kalarcode Mahadeva Temple",
+        "Kalarkode"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16134322",
+      "label": "Ramapuram Sri Ramaswamy Temple",
+      "aliases": [
+        "Sree Ramaswami Temple, Ramapuram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134445",
+      "label": "Manakkad Narasimhaswamy Temple",
+      "aliases": [
+        "Sree Narasimha Swami Temple Manakkad"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134596",
+      "label": "Shukapuram Dakshinamurthy Temple",
+      "aliases": [
+        "Sukapuram Dakshinamurthy Temple Edappal"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134614",
+      "label": "Mannur Mahadeva Temple",
+      "aliases": [
+        "Mannur Sree Maha Shiva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16134806",
+      "label": "Manakkodi Ayyappa Swaami Kshethram",
+      "aliases": [
+        "Manakody Ayyappankavu Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134996",
+      "label": "Aimury Mahadeva temple",
+      "aliases": [
+        "Aimury Shiva temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16135067",
+      "label": "Kondayoor Subrahmanyaswamy Temple",
+      "aliases": [
+        "Kondayoor sree subramanya swami temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135200",
+      "label": "Kararma Devi Kshetam",
+      "aliases": [
+        "Karazhma Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135340",
+      "label": "Malayalapuzha Devi Temple",
+      "aliases": [
+        "Malayalappuzha Bhagavathy Temple",
+        "Malayalappuzha Devi Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16135437",
+      "label": "Kottapuram Shiva Temple",
+      "aliases": [
+        "Kottappuram Siva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16135538",
+      "label": "Kannapuram Kizhakke Kavu Bhagavathy Temple",
+      "aliases": [
+        "Kizhakke Kavu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135584",
+      "label": "Pookattikara Karamukku Shiva-Vishnu-Bhagavatikshetra",
+      "aliases": [
+        "Sree Karamukku Bhagavathy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135601",
+      "label": "Mahadeva Temple, Avittathur",
+      "aliases": [
+        "Avittathur Siva Kovil"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16135723",
+      "label": "Keezhthali Siva Temple",
+      "aliases": [
+        "Keezhthali Siva Temple Thaliyil"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135984",
+      "label": "Vallikode Trikovil Temple",
+      "aliases": [
+        "Thrikkovil Sri Padmanabha Swami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136123",
+      "label": "Iranikulam Mahadeva Temple",
+      "aliases": [
+        "Thekedathappan temple",
+        "Thekkedath kovil",
+        "Vadakedath kovil",
+        "Vadakedathappan temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16136181",
+      "label": "Nedumpura Kulasekharanellur Shiva Temple",
+      "aliases": [
+        "Kulasekharanellur Shiva temple",
+        "Nedumpura Siva Kovil",
+        "Nedumpura Temple, Kerala",
+        "Nedumpuraiyur Hindu temples",
+        "Siva temple of Nedumpura"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16136249",
+      "label": "Aadimoolam Shree Naagaraja Kshethram",
+      "aliases": [
+        "Vetticode Aadimoolam Shree Naagaraja Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136319",
+      "label": "Nelluvaaya Dhanvantharee Kshethram",
+      "aliases": [
+        "Nelluvaya Sree Dhanwanthari Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136354",
+      "label": "Kumaranalloor Karthyayani Devi Temple",
+      "aliases": [
+        "Kumaranalloor",
+        "Kumaranalloor Devi temple",
+        "Kumaranalloor temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16136363",
+      "label": "Vazhapally Changzhimutam Bhagavathy Temple",
+      "aliases": [
+        "Vazhapally Sree Mahadev Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136408",
+      "label": "Sree Krishna Swami Temple, Mavelikkara",
+      "aliases": [
+        "Mavelikkara Krishna Swami Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16136530",
+      "label": "Bhadrakali Temple at Odayam Park",
+      "aliases": [
+        "Odayam Parambil Sree Bhadrakali Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136753",
+      "label": "Pattanakkad Mahadeva temple",
+      "aliases": [
+        "Pattanakkad temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16136842",
+      "label": "Thalikulam Sri Dharma Shasta Kshetra",
+      "aliases": [
+        "Talikulam Sree Dharma Shasta Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136909",
+      "label": "Thazhuthala Mahaganapati Temple",
+      "aliases": [
+        "Thazhuthala Sree Maha Ganapathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137091",
+      "label": "Mutukurussi Sri Kirathamurthy Temple",
+      "aliases": [
+        "Kirathamoorthy temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137143",
+      "label": "Kandamangalam temple",
+      "aliases": [
+        "Kandamangalam Devi  temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137201",
+      "label": "Panaveli Sri Mahadevar Temple",
+      "aliases": [
+        "Panavely Sivakshethram temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137207",
+      "label": "Nagamkulangara Temple",
+      "aliases": [
+        "Nagamkulangara",
+        "Nagamkulangara Mahadeva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q61370291",
+      "label": "Parakkottukav Bhagavathy Temple",
+      "aliases": [
+        "Sree Parakkottukavu Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61370631",
+      "label": "Sasthanada Ayyappa Temple",
+      "aliases": [
+        "Umbernadu Sree Dharma Shastha Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61370636",
+      "label": "Thazhakara Subrahmanya Temple",
+      "aliases": [
+        "Thazhakara Sree Subramanya Swami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61370934",
+      "label": "Padayanivetam Devi Kshethram",
+      "aliases": [
+        "Padayanivettom Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61371436",
+      "label": "Thruppekkulam Shiva Kshethram",
+      "aliases": [
+        "Thrippekkulam Mahadeva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61371539",
+      "label": "Kadamattom Sree Mahadeva Temple",
+      "aliases": [
+        "Kadamattam Sree Mahadeva Kshetram"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q61371548",
+      "label": "Shree Valiyaveet Kanniraashi Kshethram",
+      "aliases": [
+        "Sree Valiyaveed Kannirasi Kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61371663",
+      "label": "Meenangadi Matsyavatara Maha Vishnu Temple",
+      "aliases": [
+        "Sree Matsya Avathara Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61371997",
+      "label": "Nateri Sri Lakshmi Narasimhamurthy Temple",
+      "aliases": [
+        "Nateri Sree Lakshmi Narasimha Moorthee Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372443",
+      "label": "Pulamanthol Sri Rudra Dhanvantari Temple",
+      "aliases": [
+        "Sree Rudhra Dhanwanthari Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372639",
+      "label": "Thrikkudamanna Shiva Temple",
+      "aliases": [
+        "Sree Thrikkudamanna Siva kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372652",
+      "label": "Makreri Subrahmanyaswamy Temple",
+      "aliases": [
+        "Makreri subramanya swami kovil"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372661",
+      "label": "Edakunni Durga Temple",
+      "aliases": [
+        "Sree Edakkunni Devi Kshetram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372669",
+      "label": "Ernakaranallur Ganapatiyan Kav",
+      "aliases": [
+        "Ganapathiyankavu Maha Kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372756",
+      "label": "Kuttur Naitalakkav Bhagavathy Temple",
+      "aliases": [
+        "Sree Naithalakavu Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61374382",
+      "label": "Thayamkulangara Subramanya Swamy Temple",
+      "aliases": [
+        "Thayamkulangara Sree Subrahmanya Swamy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61374627",
+      "label": "Chelloor shree anthimahakalan kavu",
+      "aliases": [
+        "Anthimahakalan Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61374654",
+      "label": "Potthannur Durga Temple",
+      "aliases": [
+        "Pothanur Sree Durga Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61375450",
+      "label": "Aila Durga Parameswari Temple",
+      "aliases": [
+        "Aila Parmeshwari Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61375767",
+      "label": "Velam Mahaganapati Temple",
+      "aliases": [
+        "Velam Sree Maha Ganapathi Temple, Mayyil"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61702554",
+      "label": "Shiva temple in Narayanapur",
+      "aliases": [
+        "Ancient Shiva temple, Narayanapur"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q61723430",
+      "label": "Karumakan Kavu",
+      "aliases": [
+        "Sree Karumakan kavu temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61740703",
+      "label": "Iswara temple in Jalasangvi",
+      "aliases": [
+        "Eshwara temple",
+        "Isvara temple",
+        "Kalleshwara temple.",
+        "Kamaleshwara temple",
+        "Kamalishwara temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q65320426",
+      "label": "Thekkan chittoor Sreekrishnaswami Temple",
+      "aliases": [
+        "Chittoor Sree Krishnaswami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65320809",
+      "label": "Kumaramangalam",
+      "aliases": [
+        "Sree Kumaramangalam Subramanyaswami Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q65321192",
+      "label": "Annamalanathar Temple",
+      "aliases": [
+        "Sree Annamala Nathar  Mahadeva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25588551",
+      "label": "Kattil Mekkathil Kshethram",
+      "aliases": [
+        "Kattil Mekkathil Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25589037",
+      "label": "Pangarapilly Anthimahakalankavu Temple",
+      "aliases": [
+        "Anthimahakalankavu Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25589168",
+      "label": "Sri Palkara Bhagavathy Temple, Menamkulam",
+      "aliases": [
+        "Sree Palkara Bhagawathy Kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25589693",
+      "label": "Vennimala Sri Rama Lakshmana Temple",
+      "aliases": [
+        "Vennimala Sri Rama Lakshmana Swamy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25589895",
+      "label": "Urumbachan Temple",
+      "aliases": [
+        "Urumbachan Kshetram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25627158",
+      "label": "Sharana Basaveshwara Temple",
+      "aliases": [
+        "Kalaburagi Sharanabasaveshwar"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25627418",
+      "label": "Nageshvara-Chennakeshava Temple complex, Mosale",
+      "aliases": [
+        "Chennakeshava Temple",
+        "Nageshvara Temple",
+        "Nagesvara and Chennakesava Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q27230270",
+      "label": "Pallimanna Siva Temple",
+      "aliases": [
+        "Mahadeva temple, Pallimanah",
+        "Pallimanah Shiva temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20578393",
+      "label": "Chakyam Kavu Ayyappa Kshethram",
+      "aliases": [
+        "Sree Chakyam Kavu Ayyappa Temple, Kuruvatoor"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20578701",
+      "label": "Chembrayur Narasimha Murthy Temple",
+      "aliases": [
+        "Kudakuzhy Narasimha Moorthy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20579450",
+      "label": "Thalickal Mahadeva Temple",
+      "aliases": [
+        "Thalickal temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20579653",
+      "label": "Thiruvairur Mahadeva Temple",
+      "aliases": [
+        "Kandiyoor Sree Mahadeva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20579719",
+      "label": "Trikandiyur Mahadeva Temple",
+      "aliases": [
+        "Thrikkandiyur Mahadeva temple",
+        "Trikkandiyoor Shiva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20579743",
+      "label": "Thrikkaipetta Shiva Temple",
+      "aliases": [
+        "Sree Thrikkaipetta Shiva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20580222",
+      "label": "Nangyaarkulangara shree Krishna Kshethram",
+      "aliases": [
+        "Nangiarkulangara Sree Krishna Swamy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20580485",
+      "label": "Neendur Subramaniaswamy Temple",
+      "aliases": [
+        "Neendoor Subrahmanya Swami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20580678",
+      "label": "Pacha Nedum Parambu Sri Dharmashasta Temple",
+      "aliases": [
+        "Pacha sreedharama sasta temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581376",
+      "label": "Puthukolli Shiva Temple. Kodassery",
+      "aliases": [
+        "Puthukkolli shiva temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581904",
+      "label": "Ponmeri Shiva Temple",
+      "aliases": [
+        "Sri Ponmeri Shiva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20582119",
+      "label": "Belur siva temple",
+      "aliases": [
+        "Belur Shree Shiva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20582333",
+      "label": "Mannady Devi Temple",
+      "aliases": [
+        "Mannadi Pazhayakavu Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20583513",
+      "label": "Vazhalikav Sree Bhadrakali Kshetra",
+      "aliases": [
+        "Vazhalikaavu Bhagawathi Khsetram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q21979576",
+      "label": "Siddalingeshwara",
+      "aliases": [
+        "Yediyur Siddhalingeshwara Swamy Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24906294",
+      "label": "Othera Puthukulangara Bhagawathi Temple",
+      "aliases": [
+        "Othera Puthukkulangara Devi Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24906292",
+      "label": "Sreevaraham Lakshmi Varaha Temple, Thiruvananthapuram",
+      "aliases": [
+        "Sreevaraham Lakshmi Varaha Temple",
+        "Sreevaraham Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24906383",
+      "label": "Someshvara Temple, Haranhalli",
+      "aliases": [
+        "Someswara temple Harnahalli"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24906618",
+      "label": "Lakshmikanta Temple, Kalale",
+      "aliases": [
+        "Lakshmikanta Temple and adjoining Temples, Mantapas and Sandalwood door of Sati Shrine"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24906641",
+      "label": "Gunja Narasimha Swamy Temple, Thirumakudalu Narasipura",
+      "aliases": [
+        "Gunjanarasimhaswamy Temple, Mysore"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24906644",
+      "label": "Arakeshwara Temple, Haleyedatore",
+      "aliases": [
+        "Arkeshwaraswamy Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24906671",
+      "label": "Kanakachalapathi Temple, Kanakagiri",
+      "aliases": [
+        "Kanaka Chalani Temple and remains of other Hindu temples"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24906673",
+      "label": "Seebi Narasimha Swamy Temple, Seebi",
+      "aliases": [
+        "Narasimha Swamy temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24912174",
+      "label": "Mulavana Mahadevar Temple",
+      "aliases": [
+        "Mulavana Sree Mahadevar Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24913112",
+      "label": "Shree Siddheshwar Mandir, Balni Karwar",
+      "aliases": [
+        "Shri Siddheshwar Temple Melin Balni"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24930705",
+      "label": "Maheswaram Temple",
+      "aliases": [
+        "Chenkal Maheswaram Sri Shiva Parvathy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q24931047",
+      "label": "Polur temple, Kozhikode",
+      "aliases": [
+        "Poloor Sree Subramanya Swami Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24932411",
+      "label": "Ponmeri Shiva Temple",
+      "aliases": [
+        "Sri Ponmeri Shiva Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24952148",
+      "label": "Yellamma Temple, Saundatti",
+      "aliases": [
+        "Renuka Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24952190",
+      "label": "Tarakeshwara Temple, Hangal",
+      "aliases": [
+        "Tarakesvara temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q25587211",
+      "label": "Oripurathu Bagavathi Kshethram Thattayil",
+      "aliases": [
+        "Oripurathu Bagavathi Temple Thattayil"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25587438",
+      "label": "Sri Cherussery Temple",
+      "aliases": [
+        "Sree Cherussery Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25587473",
+      "label": "Palan Pulayan Temple",
+      "aliases": [
+        "Palanpulayan Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25587529",
+      "label": "Pachallur Sri Kulathingara Bhadrakali Devi Temple",
+      "aliases": [
+        "Pachalloor Sree Kulathinkara Bhadrakali Devi Temple (Thookka Mudippura)"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25588536",
+      "label": "Padavil Shri Muthappan Madapura",
+      "aliases": [
+        "Padavil Sree Muthappan Madappura"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q141648256",
+      "label": "Sree Umiyamkunnummal Paradevatha Kuttichathan Kshetram, Vadakara",
+      "aliases": [
+        "Umiyamkunnummal Paradevatha Kuttichathan Kshetram"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q142077206",
+      "label": "Onakkoor Pandiyanpara Bhagavathi Temple",
+      "aliases": [
+        "Pandiyanpara"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q7798161",
+      "label": "Thrikkavu Temple",
+      "aliases": [
+        "Thrikkavu Durga temple",
+        "Trikkavu Durga Mandiram"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7809354",
+      "label": "Tirumanthamkunnu Temple",
+      "aliases": [
+        "Thirumandhamkunnu temple",
+        "Thirumanthamkunnu Bhagavathy temple, Angadipuram"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7840631",
+      "label": "Trichambaram Temple",
+      "aliases": [
+        "Rajarajesvara temple"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7843765",
+      "label": "Triprangode Siva Temple",
+      "aliases": [
+        "Kalasamharamurti temple, Triprangod",
+        "Thripangode Shiva temple",
+        "Triprangod Amsam Kshetram"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7908743",
+      "label": "Vaikom Temple",
+      "aliases": [
+        "Vaikom Mahadeva Temple"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7917023",
+      "label": "Vasudevapuram Tavanur",
+      "aliases": [
+        "Sree Vasudevapuram Sri Krishna temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q8046601",
+      "label": "Veerbhadra Temple",
+      "aliases": [
+        "Veerbhadra Temple, Yadur"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10953145",
+      "label": "Thriprayar Ramaswamy Temple",
+      "aliases": [
+        "Sree Ramaswami temple, Triprayar",
+        "Triprayar Rama temple"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q12060940",
+      "label": "Kallil Temple",
+      "aliases": [
+        "Kallil rock cut temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q12060946",
+      "label": "Kamala Narayana Temple, Degaon",
+      "aliases": [
+        "Degam goddess temple",
+        "Degamve Bastigudi",
+        "Kalla Gudi",
+        "Sarasvati Lakshmi Mahakali temple Degam"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q13110139",
+      "label": "Alayakkad Narasimhaswamy Temple",
+      "aliases": [
+        "Alayakkad Sree Narasimha Moorthy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110390",
+      "label": "Ithitthanam Ilangav Devi Temple",
+      "aliases": [
+        "Ithithanam Elankavu Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110695",
+      "label": "Ernakulam Siva Temple",
+      "aliases": [
+        "siva temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111015",
+      "label": "Karivellur Muchilot Bhagavathy Temple",
+      "aliases": [
+        "Karivellur sree Muchilottu Bhagavati Kshetram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111022",
+      "label": "Karivellur Mahadeva Temple",
+      "aliases": [
+        "Karivellur Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13111107",
+      "label": "Kachamkurissi Maha Vishnu Temple",
+      "aliases": [
+        "Kachamkurissi Temple, Payyallur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111109",
+      "label": "Kakoth Bhagwati Temple",
+      "aliases": [
+        "Sree Kakkunnath Bhaghavathi Kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111119",
+      "label": "Kanjiramattam Sree Mahadeva Temple",
+      "aliases": [
+        "Kanjiramattom Shiva temple",
+        "Mahadeva temple, Kanjiramattam Kerala"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13111228",
+      "label": "Aroor Karthyayani Devi Temple",
+      "aliases": [
+        "Aroor Devi Temple",
+        "Aroor temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q65321275",
+      "label": "Kakkad Mahaganapati Temple",
+      "aliases": [
+        "Sree Kakkad Mahaganapati Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65323479",
+      "label": "Aivarmath Srikrishna Swamy Temple",
+      "aliases": [
+        "Ivormadm Srikrishna Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65951858",
+      "label": "Mulavannoor devi temple",
+      "aliases": [
+        "Mulavinnoor devi temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q66457024",
+      "label": "Mallikarjuna Temple Complex, Aihole",
+      "aliases": [
+        "karegudi bilegudi"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q66541984",
+      "label": "AmbigerGudi Temple Complex - Easternmost monument",
+      "aliases": [
+        "Ambigergudi (1)",
+        "AmbigerGudi Temple",
+        "Dravida Architecture Temple Aihole",
+        "Sun God Temple Aihole"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q66597967",
+      "label": "AmbigerGudi Temple Complex - Western Temple",
+      "aliases": [
+        "AmbigerGudi Temple",
+        "Dravida Architecture Temple Aihole",
+        "Ambigergudi (2)",
+        "Western most temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q66598383",
+      "label": "Galaganatha Temples Aihole",
+      "aliases": [
+        "A temple of Galaganatha group (1)",
+        "Galaganatha Temple Complex Aihole",
+        "Kadamba Nagara Architecture",
+        "Shiva Temple Aihole"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q66598395",
+      "label": "Galaganatha Temples Aihole -2",
+      "aliases": [
+        "A temple of Galaganatha group (2)",
+        "Galaganatha Temple Complex Aihole",
+        "Kadamba Nagara Architecture",
+        "Shiva Temple Aihole"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q66619211",
+      "label": "Basavanna Temple Aihole",
+      "aliases": [
+        "Basavanna"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q68284409",
+      "label": "Achyutaraya temple",
+      "aliases": [
+        "Achyutaraya (Triuvengalantha) Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q68286065",
+      "label": "Hazara Rama temple",
+      "aliases": [
+        "Hazara Ramachandra Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97259834",
+      "label": "Vellimuttam temple",
+      "aliases": [
+        "Vellimuttam Dharmashastha temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q97440577",
+      "label": "Amritesvara temple",
+      "aliases": [
+        "Amriteshwar Temple, Annigeri",
+        "Amritesvara Temple, Annigeri",
+        "Amruteshwara Temple, Annigeri"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97440907",
+      "label": "Vitthala Temple, Hampi",
+      "aliases": [
+        "Vijaya Vittala temple",
+        "Vittala temple, Hampi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q97440914",
+      "label": "Ramesvara Temple, Narasamangala",
+      "aliases": [
+        "Ramalingeshwara temple, Narasamangala",
+        "Ramalingesvara temple, Narasamangala"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97441078",
+      "label": "Aghoreshvara Temple, Ikkeri",
+      "aliases": [
+        "Aghoreswar temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q106081535",
+      "label": "Someshwara temple, Lakshmeswar",
+      "aliases": [
+        "Dakshina Somanatha",
+        "Somesvara temple",
+        "Someswar temple, Lakshmeshwar"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q117006374",
+      "label": "Chennakesava temple, Anekere",
+      "aliases": [
+        "Channakeshava temple, Anekere",
+        "Kesava temple, Anekere",
+        "Keshava temple, Anekere"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q117006412",
+      "label": "Chennakesava temple, Channarayapatna",
+      "aliases": [
+        "Channakeshava temple Channarayapatna",
+        "Keshava temple Channarayapatana"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q117107831",
+      "label": "Karikkad Subrahmanya Temple, Manjeri",
+      "aliases": [
+        "Karikatu Subramaniaswamy Temple, Malapuram",
+        "Karikkad Ayyappa temple, Manjeri",
+        "Manjeri Ayyappa temple",
+        "Manjeri Subrahmanyam temple",
+        "Thekkam Thevar",
+        "Vadakkam Thevar"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q119104344",
+      "label": "Adoor Mahalingeshwara Temple",
+      "aliases": [
+        "Adoor Mahalingeswarar temple, Kasaragod",
+        "Urdoor Mahalingeshwara temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q119145328",
+      "label": "Sri Srinivasa Perumal Temple, Kodungallur",
+      "aliases": [
+        "Kulasekhara Alwar temple",
+        "Thirukulasekharapuram koil",
+        "Tirukkulasekharapuram temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q119197980",
+      "label": "Kilatali Siva Temple, Tiruvancikulam Kodungallur",
+      "aliases": [
+        "Keezhthali Siva Temple, Kodungallur",
+        "Mahodayapuram Thali temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q119629351",
+      "label": "Aazhimala Shiva Temple",
+      "aliases": [
+        "Azhimala Mahadeva Temple",
+        "Azhimala Pulinkudi Mahadeva Temple",
+        "Azhimala Shiva Temple",
+        "Azhimala Siva Temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q121094494",
+      "label": "Varanad Devi Temple",
+      "aliases": [
+        "Varanad",
+        "Varanad Temple",
+        "Varanadu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122150740",
+      "label": "Puthiyakavu Devi temple",
+      "aliases": [
+        "Uzhuva Puthiyakavu Devi temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122150997",
+      "label": "Neelimangalam Rajarajeshwari temple",
+      "aliases": [
+        "Rajarajeshwari temple, Neelimangalam, Cherthala"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122173024",
+      "label": "Keraladithyapuram temple",
+      "aliases": [
+        "Keraladithyapuram",
+        "Vayalar Keraladithyapuram temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122173202",
+      "label": "Kollappally Maheswary Devi temple",
+      "aliases": [
+        "Kollappalli",
+        "Kollappally"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q122446301",
+      "label": "Govindapuram temple",
+      "aliases": [
+        "Kudavechoor Govindapuram temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122753673",
+      "label": "Chengalathukavu Devi Temple",
+      "aliases": [
+        "Chengalathukavu",
+        "Chengalathu Kavu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122802698",
+      "label": "Ramnath Shanteri Kamakshi devastan",
+      "aliases": [
+        "Ramnath Shanteri Kamakshi temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122840715",
+      "label": "Dharwad Ka Raja",
+      "aliases": [
+        "Dharwadcha Raja, Dharwad ka raja"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123013541",
+      "label": "Kokothamangalam Mayanarayana Temple",
+      "aliases": [
+        "Mayanarayana Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123218422",
+      "label": "Mannur Maha Shiva temples complex, Kadalundi Kozhikode",
+      "aliases": [
+        "Mannur Mahakovil of Kozhikode"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123219948",
+      "label": "Maha Ganapathy temple, Indianur",
+      "aliases": [
+        "Mahaganapathy Kshetra, Indianoor"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123222464",
+      "label": "Thali Siva temple, Varavur",
+      "aliases": [
+        "Nityavicaresvara Kovil",
+        "Tali Mahadeva temple, Varavoor",
+        "Varavur Sthali Kovil"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123231217",
+      "label": "Ramapuram Mahavishnu temple, Eramam Kerala",
+      "aliases": [
+        "Maha VIshnu Kovil Ramapuram Kannur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123238327",
+      "label": "Kuruvakkavu temple, Kannur",
+      "aliases": [
+        "Kuruvakau kovil",
+        "Kuruvakkava temple, Kannapuram",
+        "Lava Kush kovil",
+        "Mushaka architecture temples",
+        "Sita temple, Kannur",
+        "Tirukkannapurattu Devar temple, Kannur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111281",
+      "label": "Thirumanimangalam Mahadevar Temple",
+      "aliases": [
+        "Kudassanad Mahadevar Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111344",
+      "label": "Kodungallur Bhagavathy Temple",
+      "aliases": [
+        "Bhadrakali temple, Kodungallur",
+        "Bhagavati temple, Kodungallur",
+        "Kodungalur Bhagavathy Kovil",
+        "Sree Kurumba Bhagavathy temple, Kodungallur"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13111603",
+      "label": "Kodunthara Sri Subrahmanyaswamy Temple",
+      "aliases": [
+        "Kodumthara Sree Subrahmanya Swamy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111680",
+      "label": "Kototh Bhagavatikshetra",
+      "aliases": [
+        "Sri Kodoth Bhagavathy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111759",
+      "label": "Kalkulathukkav Bhagavathy Temple",
+      "aliases": [
+        "Kalkulathukkav Bhagavatikshetra"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111867",
+      "label": "Changankulangara Sri Mahadevar Temple",
+      "aliases": [
+        "Changamkulangara Siva Temple, Puthuppally",
+        "Changankulangara Mahadeva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13111959",
+      "label": "Chitichathakudam Sri Dharmashastakshetra",
+      "aliases": [
+        "Chathakudam Sree Dharma Sastha Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112001",
+      "label": "Chengannur Mahadeva Temple",
+      "aliases": [
+        "Chengannur Bhagavathy temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112012",
+      "label": "Chengal Bhagavathi Temple",
+      "aliases": [
+        "Chengal Bhagavathy Kshethram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112060",
+      "label": "Kunnath Thali Mahadeva Temple, Chendamangalam",
+      "aliases": [
+        "Chendamangalam Kunnathali Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13112070",
+      "label": "Cheranelloor Maaraparambu Mahadeva Temple",
+      "aliases": [
+        "Cheranalloor Sri Mahadeva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112091",
+      "label": "Chocherikkunnu Sri Subrahmanya Swami Temple",
+      "aliases": [
+        "Chocherikkunnu Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112417",
+      "label": "Thalayanneri shree poomaala bhagavathikkav",
+      "aliases": [
+        "Shree Poomala Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112423",
+      "label": "Thaliyil Mahadeva temple",
+      "aliases": [
+        "Thali",
+        "Talikotta Mahadeva Temple",
+        "Thali Mahadeva temple",
+        "Thalikkotta temple",
+        "thaliyil",
+        "Thaliyil Sree Mahadeva temple",
+        "Thaliyil temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112426",
+      "label": "Thali Mahadeva temple, Kozhikode",
+      "aliases": [
+        "Tali Kovil, Kozhikode",
+        "Tali Shiva Temple",
+        "Tali Siva Mahakovil",
+        "Thali Shiva temple, Calicut"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q27824623",
+      "label": "Nilakkal Sree Mahadeva Temple",
+      "aliases": [
+        "Nilackal Mahadeva Temple",
+        "Nilackal Shiva Temple",
+        "Nilakkal Mahadeva Temple",
+        "Nilakkal Shiva Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q27870186",
+      "label": "Achankovil Sastha Temple",
+      "aliases": [
+        "Achankovil Sree Dharmasastha Temple",
+        "Achenkovil Sastha Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q27998712",
+      "label": "Kidangoor Subramanya Swamy Temple",
+      "aliases": [
+        "Kidangur Subrahmanya Swami temple",
+        "Parighapuresan kovil",
+        "Subramanya Swami temple, Kidangoor"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q28173304",
+      "label": "Someshwara Temple, Ullal",
+      "aliases": [
+        "Somesvara temple, Mangalore"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q31700668",
+      "label": "Payyakkal Bhagavathi Temple",
+      "aliases": [
+        "Sree Payyakkal Bhagavathi Temple Koyonkara"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q31701078",
+      "label": "Maruthorvattom Temple",
+      "aliases": [
+        "Maruthorvattom",
+        "Maruthorvattom Dhanwanthari Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q38251025",
+      "label": "Vadeshwaram Temple",
+      "aliases": [
+        "Vadeswaram Shiva Temple",
+        "Vadeswaram Shree Maha Shiva Temple"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q40738843",
+      "label": "Kadavallur Sri Rama Temple",
+      "aliases": [
+        "Kadavalloor Sree Rama Kovil",
+        "Rama temple, Kadavalloor Kerala",
+        "Ramaswami temple, Kadavalloor Kerala",
+        "Sree Rama temple, Kadavallur",
+        "Sree Ramaswami temple, Kudavallur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q41135737",
+      "label": "Kaithali Temple",
+      "aliases": [
+        "Kaithali Shiva Temple",
+        "Netirimangalam Krishna temple",
+        "Netirimangalam Shiva temple",
+        "Pattambi Shiva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q56027844",
+      "label": "Poojappura Subramanya Swami Temple",
+      "aliases": [
+        "Pujappura Subramanya Swami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q59523771",
+      "label": "Mannamkonam temple",
+      "aliases": [
+        "Mannamkonam Sree Bhagavathy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q60617898",
+      "label": "Sri Vinayaka Temple, Guddattu",
+      "aliases": [
+        "Guddattu temple"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q61366315",
+      "label": "Chinakathur Bhagavathy Temple",
+      "aliases": [
+        "Sree Chinakkathoor Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61366487",
+      "label": "Muthassiyarkav",
+      "aliases": [
+        "Sree Nedunganad Muthassiyarkkavu, Kodumunda"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61366643",
+      "label": "Ayyappancoil Sastha Temple",
+      "aliases": [
+        "Ayyappancoil Sree Dharmasastha Temple",
+        "Ayyappankovil Sree Dharmasastha Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61366743",
+      "label": "Aravukad Devi Temple",
+      "aliases": [
+        "Aravukad",
+        "Aravukad Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q61366787",
+      "label": "Thirumanikara Guruvayoorappan Temple",
+      "aliases": [
+        "Thirumanikkara Sree Guruvayurappan Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61367203",
+      "label": "Udayanapuram Temple",
+      "aliases": [
+        "Udayanapuram Subrahmanya Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q61367924",
+      "label": "Chemmanthikkav Durga Bhagavathy Temple",
+      "aliases": [
+        "Chemmanthitta Bhagavathy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61367951",
+      "label": "Villouth Shiva-Vishnu temple Pookottumpadam",
+      "aliases": [
+        "Villouth Siva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61368214",
+      "label": "Maruthathoor Mahaalakshmee Kshethram",
+      "aliases": [
+        "Mahalakshmi Temple Maruthathoor"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61368702",
+      "label": "Maniyur Shri mahadeva Temple",
+      "aliases": [
+        "Maniyoor Mahadeva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369135",
+      "label": "Puzhakkal Dharmashastha Temple",
+      "aliases": [
+        "Sree Dharmasastha Temple Puzhakkal"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369382",
+      "label": "Vadakkanthara Thirupuraikkal Bhagavathy Temple",
+      "aliases": [
+        "Vadakanthara Sree Thirupuraikkal Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369405",
+      "label": "Vadakkantara Ramapuram Maha Vishnu Temple",
+      "aliases": [
+        "Sri Ramapuram Vishnu Kshetram Vadakkanthara"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369419",
+      "label": "Kallekulangara Hemambika Temple",
+      "aliases": [
+        "Sree Emoor Bhagavathy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369674",
+      "label": "Thiruvaalathoor Randumoorthi Bhagavathi Kshethram",
+      "aliases": [
+        "Thiruvalathur Sree Randumoorthi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369715",
+      "label": "Sri Mulavallikav Devi Kshetram",
+      "aliases": [
+        "Mulavallikkavu Devi Temple Koratty"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20577737",
+      "label": "Venkitta Thevar Shiva Temple, Kottakkal",
+      "aliases": [
+        "Kottakkal Venkittathevar Shiva Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137223",
+      "label": "Thirunarayanapuram temple",
+      "aliases": [
+        "Sreenarayanapuram Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137243",
+      "label": "Tirumullavaram Maha Vishnu Temple",
+      "aliases": [
+        "Thirumullavaram Sree Maha Vishnu Swami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137246",
+      "label": "Chamravattam Ayyappa Temple",
+      "aliases": [
+        "Chamravattam Shri Ayyappa Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137326",
+      "label": "Pannidam Mathur Shiva Temple",
+      "aliases": [
+        "Mathur Siva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137466",
+      "label": "Payyannur Subramanya Swamy Temple",
+      "aliases": [
+        "Sree Subramanya Swamy Temple Payyannur"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137742",
+      "label": "Trikulasekarapuram Sri Krishna Kshetram",
+      "aliases": [
+        "Thrikulasekharapuram Sree Krishna Swami Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137766",
+      "label": "Trichakrapuram Temple",
+      "aliases": [
+        "Thrichakrapuram Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137798",
+      "label": "Velapaya Mahadeva Temple",
+      "aliases": [
+        "Velappaya Shiva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137812",
+      "label": "Mavelikkara Thripperumthura  Mahadeva Temple",
+      "aliases": [
+        "Thripperumthura Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137916",
+      "label": "Pallimankuzhi Devi Temple",
+      "aliases": [
+        "Pallimankuzhi Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16937153",
+      "label": "Shri Ammanavara Temple",
+      "aliases": [
+        "Gundmi bhagavathi ammanavara temple",
+        "Shree Bhagavathi (Mahishamardini) Ammanavara Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q17018520",
+      "label": "Shree Dwadasha Jyotirlinga Shiva Temple",
+      "aliases": [
+        "Jyotirlinga temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17049788",
+      "label": "Bhoga Nandeeshwara Temple",
+      "aliases": [
+        "Bhoganandishwara Temple"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q17050148",
+      "label": "Ezhava Siva",
+      "aliases": [
+        "Aruvippuram Shiva Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q17060179",
+      "label": "Kumara Swamy Devasthana, Bangalore",
+      "aliases": [
+        "KumaraSamy Temple, Bengaluru"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q18126673",
+      "label": "Kattil Madam Temple, Chalapuram",
+      "aliases": [
+        "Chalapuram Chola-Pandya temple",
+        "Kattilmadam Dravidian temple",
+        "Kattilmadam kovil"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18126990",
+      "label": "Kulathunkal devi temple",
+      "aliases": [
+        "Kulathumkal Devi Temple"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18209506",
+      "label": "Chemmanthatta Mahadeva Temple",
+      "aliases": [
+        "Chemmanthita Siva temple",
+        "Shiva temple of Chemmanthitta"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q18922714",
+      "label": "Puthoorppilly Sree Krishnaswamy Temple Manjapra",
+      "aliases": [
+        "Manjapra Vishnu temple",
+        "Puthurppilli Maha Vishnu temple",
+        "Puthurppilly Krishna temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19810557",
+      "label": "Manakkattu devi temple",
+      "aliases": [
+        "Manakkattu_Devi_Temple"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q19881945",
+      "label": "Anandavalleeswaram Temple, Kollam",
+      "aliases": [
+        "Anandavalleeswaram Temple"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19882059",
+      "label": "Arakeshvara Templa",
+      "aliases": [
+        "Sri Arkesvara Temple"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q19893067",
+      "label": "Lakshminarasimha Temple, Vignasante",
+      "aliases": [
+        "Lakshminarasimha temple",
+        "Lakshminarasimha Temple, Tumkur"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19893486",
+      "label": "Mahalingeshvara Temple, Santebachalli",
+      "aliases": [
+        "Mahalingeshwara Temple, Mandya"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20572965",
+      "label": "Ariyoor Pisharikkal Durga Temple",
+      "aliases": [
+        "Ariyoor Sree Pisharikkal Bhagavathi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20573571",
+      "label": "Adikadalai Sri Krishna Temple",
+      "aliases": [
+        "Adikadalayi SreeKrishna Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20573724",
+      "label": "Attur kartyayani temple",
+      "aliases": [
+        "Attoor Karthiayani Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20573817",
+      "label": "Avanamkode Saraswathi Temple",
+      "aliases": [
+        "Avanamcode Saraswathi Devi Temple (Swayambhu Bhagavathi)"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20574507",
+      "label": "Ulloor Balasubramaniaswamy Temple",
+      "aliases": [
+        "Ulloor Sree Bala Subramanya Swamy Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20575266",
+      "label": "Othara Puthukulangara Devi Kshethram",
+      "aliases": [
+        "Othera Puthukkulangara Devi Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20576043",
+      "label": "Kaviyoor Thrukkakkudi Guhaa Kshethram",
+      "aliases": [
+        "Kaviyoor Rock Cut Temple, Thiruvalla"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20576518",
+      "label": "Kidanganad Basadi",
+      "aliases": [
+        "Jain Basadi of Sultan Batheri"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20576615",
+      "label": "Kudakuzhi Ayyappa Kshethram",
+      "aliases": [
+        "Kudakkuzhi Ayyapan Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20577522",
+      "label": "Kaikkulangara Devi Temple",
+      "aliases": [
+        "Kaikulangara Devi Temple"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20577617",
+      "label": "Kottaaram Mookaambika Kshethram",
+      "aliases": [
+        "Sree Kottaram Mookambika Temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123245135",
+      "label": "Mahadeva Kshetram, Thiruvannur Kozhikode",
+      "aliases": [
+        "Thiruvannur Shiva temple Kozhikode",
+        "Tiruvannur Siva temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123261540",
+      "label": "Paradevata Temple, Kalpathoor Kerala",
+      "aliases": [
+        "Kalpathoor Paradevatha Kovil",
+        "Kalpathur Paradevata temple",
+        "Paradevata temple, Eravattur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123264684",
+      "label": "Subrahmanya Swamy Temple, Maniyoor",
+      "aliases": [
+        "Maniyoor Subrahmanyaswami Kovil",
+        "Maniyur Sree Subramanyam Swamy temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123270032",
+      "label": "Shankaranarayana Temple, Ramanthali Kerala",
+      "aliases": [
+        "Ramanthali Harihara temple, Kerala",
+        "Ramanthali Sankara Narayana temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123275602",
+      "label": "Kodavalam Mahavishnu temple, Pullur",
+      "aliases": [
+        "Maha Vishnu temple Kodavalam",
+        "Mahavishnu Kovil Pullur Kasargod"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123308741",
+      "label": "Irunilamkode Cave temple, Mullurkara",
+      "aliases": [
+        "Irunilancode rock-cut cave temple",
+        "Irunilankode Dakshinamurthy Cave temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123324376",
+      "label": "Kazhakuttam Mahadeva temple, Thiruvananthapuram",
+      "aliases": [
+        "Sree Mahadeva temple, Kazhakottam"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123333205",
+      "label": "Polpully Shiva temple, Palakkad Kerala",
+      "aliases": [
+        "Shiva temple Polpulli"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123333328",
+      "label": "Kaviyoor Cave Temple",
+      "aliases": [
+        "Kaviyoor rock-cut Shiva temple",
+        "Kaviyur cave temple, Thiruvalla",
+        "Thrikkakkudi temple, Kaviyoor Thiruvalla",
+        "Thrikkakkudy Temple Kaviyur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123337953",
+      "label": "Prasanna Somesvara temple, Udiyavara Udupi",
+      "aliases": [
+        "Prasanna Someshvara temple, Udayapura",
+        "Sambhukal temple Udyavara",
+        "Shambhu Kallu temple, Udyavara",
+        "Shambhukal temple, Udayapura",
+        "Udupi apsidal Shiva temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123346785",
+      "label": "Trikkandiyur Shiva temple, Tirur",
+      "aliases": [
+        "Thrikkandiyur Siva temple",
+        "Tirur Trikkandiyur Shiva temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123352105",
+      "label": "Sukapuram Dakshinamurthy temple, Edappal",
+      "aliases": [
+        "Dakshinamoorti temple Sukapuram",
+        "Edappal Dakshinamurti temple, Sukapuram"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123352768",
+      "label": "Shiva temple, Pulpatta",
+      "aliases": [
+        "Pulpattadesam temple",
+        "Pulpattamsam temple",
+        "Pulpetta Siva temple, Kerala"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123356900",
+      "label": "Tirunillai Shiva and Vishnu temple, Palakkad Kerala",
+      "aliases": [
+        "Thirunellayi temples, Palakkad",
+        "Thirunillai temple Palghat"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123357057",
+      "label": "Venganallur Temple",
+      "aliases": [
+        "Tiruvembilappan temple, Venganellur",
+        "Venganellur Thiruvembilappan temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123362778",
+      "label": "Velloor Vamana Murthy temple, Kizhavellur Kerala",
+      "aliases": [
+        "Kizhevellur Vamana temple",
+        "Mevelloor Vamana Swamy temple",
+        "Vamana Swamy Kovil, Vellur",
+        "Vamana temple Thiruvellur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123365945",
+      "label": "Ayyappankavu temple, Panjal Kerala",
+      "aliases": [
+        "Panjal Ayyappan temple",
+        "Panjal Visnu temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123371522",
+      "label": "Pandakasala Pukayila Ganapati Temple",
+      "aliases": [
+        "Chinthathura Vinayaka temple"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123421932",
+      "label": "Annamala Nathar Mahadeva Temple, Thodupuzha",
+      "aliases": [
+        "Annamala Shiva temple, Karikode Kerala",
+        "Annamala temple Karikode Kerala",
+        "Karikode Siva temple, Thodupuzha"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123438251",
+      "label": "Ariyannur Harikanyaka Temple, Kerala",
+      "aliases": [
+        "Bhagavathy temple Ariyannur",
+        "Harikanyaka Kovil",
+        "Vishnu Mohini temple Ariyannur"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q283287",
+      "label": "Mahakuta group of temples",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q335377",
+      "label": "Panamattom Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q724560",
+      "label": "Puthiyakavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q1846503",
+      "label": "Mahabaleshwar Temple",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3525234",
+      "label": "Thrikkakara Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3530933",
+      "label": "Mannarasala Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3531081",
+      "label": "Chottanikkara Temple",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3531091",
+      "label": "Cherai Gowreeshwara Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3531113",
+      "label": "Poonkunnam Siva Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3533881",
+      "label": "Shatrughna Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3537361",
+      "label": "Vazhappally Maha Siva Temple",
+      "aliases": [],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3595343",
+      "label": "Mammiyoor Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3595345",
+      "label": "Ambalappuzha Sri Krishna Temple",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3690986",
+      "label": "Amrutesvara Temple",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4682698",
+      "label": "Adichikkavu Sree Durga Devi Kshetram",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4708832",
+      "label": "Alattiyur Hanuman Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4740136",
+      "label": "Amaramkavu",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4747100",
+      "label": "Ammachiveedu Muhurthi",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4747207",
+      "label": "Ammathiruvadi Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4751356",
+      "label": "Anandavaleeswaram Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4761577",
+      "label": "Aneekkara Poomala Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4764609",
+      "label": "Anikkattilammakshethram",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4767889",
+      "label": "Annamanada Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4769786",
+      "label": "Annur Sree Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4784133",
+      "label": "Aranmula Parthasarathy Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4784450",
+      "label": "Arattupuzha Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4802662",
+      "label": "Aryankuzhi Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4805910",
+      "label": "Ashram Sree Krishna Swamy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4818741",
+      "label": "Attukal Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4827643",
+      "label": "Avanavanchery Sri Indilayappan Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4832508",
+      "label": "Azhakodi Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4853950",
+      "label": "Banashankari Amma Temple",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4955607",
+      "label": "Brahmeeswaran Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5068366",
+      "label": "Chakkulathukavu Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5094200",
+      "label": "Chettikulangara Devi Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5101815",
+      "label": "Chirakkadavu Sree Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5102516",
+      "label": "Chittoorkavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5210086",
+      "label": "Dakshina Mookambika Temple, North Paravur",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5353368",
+      "label": "Elamgulam Sree Dharma Sastha Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5385065",
+      "label": "Eravikulangara Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5392594",
+      "label": "Ernakulam Shiva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5528052",
+      "label": "Gavi Gangadhareshwara Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5578047",
+      "label": "Gokarnanatheshwara Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5627228",
+      "label": "Gāndhārī temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5641096",
+      "label": "Halasuru Someshwara Temple, Bangalore",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6070008",
+      "label": "Iringol Kavu Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6074050",
+      "label": "Irumkulangara Durga Devi Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6193501",
+      "label": "elanjimel vallikkavu devi temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6344978",
+      "label": "Kadakkal Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6345684",
+      "label": "Kadri Manjunath Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6350355",
+      "label": "Kalamassery Mahaganapathy Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6353757",
+      "label": "Kalleshvara Temple, Aralaguppe",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6353763",
+      "label": "Kalleshwara Temple, Hire Hadagali",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6393519",
+      "label": "Keraladeshpuram Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6425208",
+      "label": "Kodandarama Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6425325",
+      "label": "Kodikkunnu Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6428913",
+      "label": "Konchiravila Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6430517",
+      "label": "Koodalmanikyam Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6434065",
+      "label": "Kotilingeshwara Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6434300",
+      "label": "Kottarakkara Sree Mahaganapathi Kshethram",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6442840",
+      "label": "Kulathoor Phanamugham Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6444920",
+      "label": "Kunnathoor Padi",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6479945",
+      "label": "Lakshminarasimha Temple, Javagal",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6668605",
+      "label": "Lokanarkavu Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6726567",
+      "label": "Madayi Kavu",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6727532",
+      "label": "Madhur Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6732760",
+      "label": "Mahadeva Temple, Kalanjoor",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6741216",
+      "label": "Malamakkavu Ayyappa Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6744205",
+      "label": "Mallikarjuna Temple, Kuruvatti",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6746937",
+      "label": "Manappullikavu Vela",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6748666",
+      "label": "Mangaladevi Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6749112",
+      "label": "Mangottu Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6761805",
+      "label": "Mariamman Koil, Pilakool",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6796849",
+      "label": "Mayannur Kavu Sri Kurumba Bagavathy Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6798530",
+      "label": "Mazhuvannur Maha Siva Kshethram",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6807641",
+      "label": "Meenkulathi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6826653",
+      "label": "Mezhuveli Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6881666",
+      "label": "Mithranandapuram Vamanamoorthy Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6943826",
+      "label": "Parassinikadavu Muthappan Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6963346",
+      "label": "Dakshinamukha Nandi Tirtha Kalyani Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6986781",
+      "label": "Neelamperoor Palli Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7021504",
+      "label": "Neyyattinkara Sree Krishna Swami Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7073393",
+      "label": "Oachira Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7095413",
+      "label": "Oorpazhachi Kavu",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7123242",
+      "label": "Padanilam Parabrahma Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7123296",
+      "label": "Padayanivettom",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7125114",
+      "label": "Paippad Puthenkavu Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7129905",
+      "label": "Panakkattodil Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7130460",
+      "label": "Pandalam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7135186",
+      "label": "Paramekkavu",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7137553",
+      "label": "Pariyanempatta Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7144792",
+      "label": "Pathiyoor",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7148682",
+      "label": "Pattupurakkavu Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7171104",
+      "label": "Perunna Subrahmanya Swami Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7198302",
+      "label": "Pisharikavu",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7228733",
+      "label": "Punkunnam Seetha Ramaswamy Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7232849",
+      "label": "Poruvazhy Peruviruthy Malanada Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7259367",
+      "label": "Puliyur Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7260081",
+      "label": "Pundareekapuram Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7262495",
+      "label": "Puttingal Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7283071",
+      "label": "Ragigudda Sri Prasannaswamy Anjaneya Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7285775",
+      "label": "Rajarajeshwara Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7289026",
+      "label": "Ramapuram, Alappuzha",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7289454",
+      "label": "Rameshvara Temple, Narasamangala",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7292629",
+      "label": "Ranganathaswamy Temple, Bangalore",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7310663",
+      "label": "Rektha Kanda Swamy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7395703",
+      "label": "Saarvajanika Nagabrahmastana Moodanidambooru, Bannanje , Udupi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7421963",
+      "label": "Sarada Mutt",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7503802",
+      "label": "Shri Katyayani Baneshwar Temple, Aversa",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7504115",
+      "label": "Shringeri Sharadamba Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7508161",
+      "label": "Siddhesvara Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7585622",
+      "label": "Sree Balakrishna Swami Temple, Kuzhuppilly",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585621",
+      "label": "Sree Andalurkavu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7585626",
+      "label": "Sree Bhuvaneswary Temple, Valamchuzhy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7585632",
+      "label": "Sree Chovva Shiva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585647",
+      "label": "Sree Maheswara Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585645",
+      "label": "Sree Maha Ganapathy Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585671",
+      "label": "Sree Poornathrayeesa Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7585676",
+      "label": "Sree Ramaswami Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7585717",
+      "label": "Sreenarayanapuram Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585782",
+      "label": "Sri Anjaneya Swamy Temple, Shamanur",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585811",
+      "label": "Sri Chirakkakavu Bhagavthi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7585880",
+      "label": "Sri Lakshmi Narasimha Temple, Thalassery",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7586143",
+      "label": "Sri Laxmi Venkatesh Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7586148",
+      "label": "Sri Maha Vishnumoorthy Temple, Karval, Yerlapady",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7586153",
+      "label": "Sri Mailar Mallanna",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7586174",
+      "label": "Sri Nellikulangara Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7586204",
+      "label": "Sri Rama Temple, Ramapuram",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7586430",
+      "label": "Sringapuram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7601866",
+      "label": "Adiyerimath Devikshetra",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7602876",
+      "label": "Ayyanthole Karthyayani Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7603692",
+      "label": "Atamoozhi Sri Balabhadra Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7603940",
+      "label": "Anchumurthy Temple anikode",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7709677",
+      "label": "Thaliyadichapuram Sree Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7709802",
+      "label": "Thamaramkulangara Sree Dharma Sastha Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7710399",
+      "label": "Thanikkudam Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7711412",
+      "label": "Thattayil Orippurathu Bhagavathy Kshetram",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7785366",
+      "label": "Thirumoozhikkulam Lakshmana Perumal Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7785405",
+      "label": "Thirunelli Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7785495",
+      "label": "Thiruvaloor Mahadeva temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7785496",
+      "label": "Thiruvambadi Sri Krishna Temple",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7785522",
+      "label": "Thiruvanvandoor Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7785567",
+      "label": "Thiruvullakkavu Sree Dharma Sastha Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7796946",
+      "label": "Thottuva Dhanwanthari temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7798125",
+      "label": "Thrichittatt Maha Vishnu Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7798158",
+      "label": "Thrikkariyoor temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7809364",
+      "label": "Tirunavaya Temple",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7841958",
+      "label": "Trikkur Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7902741",
+      "label": "Uthralikavu Pooram",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7908777",
+      "label": "Vailikulangara Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7909295",
+      "label": "Valayanad Devi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7911728",
+      "label": "Valiyakoikkal Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7912440",
+      "label": "Valliyoorkkavu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7915920",
+      "label": "Varinjam Sree Subramanya Swamy Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7917556",
+      "label": "Vayalil Thrikkovil Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7919162",
+      "label": "Vellayani Devi Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7920543",
+      "label": "Venugopala Swamy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7923739",
+      "label": "Vethalan Kavu Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7931237",
+      "label": "Vilwadrinatha Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q8052015",
+      "label": "Yelluru Shri Vishweshwara Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10861970",
+      "label": "Palakkavu Bhagavathi temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10952218",
+      "label": "Mangala Devi Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10958998",
+      "label": "Madai Vadukunda Shiva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10966392",
+      "label": "Kannampuzha Bhagavati Amman temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12060846",
+      "label": "Janardanaswamy Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q12071000",
+      "label": "Thumpamon Vadakkumnatha Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12989291",
+      "label": "Venkatachalapathy Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13109831",
+      "label": "Anjumoorthy Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13109853",
+      "label": "Adat Shiva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13110045",
+      "label": "Amaravila Rameswaram Sri Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13110142",
+      "label": "Azhakotha Mahadeva temple, Kulavanmokku",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13110140",
+      "label": "Azhakam Durga Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110167",
+      "label": "Ashtamangalam Siva Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13110172",
+      "label": "Ashtamichira Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13110271",
+      "label": "Aryankuzhi Bhagwati Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110273",
+      "label": "Aareshwaram Sastha Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13110298",
+      "label": "Aluva Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q13110487",
+      "label": "Ishanimangalam Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110525",
+      "label": "Umayanelloor Subrahmanyaswami Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110556",
+      "label": "Uliyannoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13110792",
+      "label": "Aikunnu Pandavagiri Devi Kshetram Venginissery",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13110936",
+      "label": "Kanimangalam Sastha Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13111062",
+      "label": "Muttichur Kallattupuzha Sri Maha Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13111080",
+      "label": "Kalarivathukkal Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111122",
+      "label": "Kadachira Sri Thrikkapalam Siva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13111129",
+      "label": "Kattakampala Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13111183",
+      "label": "temples in Kalady",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111194",
+      "label": "Kalikav Sri Bhagwati Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111259",
+      "label": "Killikurrissimangalam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111279",
+      "label": "Kudappanakunnu Kunnathu Sri Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13111282",
+      "label": "Kudapara Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111323",
+      "label": "Kumaranellur Sri Subrahmanya Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111320",
+      "label": "Subrahmanya Temple in Kunnatrikov",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111358",
+      "label": "Kurakkaavu devi temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13111393",
+      "label": "Kuzhur Sri Subrahmanyaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111605",
+      "label": "Kodumbu Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111619",
+      "label": "Kottiyoor Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13111653",
+      "label": "Kollaraikkal Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13111914",
+      "label": "Chala Bhagwati Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112034",
+      "label": "Cheriyanad Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13112054",
+      "label": "Cheruvathur Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112071",
+      "label": "Cheranalloor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112094",
+      "label": "Chowalloor Siva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112093",
+      "label": "Chowara Chidambaraswamy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112141",
+      "label": "Jaladurga Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112361",
+      "label": "Thakazhi Sri Dharmashasta Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112416",
+      "label": "Thalayakulam Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112443",
+      "label": "Thaayineri Sri Kurinji Kshetram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112455",
+      "label": "Thaazhoor bhagavathikshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112473",
+      "label": "thirunvaya siva temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112486",
+      "label": "Thirumangalam Sree Maha Vishnu Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112488",
+      "label": "Thirumaradi Sivatemple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112517",
+      "label": "Thiruvatta Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112524",
+      "label": "Thiruvairanikkulam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112563",
+      "label": "Tuluvannoor Sri Maha Vishnu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112579",
+      "label": "Trikkanada Tryambakeshwar Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112583",
+      "label": "Thrikkadavoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112586",
+      "label": "Thrikkalanjoor Mahadevakshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112596",
+      "label": "Trikoikal Srinarasimhaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112600",
+      "label": "Trithala Maha Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112601",
+      "label": "Trichendamangalam Mahadeva Temple, Peringanad",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112609",
+      "label": "Thrithalloor temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112614",
+      "label": "Thruppoonithura Sreeramaswami temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112615",
+      "label": "Thripangot Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112613",
+      "label": "Thrippalur Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112634",
+      "label": "Thodikkalam Shiva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13112802",
+      "label": "Nandanar Temple,Munthur",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13112857",
+      "label": "Nadapuram Iringannur Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13112889",
+      "label": "Nalpathaneeswaram Sree Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112909",
+      "label": "Niranam Thrikkapaleeswaram Dakshinamurthy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13112968",
+      "label": "Tirunettur Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13113056",
+      "label": "Pattazhy Devi Kshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113081",
+      "label": "Panamukkumpally Sastha Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13113150",
+      "label": "Pazhayannur Bhagavathi temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13113156",
+      "label": "Kondazhy Tritham Tali Siva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13113163",
+      "label": "Pavithreshvaram Malanada Kshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113164",
+      "label": "Pavithreshvaram Mahaadevar Kshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113186",
+      "label": "Pananchery Mudikkode Shiva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13113210",
+      "label": "Palayoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13113223",
+      "label": "Pavakkulam Mahadeva temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113221",
+      "label": "Panayur Palur Shiva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13113226",
+      "label": "Pazhoor Perumthrikkovil",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13113298",
+      "label": "Pisharikav temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113334",
+      "label": "Puthukavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13113338",
+      "label": "Puthoorppilli Sreekrishnaswami Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113336",
+      "label": "Puttur Mahadev temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13113342",
+      "label": "Puthankav sreebhagavathi temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113359",
+      "label": "Puramundekkadu Shri Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13113379",
+      "label": "Puliyannoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113402",
+      "label": "Pookoth Kottaram Kshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113418",
+      "label": "Veerabhadra Temple, Cheruvathur",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13113422",
+      "label": "Poovathur Sri Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113434",
+      "label": "Peralassery Subrahmanya Swamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113456",
+      "label": "Sree Perunthatta Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13113461",
+      "label": "Perumparampu Sri Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13113631",
+      "label": "Balussery Kotta Vettakkorumakan Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113769",
+      "label": "Moncompu Sri Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113793",
+      "label": "Mattannur Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113803",
+      "label": "Manakadavu Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113881",
+      "label": "Maruthompilly Edavan Sri Maha Vishnu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113903",
+      "label": "Malankotta devasthanam",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113978",
+      "label": "Sri Shasta Temple at Mattil",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113994",
+      "label": "Mathur Mannampulli Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13113993",
+      "label": "Mathoor Kalikavu Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13114018",
+      "label": "Mamanikkunnu sri mahadevi temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114016",
+      "label": "Thrikkuratti Mahadeva Temple, Mannar",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13114104",
+      "label": "Mukkunnoor Sastha Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114133",
+      "label": "Mundayur Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13114149",
+      "label": "Muringamangalam Sri Mahadevar Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114243",
+      "label": "Meledat Bhagavathy Temple, Kadambur",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114273",
+      "label": "Morkulangara Devi Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13114330",
+      "label": "Raviswarapuram Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13114437",
+      "label": "Laloor Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13114774",
+      "label": "Vettikkavala Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114851",
+      "label": "Veroor Sree Dharmashasta Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114935",
+      "label": "Shree Adukkath Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13114943",
+      "label": "Sreekanteswaram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13114941",
+      "label": "Mangottu Kavu Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13114949",
+      "label": "Sree Indilayappan Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13115108",
+      "label": "Seethalavakusa Temple (Pulpally)",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13115181",
+      "label": "Someswaram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13426231",
+      "label": "Choorakkottukavu Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q14624911",
+      "label": "Sirsi Marikamba Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q15118642",
+      "label": "Padanayarkulangara Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15213882",
+      "label": "Dharmasthala Temple",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q15217094",
+      "label": "Evoor Major Sri krishnaswamy temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15226683",
+      "label": "Hulimavu cave Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15240864",
+      "label": "Kusacode Shri Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15240904",
+      "label": "Kuttankulangara Sri Krishna Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q15260198",
+      "label": "Mukkolakkal Bhagawathi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q15277455",
+      "label": "Shri Guru Kottureshwara Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q15302773",
+      "label": "Kanichukulangara Devi Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15575432",
+      "label": "Sree Shivashakthi Mahaganapathi temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16133588",
+      "label": "Akliyath Siva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16133633",
+      "label": "Karikad Subrahmanya Dharmashastha Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16133747",
+      "label": "Elamgulam Sree Dharma Sastha Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16133869",
+      "label": "Chenganamkunnu Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16133899",
+      "label": "Velorvattom Sri Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16134099",
+      "label": "Cheriya pathiyoor Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134266",
+      "label": "Umbarnadu Sree Dharma Shasta Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134564",
+      "label": "Kanjilassery Maha Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16134585",
+      "label": "Jagannath Temple, Thalassery",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q16134702",
+      "label": "Kainoor Shiva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16134729",
+      "label": "Sri Chenankav Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134736",
+      "label": "Sri Nainar Deva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134820",
+      "label": "Kattuvattur Siva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16134838",
+      "label": "Praikara Dhanwanthari Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16134900",
+      "label": "Sri Nandanar Sivakovil",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135039",
+      "label": "Padinjattinkara Sree Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135041",
+      "label": "Mattom Sree Narasimhaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135162",
+      "label": "Koipallikarazhma Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135187",
+      "label": "Areekode Saligrama Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135363",
+      "label": "Vadavil Kalari sthaanam",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135381",
+      "label": "Eruva Sri Krishna Swami Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135499",
+      "label": "Puzhavathu Kottaram Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16135497",
+      "label": "Elavangathu Kavu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135546",
+      "label": "Ezhumanthuruthu Poonkavil Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135550",
+      "label": "Avanur Sreekanteswaram Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q16135628",
+      "label": "Mallikarjuna Temple, Kasaragod",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135664",
+      "label": "Vayathur Kaliyar Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135844",
+      "label": "Asuramahakalan temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136124",
+      "label": "Mammalassery Sreeramaswami Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136176",
+      "label": "Chakkamkulangara Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16136250",
+      "label": "Vailyamkunn Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136293",
+      "label": "Perakam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16136340",
+      "label": "Mavilakavu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136355",
+      "label": "Vaazhappalli Annapoornneshvari Kshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136393",
+      "label": "Anayadi Narasimhaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136421",
+      "label": "Vazhenkada Narasimhamurthy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136598",
+      "label": "Kurumalikaavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16136744",
+      "label": "Attil Puzhakkavu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136797",
+      "label": "Sri Durga Devi Temple  Thalavoor Thrikonnamarkod",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16136819",
+      "label": "Mughavoor Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137137",
+      "label": "Muthuvara Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16137209",
+      "label": "Kannamang Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137291",
+      "label": "Mullikulangara Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137392",
+      "label": "Thiruvanvandoor Mahaavishnu-Goshaala Krishnan Kshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137453",
+      "label": "Chali Narayanapuram Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16137540",
+      "label": "Veeranimangalam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16137718",
+      "label": "Thrikkariyoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16137727",
+      "label": "Thrikkunnathu Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16137775",
+      "label": "Thrichattukulam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16137794",
+      "label": "Chirakkal Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16137828",
+      "label": "Thripperoorkulangara Subramanya Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16137981",
+      "label": "Velluda Sri Durga Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16138003",
+      "label": "Velloor Perunthatta Siva Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16251097",
+      "label": "Anandeshwaram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16257887",
+      "label": "Chembukkavu Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16258032",
+      "label": "Nileshwar Muthappan Madappura",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16312179",
+      "label": "Pazhoor Padipura",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16829577",
+      "label": "Dharmesvara Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16884941",
+      "label": "Sri Pralayakala Veerabadrar temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16892777",
+      "label": "Someshwara Temple, Marathahalli",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16893647",
+      "label": "Kote Anjaneya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16893867",
+      "label": "Yoga Nandeeshwara Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16894645",
+      "label": "Marikamba Temple, Sagara",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16911574",
+      "label": "Thuppanathu Kavu",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16966264",
+      "label": "Makaliyam Sreeramaswamy Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16976094",
+      "label": "Aneswaram Siva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17027372",
+      "label": "Sree Sundareswara Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17050565",
+      "label": "Cheruthazham Sree Kunninmathilakam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17055014",
+      "label": "Hindu temples in Thrissur Rural",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17059040",
+      "label": "Mullakkal Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17060074",
+      "label": "Kootayanimoodu chamundi temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17061312",
+      "label": "Vazhappully temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17061401",
+      "label": "Vettikulangara Devi Temple Cheppad",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17062156",
+      "label": "Moole Shankareshvara Temple, Turuvekere",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17064174",
+      "label": "Neendoor Subrahmanya Swami Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17069762",
+      "label": "Shaktheeswaram Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17107705",
+      "label": "Ootukulangara Bhagavathy Temple, Peruvemba",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18126708",
+      "label": "Keleswaram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18127622",
+      "label": "Madathilkkavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18129142",
+      "label": "Palkulangara Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18129292",
+      "label": "Pazhanchira Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18385960",
+      "label": "Padiyanoor Devi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18392547",
+      "label": "Sri Ananda Lingeshwara Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18392560",
+      "label": "Sri Krishnapuram Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18612571",
+      "label": "Sree Narayanapuram Thrikkayil Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18922726",
+      "label": "Karppillikkavu Sree Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19459410",
+      "label": "Kapalikkulangara Sree Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19573581",
+      "label": "Parassala Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19891165",
+      "label": "Chennakeshava Temple, Hullekere",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19893610",
+      "label": "Mallikarjuna Temple, Hirenallur",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19893808",
+      "label": "Mathur Shiva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19895219",
+      "label": "Peroor Sree Krishna Swamy Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19895759",
+      "label": "Ranganathaswamy Temple, Nirthadi",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19896182",
+      "label": "Sasthamangalam Mahadevar Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19898453",
+      "label": "Sreekanteswaram Mahadeva Temple, Thiruvananthapuram",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19898457",
+      "label": "Sri Gopalakrishna Temple Kumble",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19899058",
+      "label": "Udupi Anantheshwara Temple",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q20572750",
+      "label": "Anthikad Karthyayani Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20573156",
+      "label": "Azhakiya Kavu Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20573610",
+      "label": "Anaprampal Dharmasastha Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20575885",
+      "label": "Kallarakkal Mahadeva-mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20576239",
+      "label": "Kattuvallil Ayyappa Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20576707",
+      "label": "Kuruvattoor Sree Narasimha Moorthy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20576785",
+      "label": "Kulathupuzha Sastha Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20577687",
+      "label": "Kollam Rameswaram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20577809",
+      "label": "Kottangal Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20578208",
+      "label": "Gurusikaman Shiva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20578543",
+      "label": "Chilanthi Ambalam",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20579572",
+      "label": "Thirumoozhikkulam Sree Lakshmanaperumal Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20579757",
+      "label": "Thrippara Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20580037",
+      "label": "Dusshasanan Kavu, Manimalakunnu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20580537",
+      "label": "Neerveli Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20580906",
+      "label": "Parippu Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581098",
+      "label": "Pambummekkatu Mana",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581204",
+      "label": "Palathara Durga Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581447",
+      "label": "Purappillikav Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581679",
+      "label": "Putrukovu Mahavishnu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20581749",
+      "label": "Poovani Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20582300",
+      "label": "Maniyoor Mahadev Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20582761",
+      "label": "Puthiyakavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20583345",
+      "label": "Vakkalakavau Vana Durga Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20583577",
+      "label": "Viyyat Temple, Kariyavattom",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20583738",
+      "label": "Vellarakkad Sree Ramaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q23048862",
+      "label": "Thalikkunu Shiva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23048865",
+      "label": "Thalikkunu Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q23808292",
+      "label": "Kamakshi Ekambareshwarar Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24262583",
+      "label": "Valliyamkavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24265929",
+      "label": "Erumely Sree Dharmasastha Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24294225",
+      "label": "Mukkoottuthara Thiruvambadi Sree Krishaswami Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24815363",
+      "label": "Thalappara Kotta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q24906300",
+      "label": "Kallisseri Azhakiyakavu Devi Temple, Chengannur",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24906370",
+      "label": "Thycaud Dharma Sastha Temple, Thiruvananthapuram",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24906526",
+      "label": "Thirupalkadal Sreekrishnaswamy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24906623",
+      "label": "Venugopalaswamy Temple, Devanahalli",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24906642",
+      "label": "Veeranarayana Temple, Gadag",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24906660",
+      "label": "Teru Malleshvara Temple, Hiriyur",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24912669",
+      "label": "The RVM Foundation Shiv Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24930306",
+      "label": "Andoor Kandan Sree Dharma Sastha Temple, Tholady",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24932410",
+      "label": "Thripaya Trimurti Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24934719",
+      "label": "Sri Hassanaamba Temple, Hassan",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q24934940",
+      "label": "Shri Hirebeera Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q24935422",
+      "label": "Sri Parashakthi Kshetra",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q24935788",
+      "label": "Chempakamangalam temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24943152",
+      "label": "Sree Veda Vyasa Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24943671",
+      "label": "Karyat Sree Ayyappa Temple Vanimal",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24944046",
+      "label": "Cochin Thirumala Devaswom",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24945591",
+      "label": "Amunthirathu Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24946407",
+      "label": "Vadakkan Koyikkal Devi Temple Puthiyavila",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q24946757",
+      "label": "Mavelikara Maruthakshi Devi Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24948943",
+      "label": "Manikandeswaram Uma Maheswara temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24949090",
+      "label": "Methalayil Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24950072",
+      "label": "Chennamangalam Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24950334",
+      "label": "Kolathukara shiva temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24950417",
+      "label": "Maramkulangara Krishna Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24951825",
+      "label": "Kilimarathukavu Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25586729",
+      "label": "Arayoor Sree Mahadevar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25588019",
+      "label": "Cheruvally Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25588020",
+      "label": "Ramapuram Sri Ramaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25588423",
+      "label": "Kadungalloor Narasimhaswami Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25588991",
+      "label": "Sree Bhavaneeswara Mahakshethram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q26258419",
+      "label": "Karat Shiva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q26258427",
+      "label": "Puttur Shree Mahalingeshwara Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q26830815",
+      "label": "Nariampara Puthiyakavu Devikshethram",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q27887695",
+      "label": "Aryankavu Sastha Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q27972458",
+      "label": "Puliyannoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q27972944",
+      "label": "Parippu Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q27975603",
+      "label": "Adithyapuram Sun Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q27980368",
+      "label": "Karikkode Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q27996568",
+      "label": "Sree Krishna Swami Temple, Thodupuzha",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q28045710",
+      "label": "Ennasheri Malanada Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q28154018",
+      "label": "Sri Gangamma Devi Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q28154101",
+      "label": "Shree Brahma Baidarkala Garadi Kshetra",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q28172762",
+      "label": "Thiru Nayathode Siva Narayana Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q28172789",
+      "label": "Pattupurackal Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q28172804",
+      "label": "Kadakkad Sree Bhadrakali Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q28174115",
+      "label": "Changattu Sree Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q28419357",
+      "label": "Sree Kattayattu Bhagavathi Kshethram",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q28735250",
+      "label": "Chettil Vettiya Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q30004739",
+      "label": "Guruvayur Parthasarathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31696776",
+      "label": "Brahmakulam Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31697617",
+      "label": "Ariannoor Sri Harikanyakadevi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31700151",
+      "label": "Muthante Nada",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31700981",
+      "label": "Aaameda Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31707957",
+      "label": "Guruvayoor Thiruvenkatachalapati Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31708115",
+      "label": "Koothattukulam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31708117",
+      "label": "Mannam Purathu Kavu",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q31708270",
+      "label": "Kadavallur Sri Ramaswamy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31830650",
+      "label": "Karinjeshwara Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q48732142",
+      "label": "Mridanga Saileswari Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q56290119",
+      "label": "Mayakka Temple, Chinchali",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q58163167",
+      "label": "Thrippakkada Sreekrishna Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q60057613",
+      "label": "Parumala Valiya Panayannarkavu Devi Temple",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q60513269",
+      "label": "Kattakampal Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q60596885",
+      "label": "Sree Madiyan Koolom Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q61366370",
+      "label": "Cherpulassery Ayyappan Kav",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61367920",
+      "label": "Viradur Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61368003",
+      "label": "Kirathankav Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61369986",
+      "label": "Thrikkunnappuzha Dharmasastha Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61371587",
+      "label": "Malliyoor Maha Ganapathy Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61372665",
+      "label": "Edathuttu Shiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61374575",
+      "label": "Ezhimala Narayan Kannur temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61374572",
+      "label": "Malimel Bhagwati Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61375330",
+      "label": "Puthiyakavu Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61375475",
+      "label": "Ayyanchirangara Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q61375849",
+      "label": "Panjal Lakshminarayan Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q64489431",
+      "label": "Velloorkkunnam Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65043546",
+      "label": "Yantrodharaka Hanuman Temple, Hampi",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q65059464",
+      "label": "Keezhtali Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q65321132",
+      "label": "Vyttila Subrahmanya Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65321218",
+      "label": "Mahadeva Temple at Thiruvumplavil, Anikad",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65321843",
+      "label": "Chakkarakkattu Devi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q67177208",
+      "label": "Sreekanteswara Temple Calicut",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q67189795",
+      "label": "Elambulassery Nalussery Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q68287239",
+      "label": "Vijaya Vithala temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q85744353",
+      "label": "Avanangattilkalari Vishnumaya Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q85783185",
+      "label": "Mahalingeshwara Temple, Gokak Falls",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q85809353",
+      "label": "Thoniyakavu Bhadrakali Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q85850652",
+      "label": "Gandhari Amman Kovil",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q86751394",
+      "label": "Pokkunny Siva Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q87652762",
+      "label": "Altharakkal Sree Muthappan Madapura",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q95470098",
+      "label": "Pazhavangadi Ganapathi Temple",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q95690573",
+      "label": "Kanadikavu Shree Vishnumaya Kuttichathan Swamy temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q97096007",
+      "label": "Sangameshwara Temple, Bagalakote",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q97257369",
+      "label": "Kuthiranmala Dharamasatshetra",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97258038",
+      "label": "Poojappura Saraswati Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q97258357",
+      "label": "Varavoor Kirthali Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97440563",
+      "label": "Galaganatha temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97440566",
+      "label": "Jambulinga temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97440567",
+      "label": "Kadasiddesvara temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97440564",
+      "label": "Virupaksha temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97440571",
+      "label": "Papanatha temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q105401485",
+      "label": "Thiruvarppu Sree Krishna Swamy Temple",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q108044031",
+      "label": "Ayyappanmudi",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q110436288",
+      "label": "Nadavayal Vishnu temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110436300",
+      "label": "Mananthavadi Janardana temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q122172101",
+      "label": "Nenmana temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q122441529",
+      "label": "Cherakulangara temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122463628",
+      "label": "Koyikkal temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122584816",
+      "label": "Thirunakkara Sreekrishnaswamy temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122584876",
+      "label": "Venkatachalapathy temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122618194",
+      "label": "Puthiyaveettil Hanuman temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122618255",
+      "label": "Marankulangara Devi temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122642217",
+      "label": "Kelamkulangara Bhagavathi temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122733198",
+      "label": "Pavumbayil Krishna temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122752769",
+      "label": "Thykkattu Thrikkovil Krishna temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122782996",
+      "label": "Padmapuram Adithya temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123013875",
+      "label": "Sreeramachandrodayam Subramanya Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123013996",
+      "label": "Visakhapuram Muruga Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123218231",
+      "label": "Mannoor Shiva temple, Mallapuram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123395557",
+      "label": "Chelamattom Shree Krishna Swami Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q123591448",
+      "label": "Avanoor Sreekanteswaram Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q123995869",
+      "label": "Mattummal Ghandakarna Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124057001",
+      "label": "Njettayil Annapoorneswari Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124287693",
+      "label": "Kochanakulangara Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124316431",
+      "label": "Ayyappanchery Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124322461",
+      "label": "Vallattu Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124370353",
+      "label": "Vorkady Subrahmanya Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124542304",
+      "label": "Vishnupuram temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124606908",
+      "label": "Kunnel Dharmadaiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124607174",
+      "label": "Shanmukhapuram Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124607183",
+      "label": "Puthukkadu Subrahmanya Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124608177",
+      "label": "Madhurakulam Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124732188",
+      "label": "Purathamkuzhy Ramaswamy Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124750882",
+      "label": "Puthiyakavu Devi Temple, Kumarakom",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124789239",
+      "label": "Kannattu Kottarathil Bhuvaneshwari Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124953804",
+      "label": "Kareemadom Gurumandiram",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q125291890",
+      "label": "Neduvelil Bhagavati Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q125405885",
+      "label": "Koottummel Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q125506526",
+      "label": "Vilanjoor Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q125733501",
+      "label": "Sasthamkulangara Narshima Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q125920100",
+      "label": "Airanikkunnu Gangeswara Vaidyanadha Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q126093745",
+      "label": "Ulavaipu Mahedheva Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q126810761",
+      "label": "Thaikattussery Punnakkeezhil Bhagavathi Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130397424",
+      "label": "Thiruvizha Mahadeva Temple",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131238988",
+      "label": "Kakkattumadam Sree Krishna Swami Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132863050",
+      "label": "Moothedathukavu Bhagavathy Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q135684006",
+      "label": "Kandankulangara Krishna Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q135855273",
+      "label": "Edayazham Subramanya Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q136484927",
+      "label": "Chamakkavu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137190776",
+      "label": "Sri Sharavu Maha Ganapathy Temple, Mangalore",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138306895",
+      "label": "Palliyarakkavu Saraswathy Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138497769",
+      "label": "Samba Sadashiva Temple",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q140187692",
+      "label": "Punalur Thrikkodeswaram Mahadavar Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140921435",
+      "label": "Thiruvambadi Sree Krishnaswamy Temple",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141639951",
+      "label": "Kannapuram Pookkotti Tharavadu Vayanattukulavan Kavu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141895413",
+      "label": "Sree Veerabdra Kshethram",
+      "aliases": [],
+      "sitelinks": 0
+    }
+  ]
+}

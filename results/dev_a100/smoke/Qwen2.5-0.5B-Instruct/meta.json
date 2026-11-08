@@ -1,0 +1,67 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "commit": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "transformers": "5.22.2",
+  "torch": "2.15.0+cu132",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "utc": "2026-11-08T05:31:08Z",
+  "cuda_visible_devices": null,
+  "chat": true,
+  "specs": {
+    "untruncated_T1": {},
+    "p0.80_T1": {
+      "top_p": 0.8
+    },
+    "p0.90_T1": {
+      "top_p": 0.9
+    },
+    "p0.95_T1": {
+      "top_p": 0.95
+    },
+    "p0.90_T0.7": {
+      "temperature": 0.7,
+      "top_p": 0.9
+    },
+    "k20_T1": {
+      "top_k": 20
+    },
+    "k50_T1": {
+      "top_k": 50
+    },
+    "minp0.05_T1": {
+      "min_p": 0.05
+    },
+    "minp0.10_T1": {
+      "min_p": 0.1
+    },
+    "shipped_hf": {
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "repetition_penalty": 1.1
+    }
+  },
+  "templates": [
+    "Name {singular}. Reply with only the name.",
+    "Give one example of {plural}. Answer with the name only."
+  ],
+  "extra_processor_fields": {},
+  "n_entities": 440,
+  "n_foils": 1912,
+  "seconds": 58.878854751586914,
+  "args": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "data": "data/tailcat/pilot",
+    "out": "results/smoke",
+    "chat": "auto",
+    "templates": 2,
+    "limit_per_category": 40,
+    "batch_size": 32,
+    "no_aliases": false,
+    "sample_check": true,
+    "n_samples": 200,
+    "sample_specs": "shipped_hf,p0.90_T1",
+    "device": "cuda",
+    "seed": 0
+  }
+}

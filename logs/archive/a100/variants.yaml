@@ -1,0 +1,29 @@
+categories:
+  - id: kr_v1_runFirstPlace
+    where: >-
+      ?item wdt:P131* wd:Q1186 . hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q4022 .
+    foil_where: >-
+      { ?item wdt:P131* wd:Q1185 } UNION { ?item wdt:P131* wd:Q1445 } hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q4022 .
+  - id: kr_v2_classSet
+    where: >-
+      ?item wdt:P131* wd:Q1186 . hint:Prior hint:runFirst true .
+      ?item wdt:P31 ?cls . ?cls wdt:P279* wd:Q4022 .
+    foil_where: >-
+      ?item wdt:P131* wd:Q1185 . hint:Prior hint:runFirst true .
+      ?item wdt:P31 ?cls . ?cls wdt:P279* wd:Q4022 .
+  - id: tn_v1_runFirstPlace
+    where: >-
+      ?item wdt:P131* wd:Q1445 . hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q842402 .
+    foil_where: >-
+      { ?item wdt:P131* wd:Q1186 } UNION { ?item wdt:P131* wd:Q1185 } hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q842402 .
+  - id: as_v1_langFirst
+    where: >-
+      { ?item wdt:P6886 wd:Q29401 } UNION { ?item wdt:P1412 wd:Q29401 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 .
+    foil_where: >-
+      { ?item wdt:P1412 wd:Q33810 } UNION { ?item wdt:P1412 wd:Q9610 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 .

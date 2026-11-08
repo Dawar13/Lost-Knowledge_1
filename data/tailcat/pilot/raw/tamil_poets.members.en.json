@@ -1,0 +1,1139 @@
+{
+  "key": "47d19f304b509cce",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q49757 . { ?item wdt:P6886 wd:Q5885 } UNION { ?item wdt:P1412 wd:Q5885 } } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:25:19Z",
+  "rows": [
+    {
+      "qid": "Q140074884",
+      "label": "loshini rajentharan",
+      "aliases": [
+        "Loshi Rajen Dr Loshi Rajen"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140248471",
+      "label": "T. A. Kathirvel Mudaliyar",
+      "aliases": [
+        "Kathirvel Mudaliyar",
+        "T. A. Kathirvel Mudaliyar",
+        "TA Kathirvel Mudaliyar"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q12985893",
+      "label": "Pandithurai Thevar",
+      "aliases": [
+        "Vallal Pon Pandithurai Thevar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12986448",
+      "label": "Pulavar Kuzhanthai",
+      "aliases": [
+        "Pulavar Kulanthai"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12987090",
+      "label": "Madhurakavi Bhaskara Das",
+      "aliases": [
+        "Bhaskara Das"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12987410",
+      "label": "Māṅkuṭi Marutaṉār",
+      "aliases": [
+        "Mangudi Marudhanar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12987783",
+      "label": "Meera",
+      "aliases": [
+        "M. Rajendran"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12987860",
+      "label": "Mutiyaracan",
+      "aliases": [
+        "Durairasan"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16104871",
+      "label": "Gnanakoothan",
+      "aliases": [
+        "Nanakkuttan",
+        "R. Ranganathan"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16309831",
+      "label": "Na. Piccamūrtti",
+      "aliases": [
+        "N.Pichamoorthi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16310034",
+      "label": "Somasundara Pulavar",
+      "aliases": [
+        "Cōmacuntarap Pulavar",
+        "Navaliyur",
+        "Navāliyūr Somasundara Pulavar",
+        "Pulavar",
+        "Somasundara",
+        "Thangath Thatha"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16310355",
+      "label": "Nallataṉār",
+      "aliases": [
+        "Nalladanar",
+        "Nallathanar",
+        "Nallāthanār"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16313887",
+      "label": "Pūtañcēntaṉār",
+      "aliases": [
+        "Madurai Tamil Aasiriyar Maganar",
+        "Puthan Senthanar",
+        "Pūthan Senthanār",
+        "Puthanchenthanar",
+        "Boothan Senthanar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16314300",
+      "label": "Poykaiyār",
+      "aliases": [
+        "Poigaiyar ",
+        " Poikaiyar"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q19808888",
+      "label": "Devaraya Swamigal",
+      "aliases": [
+        "Bala Devarayan",
+        "Bala Devarayan swamigal"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19812453",
+      "label": "Sharmila Seyyid",
+      "aliases": [
+        "Sarmiḷā Seyyit",
+        "Sharmila Seyyid"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q31367919",
+      "label": "Kariasan",
+      "aliases": [
+        "Kariyaasaan"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q47540093",
+      "label": "Mohan Rajan",
+      "aliases": [
+        "Mohanrajan"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q56133394",
+      "label": "Ardhanareeswara Varma",
+      "aliases": [
+        "Arthanareesa Varma"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q61066275",
+      "label": "Kannankoothanaar",
+      "aliases": [
+        "Kannan Koothanar",
+        "Kannang Koothanar",
+        "Kannangkoothanar",
+        "Kannankoothanar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q96372348",
+      "label": "Arivu",
+      "aliases": [
+        "Arivarasu Kalainesan"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q105122677",
+      "label": "A. Vennila",
+      "aliases": [
+        "A. Vĕṇṇilā",
+        "Vennila Ambalavanan"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q118466832",
+      "label": "Na. Kamarasan",
+      "aliases": [
+        "D. Kamaracan"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q140043426",
+      "label": "Kannan Senthanar",
+      "aliases": [
+        "Kannan Cendanar",
+        "Kannan Senthanar",
+        "Kannan Sendhanar",
+        "Kannan Senthanar Pulavar"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q467231",
+      "label": "Kanimozhi Karunanidhi",
+      "aliases": [
+        "Karunanidhi Kanimozhi",
+        "Muthuvel Karunanidhi Kanimozhi"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q470875",
+      "label": "Muthuvel Karunanidhi",
+      "aliases": [
+        "Karunanidhi M"
+      ],
+      "sitelinks": 30
+    },
+    {
+      "qid": "Q1380058",
+      "label": "Kalki Krishnamurthy",
+      "aliases": [
+        "Kalki",
+        "Ramaswamy Krishnamurthy"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q1385918",
+      "label": "Manikkavasagar",
+      "aliases": [
+        "Thiruvathavurar"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3519662",
+      "label": "A. K. Ramanujan",
+      "aliases": [
+        "A K Ramanujan",
+        "Attipate Krishnaswami Ramanujan"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q3519797",
+      "label": "Kannadasan",
+      "aliases": [
+        "Vanangamudi",
+        "Arokkiya Saamy",
+        "Kamakappriya",
+        "Karaimuthu Pulavar",
+        "Muthaiah",
+        "Parvathi Nathan"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q3522642",
+      "label": "Ramasamy Vairamuthu",
+      "aliases": [
+        "Kaviperarasu",
+        "Kaviyarasu",
+        "R. Vairamuthu"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3523919",
+      "label": "Kulashekhara Alwar",
+      "aliases": [
+        "Kulaśekharavarma"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3531581",
+      "label": "Sambandar",
+      "aliases": [
+        "Campantar",
+        "Ñāṉacampantar",
+        "Thirugnana Sambandar",
+        "Tirujnanasambanda"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q3533917",
+      "label": "Kavimani Desigavinayagam Pillai",
+      "aliases": [
+        "Desigavinayagam Pillai",
+        "Kavimani",
+        "Kavimani Desiga Vinayagam Pillai",
+        "Kavimani Desika Vinayagam Pillai"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3534483",
+      "label": "Bharathidasan",
+      "aliases": [
+        "Bharatidasan",
+        "Kanaka Subburathinam",
+        "Bharathi Dhasan",
+        "K. Subburathinam",
+        "Paavendhar Bharathidasan",
+        "Puratchi Kavignar"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q3535929",
+      "label": "Thirumangai Alvar",
+      "aliases": [
+        "Thirumangai Mannan"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3536126",
+      "label": "Kadiyalur Uruttirangannanar",
+      "aliases": [
+        "Kadiyalur Uruthirankannanar",
+        "Rudrangannanar",
+        "Uruttirangannanar"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3537100",
+      "label": "Bhoothath Alvar",
+      "aliases": [
+        "Bhoothath Azhwar",
+        "Bhoothathalvar",
+        "Bhutattāl̲vār"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3790097",
+      "label": "Poigai Alvar",
+      "aliases": [
+        "Ayonigi",
+        "Kasara yogi",
+        "Poigaipiraan",
+        "Saravora Munindra",
+        "Saro yogi"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3790117",
+      "label": "Pey Alvar",
+      "aliases": [
+        "Peyalvar"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3826232",
+      "label": "Lakshmi Kannan",
+      "aliases": [
+        "Lakshmi Venkataraman"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4458118",
+      "label": "Thirumazhisai Aazhwar",
+      "aliases": [
+        "Thirumalisai Alvar",
+        "Thirumazhisai Alvar"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4648413",
+      "label": "A. Srinivasa Raghavan",
+      "aliases": [
+        "Aa. See. Ra"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6342979",
+      "label": "K. Srilata",
+      "aliases": [
+        "K. Sreelata"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6443534",
+      "label": "Kumaragurupara Desikar",
+      "aliases": [
+        "Kumaraguruparar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6753231",
+      "label": "Manushyaputhiran",
+      "aliases": [
+        "Manushya Puthiran"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6754663",
+      "label": "Maraimalai Adigal",
+      "aliases": [
+        "Father of Tamil linguistic purism",
+        "Father of the Pure Tamil Movement",
+        "N. C. Vedhachalam Pillai",
+        "Swami Vedhachalam",
+        "Vedhachalam Pillai"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q1535227",
+      "label": "Kambar",
+      "aliases": [
+        "kamban"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q1570434",
+      "label": "Chithalai Chathanar",
+      "aliases": [
+        "Cātaṉār",
+        "Kulavāṇikaṉ Cittalaic Cātaṉār",
+        "Sīthalai Sāttanār"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q1741798",
+      "label": "Shri Ramanujacharya",
+      "aliases": [
+        "Emberumannar",
+        "Ethirajar",
+        "Lakshmana Muni",
+        "Śrī Ramanujacharya",
+        "Udayavar",
+        "Yatiraja"
+      ],
+      "sitelinks": 64
+    },
+    {
+      "qid": "Q2075161",
+      "label": "Tirumular",
+      "aliases": [
+        "Suntaranāthar",
+        "Thirumoolar"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q2587183",
+      "label": "Nammalvar",
+      "aliases": [
+        "Nammazhvar"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q2873107",
+      "label": "Avvaiyar",
+      "aliases": [
+        "Avviyar",
+        "Avvai",
+        "Auvaiyar",
+        "Avvaiyar (Tamil poet)"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3032538",
+      "label": "Ilango Adigal",
+      "aliases": [
+        "Iḷaṅkõ Aṭikaḷ",
+        "Ivangovadigal"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q3349404",
+      "label": "Salil Chowdhury",
+      "aliases": [
+        "Salila Caudhurī"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3462523",
+      "label": "Perunchithiranar",
+      "aliases": [
+        "durai. manickam",
+        "pavalareru"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3494321",
+      "label": "Sundarar",
+      "aliases": [
+        "Chuntaramurtti",
+        "Chuntarar",
+        "Nampi Aruran",
+        "Tampiran Tolan"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q6956345",
+      "label": "Na. Muthukumar",
+      "aliases": [
+        "Munaivar",
+        "Nagarajan Muthukumar"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7117603",
+      "label": "P. Vijay",
+      "aliases": [
+        "Pa. Vijay",
+        "Vithaga Kavignar"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7129065",
+      "label": "Pamban Swamigal",
+      "aliases": [
+        "Pamban Gurudasa Swamigal"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7168986",
+      "label": "Periyasaamy Thooran",
+      "aliases": [
+        "Periasamy Thooran",
+        "Periyasamy Thooran"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7259176",
+      "label": "Pulamaipithan",
+      "aliases": [
+        "Pulavar Pulamaipithan"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7273942",
+      "label": "R. Raghava Iyengar",
+      "aliases": [
+        "Raghava Iyengar",
+        "Mahavidwan R. Raghava Iyengar",
+        "R. Raghava Iyer"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7387351",
+      "label": "S. Abdul Rahman",
+      "aliases": [
+        "Syed Abdul Rahman"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7483232",
+      "label": "Vaali",
+      "aliases": [
+        "Vaalee",
+        "Kavignar Vaalee"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q7668423",
+      "label": "T. K. Doraiswamy",
+      "aliases": [
+        "Nakulan"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7670566",
+      "label": "TK Ramanuja Kavirajar",
+      "aliases": [
+        "T. K. Ramanuja Kavirajar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7785243",
+      "label": "Thiru. V. Kalyanasundaram",
+      "aliases": [
+        "Thiruvarur Viruttachala Kalyanasundaram",
+        "T. V. Kalyanasundaram",
+        "Tamil Thendral",
+        "Thiru Vi Ka",
+        "Thiru Vi. Ka.",
+        "T. V. Kalyanasundara Mudaliar"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7920084",
+      "label": "Venkatarama Ramalingam Pillai",
+      "aliases": [
+        "Venkatarama Ramalingam"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10841404",
+      "label": "Salma",
+      "aliases": [
+        "Rajathi",
+        "Rajathi Salma",
+        "Rajathi Samsudeen",
+        "Rakkiaiah",
+        "Rokkiah"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q11020530",
+      "label": "Samuel Vedanayagam Pillai",
+      "aliases": [
+        "S.V.P.",
+        "Mayavaram Vedanayagam Pillai",
+        "S. V. Pillai",
+        "Vedanayagam Pillai",
+        "Mayuram Vedanayagam Pillai"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q12974626",
+      "label": "R. Ilankumaran",
+      "aliases": [
+        "R. Ilankumaranar"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12975166",
+      "label": "Umāpati Civācāriyār",
+      "aliases": [
+        "Umapathi Shivachariyar"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q12982461",
+      "label": "Kaalamegam",
+      "aliases": [
+        "Kavi Kalamegam"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12984752",
+      "label": "Tolkappiyar",
+      "aliases": [
+        "Tholkappiyar",
+        "Tolkappiyan",
+        "Tolkāppiyar"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q246260",
+      "label": "Constanzo Beschi",
+      "aliases": [
+        "Constantine Joseph Beschi",
+        "Veeramamunivar",
+        "Vīramāmunivar"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q256286",
+      "label": "Subramanya Bharathi",
+      "aliases": [
+        "Subramania Bharathi",
+        "Bharathiar",
+        "Mahakavi Subramania Bharathiyar",
+        "Subramania Bharathiyar"
+      ],
+      "sitelinks": 31
+    },
+    {
+      "qid": "Q275146",
+      "label": "P. V. Narasimha Rao",
+      "aliases": [
+        "Pamulaparti Venkata Narasimha Rao"
+      ],
+      "sitelinks": 64
+    },
+    {
+      "qid": "Q94488",
+      "label": "Suratha",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q465030",
+      "label": "Andal",
+      "aliases": [],
+      "sitelinks": 25
+    },
+    {
+      "qid": "Q1088645",
+      "label": "Pannisseri Nanu Pillai",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q1206629",
+      "label": "Devaneya Pavanar",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q3151355",
+      "label": "Inkulab",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3522026",
+      "label": "Thamarai",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3522337",
+      "label": "Nandanar",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3523946",
+      "label": "Madhurakavi Alvar",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3523967",
+      "label": "Periyalvar",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4460484",
+      "label": "Thondaradippodi Alvar",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4802194",
+      "label": "Arunachala Kavi",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5512506",
+      "label": "G. Thilakavathi",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6167515",
+      "label": "Jayamkondar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6360377",
+      "label": "Kanaka Dasa",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q6372729",
+      "label": "Karmegha Konar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6826901",
+      "label": "Mi. Pa. Somasundaram",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6932965",
+      "label": "Muhammed Metha",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6960666",
+      "label": "Nakkeerar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7137115",
+      "label": "Parimelazhagar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7262543",
+      "label": "Puviarasu",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7273910",
+      "label": "R. Parthasarathy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7282934",
+      "label": "Raghava Iyengar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7387425",
+      "label": "S. D. S. Yogi",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7418647",
+      "label": "Sankarambadi Sundaraachari",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7668487",
+      "label": "T. M. Chidambara Ragunathan",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7785413",
+      "label": "Thiruppaan Alvar",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7881177",
+      "label": "Umaru Pulavar",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7905985",
+      "label": "V. Akilesapillai",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7912417",
+      "label": "Vallikannan",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q8060326",
+      "label": "Yugabharathi",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12973678",
+      "label": "Arisil Kilar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12973848",
+      "label": "Azhagiya Periyavan",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12974648",
+      "label": "R. Meenakshi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q12974758",
+      "label": "Iraiyanar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12976003",
+      "label": "Ōrampōkiyār",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12976026",
+      "label": "Avvaiyar",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q12976191",
+      "label": "Kaṇimētāviyār",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12976618",
+      "label": "Kalladar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12978403",
+      "label": "Sirpi Balasubramaniam",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q12978480",
+      "label": "Siva Prakasar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12978485",
+      "label": "Sivavakkiyar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q12978803",
+      "label": "Thiru Narayana Iyengar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12980015",
+      "label": "Karunanandam",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q12980116",
+      "label": "Kavin Suryan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q12985023",
+      "label": "Nanjil Nadan",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12985690",
+      "label": "Paranar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12987956",
+      "label": "Munrurai Araiyar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12988906",
+      "label": "Vanidasan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16313199",
+      "label": "Venkatasuri Swamigal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16313362",
+      "label": "Vaiyāpuri Aiyar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q23879711",
+      "label": "Piraisoodan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q25553527",
+      "label": "Ku. Umadevi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q30121942",
+      "label": "Viveka",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q30323761",
+      "label": "Parvathy Meera",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q48734946",
+      "label": "Nakkirar I",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q55163759",
+      "label": "Raja Rajeswari Setha Raman",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q85952747",
+      "label": "Malligai C. Kumar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97817841",
+      "label": "K.T.M. Iqbal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q102075429",
+      "label": "Malathi Maithri",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q114174979",
+      "label": "Ilango Krishnan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124360265",
+      "label": "Meyvazhi Ilamkalaikkottu Anantar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q126341756",
+      "label": "Kaa.Na. Kalyanasundaram",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q127826789",
+      "label": "Kuyilan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132892740",
+      "label": "Vel Kannan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134484668",
+      "label": "E. Nagarajan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135067880",
+      "label": "Magudeswaran",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135937931",
+      "label": "T. Thuraisingam",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137765468",
+      "label": "Jahir Husain",
+      "aliases": [],
+      "sitelinks": 1
+    }
+  ]
+}

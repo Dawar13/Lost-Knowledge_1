@@ -1,0 +1,23 @@
+tamil_poets                where      HTTP 200 n=190   0.1s
+tamil_poets                foil_where HTTP 200 n=262   0.7s
+kerala_rivers              where      HTTP 504 n=None  65.1s
+kerala_rivers              foil_where HTTP 504 n=None  65.1s
+tamilnadu_hindu_temples    where      HTTP 504 n=None  65.1s
+tamilnadu_hindu_temples    foil_where HTTP 504 n=None  65.1s
+japanese_novelists         where      HTTP 200 n=5198   2.3s
+japanese_novelists         foil_where HTTP 200 n=522   2.0s
+nepal_mountains            where      HTTP 200 n=252   1.3s
+nepal_mountains            foil_where HTTP 200 n=4767   3.2s
+brazil_universities        where      HTTP 200 n=386   2.7s
+brazil_universities        foil_where HTTP 200 n=243   1.0s
+finland_lakes              where      HTTP 200 n=17707   6.2s
+finland_lakes              foil_where HTTP 200 n=58125  33.3s
+nigerian_painters          where      HTTP 200 n=500   3.5s
+nigerian_painters          foil_where HTTP 200 n=78   2.5s
+bengali_film_directors     where      HTTP 200 n=483   1.5s
+bengali_film_directors     foil_where HTTP 200 n=1052   1.4s
+assamese_writers           where      HTTP 200 n=309  43.7s
+assamese_writers           foil_where HTTP 200 n=5981  22.6s
+us_state_capitals          where      HTTP 200 n=50   0.2s
+us_state_capitals          foil_where HTTP 200 n=56   1.0s
+PROBE DONE

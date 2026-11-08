@@ -1,0 +1,202 @@
+== environment and GPU (shared card: never kill other jobs)
+torch 2.15.0+cu132  transformers 5.22.2
+CUDA_VISIBLE_DEVICES=None
+GPU 0: NVIDIA A100-SXM4-80GB  free 28.8 / 79.2 GiB
+pid, process_name, used_gpu_memory [MiB]
+98636, python, 9606 MiB
+99871, python, 10408 MiB
+101733, python, 10648 MiB
+101852, python, 10648 MiB
+107742, python, 3278 MiB
+108266, python, 3274 MiB
+108501, python, 3274 MiB
+111157, python, 416 MiB
+
+These processes belong to other experiments. Never kill or signal them.
+HF token present: False (needed for gated Llama and Gemma weights)
+== unit tests (must pass before any GPU time)
+...........                                                              [100%]
+11 passed in 42.21s
+== calibrating the numeric margin (seed 1)
+== skip (exists): results/G0/calibration/Qwen2.5-7B-Instruct/selfcheck.json
+== skip (exists): results/G0/calibration/Qwen2.5-7B/selfcheck.json
+== numeric margin epsilon = 0.75 raw logits
+[gpu] waiting: 27.3 GiB free, need 19.5 + 8 GiB headroom (08:45:06)
+[gpu] waiting: 27.3 GiB free, need 19.5 + 8 GiB headroom (08:46:06)
+[gpu] 27.8 GiB free of 79.2 GiB; this job is capped at 19.5 GiB, leaving at least 8.3 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 9414.67it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.05'}
+[reach] 13911 items (3225 entities x forms x 3 templates)
+[reach] batch 1/870
+[reach] batch 21/870
+[reach] batch 41/870
+[reach] batch 61/870
+[reach] batch 81/870
+[reach] batch 101/870
+[reach] batch 121/870
+[reach] batch 141/870
+[reach] batch 161/870
+[reach] batch 181/870
+[reach] batch 201/870
+[reach] batch 221/870
+[reach] batch 241/870
+[reach] batch 261/870
+[reach] batch 281/870
+[reach] batch 301/870
+[reach] batch 321/870
+[reach] batch 341/870
+[reach] batch 361/870
+[reach] batch 381/870
+[reach] batch 401/870
+[reach] batch 421/870
+[reach] batch 441/870
+[reach] batch 461/870
+[reach] batch 481/870
+[reach] batch 501/870
+[reach] batch 521/870
+[reach] batch 541/870
+[reach] batch 561/870
+[reach] batch 581/870
+[reach] batch 601/870
+[reach] batch 621/870
+[reach] batch 641/870
+[reach] batch 661/870
+[reach] batch 681/870
+[reach] batch 701/870
+[reach] batch 721/870
+[reach] batch 741/870
+[reach] batch 761/870
+[reach] batch 781/870
+[reach] batch 801/870
+[reach] batch 821/870
+[reach] batch 841/870
+[reach] batch 861/870
+[reach] batch 870/870
+[recog] yes/no on 3225 members and 1912 foils
+[sample] shipped_hf   tamil_poets                  valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   kerala_rivers                valid   65 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   tamilnadu_hindu_temples      valid  242 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nepal_mountains              valid  368 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   brazil_universities          valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nigerian_painters            valid  103 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   bengali_film_directors       valid   15 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   assamese_writers             valid   94 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   us_state_capitals            valid 1000 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamil_poets                  valid   28 distinct   3 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid   30 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid  132 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid  546 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid  103 distinct   3 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid   19 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid   39 distinct   7 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid 1000 distinct   7 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] Qwen2.5-7B-Instruct in 17.3 min -> results/G0/Qwen2.5-7B-Instruct
+[gpu] 37.3 GiB free of 79.2 GiB; this job is capped at 19.5 GiB, leaving at least 17.8 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 8235.13it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 13911 items (3225 entities x forms x 3 templates)
+[reach] batch 1/870
+[reach] batch 21/870
+[reach] batch 41/870
+[reach] batch 61/870
+[reach] batch 81/870
+[reach] batch 101/870
+[reach] batch 121/870
+[reach] batch 141/870
+[reach] batch 161/870
+[reach] batch 181/870
+[reach] batch 201/870
+[reach] batch 221/870
+[reach] batch 241/870
+[reach] batch 261/870
+[reach] batch 281/870
+[reach] batch 301/870
+[reach] batch 321/870
+[reach] batch 341/870
+[reach] batch 361/870
+[reach] batch 381/870
+[reach] batch 401/870
+[reach] batch 421/870
+[reach] batch 441/870
+[reach] batch 461/870
+[reach] batch 481/870
+[reach] batch 501/870
+[reach] batch 521/870
+[reach] batch 541/870
+[reach] batch 561/870
+[reach] batch 581/870
+[reach] batch 601/870
+[reach] batch 621/870
+[reach] batch 641/870
+[reach] batch 661/870
+[reach] batch 681/870
+[reach] batch 701/870
+[reach] batch 721/870
+[reach] batch 741/870
+[reach] batch 761/870
+[reach] batch 781/870
+[reach] batch 801/870
+[reach] batch 821/870
+[reach] batch 841/870
+[reach] batch 861/870
+[reach] batch 870/870
+[recog] yes/no on 3225 members and 1912 foils
+[done] Qwen2.5-7B in 6.8 min -> results/G0/Qwen2.5-7B
+# Gate G0 decision: **BLOCKED**
+
+Instruct model: `Qwen/Qwen2.5-7B-Instruct`; base model: `Qwen/Qwen2.5-7B`
+
+Verdict computed on robust RBU (margin 0.75 raw logits: an entity counts as unreachable only if it stays cut with its logit raised by the margin; docs/04 section 2, notes/decisions.md). The same rules on exact RBU give: **BLOCKED**.
+
+## Validity checks
+
+- V1_no_sampling_violations: True
+- V2_recognition_auroc_ge_0.85: False
+- V3_at_least_300_recognised: True
+- recognition AUROC (yes/no, members vs foils): 0.791
+- 4-way accuracy on members: 0.705
+- recognised entities: 1587 of 3225
+
+## Sampling sanity check
+
+- shipped_hf: 11000 samples, 2887 valid, 3075 id hits on 13 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+- p0.90_T1: 11000 samples, 2897 valid, 3145 id hits on 34 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+
+## Recognised-but-unreachable rate (RBU)
+
+RBU mean = robust (headline); exact and upper use no margin and the opposite margin.
+
+| sampler | RBU mean | 95% CI | RBU all templates | fail at first token | exact | upper | base RBU mean |
+|---|---|---|---|---|---|---|---|
+| shipped_hf | 99.3% | 98.2% to 99.7% | 99.1% | 88.2% | 99.5% | 99.7% | nan |
+| p0.80_T1 | 98.5% | 97.0% to 99.3% | 98.1% | 85.6% | 99.1% | 99.3% | 81.8% |
+| p0.90_T1 | 96.1% | 91.7% to 98.4% | 94.9% | 82.9% | 97.4% | 98.3% | 59.6% |
+| p0.95_T1 | 91.3% | 81.6% to 96.8% | 88.3% | 77.5% | 93.2% | 95.1% | 40.6% |
+| p0.90_T0.7 | 99.0% | 97.8% to 99.6% | 98.7% | 87.4% | 99.3% | 99.6% | 89.4% |
+| k20_T1 | 83.2% | 73.5% to 90.2% | 80.8% | 66.1% | 87.9% | 91.2% | 71.8% |
+| k50_T1 | 66.9% | 54.9% to 75.6% | 62.0% | 50.7% | 74.8% | 82.1% | 48.5% |
+| minp0.05_T1 | 98.1% | 95.9% to 99.2% | 97.7% | 85.0% | 98.8% | 99.2% | 84.9% |
+| minp0.10_T1 | 98.7% | 97.2% to 99.5% | 98.3% | 86.1% | 99.1% | 99.4% | 90.2% |
+| untruncated_T1 | 0.0% | 0.0% to 0.0% | 0.0% | nan | 0.0% | 0.0% | 0.0% |
+
+## Sensitivity of RBU to the margin (RBU mean; margin in raw logits)
+
+| sampler | eps 0.0 | eps 0.25 | eps 0.5 | eps 1.0 | eps 2.0 | eps 4.0 |
+|---|---|---|---|---|---|---|
+| shipped_hf | 99.5% | 99.4% | 99.4% | 99.2% | 98.7% | 95.7% |
+| p0.90_T1 | 97.4% | 96.8% | 96.4% | 95.8% | 93.0% | 84.9% |
+
+## Notes
+
+- validity checks failed: ['V2_recognition_auroc_ge_0.85']. Fix these before reading any RBU number.
+- paired test at p0.90_T1: {'instruct_only_unreachable': 477, 'base_only_unreachable': 5, 'z': 21.49901088142587, 'p_two_sided': 1.5904147208013645e-102}
+
+Decision rules: docs/02_phases_and_gates.md. A human must sign off below before Phase 2.
+
+Sign-off: ____________________
+== decision written to results/gates/G0.md

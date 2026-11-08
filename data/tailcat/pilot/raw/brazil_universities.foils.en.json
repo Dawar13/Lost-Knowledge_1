@@ -1,0 +1,1605 @@
+{
+  "key": "c40056924594d5cc",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q3918 . { ?item wdt:P17 wd:Q414 } UNION { ?item wdt:P17 wd:Q45 } } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:27:04Z",
+  "rows": [
+    {
+      "qid": "Q690146",
+      "label": "National University of Misiones",
+      "aliases": [
+        "UNaM"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q784171",
+      "label": "National University of La Plata",
+      "aliases": [
+        "Universidad Nacional de La Plata",
+        "UNLP",
+        "UNIV NAC LA PLATA"
+      ],
+      "sitelinks": 25
+    },
+    {
+      "qid": "Q796023",
+      "label": "National University of Río Cuarto",
+      "aliases": [
+        "Universidad Nacional de Río Cuarto",
+        "UNRC"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q846725",
+      "label": "University of Beira Interior",
+      "aliases": [
+        "Universidade da Beira Interior"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q934439",
+      "label": "National University of San Juan",
+      "aliases": [
+        "UNSJ",
+        "Universidad Nacional de San Juan"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q955122",
+      "label": "Instituto Politécnico Superior",
+      "aliases": [
+        "Instituto Politecnico Superior"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q970751",
+      "label": "Catholic University of Portugal",
+      "aliases": [
+        "ucp.pt",
+        "Universidade Católica Portuguesa"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q973767",
+      "label": "Pontifical Catholic University of Argentina",
+      "aliases": [
+        "UCA",
+        "Catholic University of Argentina"
+      ],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q1076209",
+      "label": "Universidad Nacional de Cuyo",
+      "aliases": [
+        "National University of Cuyo",
+        "University of Cuyo"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q1122926",
+      "label": "University of Lisbon",
+      "aliases": [
+        "Lisbon University",
+        "ULisboa",
+        "Universidade de Lisboa"
+      ],
+      "sitelinks": 43
+    },
+    {
+      "qid": "Q6979282",
+      "label": "National University of the Chaco Austral",
+      "aliases": [
+        "UNCAus"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6979284",
+      "label": "National University of Tucumán",
+      "aliases": [
+        "UNT",
+        "National University of Tucuman",
+        "Universidad Nacional de Tucuman",
+        "Universidad Nacional de Tucumán"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q6979285",
+      "label": "National University of the West",
+      "aliases": [
+        "UNO"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7227031",
+      "label": "University of Leiria and Oeste",
+      "aliases": [
+        "ULO"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7227028",
+      "label": "Polytechnic Institute of Beja",
+      "aliases": [
+        "IPBeja"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7227029",
+      "label": "Polytechnic University of Castelo Branco",
+      "aliases": [
+        "Polytechnic Institute of Castelo Branco",
+        "Castelo Branco Polytechnic University"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7227039",
+      "label": "Polytechnic Institute of Viana do Castelo",
+      "aliases": [
+        "Instituto Politécnico de Viana do Castelo",
+        "IPVC",
+        "Polytechnic University of Viana do Castelo"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894234",
+      "label": "John F. Kennedy Argentine University",
+      "aliases": [
+        "Universidad Kennedy"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894326",
+      "label": "Flores University",
+      "aliases": [
+        "UFLO"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894334",
+      "label": "Universidad de Morón",
+      "aliases": [
+        "Universidad de Moron"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894386",
+      "label": "Universidade Lusófona",
+      "aliases": [
+        "Lusophone University of Humanities and Technologies",
+        "Universidade Lusófona de Humanidades e Tecnologias"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1333933",
+      "label": "Torcuato di Tella University",
+      "aliases": [
+        "University Torcuato Di Tella"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q1362729",
+      "label": "Technical University of Lisbon",
+      "aliases": [
+        "Lisbon Technical University"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q1363371",
+      "label": "Polytechnic University of Lisbon",
+      "aliases": [
+        "Polytechnic Institute of Lisbon",
+        "Polytechnical Institute of Lisbon"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q1422903",
+      "label": "University of Porto",
+      "aliases": [
+        "U.Porto",
+        "Universidade do Porto"
+      ],
+      "sitelinks": 31
+    },
+    {
+      "qid": "Q1557861",
+      "label": "University of Évora",
+      "aliases": [
+        "Colégio da Companhia de Jesus",
+        "Colégio do Espírito Santo",
+        "Evora university",
+        "uevora.pt",
+        "Universidade de Évora",
+        "University of Evora"
+      ],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q1570276",
+      "label": "Catholic University of Salta",
+      "aliases": [
+        "UCASAL"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q1570489",
+      "label": "National University of Córdoba",
+      "aliases": [
+        "UNC",
+        "National University of Cordoba",
+        "Universidad de Cordoba",
+        "Universidad de Córdoba",
+        "Universidad Nacional de Córdoba",
+        "Universidad Nacional de Córdoba (UNC)",
+        "University of Cordoba",
+        "University of Córdoba"
+      ],
+      "sitelinks": 25
+    },
+    {
+      "qid": "Q1636837",
+      "label": "Instituto Superior Técnico",
+      "aliases": [
+        "IST",
+        "Técnico"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1789101",
+      "label": "University of Belgrano",
+      "aliases": [
+        "UB"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q1812180",
+      "label": "National University of General Sarmiento",
+      "aliases": [
+        "UNGS"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1972136",
+      "label": "University of Algarve",
+      "aliases": [
+        "Universidade do Algarve",
+        "University of the Algarve"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q1979891",
+      "label": "NOVA University Lisbon",
+      "aliases": [
+        "UNL",
+        "New University of Lisbon",
+        "Universidade Nova de Lisboa"
+      ],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q2103165",
+      "label": "Polytechnic Institute of Coimbra",
+      "aliases": [
+        "IPC"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q168458",
+      "label": "Universidade Autónoma de Lisboa",
+      "aliases": [
+        "Autonomous University of Lisbon",
+        "Universidade Autonoma de Lisboa"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q194223",
+      "label": "University of Buenos Aires",
+      "aliases": [
+        "UBA",
+        "Universidad de Buenos Aires"
+      ],
+      "sitelinks": 62
+    },
+    {
+      "qid": "Q265866",
+      "label": "National University of the Littoral",
+      "aliases": [
+        "UNL, Argentina"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q286325",
+      "label": "National Conservatory of Argentina",
+      "aliases": [
+        "Conservatorio Nacional Superior de Musica",
+        "National Music Conservatory of Argentina",
+        "Buenos Aires National Conservatory"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q368643",
+      "label": "University of Coimbra",
+      "aliases": [
+        "UC",
+        "uc.pt",
+        "Universidade dos Estudos Gerais"
+      ],
+      "sitelinks": 57
+    },
+    {
+      "qid": "Q634834",
+      "label": "Fernando Pessoa University",
+      "aliases": [
+        "Universidade Fernando Pessoa"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q635878",
+      "label": "Lusíada University",
+      "aliases": [
+        "Lusiada University",
+        "Universidade Lusíada de Lisboa"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6156752",
+      "label": "University of Concepción del Uruguay",
+      "aliases": [
+        "UCU",
+        "University of Concepcion del Uruguay"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6316549",
+      "label": "National University of Lomas de Zamora",
+      "aliases": [
+        "Universidad Nacional de Lomas de Zamora",
+        "UNLZ"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q6317490",
+      "label": "National University of Jujuy",
+      "aliases": [
+        "UNJu"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6317539",
+      "label": "National University of Entre Ríos",
+      "aliases": [
+        "National University of Entre Rios"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6889102",
+      "label": "Moderna University",
+      "aliases": [
+        "Modern University"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6978866",
+      "label": "National Technological University – Concepción del Uruguay Regional Faculty",
+      "aliases": [
+        "Concepción del Uruguay Regional Faculty",
+        "FRCU",
+        "UTN-FRCU"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6978879",
+      "label": "National Technological University – Tucumán Regional Faculty",
+      "aliases": [
+        "FRT",
+        "Tucumán Regional Faculty"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6979224",
+      "label": "National University of Austral Patagonia",
+      "aliases": [
+        "UNPA"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6979230",
+      "label": "National University of Chilecito",
+      "aliases": [
+        "UNdeC"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6979234",
+      "label": "National University of Catamarca",
+      "aliases": [
+        "UNCA"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6979245",
+      "label": "National University of Formosa",
+      "aliases": [
+        "UNF"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6979250",
+      "label": "National University of La Matanza",
+      "aliases": [
+        "UNLaM",
+        "UNLM"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6979253",
+      "label": "National University of La Rioja",
+      "aliases": [
+        "UNLAR",
+        "UNLR"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6979259",
+      "label": "National University of Luján",
+      "aliases": [
+        "UNLu"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6979256",
+      "label": "National University of Lanús",
+      "aliases": [
+        "UNLa"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6979257",
+      "label": "National University of La Pampa",
+      "aliases": [
+        "Universidad Nacional de La Pampa",
+        "UNLPam"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6979260",
+      "label": "National University of Mar del Plata",
+      "aliases": [
+        "Universidad Nacional de Mar del Plata",
+        "University of Mar del Plata"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6979266",
+      "label": "National University of Salta",
+      "aliases": [
+        "Universidad Nacional de Salta"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6979265",
+      "label": "National University of Patagonia San Juan Bosco",
+      "aliases": [
+        "UNP",
+        "National University of the Patagonia San Juan Bosco",
+        "UNPSJB"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6979278",
+      "label": "National University of Tres de Febrero",
+      "aliases": [
+        "Universidad Nacional de Tres de Febrero",
+        "UNTREF"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q141261673",
+      "label": "University of the City of Buenos Aires",
+      "aliases": [
+        "unicaba, UdelaCiudad"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29673",
+      "label": "University of Minho",
+      "aliases": [
+        "Minho University",
+        "U.Minho",
+        "Uminho",
+        "UMinho",
+        "uminho.pt",
+        "Universidade do Minho",
+        "University of the Minho"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q7894393",
+      "label": "Universidade Sénior Contemporânea",
+      "aliases": [
+        "Universidade Senior Contemporanea"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q7896057",
+      "label": "University of Palermo",
+      "aliases": [
+        "Universidad de Palermo"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q9091578",
+      "label": "National University of Santiago del Estero",
+      "aliases": [
+        "UNSE"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q9091583",
+      "label": "National University of Villa María",
+      "aliases": [
+        "UNVM"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q9091584",
+      "label": "National University of Northwestern Buenos Aires",
+      "aliases": [
+        "UNNOBA"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q9091667",
+      "label": "University of Cinema",
+      "aliases": [
+        "Fundacion Universidad del Cine",
+        "Universidad del Cine. Argentina"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q9290218",
+      "label": "National University of San Luis",
+      "aliases": [
+        "UNSL"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10299478",
+      "label": "ISPA – University Institute",
+      "aliases": [
+        "ISPA",
+        "ISPA - Instituto Universitário"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10302635",
+      "label": "Polytechnic Institute of Bragança",
+      "aliases": [
+        "Instituto Politécnico de Bragança",
+        "IPB"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10302639",
+      "label": "Polytechnic Institute of Santarém",
+      "aliases": [
+        "Santarém Polytechnic University"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10302640",
+      "label": "Polytechnic University of Cávado and Ave",
+      "aliases": [
+        "UPCA"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10302641",
+      "label": "Polytechnic Institute of Viseu",
+      "aliases": [
+        "Instituto Politécnico de Viseu",
+        "IPV"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10387774",
+      "label": "Universidade Atlântica",
+      "aliases": [
+        "Atlantic University"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387848",
+      "label": "Universidade Lusófona do Porto",
+      "aliases": [
+        "Lusófona University of Porto",
+        "ULP"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2478211",
+      "label": "Lusíada University of Porto",
+      "aliases": [
+        "Lusiada University of Porto",
+        "Universidade Lusíada do Porto"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q2879311",
+      "label": "Coimbra Academic Association",
+      "aliases": [
+        "Associação Académica de Coimbra"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2887298",
+      "label": "Universidad de Ciencias Empresariales y Sociales",
+      "aliases": [
+        "UCES",
+        "UCES University"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q2949394",
+      "label": "Army War Academy",
+      "aliases": [
+        "ESG",
+        "Escuela Superior de Guerra del Ejército Argentino",
+        "Teniente General Luis Maria Campos School"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q2983873",
+      "label": "Nation Military College",
+      "aliases": [
+        "CMN",
+        "Colegio Militar de la Nacion"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3028249",
+      "label": "Argentine University of Enterprise",
+      "aliases": [
+        "UADE"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3115667",
+      "label": "University of the Salvador",
+      "aliases": [
+        "USAL"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3232206",
+      "label": "National Technological University",
+      "aliases": [
+        "UTN"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3309132",
+      "label": "University of Trás-os-Montes and Alto Douro",
+      "aliases": [
+        "UTAD",
+        "University of Tras-os-Montes and Alto Douro",
+        "University of Trás-os-Montes e Alto Douro",
+        "utad.pt"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q3391585",
+      "label": "Universidade Aberta de Portugal",
+      "aliases": [
+        "Open University"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3551515",
+      "label": "River Plate Adventist University",
+      "aliases": [
+        "UAP"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387859",
+      "label": "Oporto Global University",
+      "aliases": [
+        "Portucalense University",
+        "Universidade Portucalense",
+        "Universidade Portucalense Infante D. Henrique",
+        "UPT"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13847486",
+      "label": "Institute of Higher Studies of Fafe",
+      "aliases": [
+        "IESF",
+        "Instituto de Estudos Superiores de Fafe LDA"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q14541205",
+      "label": "Colégio dos Jesuítas do Funchal",
+      "aliases": [
+        "Colégio dos Jesuítas"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16848570",
+      "label": "Irish College at Lisbon",
+      "aliases": [
+        "Dominican College"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18286571",
+      "label": "Siglo 21 University",
+      "aliases": [
+        "21st Century Business University"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18374505",
+      "label": "European University of Lisbon",
+      "aliases": [
+        "Universidade Europeia Lisboa"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q27557477",
+      "label": "National University of San Antonio de Areco",
+      "aliases": [
+        "UNSAdA"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29522510",
+      "label": "Portalegre Polytechnic University",
+      "aliases": [
+        "Polytechnic Institute of Portalegre"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q29565528",
+      "label": "Polytechnic Institute of Tomar",
+      "aliases": [
+        "Instituto Politécnico de Tomar",
+        "Polytechnic University of Tomar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q30253878",
+      "label": "Escola Superior de Enfermagem São Francisco das Misericórdias",
+      "aliases": [
+        "ESESFM",
+        "São Francisco das Misericórdias Nursing School"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q30293945",
+      "label": "University of the Merchant Marine",
+      "aliases": [
+        "UdeMM"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q39081348",
+      "label": "University of the National Defence",
+      "aliases": [
+        "UNDEF Argentina"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q48879632",
+      "label": "Instituto Superior de Administração e Línguas da Madeira",
+      "aliases": [
+        "ISAL"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q86720654",
+      "label": "Air Force Sub-officers School",
+      "aliases": [
+        "ESFA",
+        "Argentinian NCOs school"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97583025",
+      "label": "Provincial University of Cordoba",
+      "aliases": [
+        "Universidad Provincial de Córdoba"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q109467100",
+      "label": "Universidad Metropolitana para la Educación y el Trabajo",
+      "aliases": [
+        "Metropolitan University for Education and Work",
+        "UMET"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131030189",
+      "label": "National University of La Rioja - Chamical regional campus",
+      "aliases": [
+        "Universidad Nacional de La Rioja sede regional Chamical",
+        "UNLaR Chamical",
+        "UNLR Chamical"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q3551776",
+      "label": "University of CEMA",
+      "aliases": [
+        "UCEMA",
+        "Universidad del CEMA"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4315122",
+      "label": "Universidad Nacional del Comahue",
+      "aliases": [
+        "National University of Comahue",
+        "UNCo",
+        "UNCOMA"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4348556",
+      "label": "Technical Univetsity of Porto",
+      "aliases": [
+        "UTPorto"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4823399",
+      "label": "Austral University of Argentina",
+      "aliases": [
+        "Universidad Austral Argentina"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q5242548",
+      "label": "University of San Andrés",
+      "aliases": [
+        "University of San Andres"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5255905",
+      "label": "National University of Rosario",
+      "aliases": [
+        "UNR",
+        "Universidad de Rosario",
+        "Universidad Nacional de Rosario"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q5261681",
+      "label": "National University of the Northeast",
+      "aliases": [
+        "UNNE",
+        "Universidad Nacional del Nordeste"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5378213",
+      "label": "English College, Lisbon",
+      "aliases": [
+        "English College"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5390556",
+      "label": "National University of Tierra del Fuego",
+      "aliases": [
+        "UNTDF"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5397480",
+      "label": "Escuela Superior Latinoamericana de Informática",
+      "aliases": [
+        "Escuela Superior Latinoamericana de Informatica"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5403549",
+      "label": "Juan Agustín Maza University",
+      "aliases": [
+        "Juan Agustin Maza University",
+        "Universidad Juan Agustín Maza"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5484518",
+      "label": "Universidad Nacional del Sur",
+      "aliases": [
+        "National University of the South"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q5576619",
+      "label": "National University of Central Buenos Aires",
+      "aliases": [
+        "UNICEN",
+        "UNIV NACL CENTRO PROVINCIA BUENOS AIRES"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5733950",
+      "label": "National University of General San Martín",
+      "aliases": [
+        "UNSAM",
+        "National University of General San Martin",
+        "Universidad Nacional de San Martín"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q5810270",
+      "label": "CAECE University",
+      "aliases": [
+        "CAECE"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5838781",
+      "label": "Escuela Naval Militar (Argentina)",
+      "aliases": [
+        "ESNM"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5838892",
+      "label": "School of Economics and Business Administration",
+      "aliases": [
+        "Escuela Superior de Economía y Administración de Empresas",
+        "ESEADE"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5839063",
+      "label": "Military Aviation School",
+      "aliases": [
+        "EAM",
+        "Escuela de Aviacion Militar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5854490",
+      "label": "National Technological University – Rosario Regional Faculty",
+      "aliases": [
+        "FRRO"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5854498",
+      "label": "National Technological University – San Nicolás Regional Faculty",
+      "aliases": [
+        "FRSN"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5854496",
+      "label": "National Technological University – San Francisco Regional Faculty",
+      "aliases": [
+        "FRSFCO"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5858872",
+      "label": "Interamerican Open University",
+      "aliases": [
+        "UAI",
+        "Universidad Abierta Interamericana"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5917962",
+      "label": "Gastón Dachary University",
+      "aliases": [
+        "Gaston Dachary University"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5917985",
+      "label": "University Institute of the Argentine Federal Police",
+      "aliases": [
+        "IUPFA"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6041513",
+      "label": "Instituto Superior de Ciências Policiais e Segurança Interna",
+      "aliases": [
+        "ISCPSI"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6041563",
+      "label": "Instituto Tecnológico de Córdoba",
+      "aliases": [
+        "Instituto Tecnologico de Cordoba"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156358",
+      "label": "Autonomous University of Entre Ríos",
+      "aliases": [
+        "UADER",
+        "Universidad Autónoma de Entre Ríos"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156373",
+      "label": "Blas Pascal University",
+      "aliases": [
+        "Universidad Blas Pascal"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6156394",
+      "label": "Universidad Católica de Cuyo",
+      "aliases": [
+        "UCC",
+        "UCCuyo"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156455",
+      "label": "FASTA University",
+      "aliases": [
+        "Universidad Fraternidad de Agrupaciones Santo Tomas de Aquino",
+        "Universidad Fraternidad de Agrupaciones Santo Tomás de Aquino"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6156550",
+      "label": "Arturo Jauretche National University",
+      "aliases": [
+        "UNAJ"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6156577",
+      "label": "National University of Avellaneda",
+      "aliases": [
+        "UNDAV"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156583",
+      "label": "National University of José Clemente Paz",
+      "aliases": [
+        "UNPAZ"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156591",
+      "label": "National University of Río Negro",
+      "aliases": [
+        "UNRN"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6156589",
+      "label": "National University of Moreno",
+      "aliases": [
+        "UNM"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6156598",
+      "label": "National University of Villa Mercedes",
+      "aliases": [
+        "UNViMe"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q604131",
+      "label": "Academia Polytechnica do Porto",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q1434847",
+      "label": "University of Madeira",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q1461089",
+      "label": "University of the Azores",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q1736398",
+      "label": "Catholic University of Cordoba",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q1736403",
+      "label": "Catholic University of La Plata",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q2492346",
+      "label": "Independente University",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q2496204",
+      "label": "Saint Thomas Aquinas University of the North",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q2880081",
+      "label": "University of Cuenca del Plata",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q2883574",
+      "label": "University of Mendoza",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q2885322",
+      "label": "Universidad del Aconcagua",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q3068593",
+      "label": "Buenos Aires Institute of Technology",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4315126",
+      "label": "National University of the Arts",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5053267",
+      "label": "Catholic University of Santiago del Estero",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5062657",
+      "label": "Centre of Mathematics and Design",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5438433",
+      "label": "Favaloro University",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5557944",
+      "label": "Universidad Obrera Nacional",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5624200",
+      "label": "Gymnasium UNT",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q5758072",
+      "label": "Higher Education Army Institute",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6041497",
+      "label": "Instituto Superior Santo Domingo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6047620",
+      "label": "Internacional University",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156341",
+      "label": "Argentine Atlantis University",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6156404",
+      "label": "Universidad Católica de Santa Fe",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6156526",
+      "label": "Maimónides University",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6156753",
+      "label": "Universidad de Congreso",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q6156842",
+      "label": "University of Chubut",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6156851",
+      "label": "Universidad del Museo Social Argentino",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6317522",
+      "label": "National University of Quilmes",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6978860",
+      "label": "National Technological University – Avellaneda Regional Faculty",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6978867",
+      "label": "National Technological University – General Pacheco Regional Faculty",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6978870",
+      "label": "National Technological University – Mendoza Regional Faculty",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7133939",
+      "label": "Parachute Troops School",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7232664",
+      "label": "Portuguese Military Academy",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7232670",
+      "label": "Portuguese Naval School",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7896708",
+      "label": "University of the Latin American Educational Center",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9008770",
+      "label": "Italian University Institute of Rosario",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9820983",
+      "label": "Colégio de Santo Antão",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10299479",
+      "label": "Instituto Superior Politécnico Gaya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10302638",
+      "label": "Polytechnic Institute of Setúbal",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10302676",
+      "label": "Instituto Superior Autónomo de Estudos Politécnicos",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10302699",
+      "label": "Instituto Superior de Engenharia de Coimbra",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10357800",
+      "label": "Royal Military Academy of Rio de Janeiro",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q11049501",
+      "label": "Saint Paul-T University",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q11727843",
+      "label": "University of La Punta",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16935366",
+      "label": "Facultades de Filosofía y Teología de San Miguel",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q17986320",
+      "label": "Center for Distributive, Labor and Social Studies",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21847803",
+      "label": "Entrance gate to River Plate Adventist University",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q21847993",
+      "label": "Ciudad Universitaria",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q21848014",
+      "label": "Biblioteca Virtual U.N.R.",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q27832147",
+      "label": "National University of Rafaela",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q28501872",
+      "label": "Universidad Nacional de Hurlingham",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q29042747",
+      "label": "Admiral Brown Naval Military Academy",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q29045289",
+      "label": "Universidad Isalud",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29045292",
+      "label": "Universidad Notarial Argentina",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q74529065",
+      "label": "Universidad Nacional del Litoral, Facultad de Humanidades y Ciencias",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q100927381",
+      "label": "Yorker International University",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q114878252",
+      "label": "Universidad Tecnológica Nacional, Facultad Regional Buenos Aires",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117788390",
+      "label": "Universidad del Este",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q120204388",
+      "label": "National Technological University – Neuquén Regional Faculty",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130242675",
+      "label": "Academia Politécnica e Escola Medico Cirúrgica",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130387568",
+      "label": "Delta's National University",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135403130",
+      "label": "Universidade Moderna",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29671",
+      "label": "University of Aveiro",
+      "aliases": [],
+      "sitelinks": 18
+    }
+  ]
+}

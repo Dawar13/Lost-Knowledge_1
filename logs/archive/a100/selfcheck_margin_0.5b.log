@@ -1,0 +1,25 @@
+[gpu] 18.0 GiB free of 79.2 GiB; this job is capped at 6.7 GiB, leaving at least 11.4 GiB for others
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 3379.82it/s]
+[selfcheck] shipped_hf   tamil_poets                distinct  263 exact-unreachable  33 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   kerala_rivers              distinct   18 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   tamilnadu_hindu_temples    distinct   83 exact-unreachable  11 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   japanese_novelists         distinct   95 exact-unreachable  21 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   nepal_mountains            distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   brazil_universities        distinct   20 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   finland_lakes              distinct   80 exact-unreachable   8 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   nigerian_painters          distinct  250 exact-unreachable  19 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   bengali_film_directors     distinct  156 exact-unreachable   5 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   assamese_writers           distinct  218 exact-unreachable  18 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] shipped_hf   us_state_capitals          distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     tamil_poets                distinct  472 exact-unreachable  10 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  305 exact-unreachable   8 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  389 exact-unreachable   4 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct  354 exact-unreachable  10 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct   33 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     brazil_universities        distinct  236 exact-unreachable   5 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  399 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  491 exact-unreachable  12 robust @0.25:3 @0.5:1 @0.75:1 @1.0:1 @1.5:1
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  450 exact-unreachable   7 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  474 exact-unreachable   4 robust @0.25:1 @0.5:1 @0.75:1 @1.0:1 @1.5:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct   13 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0
+[selfcheck] TOTAL distinct 4802 exact-unreachable 180 robust @0.25:8 @0.5:2 @0.75:2 @1.0:2 @1.5:1 in 4.2 min (a margin passes when its robust count is 0)

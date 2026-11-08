@@ -1,0 +1,2949 @@
+{
+  "key": "3da724ff38dc77e0",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q3918 ; wdt:P17 wd:Q155 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:26:59Z",
+  "rows": [
+    {
+      "qid": "Q7894374",
+      "label": "Federal University of Mato Grosso",
+      "aliases": [
+        "UFMT",
+        "Universidade Federal de Mato Grosso"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7894375",
+      "label": "Universidade Federal de Goiás",
+      "aliases": [
+        "Federal University of Goiás",
+        "Universidade Federal de Goias"
+      ],
+      "sitelinks": 82
+    },
+    {
+      "qid": "Q7894373",
+      "label": "Federal University of Juiz de Fora",
+      "aliases": [
+        "Universidade Federal de Juiz de Fora",
+        "UFJF"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894378",
+      "label": "Universidade Federal de Roraima",
+      "aliases": [
+        "Federal University of Roraima"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894376",
+      "label": "Federal University of Pelotas",
+      "aliases": [
+        "Universidade Federal de Pelotas",
+        "Universidade Federal de Pelotas (UFPel)"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894377",
+      "label": "Federal University of Rondônia",
+      "aliases": [
+        "Universidade Federal de Rondônia",
+        "Universidade Federal de Rondonia"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894382",
+      "label": "Universidade Federal do Pampa",
+      "aliases": [
+        "Federal University of Pampa",
+        "Unipampa"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894383",
+      "label": "Universidade Federal do Vale do São Francisco",
+      "aliases": [
+        "Federal University of São Francisco Valley"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7894381",
+      "label": "Federal University of Amapá",
+      "aliases": [
+        "UNIFAP",
+        "Universidade Federal do Amapá"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894387",
+      "label": "Methodist University of São Paulo",
+      "aliases": [
+        "UMESP"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894384",
+      "label": "Universidade Feevale",
+      "aliases": [
+        "Feevale University"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894385",
+      "label": "Universidade Livre de Música",
+      "aliases": [
+        "Universidade Livre de Musica"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7894362",
+      "label": "Universidade Cândido Mendes",
+      "aliases": [
+        "UCAM",
+        "Universidade Candido Mendes"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894363",
+      "label": "Universidade Estadual do Vale do Acaraú",
+      "aliases": [
+        "Universidade Estadual do Vale do Acarau"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894360",
+      "label": "Catholic University of Petropolis",
+      "aliases": [
+        "Universidade Católica de Petrópolis"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7894361",
+      "label": "Catholic University of Salvador",
+      "aliases": [
+        "Universidade Catolica do Salvador"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894366",
+      "label": "Ceará State University",
+      "aliases": [
+        "Universidade Estadual do Ceara"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894364",
+      "label": "State University of Londrina",
+      "aliases": [
+        "UEL",
+        "Universidade Estadual de Londrina"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7894365",
+      "label": "Universidade Estadual de Maringá (UEM)",
+      "aliases": [
+        "UEM",
+        "State University of Maringá",
+        "Universidade Estadual de Maringa"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894370",
+      "label": "Federal University of Fronteira Sul",
+      "aliases": [
+        "Federal University of the Southern Frontier",
+        "Fronteira Sul Federal University",
+        "Southern Frontier Federal University"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7894371",
+      "label": "Federal University of Grande Dourados",
+      "aliases": [
+        "UFGD"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894368",
+      "label": "Federal Rural University of Pernambuco",
+      "aliases": [
+        "Universidade Federal Rural de Pernambuco"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7894369",
+      "label": "Universidade Federal Rural do Semi-Árido",
+      "aliases": [
+        "ESAM",
+        "Federal Rural University of Semi-Árido",
+        "Superior School of Agronomy of Mossoró",
+        "ufersa",
+        "UFERSA",
+        "Universidade Federal Rural do Semi-Arido"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894372",
+      "label": "Federal University of Itajubá",
+      "aliases": [
+        "Escola Federal de Engenharia de Itajubá",
+        "Universidade Federal de Itajuba"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10387862",
+      "label": "Universidade Regional Integrada do Alto Uruguai e das Missões",
+      "aliases": [
+        "Universidade Regional Integrada do Alto Uruguai e das Missões (URI)"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387864",
+      "label": "Regional University of Cariri",
+      "aliases": [
+        "Universidade Regional do Cariri",
+        "URCA"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10387869",
+      "label": "Universidade Salvador",
+      "aliases": [
+        "UNIFACS",
+        "UNIFACS Bahia"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387874",
+      "label": "University of Vassouras",
+      "aliases": [
+        "Universidade de Vassouras"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387872",
+      "label": "Universidade São Francisco",
+      "aliases": [
+        "University of San Francisco",
+        "USF"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387879",
+      "label": "Universidade Tuiuti do Paraná",
+      "aliases": [
+        "Tuiuti University of Paraná"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387877",
+      "label": "Universidade Tiradentes",
+      "aliases": [
+        "Tiradentes University",
+        "UNIT"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387883",
+      "label": "Vila Velha University",
+      "aliases": [
+        "UVV"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387886",
+      "label": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira",
+      "aliases": [
+        "University for International Integration of the Afro-Brazilian Lusophony"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10387891",
+      "label": "Universidade de Fortaleza",
+      "aliases": [
+        "Universidade de Fortaleza, Fundação Edson Queiroz"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10387888",
+      "label": "Universidade da Região de Joinville",
+      "aliases": [
+        "Univille"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387830",
+      "label": "Federal University of Espírito Santo",
+      "aliases": [
+        "Ufes",
+        "UFES",
+        "Universidade Federal do Espírito Santo"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q10387831",
+      "label": "Federal University of Western Bahia",
+      "aliases": [
+        "Universidade Federal do Oeste da Bahia"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387829",
+      "label": "Universidade Federal do Acre",
+      "aliases": [
+        "Federal University of Acre",
+        "UFAC"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q10387834",
+      "label": "Federal University of Southern Bahia",
+      "aliases": [
+        "UFSB",
+        "Universidade Federal do Sul da Bahia"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387835",
+      "label": "Federal University of South and Southeast of Pará",
+      "aliases": [
+        "UNIFESSPA"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10387833",
+      "label": "Universidade Federal do Oeste do Pará",
+      "aliases": [
+        "UFOPA"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387836",
+      "label": "Federal University of the Valleys of Jequitinhonha and Mucuri",
+      "aliases": [
+        "UFVJM"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10387837",
+      "label": "Federal University of Triângulo Mineiro",
+      "aliases": [
+        "UFTM",
+        "Universidade Federal do Triângulo Mineiro"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387854",
+      "label": "Universidade Nove de Julho",
+      "aliases": [
+        "UNINOVE"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387852",
+      "label": "Methodist University of Piracicaba",
+      "aliases": [
+        "Unimep",
+        "UNIMEP"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10387857",
+      "label": "Paulista University",
+      "aliases": [
+        "UNIP"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7894390",
+      "label": "Universidade Paranaense",
+      "aliases": [
+        "Unipar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894391",
+      "label": "Universidade Municipal de São Caetano do Sul",
+      "aliases": [
+        "City University of São Caetano do Sul",
+        "Faculdade Municipal de Ciências Econômicas",
+        "Instituto Municipal de Ensino Superior de São Caetano do Sul",
+        "Sao Caetano do Sul Municipal University"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894388",
+      "label": "Universidade Norte do Paraná",
+      "aliases": [
+        "Norte do Paraná University",
+        "Universidade Norte do Parana"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7894394",
+      "label": "Universidade Santa Úrsula",
+      "aliases": [
+        "Universidade Santa Ursula",
+        "University of Santa Úrsula"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7894392",
+      "label": "Universidade Positivo",
+      "aliases": [
+        "Positive University"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7894399",
+      "label": "University of Pernambuco",
+      "aliases": [
+        "UPE",
+        "Universidade de Pernambuco"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894396",
+      "label": "Universidade São Judas Tadeu",
+      "aliases": [
+        "USJT"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894397",
+      "label": "University of Cruz Alta",
+      "aliases": [
+        "UNICRUZ"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894400",
+      "label": "Universidade de Santa Cruz do Sul",
+      "aliases": [
+        "UNISC"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7894404",
+      "label": "Universidade de Taubaté",
+      "aliases": [
+        "Universidade de Taubate",
+        "University of Taubaté"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894410",
+      "label": "University of Vale do Rio dos Sinos",
+      "aliases": [
+        "Unisinos",
+        "Universidade do Vale do Rio dos Sinos",
+        "Universidade do Vale do Rio dos Sinos (UNISINOS)"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894998",
+      "label": "University do Vale do Paraíba",
+      "aliases": [
+        "University do Vale do Paraiba",
+        "University of Paraíba Valley"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7895570",
+      "label": "University of Itaúna",
+      "aliases": [
+        "University of Itauna"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7896773",
+      "label": "University of the State of Amazonas",
+      "aliases": [
+        "UEA"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q593710",
+      "label": "Universidade Federal de São João del-Rei",
+      "aliases": [
+        "Federal University of São João del-Rei",
+        "UFSJ"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q600634",
+      "label": "Pontifícia Universidade Católica do Rio Grande do Sul",
+      "aliases": [
+        "Pontificia Universidade Catolica do Rio Grande do Sul",
+        "PUCRS"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q766447",
+      "label": "Federal University of Rio Grande do Sul",
+      "aliases": [
+        "Federal University of Rio Grande Del Sol",
+        "UFRGS",
+        "UFRGS (Federal University of Rio Grande do Sul)",
+        "Universidade Federal do Rio Grande do Sul"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q835960",
+      "label": "University of São Paulo",
+      "aliases": [
+        "Universidade de São Paulo",
+        "Federal University of Sao Paulo",
+        "Universidade de Sao Paulo",
+        "Universidade de Sâo Paulo",
+        "University of Sao Paulo"
+      ],
+      "sitelinks": 43
+    },
+    {
+      "qid": "Q839900",
+      "label": "Pontifícia Universidade Católica de Campinas",
+      "aliases": [
+        "Pontifical Catholic University of Campinas",
+        "Pontificia Universidade Catolica de Campinas",
+        "PUC-Campinas"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q923610",
+      "label": "Pontifícia Universidade Católica de Minas Gerais",
+      "aliases": [
+        "Pontifical Catholic University of Minas Gerais",
+        "Pontificia Universidade Catolica de Minas Gerais"
+      ],
+      "sitelinks": 96
+    },
+    {
+      "qid": "Q945699",
+      "label": "Universidade Federal do Piauí",
+      "aliases": [
+        "UFPI",
+        "Federal University of Piauí"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q1131055",
+      "label": "Universidade Tecnológica Federal do Paraná",
+      "aliases": [
+        "CEFET-Paraná",
+        "Federal Technological University of Parana",
+        "Federal Technological University of Paraná",
+        "Universidade Tecnologica Federal do Parana",
+        "UTFPR"
+      ],
+      "sitelinks": 26
+    },
+    {
+      "qid": "Q119875627",
+      "label": "Escola Médico-Cirúrgica de Porto Alegre",
+      "aliases": [
+        "Medical-Surgical School of Porto Alegre"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q121967139",
+      "label": "Instituto de Ensino Teológico Bíblico do Brasil",
+      "aliases": [
+        "Private non-profit college in Brasilia, Federal District"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q126415696",
+      "label": "State University of the Centre-West",
+      "aliases": [
+        "UNICENTRO"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q130321702",
+      "label": "Centro Universitário Vale do Salgado",
+      "aliases": [
+        "UNIVS"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137080043",
+      "label": "Federal Indigenous University",
+      "aliases": [
+        "Universidade Federal Indígena"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387894",
+      "label": "Universidade de Franca",
+      "aliases": [
+        "UNIFRAN",
+        "University of Franca"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387895",
+      "label": "Universidade de Mogi das Cruzes",
+      "aliases": [
+        "University of Mogi das Cruzes"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387899",
+      "label": "Universidade de Ribeirão Preto",
+      "aliases": [
+        "University of Ribeirão Preto"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387902",
+      "label": "Universidade de Santo Amaro",
+      "aliases": [
+        "UNISA",
+        "University of Santo Amaro"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387905",
+      "label": "University of Uberaba",
+      "aliases": [
+        "UNIUBE"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387910",
+      "label": "Bahia State University",
+      "aliases": [
+        "UNEB"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387911",
+      "label": "Universidade do Estado de Mato Grosso",
+      "aliases": [
+        "Mato Grosso State University",
+        "UNEMAT"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387915",
+      "label": "University of Western São Paulo",
+      "aliases": [
+        "Universidade do Oeste Paulista"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387913",
+      "label": "Universidade do Estado do Rio Grande do Norte",
+      "aliases": [
+        "UERN"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10387952",
+      "label": "Virtual University of the State of São Paulo",
+      "aliases": [
+        "Univesp"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q14932567",
+      "label": "UniÍtalo",
+      "aliases": [
+        "Centro Universitário Ítalo Brasileiro",
+        "IEPAC"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q16487677",
+      "label": "Marak'anà Village",
+      "aliases": [
+        "Museu do Índio",
+        "Maracanã Village"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16496749",
+      "label": "Centro Universitário Barão de Mauá",
+      "aliases": [
+        "CBM"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18370083",
+      "label": "Centro Universitário das Faculdades Metropolitanas Unidas",
+      "aliases": [
+        "FMU"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18370088",
+      "label": "Centro Universitário de Belo Horizonte",
+      "aliases": [
+        "UniBH"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18467811",
+      "label": "City University of Sao Paulo",
+      "aliases": [
+        "UNICID",
+        "Universidade Cidade de São Paulo (UNICID)"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18467859",
+      "label": "Universidade Sagrado Coração",
+      "aliases": [
+        "Universidade do Sagrado Coração"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18467869",
+      "label": "University of Cuiabá",
+      "aliases": [
+        "UNIC"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18467872",
+      "label": "University of Grande Rio",
+      "aliases": [
+        "Universidade do Grande Rio"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18479663",
+      "label": "Fundação Educacional do Município de Assis",
+      "aliases": [
+        "Assis City Educational Foundation",
+        "Assis Municipal Institute of Higher Education",
+        "FEMA",
+        "IMESA"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q18484169",
+      "label": "Centro Universitário Octávio Bastos",
+      "aliases": [
+        "UNIFEOB"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18484184",
+      "label": "Centro Universitário de Caratinga",
+      "aliases": [
+        "UNEC"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484195",
+      "label": "Centro Universitário de Franca",
+      "aliases": [
+        "Uni-FACEF Centro Universitário de Franca"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484212",
+      "label": "Universidade Cesumar",
+      "aliases": [
+        "Centro Universitário de Maringá",
+        "UniCesumar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18484232",
+      "label": "Centro Universitário de Várzea Grande",
+      "aliases": [
+        "UNIVAG"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9726305",
+      "label": "Centro Universitário - Católica de Santa Catarina",
+      "aliases": [
+        "Catholic University of Santa Catarina",
+        "Centro Universitário - Católica de Santa Catarina em Jaraguá do Sul",
+        "Centro Universitário de Jaraguá do Sul"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9726533",
+      "label": "University Center Candido Rondon",
+      "aliases": [
+        "UNIRONDON"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9726572",
+      "label": "Centro Universitário Euroamericano",
+      "aliases": [
+        "Unieuro",
+        "UNIEURO"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q9726904",
+      "label": "University Center Grande Dourados",
+      "aliases": [
+        "UNIGRAN"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9727195",
+      "label": "Ceuma University",
+      "aliases": [
+        "University Centre of Maranhão"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10278991",
+      "label": "FAE University Center",
+      "aliases": [
+        "Centro Universitário Franciscano do Paraná"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10279228",
+      "label": "Centro Universitário Católica de Quixadá",
+      "aliases": [
+        "UniCatólica",
+        "UniCatólica Quixadá"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10279466",
+      "label": "Centro Universitario da FEI",
+      "aliases": [
+        "Centro Universitário da FEI",
+        "Faculty of Industrial Engineering",
+        "Faculty of Information Technology",
+        "Superior School of Business Administration"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10279646",
+      "label": "University Center of the Ipojuca Valley",
+      "aliases": [
+        "UNIFAVIP"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10286399",
+      "label": "Santo André Foundation",
+      "aliases": [
+        "FSA",
+        "CUFSA",
+        "Fundação Santo André"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484239",
+      "label": "Centro Universitário do Norte",
+      "aliases": [
+        "UniNorte"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484241",
+      "label": "Centro Universitário do Estado do Pará",
+      "aliases": [
+        "CESUPA"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18484245",
+      "label": "Centro Universitário do Triângulo",
+      "aliases": [
+        "UNITRI"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q20061641",
+      "label": "Federal Rural University of Amazonia",
+      "aliases": [
+        "UFRA"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q29178015",
+      "label": "Centro Universitário do Cerrado Patrocínio",
+      "aliases": [
+        "UNICERP"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q48862354",
+      "label": "Universidade Estadual da Região Tocantina do Maranhão",
+      "aliases": [
+        "UEMASUL"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q51882866",
+      "label": "Universidade Federal de Catalão",
+      "aliases": [
+        "UFCat"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q51882865",
+      "label": "Federal University of Jataí",
+      "aliases": [
+        "UFJ"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q52635439",
+      "label": "Christus University",
+      "aliases": [
+        "unichristus"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q54864274",
+      "label": "Centro Universitário de Jaguariúna",
+      "aliases": [
+        "Faculdade de Jaguariúna",
+        "UniFAJ"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55662412",
+      "label": "University Center of Rio Grande do Norte",
+      "aliases": [
+        "Centro Universitário do Rio Grande do Norte"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q56695176",
+      "label": "Universidade Federal da Bahia",
+      "aliases": [
+        "Federal University of Bahia"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q56846775",
+      "label": "Faculdade Infnet",
+      "aliases": [
+        "Infnet"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q74537522",
+      "label": "Universidade do Estado de Santa Catarina, Centro de Ciências Humanas e da Educação",
+      "aliases": [
+        "UDESC"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q99429590",
+      "label": "Campus Santana",
+      "aliases": [
+        "CSTN"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q106472328",
+      "label": "UCEFF",
+      "aliases": [
+        "Unidade Central De Educacao UCEFF"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q106548222",
+      "label": "Universidade Federal do Norte do Tocantins",
+      "aliases": [
+        "Federal University of Northern Tocantins"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q112876760",
+      "label": "Centro Universitário Santa Cruz de Curitiba",
+      "aliases": [
+        "UniSantaCruz"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q115617236",
+      "label": "Ouro Preto Mining School",
+      "aliases": [
+        "Mining School – Mineralogical Museum",
+        "Mining School of Ouro Preto"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q1131088",
+      "label": "Pontifical Catholic University of Paraná",
+      "aliases": [
+        "Pontificia Universidade Catolica do Parana",
+        "Pontifícia Universidade Católica do Paraná",
+        "PUC Parana",
+        "PUC Paraná",
+        "PUC-PR",
+        "PUCPR"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q1232831",
+      "label": "Universidade Federal do Paraná",
+      "aliases": [
+        "Federal University of Parana",
+        "Federal University of Paraná",
+        "Paraná Federal University",
+        "UFPR",
+        "Universidade Federal do Parana"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q1317163",
+      "label": "Aeronautics Institute of Technology",
+      "aliases": [
+        "ITA",
+        "Aeronautical Technological Institute",
+        "Instituto Tecnologico de Aeronautica"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q1330634",
+      "label": "University of Brasília",
+      "aliases": [
+        "UnB",
+        "Universidade de Brasília",
+        "University of Brasilia"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q1532146",
+      "label": "Jesuit School of Philosophy and Theology",
+      "aliases": [
+        "Faculdade Jesuíta de Filosofia e Teologia"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q1736410",
+      "label": "Universidade Católica de Santos",
+      "aliases": [
+        "Catholic University of Santos",
+        "Universidade Catolica de Santos"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q1815994",
+      "label": "Pontifícia Universidade Católica de São Paulo",
+      "aliases": [
+        "Pontifical Catholic University of São Paulo",
+        "Pontificia Universidade Católica de São Paulo",
+        "PUC SP",
+        "PUC-SP",
+        "PUC/SP",
+        "PUCSP"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1850416",
+      "label": "Museu Nacional",
+      "aliases": [
+        "MNRJ",
+        "Museu Nacional / UFRJ",
+        "Museu Nacional/Universidade Federal do Rio de Janeiro",
+        "National Museum of Brazil",
+        "National Museum of the UFRJ, in Brazil",
+        "National Museum of the UFRJ, in Rio de Janeiro, Brazil"
+      ],
+      "sitelinks": 45
+    },
+    {
+      "qid": "Q1851075",
+      "label": "Universidade Federal de Santa Catarina",
+      "aliases": [
+        "Federal University of Santa Catarina",
+        "Santa Catarina Federal University",
+        "UFSC",
+        "Universidade Federal de Santa Catarina (UFSC)"
+      ],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q10387814",
+      "label": "State University of Santa Cruz",
+      "aliases": [
+        "Santa Cruz State University",
+        "UESC",
+        "Universidade Estadual de Santa Cruz"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q10387813",
+      "label": "State University of Roraima",
+      "aliases": [
+        "Universidade Estadual de Roraima"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387818",
+      "label": "Universidade Estadual do Norte do Paraná",
+      "aliases": [
+        "Norte do Paraná State University",
+        "UENP"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387816",
+      "label": "State University of Amapá",
+      "aliases": [
+        "UEAP"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387817",
+      "label": "State University of Maranhão",
+      "aliases": [
+        "UEMA"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387822",
+      "label": "Universidade Fundação Mineira de Educação e Cultura",
+      "aliases": [
+        "FUMEC",
+        "FUMEC University",
+        "Fundação Mineira de Educação e Cultura",
+        "Universidade FUMEC"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q10387826",
+      "label": "Federal University of Lavras",
+      "aliases": [
+        "UFLA",
+        "Universidade Federal de Lavras"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10387824",
+      "label": "Federal University of Cariri",
+      "aliases": [
+        "UFCA",
+        "Universidade Federal do Cariri"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10302556",
+      "label": "Instituto Infnet",
+      "aliases": [
+        "Infnet"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387639",
+      "label": "UniEvangélica",
+      "aliases": [
+        "Centro Universitário de Anápolis",
+        "UniEVANGELICA",
+        "University Center of Anápolis"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10387640",
+      "label": "Uniararas",
+      "aliases": [
+        "Fundação Hermínio Ometto"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10387641",
+      "label": "Uniandrade",
+      "aliases": [
+        "Centro Universitário Campos de Andrade (Uniandrade)"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10387654",
+      "label": "University of Taquari Valley",
+      "aliases": [
+        "Centro Universitário Univates",
+        "UNIVATES"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387775",
+      "label": "Universidade Braz Cubas",
+      "aliases": [
+        "Brazcubas Educação"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387773",
+      "label": "Anhanguera-Uniderp University",
+      "aliases": [
+        "Universidade Anhanguera-Uniderp"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387810",
+      "label": "Goiás State University",
+      "aliases": [
+        "UEG"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387811",
+      "label": "Mato Grosso do Sul State University",
+      "aliases": [
+        "UEMS",
+        "Universidade Estadual de Mato Grosso do Sul"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387809",
+      "label": "Universidade Estadual de Ciências da Saúde de Alagoas",
+      "aliases": [
+        "LLema  Scientiae et Saluti",
+        "UNCISA"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387812",
+      "label": "Montes Claros State University",
+      "aliases": [
+        "State University of Montes Claros",
+        "Unimontes",
+        "Universidade Estadual de Montes Claros"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3011938",
+      "label": "Federal University of the State of Rio de Janeiro",
+      "aliases": [
+        "Universidade Federal do Estado do Rio de Janeiro",
+        "UNIRIO"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3057944",
+      "label": "Preparatory School of the Brazilian Army",
+      "aliases": [
+        "Escola Preparatória de Cadetes do Exército"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3551407",
+      "label": "Federal University of ABC",
+      "aliases": [
+        "UFABC",
+        "Universidade Federal do ABC"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3551513",
+      "label": "University Adventist Center of São Paulo",
+      "aliases": [
+        "IASP",
+        "Iasp",
+        "Unasp",
+        "UNASP"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3551702",
+      "label": "Universidade do Estado de Santa Catarina",
+      "aliases": [
+        "Santa Catarina State University",
+        "State University of Santa Catarina",
+        "UDESC",
+        "Universidade do Estado de Santa Catarina (UDESC)"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3551820",
+      "label": "Pontifícia Universidade Católica de Goiás",
+      "aliases": [
+        "Pontifical Catholic University of Goiás",
+        "Pontificia Universidade Catolica de Goias",
+        "PUC-Goiás"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3790133",
+      "label": "Universidade Federal de Santa Maria",
+      "aliases": [
+        "Federal University of Santa Maria",
+        "UFSM",
+        "Universidade Federal de Santa Maria (UFSM)"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3847505",
+      "label": "Federal University of Rio Grande do Norte",
+      "aliases": [
+        "UFRN"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q132140",
+      "label": "Federal University of Minas Gerais",
+      "aliases": [
+        "UFMG",
+        "Universidade Federal de Minas Gerais"
+      ],
+      "sitelinks": 105
+    },
+    {
+      "qid": "Q156406",
+      "label": "State University of Feira de Santana",
+      "aliases": [
+        "UEFS"
+      ],
+      "sitelinks": 103
+    },
+    {
+      "qid": "Q159102",
+      "label": "Federal University of Bahia",
+      "aliases": [
+        "UFBA",
+        "University of Bahia"
+      ],
+      "sitelinks": 104
+    },
+    {
+      "qid": "Q159106",
+      "label": "Federal University of Science and Innovation of Minas Gerais",
+      "aliases": [
+        "Cefet-MG",
+        "CEFET-MG",
+        "Federal Center for Technological Education of Minas Gerais",
+        "UFCI",
+        "UFCI-MG",
+        "UFCI/MG",
+        "UFCIMG"
+      ],
+      "sitelinks": 104
+    },
+    {
+      "qid": "Q280247",
+      "label": "Fluminense Federal University",
+      "aliases": [
+        "UFF",
+        "Universidade Federal Fluminense"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q586904",
+      "label": "Federal University of Rio de Janeiro",
+      "aliases": [
+        "UFRJ",
+        "Universidade Federal do Rio de Janeiro",
+        "Universidade Federal do Rio de Janeiro (UFRJ)",
+        "University of Brazil",
+        "University of Rio de Janeiro"
+      ],
+      "sitelinks": 42
+    },
+    {
+      "qid": "Q1857293",
+      "label": "Pontifical Catholic University of Rio de Janeiro",
+      "aliases": [
+        "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+        "PUC-Rio"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q2036836",
+      "label": "Federal University of Health Sciences of Porto Alegre",
+      "aliases": [
+        "Health Sciences Federal University of Porto Alegre",
+        "UFCSPA"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q2043612",
+      "label": "Anhembi Morumbi University",
+      "aliases": [
+        "Universidade Anhembi Morumbi"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2060678",
+      "label": "University of Campinas",
+      "aliases": [
+        "Universidade Estadual de Campinas",
+        "State University of Campinas",
+        "UNICAMP",
+        "Universidade de Campinas"
+      ],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q2091986",
+      "label": "Estácio de Sá University",
+      "aliases": [
+        "Estácio de Sá University",
+        "Estacio Universities",
+        "Estácio Universities",
+        "Universidade Estácio de Sá",
+        "Universidade Estácio de Sá (UNESA)"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2322256",
+      "label": "Federal University of Pernambuco",
+      "aliases": [
+        "UFPE",
+        "Universidade Federal de Pernambuco"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q2495760",
+      "label": "State University of Minas Gerais",
+      "aliases": [
+        "Minas Gerais State University",
+        "UEMG",
+        "Universidade do Estado de Minas Gerais"
+      ],
+      "sitelinks": 102
+    },
+    {
+      "qid": "Q2495772",
+      "label": "Universidade do Sul de Santa Catarina",
+      "aliases": [
+        "Santa Catarina South University",
+        "UNISUL",
+        "Unisul University",
+        "University of South of Santa Catarina"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2749558",
+      "label": "Universidade Federal do Ceará",
+      "aliases": [
+        "UFC",
+        "Ceará Federal University",
+        "Federal University of Ceara",
+        "Federal University of Ceará",
+        "Universidade Federal do Ceara"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q2840233",
+      "label": "Rio de Janeiro State University",
+      "aliases": [
+        "Universidade do Estado do Rio de Janeiro",
+        "State University of Rio de Janeiro",
+        "UERJ"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7603637",
+      "label": "State University of West Paraná",
+      "aliases": [
+        "State University of West Parana",
+        "Western Paraná State University"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7834196",
+      "label": "Federal Rural University of Rio de Janeiro",
+      "aliases": [
+        "UFRRJ",
+        "Universidade Federal Rural do Rio de Janeiro"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7894353",
+      "label": "Dom Bosco Catholic University",
+      "aliases": [
+        "UCDB",
+        "Universidade Catolica Dom Bosco"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894359",
+      "label": "Universidade Católica de Brasília",
+      "aliases": [
+        "Catholic University of Brasília",
+        "Universidade Catolica de Brasilia"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894356",
+      "label": "Catholic University of Pernambuco",
+      "aliases": [
+        "Universidade Catolica de Pernambuco"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894357",
+      "label": "Universidade Católica de Pelotas",
+      "aliases": [
+        "Catholic University of Pelotas",
+        "Universidade Catolica de Pelotas"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4958754",
+      "label": "Brazilian Naval School",
+      "aliases": [
+        "Brazilian Naval Academy"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4984567",
+      "label": "Universidade Estadual da Paraíba",
+      "aliases": [
+        "Paraiba State University",
+        "Paraíba State University",
+        "State University of Paraiba",
+        "State University of Paraíba",
+        "UEPB",
+        "Universidade Estadual da Paraiba"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5062887",
+      "label": "Centro Universitário Eurípedes de Marília",
+      "aliases": [
+        "Centro Universitario Euripedes de Marilia",
+        "Fundação de Ensino Eurípides Soares da Rocha"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5062890",
+      "label": "Centro Universitário Ritter dos Reis",
+      "aliases": [
+        "Centro Universitario Ritter dos Reis"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5062888",
+      "label": "Franciscan University",
+      "aliases": [
+        "UFN",
+        "Centro Universitario Franciscano",
+        "Universidade Franciscana",
+        "Unifra"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5397345",
+      "label": "Luiz de Queiroz College of Agriculture of the University of São Paulo",
+      "aliases": [
+        "ESALQ",
+        "Escola Superior de Agricultura Luiz de Queiroz",
+        "Luiz de Queiroz College of Agriculture",
+        "Luiz de Queiroz College of Agriculture, University of São Paulo"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5428824",
+      "label": "Centro Universitário Uninovafapi",
+      "aliases": [
+        "Centro Universitário da Faculdade de Saúde Ciências Humanas e Tecnológicas do Piauí",
+        "Faculdade Novafapi",
+        "UNINOVAFAPI"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5428833",
+      "label": "Ribeirão Preto School of Philosophy, Science and Literature of the University of São Paulo",
+      "aliases": [
+        "Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto (FFCLRP), Universidade de São Paulo (USP)",
+        "Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto, University of Sao Paulo",
+        "FFCLRP",
+        "FFCLRP-USP"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q3847972",
+      "label": "Escola Superior de Propaganda e Marketing",
+      "aliases": [
+        "ESPM",
+        "School of Higher Education in Advertising and Marketing"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3848464",
+      "label": "Federal University of Campina Grande",
+      "aliases": [
+        "UFCG"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4384447",
+      "label": "Universidade Federal de São Paulo",
+      "aliases": [
+        "Unifesp",
+        "Federal University of São Paulo",
+        "Universidade Federal de Sao Paulo"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q4481798",
+      "label": "Universidade Federal do Tocantins",
+      "aliases": [
+        "UFT",
+        "Federal University of Tocantins"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4504755",
+      "label": "University of the Amazon",
+      "aliases": [
+        "Universidade da Amazonia"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4558480",
+      "label": "Universidade Federal do Pará",
+      "aliases": [
+        "Federal University of Para",
+        "Federal University of Pará",
+        "UFPA",
+        "Universidade Federal do Para"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4562501",
+      "label": "Universidade do Estado do Pará",
+      "aliases": [
+        "UEPA",
+        "State University of Para",
+        "State University of Pará",
+        "Universidade do Estado do Para"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4764337",
+      "label": "Anhanguera Educacional",
+      "aliases": [
+        "Anhanguera",
+        "Anhanguera Educacional Participações S.A.",
+        "Faculdade Anhanguera",
+        "Anhanguera Educacação",
+        "Aedu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5428845",
+      "label": "Faculdade de Telêmaco Borba",
+      "aliases": [
+        "Faculdade de Telemaco Borba"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5440475",
+      "label": "Universidade Federal de Alagoas",
+      "aliases": [
+        "Federal University of Alagoas",
+        "UFAL"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5440478",
+      "label": "Universidade Federal de Mato Grosso do Sul",
+      "aliases": [
+        "UFMS",
+        "Federal University of Mato Grosso do Sul"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5440476",
+      "label": "Universidade Federal do Amazonas",
+      "aliases": [
+        "Federal University of Amazonas",
+        "UFAM"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5440477",
+      "label": "Federal University of Maranhão",
+      "aliases": [
+        "UFMA",
+        "Universidade Federal do Maranhão"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5440482",
+      "label": "Universidade Federal de São Carlos",
+      "aliases": [
+        "Federal University of São Carlos",
+        "Federal University of São Carlos (UFSCAR)",
+        "UFSCar"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5440489",
+      "label": "Federal University of Uberlândia",
+      "aliases": [
+        "UFU",
+        "Uberlandia Federal University",
+        "Universidade Federal de Uberlandia",
+        "University of Uberlândia"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5508993",
+      "label": "Fundação Armando Alvares Penteado",
+      "aliases": [
+        "FAAP",
+        "Armando Alvares Penteado Foundation",
+        "National Arts Foundation"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5508999",
+      "label": "Federal University of Rio Grande",
+      "aliases": [
+        "Federal University Foundation of Rio Grande",
+        "FURG",
+        "Rio Grande Federal University Foundation",
+        "Universidade Federal do Rio Grande"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5574032",
+      "label": "Universidade Federal da Integração Latino-Americana",
+      "aliases": [
+        "UNILA"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5650092",
+      "label": "Lutheran University of Brazil",
+      "aliases": [
+        "ULBRA"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5814528",
+      "label": "Federal University of Viçosa",
+      "aliases": [
+        "UFV",
+        "The Federal University of Viçosa",
+        "Universidade Federal de Viçosa",
+        "Universidade Federal De Viçosa",
+        "Universidade Federal de Viçosa (UFV)"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5984146",
+      "label": "Ibmec",
+      "aliases": [
+        "Brazilian Institute of Capital Markets"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6013669",
+      "label": "Brazilian National Telecommunications Institute",
+      "aliases": [
+        "Inatel"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6041362",
+      "label": "Instituto Mauá de Tecnologia",
+      "aliases": [
+        "Instituto Maua de Tecnologia",
+        "Mauá Institute of Technology"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6614109",
+      "label": "Universidade Federal do Recôncavo da Bahia",
+      "aliases": [
+        "Federal University of Recôncavo da Bahia",
+        "UFRB",
+        "Universidade Federal do Reconcavo da Bahia"
+      ],
+      "sitelinks": 96
+    },
+    {
+      "qid": "Q6741204",
+      "label": "Universidade Federal de Ouro Preto",
+      "aliases": [
+        "Federal University of Ouro Preto"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7161124",
+      "label": "Universidade de Passo Fundo",
+      "aliases": [
+        "UPF",
+        "Universidade de Passo Fundo (UPF)",
+        "University of Passo Fundo"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7228043",
+      "label": "Ponta Grossa State University",
+      "aliases": [
+        "State University of Ponta Grossa",
+        "UEPG",
+        "Universidade Estadual de Ponta Grossa"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7603636",
+      "label": "State University of the Southwest of Bahia",
+      "aliases": [
+        "State University of Southwestern Bahia"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18484215",
+      "label": "Centro Universitário de União da Vitória",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484219",
+      "label": "Centro Universitário de Volta Redonda",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484225",
+      "label": "Centro Universitário de Votuporanga",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484236",
+      "label": "Centro Universitário do Espírito Santo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q19704353",
+      "label": "Centro Universitário La Salle",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20053268",
+      "label": "Centro Universitário do Sul de Minas",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q20053269",
+      "label": "Centro Universitário Geraldo Di Biase",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22066770",
+      "label": "ISAE-Instituto Superior de Administracao e Economia do Mercosul",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22071992",
+      "label": "Departamento de Informática e Estatística da UFSC",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22074094",
+      "label": "UFPEL - Campus Anglo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22074135",
+      "label": "URCAMP - Universidade da Regiao de Campanha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22074136",
+      "label": "Unipampa - Campus Cacapava do Sul",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22074192",
+      "label": "UFPR - Universidade Federal do Parana - Campus III - Centro Politecnico",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22425159",
+      "label": "Estação Experimental de Pesquisa Florestal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22584861",
+      "label": "National Institute of Amazonian Research",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q22618449",
+      "label": "Fundação Zoobotânica",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25421728",
+      "label": "União das Faculdades dos Grandes Lagos",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25429673",
+      "label": "Centro Universitário Claretiano",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q28220933",
+      "label": "Faculdade La Salle",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q28679490",
+      "label": "Federal University of Rondonópolis",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q29168539",
+      "label": "Centro Universitário Filadélfia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29177461",
+      "label": "Centro Universitário da Fundação Educacional Guaxupé",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29177670",
+      "label": "Centro Universitário de Desenvolvimento do Centro Oeste",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29177887",
+      "label": "Centro Universitário Barriga Verde",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29178188",
+      "label": "Centro Universitário Católico Salesiano Auxilium",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29182738",
+      "label": "Centro Universitário de Barra Mansa",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29182797",
+      "label": "Centro Universitário da Fundação Educacional de Barretos",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29183007",
+      "label": "Brusque University Center",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q29183581",
+      "label": "Centro Universitário de Sete Lagoas",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q48867906",
+      "label": "Centro de Ensino Superior de Valença",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q48872000",
+      "label": "Faculdade Canção Nova",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q48876833",
+      "label": "Faculdade Internacional de Teologia Reformada",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q51882842",
+      "label": "Universidade do Distrito Federal Jorge Amaury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q51882893",
+      "label": "Universidade Federal do Agreste de Pernambuco",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q51882897",
+      "label": "Federal University of the Parnaíba Delta",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q54864160",
+      "label": "Centro Universitário Estácio de São Paulo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q54864393",
+      "label": "Ipog - Instituto de Pós-graduação & Graduação",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q54932317",
+      "label": "Faculdades Integradas Campos Salles",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q54932326",
+      "label": "Damásio Educacional",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55662145",
+      "label": "Faculdade Flamingo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55662198",
+      "label": "Centro Universitário Unifafibe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55662564",
+      "label": "Faculdade da Cidade de Maceió",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55663221",
+      "label": "Faculdades Associadas de São Paulo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55663286",
+      "label": "Faculdade de São José dos Campos",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55663340",
+      "label": "Faculdade Instituto Paulista de Ensino",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q56346872",
+      "label": "Faculdade Teológica Sul Brasileira",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q56349615",
+      "label": "Faculdade Teológica Sul Americana",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q56351700",
+      "label": "Faculdade Sumaré",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q56351954",
+      "label": "Centro Universitário Facear",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q56840375",
+      "label": "UniABC",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q56847065",
+      "label": "Universidade do Estado do Amapá",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q64816380",
+      "label": "Faculdade de Ciências de Guarulhos",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q96099605",
+      "label": "School of Economics of the Federal University of Mato Grosso",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q111016957",
+      "label": "Universidade Aberta Capixaba",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q122483104",
+      "label": "Escola de Educação Teológica das Assembléias de Deus",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124022047",
+      "label": "UEMG - Unidade João Monlevade",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131308257",
+      "label": "Sergipe Faculty of Economics",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q136767731",
+      "label": "Faculdade Realiza",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q1373275",
+      "label": "Ipuarana Seminary",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q1817137",
+      "label": "São Paulo State University",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q2495752",
+      "label": "Universidade do Extremo Sul Catarinense",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2865871",
+      "label": "Academia Militar das Agulhas Negras",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3551699",
+      "label": "Universidade do Oeste de Santa Catarina",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q3551714",
+      "label": "Universidade do Vale do Itajaí",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4671101",
+      "label": "Air Force Academy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5013529",
+      "label": "Technical High School of Limeira",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5062914",
+      "label": "Centro de Estudos e Pesquisas Ambientais",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q5392048",
+      "label": "University of Caxias do Sul",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5428830",
+      "label": "Faculdade de Direito do Recife",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5428848",
+      "label": "Faculdades Integradas Rio Branco",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5615688",
+      "label": "Guignard University of Art of Minas Gerais",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6174695",
+      "label": "UNICURITIBA",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6503087",
+      "label": "Law School of Fluminense Federal University",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7603631",
+      "label": "State University of Norte Fluminense",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7894354",
+      "label": "Universidade Bandeirante de São Paulo",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7894380",
+      "label": "Federal University of Sergipe",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7894395",
+      "label": "Mackenzie Presbyterian University",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q9296788",
+      "label": "Escola Superior de Guerra",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q9726404",
+      "label": "Centro Universitário Belas Artes de São Paulo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9726493",
+      "label": "Centro Universitário Celso Lisboa",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q9726803",
+      "label": "Centro Universitário Plínio Leite",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9726859",
+      "label": "Centro Universitário UNA",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q9726872",
+      "label": "University Center of the City of Rio de Janeiro",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q9727031",
+      "label": "Centro Universitário de João Pessoa",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q9727241",
+      "label": "UNIARAXÁ",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q9727309",
+      "label": "Centro Universitário Carioca",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10274350",
+      "label": "Escola Militar do Realengo",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10274380",
+      "label": "Polytechnic School of the Federal University of Bahia",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10274456",
+      "label": "Open University of Brazil",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10279662",
+      "label": "FAESA Centro Universitário",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10279674",
+      "label": "Faculdades Integradas Teresa D´ávila",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10286408",
+      "label": "University of Tocantins",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10302373",
+      "label": "Instituição Toledo de Ensino",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10302508",
+      "label": "Centro Universitário de Itajubá",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10302582",
+      "label": "Instituto Metodista Granbery",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10322350",
+      "label": "METROCAMP",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10351513",
+      "label": "Pontifício Instituto Superior de Direito Canônico no Rio de Janeiro",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10369938",
+      "label": "Seminário Teológico Batista do Sul do Brasil",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387726",
+      "label": "University Center Monte Serrat",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387771",
+      "label": "Universidade do Alto Vale do Rio do Peixe",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387776",
+      "label": "Brasil University",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387777",
+      "label": "Castelo Branco University",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387780",
+      "label": "Universidade Comunitária Regional de Chapecó",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387785",
+      "label": "Universidade Cruzeiro do Sul",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387807",
+      "label": "West Zone State University",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387808",
+      "label": "Universidade Estadual de Alagoas",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387820",
+      "label": "Rio Grande do Sul State University",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387821",
+      "label": "State University of Piauí",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387825",
+      "label": "Federal University of Alfenas",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10387838",
+      "label": "Guarulhos University",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387839",
+      "label": "Gama Filho University",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387840",
+      "label": "Universidade Ibirapuera",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10387841",
+      "label": "Universidade Iguaçu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q10387846",
+      "label": "University Professor Edson Antonio Velano",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387853",
+      "label": "Universidade Metropolitana de Santos",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387863",
+      "label": "Regional University of Blumenau",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387860",
+      "label": "Universidade Potiguar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387861",
+      "label": "Universidade Presidente Antônio Carlos",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387866",
+      "label": "Universidade Regional do Noroeste do Estado do Rio Grande do Sul",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387867",
+      "label": "Universidade Salgado de Oliveira",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387870",
+      "label": "Universidade Santa Cecília",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387871",
+      "label": "Sant'Anna University",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387880",
+      "label": "Universidade Vale do Rio Verde",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387881",
+      "label": "Vale do Rio Doce University",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387884",
+      "label": "Universidade Veiga de Almeida",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387885",
+      "label": "Universidade da Região da Campanha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10387893",
+      "label": "UNIMAR",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387898",
+      "label": "Fundação do Ensino Superior de Rio Verde",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387903",
+      "label": "Centro Universitário Municipal de São José",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387901",
+      "label": "University of Sorocaba",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387906",
+      "label": "University of the Alto Vale do Itajaí",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q10387909",
+      "label": "Universidade do Contestado",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387916",
+      "label": "Universidade do Planalto Catarinense",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10387921",
+      "label": "Universidade do Vale do Sapucaí",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q10388045",
+      "label": "União Latino-Americana de Tecnologia",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16143001",
+      "label": "University Center Fluminense",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16494989",
+      "label": "Centro Universitário Assunção",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q17510474",
+      "label": "College of Amazon",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18164744",
+      "label": "École intuit.lab",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18473998",
+      "label": "Naval College",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18484094",
+      "label": "Centro Universitário Central Paulista",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484092",
+      "label": "Centro Universitário Católico do Sudoeste do Paraná",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484105",
+      "label": "University Center FIEO",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18484127",
+      "label": "Centro Universitário Metodista IPA",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18484131",
+      "label": "Centro Universitário Moura Lacerda",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484135",
+      "label": "Centro Universitário Newton Paiva",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484140",
+      "label": "Nilton Lins University",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484147",
+      "label": "Centro Universitário Nossa Senhora do Patrocínio",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18484150",
+      "label": "Centro Universitário Padre Anchieta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484155",
+      "label": "Senac University Center",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484152",
+      "label": "Centro Universitário Salesiano de São Paulo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484159",
+      "label": "Centro Universitário Serra dos Órgãos",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484163",
+      "label": "Centro Universitário São Camilo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484166",
+      "label": "Centro Universitário Toledo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18484177",
+      "label": "University of Araraquara",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18484191",
+      "label": "Centro Universitário de Formiga",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18484203",
+      "label": "Centro Universitário de Lavras",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q18484209",
+      "label": "Centro Universitário de Lins",
+      "aliases": [],
+      "sitelinks": 2
+    }
+  ]
+}

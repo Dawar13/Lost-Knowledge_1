@@ -1,0 +1,642 @@
+{
+  "key": "a6fcc288c89543db",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q1093829 ; wdt:P1082 ?pop . FILTER(?pop > 250000) } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:28:55Z",
+  "rows": [
+    {
+      "qid": "Q60",
+      "label": "New York City",
+      "aliases": [
+        "New York City, United States",
+        "New York City, United States of America",
+        "New York City, USA",
+        "New York, New York, USA",
+        "NY, NY",
+        "the five boroughs",
+        "City of New York",
+        "Empire City",
+        "Center of the Universe",
+        "New York, NY",
+        "NY City",
+        "New York (city)",
+        "New York, N.Y.",
+        "New York City, New York",
+        "Capital of the World",
+        "city of New York",
+        "N. Y., N. Y.",
+        "New York (NY)",
+        "New York City (NYC)",
+        "New York City, New York, United States",
+        "New York City, NY"
+      ],
+      "sitelinks": 325
+    },
+    {
+      "qid": "Q61",
+      "label": "Washington, D.C.",
+      "aliases": [
+        "The District",
+        "D.C.",
+        "District of Columbia",
+        "D.C. Washington",
+        "Washington, District of Columbia",
+        "City of Washington, D.C.",
+        "Washington City, D.C.",
+        "Nation's Capital (D.C.)",
+        "Federal City (D.C.)"
+      ],
+      "sitelinks": 299
+    },
+    {
+      "qid": "Q62",
+      "label": "San Francisco",
+      "aliases": [
+        "City and County of San Francisco",
+        "Baghdad by the Bay",
+        "Paris of the West",
+        "San Fran",
+        "San Francisco, CA",
+        "San Francisco, Calif.",
+        "San Francisco, California",
+        "SF",
+        "Frisco",
+        "The Golden City",
+        "SFO",
+        "The City by the Bay",
+        "San Francisco County",
+        "San Francisco County, California"
+      ],
+      "sitelinks": 239
+    },
+    {
+      "qid": "Q5083",
+      "label": "Seattle",
+      "aliases": [
+        "Emerald City",
+        "Seattle, Washington",
+        "Duwamps",
+        "New York Alki",
+        "Seattle, WA"
+      ],
+      "sitelinks": 189
+    },
+    {
+      "qid": "Q6346",
+      "label": "Indianapolis",
+      "aliases": [
+        "Indianapolis, IN",
+        "Indy",
+        "Circle City",
+        "Naptown",
+        "Crossroads of America",
+        "Amateur Sports Capital of the World",
+        "India-no-place",
+        "Indianapolis, Ind.",
+        "INDPLS",
+        "Racing Capital of the World",
+        "Railroad City"
+      ],
+      "sitelinks": 164
+    },
+    {
+      "qid": "Q8652",
+      "label": "Miami",
+      "aliases": [
+        "The Magic City",
+        "City of Miami",
+        "Miami, Florida",
+        "Miami, FL"
+      ],
+      "sitelinks": 203
+    },
+    {
+      "qid": "Q34804",
+      "label": "Albuquerque",
+      "aliases": [
+        "Albuquerque, NM",
+        "Albiuquerque, N.M.",
+        "Albiuquerque, NM",
+        "Burque",
+        "La Villa de Alburquerque",
+        "The Duke City"
+      ],
+      "sitelinks": 138
+    },
+    {
+      "qid": "Q34863",
+      "label": "Oklahoma City",
+      "aliases": [
+        "OKC",
+        "Oklahoma City, OK",
+        "Oklahoma City, Oklahoma",
+        "Okla. City",
+        "OK City"
+      ],
+      "sitelinks": 155
+    },
+    {
+      "qid": "Q23556",
+      "label": "Atlanta",
+      "aliases": [
+        "Hotlanta",
+        "Marthasville",
+        "Marthasville, Georgia",
+        "The ATL",
+        "The Big Peach",
+        "Terminus",
+        "Atlanta, GA",
+        "The A"
+      ],
+      "sitelinks": 209
+    },
+    {
+      "qid": "Q23768",
+      "label": "Las Vegas",
+      "aliases": [
+        "Sin City",
+        "City of Las Vegas",
+        "Las Vegas, NV",
+        "The Entertainment Capital of the World",
+        "The Gambling Capital of the World"
+      ],
+      "sitelinks": 197
+    },
+    {
+      "qid": "Q100",
+      "label": "Boston",
+      "aliases": [
+        "Bean Town",
+        "Beantown",
+        "Boston (MA)",
+        "Boston MA, United States",
+        "Boston, MA",
+        "Boston, Mass",
+        "Boston, Mass.",
+        "Boston, Massachusetts, United States",
+        "Boston, Massachusetts, United States of America",
+        "Boston, Massachusetts, US",
+        "Boston, United States",
+        "Boston, USA",
+        "Bostonia",
+        "Capital of Massachusetts",
+        "City of Boston",
+        "Puritan City",
+        "The Athens of America",
+        "The Cradle of Liberty",
+        "The Cradle of Modern America",
+        "The Hub",
+        "The hub of the universe",
+        "The Hub of the Universe",
+        "The Walking City"
+      ],
+      "sitelinks": 217
+    },
+    {
+      "qid": "Q39450",
+      "label": "Anchorage",
+      "aliases": [
+        "Anchorage, AK",
+        "Anchorage, Alaska",
+        "Municipality of Anchorage",
+        "The City of Lights and Flowers"
+      ],
+      "sitelinks": 139
+    },
+    {
+      "qid": "Q41819",
+      "label": "Kansas City",
+      "aliases": [
+        "KC",
+        "K.C.",
+        "Kansas City, Missouri",
+        "Kansas City, MO",
+        "KCMO"
+      ],
+      "sitelinks": 123
+    },
+    {
+      "qid": "Q43199",
+      "label": "Omaha",
+      "aliases": [
+        "Omaha, NE",
+        "Omaha, Nebraska"
+      ],
+      "sitelinks": 126
+    },
+    {
+      "qid": "Q44989",
+      "label": "Tulsa",
+      "aliases": [
+        "Tulsa, OK",
+        "Tulsa, Oklahoma"
+      ],
+      "sitelinks": 110
+    },
+    {
+      "qid": "Q49225",
+      "label": "Reno",
+      "aliases": [
+        "Reno, Nevada",
+        "Reno, NV"
+      ],
+      "sitelinks": 99
+    },
+    {
+      "qid": "Q49229",
+      "label": "Durham",
+      "aliases": [
+        "Durham, NC",
+        "Durham, North Carolina"
+      ],
+      "sitelinks": 79
+    },
+    {
+      "qid": "Q49233",
+      "label": "Orlando",
+      "aliases": [
+        "Orlando, FL",
+        "City of Orlando",
+        "Orlando, Florida",
+        "The Beautiful city",
+        "Theme Park Capital of the World",
+        "Orlando, Fla."
+      ],
+      "sitelinks": 133
+    },
+    {
+      "qid": "Q16554",
+      "label": "Denver",
+      "aliases": [
+        "Queen City of the Plains",
+        "Queen City of the West",
+        "Denver, CO",
+        "City and County of Denver",
+        "Denver, Colorado",
+        "Mile High City"
+      ],
+      "sitelinks": 186
+    },
+    {
+      "qid": "Q16555",
+      "label": "Houston",
+      "aliases": [
+        "Houston TX",
+        "Houston, TX",
+        "Space City",
+        "City of Houston",
+        "H-Town",
+        "USHOU",
+        "Petro metro"
+      ],
+      "sitelinks": 192
+    },
+    {
+      "qid": "Q16558",
+      "label": "Fort Worth",
+      "aliases": [
+        "Fort Worth, Texas",
+        "Cowtown",
+        "Fort Worth, TX",
+        "Ft. Worth, Texas",
+        "Ft. Worth, TX"
+      ],
+      "sitelinks": 130
+    },
+    {
+      "qid": "Q16557",
+      "label": "Dallas",
+      "aliases": [
+        "Big D",
+        "DTX",
+        "D-Town",
+        "Dallas TX",
+        "Dallas, TX",
+        "Dallas, TX."
+      ],
+      "sitelinks": 177
+    },
+    {
+      "qid": "Q16552",
+      "label": "San Diego",
+      "aliases": [
+        "Sandi",
+        "SD",
+        "San Diego, CA",
+        "America's Finest City",
+        "San Diego, Calif.",
+        "San Diego, California",
+        "the birthplace of California"
+      ],
+      "sitelinks": 164
+    },
+    {
+      "qid": "Q49238",
+      "label": "Greensboro",
+      "aliases": [
+        "Greensborough",
+        "Greensboro, NC",
+        "Greensboro, North Carolina",
+        "Greensborough, North Carolina"
+      ],
+      "sitelinks": 84
+    },
+    {
+      "qid": "Q49236",
+      "label": "St. Petersburg",
+      "aliases": [
+        "Saint Petersburg",
+        "St Petersburg",
+        "City of St. Petersburg, Florida",
+        "St Petersburg, Florida",
+        "St. Petersburg, FL",
+        "St. Petersburg, Florida",
+        "Saint Petersburg, FL",
+        "Saint Petersburg, Florida"
+      ],
+      "sitelinks": 97
+    },
+    {
+      "qid": "Q49242",
+      "label": "Corpus Christi",
+      "aliases": [
+        "Corpus Christi, TX",
+        "Corpus Christi, Texas"
+      ],
+      "sitelinks": 94
+    },
+    {
+      "qid": "Q49241",
+      "label": "Lexington",
+      "aliases": [
+        "Lexington-Fayette, KY",
+        "Lexington-Fayette Urban County",
+        "Lexington, Kentucky",
+        "Lexington, KY"
+      ],
+      "sitelinks": 101
+    },
+    {
+      "qid": "Q49246",
+      "label": "Aurora",
+      "aliases": [
+        "Aurora, CO",
+        "Aurora, Colorado",
+        "Aurora, USA"
+      ],
+      "sitelinks": 84
+    },
+    {
+      "qid": "Q16562",
+      "label": "El Paso",
+      "aliases": [
+        "El Paso del Norte",
+        "El Paso, Texas",
+        "El Paso, TX"
+      ],
+      "sitelinks": 122
+    },
+    {
+      "qid": "Q16563",
+      "label": "Memphis",
+      "aliases": [
+        "Memphis, TN"
+      ],
+      "sitelinks": 139
+    },
+    {
+      "qid": "Q16565",
+      "label": "Charlotte",
+      "aliases": [
+        "Charlotte, NC",
+        "Charlotte, North Carolina"
+      ],
+      "sitelinks": 127
+    },
+    {
+      "qid": "Q17042",
+      "label": "Oakland",
+      "aliases": [
+        "City of Oakland",
+        "Oakland, CA",
+        "Oakland, California",
+        "Oaktown"
+      ],
+      "sitelinks": 131
+    },
+    {
+      "qid": "Q17943",
+      "label": "Arlington",
+      "aliases": [
+        "Arlington, Texas",
+        "Arlington, TX"
+      ],
+      "sitelinks": 98
+    },
+    {
+      "qid": "Q18013",
+      "label": "Sacramento",
+      "aliases": [
+        "City of Trees",
+        "River City",
+        "Sac",
+        "Sacramento, CA",
+        "Camellia City",
+        "City of Sacramento",
+        "Sac-Town",
+        "Sacramento, California",
+        "The Big Tomato",
+        "The Capitol City",
+        "The Indomitable City"
+      ],
+      "sitelinks": 176
+    },
+    {
+      "qid": "Q18575",
+      "label": "Tucson",
+      "aliases": [
+        "Tucson, Arizona",
+        "Tucson, AZ",
+        "Chuk Shon",
+        "Cuk Ṣon",
+        "S-cuk Ṣon",
+        "Tucson, Ariz."
+      ],
+      "sitelinks": 124
+    },
+    {
+      "qid": "Q23197",
+      "label": "Nashville",
+      "aliases": [
+        "Metropolitan Government of Nashville and Davidson County",
+        "Nashville–Davidson County",
+        "Nashville, Tenn.",
+        "Nashville, TN"
+      ],
+      "sitelinks": 155
+    },
+    {
+      "qid": "Q36091",
+      "label": "Minneapolis",
+      "aliases": [
+        "Minneapolis, Minnesota",
+        "Minneapolis, MN"
+      ],
+      "sitelinks": 146
+    },
+    {
+      "qid": "Q28848",
+      "label": "Saint Paul",
+      "aliases": [
+        "St Paul",
+        "St. Paul",
+        "St. Paul, MN",
+        "Saint Paul, Minnesota",
+        "Saint Paul, MN",
+        "Saint Paul, Ramsey, Minnesota, United States",
+        "St Paul, Minnesota",
+        "St. Paul, Minnesota"
+      ],
+      "sitelinks": 136
+    },
+    {
+      "qid": "Q34404",
+      "label": "New Orleans",
+      "aliases": [
+        "The Big Easy",
+        "Crescent City"
+      ],
+      "sitelinks": 175
+    },
+    {
+      "qid": "Q28260",
+      "label": "Lincoln",
+      "aliases": [
+        "Lincoln, NE",
+        "Lincoln, Nebraska"
+      ],
+      "sitelinks": 129
+    },
+    {
+      "qid": "Q143782",
+      "label": "North Las Vegas",
+      "aliases": [
+        "North Las Vegas, Nevada",
+        "North Las Vegas, NV"
+      ],
+      "sitelinks": 67
+    },
+    {
+      "qid": "Q49258",
+      "label": "Colorado Springs",
+      "aliases": [
+        "Colorado Springs, CO",
+        "Colorado Springs, Colorado",
+        "Olympic City USA"
+      ],
+      "sitelinks": 115
+    },
+    {
+      "qid": "Q49261",
+      "label": "Mesa",
+      "aliases": [
+        "Mesa City",
+        "Mesa, Arizona",
+        "Mesa, AZ"
+      ],
+      "sitelinks": 97
+    },
+    {
+      "qid": "Q49266",
+      "label": "Wichita",
+      "aliases": [
+        "Wichita, KS",
+        "Wichita, Kansas"
+      ],
+      "sitelinks": 112
+    },
+    {
+      "qid": "Q49267",
+      "label": "Henderson",
+      "aliases": [
+        "Basic Townsite",
+        "Henderson, Nevada",
+        "Henderson, NV"
+      ],
+      "sitelinks": 80
+    },
+    {
+      "qid": "Q49268",
+      "label": "Fort Wayne",
+      "aliases": [
+        "Fort Wayne, IN",
+        "Fort Wayne, Indiana"
+      ],
+      "sitelinks": 96
+    },
+    {
+      "qid": "Q49272",
+      "label": "Chandler",
+      "aliases": [
+        "Chandler, Arizona",
+        "Chandler, AZ"
+      ],
+      "sitelinks": 81
+    },
+    {
+      "qid": "Q49273",
+      "label": "Lubbock",
+      "aliases": [
+        "Lubbock, TX",
+        "Lubbock, Texas"
+      ],
+      "sitelinks": 83
+    },
+    {
+      "qid": "Q51690",
+      "label": "Irving",
+      "aliases": [
+        "Irving, Texas",
+        "Irving, TX"
+      ],
+      "sitelinks": 74
+    },
+    {
+      "qid": "Q51689",
+      "label": "Plano",
+      "aliases": [
+        "Plano, Texas",
+        "Plano, TX"
+      ],
+      "sitelinks": 90
+    },
+    {
+      "qid": "Q37320",
+      "label": "Cleveland",
+      "aliases": [
+        "Cleveland, Ohio",
+        "Cleveland, OH"
+      ],
+      "sitelinks": 139
+    },
+    {
+      "qid": "Q38022",
+      "label": "St. Louis",
+      "aliases": [
+        "STL",
+        "City of St. Louis",
+        "Saint Louis, Missouri",
+        "Saint Louis, MO",
+        "St. Louis City",
+        "St. Louis, Missouri",
+        "St. Louis, MO"
+      ],
+      "sitelinks": 138
+    },
+    {
+      "qid": "Q12439",
+      "label": "Detroit",
+      "aliases": [],
+      "sitelinks": 175
+    }
+  ]
+}

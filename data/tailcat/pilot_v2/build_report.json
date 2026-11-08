@@ -1,0 +1,288 @@
+[
+  {
+    "category": "tamil_poets",
+    "members_all": 146,
+    "min_sitelinks": 2,
+    "members_total": 123,
+    "members_kept": 123,
+    "foils_kept": 184,
+    "sitelinks_median": 5,
+    "sitelinks_max": 64,
+    "example_members": [
+      "Karmegha Konar",
+      "Raja Rajeswari Setha Raman",
+      "Pulamaipithan",
+      "Periyalvar",
+      "Pulavar Kuzhanthai",
+      "A. K. Ramanujan"
+    ],
+    "example_foils": [
+      "Kundurti Anjaneyulu",
+      "M. V. Ramanachari",
+      "Nuggehalli Pankaja",
+      "Addepalli Ramamohana Rao",
+      "Madapati Hanumantha Rao",
+      "Bengaluru Nagarathnamma"
+    ]
+  },
+  {
+    "category": "kerala_rivers",
+    "members_all": 142,
+    "min_sitelinks": 2,
+    "members_total": 102,
+    "members_kept": 102,
+    "foils_kept": 125,
+    "sitelinks_median": 5,
+    "sitelinks_max": 27,
+    "example_members": [
+      "Sindphana River",
+      "Parambikulam River",
+      "Meenkarappuzha",
+      "Punnapuzha River",
+      "Papanasini River",
+      "Ayalurpuzha River"
+    ],
+    "example_foils": [
+      "Kubja River",
+      "Koyna River",
+      "Naga Nathi River",
+      "Arasalar River",
+      "Kowsika river",
+      "Kumaradhara River"
+    ]
+  },
+  {
+    "category": "tamilnadu_hindu_temples",
+    "members_all": 4201,
+    "min_sitelinks": 2,
+    "members_total": 581,
+    "members_kept": 400,
+    "foils_kept": 200,
+    "sitelinks_median": 4,
+    "sitelinks_max": 45,
+    "example_members": [
+      "Tiruvirkudi Veerataneswarar Temple",
+      "Tiruvaikavur Temple",
+      "Kumarakattalai Subramaniya Swamy Temple",
+      "Parthasarathy Temple",
+      "Kokarneswarar Temple, Thirukokarnam",
+      "Varaha Cave Temple"
+    ],
+    "example_foils": [
+      "Poruvazhy Peruviruthy Malanada Temple",
+      "Thiruvanvandoor Mahavishnu Temple",
+      "Avanamkode Saraswathi Temple",
+      "Pazhoor Perumthrikkovil",
+      "Hindu temples in Thrissur Rural",
+      "Erumely Sree Dharmasastha Temple"
+    ]
+  },
+  {
+    "category": "japanese_novelists",
+    "members_all": 5180,
+    "min_sitelinks": 2,
+    "members_total": 1477,
+    "members_kept": 400,
+    "foils_kept": 200,
+    "sitelinks_median": 4,
+    "sitelinks_max": 49,
+    "example_members": [
+      "Ihara Saikaku",
+      "Sachiko Kashiwaba",
+      "Jirō Isshiki",
+      "Masashi Okita",
+      "Keiichiro Hirano",
+      "Masayuki Kawaguchi"
+    ],
+    "example_foils": [
+      "Quenby Fung",
+      "Park Kyung-ni",
+      "Gu man",
+      "Lee Chang-dong",
+      "Jo Heun-pa",
+      "Yom Sang-seop"
+    ]
+  },
+  {
+    "category": "nepal_mountains",
+    "members_all": 228,
+    "min_sitelinks": 2,
+    "members_total": 160,
+    "members_kept": 160,
+    "foils_kept": 183,
+    "sitelinks_median": 6,
+    "sitelinks_max": 238,
+    "example_members": [
+      "Khangri Shar",
+      "Mount Everest",
+      "Gurja Himal",
+      "Lhotse",
+      "Pabil",
+      "Kongde Ri"
+    ],
+    "example_foils": [
+      "Koh-i-Chiltan",
+      "Gasherbrum III",
+      "Pīr Kanthi",
+      "Kunyang Chhish east",
+      "Zarghun Ghar",
+      "Kangphu Kang"
+    ]
+  },
+  {
+    "category": "brazil_universities",
+    "members_all": 369,
+    "min_sitelinks": 2,
+    "members_total": 218,
+    "members_kept": 218,
+    "foils_kept": 158,
+    "sitelinks_median": 4,
+    "sitelinks_max": 105,
+    "example_members": [
+      "Guignard University of Art of Minas Gerais",
+      "Anhembi Morumbi University",
+      "Federal University of Rio Grande do Sul",
+      "Federal University of Sergipe",
+      "Federal University of ABC",
+      "Universidade do Estado de Mato Grosso"
+    ],
+    "example_foils": [
+      "Polytechnic University of Cávado and Ave",
+      "Lusíada University of Porto",
+      "Center for Distributive, Labor and Social Studies",
+      "National University of José Clemente Paz",
+      "National University of Formosa",
+      "National University of Jujuy"
+    ]
+  },
+  {
+    "category": "finland_lakes",
+    "members_all": 10424,
+    "min_sitelinks": 2,
+    "members_total": 3743,
+    "members_kept": 400,
+    "foils_kept": 200,
+    "sitelinks_median": 2,
+    "sitelinks_max": 16,
+    "example_members": [
+      "Vesantojärvi",
+      "Rávdojávri",
+      "Enonjärvi",
+      "Joutenjärvi",
+      "Vieremänjärvi",
+      "Tulijärvi"
+    ],
+    "example_foils": [
+      "Gimsjön",
+      "Abborrträsket",
+      "Stor-Brattmyrtjärnen",
+      "Tribladtjärnen",
+      "Kåsjön",
+      "Alkvattnet"
+    ]
+  },
+  {
+    "category": "nigerian_painters",
+    "members_all": 500,
+    "min_sitelinks": 2,
+    "members_total": 73,
+    "members_kept": 73,
+    "foils_kept": 30,
+    "sitelinks_median": 8,
+    "sitelinks_max": 22,
+    "example_members": [
+      "Colette Omogbai",
+      "Njideka Akunyili Crosby",
+      "Kunle Adewale",
+      "Muraina Oyelami",
+      "Sunday Jack Akpan",
+      "Fola David"
+    ],
+    "example_foils": [
+      "Philip Kojo Metz",
+      "Anita-Pearl Ankor",
+      "Kofi Antubam",
+      "Kaloki Nyamai",
+      "Ben Agbee",
+      "Amoako Boafo"
+    ]
+  },
+  {
+    "category": "bengali_film_directors",
+    "members_all": 371,
+    "min_sitelinks": 2,
+    "members_total": 304,
+    "members_kept": 304,
+    "foils_kept": 200,
+    "sitelinks_median": 4,
+    "sitelinks_max": 144,
+    "example_members": [
+      "Rajiv Kumar Biswas",
+      "Subhash Dutta",
+      "Kalim Sharafi",
+      "Ashis Roy",
+      "Raj Chakraborty",
+      "Malek Afsari"
+    ],
+    "example_foils": [
+      "Babu Ganesh",
+      "Vijayakanth",
+      "Siddharth Roy Kapur",
+      "Yaragudipati Varada Rao",
+      "A. L. Vijay",
+      "Puttanna Kanagal"
+    ]
+  },
+  {
+    "category": "assamese_writers",
+    "members_all": 93,
+    "min_sitelinks": 2,
+    "members_total": 83,
+    "members_kept": 83,
+    "foils_kept": 200,
+    "sitelinks_median": 6,
+    "sitelinks_max": 26,
+    "example_members": [
+      "Gyan Pujari",
+      "Lakshmi Nandan Bora",
+      "Bhabananda Deka",
+      "Krishna Kanta Handique",
+      "Chandra Prasad Saikia",
+      "Nagen Saikia"
+    ],
+    "example_foils": [
+      "Manabendra Bandyopadhyay",
+      "Indumadhab Mallick",
+      "Amala Shankar",
+      "Mobarak Hossain Khan",
+      "Sumit Panda",
+      "Joy Goswami"
+    ]
+  },
+  {
+    "category": "us_state_capitals",
+    "members_all": 49,
+    "min_sitelinks": 2,
+    "members_total": 49,
+    "members_kept": 49,
+    "foils_kept": 44,
+    "sitelinks_median": 134,
+    "sitelinks_max": 217,
+    "example_members": [
+      "Frankfort",
+      "Charleston",
+      "Nashville",
+      "Olympia",
+      "Hartford",
+      "Augusta"
+    ],
+    "example_foils": [
+      "Miami",
+      "St. Louis",
+      "Houston",
+      "Charlotte",
+      "Lexington",
+      "Memphis"
+    ]
+  }
+]

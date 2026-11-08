@@ -1,0 +1,56 @@
+{
+  "inputs_sha256": {
+    "Qwen2.5-7B-Instruct/reach.jsonl.gz": "23d95c73bc93d6e23a3c131dbfa3e6411f49818ba542273645c2550837468971",
+    "Qwen2.5-7B-Instruct/recog.jsonl.gz": "f7db4509828e62862c58cd78c0562fb00a3896824b10a7a1f5648d7512292d3d",
+    "Qwen2.5-7B-Instruct/meta.json": "c0674e1d3542ceaf103313931a4f29539e2e3d16b4d33be6383b4c6799c99dcc",
+    "Qwen2.5-7B-Instruct/sample_check.json": "4d7eb6c925a767c1651d7ef588d8b85c84bf37ca004b02eb84e079d0a93d5236",
+    "calibration/Qwen2.5-7B-Instruct/selfcheck.json": "400060d44644e5a360cbc13d6bb8b6ac2f12b5d35998a64e4ebfdc65a82f367f",
+    "Qwen2.5-7B/reach.jsonl.gz": "ac41cd42fd79d25d19d6c68373d3de4ac4f1418ccd0dc10bca5e1cd183dd99ed",
+    "Qwen2.5-7B/recog.jsonl.gz": "a46940f01002a5b3cf7547af0947c7e1d886e2495a503270c9d122c012e3313e",
+    "Qwen2.5-7B/meta.json": "5462ad39c429c886b1df3b3b9f45e2e9458e8d675d1b24a6310c364e3ee6be66",
+    "Qwen2.5-7B/sample_check.json": null,
+    "calibration/Qwen2.5-7B/selfcheck.json": "46db46b5186715743c42b43871c94c1ed557439dd31db87bc7b5e8470f8f6daf",
+    "data:categories.json": "d3a10f2c393b9b1f455a28545924ee32b43c657af45950efc80eb706781ae7f1",
+    "data:entities.jsonl": "7cc454ad2d44a5dc1ed29a40ef9b891054d5ce3bb29dfd0318c037e0277ec122",
+    "data:foils.jsonl": "f58796b2a958d7dc8a562170ce1ced84d949df3e9fa9db70ca4201164eb2cce8",
+    "data:valid_names.json": "3ca540e23d848427a41d7822010df92d67f05ecae6973c441f4b350d8a26fb58",
+    "data:build_report.json": "0652a8d507b13e151f2aab89bde6b87787e6016aa6eb998641c93eeb7d62b141"
+  },
+  "code": {
+    "tree_sha256": "2bc43f343d9f3303",
+    "git_head": "a0dd56a2691fa9aa843d0f68f05e62d8f183de3d",
+    "git_dirty": false
+  },
+  "utc": "2026-11-08T12:01:09Z",
+  "args": {
+    "results": "results/G0",
+    "data": "data/tailcat/pilot_v2",
+    "instruct": "Qwen2.5-7B-Instruct",
+    "base": "Qwen2.5-7B"
+  },
+  "tables": [
+    "calibration_Qwen2.5-7B-Instruct.json",
+    "calibration_Qwen2.5-7B.json",
+    "entities_Qwen2.5-7B-Instruct.csv",
+    "entities_Qwen2.5-7B.csv",
+    "failpos_Qwen2.5-7B-Instruct.csv",
+    "failpos_Qwen2.5-7B.csv",
+    "headline.json",
+    "length_Qwen2.5-7B-Instruct.csv",
+    "length_Qwen2.5-7B.csv",
+    "paired.csv",
+    "popularity_Qwen2.5-7B-Instruct.csv",
+    "popularity_Qwen2.5-7B.csv",
+    "rbu_Qwen2.5-7B-Instruct.csv",
+    "rbu_Qwen2.5-7B.csv",
+    "rbu_by_category_Qwen2.5-7B-Instruct.csv",
+    "rbu_by_category_Qwen2.5-7B.csv",
+    "rbu_curves_Qwen2.5-7B-Instruct.csv",
+    "rbu_curves_Qwen2.5-7B.csv",
+    "reachable_set_Qwen2.5-7B-Instruct.csv",
+    "reachable_set_Qwen2.5-7B.csv",
+    "sample_check_Qwen2.5-7B-Instruct.csv",
+    "validity_Qwen2.5-7B-Instruct.csv",
+    "validity_Qwen2.5-7B.csv"
+  ]
+}

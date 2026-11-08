@@ -1,0 +1,6 @@
+# Data and results must stay byte-identical to what the code produced (sha256 in
+# metrics/manifest.json and results/INDEX.md): no line-ending conversion.
+data/** -text
+results/** -text
+logs/** -text
+*.gz binary

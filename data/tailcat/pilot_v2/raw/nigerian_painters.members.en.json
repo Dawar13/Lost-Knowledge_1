@@ -1,0 +1,3162 @@
+{
+  "key": "0cc2be7087a37e5d",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q1028181 ; wdt:P27 wd:Q1033 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:27:48Z",
+  "rows": [
+    {
+      "qid": "Q140953694",
+      "label": "Theresa Luck Akinwale",
+      "aliases": [
+        "Theresa Akinwale"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141105095",
+      "label": "Ayegba Patience",
+      "aliases": [
+        "Wall doctor"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141137480",
+      "label": "Tonia Nneji",
+      "aliases": [
+        "Anthonia Nneji",
+        "Anthonia Chinasa Nneji"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q141810513",
+      "label": "Uthman Adewale",
+      "aliases": [
+        "Adewale Uthman"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141881934",
+      "label": "Daddy K",
+      "aliases": [
+        "Daddy K"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141881938",
+      "label": "Chinaza Agbor",
+      "aliases": [
+        "Chinaza Agbor"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q357005",
+      "label": "Twins Seven-Seven",
+      "aliases": [
+        "Twins Seven Seven",
+        "Amuludun of Ilobu",
+        "Olaniyi Osuntoki",
+        "Prince Taiwo Olaniyi Oyewale-Toyeje Oyekale Osuntoki",
+        "Prince Taiwo Olaniyi Oyewale-Toyeje Oyelale Osuntoki",
+        "Prince Twins Seven Seven",
+        "Seven-Seven Twins",
+        "Taiwo Olaniyi",
+        "Taiwo Olaniyi Oyewale Aitoyeje",
+        "Twins Olaniyi Seven Seven"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q514466",
+      "label": "Mike Omoighe",
+      "aliases": [
+        "Michael Akhaine Osebhajimete Omoighe"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q1323876",
+      "label": "El Anatsui",
+      "aliases": [
+        "Anatsui El Dela",
+        "Emmanuel Kwami Anatsui",
+        "Kwami Anatsui"
+      ],
+      "sitelinks": 22
+    },
+    {
+      "qid": "Q2298056",
+      "label": "Sokari Douglas Camp",
+      "aliases": [
+        "Sokari Douglas-Camp"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q3645490",
+      "label": "Bruce Obomeyoma Onobrakpeya",
+      "aliases": [
+        "B. Onobrakpeya",
+        "Bruce Onobrakpeya"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q6260384",
+      "label": "John Taylor",
+      "aliases": [
+        "John Idowu Conrad Taylor"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6521145",
+      "label": "Lemi Ghariokwu",
+      "aliases": [
+        "Ghariokwu Lemi"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q6757118",
+      "label": "Marcia Kure",
+      "aliases": [
+        "Wok",
+        "Marcia Wok Kure"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q7690302",
+      "label": "Tayo Adenaike",
+      "aliases": [
+        "A. O. Adenake",
+        "Augustine Omotayo Adenaike"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q15461959",
+      "label": "Uche Okeke",
+      "aliases": [
+        "Christopher Uchefuna Okeke"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q16106998",
+      "label": "Dele Jegede",
+      "aliases": [
+        "dele jegede",
+        "omodele dele jegede",
+        "omodele jegede"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q16148901",
+      "label": "Ibiyinka Alao",
+      "aliases": [
+        "Ibiyinka Olufemi Alao"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q16214538",
+      "label": "Tony Nsofor",
+      "aliases": [
+        "Anthony Chukwudinma Richard Nsofor"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q20810915",
+      "label": "Gani Odutokun",
+      "aliases": [
+        "Abdul Ganiyu Odutokun"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q20898100",
+      "label": "Erhabor Emokpae",
+      "aliases": [
+        "Erhabor Ogieva Emokpae",
+        "Erabor Emokpae"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20985605",
+      "label": "Princess Elizabeth Olowu",
+      "aliases": [
+        "Elizabeth Olowu",
+        "Elizabeth Udinoghameyan Olowu"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q21063924",
+      "label": "Moyo Okediji",
+      "aliases": [
+        "Moyosore Okediji"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q21070430",
+      "label": "Isio De-laVega Wanogho",
+      "aliases": [
+        "Isio Wanogho"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q21284874",
+      "label": "Njideka Akunyili Crosby",
+      "aliases": [
+        "Njideka Akunyili",
+        "Njideka Crosby"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q3667785",
+      "label": "Muraina Oyelami",
+      "aliases": [
+        "Chief Muraina Oyelami"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3724681",
+      "label": "Emmanuel Eni",
+      "aliases": [
+        "Blackman in European Kitchen"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q3792496",
+      "label": "Ikechukwu Francis Okoronkowo",
+      "aliases": [
+        "Ike Francis",
+        "Ikechukwu Francis Okoronkwo"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3805767",
+      "label": "Jacob Afolabi",
+      "aliases": [
+        "J. Afolabi"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4006850",
+      "label": "Uzo Egonu",
+      "aliases": [
+        "William Uzo Egonu"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q4526104",
+      "label": "Yinka Shonibare",
+      "aliases": [
+        "Y. Shonibare",
+        "Yinka Shonibare MBE",
+        "Yinka Shonibare MBE RA",
+        "Yinḳah Shonibari"
+      ],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q4697376",
+      "label": "Aina Onabolu",
+      "aliases": [
+        "J. Aina Roberts"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q4885605",
+      "label": "Ben Enwonwu",
+      "aliases": [
+        "B. Enwonwu",
+        "Benedict Chukwukadibia Enwonwu",
+        "Odinigwe Benedict Chukwukadibia Enwonwu"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q5101373",
+      "label": "Chinwe Chukwuogo-Roy",
+      "aliases": [
+        "Chinwe Ifeoma Chukwuogo-Roy"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q5257583",
+      "label": "Denis Williams",
+      "aliases": [
+        "Dennis Williams",
+        "Denis Joseph Ivan Williams"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6201680",
+      "label": "Jimoh Buraimoh",
+      "aliases": [
+        "Jimoh Olatunji Buraimoh"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q21464920",
+      "label": "Clara Ugbodaga",
+      "aliases": [
+        "Clara Etso Ugbodaga-Ngu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q27653040",
+      "label": "Constance Afiong \"Afi\" Ekong",
+      "aliases": [
+        "Afi Constance Affiong Ekong",
+        "Constance Afiong Ekong"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q53870524",
+      "label": "Kelechi Amadi-Obi",
+      "aliases": [
+        "Kelechi Amadi Obi"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q63698971",
+      "label": "Ayogu Kingsley",
+      "aliases": [
+        "Ayogu Kingsley Ifeanyichukwu"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q66809711",
+      "label": "Kunle Adewale",
+      "aliases": [
+        "Olakunle Joel Adewale"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q71006222",
+      "label": "Justus D. Akeredolu",
+      "aliases": [
+        "J. D. Aderedolu",
+        "J.D. Aderedolu",
+        "Justus Akeredolu"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q79455952",
+      "label": "Nkiru Nzegwu",
+      "aliases": [
+        "Nzegwu, Nkiru",
+        "Nzegwu, Nkiru Uwechia",
+        "Uwechia Nzegwu, Nkiru"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q84498988",
+      "label": "Augustin Okoye",
+      "aliases": [
+        "Middle Art"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q94408554",
+      "label": "Kainebi Osahenye",
+      "aliases": [
+        "Osahenye Kainebi"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q96685076",
+      "label": "Godfrey Okiki",
+      "aliases": [
+        "Godfrey A. Okiki",
+        "Godfrey Aduku Okiki"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q98912321",
+      "label": "Samson Akinnire",
+      "aliases": [
+        "Samson Olushola Akinnire"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q100235257",
+      "label": "Fola David",
+      "aliases": [
+        "Adefemi Gbadamosi"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q103908669",
+      "label": "Shanga",
+      "aliases": [
+        "Manuela Modupe Udemba"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q103909213",
+      "label": "Suzanna Ogunjami",
+      "aliases": [
+        "Suzanne Ogunjami",
+        "Suzanne Ogunjami Wilson",
+        "Suzanne Wilson Ogunjami"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q106129861",
+      "label": "Daddy K",
+      "aliases": [
+        "Akpojivi Joel Onoriode"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q108305186",
+      "label": "Abe Odedina",
+      "aliases": [
+        "Odedina Abe"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110897684",
+      "label": "Emeka Ilechukwu",
+      "aliases": [
+        "Nnaemeka Ilechukwu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q112201024",
+      "label": "Solomon Irein Wangboje",
+      "aliases": [
+        "S. Irein Wangboje",
+        "Solomon Wangboje"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q117202229",
+      "label": "Colette Omogbai",
+      "aliases": [
+        "Colette Oluwabamise Omogbai"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q118247720",
+      "label": "Kolade Oshinowo",
+      "aliases": [
+        "K. A. Oshinowo",
+        "K.A. Oshinowo"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q123562845",
+      "label": "Maryam Umar Maigida",
+      "aliases": [
+        "Meemee Maigida"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q126209225",
+      "label": "Sunshine Happiness Amos",
+      "aliases": [
+        "Sunshine Amos"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q126952871",
+      "label": "Abdulbasit",
+      "aliases": [
+        "Abdulbasit"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q541125",
+      "label": "Ebele Okoye",
+      "aliases": [],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q3887122",
+      "label": "Otobong Nkanga",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q4407523",
+      "label": "Sunday Jack Akpan",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4665862",
+      "label": "Abdulkareem Baba Aminu",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4678304",
+      "label": "Ada Udechukwu",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q5096610",
+      "label": "Chidi Kwubiri",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q5097403",
+      "label": "Chike Aniakor",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5242484",
+      "label": "Dawn Okoro",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5538849",
+      "label": "George Edozie",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6779497",
+      "label": "Mary Evans",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7074972",
+      "label": "Obiora Udechukwu",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q12100777",
+      "label": "Jimo Bola Akolo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q15452872",
+      "label": "Odili Donald Odita",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q16216140",
+      "label": "Aniekan Udofia",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16728789",
+      "label": "Victor Ekpuk",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q29452942",
+      "label": "Alimi Adewale",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q55587503",
+      "label": "Solomon Omolayo Omogboye",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q75329459",
+      "label": "Agbo Folarin",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q97853233",
+      "label": "Obiora Anidi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q98238085",
+      "label": "Ovia Idah",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q98912334",
+      "label": "Dennis Osadebe",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q98912346",
+      "label": "Dipo Doherty",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q100324394",
+      "label": "Anne Njemanze",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q105944577",
+      "label": "Kingsley Ogwara",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q107998843",
+      "label": "Ade Adekola",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q108549250",
+      "label": "Chinwe Uwatse",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q112243710",
+      "label": "Wande George",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q112336136",
+      "label": "E. Okechukwu Odita",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q112675622",
+      "label": "Abass Kelani",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q115491947",
+      "label": "Adéọlá Ọlágúnjú",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q116165553",
+      "label": "Stella Ubigho",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q119821233",
+      "label": "Etso Ugbodaga-Ngu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q123881015",
+      "label": "Ndidi Emefiele",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q126477532",
+      "label": "Faith Nkamuhebwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q127503911",
+      "label": "Ruth Ige",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q128060720",
+      "label": "Gbolahan Ayoola",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q129261410",
+      "label": "Abiodun Olaku",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130360095",
+      "label": "Taiye Erewele",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130371580",
+      "label": "Rufus Ogundele",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130475613",
+      "label": "Eshinlokun Wasiu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130478923",
+      "label": "Salem Egoh",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134711265",
+      "label": "Monilola Olayemi Ilupeju",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q135538007",
+      "label": "Kaltume Bulama Gana",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q138081742",
+      "label": "Adulphina Imuede",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138085057",
+      "label": "Stephanie Unaeze",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138356937",
+      "label": "Aleruchi Kinika",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498202",
+      "label": "Ganiyat Abdulazeez",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498203",
+      "label": "Oluwapelumi Olaosun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498206",
+      "label": "Benedict Olorunnisomo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498207",
+      "label": "Timothy Olaniyi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498204",
+      "label": "Oluwafemi Afolabi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498205",
+      "label": "Pelumi Fasasi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498210",
+      "label": "Adebayo Taiwo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498211",
+      "label": "Segun Akintoye (Shiigo)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498208",
+      "label": "Oluwafemi Akanmu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498209",
+      "label": "Olakunle Ayoola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498214",
+      "label": "Oluwaseyi Olaide",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498215",
+      "label": "Olamilekan Okunade",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498212",
+      "label": "Samuel Timileyin Yomi-Meleki",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498213",
+      "label": "Ismail Lawal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498219",
+      "label": "Peter Agbadu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498216",
+      "label": "Omonu Salisu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498217",
+      "label": "Oyejide Obidare Hezekiah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498222",
+      "label": "Feranmi Oyeleye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498223",
+      "label": "Giddibawse",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498221",
+      "label": "Duke Asidere",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498226",
+      "label": "Sanya Gbemileke",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498227",
+      "label": "Daniel Ivevbunu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498224",
+      "label": "Awosola Michael Angello",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498225",
+      "label": "Faith Gbadero",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498230",
+      "label": "Ayotunde Ayomide",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498231",
+      "label": "Ademidun Ogundele",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498228",
+      "label": "Joseph Egheosa Ifada",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498229",
+      "label": "Babatunde Bakare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498234",
+      "label": "Ayogu Joseph Nnabuike",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498235",
+      "label": "Oryiman Agbaka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498232",
+      "label": "John Alogi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498233",
+      "label": "Kehinde Aderinto",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498238",
+      "label": "Larry Isimah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498239",
+      "label": "Samuel Itoya Odiboh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498236",
+      "label": "Olaoluwa Smith",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498237",
+      "label": "Henri Moweta",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498240",
+      "label": "Noble Ugbobor",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498241",
+      "label": "Esther Oyeyemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498346",
+      "label": "Chinedu Bright Ezeh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498347",
+      "label": "Dennis Onofua",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498345",
+      "label": "Chidiebere Umeasiegbu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498350",
+      "label": "Akinjide Baruwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498351",
+      "label": "Nurudeen Popoola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498348",
+      "label": "Boladale Ige (Boladaleart)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498349",
+      "label": "Grace Ighavbota",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498354",
+      "label": "Adenuga Adebusola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498355",
+      "label": "Akpet Nyambi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498352",
+      "label": "Enoch Oyewole",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498353",
+      "label": "Ifeoluwa Olojede",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498358",
+      "label": "Kator Godstime",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498359",
+      "label": "Adebayo Temitop Emmanuel",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498357",
+      "label": "Isiuwe Onyeabor Emmanuel",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498363",
+      "label": "Wasiu Akande",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498361",
+      "label": "Chika Idu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498366",
+      "label": "Isaiah Abiola Akinokun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498367",
+      "label": "Adebola Jejelola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498364",
+      "label": "Gift Osague",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498365",
+      "label": "Samuel Opeyemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498370",
+      "label": "Martha Okechukwu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498371",
+      "label": "Oluwatobiloba Fasalejo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498368",
+      "label": "Zinno Orara",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498374",
+      "label": "Samuel Momoh (Artsam)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498375",
+      "label": "Marvis Osagie",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498372",
+      "label": "Hotonu Olumide Samuel",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498373",
+      "label": "Wilson Felix Olugu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498378",
+      "label": "Burns Effiom",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498379",
+      "label": "Toneroartwork Anthony Edem",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498376",
+      "label": "Eyitayo Alagbe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498377",
+      "label": "Emeka Okorie",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498382",
+      "label": "Michael Bello",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498383",
+      "label": "Aluu Prosper",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498380",
+      "label": "Benedict Edet",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498381",
+      "label": "Seyi Adeoye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498386",
+      "label": "Damola Ayegbayo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498384",
+      "label": "Kolawole Adedeji Israel",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498385",
+      "label": "Emmanuel Bassey",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498390",
+      "label": "Sam Ovraiti",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q139498391",
+      "label": "Emmanuel Eweje",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498388",
+      "label": "Usman Semiu Alvin",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498389",
+      "label": "Aimufia Osagie Rafael",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498394",
+      "label": "Olumide Ajayi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498395",
+      "label": "Adeola Lawrence",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498393",
+      "label": "Joshua Akinnifesi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498423",
+      "label": "Franklin Ifeanyi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498426",
+      "label": "Emmanuel Olaleye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498427",
+      "label": "Abiodun Ogunfowodu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498424",
+      "label": "Emmanuel Chukwuemeka Ndulue",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498425",
+      "label": "Lasisi Babatunde Damilare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498430",
+      "label": "Oyetunde Oyejumoke Christianah (Jumokeara)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498431",
+      "label": "Tobiloba Amidu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498428",
+      "label": "Samuel Olutimileyin Taiwo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498435",
+      "label": "Afeez Siyanbola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498432",
+      "label": "Ruby Ogbiti",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498433",
+      "label": "Olatunji Benjamin Damilare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498438",
+      "label": "Joshua Salami",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498439",
+      "label": "Lasisi Ridwan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498436",
+      "label": "Awizzy Ayeola Ayodeji Abiodun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498442",
+      "label": "Damilare Idowu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498443",
+      "label": "David Ajileye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498440",
+      "label": "Oluwasegun Banmeke",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498446",
+      "label": "Ayobami Lawal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498447",
+      "label": "Kalu Uche (karis)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498444",
+      "label": "Ellis Oyekola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498451",
+      "label": "Sola Familusi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498449",
+      "label": "Pavinchi Aims",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498454",
+      "label": "Vivian Chintua",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498455",
+      "label": "Ayomide Ogundare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498452",
+      "label": "Tosin Oyeniyi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498453",
+      "label": "Collins Chima",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498458",
+      "label": "Richard-Elekwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498459",
+      "label": "Onyekwelu Ebederobinson",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498456",
+      "label": "Joseph Adive",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498457",
+      "label": "Clement Nwachukwu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498462",
+      "label": "Joshua Oyeleye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498463",
+      "label": "Deela",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498460",
+      "label": "Dayo Adeyemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498461",
+      "label": "Anayo Achike",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498467",
+      "label": "Olajide Kuti",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498465",
+      "label": "King Jacob",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498470",
+      "label": "Oluwaseyi Afeez Aregbede",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498471",
+      "label": "Busayo Lawal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498468",
+      "label": "Adewale Adeyemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498474",
+      "label": "Rapheal Akano",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498475",
+      "label": "Frances Okala",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498472",
+      "label": "Oryiman Agbaka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498473",
+      "label": "Cyril Emmanuel (X the Villain)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498478",
+      "label": "Chukwunyeremugo Oswald",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498476",
+      "label": "Ari-Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498477",
+      "label": "Akinbobola Michael Imoeayo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498480",
+      "label": "Gabriel Bello",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498481",
+      "label": "Gloria Eberechukwu Mmaduako",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498486",
+      "label": "Tunde Ogunlaiye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498487",
+      "label": "Maganganu [Talks]",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498490",
+      "label": "George Okudaye-Stephens",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498491",
+      "label": "Festus Oghenerho",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498488",
+      "label": "Scsk",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498489",
+      "label": "Ibrahim Akomolafe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498494",
+      "label": "Sir. Lord Marmon Knight. Lmk. Hspo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498495",
+      "label": "Akintunde Shittu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498492",
+      "label": "Oluwarotimi Akinseye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498493",
+      "label": "Ismy Kunle",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498498",
+      "label": "Emeka Ikebude",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498499",
+      "label": "Osama",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498496",
+      "label": "Josiah C. Josiah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498497",
+      "label": "Akachukwu Akabeks Chukwuemeka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498502",
+      "label": "Josh M",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498503",
+      "label": "Charles Olisa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498500",
+      "label": "Orama Horsfall",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498501",
+      "label": "Flamekeeper",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498506",
+      "label": "Oluwatobi Samuel Akinrinola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498507",
+      "label": "Jeffrey Oboh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498504",
+      "label": "Soumya Das Majumdar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498505",
+      "label": "Chinedu Agina",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498510",
+      "label": "Clifford Timinadi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498677",
+      "label": "Pius Owolabi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498682",
+      "label": "Martin Joshever",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498683",
+      "label": "Frank Ndubuisi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498680",
+      "label": "Toni Okujeni",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498681",
+      "label": "Omoyeni Arogunmati",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498686",
+      "label": "Oluwasegun Idowu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498687",
+      "label": "Salubi Onakufe Onakufe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498684",
+      "label": "Ahmed Cassandra",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498685",
+      "label": "Kenneth Obi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498690",
+      "label": "Beo Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498691",
+      "label": "Lucas Olaolu Olugbenga",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498688",
+      "label": "Paulart Paul",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498689",
+      "label": "Lakeside",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498694",
+      "label": "Joshever'S Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498693",
+      "label": "Emmanuel Osanaiye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498698",
+      "label": "Daniel Ajayi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498699",
+      "label": "Olumide Oresegun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498696",
+      "label": "Segun Art World",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498697",
+      "label": "Emmnuel Ebiloma",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498702",
+      "label": "Iyonkyoh Reuben",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498703",
+      "label": "Stephen",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498700",
+      "label": "Henry Aziengbe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498701",
+      "label": "Ahmed Bambinoo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498707",
+      "label": "Harrylens",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498704",
+      "label": "Oluwole Omofemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498705",
+      "label": "Chibuike Ezenyinwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498710",
+      "label": "Koripamo Egule",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498711",
+      "label": "Aladin Orji",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498709",
+      "label": "Duduhandsome",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498714",
+      "label": "Glightzee Studio Eyahanjom Ntonoba",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498715",
+      "label": "Toluwalase Sodiya",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498712",
+      "label": "Rolanik",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498713",
+      "label": "Eagleboythegiver Agare Abel Oghenevo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498718",
+      "label": "Aliyu Aminu Ahmed",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498719",
+      "label": "Abraham Links Art Gallery",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498716",
+      "label": "Ugonna Ibekwe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498717",
+      "label": "Abdulqudus Momojimoh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498722",
+      "label": "Ayanade",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498723",
+      "label": "Davidmomodu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498720",
+      "label": "Temini",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498721",
+      "label": "Kola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498726",
+      "label": "Themerciverse Themerciverse",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498727",
+      "label": "Donalbain Ifeanyi Ohanasiobi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498724",
+      "label": "Kola Olatayo Opakunle",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498725",
+      "label": "Nickyliliosa Wilson",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498730",
+      "label": "Alamin Omotosho",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498731",
+      "label": "Samuel Daniel",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498728",
+      "label": "Hameed Kasumu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498729",
+      "label": "Victoria Harry",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498734",
+      "label": "Maureen Maduadichie",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498735",
+      "label": "Abdulgafar Sanni",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498732",
+      "label": "Yusuf",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498733",
+      "label": "Ololade Adekanmbi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498738",
+      "label": "Israel Ashele",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498739",
+      "label": "Kelsen Arts",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498736",
+      "label": "Ekunpa Anuoluwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498737",
+      "label": "Talbimola Emmanuel.O",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498742",
+      "label": "Philip Koduah Asare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498740",
+      "label": "Oluwadamilola Omotola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498741",
+      "label": "Oladimeji Michael Drey Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498746",
+      "label": "Jamiu Hassan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498747",
+      "label": "Kolawole Adedeji",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498744",
+      "label": "Heroes Creative Circles",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498745",
+      "label": "Josephine Joshua (ArtsByJozzy)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498750",
+      "label": "Iwalolami Adegboyega",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498751",
+      "label": "Ann Simon",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498748",
+      "label": "Wisdom Ogene-Mario Ettoh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498749",
+      "label": "Affordable Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498882",
+      "label": "Chidi Chibueze",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498883",
+      "label": "Babafemi Ogunkanmbi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498880",
+      "label": "Bola Opadiran",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498881",
+      "label": "Williams Emeka Merenini",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498886",
+      "label": "Ikechukwu Cydarts Okafor",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498887",
+      "label": "Abraham Dada",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498884",
+      "label": "Horsteen Interiors",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498885",
+      "label": "Abasiama Henry",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498890",
+      "label": "Agbeniyi Oluwagbemiga Noah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498891",
+      "label": "Nuga Richard",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498888",
+      "label": "Azeez Okulaja",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498892",
+      "label": "Hezekiah Blessed Uzoka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498893",
+      "label": "Aliobu Solomon",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499014",
+      "label": "Ernesto",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499015",
+      "label": "Oyinlola Fajobi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499012",
+      "label": "Francis Umoh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499018",
+      "label": "Biodun Badmos",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499019",
+      "label": "Jaybee Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499016",
+      "label": "Art By Collins",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499017",
+      "label": "Wallace Obika",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499022",
+      "label": "James Chijindu Olloh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499023",
+      "label": "Uyiosa Omodamwen",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499020",
+      "label": "Kingsley Ayodeji",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499021",
+      "label": "Anthony Ekpe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499027",
+      "label": "Israel Ashele",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499024",
+      "label": "Jusnotin4real",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139499025",
+      "label": "Caleb Williams Williams",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540174",
+      "label": "Oryiman Agbaka (St Valentino de Augusto)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540175",
+      "label": "Olasunkanmi Ariyo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540178",
+      "label": "Stephen Idibie",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540179",
+      "label": "Abstract Adorn",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540176",
+      "label": "Fetux_lines",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540177",
+      "label": "Happiness Onome",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540182",
+      "label": "Mario-Jerry",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540183",
+      "label": "Ajibola Adekanmbi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540181",
+      "label": "Michael Owoicho",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540186",
+      "label": "Temmie Afolabi Afolabi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540187",
+      "label": "Agaba Agabaidu Favour Uloko",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540185",
+      "label": "Preye Mcjohn",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540190",
+      "label": "Olufemi Ladipo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540191",
+      "label": "Peace Atuakak",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540188",
+      "label": "Eugene Iredia",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540189",
+      "label": "Sodiya Odunayo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540194",
+      "label": "Red",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540195",
+      "label": "Joseph Obanubi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540192",
+      "label": "Odinaka Kanu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139540196",
+      "label": "Kareem .A Oniwonlu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140996529",
+      "label": "Chidimma Urunwa Ikegwuonu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140996598",
+      "label": "Chinyere Ibenye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140996858",
+      "label": "Chinze Ojobo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141066709",
+      "label": "Chidinma Nnoli",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141069818",
+      "label": "Jekein Lato-Unah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141070180",
+      "label": "Zida Kalu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141071279",
+      "label": "Blossom Oyeyipo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141071786",
+      "label": "Fiyin Koko",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141095367",
+      "label": "Jennifer Kasham",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141097826",
+      "label": "Ganiyat Sani",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141105132",
+      "label": "Helen Ogochukwu Nzete",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141134588",
+      "label": "Bello Adedoyin Adelani",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141149670",
+      "label": "Chidinma Nnoli",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141156642",
+      "label": "Edith  Onalo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141635994",
+      "label": "Chigozie Obi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141779973",
+      "label": "Jerry Buhari",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141780975",
+      "label": "Edozie Anedu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141817540",
+      "label": "Nelson Etok",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141817841",
+      "label": "Dan Uduak-Obong",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141871908",
+      "label": "Segun Fagorusi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141874107",
+      "label": "Kayode Ejioye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141876435",
+      "label": "Chimaobi Okenwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141901164",
+      "label": "Daniel Oruwhone",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141902395",
+      "label": "Suchet Baba",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141915811",
+      "label": "Adetona Solomon Ajani",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141935450",
+      "label": "Theadora Ifudu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498511",
+      "label": "Wisdom Ezema",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498509",
+      "label": "Ugwunna . C Ekpebegh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498514",
+      "label": "Opeyemi Aremu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498515",
+      "label": "Agoye Charles",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498512",
+      "label": "4toscenethesis",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498518",
+      "label": "Pius Owolabi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498519",
+      "label": "Opeyemi Adetokun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498516",
+      "label": "Aderemai",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498517",
+      "label": "Jide Olabinjo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498522",
+      "label": "Omoyeni Arogunmati",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498520",
+      "label": "Nk George",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498521",
+      "label": "Toni Okujeni",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498526",
+      "label": "Ahmed Cassandra",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498527",
+      "label": "Kenneth Obi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498524",
+      "label": "Martin Joshever",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498525",
+      "label": "Frank Ndubuisi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498530",
+      "label": "Paulart Paul",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498531",
+      "label": "Lakeside",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498528",
+      "label": "Oluwasegun Idowu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498529",
+      "label": "Salubi Onakufe Onakufe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498534",
+      "label": "Lucas Olaolu Olugbenga",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498535",
+      "label": "Emmanuel Osanaiye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498533",
+      "label": "Beo Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498538",
+      "label": "Segun Art World",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498539",
+      "label": "Emmnuel Ebiloma",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498536",
+      "label": "Joshever'S Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498540",
+      "label": "Daniel Ajayi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498598",
+      "label": "Franklin Ifeanyi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498599",
+      "label": "Emmanuel Chukwuemeka Ndulue",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498602",
+      "label": "Abiodun Ogunfowodu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498603",
+      "label": "Samuel Olutimileyin Taiwo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498600",
+      "label": "Lasisi Babatunde Damilare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498601",
+      "label": "Emmanuel Olaleye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498606",
+      "label": "Ruby Ogbiti",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498607",
+      "label": "Olatunji Benjamin Damilare",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498604",
+      "label": "Oyetunde Oyejumoke Christianah (Jumokeara)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498605",
+      "label": "Tobiloba Amidu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498609",
+      "label": "Afeez Siyanbola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498614",
+      "label": "Joshua Salami",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498615",
+      "label": "Lasisi Ridwan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498612",
+      "label": "Awizzy Ayeola Ayodeji Abiodun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498613",
+      "label": "Nicky Gallery",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498618",
+      "label": "Damilare Idowu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498617",
+      "label": "Oluwasegun Banmeke",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498622",
+      "label": "Ellis Oyekola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498623",
+      "label": "Ayobami Lawal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498621",
+      "label": "David Ajileye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498626",
+      "label": "Richard-Elekwa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498627",
+      "label": "Onyekwelu Ebederobinson",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498624",
+      "label": "Joseph Adive",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498625",
+      "label": "Clement Nwachukwu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498630",
+      "label": "Joshua Oyeleye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498631",
+      "label": "Deela",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498628",
+      "label": "Dayo Adeyemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498629",
+      "label": "Anayo Achike",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498634",
+      "label": "Adewale Adeyemi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498635",
+      "label": "Oluwaseyi Afeez Aregbede",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498632",
+      "label": "King Jacob",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498633",
+      "label": "Olajide Kuti",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498638",
+      "label": "Oryiman Agbaka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498639",
+      "label": "Cyril Emmanuel (X the Villain)",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498637",
+      "label": "Busayo Lawal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498642",
+      "label": "Ari-Art",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498643",
+      "label": "Akinbobola Michael Imoeayo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498640",
+      "label": "Rapheal Akano",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498641",
+      "label": "Frances Okala",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498646",
+      "label": "Gabriel Bello",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498647",
+      "label": "Gloria Eberechukwu Mmaduako",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498644",
+      "label": "Chukwunyeremugo Oswald",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498650",
+      "label": "Maganganu [Talks]",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498651",
+      "label": "Scsk",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498648",
+      "label": "Blacknbold",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498649",
+      "label": "Tunde Ogunlaiye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498654",
+      "label": "Festus Oghenerho",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498655",
+      "label": "Oluwarotimi Akinseye",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498652",
+      "label": "Ibrahim Akomolafe",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498653",
+      "label": "George Okudaye-Stephens",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498658",
+      "label": "Josiah C. Josiah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498659",
+      "label": "Akachukwu Akabeks Chukwuemeka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498656",
+      "label": "Ismy Kunle",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498657",
+      "label": "Akintunde Shittu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498662",
+      "label": "Orama Horsfall",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498663",
+      "label": "Flamekeeper",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498660",
+      "label": "Emeka Ikebude",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498661",
+      "label": "Osama",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498666",
+      "label": "Soumya Das Majumdar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498667",
+      "label": "Chinedu Agina",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498664",
+      "label": "Josh M",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498665",
+      "label": "Charles Olisa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498670",
+      "label": "Ugwunna . C Ekpebegh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498671",
+      "label": "Clifford Timinadi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498668",
+      "label": "Oluwatobi Samuel Akinrinola",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498669",
+      "label": "Jeffrey Oboh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498674",
+      "label": "Agoye Charles",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498675",
+      "label": "Aderemai",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498672",
+      "label": "Wisdom Ezema",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498673",
+      "label": "Opeyemi Aremu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498678",
+      "label": "Opeyemi Adetokun",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498679",
+      "label": "Nk George",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q139498676",
+      "label": "Jide Olabinjo",
+      "aliases": [],
+      "sitelinks": 0
+    }
+  ]
+}

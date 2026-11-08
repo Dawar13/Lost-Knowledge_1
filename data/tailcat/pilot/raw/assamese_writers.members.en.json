@@ -1,0 +1,1990 @@
+{
+  "key": "00cfcbe6c6e8ed7e",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { { ?item wdt:P6886 wd:Q29401 } UNION { ?item wdt:P1412 wd:Q29401 } hint:Prior hint:runFirst true . ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:28:16Z",
+  "rows": [
+    {
+      "qid": "Q337588",
+      "label": "Jyoti Prasad Agarwala",
+      "aliases": [
+        "Jyoti Prasad Agarwalla",
+        "Jyotiprasad Agarwala",
+        "Jyotiprasad Agarwalla",
+        "Rupkonwar",
+        "Rupkonwar Jyotiprasad Agarwala"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q2254757",
+      "label": "Mamoni Raisom Goswami",
+      "aliases": [
+        "Indira Goswami",
+        "Mamoni Baideo"
+      ],
+      "sitelinks": 26
+    },
+    {
+      "qid": "Q3349404",
+      "label": "Salil Chowdhury",
+      "aliases": [
+        "Salila Caudhurī"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3595893",
+      "label": "Zubeen Garg",
+      "aliases": [
+        "Jibon Borthakur"
+      ],
+      "sitelinks": 42
+    },
+    {
+      "qid": "Q3636010",
+      "label": "Hem Chandra Barua",
+      "aliases": [
+        "Hem Barua",
+        "Hemchandra Barua"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q131915034",
+      "label": "Kirtinath Sharma Bordoloi",
+      "aliases": [
+        "Kirtinath Sarma Bordoloi"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131915312",
+      "label": "Debendranath Chakraborty",
+      "aliases": [
+        "Debendra Nath Chakraborty",
+        "Debendranath Chakravarty"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131915361",
+      "label": "Premdhar Dutta",
+      "aliases": [
+        "Premadhar Dutta"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131986766",
+      "label": "Narayan Devamishra",
+      "aliases": [
+        "Narayan Debamishra",
+        "Narayan Dev Mishra"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131986779",
+      "label": "Kashi Nath Barman",
+      "aliases": [
+        "Kashinath Barman"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131986835",
+      "label": "Ambikaprasad Goswami",
+      "aliases": [
+        "Ambika Prasad Goswami"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131993068",
+      "label": "Malin Bora",
+      "aliases": [
+        "Molin Bora",
+        "Molin Borah"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131993213",
+      "label": "Pratapchandra Goswami",
+      "aliases": [
+        "Pratap Chandra Goswami"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131993227",
+      "label": "Darpanath Sarma",
+      "aliases": [
+        "Darpanath Sharma"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131993234",
+      "label": "Swami Krishnapuri Paribrajak",
+      "aliases": [
+        "Aditya Mohan Das"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132004878",
+      "label": "Baladev Mahanta",
+      "aliases": [
+        "Baladev Mohonto"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132067722",
+      "label": "Dharmeswari Devi Baruani",
+      "aliases": [
+        "Kavya Bharati"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q132130870",
+      "label": "Harriet Bowman Low Cutter",
+      "aliases": [
+        "H. B. L. Cutter",
+        "Harriet B L Cutter",
+        "Harriet B. Cutter"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q132143426",
+      "label": "Sashibhushan Fauzdar",
+      "aliases": [
+        "Sashibhushan Faujdar",
+        "Sashibhushan Fouzdar"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132143501",
+      "label": "Amritlal Sharma",
+      "aliases": [
+        "Amritlal Sarma"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135583793",
+      "label": "Geetali Borah",
+      "aliases": [
+        "Geetali Bora",
+        "Gitali Bora"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q135618593",
+      "label": "Jeewan Madhuri Neog Bora",
+      "aliases": [
+        "Jeevan Madhuri Neog Bora",
+        "Jeewan Madhuri Neog"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135682134",
+      "label": "Singhadutta Deb Adhikari",
+      "aliases": [
+        "Singha Dutta Deva Adhikari",
+        "Singhadatta Deb Adhikari",
+        "Singhadutta Deb Adhikary"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135931730",
+      "label": "Pinakpani Baruah",
+      "aliases": [
+        "Pinak Pani Baruah"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135935085",
+      "label": "Rajib Kumar Sarmah",
+      "aliases": [
+        "Rajib Kr Sarmah"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135951316",
+      "label": "Dwija Subha",
+      "aliases": [
+        "Dij Subha",
+        "Dija Subha"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135970292",
+      "label": "Hemaprabha Das",
+      "aliases": [
+        "Hemaprava Das"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135976137",
+      "label": "Purushottam Bhattacharya",
+      "aliases": [
+        "Purushuttam Bhattacharya"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136005185",
+      "label": "Ramchandra Das",
+      "aliases": [
+        "Ram Chandra Das"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136146036",
+      "label": "Purnakanta Debasarma",
+      "aliases": [
+        "Purnakanta Devasharma"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137709557",
+      "label": "Ramu Upadhaya",
+      "aliases": [
+        "Upadhyay R"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137921939",
+      "label": "GYANJYOTI NATH",
+      "aliases": [
+        "Gyan Jyoti Nath"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138820367",
+      "label": "Prativa Barua",
+      "aliases": [
+        "Prativa Rajkumari",
+        "Prativa Rajkumari Barua",
+        "Prativa Barua"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138951973",
+      "label": "Yuzit Nath",
+      "aliases": [
+        "InnersideY"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q4802297",
+      "label": "Arupa Kalita Patangia",
+      "aliases": [
+        "Arupa Patangia"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4900476",
+      "label": "Bhabananda Deka",
+      "aliases": [
+        "Prof Bhabananda Deka"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4916340",
+      "label": "Birinchi Kumar Barua",
+      "aliases": [
+        "Bina Barua",
+        "Rasna Barua"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4955995",
+      "label": "Brajanath Sarma",
+      "aliases": [
+        "Brajanath Sharma"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5756306",
+      "label": "Lakshminath Bezbarua",
+      "aliases": [
+        "Bezbarua",
+        "Lakshminath Bezbarua",
+        "Laxminath Bezbarua",
+        "Roxoraj",
+        "Sahityarathi",
+        "Lakshminath Bezbaroa"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q6479968",
+      "label": "Lakshyadhar Choudhury",
+      "aliases": [
+        "Lakhyadhar Choudhury",
+        "Laksyadhar Choudhury"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7037128",
+      "label": "Nilmani Phookan",
+      "aliases": [
+        "Nilmani Phookan Jr"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7123860",
+      "label": "Padmanath Gohain Baruah",
+      "aliases": [
+        "Padmanath Gohain Barooah"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q7301619",
+      "label": "Rebati Mohan Dutta Choudhury",
+      "aliases": [
+        "Sheelabhadra"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q11012514",
+      "label": "Parvati Prasad Baruva",
+      "aliases": [
+        "Geetikavi",
+        "Parvati Prasad Baruwa"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q12015668",
+      "label": "Rajanikanta Bordoloi",
+      "aliases": [
+        "Upanyash Samrat"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q12167956",
+      "label": "Jnanadabhiram Barua",
+      "aliases": [
+        "Jnyanadabhiram Barooah"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13187421",
+      "label": "Hari Bhakta Katuwal",
+      "aliases": [
+        "Hari Bhakta Katwal",
+        " Haribhakta Katuwal",
+        " Hari Bhakta Katuwal"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13357892",
+      "label": "Satyanath Bora",
+      "aliases": [
+        "Satyanath Borah"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13365439",
+      "label": "Debananda Bharali",
+      "aliases": [
+        "Miri",
+        "Devananda Bharali"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13420234",
+      "label": "Jatindranath Dowara",
+      "aliases": [
+        "Jatindra Nath Duwara"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13422864",
+      "label": "Ananda Ram Baruah",
+      "aliases": [
+        "Anundoram Borooah"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q13432939",
+      "label": "Sarat Chandra Goswami",
+      "aliases": [
+        "Bapchandra Bhagawati"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13515717",
+      "label": "Surjya Kumar Bhuyan",
+      "aliases": [
+        "Bhanunandan",
+        "Surja Kumar Bhuyan",
+        "Surya Kumar Bhuyan",
+        "Suryakumar Bhuyan",
+        "Suryya Kumar Bhuyan"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q14474382",
+      "label": "Raghunath Choudhary",
+      "aliases": [
+        "Bihogi kobi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15146755",
+      "label": "Joyanti Chutia",
+      "aliases": [
+        "Jaẏantī Cutīẏā"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q16079112",
+      "label": "Bhubanmohan Baruah",
+      "aliases": [
+        "Kanchan Barua"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q17715240",
+      "label": "Apoorva Sharma",
+      "aliases": [
+        "Apurba Sarma"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18014938",
+      "label": "Nirupama Borgohain",
+      "aliases": [
+        "Nirupama Bargohain",
+        "Nirupama Tamuli"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q18107612",
+      "label": "Puravi Baramrudai",
+      "aliases": [
+        "Purabi Bormudoi"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q20685394",
+      "label": "Chandraprava Saikiani",
+      "aliases": [
+        "Chandraprabha Saikiani"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q25681748",
+      "label": "Durgeshwar Sharma",
+      "aliases": [
+        "Durgeswar Sarma"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q25681959",
+      "label": "Lalitchandra Goswami",
+      "aliases": [
+        "Lalit Chandra Goswami"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113626625",
+      "label": "Leena Sharma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113626868",
+      "label": "Bhagawati Prasad Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113626903",
+      "label": "Pori Hiloidari",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q115729635",
+      "label": "Sivanath Barman",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q118228581",
+      "label": "Prabina Saikia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q120628726",
+      "label": "Annada Saikia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q128751210",
+      "label": "Debanath Bordoloi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q129273376",
+      "label": "Deven Dutta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130260350",
+      "label": "Kamalalaya Kakoti",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130260525",
+      "label": "Bibha Dutta Neog",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130261689",
+      "label": "Diganta Oza",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130323383",
+      "label": "Nityananda Senapati",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130343875",
+      "label": "Tarun Duwara",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130343927",
+      "label": "Keshav kayastha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130356631",
+      "label": "Nirupama Phukan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130356644",
+      "label": "Bipasha Borah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130738470",
+      "label": "Akash Dipta Thakur",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131315995",
+      "label": "Basanta Kumar Sharma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131561012",
+      "label": "Nobin Buragohain",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131673610",
+      "label": "Maini Mahanta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131699038",
+      "label": "Parthajit Baruah",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q131702126",
+      "label": "Pradip Kumar Baruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131740655",
+      "label": "Chandrabala Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131746607",
+      "label": "Prafulla Chandra Bora",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131757350",
+      "label": "Phani Talukdar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131757399",
+      "label": "Nabin Chandra Sarmah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131757416",
+      "label": "Dhirendra Nath Dutta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131757439",
+      "label": "Prabhas Chandra Goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131759948",
+      "label": "Binanda Boruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131759983",
+      "label": "Parikshit Hazarika",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131762922",
+      "label": "Durga Prasad Majinder Baruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131762931",
+      "label": "Hari Narayan Dutta Baruah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131765878",
+      "label": "Jogiraj Basu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131823745",
+      "label": "Tulsi Chandra Hatbarua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131861210",
+      "label": "Purushottam Gajapati",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131905298",
+      "label": "Sarbeswar Sarma Kataki",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131912146",
+      "label": "Upendranath Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131912539",
+      "label": "Ganeshchandra Hazarika",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131915280",
+      "label": "Premnarayan Dutta",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131987505",
+      "label": "Bimal Mazumdar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131993207",
+      "label": "Bharat Das",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131993788",
+      "label": "Katiram Das",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132005210",
+      "label": "Govindaram Choudhury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132005516",
+      "label": "Dutiram Hazarika",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132056031",
+      "label": "Phanidhar Chaliha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132069242",
+      "label": "Sivanath Buzarboruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132069617",
+      "label": "Jadav Chandra Das",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132113017",
+      "label": "Padmahas Goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132114725",
+      "label": "Durgakanta Barua",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132583457",
+      "label": "Bhadreswar Rajkhowa",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134067711",
+      "label": "Malini Goswami",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q134297113",
+      "label": "Swati Kiran",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134393238",
+      "label": "Dwijendra Mohan Sharma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134572297",
+      "label": "Burhanuddin Qasmi",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q134954107",
+      "label": "Nabami Gogoi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134972238",
+      "label": "Surendra Mohan Das",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q134972488",
+      "label": "Suprakash Bhuyan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q135040170",
+      "label": "Rajmohan Nath",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q135089260",
+      "label": "Apu Bharadwaj",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135196565",
+      "label": "Paran Kumar Baruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135270748",
+      "label": "Thaneswar Hazarika",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135487672",
+      "label": "Hem Chandra Sarma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135487681",
+      "label": "Shashi Mohan Bhatyacharya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135493854",
+      "label": "Maniki Madhuri Bordoloi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135581161",
+      "label": "Prabhat Haloi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135682284",
+      "label": "Suren Goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135688751",
+      "label": "Pradip Chaudhury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135901933",
+      "label": "Ratneswar Bora",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135906197",
+      "label": "Arup Saikia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135926736",
+      "label": "Bipul Kumar Dutta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135935133",
+      "label": "Bitopan Das",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135975432",
+      "label": "Hemchadra  Sarma Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135976443",
+      "label": "Bulan Chiring",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136006239",
+      "label": "Ramakanta Borkakakti",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136006361",
+      "label": "Ratnadhar Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136006552",
+      "label": "Ghanashyam Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136006653",
+      "label": "Gunjanan Barua",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136069121",
+      "label": "Tulika Chetia Yain",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136069173",
+      "label": "Kamala Borgohain",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136160254",
+      "label": "Bhupen Chetia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136231151",
+      "label": "Tirthanath Goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136432945",
+      "label": "Bipuljyoti Saikia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136914037",
+      "label": "Anuradha Sarma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q136951789",
+      "label": "Bolin Handique",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137211086",
+      "label": "Kutubuddin Ahmed",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137545163",
+      "label": "Jonmani Das",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137765547",
+      "label": "Sangita Saikia",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138225294",
+      "label": "Prakalpa Ranjan Bhagawati",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138307724",
+      "label": "Kalyan Bhuyan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138391331",
+      "label": "Diganta Biswa Sharma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138789747",
+      "label": "Khagendra nath Pathak",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138789761",
+      "label": "Amal Chandra Das",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139595179",
+      "label": "Chitralata Phukan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139595184",
+      "label": "Mohankrishna Mishra",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139605103",
+      "label": "Narahari Buhabhakat",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139605382",
+      "label": "Mamoni Gogoi Borgohain",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139605516",
+      "label": "Sonaram Baruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139796697",
+      "label": "Dattadev Goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q140942756",
+      "label": "Phanindra Nath Gayan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q405619",
+      "label": "Phani Sarma",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q491474",
+      "label": "Nalinidhar Bhattacharya",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1722836",
+      "label": "Kamalakanta Bhattacharya",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q2223219",
+      "label": "Bhabendra Nath Saikia",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3350424",
+      "label": "Muhammad Shahidullah",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3595888",
+      "label": "Ajan Fakir",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3595894",
+      "label": "Hiren Bhattacharyya",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3595897",
+      "label": "Birendra Kumar Bhattacharya",
+      "aliases": [],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q4741478",
+      "label": "Ambikagiri Raichoudhury",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4748955",
+      "label": "Amulya Barua",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4751350",
+      "label": "Anandaram Dhekial Phukan",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4777884",
+      "label": "Anuradha Sharma Pujari",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4802141",
+      "label": "Arun Sarma",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4818777",
+      "label": "Atul Chandra Hazarika",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4890686",
+      "label": "Benudhar Sharma",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5277181",
+      "label": "Dimbeswar Neog",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5618471",
+      "label": "Gunabhiram Barua",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5656831",
+      "label": "Harekrishna Deka",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5756276",
+      "label": "Nabakanta Barua",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q5756665",
+      "label": "Rita Chowdhury",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q5769768",
+      "label": "Hiren Gohain",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6733996",
+      "label": "Mahim Bora",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6745422",
+      "label": "Mamang Dai",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q6960728",
+      "label": "Nakul Chandra Bhuyan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6960908",
+      "label": "Nalini Bala Devi",
+      "aliases": [],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q7427513",
+      "label": "Saurabh Kumar Chaliha",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7586585",
+      "label": "Srutimala Duara",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7660270",
+      "label": "Syed Abdul Malik",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q11012539",
+      "label": "Homen Borgohain",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q11182920",
+      "label": "Jogesh Das",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q12080248",
+      "label": "Chandradhar Barua",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12450873",
+      "label": "Lakshmi Nandan Bora",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q12816986",
+      "label": "Kaliram Medhi",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q12827664",
+      "label": "Hemchandra Goswami",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q13099559",
+      "label": "Kanaklal Barua",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13220121",
+      "label": "Benudhar Rajkhowa",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13228476",
+      "label": "Mafizuddin Ahmed Hazarika",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13233025",
+      "label": "Chandra Kumar Agarwala",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q13358508",
+      "label": "Ananda Chandra Barua",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q13515794",
+      "label": "Nirmal Prabha Bordoloi",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q16018490",
+      "label": "Labanya Dutta Goswami",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q16056606",
+      "label": "Nagen Saikia",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q16105025",
+      "label": "Devi Prasad Bagrodia",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17279610",
+      "label": "Mahendra Borthakur",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17326189",
+      "label": "Chandra Prasad Saikia",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q17379292",
+      "label": "Atulananda Goswami",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17388557",
+      "label": "Mitradev Mahanta",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17682579",
+      "label": "Ajit Barua",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17751560",
+      "label": "Keshav Mahant",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17751742",
+      "label": "Keshada Mahanta",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q17806293",
+      "label": "Bhaben Barua",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q18010497",
+      "label": "Devendranath Acharya",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18014889",
+      "label": "Teerthnath Sharma",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q18068002",
+      "label": "Beereshwar Barua",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18145776",
+      "label": "Medini Chowdhury",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19742284",
+      "label": "Atul Chandra Barua",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19742545",
+      "label": "Kaviratna Saraswati",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19891349",
+      "label": "Dinesh Chandra Goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q21104167",
+      "label": "Nalini Prava Deka",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q21682987",
+      "label": "Rabindra Sarkar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q23015032",
+      "label": "Kuladhar Saikia",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25681732",
+      "label": "Atmaram Sarma",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q25681765",
+      "label": "Sneha Devi",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q25681813",
+      "label": "Yeshe Dorjee Thongchi",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q25681881",
+      "label": "Bishnupriya Devi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25681884",
+      "label": "Radhanath Phukan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q25682012",
+      "label": "Padmavati Devi Phukanani",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q25682162",
+      "label": "Purna Kanta Buragohain",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q26465757",
+      "label": "Prahlad Chandra Tasa",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q31319739",
+      "label": "Kabir Phukan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q31319793",
+      "label": "Chandana Goswami",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q31319807",
+      "label": "Trailokyanath Goswami",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q31319849",
+      "label": "Laxminath Phookan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q31319867",
+      "label": "Heerendra Nath Dutt",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q56165430",
+      "label": "Jayanta Madhab Bora",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q59522552",
+      "label": "Rudra Kandali",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65433774",
+      "label": "Sanjib Pol Deka",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q85967223",
+      "label": "Pranabjyoti Deka",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q85967932",
+      "label": "Nidhi Levi Farwell",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q85967975",
+      "label": "Kumudeswar Borthakur",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q93257041",
+      "label": "Nirod Choudhury",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q94638304",
+      "label": "Ratnakanta Barkakati",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q96769093",
+      "label": "Rajen Rabha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97266615",
+      "label": "Gitali Baruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q97267184",
+      "label": "Lakshira Das",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q105940090",
+      "label": "Apurba Kumar Saikia",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105942231",
+      "label": "Madhurima Gharphalia",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q107353827",
+      "label": "Santosh Kumar Karmakar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q110112186",
+      "label": "Aradhana patangia goswami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q110112244",
+      "label": "Bhavananda Datta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q110112289",
+      "label": "Ratneswar Mahanta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q110112329",
+      "label": "Upendra Borkotoky",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q110112462",
+      "label": "Bandita Phukan",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q110112515",
+      "label": "Subodh Mallabaruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q110868796",
+      "label": "Apurba Bezbaruah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q112256106",
+      "label": "Jwala Bora",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q113625247",
+      "label": "Joykanta Gandhiya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113625939",
+      "label": "Mahammad Piar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113626524",
+      "label": "Ranjit Kumar Dev Goswami",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q113626609",
+      "label": "Anandiram Das",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q26923076",
+      "label": "Kumud Chandra Hazarika",
+      "aliases": [
+        "Kumud Chandra  Hazarika",
+        "Ranju Hazarika"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q28816694",
+      "label": "Monalisa Jena",
+      "aliases": [
+        "Jenā, Monālisā",
+        "Monālisā Jenā"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32986435",
+      "label": "Prajnasundari Devi",
+      "aliases": [
+        "Pragnasundari Bezbarua"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q35475311",
+      "label": "Gyan Pujari",
+      "aliases": [
+        "Jnan Pujari",
+        "Jnana Pujari"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q61081400",
+      "label": "Hiteswar Babaruah",
+      "aliases": [
+        "Hiteshwar  Barbarua",
+        "Hiteswar Borboruah"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q61929805",
+      "label": "Gita Upadhyay",
+      "aliases": [
+        "Kumari Gita Upadhyaya"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q64860510",
+      "label": "Bholanath Das",
+      "aliases": [
+        "Bholanath Das"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q64860518",
+      "label": "Indreswar Barthakur",
+      "aliases": [
+        "Natyacharyya"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q64860516",
+      "label": "Rudra Ram Bordoloi",
+      "aliases": [
+        "Rudraram Bordoloi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q84066265",
+      "label": "Rishikesh Upadhyay",
+      "aliases": [
+        "Dr Rishikesh Upadhyay",
+        "Rishikesh Upadhyay PhD",
+        "Upadhyay Rishikesh"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q85967845",
+      "label": "Sananta Tanty",
+      "aliases": [
+        "Sananta Tanti"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q85967950",
+      "label": "Harinarayan Dutta Baruah",
+      "aliases": [
+        "Harinārāẏaṇa Dattabaruwā",
+        "Sahityaratna"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q92764223",
+      "label": "Rama Das",
+      "aliases": [
+        "Roma Das"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q107424070",
+      "label": "Jogesh Upadhyaya",
+      "aliases": [
+        "Poem Writer"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110112220",
+      "label": "Dhanai Borah",
+      "aliases": [
+        "Neeti Kavi"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q111803277",
+      "label": "Moushumi Kandali",
+      "aliases": [
+        "Mouchumi Kandali"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q113624758",
+      "label": "Bishwajtoti Sarma",
+      "aliases": [
+        "Bishwajyoti Sharma"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q116054904",
+      "label": "Ishananda Bharali",
+      "aliases": [
+        "Issananda Bharali"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q116054909",
+      "label": "Umeshchandra Choudhary",
+      "aliases": [
+        "Umeshchandra Choudhury",
+        "Umesh Chandra Choudhary"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q116913675",
+      "label": "Tulsi Narayan Sharma",
+      "aliases": [
+        "Tulshi Narayan Sharma",
+        "তুলসী নাৰায়ণ শৰ্মা"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q121605096",
+      "label": "Ahmed Ali Assami",
+      "aliases": [
+        "Ahmad Ali Assami",
+        "Ahmed Ali Badarpuri",
+        "Ahmed Ali Baskandi",
+        "Ahmed Ali of Baskandi",
+        "Baskandi Huzoor"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q122809349",
+      "label": "Lalit Kumar Barua",
+      "aliases": [
+        "Lalit Barua",
+        "Lalit Baruah"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q127719535",
+      "label": "Nilutpal Boruah",
+      "aliases": [
+        "Nilutpal Baruah"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131406730",
+      "label": "Bishaychandra Biswashi",
+      "aliases": [
+        "Bishai Chandra Bishasi",
+        "Bishaichandra Biswasi"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131722467",
+      "label": "Himala Baruani",
+      "aliases": [
+        "Himala Baruah",
+        "Himala Baruahni"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131762877",
+      "label": "Tarak Chandra Goswami",
+      "aliases": [
+        "Tarok Chandra Goswami"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131873268",
+      "label": "Nilima Bora",
+      "aliases": [
+        "Neelima Bora"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131905167",
+      "label": "Jnanananda Jagati",
+      "aliases": [
+        "Gyanananda Jagati"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131907634",
+      "label": "Harmohan Das",
+      "aliases": [
+        "Hara Mohan Das",
+        "Haramohan Das"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131912203",
+      "label": "Albanus Kimball Gurney",
+      "aliases": [
+        "A K Gurney",
+        "AK Garney"
+      ],
+      "sitelinks": 2
+    }
+  ]
+}

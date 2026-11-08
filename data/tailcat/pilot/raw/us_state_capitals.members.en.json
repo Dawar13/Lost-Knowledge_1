@@ -1,0 +1,578 @@
+{
+  "key": "956d1c031a7c3626",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?state wdt:P31 wd:Q35657 ; wdt:P36 ?item . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:28:51Z",
+  "rows": [
+    {
+      "qid": "Q18094",
+      "label": "Honolulu",
+      "aliases": [
+        "Hanarourou",
+        "Honolulu CDP",
+        "Urban Honolulu",
+        "Honolulu, HI"
+      ],
+      "sitelinks": 192
+    },
+    {
+      "qid": "Q18383",
+      "label": "Providence",
+      "aliases": [
+        "Providence, RI",
+        "City of Providence, Rhode Island",
+        "Providence, R.I."
+      ],
+      "sitelinks": 134
+    },
+    {
+      "qid": "Q23197",
+      "label": "Nashville",
+      "aliases": [
+        "Metropolitan Government of Nashville and Davidson County",
+        "Nashville–Davidson County",
+        "Nashville, Tenn.",
+        "Nashville, TN"
+      ],
+      "sitelinks": 155
+    },
+    {
+      "qid": "Q23337",
+      "label": "Salt Lake City",
+      "aliases": [
+        "Salt Lake",
+        "SLC",
+        "Salt Lake City, UT",
+        "Salt Lake City, Utah"
+      ],
+      "sitelinks": 160
+    },
+    {
+      "qid": "Q23556",
+      "label": "Atlanta",
+      "aliases": [
+        "Terminus",
+        "Atlanta, GA",
+        "The A",
+        "Hotlanta",
+        "Marthasville",
+        "Marthasville, Georgia",
+        "The ATL",
+        "The Big Peach"
+      ],
+      "sitelinks": 209
+    },
+    {
+      "qid": "Q6346",
+      "label": "Indianapolis",
+      "aliases": [
+        "Indianapolis, IN",
+        "Indy",
+        "Circle City",
+        "Naptown",
+        "Crossroads of America",
+        "Amateur Sports Capital of the World",
+        "India-no-place",
+        "Indianapolis, Ind.",
+        "INDPLS",
+        "Racing Capital of the World",
+        "Railroad City"
+      ],
+      "sitelinks": 164
+    },
+    {
+      "qid": "Q100",
+      "label": "Boston",
+      "aliases": [
+        "Bean Town",
+        "Beantown",
+        "Boston (MA)",
+        "Boston MA, United States",
+        "Boston, MA",
+        "Boston, Mass",
+        "Boston, Mass.",
+        "Boston, Massachusetts, United States",
+        "Boston, Massachusetts, United States of America",
+        "Boston, Massachusetts, US",
+        "Boston, United States",
+        "Boston, USA",
+        "Bostonia",
+        "Capital of Massachusetts",
+        "City of Boston",
+        "Puritan City",
+        "The Athens of America",
+        "The Cradle of Liberty",
+        "The Cradle of Modern America",
+        "The Hub",
+        "The hub of the universe",
+        "The Hub of the Universe",
+        "The Walking City"
+      ],
+      "sitelinks": 217
+    },
+    {
+      "qid": "Q16554",
+      "label": "Denver",
+      "aliases": [
+        "Denver, CO",
+        "City and County of Denver",
+        "Denver, Colorado",
+        "Mile High City",
+        "Queen City of the Plains",
+        "Queen City of the West"
+      ],
+      "sitelinks": 186
+    },
+    {
+      "qid": "Q16559",
+      "label": "Austin",
+      "aliases": [
+        "Austin, TX",
+        "Austin, Texas"
+      ],
+      "sitelinks": 169
+    },
+    {
+      "qid": "Q16556",
+      "label": "Phoenix",
+      "aliases": [
+        "Phœnix",
+        "Valley of the Sun",
+        "City of Phoenix",
+        "Phoenix, Arizona",
+        "Phoenix, AZ",
+        "PHX"
+      ],
+      "sitelinks": 181
+    },
+    {
+      "qid": "Q28260",
+      "label": "Lincoln",
+      "aliases": [
+        "Lincoln, Nebraska",
+        "Lincoln, NE"
+      ],
+      "sitelinks": 129
+    },
+    {
+      "qid": "Q28271",
+      "label": "Annapolis",
+      "aliases": [
+        "Providence, Maryland",
+        "Annapolis, Maryland",
+        "Annapolis, MD",
+        "Anne Arundel's Towne"
+      ],
+      "sitelinks": 128
+    },
+    {
+      "qid": "Q28515",
+      "label": "Springfield",
+      "aliases": [
+        "Calhoun",
+        "Springfield, IL",
+        "Springfield, Illinois"
+      ],
+      "sitelinks": 137
+    },
+    {
+      "qid": "Q28603",
+      "label": "Frankfort",
+      "aliases": [
+        "Frankfort, KY",
+        "Frankfort, Kentucky"
+      ],
+      "sitelinks": 130
+    },
+    {
+      "qid": "Q25280",
+      "label": "Harrisburg",
+      "aliases": [
+        "Harrisburg, PA"
+      ],
+      "sitelinks": 133
+    },
+    {
+      "qid": "Q25330",
+      "label": "Trenton",
+      "aliases": [
+        "Trenton, NJ",
+        "Trenton City, Mercer County, New Jersey",
+        "Trenton City, New Jersey",
+        "Trenton Township, Mercer County, New Jersey",
+        "Trenton Township, New Jersey",
+        "Trenton, New Jersey",
+        "Western New Jersey"
+      ],
+      "sitelinks": 126
+    },
+    {
+      "qid": "Q26426",
+      "label": "Montpelier",
+      "aliases": [
+        "Montpelier, Vermont",
+        "Montpelier, VT"
+      ],
+      "sitelinks": 124
+    },
+    {
+      "qid": "Q24861",
+      "label": "Albany",
+      "aliases": [
+        "Albany, NY",
+        "Albany, New York"
+      ],
+      "sitelinks": 135
+    },
+    {
+      "qid": "Q28848",
+      "label": "Saint Paul",
+      "aliases": [
+        "St Paul",
+        "St. Paul",
+        "St. Paul, MN",
+        "Saint Paul, Minnesota",
+        "Saint Paul, MN",
+        "Saint Paul, Ramsey, Minnesota, United States",
+        "St Paul, Minnesota",
+        "St. Paul, Minnesota"
+      ],
+      "sitelinks": 136
+    },
+    {
+      "qid": "Q28180",
+      "label": "Jefferson City",
+      "aliases": [
+        "Jefferson",
+        "Jefferson City, MO",
+        "Jefferson City, Missouri",
+        "Jeff City",
+        "Jefferson, Missouri"
+      ],
+      "sitelinks": 124
+    },
+    {
+      "qid": "Q28198",
+      "label": "Jackson",
+      "aliases": [
+        "City of Jackson",
+        "Jackson, MS",
+        "Jackson, Mississippi"
+      ],
+      "sitelinks": 135
+    },
+    {
+      "qid": "Q28206",
+      "label": "Augusta",
+      "aliases": [
+        "Augusta, ME",
+        "Augusta, Maine"
+      ],
+      "sitelinks": 115
+    },
+    {
+      "qid": "Q28218",
+      "label": "Baton Rouge",
+      "aliases": [
+        "Baton Rouge, LA",
+        "Baton Rouge, Louisiana"
+      ],
+      "sitelinks": 134
+    },
+    {
+      "qid": "Q37043",
+      "label": "Tallahassee",
+      "aliases": [
+        "Tallahassee, FL",
+        "Tallahassee, Florida"
+      ],
+      "sitelinks": 143
+    },
+    {
+      "qid": "Q37066",
+      "label": "Bismarck",
+      "aliases": [
+        "Bismarck, ND",
+        "Bismarck, North Dakota",
+        "Edwinton, ND",
+        "Edwinton, North Dakota",
+        "West Bismarck, North Dakota"
+      ],
+      "sitelinks": 130
+    },
+    {
+      "qid": "Q38453",
+      "label": "Columbia",
+      "aliases": [
+        "Cola",
+        "Columbia, SC",
+        "Columbia, South Carolina",
+        "City of Columbia",
+        "Soda City"
+      ],
+      "sitelinks": 129
+    },
+    {
+      "qid": "Q16567",
+      "label": "Columbus",
+      "aliases": [
+        "Kolumbus",
+        "Columbus, OH",
+        "Cowtown",
+        "Arch City",
+        "Cbus",
+        "Indie Art Capital",
+        "The Biggest Small Town in America",
+        "The Discovery City"
+      ],
+      "sitelinks": 159
+    },
+    {
+      "qid": "Q18013",
+      "label": "Sacramento",
+      "aliases": [
+        "City of Trees",
+        "River City",
+        "Sac",
+        "Sacramento, CA",
+        "Camellia City",
+        "City of Sacramento",
+        "Sac-Town",
+        "Sacramento, California",
+        "The Big Tomato",
+        "The Capitol City",
+        "The Indomitable City"
+      ],
+      "sitelinks": 176
+    },
+    {
+      "qid": "Q29364",
+      "label": "Montgomery",
+      "aliases": [
+        "Montgomery, AL",
+        "Montgomery, Alabama"
+      ],
+      "sitelinks": 145
+    },
+    {
+      "qid": "Q33405",
+      "label": "Little Rock",
+      "aliases": [
+        "Little Rock, AR",
+        "Little Rock, Ark.",
+        "Little Rock, Arkansas",
+        "the Little Rock"
+      ],
+      "sitelinks": 147
+    },
+    {
+      "qid": "Q33486",
+      "label": "Hartford",
+      "aliases": [
+        "Hartford, Connecticut",
+        "Hartford, CT",
+        "Capital of Connecticut",
+        "City of Hartford, Connecticut",
+        "Hartford (Connecticut)",
+        "Hartford (CT)",
+        "Hartford CT",
+        "Hartford, Conn.",
+        "Hartford, Hartford County, Connecticut",
+        "Hartford, USA"
+      ],
+      "sitelinks": 141
+    },
+    {
+      "qid": "Q33518",
+      "label": "Dover",
+      "aliases": [
+        "Dover, DE",
+        "Dover, Delaware"
+      ],
+      "sitelinks": 130
+    },
+    {
+      "qid": "Q34863",
+      "label": "Oklahoma City",
+      "aliases": [
+        "OKC",
+        "Oklahoma City, OK",
+        "Oklahoma City, Oklahoma",
+        "Okla. City",
+        "OK City"
+      ],
+      "sitelinks": 155
+    },
+    {
+      "qid": "Q35775",
+      "label": "Boise",
+      "aliases": [
+        "City of Trees",
+        "Boise, ID",
+        "Boise, Idaho"
+      ],
+      "sitelinks": 142
+    },
+    {
+      "qid": "Q28237",
+      "label": "Lansing",
+      "aliases": [
+        "Lansing, MI",
+        "Lansing, Michigan"
+      ],
+      "sitelinks": 126
+    },
+    {
+      "qid": "Q28249",
+      "label": "Concord",
+      "aliases": [
+        "Concord, NH",
+        "Concord N.H.",
+        "Concord NH",
+        "Concord, New Hampshire"
+      ],
+      "sitelinks": 129
+    },
+    {
+      "qid": "Q38555",
+      "label": "Santa Fe",
+      "aliases": [
+        "Santa Fé",
+        "Poga",
+        "Santa Fe, NM",
+        "Apoga",
+        "Apoge",
+        "Cua P'Hoge",
+        "Cua-P'ho-o-ge",
+        "Cua-Po-o-que",
+        "Cua-po-oge",
+        "Kua-p'o-o-ge",
+        "Kuapooge",
+        "O gah Po'geh",
+        "Og-a-p'o-ge",
+        "Oga P'Hoge",
+        "Oghá P'o'oge",
+        "Po-o-ge",
+        "Poge",
+        "Royal City of the Holy Faith of St. Francis of Assisi",
+        "SFNM",
+        "White Shell Water Place",
+        "Yootó"
+      ],
+      "sitelinks": 138
+    },
+    {
+      "qid": "Q38733",
+      "label": "Helena",
+      "aliases": [
+        "Helena, MT",
+        "Helena, Montana"
+      ],
+      "sitelinks": 131
+    },
+    {
+      "qid": "Q39042",
+      "label": "Cheyenne",
+      "aliases": [
+        "Cheyenne, WY",
+        "Cheyenne, Wyoming"
+      ],
+      "sitelinks": 128
+    },
+    {
+      "qid": "Q39709",
+      "label": "Des Moines",
+      "aliases": [
+        "Des Moines, IA",
+        "Des Moines, Iowa"
+      ],
+      "sitelinks": 145
+    },
+    {
+      "qid": "Q40747",
+      "label": "Pierre",
+      "aliases": [
+        "Pierre, SD",
+        "Pierre, South Dakota"
+      ],
+      "sitelinks": 129
+    },
+    {
+      "qid": "Q40881",
+      "label": "Carson City",
+      "aliases": [
+        "Carson City, NV",
+        "Carson City, Nevada",
+        "Consolidated Municipality of Carson City"
+      ],
+      "sitelinks": 128
+    },
+    {
+      "qid": "Q41057",
+      "label": "Topeka",
+      "aliases": [
+        "Topeka, KS",
+        "Topeka, Kansas"
+      ],
+      "sitelinks": 134
+    },
+    {
+      "qid": "Q41087",
+      "label": "Raleigh",
+      "aliases": [
+        "Raleigh, NC",
+        "Raleigh, N.C.",
+        "Raleigh, North Carolina"
+      ],
+      "sitelinks": 136
+    },
+    {
+      "qid": "Q42735",
+      "label": "Olympia",
+      "aliases": [
+        "Olympia, WA",
+        "Olympia, Washington"
+      ],
+      "sitelinks": 124
+    },
+    {
+      "qid": "Q43421",
+      "label": "Richmond",
+      "aliases": [
+        "RVA",
+        "Richmond, VA",
+        "Richmond City",
+        "Richmond, Virginia"
+      ],
+      "sitelinks": 134
+    },
+    {
+      "qid": "Q43788",
+      "label": "Madison",
+      "aliases": [
+        "Madison, Wisconsin",
+        "Madison, WI",
+        "City of Madison"
+      ],
+      "sitelinks": 128
+    },
+    {
+      "qid": "Q43919",
+      "label": "Salem",
+      "aliases": [
+        "Salem, OR",
+        "Salem, Oregon"
+      ],
+      "sitelinks": 120
+    },
+    {
+      "qid": "Q44564",
+      "label": "Charleston",
+      "aliases": [
+        "Charleston, WV",
+        "Charleston, West Virginia",
+        "Charleston, W.Va."
+      ],
+      "sitelinks": 117
+    }
+  ]
+}

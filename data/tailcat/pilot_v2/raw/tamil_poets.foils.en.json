@@ -1,0 +1,1961 @@
+{
+  "key": "396bdde86d6551a3",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q49757 . { ?item wdt:P1412 wd:Q8097 } UNION { ?item wdt:P1412 wd:Q33673 } } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:25:21Z",
+  "rows": [
+    {
+      "qid": "Q256286",
+      "label": "Subramanya Bharathi",
+      "aliases": [
+        "Subramania Bharathi",
+        "Bharathiar",
+        "Mahakavi Subramania Bharathiyar",
+        "Subramania Bharathiyar"
+      ],
+      "sitelinks": 31
+    },
+    {
+      "qid": "Q275146",
+      "label": "P. V. Narasimha Rao",
+      "aliases": [
+        "Pamulaparti Venkata Narasimha Rao"
+      ],
+      "sitelinks": 64
+    },
+    {
+      "qid": "Q724089",
+      "label": "U. R. Ananthamurthy",
+      "aliases": [
+        "Udupi Rajagopalacharya Ananthamurthy"
+      ],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q1289992",
+      "label": "Chavundaraya",
+      "aliases": [
+        "Chamundaraya"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q1611385",
+      "label": "Adikavi Pampa",
+      "aliases": [
+        "Pampa"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q2075562",
+      "label": "Gurajada Apparao",
+      "aliases": [
+        "Gurajada Apparao",
+        "Gurajada Venkata Apparao",
+        "Gurazada Appa Rao"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q2822075",
+      "label": "Abul Hasan Qutb Shah",
+      "aliases": [
+        "Abul Hasan Tana Shah",
+        "Tana Shah",
+        "Tani Shah"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q2880506",
+      "label": "M. Balamuralikrishna",
+      "aliases": [
+        "Dr. M. Balamuralikrishna",
+        "M. Balamurali Krishna",
+        "Mangalampalli Balamuralikrishna",
+        "Mangalampallli Balamurali Krishna"
+      ],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q3344900",
+      "label": "D. R. Bendre",
+      "aliases": [
+        "Bendre",
+        "Ambikatanayadatta"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q139979172",
+      "label": "Paidipati Lakshmana Kavi",
+      "aliases": [
+        "Laksmana Kavi",
+        "Paidipati Laksmanakavi"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140129846",
+      "label": "Singaraya",
+      "aliases": [
+        "Singararya"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140130597",
+      "label": "Kuchimanchi Thimmakavi",
+      "aliases": [
+        "Kuchimanchi Thimmakavi",
+        "Thimmaya"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140142198",
+      "label": "Bommakanti Venkata Subrahmanya Sastri",
+      "aliases": [
+        "Bommakanti",
+        "Bommakanti Venkata Subrahmanya Sastri",
+        "Venkata Subrahmanya Sastr"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140235781",
+      "label": "Vedula Surya Narayana Sastry",
+      "aliases": [
+        "Vedula Surya Narayana Sastry",
+        "Surya Narayana Sastr"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140313264",
+      "label": "Mulaghatika Ketana",
+      "aliases": [
+        "ketana",
+        "Ketanakavi",
+        "M. Kethanakavi"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q7520616",
+      "label": "Simpi Linganna",
+      "aliases": [
+        "Bharatha"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7586468",
+      "label": "Sripada Krishnamurty Sastry",
+      "aliases": [
+        "Kaviraz Krishna Murthy Sastry",
+        "Sripada Krishnamurthy Sastry"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7636984",
+      "label": "Sumatheendra R Nadig",
+      "aliases": [
+        "Sumathendra Raghavendra Nadig"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7645475",
+      "label": "Suravaram Pratapaareddy",
+      "aliases": [
+        "Suravaram Pratapa Reddy"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7668547",
+      "label": "T. N. Srikantaiah",
+      "aliases": [
+        "Theerthapura Nanjundaiah Srikantaiah"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7680069",
+      "label": "Tallapaka Tirumalamma",
+      "aliases": [
+        "Tallapaka Timmakka"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7686091",
+      "label": "Tarikonda Vengamamba",
+      "aliases": [
+        "Tarigonda Vengamamba"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7852653",
+      "label": "Tummala Seetharama Murthy",
+      "aliases": [
+        "Tummala Sītārāmamūrti",
+        "Tummala Seetaramamurthy"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7908699",
+      "label": "Vaidehi",
+      "aliases": [
+        "Janaki Srinivasamurthy",
+        "Janaki Srinivasa Murthy"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q7913956",
+      "label": "Vanamali",
+      "aliases": [
+        "Manigopal"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7923854",
+      "label": "Veturi Sundararama Murthy",
+      "aliases": [
+        "Veturi"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10986715",
+      "label": "Tripuraneni Ramaswamy",
+      "aliases": [
+        "Tripuraneni Ramaswamy Chowdary"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q11196727",
+      "label": "Venugopal Sorab",
+      "aliases": [
+        "Venugopala Soraba"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12442858",
+      "label": "Boyi Bhimanna",
+      "aliases": [
+        "Boyi Bheemanna"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12994701",
+      "label": "Kotagiri Venkata Krishna Rao",
+      "aliases": [
+        "Kotagiri Venkata Krishnarao"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13006997",
+      "label": "Mailavarapu Gopi",
+      "aliases": [
+        "Mylavarapu Gopi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13009572",
+      "label": "Vinnakota Peddana",
+      "aliases": [
+        "Vinnakota Peddanna"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13159219",
+      "label": "Chennaveera Kanavi",
+      "aliases": [
+        "Nadoja Chennaveera Kanavi"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q13159401",
+      "label": "T. Sunandamma",
+      "aliases": [
+        "Tumkur Sunandamma"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13159914",
+      "label": "P. V. Acharya",
+      "aliases": [
+        "Padigaru Venkataramana Acharya"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13645804",
+      "label": "Madhira Subbanna Deekshitulu",
+      "aliases": [
+        "Madhira Deekshitulu",
+        "Subbanna",
+        "Subbanna Deekshitulu"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15689654",
+      "label": "Achanta Venkataraya Sankhyayana Sharma",
+      "aliases": [
+        "Achanta Sankhyayana Sharma"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15691219",
+      "label": "Ēṭukūri Vēṅkaṭanarasayya",
+      "aliases": [
+        "Etukuri Venkata Narasayya",
+        "Yetukuri Venkata Narasaiah"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q15691541",
+      "label": "Kandukuri Rudrakavi",
+      "aliases": [
+        "Kandukūri Rudrakavi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15693012",
+      "label": "Mulaghatika Ketana",
+      "aliases": [
+        "Ketana",
+        "Mūlaghaṭika Kētana"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15693669",
+      "label": "Kopparapu Subba Rao",
+      "aliases": [
+        "Kopparapu Subbārāvu"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q15694257",
+      "label": "Koravi Goparaju",
+      "aliases": [
+        "Koravi Gopa Raju",
+        "Koravi Gōparāju"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15695976",
+      "label": "Korada Ramachandra Sastry",
+      "aliases": [
+        "Korada Ramachandra Sastri"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15704157",
+      "label": "Dasu Sriramulu",
+      "aliases": [
+        "Dasu Sriramulu Pantulu",
+        "Mahakavi Dasu Sriramulu",
+        "Śrīrāmulu, Dāsu"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3349404",
+      "label": "Salil Chowdhury",
+      "aliases": [
+        "Salila Caudhurī"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3351108",
+      "label": "Kuvempu",
+      "aliases": [
+        "K. V. Puttappa",
+        "Kuppali Venkatappa Puttappa"
+      ],
+      "sitelinks": 28
+    },
+    {
+      "qid": "Q3422639",
+      "label": "Kancherla Gopanna",
+      "aliases": [
+        "Ramadasu",
+        "Bhadrachala Ramadasu",
+        "Bhakta Ramadasu",
+        "Kancharla Gopanna"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3518406",
+      "label": "Akka Mahadevi",
+      "aliases": [
+        "Mahadeviyakka"
+      ],
+      "sitelinks": 34
+    },
+    {
+      "qid": "Q3519662",
+      "label": "A. K. Ramanujan",
+      "aliases": [
+        "A K Ramanujan",
+        "Attipate Krishnaswami Ramanujan"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q98165791",
+      "label": "Ayyalaraju Narayanamatyudu",
+      "aliases": [
+        "Ayyalaraju Narayanamatya"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q104996175",
+      "label": "Komanduru Krishnamacharyulu",
+      "aliases": [
+        "Komāṇḍūru Kr̥ṣṇamācāryulu"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q111014867",
+      "label": "Chengalva Kalaya",
+      "aliases": [
+        "Chengalva Kalakavi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q113965053",
+      "label": "Alluri Gourilakshmi",
+      "aliases": [
+        "Alluri (Penmatsa) Gourilakshmi",
+        "GouriLakshmi Alluri"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q124759868",
+      "label": "Gannavarapu Varaha Narasimha Murthy",
+      "aliases": [
+        "Dr. Gannavarapu Varaha Narasimhamurthy",
+        "G. V. Narasimha Murthy",
+        "G. V. Narasimham"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q125486732",
+      "label": "Sankusala Nrisimhakavi",
+      "aliases": [
+        "Saṅkusāla Nr̥siṃhakavi"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q125839737",
+      "label": "Jagaddhatri",
+      "aliases": [
+        "Pusala Jagaddhatri"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125851122",
+      "label": "Renuka Ayola",
+      "aliases": [
+        "Renuka Aiyala Somayajula"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134614044",
+      "label": "Kalachaveedu Venkataramanacharyulu",
+      "aliases": [
+        "Kalachaveedu Venkata Ramanacharyulu"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139897948",
+      "label": "Nagarekha Gaonkar",
+      "aliases": [
+        "Nagarekha Gaokar"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q60644",
+      "label": "Friedrich Rückert",
+      "aliases": [
+        "Erich Friedrich Truck",
+        "Freimund Raimar",
+        "Freimund Reimar",
+        "Freimund Reimer"
+      ],
+      "sitelinks": 56
+    },
+    {
+      "qid": "Q3521359",
+      "label": "Tenali Ramakrishna",
+      "aliases": [
+        "Tenali Rama",
+        "Garlapati Ramakrishna",
+        "Tenali Ramalinga"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q3536450",
+      "label": "K. Shivaram Karanth",
+      "aliases": [
+        "K. S. Karanth"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3536517",
+      "label": "Tallapaka Annamacharya",
+      "aliases": [
+        "Annamacharya",
+        "Annamayya"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3595179",
+      "label": "Nannayya",
+      "aliases": [
+        "Nannaiah",
+        "Nannaya",
+        "Nannaya Bhattaraka",
+        "Nannayya'"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q3595272",
+      "label": "M. Govinda Pai",
+      "aliases": [
+        "Manjeshwar Govinda Pai"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3595534",
+      "label": "Kshetrayya",
+      "aliases": [
+        "Kshetragna"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3595541",
+      "label": "Singireddy NarayanaReddy",
+      "aliases": [
+        "Cingireddi Narayana Reddy",
+        "Cingireddy Narayana Reddy",
+        "C Narayana Reddy"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q5278576",
+      "label": "Srinatha",
+      "aliases": [
+        "Srinathudu",
+        "Śrīnātha"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5284729",
+      "label": "Diwakarla Venkatavadhani",
+      "aliases": [
+        "Divakarla Venkatavadhani"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5317636",
+      "label": "Duvvuri Ramireddy",
+      "aliases": [
+        "Duvvoori Rammireddy",
+        "Duvvuri Ramireddy",
+        "Duvvuru Ramireddy",
+        "Duvvuri Rami Reddi",
+        "Duvvuri Rami Reddy",
+        "Duvvuri Ramireddi",
+        "Kaviraju Duvvuri Rami Reddy",
+        "కవిరాజు దువ్వూరి రామిరెడ్డి",
+        "దువ్వూరి రామిరెడ్డి"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5512389",
+      "label": "G. P. Rajarathnam",
+      "aliases": [
+        "Gundappa Parameshwara Rajaratnam"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5512449",
+      "label": "G. S. Amur",
+      "aliases": [
+        "Amur"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5512471",
+      "label": "G. S. Shivarudrappa",
+      "aliases": [
+        "G. S. Sivarudrappa",
+        "Guggari Shanthaveerappa Shivarudrappa"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q5584216",
+      "label": "Gopalakrishna Adiga",
+      "aliases": [
+        "Mogeri Gopalakrishna Adiga"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q5589945",
+      "label": "Govindray H. Nayak",
+      "aliases": [
+        "G. H. Nayak",
+        "Govindaray Hammanna Nayak"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5614648",
+      "label": "Gudlavalleti Chalapati Rao",
+      "aliases": [
+        "Gudlavalleti venkata Chalapati Rao"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5619502",
+      "label": "Gunturu Seshendra Sarma",
+      "aliases": [
+        "Gunturu Sarma",
+        "Gunturu Seshendra",
+        "Seshendra Sarm"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5620271",
+      "label": "Gurram Jashuva",
+      "aliases": [
+        "Gurram Joshua"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q5628554",
+      "label": "H. S. Shivaprakash",
+      "aliases": [
+        "H. S. Shiva Prakash",
+        "Hulkuntemath Shivamurthy Sastri Shivaprakash"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6150753",
+      "label": "Janamanchi Seshadri Sarma",
+      "aliases": [
+        "Janamanchi Seshadri Sharma"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6150952",
+      "label": "Jandhyala Papayya Sastry",
+      "aliases": [
+        "Karunasree",
+        "Karunasri"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6167564",
+      "label": "Jayant Kaikini",
+      "aliases": [
+        "Jayanth Kaikini"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6323946",
+      "label": "K. S. Narasimhaswamy",
+      "aliases": [
+        "KSN",
+        "Kikkeri Subbarao Narasimhaswamy"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6353098",
+      "label": "Rama Rao Kalipatnam",
+      "aliases": [
+        "Kara Mastar",
+        "Kara Mastaru"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6379235",
+      "label": "Kavikondala Venkata Rao",
+      "aliases": [
+        "Kavikonada Venkata Rao"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6380737",
+      "label": "Kayyar Kinhanna Rai",
+      "aliases": [
+        "Kayyara Kinhanna Rai"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q6444380",
+      "label": "Kundurti Anjaneyulu",
+      "aliases": [
+        "Anjaneyulu"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6726478",
+      "label": "Madapati Hanumantha Rao",
+      "aliases": [
+        "Madapati Hanumantarao"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6896292",
+      "label": "Atukuri Molla",
+      "aliases": [
+        "Molla",
+        "Mollambaa"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q15705490",
+      "label": "Nayani Krishnakumari",
+      "aliases": [
+        "Kr̥ṣṇakumāri, Nāyani",
+        "Nayani Krishna Kumari"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15705569",
+      "label": "Nikhileswar",
+      "aliases": [
+        "Kumbham Yadavreddy"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15716868",
+      "label": "H. Tipperudraswamy",
+      "aliases": [
+        "Honnali Tipperudraswamy"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q15716968",
+      "label": "S S Bhusnurmatha",
+      "aliases": [
+        "SS Bhusnurmath"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16313921",
+      "label": "Vēlūri Śivarāmaśāstri",
+      "aliases": [
+        "Veluri Shivarama Sastry",
+        "Veluri Sivarama Sastri"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16345133",
+      "label": "Vaddadi Subbarayudu",
+      "aliases": [
+        "Vaddadi Subbarayakavi"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16507536",
+      "label": "Allamraju Subrahmanyakavi",
+      "aliases": [
+        "Allamaraju Subrahmanya Kavi",
+        "Alamaraju Subramanya",
+        "Alamaraju Subramanya Kavi"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16509723",
+      "label": "Madabushi Vankatacharya",
+      "aliases": [
+        "Madabhushi Venkatacharya Kavi"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16583236",
+      "label": "Gurazada Srirama Murty",
+      "aliases": [
+        "Gurajada Srirama Murty",
+        "Guruzada Sriramamurti"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16619782",
+      "label": "Sonthi Bhadradri Ramasastri",
+      "aliases": [
+        "Sonti Bhadradri Ramasastry"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16623148",
+      "label": "Taduri Lakshminarasimharao",
+      "aliases": [
+        "Tadury Lakshmi Narasimha Rao"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16693121",
+      "label": "M. V. Ramanachari",
+      "aliases": [
+        "Medepalli Venkata Ramacharyulu",
+        "Vēṅkaṭaramaṇācāryulu, Mēḍēpalli",
+        "Medepalli Venkataramanacharyulu"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q17037696",
+      "label": "Indraganti Hanumachchastry",
+      "aliases": [
+        "Indraganti",
+        "Hanumachchastry"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17403196",
+      "label": "M S Ananthapadmanabha Rao",
+      "aliases": [
+        "Gamaka Vidwan M S Ananthapadmanabha Rao"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18386489",
+      "label": "K Y Narayanaswamy",
+      "aliases": [
+        "Kuppur Yalappa Narayanaswamy",
+        "KYN"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q19604923",
+      "label": "Kavitha Prasad Rallabandi",
+      "aliases": [
+        "Avadhana RaaRaaju",
+        "Rallabandi Kavitha Prasad"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19757702",
+      "label": "Pasupuleti Purnachandra Rao",
+      "aliases": [
+        "Pasupuleti Purna Chandra Rao"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20131597",
+      "label": "Tripurana Venkata Surya Prasada Rao",
+      "aliases": [
+        "Tripurana Venkata Suryaprasadarayakavi"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20558845",
+      "label": "K. Shivareddy",
+      "aliases": [
+        "K Shiva Reddy",
+        "K Siva Reddy",
+        "K. Siva Reddy"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q21095595",
+      "label": "Chandrashekhar Patil",
+      "aliases": [
+        "Chandrashekar Patil"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21720389",
+      "label": "Mantripragaḍa Bhujangaravu",
+      "aliases": [
+        "Mantripragada Bhujanga Rao",
+        "Mantripragaḍa Bhujaṅgarāvu",
+        "Mantripregada Bhujangarao"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21982799",
+      "label": "Dēvulapalli Subbarāyaśāstri",
+      "aliases": [
+        "Devulapalli Subbaraya Sastry",
+        "Devullapalli Subbaraya Sastry",
+        "Devullapalli Subbaraya Shastri"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q25574281",
+      "label": "Avvari Subrahmanya Sastry",
+      "aliases": [
+        "Avvari Subrahmanya Sastry)"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q28916659",
+      "label": "Siri Labala",
+      "aliases": [
+        "Saritha"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29076255",
+      "label": "K. V. Tirumalesh",
+      "aliases": [
+        "K V Tirumalesha"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q31792588",
+      "label": "Aliya Lingaraja Urs",
+      "aliases": [
+        "Aliya Lingaraja Kavi"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q38768378",
+      "label": "Chakravadhanula ManikyaSharma",
+      "aliases": [
+        "ManikyaSharma"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q61124263",
+      "label": "Vemuri Saradamba",
+      "aliases": [
+        "దాసు (Vemuri) Saradamba"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q98141826",
+      "label": "Seshamu Venkatapati",
+      "aliases": [
+        "Sheshamu Venkatapati",
+        "Seshamu Venkatapati"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6951775",
+      "label": "N. S. Lakshminarayan Bhat",
+      "aliases": [
+        "NSL",
+        "Nailady Shivarama Lakshminarayan Bhatta"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6963402",
+      "label": "Nanduri Venkata Subbarao",
+      "aliases": [
+        "Nanduri Subbarao",
+        "Nanduri Venkata Subbarao",
+        "Naṇḍūri Veṅkaṭa Subbārāvu"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7117564",
+      "label": "P. T. Narasimhachar",
+      "aliases": [
+        "Purohita Thirunarayana Narasimhachar"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q7126555",
+      "label": "Palagummi Padmaraju",
+      "aliases": [
+        "P. Padmaraju"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7127677",
+      "label": "Palkuriki Somanatha",
+      "aliases": [
+        "Palkurki Somanathudu"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7195698",
+      "label": "Pingali Nagendrarao",
+      "aliases": [
+        "Pingali",
+        "Pingali Nagendra Rao"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7195696",
+      "label": "Pingali Lakshmikantam",
+      "aliases": [
+        "Pingalai Lakshmi Kantham",
+        "Pingali Lakshmi Kantham"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7228864",
+      "label": "Poornachandra Tejaswi",
+      "aliases": [
+        "K. P. Poornachandra Tejaswi",
+        "Poochante",
+        "Pūrṇacandra Tējasvi"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q7234892",
+      "label": "Pothana",
+      "aliases": [
+        "Bammera Pothana",
+        "Bammera Potana"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7262455",
+      "label": "Puttaparthi Narayanacharyulu",
+      "aliases": [
+        "Puttaparti Narayanacharyulu"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7296834",
+      "label": "Ravuri Bharadhwaja",
+      "aliases": [
+        "Bharadwaja",
+        "R. Bharadwaja",
+        "Ravuri Bharadwaja"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q7377503",
+      "label": "Rudrabhatta",
+      "aliases": [
+        "Rudrabhattha",
+        "Rudra Bhatta",
+        "Rudra Bhattha"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7387783",
+      "label": "S. R. Ekkundi",
+      "aliases": [
+        "Su Ra Ekkundi"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7499110",
+      "label": "Shishunala Sharif",
+      "aliases": [
+        "Muhammad Sharif",
+        "Shishunala Sharifa"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3595546",
+      "label": "Adivi Bapiraju",
+      "aliases": [
+        "Adivi Baapiraju",
+        "Baapiraju"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3595575",
+      "label": "Viswanatha Satyanarayana",
+      "aliases": [
+        "V. Satyanarayana",
+        "Viswanadha Satyanarayana"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q3595865",
+      "label": "Chandrashekhara Kambara",
+      "aliases": [
+        "Chandrasekhara Kambar"
+      ],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q3595870",
+      "label": "V. K. Gokak",
+      "aliases": [
+        "Vinayaka",
+        "Vinayaka Krishna Gokak"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3764823",
+      "label": "Srinivasa Rao Srirangam",
+      "aliases": [
+        "Sri Sri",
+        "Mahakavi Sri Sri",
+        "Srirangam Srinivasa Rao",
+        "Shrirangam Srinivasarao"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3765256",
+      "label": "Dasaradhi",
+      "aliases": [
+        "Dasarathi Krishnamacharya"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q4131480",
+      "label": "Gaddar",
+      "aliases": [
+        "Gummadi Vittal Rao"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q4662660",
+      "label": "Aarudhra",
+      "aliases": [
+        "Aarudra",
+        "Arudra",
+        "Bhagavatula Sadasiva Shankara Sastry"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q4662776",
+      "label": "Aathreya",
+      "aliases": [
+        "Atreya",
+        "Aatreya",
+        "Aacharya Aatreya",
+        "Acharya Aatreya",
+        "Acharya Atreya",
+        "Athreya"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4699839",
+      "label": "Ajjada Adibhatla Narayana Dasu",
+      "aliases": [
+        "Adibhatla Narayana Dasu",
+        "Ajjada Adibhatla Narayana Das",
+        "Adibhatla Narayanadasa Kavi"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4834111",
+      "label": "B. M. Srikantaiah",
+      "aliases": [
+        "Belluru Mylaraiah Srikantaiah",
+        "Bi. Eṃ. Śrīkaṇṭhayya"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4850893",
+      "label": "Balijepalli Lakshmikantham",
+      "aliases": [
+        "Balijepalli Lakshmikanta Kavi",
+        "Balijepalli Lakshmikantha Kavi",
+        "Balijepalli Lakshmikantam"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4855067",
+      "label": "Bengaluru Nagarathnamma",
+      "aliases": [
+        "Nagarathnamma",
+        "Bangalore Nagarathnamma",
+        "Bengaluru Nagaratnamma",
+        "Nagaratnamma"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q5054050",
+      "label": "Cattamanchi Ramalinga Reddy",
+      "aliases": [
+        "C. R. Reddy",
+        "C. Ramalinga Reddy",
+        "Sir Cattamanchi Ramalinga Reddy"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5090316",
+      "label": "Chemakura Venkataraju",
+      "aliases": [
+        "Cēmakūra Vēṅkaṭakavi",
+        "Chemakura Venkatakavi"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5203844",
+      "label": "D. V. Gundappa",
+      "aliases": [
+        "DVG",
+        "Devanahalli Venkataramanaiah Gundappa"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q5266532",
+      "label": "Devarakonda Balagangadhara Tilak",
+      "aliases": [
+        "Tilak",
+        "Balagangadhar Tilak"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5267978",
+      "label": "Devulapalli Krishnasastri",
+      "aliases": [
+        "Devulapalli Venkata Krishnasastri",
+        "Devulapalli Venkata KrishnaSastri",
+        "Devula Palli Krishna Shastry",
+        "Devulapalli Venkata Krishna Sastri"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q140301283",
+      "label": "Ranganatha Kantanakunte",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q140309770",
+      "label": "Nripatunga Amoghavarsha I",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140312755",
+      "label": "Padmaraja",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141736133",
+      "label": "Duggirala Ramachandrarao",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q33171",
+      "label": "Baraguru Ramachandrappa",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q1088645",
+      "label": "Pannisseri Nanu Pillai",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q2350157",
+      "label": "Purandara Dasa",
+      "aliases": [],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q2467539",
+      "label": "Muhammad Quli Qutb Shah",
+      "aliases": [],
+      "sitelinks": 22
+    },
+    {
+      "qid": "Q4320858",
+      "label": "Kesiraja",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4700401",
+      "label": "Akbar Ali",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4802194",
+      "label": "Arunachala Kavi",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4834109",
+      "label": "B. M. Idinabba",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5089916",
+      "label": "Chellapilla Venkata Sastry",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5283804",
+      "label": "Divakarla Tirupati Sastry",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5521519",
+      "label": "Ganti Jogi Somayaji",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5523337",
+      "label": "Garimella Satyanarayana",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5588433",
+      "label": "Gourish Kaikini",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5618515",
+      "label": "Gunavarma I",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5657389",
+      "label": "Harihara",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6155070",
+      "label": "Janna",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6323957",
+      "label": "K. S. Nissar Ahmed",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6437533",
+      "label": "Krishnamoorthy Puranik",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6727492",
+      "label": "Madhunapantula Satyanarayana Sastry",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6727811",
+      "label": "Madiraju Ranga Rao",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6931621",
+      "label": "Muddupalani",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7171025",
+      "label": "Perugu Ramakrishna",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7261377",
+      "label": "Puroshottam Choudhary",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7408515",
+      "label": "Samala Sadasiva",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7418647",
+      "label": "Sankarambadi Sundaraachari",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7423274",
+      "label": "Saraswati Gangadhar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7633566",
+      "label": "Suddala Hanumantu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7809390",
+      "label": "Tirupati Venkata Kavulu",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7917907",
+      "label": "Vedam Venkataraya Sastry",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7919473",
+      "label": "Vemana",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q7919497",
+      "label": "Vempati Sadasivabrahmam",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q11031401",
+      "label": "Sundar V. Nadkarni",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12990214",
+      "label": "Addepalli Ramamohana Rao",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q12992109",
+      "label": "N. Gopi",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q12999718",
+      "label": "Dasaradhi Rangacharya",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13002140",
+      "label": "Pingali Suranna",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13002220",
+      "label": "Pisupati Chidambara Sastry",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13009446",
+      "label": "Vavilala Somayajulu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13158500",
+      "label": "Nuggehalli Pankaja",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13161752",
+      "label": "Hunsur Krishnamurthy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q14325830",
+      "label": "Katti Padma Rao",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15691162",
+      "label": "S.V. Jogarao",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15694484",
+      "label": "Kolakaluri Enoch",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15719600",
+      "label": "Basavappa Shastri",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q15719655",
+      "label": "Banu Mushtaq",
+      "aliases": [],
+      "sitelinks": 31
+    },
+    {
+      "qid": "Q15722581",
+      "label": "Sanchiya Honnamma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q15723292",
+      "label": "Helavanakatte Giriyamma",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16313199",
+      "label": "Venkatasuri Swamigal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16315191",
+      "label": "Nandini Sidda Reddy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16342660",
+      "label": "Bhogaraju Narayana Murthy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16685634",
+      "label": "Allamraju Rangasai Kavi",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17019083",
+      "label": "Shivakotiacharya",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20557484",
+      "label": "Ayyalaraju Ramabhadrudu",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20558333",
+      "label": "Kandukuri Sriramulu",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20560755",
+      "label": "Narala Rama Reddy",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20562993",
+      "label": "Śīlā Vīrrāju",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q21532080",
+      "label": "Anumula Venkata Subrahmanya Sastry",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q24565856",
+      "label": "K.Varalakshmi",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24906773",
+      "label": "Madara Chennaiah",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25573069",
+      "label": "Vadrevu Chinaveerabhadrudu",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q29912972",
+      "label": "Subrahmanya Saastri",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q31497379",
+      "label": "Anisetti Rajita",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q31501084",
+      "label": "Ganti Bhanumathi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q42470279",
+      "label": "Mudnakudu Chinnaswamy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q48731565",
+      "label": "Kuppambika",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q50417713",
+      "label": "Janaki M. Brahmavar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q65321069",
+      "label": "illa Mohan Prasad",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q112604177",
+      "label": "Ashok Chakravarthy Tholana",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113992345",
+      "label": "N K Lolakshi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q115804714",
+      "label": "Nachana Somanatha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q124369009",
+      "label": "Kshemiswara",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125264960",
+      "label": "Kupnalli M. Byrappa",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125421639",
+      "label": "Swamy Ponnachi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125503920",
+      "label": "Satish Javaregowda",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125510541",
+      "label": "Vijayalakshmi Manapura",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q125831212",
+      "label": "Viriyala Lakshmipati",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q126453842",
+      "label": "Peddinti Ramaswamy Naidu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130085627",
+      "label": "Preeti Shubhachandra",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130272055",
+      "label": "Mutnuri Venkata Subbarayudu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131676145",
+      "label": "Kotikalapudi Venkatakrishnaiah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131694154",
+      "label": "Thyagaraja Modhali",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131720764",
+      "label": "Bhutam Mutyalu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131923609",
+      "label": "Chandrashekhar Thalya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q132657066",
+      "label": "Linganaboyina Lekhananda Swami",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q135448510",
+      "label": "Samala Rajavardhan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137448809",
+      "label": "Lalitha Siddhabasavaiah",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137595276",
+      "label": "Lanka Krishnamurthy",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137597549",
+      "label": "Ghanta Singana",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q138065980",
+      "label": "Vinukonda Vallabha Rayudu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138479094",
+      "label": "Afsar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138479097",
+      "label": "Yendapalli Bharathi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138616832",
+      "label": "Gurajada Apparao",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138617148",
+      "label": "Aatma Ravi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138617149",
+      "label": "Ponnapalli Thirumala Sankara Krishna Sastry",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138617155",
+      "label": "Rachamallu Vijayakumar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138617152",
+      "label": "V. G. Bhavani",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140129940",
+      "label": "Tirumalarya II",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140129967",
+      "label": "Sanchi Honnamma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q140130210",
+      "label": "Cheluvambe",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q140130612",
+      "label": "Devachandra",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140130795",
+      "label": "Kempu Narayana",
+      "aliases": [],
+      "sitelinks": 0
+    }
+  ]
+}

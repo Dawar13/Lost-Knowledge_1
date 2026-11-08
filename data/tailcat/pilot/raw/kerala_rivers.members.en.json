@@ -1,0 +1,885 @@
+{
+  "key": "5247e6670ac3f0cd",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { { SELECT ?item WHERE { ?item wdt:P131* wd:Q1186 } } hint:Prior hint:runFirst true . ?item wdt:P31/wdt:P279* wd:Q4022 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:25:33Z",
+  "rows": [
+    {
+      "qid": "Q854841",
+      "label": "Bharathappuzha",
+      "aliases": [
+        "Nila"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q2641922",
+      "label": "Pamba River",
+      "aliases": [
+        "Pambai"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3522960",
+      "label": "Manimala River",
+      "aliases": [
+        "Vallapuzha",
+        "Pullakayar",
+        "Vallabhaipuzha"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q16136723",
+      "label": "Kakkad River",
+      "aliases": [
+        "Kakkadar",
+        "Kakkattar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4832548",
+      "label": "Azhuthayar",
+      "aliases": [
+        "Azhutha river"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6353611",
+      "label": "Kallayi River",
+      "aliases": [
+        "Kallayi"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6735075",
+      "label": "Mahé River",
+      "aliases": [
+        "Mahe River"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q7908165",
+      "label": "Vadapurampuzha",
+      "aliases": [
+        "Vadapurampuzha River"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7961293",
+      "label": "Walayar River",
+      "aliases": [
+        "Valliyar River",
+        "Valliyār River",
+        "Velliyar River"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q10950798",
+      "label": "Chandragiri River",
+      "aliases": [
+        "Payaswini River",
+        "Perumpuzha River"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q23584868",
+      "label": "Kadva River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23584882",
+      "label": "Purna River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q23584892",
+      "label": "Shivana River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23808120",
+      "label": "Vadathodu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q24945450",
+      "label": "Karyangod River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29025692",
+      "label": "Pallikkal River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q32227262",
+      "label": "Ancharakkandi Puzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32290925",
+      "label": "Attingal Ār",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32639905",
+      "label": "Cheru Puzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32656614",
+      "label": "Chālakudi River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32657292",
+      "label": "Chāuyar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34642241",
+      "label": "Agalāppuzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34642741",
+      "label": "Aiyangal Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34643337",
+      "label": "Alakūt Tōdu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34647151",
+      "label": "Anapadi Chal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34648087",
+      "label": "Anekal Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34648302",
+      "label": "Anjarkandi Puzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34649544",
+      "label": "Aralam Puzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34649974",
+      "label": "Ariakaduva Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34672662",
+      "label": "Banatpadi Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34672736",
+      "label": "Bandadka Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34686018",
+      "label": "Bekal Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34689433",
+      "label": "Bettangayi Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34763231",
+      "label": "Chaliar Puzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34763594",
+      "label": "Challa Chāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34930494",
+      "label": "Tantōdu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34961800",
+      "label": "Yedamalai Ār",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34969473",
+      "label": "Yeni Chal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34972989",
+      "label": "Thalayat Poya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q107040463",
+      "label": "Uppala River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q138603130",
+      "label": "Manjeswaram River",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138603315",
+      "label": "Kabani River",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q963176",
+      "label": "Meenkarappuzha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q1088855",
+      "label": "Mogral River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q1166145",
+      "label": "Karamana River",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q1661830",
+      "label": "Indravati River",
+      "aliases": [],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q2604984",
+      "label": "Chaliyar",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q2634049",
+      "label": "Periyar River",
+      "aliases": [],
+      "sitelinks": 27
+    },
+    {
+      "qid": "Q2723656",
+      "label": "Wardha River",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q2900667",
+      "label": "Bhavani River",
+      "aliases": [],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q3461744",
+      "label": "Kali River",
+      "aliases": [],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q3520648",
+      "label": "Kunthipuzha River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3521707",
+      "label": "Achankovil",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q3521753",
+      "label": "Valapattanam River",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q3522199",
+      "label": "Vandazhippuzha River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3522210",
+      "label": "Kalpathipuzha River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3522216",
+      "label": "Gayathripuzha River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3522242",
+      "label": "Thuppanadippuzha River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3522271",
+      "label": "Thuthapuzha",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3522363",
+      "label": "Kannadipuzha River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3523799",
+      "label": "Chalakudy River",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q3524665",
+      "label": "Ayalurpuzha River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3524688",
+      "label": "Chulliyar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3524734",
+      "label": "Ambankadavu River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3525308",
+      "label": "Maruthappuzha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q3532805",
+      "label": "Malampuzha River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3533702",
+      "label": "Punnappuzha",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3533712",
+      "label": "Meenachil River",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3533823",
+      "label": "Neyyar",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3533865",
+      "label": "Ithikkara River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3533870",
+      "label": "Edamalayar",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3533941",
+      "label": "Perinjankutti",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3536422",
+      "label": "Kabini River",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q3569086",
+      "label": "Mullayar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q3595215",
+      "label": "Kanjirappuzha",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3595330",
+      "label": "Kallada River",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q3595344",
+      "label": "Kadalundi River",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q3695675",
+      "label": "Manjira River",
+      "aliases": [],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q4166893",
+      "label": "Iruvanjippuzha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4650403",
+      "label": "Korapuzha",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4680596",
+      "label": "Adan River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4700206",
+      "label": "Akala puzha",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4727544",
+      "label": "Aliyar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4992101",
+      "label": "Siruvani River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5068772",
+      "label": "Chalippuzha River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5092614",
+      "label": "Cherukunnapuzha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5092621",
+      "label": "Cherupuzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5092625",
+      "label": "Cherupuzha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5101177",
+      "label": "Chinnar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5521080",
+      "label": "Gangavalli River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6349532",
+      "label": "Kakkiyar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6353583",
+      "label": "Kallar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6363492",
+      "label": "Kanjirappuzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6370797",
+      "label": "Karimpuzha",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6373743",
+      "label": "Karuvannur River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6382676",
+      "label": "Keecheri River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6407616",
+      "label": "Killi River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6425424",
+      "label": "Kodoor River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6431453",
+      "label": "Korayar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6434299",
+      "label": "Kottappuzha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6435246",
+      "label": "Kozhithodu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6444788",
+      "label": "Kuniyan River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6445418",
+      "label": "Kuppam River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q6447376",
+      "label": "Kurumali River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6448438",
+      "label": "Kuthirappuzha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6448575",
+      "label": "Kuttemperoor",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6726526",
+      "label": "Madatharuvi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6748418",
+      "label": "Maner River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6943854",
+      "label": "Muthirapuzha River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6986953",
+      "label": "Neerppuzha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7127858",
+      "label": "Pallichelaru River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7129066",
+      "label": "Pambar River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7130646",
+      "label": "Pandippuzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7131368",
+      "label": "Pannagam thodu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7132476",
+      "label": "Papanasini River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7135163",
+      "label": "Parambikulam River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7143120",
+      "label": "Pasukidamettu River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7171050",
+      "label": "Perumba River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7260464",
+      "label": "Punnapuzha River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7260482",
+      "label": "Punoor puzha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7262672",
+      "label": "Puzhakkal River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7288792",
+      "label": "Ramakkalteri River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7336061",
+      "label": "Rishimala River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7395907",
+      "label": "Sabari River",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q7710648",
+      "label": "Thanungattilthodu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7711571",
+      "label": "Thayikkundam River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7786634",
+      "label": "Thodupuzha River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7809421",
+      "label": "Tirur River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7898435",
+      "label": "Uppar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7912921",
+      "label": "Vamanapuram River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7915479",
+      "label": "Varattar River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7915481",
+      "label": "Varattar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q10956717",
+      "label": "Kariangode River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q11940800",
+      "label": "Pench River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q13114832",
+      "label": "Velliyar river",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13121944",
+      "label": "Sindphana River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13646451",
+      "label": "Manimuthar River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16890028",
+      "label": "Kuruvanpuzha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q18391769",
+      "label": "SRSP Flood Flow Canal",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19893646",
+      "label": "Manali River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21475408",
+      "label": "Kadam river",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23584863",
+      "label": "Darna River",
+      "aliases": [],
+      "sitelinks": 3
+    }
+  ]
+}

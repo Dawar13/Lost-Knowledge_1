@@ -1,0 +1,542 @@
+[
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "tamil_poets"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 65,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 65,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3595330"
+    ],
+    "valid_counts": {
+      "Q3595330": 65
+    },
+    "category": "kerala_rivers"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 242,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 242,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1424358"
+    ],
+    "valid_counts": {
+      "Q1424358": 242
+    },
+    "category": "tamilnadu_hindu_temples"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "japanese_novelists"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 368,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 368,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16466024"
+    ],
+    "valid_counts": {
+      "Q16466024": 368
+    },
+    "category": "nepal_mountains"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q835960"
+    ],
+    "valid_counts": {
+      "Q835960": 1000
+    },
+    "category": "brazil_universities"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "finland_lakes"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 103,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 291,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q4885605"
+    ],
+    "valid_counts": {
+      "Q4885605": 103
+    },
+    "category": "nigerian_painters"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 15,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 15,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q7636932"
+    ],
+    "valid_counts": {
+      "Q7636932": 15
+    },
+    "category": "bengali_film_directors"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 94,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 94,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q11012539",
+      "Q3595897"
+    ],
+    "valid_counts": {
+      "Q3595897": 90,
+      "Q11012539": 4
+    },
+    "category": "assamese_writers"
+  },
+  {
+    "spec": "shipped_hf",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16554",
+      "Q16556",
+      "Q23556",
+      "Q24861"
+    ],
+    "valid_counts": {
+      "Q23556": 543,
+      "Q16556": 269,
+      "Q16554": 69,
+      "Q24861": 119
+    },
+    "category": "us_state_capitals"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 28,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 28,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1380058",
+      "Q1535227",
+      "Q256286"
+    ],
+    "valid_counts": {
+      "Q1535227": 12,
+      "Q256286": 14,
+      "Q1380058": 2
+    },
+    "category": "tamil_poets"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 30,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 211,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1166145",
+      "Q3461744",
+      "Q3595330",
+      "Q6353611"
+    ],
+    "valid_counts": {
+      "Q1166145": 4,
+      "Q3595330": 14,
+      "Q3461744": 11,
+      "Q6353611": 1
+    },
+    "category": "kerala_rivers"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 132,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 131,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1424358"
+    ],
+    "valid_counts": {
+      "Q1424358": 132
+    },
+    "category": "tamilnadu_hindu_temples"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "japanese_novelists"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 546,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 546,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16466024",
+      "Q513"
+    ],
+    "valid_counts": {
+      "Q16466024": 323,
+      "Q513": 223
+    },
+    "category": "nepal_mountains"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q835960"
+    ],
+    "valid_counts": {
+      "Q835960": 1000
+    },
+    "category": "brazil_universities"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "finland_lakes"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 103,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 171,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3887122",
+      "Q4526104",
+      "Q4885605"
+    ],
+    "valid_counts": {
+      "Q4885605": 82,
+      "Q4526104": 20,
+      "Q3887122": 1
+    },
+    "category": "nigerian_painters"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 19,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 19,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q13059314",
+      "Q3349876",
+      "Q466325",
+      "Q7636932"
+    ],
+    "valid_counts": {
+      "Q7636932": 8,
+      "Q466325": 5,
+      "Q13059314": 5,
+      "Q3349876": 1
+    },
+    "category": "bengali_film_directors"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 39,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 39,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q11012539",
+      "Q12827664",
+      "Q2254757",
+      "Q3595897",
+      "Q3636010",
+      "Q4916340",
+      "Q5769768"
+    ],
+    "valid_counts": {
+      "Q3595897": 24,
+      "Q11012539": 3,
+      "Q4916340": 2,
+      "Q5769768": 1,
+      "Q12827664": 1,
+      "Q2254757": 5,
+      "Q3636010": 3
+    },
+    "category": "assamese_writers"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.75,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q100",
+      "Q16554",
+      "Q16556",
+      "Q16559",
+      "Q18013",
+      "Q23556",
+      "Q24861"
+    ],
+    "valid_counts": {
+      "Q23556": 382,
+      "Q100": 89,
+      "Q16559": 82,
+      "Q16554": 87,
+      "Q16556": 211,
+      "Q18013": 33,
+      "Q24861": 116
+    },
+    "category": "us_state_capitals"
+  }
+]

@@ -1,0 +1,288 @@
+== environment and GPU (shared card: never kill other jobs)
+torch 2.15.0+cu132  transformers 5.22.2
+CUDA_VISIBLE_DEVICES=None
+GPU 0: NVIDIA GeForce RTX 5090  free 30.9 / 31.4 GiB
+pid, process_name, used_gpu_memory [MiB]
+2012, python, 498 MiB
+
+These processes belong to other experiments. Never kill or signal them.
+HF token present: False (needed for gated Llama and Gemma weights)
+== unit tests (must pass before any GPU time)
+...........                                                              [100%]
+11 passed in 4.35s
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 6.7 GiB, leaving at least 24.2 GiB for others
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 18407.76it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.1'}
+[reach] 1854 items (440 entities x forms x 2 templates)
+[reach] batch 1/58
+[reach] batch 21/58
+[reach] batch 41/58
+[reach] batch 58/58
+[recog] yes/no on 440 members and 1724 foils
+[sample] shipped_hf   tamil_poets                  valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   kerala_rivers                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   tamilnadu_hindu_temples      valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nepal_mountains              valid   78 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   brazil_universities          valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nigerian_painters            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   bengali_film_directors       valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   assamese_writers             valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   us_state_capitals            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamil_poets                  valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid   10 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid   75 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid    1 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid    9 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid   15 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] Qwen2.5-0.5B-Instruct in 0.3 min -> results/smoke/Qwen2.5-0.5B-Instruct
+# Gate SMOKE decision: **BLOCKED**
+
+Instruct model: `Qwen/Qwen2.5-0.5B-Instruct`
+
+Verdict computed on robust RBU (margin 0.0 raw logits: an entity counts as unreachable only if it stays cut with its logit raised by the margin; docs/04 section 2, notes/decisions.md). The same rules on exact RBU give: **BLOCKED**.
+
+## Validity checks
+
+- V1_no_sampling_violations: True
+- V2_recognition_auroc_ge_0.85: False
+- V3_at_least_300_recognised: False
+- recognition AUROC (yes/no, members vs foils): 0.627
+- 4-way accuracy on members: 0.361
+- recognised entities: 50 of 440
+
+## Sampling sanity check
+
+- shipped_hf: 2200 samples, 78 valid, 78 id hits on 1 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+- p0.90_T1: 2200 samples, 110 valid, 112 id hits on 7 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+
+## Recognised-but-unreachable rate (RBU)
+
+RBU mean = robust (headline); exact and upper use no margin and the opposite margin.
+
+| sampler | RBU mean | 95% CI | RBU all templates | fail at first token | exact | upper |
+|---|---|---|---|---|---|---|
+| shipped_hf | 98.0% | 88.9% to 100.0% | 98.0% | 66.3% | 98.0% | 98.0% |
+| p0.80_T1 | 91.0% | 76.0% to 96.1% | 88.0% | 41.8% | 91.0% | 91.0% |
+| p0.90_T1 | 75.0% | 50.0% to 84.1% | 72.0% | 29.6% | 75.0% | 75.0% |
+| p0.95_T1 | 46.0% | 25.0% to 56.8% | 40.0% | 18.9% | 46.0% | 46.0% |
+| p0.90_T0.7 | 95.0% | 80.0% to 100.0% | 94.0% | 56.8% | 95.0% | 95.0% |
+| k20_T1 | 82.0% | 58.1% to 92.7% | 80.0% | 44.3% | 82.0% | 82.0% |
+| k50_T1 | 61.0% | 26.7% to 79.0% | 60.0% | 29.0% | 61.0% | 61.0% |
+| minp0.05_T1 | 93.0% | 77.3% to 98.3% | 92.0% | 50.5% | 93.0% | 93.0% |
+| minp0.10_T1 | 97.0% | 85.7% to 100.0% | 96.0% | 57.7% | 97.0% | 97.0% |
+| untruncated_T1 | 0.0% | 0.0% to 0.0% | 0.0% | nan | 0.0% | 0.0% |
+
+## Sensitivity of RBU to the margin (RBU mean; margin in raw logits)
+
+| sampler | eps 0.0 | eps 0.25 | eps 0.5 | eps 1.0 | eps 2.0 | eps 4.0 |
+|---|---|---|---|---|---|---|
+| shipped_hf | 98.0% | 97.0% | 97.0% | 94.0% | 90.0% | 67.0% |
+| p0.90_T1 | 75.0% | 73.0% | 69.0% | 58.0% | 35.0% | 25.0% |
+
+## Notes
+
+- validity checks failed: ['V2_recognition_auroc_ge_0.85', 'V3_at_least_300_recognised']. Fix these before reading any RBU number.
+
+Decision rules: docs/02_phases_and_gates.md. A human must sign off below before Phase 2.
+
+Sign-off: ____________________
+Smoke test: a BLOCKED verdict is expected (too few recognised entities for a 0.5B model).
+What must hold: the run completes and sampling violations are 0.
+SMOKE_DONE
+== environment and GPU (shared card: never kill other jobs)
+torch 2.15.0+cu132  transformers 5.22.2
+CUDA_VISIBLE_DEVICES=None
+GPU 0: NVIDIA GeForce RTX 5090  free 30.9 / 31.4 GiB
+pid, process_name, used_gpu_memory [MiB]
+2134, python, 498 MiB
+
+These processes belong to other experiments. Never kill or signal them.
+HF token present: False (needed for gated Llama and Gemma weights)
+== unit tests (must pass before any GPU time)
+...........                                                              [100%]
+11 passed in 3.96s
+== calibrating the numeric margin (seed 1)
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|█████████▉| 338/339 [00:00<00:00, 3377.96it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 3383.20it/s]
+[selfcheck] gap rel_all  over 3277 positions: mean 0.3673, q0.5 0.3438, q0.9 0.5312, q0.99 0.7969, q0.999 1.2953, max 4.2500
+[selfcheck] gap rel_near over 3277 positions: mean 0.0517, q0.5 0.0000, q0.9 0.1875, q0.99 0.3125, q0.999 0.7155, max 0.9375
+[selfcheck] gap dG_T1.0  over 3277 positions: mean 0.0055, q0.5 0.0000, q0.9 0.0024, q0.99 0.1154, q0.999 0.5382, max 0.5488
+[selfcheck] gap dG_T0.7  over 3277 positions: mean 0.0070, q0.5 0.0000, q0.9 0.0030, q0.99 0.1560, q0.999 0.5862, max 0.6702
+[selfcheck] gap drank    over 3277 positions: mean 0.0201, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 2.0000, max 5.0000
+[selfcheck] shipped_hf   tamil_poets                distinct   46 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   kerala_rivers              distinct   84 exact-unreachable  14 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   tamilnadu_hindu_temples    distinct   13 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   japanese_novelists         distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nepal_mountains            distinct    3 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   brazil_universities        distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   finland_lakes              distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   nigerian_painters          distinct   88 exact-unreachable   5 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   bengali_film_directors     distinct   24 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   assamese_writers           distinct   31 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] shipped_hf   us_state_capitals          distinct    4 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamil_poets                distinct  105 exact-unreachable   6 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  201 exact-unreachable   4 robust @0.25:1 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  168 exact-unreachable   6 robust @0.25:1 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct    3 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  139 exact-unreachable   4 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  372 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  128 exact-unreachable   1 robust @0.25:1 @0.5:1 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  261 exact-unreachable   9 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct    7 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: shipped_hf 0.227, p0.90_T1 0.680 -> epsilon rule gives 0.75
+[selfcheck] TOTAL distinct 1685 exact-unreachable 63 robust @0.25:6 @0.5:3 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 1.4 min (a margin passes when its robust count is 0)
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:  91%|█████████▏| 310/339 [00:00<00:00, 3044.06it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 3234.56it/s]
+[selfcheck] gap rel_all  over 12673 positions: mean 0.3085, q0.5 0.2812, q0.9 0.4688, q0.99 0.6875, q0.999 1.0102, max 1.4688
+[selfcheck] gap rel_near over 12673 positions: mean 0.0491, q0.5 0.0000, q0.9 0.1250, q0.99 0.2500, q0.999 0.4375, max 0.7500
+[selfcheck] gap dG_T1.0  over 12673 positions: mean 0.0043, q0.5 0.0000, q0.9 0.0089, q0.99 0.0625, q0.999 0.4457, max 0.5265
+[selfcheck] gap dG_T0.7  over 12673 positions: mean 0.0049, q0.5 0.0000, q0.9 0.0087, q0.99 0.0751, q0.999 0.5006, max 0.5441
+[selfcheck] gap drank    over 12673 positions: mean 0.0967, q0.5 0.0000, q0.9 0.0000, q0.99 2.0000, q0.999 5.0000, max 8.0000
+[selfcheck] p0.90_T1     tamil_poets                distinct  500 exact-unreachable   4 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  493 exact-unreachable  11 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  497 exact-unreachable   9 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct  500 exact-unreachable  14 robust @0.25:2 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct  490 exact-unreachable  13 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct  496 exact-unreachable  12 robust @0.25:2 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  499 exact-unreachable  13 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  499 exact-unreachable  13 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  499 exact-unreachable  17 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  500 exact-unreachable  11 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct  499 exact-unreachable   9 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: p0.90_T1 0.383 -> epsilon rule gives 0.5
+[selfcheck] TOTAL distinct 5472 exact-unreachable 126 robust @0.25:11 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 2.2 min (a margin passes when its robust count is 0)
+== numeric margin epsilon = 0.75 raw logits
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 3694.78it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.05'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[sample] shipped_hf   tamil_poets                  valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   kerala_rivers                valid   57 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   tamilnadu_hindu_temples      valid  290 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nepal_mountains              valid  262 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   brazil_universities          valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nigerian_painters            valid   97 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   bengali_film_directors       valid  767 distinct   3 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   assamese_writers             valid   88 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   us_state_capitals            valid 1000 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamil_poets                  valid   33 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid   29 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid  193 distinct   8 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid  481 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid  131 distinct   5 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid  681 distinct   6 violations 0 boundary 1 exact_viol 1 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid   33 distinct   5 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid 1000 distinct   7 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] Qwen2.5-7B-Instruct in 4.6 min -> results/G0/Qwen2.5-7B-Instruct
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 4158.50it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[done] Qwen2.5-7B in 2.3 min -> results/G0/Qwen2.5-7B
+# Gate G0 decision: **BLOCKED**
+
+Instruct model: `Qwen/Qwen2.5-7B-Instruct`; base model: `Qwen/Qwen2.5-7B`
+
+Verdict computed on robust RBU (margin 0.75 raw logits: an entity counts as unreachable only if it stays cut with its logit raised by the margin; docs/04 section 2, notes/decisions.md). The same rules on exact RBU give: **BLOCKED**.
+
+## Validity checks
+
+- V1_no_sampling_violations: True
+- V2_recognition_auroc_ge_0.85: False
+- V3_at_least_300_recognised: True
+- recognition AUROC (yes/no, members vs foils): 0.835
+- 4-way accuracy on members: 0.767
+- recognised entities: 1310 of 2312
+
+## Sampling sanity check
+
+- shipped_hf: 11000 samples, 3561 valid, 3561 id hits on 15 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+- p0.90_T1: 11000 samples, 3581 valid, 3749 id hits on 44 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 1, exact-verdict violations 1, non-canonical paths 0
+
+## Recognised-but-unreachable rate (RBU)
+
+RBU mean = robust (headline); exact and upper use no margin and the opposite margin.
+
+| sampler | RBU mean | 95% CI | RBU all templates | fail at first token | exact | upper | base RBU mean |
+|---|---|---|---|---|---|---|---|
+| shipped_hf | 98.9% | 97.3% to 99.6% | 98.6% | 89.3% | 99.3% | 99.6% | nan |
+| p0.80_T1 | 97.8% | 94.5% to 99.1% | 97.1% | 85.7% | 98.4% | 98.9% | 76.3% |
+| p0.90_T1 | 95.1% | 88.0% to 98.2% | 94.0% | 84.1% | 96.4% | 97.3% | 52.4% |
+| p0.95_T1 | 90.8% | 78.7% to 96.0% | 87.4% | 80.3% | 92.8% | 94.5% | 33.3% |
+| p0.90_T0.7 | 98.6% | 96.4% to 99.4% | 98.2% | 87.8% | 98.9% | 99.4% | 85.3% |
+| k20_T1 | 79.5% | 64.7% to 87.8% | 76.4% | 66.5% | 84.5% | 88.1% | 64.6% |
+| k50_T1 | 63.7% | 45.7% to 73.3% | 58.7% | 56.8% | 71.4% | 78.3% | 42.7% |
+| minp0.05_T1 | 97.4% | 93.7% to 99.0% | 96.6% | 85.7% | 98.4% | 98.8% | 80.1% |
+| minp0.10_T1 | 98.2% | 95.7% to 99.3% | 97.7% | 86.7% | 98.8% | 99.2% | 87.2% |
+| untruncated_T1 | 0.0% | 0.0% to 0.0% | 0.0% | nan | 0.0% | 0.0% | 0.0% |
+
+## Sensitivity of RBU to the margin (RBU mean; margin in raw logits)
+
+| sampler | eps 0.0 | eps 0.25 | eps 0.5 | eps 1.0 | eps 2.0 | eps 4.0 |
+|---|---|---|---|---|---|---|
+| shipped_hf | 99.3% | 99.2% | 99.1% | 98.8% | 98.1% | 94.4% |
+| p0.90_T1 | 96.4% | 96.0% | 95.5% | 94.8% | 92.1% | 84.8% |
+
+## Notes
+
+- validity checks failed: ['V2_recognition_auroc_ge_0.85']. Fix these before reading any RBU number.
+- paired test at p0.90_T1: {'instruct_only_unreachable': 456, 'base_only_unreachable': 5, 'z': 21.005164120751267, 'p_two_sided': 5.882993993169263e-98}
+
+Decision rules: docs/02_phases_and_gates.md. A human must sign off below before Phase 2.
+
+Sign-off: ____________________
+== decision written to results/gates/G0.md

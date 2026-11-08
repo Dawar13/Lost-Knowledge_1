@@ -1,10 +1,10 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-data/tailcat/
-results/*/
-!results/gates/
 .env
 .venv/
 hf_home/
+# live run logs on the GPU boxes; archived copies live in logs/archive/ (tracked)
 logs/run/
+# data/tailcat and results/ are tracked (small; see results/INDEX.md). If a future split
+# or run gets large, move its raw files to external storage and record sha256 in the index.

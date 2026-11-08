@@ -1,0 +1,3162 @@
+{
+  "key": "8dc6836201a1b021",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q9610 ; wdt:P57 ?item . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:28:04Z",
+  "rows": [
+    {
+      "qid": "Q17087951",
+      "label": "S. Balasubramanian",
+      "aliases": [
+        "S. S. Balan"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q19664021",
+      "label": "Ehtesham",
+      "aliases": [
+        "Abu Nur Muhammad Ehteshamul Haq",
+        "Ehtesham ur Rahman"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q21004791",
+      "label": "SA Haque Alik",
+      "aliases": [
+        "S.A. Haque Alik"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q21066016",
+      "label": "Kusum Sikder",
+      "aliases": [
+        "Kusum"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q23073910",
+      "label": "Nitish Chandra Laharry",
+      "aliases": [
+        "N.C. Laharry",
+        "Nitish Lahiri"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q23769926",
+      "label": "Zahidur Rahman Anjan",
+      "aliases": [
+        "Zahidur Rahim Anjan"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q26162179",
+      "label": "Matin Rahman",
+      "aliases": [
+        "Motin Rahman"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q26251242",
+      "label": "Jayasree Bhattacharyya",
+      "aliases": [
+        "Jayasree Bhattacharya"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q26923159",
+      "label": "Rajiv Kumar Biswas",
+      "aliases": [
+        "Rajib Biswas"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q27063914",
+      "label": "Prem Prakash Modi",
+      "aliases": [
+        "Prem Modi"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q27064096",
+      "label": "Ispahani Arif Jahan",
+      "aliases": [
+        "Ispahani and Arif Jahan"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q27662543",
+      "label": "Anonno Mamun",
+      "aliases": [
+        "Ananya Mamun"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q27870583",
+      "label": "Masum Aziz",
+      "aliases": [
+        "Muhammad Masum Aziz"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q28380896",
+      "label": "Hiren Bose",
+      "aliases": [
+        "Hirendra Kumar Bose"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q33652122",
+      "label": "Reazul Rezu",
+      "aliases": [
+        "Reazul Mawla Rezu"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q48733698",
+      "label": "Mostafa Anwar",
+      "aliases": [
+        "Mostofa Anwar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q48733721",
+      "label": "Malek Afsari",
+      "aliases": [
+        "Malek Afsary"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q49467498",
+      "label": "Dinesh Ranjan Das",
+      "aliases": [
+        "Bijoya"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q728677",
+      "label": "Paul Thomas",
+      "aliases": [
+        "Charlie Lords",
+        "Chuck Lords",
+        "Jude Blue",
+        "Paul 'PT' Thomas",
+        "Pauly T",
+        "Russel Ellison",
+        "Toby Philips",
+        "Paul",
+        "Jim Paterson",
+        "Paulina Thomas",
+        "P. Thomas",
+        "Philip Toubus",
+        "Toby Phillips",
+        "Philip Tobias",
+        "Cleo Edwards"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q967163",
+      "label": "Edward Burtynsky",
+      "aliases": [
+        "Ed Burtynsky"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q1476759",
+      "label": "Arun Kumar Chatterjee",
+      "aliases": [
+        "Uttam Kumar"
+      ],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q1993373",
+      "label": "Nirendranath Lahiri",
+      "aliases": [
+        "Niren Lahiri"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q2107247",
+      "label": "Prabhat Mukherjee",
+      "aliases": [
+        "Prabhat Mukhopadhyay"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q2107874",
+      "label": "Prashanta Nanda",
+      "aliases": [
+        "Dr. Prashanta Nanda"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q2723876",
+      "label": "Utpal Dutt",
+      "aliases": [
+        "Utpal Dutta"
+      ],
+      "sitelinks": 26
+    },
+    {
+      "qid": "Q3089275",
+      "label": "Mahesh Manjrekar",
+      "aliases": [
+        "Mahesh Vaman Manjrekar"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3194810",
+      "label": "Raj Chakraborty",
+      "aliases": [
+        "Raju Chakraborty"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4667405",
+      "label": "Avik Mukhopadhyay",
+      "aliases": [
+        "Abhik Mukhopadhyay"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4764595",
+      "label": "Anik Dutta",
+      "aliases": [
+        "Dutta Anik"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q254430",
+      "label": "Chidananda Dasgupta",
+      "aliases": [
+        "Chidananda Das Gupta"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q334825",
+      "label": "Pramathesh Barua",
+      "aliases": [
+        "Pramathesh Chandra Barua"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q337482",
+      "label": "Dhirendra Nath Ganguly",
+      "aliases": [
+        "D.G.",
+        "Dhiren Ganguly"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q420740",
+      "label": "Akram Khan",
+      "aliases": [
+        "Akram Hossain Khan"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q717075",
+      "label": "Namewee",
+      "aliases": [
+        "Wee Meng Chee"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q107472138",
+      "label": "Abdullah Mohammad Saad",
+      "aliases": [
+        "Saad"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q107746768",
+      "label": "Bhaskar Banerjee",
+      "aliases": [
+        "Bhaskar Bandyopadhyay"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q108063827",
+      "label": "Priyanath N. Ganguly",
+      "aliases": [
+        "Priyanath Ganguly"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q120478464",
+      "label": "Ruhul Kuddus Khan Shahin",
+      "aliases": [
+        "Shahin"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q123585379",
+      "label": "Shyam Chakraborty",
+      "aliases": [
+        "Shyam Chakravorty"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q124485774",
+      "label": "Goutam Halder",
+      "aliases": [
+        "Gautam Haldar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q126326497",
+      "label": "Sanjay Somadder",
+      "aliases": [
+        "Sanjoy Somadder"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137760178",
+      "label": "Ali Zulfikar Zahedi",
+      "aliases": [
+        "Zulfikar Zahedi"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137970216",
+      "label": "Rahoul Mukherjiee",
+      "aliases": [
+        "Rahool Mukherjee"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q55404",
+      "label": "Ritwik Ghatak",
+      "aliases": [
+        "Ritwik Kumar Ghatak"
+      ],
+      "sitelinks": 32
+    },
+    {
+      "qid": "Q55405",
+      "label": "Bimal Roy",
+      "aliases": [
+        "Bimal Da"
+      ],
+      "sitelinks": 28
+    },
+    {
+      "qid": "Q55884264",
+      "label": "Arabinda Mukhopadhyay",
+      "aliases": [
+        "Arabinda Mukherjee",
+        "Aravind Mukherjee",
+        "Aravind Mukhopadhyay",
+        "Aravinda Mukherji",
+        "Aurobindo Mukherjee"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q56860765",
+      "label": "Rezaur Rahman Khan Piplu",
+      "aliases": [
+        "Piplu"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q61483196",
+      "label": "Kamruzzaman Kamu",
+      "aliases": [
+        "Kamu"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q61623264",
+      "label": "Sadat Hossain",
+      "aliases": [
+        "Sadat Hoossen"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q63065625",
+      "label": "Chatku Ahmed",
+      "aliases": [
+        "Syed Uddin Ahmed"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q64074551",
+      "label": "Wajed Ali Sumon",
+      "aliases": [
+        "Sumon"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q64343766",
+      "label": "Mizanur Rahman Aryan",
+      "aliases": [
+        "Aryan"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q64735454",
+      "label": "Ashraf Shishir",
+      "aliases": [
+        "Md Ashraful Alam"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q65093820",
+      "label": "Awkat Hossain",
+      "aliases": [
+        "Awkat"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q65498741",
+      "label": "Syed Salahuddin Zaki",
+      "aliases": [
+        "Zaki"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q65548822",
+      "label": "Anam Biswas",
+      "aliases": [
+        "Anom"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q66133394",
+      "label": "Mohiuddin Ahmad",
+      "aliases": [
+        "Mohammad Mohiuddin"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q66133430",
+      "label": "Kamal Ahmed",
+      "aliases": [
+        "Kamal"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q79381098",
+      "label": "Pavel",
+      "aliases": [
+        "Pavel (film director)"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q105192701",
+      "label": "Niamul Hasan Mukta",
+      "aliases": [
+        "Niamul Mukta"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4765754",
+      "label": "Anjan Dutt",
+      "aliases": [
+        "Anjan Dutta"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q4838326",
+      "label": "Baby Islam",
+      "aliases": [
+        "Anwarul Islam"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4900915",
+      "label": "Bhalji Pendharkar",
+      "aliases": [
+        "Bhal G. Pendharkar"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4915450",
+      "label": "Biplab Chatterjee",
+      "aliases": [
+        "Biplab Chattopadhyay"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5052814",
+      "label": "Catherine Masud",
+      "aliases": [
+        "Catherine S. Masud",
+        "Kyātharina Māsuda",
+        "Wife of Tareque Masud"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5101842",
+      "label": "Chiranjeet",
+      "aliases": [
+        "Deepak Chakraborty"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5102371",
+      "label": "Chitta Basu",
+      "aliases": [
+        "Chitta Bose"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5118311",
+      "label": "Churni Ganguly",
+      "aliases": [
+        "Churni Gangopadhyay"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5224380",
+      "label": "Hara Patnaik",
+      "aliases": [
+        "Hara Pattanaik"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5248069",
+      "label": "Debesh Chattopadhyay",
+      "aliases": [
+        "Debesh Chatterjee"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5266378",
+      "label": "Deepak Adhikari",
+      "aliases": [
+        "Dev"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q5299478",
+      "label": "M.A. Jalil Ananta",
+      "aliases": [
+        "Ananta Jalil"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q5527877",
+      "label": "Gautam Chattopadhyay",
+      "aliases": [
+        "Gautam Chatterjee"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6026852",
+      "label": "Indradeep Dasgupta",
+      "aliases": [
+        "Indraadip Dasgupta"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6344324",
+      "label": "Kabori Sarwar",
+      "aliases": [
+        "Sarah Begum Kabori"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q7135164",
+      "label": "Parambrata Chatterjee",
+      "aliases": [
+        "Parambrata Chattopadhyay"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q7180471",
+      "label": "Phani Majumdar",
+      "aliases": [
+        "Phani Majmudar"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7241",
+      "label": "Rabindranath Tagore",
+      "aliases": [
+        "Tagore",
+        "Gurudev",
+        "Bhanu Singha Thakur",
+        "Bishwakabi",
+        "Biswakabi",
+        "Kabiguru",
+        "Nyi Wang Gönpo",
+        "R. Tagore",
+        "Rabindranat Tagor",
+        "Rabīndranātha Thākur",
+        "Ravindranath Thakur",
+        "Tagore, rabindranath"
+      ],
+      "sitelinks": 248
+    },
+    {
+      "qid": "Q8873",
+      "label": "Satyajit Ray",
+      "aliases": [
+        "Manik Da"
+      ],
+      "sitelinks": 144
+    },
+    {
+      "qid": "Q32923",
+      "label": "Rituparno Ghosh",
+      "aliases": [
+        "Ritu",
+        "Ritu Da"
+      ],
+      "sitelinks": 26
+    },
+    {
+      "qid": "Q7250587",
+      "label": "Prosenjit Chatterjee",
+      "aliases": [
+        "Bumba Da",
+        "Prosenjeet Chatterjee",
+        "Prosenjit Chattopadhyay",
+        "Proshenjit"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q7261349",
+      "label": "Purnendu Shekhar Pattrea",
+      "aliases": [
+        "Purnendu Patri"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7267193",
+      "label": "Qaushiq Mukherjee",
+      "aliases": [
+        "Q"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7283562",
+      "label": "Rahsaan Islam",
+      "aliases": [
+        "Rahsaan Noor",
+        "Rahsaan Noor Islam",
+        "Rahsaan Nur Islam"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7283700",
+      "label": "Raichand Boral",
+      "aliases": [
+        "Rai Chand Boral"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q7288530",
+      "label": "Ram Mukherjee",
+      "aliases": [
+        "Ram Mukerji"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7312034",
+      "label": "Remo D'Souza",
+      "aliases": [
+        "Remo DSouza"
+      ],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q7333930",
+      "label": "Riingo Banerjee",
+      "aliases": [
+        "Arnab Riingo Banerjee"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7461848",
+      "label": "Shahnewaz Kakoli",
+      "aliases": [
+        "Shahneoyaj Cacoly"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7504600",
+      "label": "Shuchanda",
+      "aliases": [
+        "Kohinoor Akhter"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q7530825",
+      "label": "Sisir Bhaduri",
+      "aliases": [
+        "Shishir Kumar Bhaduri",
+        "Sisir Kumar Bhaduri"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7672658",
+      "label": "T. L. V. Prasad",
+      "aliases": [
+        "T L V Prasad"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q8064678",
+      "label": "Zahir Raihan",
+      "aliases": [
+        "Jahir Rayhan",
+        "Jahir Raihan",
+        "Mohammad Zahirullah"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q10341366",
+      "label": "Ordhendra Coomar Gangoly",
+      "aliases": [
+        "O. C. Gangoly",
+        "Ordhendra Coomar Ganguly"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q12985154",
+      "label": "Nimai Ghosh",
+      "aliases": [
+        "Nemai Ghosh"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13057124",
+      "label": "Alamgir",
+      "aliases": [
+        "Mohiuddin Ahmad Alamgir"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q13057296",
+      "label": "ATM Shamsuzzaman",
+      "aliases": [
+        "A.T.M. Shamsuzzaman",
+        "Abu Taher Mohammad Shamsuzzaman"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q13057737",
+      "label": "Giasuddin Selim",
+      "aliases": [
+        "Selim"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13059106",
+      "label": "Bratya Basu",
+      "aliases": [
+        "Bratyabrata Basu Roy Chowdhury"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13059819",
+      "label": "Shibli Sadik",
+      "aliases": [
+        "Shibli Sadique"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15264319",
+      "label": "Raghuram",
+      "aliases": [
+        "S. Raghuram"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16196256",
+      "label": "Shagufta Rafiq",
+      "aliases": [
+        "Shagufta Rafique"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16346130",
+      "label": "Madhu",
+      "aliases": [
+        "Modhu Bose"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16346524",
+      "label": "Redoan Rony",
+      "aliases": [
+        "Redowan Rony",
+        "Reduan Rony",
+        "Redwan Rony"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16727945",
+      "label": "Anindya Chatterjee",
+      "aliases": [
+        "Anindya Chattopadhyay"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q66637",
+      "label": "Florian Gallenberger",
+      "aliases": [],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q199947",
+      "label": "Premendra Mitra",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q395883",
+      "label": "Agradoot",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q413221",
+      "label": "Ajoy Kar",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q455129",
+      "label": "Basu Chatterjee",
+      "aliases": [],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q466325",
+      "label": "Aparna Sen",
+      "aliases": [],
+      "sitelinks": 37
+    },
+    {
+      "qid": "Q554103",
+      "label": "Pierre-François Martin-Laval",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q630736",
+      "label": "Goutam Ghose",
+      "aliases": [],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q940858",
+      "label": "Tapan Sinha",
+      "aliases": [],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q961618",
+      "label": "Debaki Bose",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q982809",
+      "label": "Mrinal Sen",
+      "aliases": [],
+      "sitelinks": 38
+    },
+    {
+      "qid": "Q983547",
+      "label": "Tareque Masud",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1360960",
+      "label": "Utpalendu Chakrabarty",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q1373408",
+      "label": "V. Shantaram",
+      "aliases": [],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q1397481",
+      "label": "Shakti Samanta",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q1419299",
+      "label": "Naresh Mitra",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q1565403",
+      "label": "Vimukthi Jayasundara",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q1652774",
+      "label": "Shaheen Dill-Riaz",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q2055555",
+      "label": "Pashupati Chatterjee",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q2084789",
+      "label": "Phani Burma",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q2364170",
+      "label": "Sukumar Dasgupta",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q2744009",
+      "label": "Buddhadeb Dasgupta",
+      "aliases": [],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q2914002",
+      "label": "Bulbul Ahmed",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q2961338",
+      "label": "Chashi Nazrul Islam",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3346041",
+      "label": "Tanvir Mokammel",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3346924",
+      "label": "Tarun Majumdar",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3349728",
+      "label": "Kalim Sharafi",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3349876",
+      "label": "Suman Mukhopadhyay",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3350953",
+      "label": "Sandip Ray",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3804449",
+      "label": "Italo Spinelli",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4647933",
+      "label": "A. J. Kardar",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4666096",
+      "label": "Abdullah al Mamun",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4666251",
+      "label": "Abdur Razzak",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4693216",
+      "label": "Agnidev Chatterjee",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4705912",
+      "label": "Alamgir Kabir",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4740007",
+      "label": "Amar Choudhury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q4746908",
+      "label": "Amitabh Bhattacharjee",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4764605",
+      "label": "Aniket Chattopadhyay",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4765267",
+      "label": "Aniruddha Roy Chowdhury",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4765750",
+      "label": "Anjan Choudhury",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4765751",
+      "label": "Anjan Das",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4790701",
+      "label": "Arin Paul",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4790711",
+      "label": "Arindam Sil",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4791556",
+      "label": "Arjun Chakraborty",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q4805087",
+      "label": "Ashim Samanta",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q4805137",
+      "label": "Ashis Roy",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4807036",
+      "label": "Asit Sen",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4812789",
+      "label": "Atanu Ghosh",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4857562",
+      "label": "Bappaditya Bandopadhyay",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4904162",
+      "label": "Bidhayak Bhattacharya",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5010538",
+      "label": "Ravi Kinagi",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5071491",
+      "label": "Chandril Bhattacharya",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5088608",
+      "label": "Chaya Singh",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q5375211",
+      "label": "Enamul Karim Nirjhar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5443961",
+      "label": "Ferdous Wahid",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5527756",
+      "label": "Gaurav Pandey",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q5649017",
+      "label": "Hannan Majid",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5654113",
+      "label": "Haranath Chakraborty",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6378953",
+      "label": "Kaushik Ganguly",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6400039",
+      "label": "Khan Ataur Rahman",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q6736249",
+      "label": "Mainak Bhaumik",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6914286",
+      "label": "Morshedul Islam",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6916832",
+      "label": "Mostafa Anwar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6916984",
+      "label": "Mostofa Sarwar Farooki",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q6926134",
+      "label": "Moushumi",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q6967200",
+      "label": "Nasiruddin Yousuff",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7070300",
+      "label": "Nurul Alam Atique",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7194806",
+      "label": "Pinaki Chaudhuri",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7237239",
+      "label": "Prabhat Roy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7237271",
+      "label": "Prabir Roy",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7238698",
+      "label": "Pratim D. Gupta",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7240219",
+      "label": "Premankur Atorthy",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7285326",
+      "label": "Raj Mukherji",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7285549",
+      "label": "Raja Sen",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7285969",
+      "label": "Rajen Tarafdar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7288491",
+      "label": "Ram Kamal Mukherjee",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7292619",
+      "label": "Rangan Chakraborty",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q7293096",
+      "label": "Ranjan Ghosh",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7377514",
+      "label": "Rudranil Ghosh",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7378684",
+      "label": "Ruhul Amin",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7397950",
+      "label": "Sadik Ahmed",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7403714",
+      "label": "Salahuddin Lavlu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7409571",
+      "label": "Samit Bhanja",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7413391",
+      "label": "San Banarje",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7424433",
+      "label": "Saroj Dey",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7425857",
+      "label": "Satabdi Roy",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q7425950",
+      "label": "Satarupa Sanyal",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7447159",
+      "label": "Sekhar Das",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7488767",
+      "label": "Shankudeb Panda",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q7496079",
+      "label": "Shibu Mitra",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7499375",
+      "label": "Shivendra Singh Dungarpur",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7586376",
+      "label": "Srijit Mukherji",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7628790",
+      "label": "Stunt Silva",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7631224",
+      "label": "Subhash Dutta",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7631279",
+      "label": "Subhrajit Mitra",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7631920",
+      "label": "Subrata Sen",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7635671",
+      "label": "Sujit Guha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7635672",
+      "label": "Sujit Mondal",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7636932",
+      "label": "Suman Ghosh",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q7653795",
+      "label": "Swapan Saha",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7660340",
+      "label": "Syed Hasan Imam",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q7684423",
+      "label": "Tapan Chowdhury",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7827930",
+      "label": "Tota Roy Chowdhury",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7828854",
+      "label": "Tauquir Ahmed",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q10993792",
+      "label": "Sujoy Ghosh",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q11866330",
+      "label": "Jennifer Baichwal",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q12052777",
+      "label": "Humayun Ahmed",
+      "aliases": [],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q13056865",
+      "label": "Arundhati Devi",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q13056932",
+      "label": "Azizur Rahman",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13057071",
+      "label": "Abu Sayeed",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q13057083",
+      "label": "Amjad Hossain",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13057780",
+      "label": "Golam Rabbany Biplob",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q13058240",
+      "label": "Dilip Biswas",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13058417",
+      "label": "Nitin Bose",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q13058958",
+      "label": "Bikash Roy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13059068",
+      "label": "Belal Ahmed",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13059314",
+      "label": "Sohel Rana",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q13059802",
+      "label": "Shahjahan Chowdhury",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13059934",
+      "label": "Saidul Anam Tutul",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q13115036",
+      "label": "Samir Chanda",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q15304063",
+      "label": "Kamaleshwar Mukherjee",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q15410149",
+      "label": "Kazi Hayat",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q15723664",
+      "label": "Ashok Pati",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16013591",
+      "label": "Partha Pratim Chowdhury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16135968",
+      "label": "Mani C. Kappan",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16148301",
+      "label": "Montazur Rahman Akbar",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q16193423",
+      "label": "Ashoke Viswanathan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16197130",
+      "label": "Sanjoy Nag",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q16199716",
+      "label": "Hiren Nag",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16200062",
+      "label": "Ritabhari Chakraborty",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q16202519",
+      "label": "Manasi Sinha",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16202889",
+      "label": "Iftakar Chowdhury",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16214343",
+      "label": "Bauddhayan Mukherji",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16214807",
+      "label": "Sourav De",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16215189",
+      "label": "Birsa Dasgupta",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q16218744",
+      "label": "Ranjay Ray Choudhury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16239019",
+      "label": "Shahriar Nazim Joy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16344973",
+      "label": "Abdul Jabbar Khan",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16346126",
+      "label": "Motiur Rahman Panu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q16727919",
+      "label": "Raja Chanda",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16728534",
+      "label": "Surajit Dhar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q16745302",
+      "label": "Partho Ghosh",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q16875166",
+      "label": "Nitish Roy",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q17198699",
+      "label": "Soumik Sen",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q17372556",
+      "label": "Anup Singh",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q17386503",
+      "label": "Debarun Pal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q17402895",
+      "label": "Nandita Roy",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q18206741",
+      "label": "Rozina",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q18217850",
+      "label": "Murad Parvez",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q18350855",
+      "label": "Debraj Sinha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q18357045",
+      "label": "Gazi Mazharul Anwar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q18588992",
+      "label": "Abu Shahed Emon",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18978009",
+      "label": "Leesa Gazi",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q19818718",
+      "label": "Tathagata Mukherjee",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q20090444",
+      "label": "Amitabh Reza Chowdhury",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20109402",
+      "label": "Morteza Atashzamzam",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20612745",
+      "label": "Fateh Lohani",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20683844",
+      "label": "Animesh Aich",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20735610",
+      "label": "Shiboprosad Mukherjee",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q20986569",
+      "label": "Sukhen Das",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q21004749",
+      "label": "Tania Ahmed",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q21005364",
+      "label": "Abhijit Chowdhury",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q21063308",
+      "label": "Tonmoy Tansen",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q21063988",
+      "label": "Kamar Ahmad Simon",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q21064435",
+      "label": "Pijush Saha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21066041",
+      "label": "Anup Sengupta",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21066091",
+      "label": "Baba Yadav",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21113365",
+      "label": "Emon Saha",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q21175254",
+      "label": "Soumik Haldar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q21932098",
+      "label": "Mir Sabbir",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q22003254",
+      "label": "Badal Rahman",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q22212814",
+      "label": "Charu Roy",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q22246469",
+      "label": "Meher Afroz Shaon",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q22276674",
+      "label": "A J Mintu",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q22277902",
+      "label": "Gazi Rakayet",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q22278580",
+      "label": "Khalid Mahmood Mithu",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q22280261",
+      "label": "Samia Zaman",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23013651",
+      "label": "Rubaiyat Hossain",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q23020149",
+      "label": "Sheikh Niamat Ali",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23071374",
+      "label": "Salahuddin",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23418660",
+      "label": "Aditya Vikram Sengupta",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23542655",
+      "label": "Aruna Biswas",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q23579790",
+      "label": "Akhtaruzzaman",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23651358",
+      "label": "Garth Davis",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q23664341",
+      "label": "Mohammad Mostafa Kamal Raz",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q23727126",
+      "label": "Shahidul Islam Khokon",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q23761884",
+      "label": "Syed Wahiduzzaman Diamond",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23764989",
+      "label": "Narayan Ghosh Mita",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23771275",
+      "label": "Belal Khan",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q24006399",
+      "label": "Orko Sinha",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q24525216",
+      "label": "Amartya Bhattacharyya",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q24887145",
+      "label": "Satrajit Sen",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q25345112",
+      "label": "Sudeshna Roy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25587702",
+      "label": "Alamgir Kumkum",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25588119",
+      "label": "Kazi Morshed",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q26614275",
+      "label": "Masud Pathik",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q26701892",
+      "label": "Momtaz Ali",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q26706852",
+      "label": "Gaurav Pandey",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q26775501",
+      "label": "Vicky Zahed",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q27051571",
+      "label": "Partha Sarathi Manna",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105081217",
+      "label": "Tanim Noor",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q105094370",
+      "label": "Arindam Dey",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105157020",
+      "label": "Pradipta Bhattacharyya",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105235140",
+      "label": "Utsav Mukherjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105316391",
+      "label": "Dhrubo Banerjee",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q105340882",
+      "label": "Shiladitya Moulik",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105355778",
+      "label": "Arka Ganguly",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105826346",
+      "label": "Selim Khan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q106181151",
+      "label": "Jyotish Bannerjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q106376552",
+      "label": "Pavel",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q107125238",
+      "label": "Abhijit Ashok Paul",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q107423970",
+      "label": "Dewan Nazrul",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q107616788",
+      "label": "Anshuman Pratyush",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q107803283",
+      "label": "Payal Kapadia",
+      "aliases": [],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q110561522",
+      "label": "Anirban Chakraborty",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q110984756",
+      "label": "Nirmal Dey",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q114642052",
+      "label": "Ashique Mustafa",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q114680247",
+      "label": "Sudipto Chattopadhyay",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q115244756",
+      "label": "Pavitra Chalam",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q115244757",
+      "label": "Akshay Shankar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q115283035",
+      "label": "Rajesh Ganguly",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q116176453",
+      "label": "Rezwan Shahriar Sumit",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q116633899",
+      "label": "Prodip Ghosh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117845389",
+      "label": "Kamal Majumdar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117848410",
+      "label": "Mrityunjay Devvrat",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117848490",
+      "label": "Swapan Ahmed",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117859016",
+      "label": "Sourav Sarangi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117859116",
+      "label": "Abhijit Chowdhury",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117859500",
+      "label": "Sunil Bannerjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117860219",
+      "label": "Mangal Chakravarty",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117860430",
+      "label": "Aditi Roy",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q117860517",
+      "label": "Ashok Roy",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862065",
+      "label": "Roni Bhowmik",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862184",
+      "label": "Sanghamitra Chaudhuri",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862229",
+      "label": "Indranil Roychowdhury",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862248",
+      "label": "Bijon",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862439",
+      "label": "Arindam Bhattacharya",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862443",
+      "label": "Adinath Das",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117862531",
+      "label": "Abir Sengupta",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q117863031",
+      "label": "Saurav Palodhi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q118106706",
+      "label": "Sushil Majumdar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q118116765",
+      "label": "Bibhuti Laha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q119311425",
+      "label": "Saibal Mitra",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q123111067",
+      "label": "Mejbaur Rahman Sumon",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q123111079",
+      "label": "Mohammad Rabby Mridha",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q123156610",
+      "label": "Shafi Bikrampuri",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q123257465",
+      "label": "Muhammad Quayum",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q123564925",
+      "label": "Salil Sen",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123581341",
+      "label": "Abhinandan Banerjee",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q123583555",
+      "label": "Sushil Ghosh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130240314",
+      "label": "Robiul Alam Robi",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q130525407",
+      "label": "N.B. Agrami",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130868385",
+      "label": "Shankha Dasgupta",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131192312",
+      "label": "Raajhorshee De",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131340924",
+      "label": "Prosun Banerje",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131341198",
+      "label": "Zakir Hossain Simanto",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131341200",
+      "label": "Zakir Hossain",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131341212",
+      "label": "Tapan Banerjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131357993",
+      "label": "Mohammad Hossain",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131358128",
+      "label": "Pallab Ghosh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131358757",
+      "label": "Partha Sen",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131363442",
+      "label": "Gautam Sen",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131369690",
+      "label": "Maksud Hossain",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131381556",
+      "label": "Wakil Ahmed",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131387229",
+      "label": "Batra Mohinder",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131387235",
+      "label": "Kanak Mukherjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131401801",
+      "label": "Subodh Mitra",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131428935",
+      "label": "Dilip Mukherjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q131432196",
+      "label": "Ashok Ghosh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q132126515",
+      "label": "Anirban Chakraborty",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q132197286",
+      "label": "Premendu Bikash Chaki",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q132723340",
+      "label": "Arun Chowdhury",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q134381071",
+      "label": "Avijit Sen",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q136334469",
+      "label": "Abu Hayat Mahmud",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q139590773",
+      "label": "GM Furukh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140051176",
+      "label": "Khandaker Sumon",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q141134979",
+      "label": "Mir Mukarram Hossain",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55406",
+      "label": "Shyam Benegal",
+      "aliases": [],
+      "sitelinks": 33
+    },
+    {
+      "qid": "Q28003404",
+      "label": "Jakir Hossain Raju",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q28007443",
+      "label": "Nargis Akhter",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q28008589",
+      "label": "Ashiqur Rahman",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q28370128",
+      "label": "Anirban Bhattacharya",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q28741320",
+      "label": "Upendra Madhav",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q30323719",
+      "label": "Nityananda Datta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q30604191",
+      "label": "Dilip Roy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q31723850",
+      "label": "Debashish Biswas",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31724087",
+      "label": "Hashibur Reza Kallol",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q33103835",
+      "label": "Gul Bahar Singh",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q33296214",
+      "label": "Saptaswa Basu",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q35481192",
+      "label": "Sam Hargrave",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q41179901",
+      "label": "Chayanika Chowdhury",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q47386320",
+      "label": "Uttam Akash",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q47399253",
+      "label": "Shahadat Hossain Liton",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q47467266",
+      "label": "Hridi Huq",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q47471524",
+      "label": "Mostafa Mehmud",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q47493043",
+      "label": "Mostafizur Rahman Manik",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q48720111",
+      "label": "Harunur Rashid",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q48733883",
+      "label": "Badiul Alam Khokon",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q49991198",
+      "label": "Soukarya Ghosal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q50192769",
+      "label": "Joydip Mukherjee",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q50345234",
+      "label": "Shyamal Bose",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q50825422",
+      "label": "Dhiraj Bhattacharya",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q51018801",
+      "label": "Shiv Bubun Chatterjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q51901922",
+      "label": "Shabnam Ferdousi",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q52714500",
+      "label": "Manas Mukul Pal",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q53456139",
+      "label": "Himel Ashraf",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q53556309",
+      "label": "Nader Chowdhury",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q53705752",
+      "label": "Filip Antoni Malinowski",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55147700",
+      "label": "Swapan Ghosal",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55231487",
+      "label": "Raj Mukherjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55289032",
+      "label": "Subhash Sen",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55681973",
+      "label": "Anup Das",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q55761542",
+      "label": "Gautam Mukherjee",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q55819224",
+      "label": "Pathikrit Basu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q55925441",
+      "label": "Ashim Banerjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q56004967",
+      "label": "Parthasarathi Joardar",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q56037475",
+      "label": "Pritam Jalan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q56049574",
+      "label": "Amar Mullick",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q56664002",
+      "label": "Manju Dey",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q57418840",
+      "label": "Salil Dutta",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q57512477",
+      "label": "Krishnendu Chatterjee",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q57584636",
+      "label": "Nabyendu Chatterjee",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q58298571",
+      "label": "Rustomji Dhotiwala",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q61080302",
+      "label": "Sohanur Rahman Sohan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q61080495",
+      "label": "M B Manik",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q61725732",
+      "label": "Kris Kristinsson",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q61762897",
+      "label": "Dr. Krishnendu Chatterjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q63074738",
+      "label": "Nepaldev Bhattacharjee",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q63801382",
+      "label": "Habibul Islam Habib",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q64010074",
+      "label": "Indrasis Acharya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q64348027",
+      "label": "Shamim Ahamed Roni",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q64348142",
+      "label": "Chinmoy Roy",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q65001686",
+      "label": "Bashir Hossain",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q65555120",
+      "label": "Sushovan Paul",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q65718462",
+      "label": "Arun Roy",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q65916489",
+      "label": "Saikat Nasir",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q65926773",
+      "label": "Raihan Rafi",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q66100965",
+      "label": "Inder Sen",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q67203612",
+      "label": "Noor Imran Mithu",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q69542654",
+      "label": "Dipankar Dipon",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q71396249",
+      "label": "Sayantan Ghosal",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q72172566",
+      "label": "Hasibul Islam Mizan",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q73769923",
+      "label": "Raihan Mujib",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q74097280",
+      "label": "Badrul Anam Saud",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q74151520",
+      "label": "Debaloy Bhattacharya",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q74978447",
+      "label": "Saiful Islam Mannu",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q75902243",
+      "label": "C. B. Zaman",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q79965217",
+      "label": "Leena Gangopadhyay",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q80526216",
+      "label": "Ibne Mizan",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q80526250",
+      "label": "Shahidul Amin",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q81395078",
+      "label": "Shafi Uddin Shafi",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q81395124",
+      "label": "Shawkat Jamil",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q81395152",
+      "label": "Badol Khondokar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q84366867",
+      "label": "Arjunn Dutta",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q84952164",
+      "label": "Pratham Sharma",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q85181754",
+      "label": "Manoj Michigan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q85852314",
+      "label": "Mohammad Hannan",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q85969648",
+      "label": "F I Manik",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q85971594",
+      "label": "Shihab Shaheen",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q85973655",
+      "label": "Delwar Jahan Jhantu",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q87180167",
+      "label": "Abhijit Guha",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q89402239",
+      "label": "Subhankar Chattopadhyay",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q94739565",
+      "label": "Marko Doringer",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q95861183",
+      "label": "Supriyo Sen",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q96337578",
+      "label": "Piyush Bose",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q97823887",
+      "label": "Proshoon Rahman",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q98400616",
+      "label": "Sachin Mukherjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q98411863",
+      "label": "Hemen Gupta",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q103814944",
+      "label": "Taneem Rahman Angshu",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q104165731",
+      "label": "Masud Akhond",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q104383436",
+      "label": "Zafor Firoze",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q104414592",
+      "label": "Kali Prasad Ghosh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q104612717",
+      "label": "Shohel Arman",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q104717675",
+      "label": "Abhimanyu Mukherjee",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q104854144",
+      "label": "Tanvir Ahsan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q104868001",
+      "label": "Prafulla Chakraborty",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q104974645",
+      "label": "Soumik Chattopadhaya",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q105046293",
+      "label": "Aritra Mukherjee",
+      "aliases": [],
+      "sitelinks": 1
+    }
+  ]
+}

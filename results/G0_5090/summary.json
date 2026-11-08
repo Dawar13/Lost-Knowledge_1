@@ -1,0 +1,1723 @@
+{
+  "instruct": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "validity": {
+      "auroc_yesno": 0.8346236773336331,
+      "mc_accuracy": 0.7673010380622838,
+      "n_members": 2312,
+      "n_foils": 1724,
+      "n_recognised": 1310,
+      "tau_per_category": {
+        "tamil_poets": 0.9661668175121378,
+        "kerala_rivers": 0.9046505301848795,
+        "tamilnadu_hindu_temples": 0.9999999238651202,
+        "japanese_novelists": 1.0467433089184757e-08,
+        "nepal_mountains": 0.0039103860260522256,
+        "brazil_universities": 9.71121425405145e-10,
+        "finland_lakes": 0.924930393100119,
+        "nigerian_painters": 0.002154951223008572,
+        "bengali_film_directors": 0.0142597633710077,
+        "assamese_writers": 0.999099018064803,
+        "us_state_capitals": 9.660724947805531e-08
+      }
+    },
+    "margin": 0.75,
+    "specs": {
+      "shipped_hf": {
+        "rbu_mean": 0.9893129770992366,
+        "rbu_mean_ci": [
+          0.9725136809914695,
+          0.9959819698387204
+        ],
+        "rbu_all": 0.9862595419847329,
+        "rbu_all_ci": [
+          0.9629618184315341,
+          0.9948454211835148
+        ],
+        "share_fail_at_first_token": 0.8934531450577664,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.9942528735632183
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.9047619047619048
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.9726027397260274
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 1.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.98
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 1.0
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.9354838709677418
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.9887005649717514
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.9444444444444444
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.9506172839506173
+          }
+        },
+        "rbu_mean_by_margin": {
+          "0.0": 0.9928753180661578,
+          "0.25": 0.9923664122137404,
+          "0.5": 0.9913486005089059,
+          "1.0": 0.9880407124681934,
+          "2.0": 0.9806615776081425,
+          "4.0": 0.9440203562340967
+        },
+        "exact": {
+          "rbu_mean": 0.9928753180661578,
+          "rbu_mean_ci": [
+            0.9823439173610733,
+            0.9973795103460069
+          ],
+          "rbu_all": 0.9908396946564886,
+          "rbu_all_ci": [
+            0.9762710523492814,
+            0.9966738183681312
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9959287531806617,
+          "rbu_mean_ci": [
+            0.9904011774637291,
+            0.9985632699252956
+          ],
+          "rbu_all": 0.9946564885496183,
+          "rbu_all_ci": [
+            0.9862153227897329,
+            0.9981573328944574
+          ]
+        }
+      },
+      "p0.80_T1": {
+        "rbu_mean": 0.9776081424936387,
+        "rbu_mean_ci": [
+          0.9452746302375656,
+          0.9911186728971257
+        ],
+        "rbu_all": 0.9709923664122138,
+        "rbu_all_ci": [
+          0.9287896944967085,
+          0.9884648238780648
+        ],
+        "share_fail_at_first_token": 0.8573281452658884,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.942528735632184
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.8666666666666666
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.9406392694063928
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 1.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.98
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 1.0
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.8387096774193549
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.9661016949152541
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.925925925925926
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.9012345679012347
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.9842239185750635,
+          "rbu_mean_ci": [
+            0.9613501569279055,
+            0.9939651946744759
+          ],
+          "rbu_all": 0.9786259541984733,
+          "rbu_all_ci": [
+            0.9475499420961205,
+            0.9917659175207745
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9893129770992366,
+          "rbu_mean_ci": [
+            0.9733298368298368,
+            0.9960663602886141
+          ],
+          "rbu_all": 0.9870229007633587,
+          "rbu_all_ci": [
+            0.9678872082580176,
+            0.9949685195029571
+          ]
+        }
+      },
+      "p0.90_T1": {
+        "rbu_mean": 0.9513994910941476,
+        "rbu_mean_ci": [
+          0.8804850183582481,
+          0.9817100050756823
+        ],
+        "rbu_all": 0.9404580152671755,
+        "rbu_all_ci": [
+          0.8563278070735679,
+          0.9766971286962245
+        ],
+        "share_fail_at_first_token": 0.8413499867127292,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.8160919540229884
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.780952380952381
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.8447488584474886
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 1.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.98
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 0.9988095238095239
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.6236559139784946
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.9265536723163842
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.7777777777777778
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.8888888888888888
+          }
+        },
+        "rbu_mean_by_margin": {
+          "0.0": 0.9641221374045802,
+          "0.25": 0.9603053435114504,
+          "0.5": 0.955470737913486,
+          "1.0": 0.9475826972010177,
+          "2.0": 0.9206106870229007,
+          "4.0": 0.8478371501272267
+        },
+        "exact": {
+          "rbu_mean": 0.9641221374045802,
+          "rbu_mean_ci": [
+            0.9114269162104965,
+            0.9863667736228393
+          ],
+          "rbu_all": 0.9549618320610687,
+          "rbu_all_ci": [
+            0.8897477104350473,
+            0.983387121652567
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9727735368956743,
+          "rbu_mean_ci": [
+            0.9319130809145084,
+            0.9894583855641931
+          ],
+          "rbu_all": 0.9633587786259542,
+          "rbu_all_ci": [
+            0.90982419068034,
+            0.9856643625192012
+          ]
+        }
+      },
+      "p0.95_T1": {
+        "rbu_mean": 0.9078880407124681,
+        "rbu_mean_ci": [
+          0.7874599814264942,
+          0.9601635585160118
+        ],
+        "rbu_all": 0.8740458015267175,
+        "rbu_all_ci": [
+          0.7060161199312627,
+          0.9453501567059331
+        ],
+        "share_fail_at_first_token": 0.8025034770514604,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.6091954022988507
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.7047619047619049
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.7671232876712328
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 0.986111111111111
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.9333333333333332
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 0.9964285714285714
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.46236559139784944
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.8474576271186444
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.537037037037037
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.7037037037037037
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.9284987277353689,
+          "rbu_mean_ci": [
+            0.8261341788638056,
+            0.9717745415318231
+          ],
+          "rbu_all": 0.9053435114503817,
+          "rbu_all_ci": [
+            0.7738046765937646,
+            0.9614151557652569
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9452926208651399,
+          "rbu_mean_ci": [
+            0.8672751498182534,
+            0.9786989877059687
+          ],
+          "rbu_all": 0.9290076335877863,
+          "rbu_all_ci": [
+            0.825534881953592,
+            0.9724967799893929
+          ]
+        }
+      },
+      "p0.90_T0.7": {
+        "rbu_mean": 0.9860050890585242,
+        "rbu_mean_ci": [
+          0.9640747736772374,
+          0.9944728635582044
+        ],
+        "rbu_all": 0.981679389312977,
+        "rbu_all_ci": [
+          0.9542077161790414,
+          0.9926831814247161
+        ],
+        "share_fail_at_first_token": 0.8781869688385269,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.9770114942528735
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.9047619047619048
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.9680365296803651
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 1.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.98
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 1.0
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.8924731182795699
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.984934086629002
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.9444444444444444
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.9135802469135802
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.9893129770992366,
+          "rbu_mean_ci": [
+            0.9719282541391843,
+            0.995891569616186
+          ],
+          "rbu_all": 0.9870229007633587,
+          "rbu_all_ci": [
+            0.9661615465318035,
+            0.9950178992940043
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9936386768447838,
+          "rbu_mean_ci": [
+            0.983839937414472,
+            0.9977761939476358
+          ],
+          "rbu_all": 0.9916030534351145,
+          "rbu_all_ci": [
+            0.9777096609059571,
+            0.9970760233918129
+          ]
+        }
+      },
+      "k20_T1": {
+        "rbu_mean": 0.7949109414758271,
+        "rbu_mean_ci": [
+          0.6474964831896466,
+          0.8778328618462148
+        ],
+        "rbu_all": 0.7641221374045801,
+        "rbu_all_ci": [
+          0.6052411822876607,
+          0.8533157862745852
+        ],
+        "share_fail_at_first_token": 0.6650321789764021,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.6551724137931034
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.5619047619047618
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.8082191780821918
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 0.9383680555555558
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.6533333333333334
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.5555555555555556
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 0.85
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.7741935483870968
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.8192090395480225
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.6666666666666665
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.5308641975308641
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.8450381679389313,
+          "rbu_mean_ci": [
+            0.7125015402674553,
+            0.9128153892093732
+          ],
+          "rbu_all": 0.8206106870229007,
+          "rbu_all_ci": [
+            0.6747177114254118,
+            0.8957377190530842
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.8811704834605597,
+          "rbu_mean_ci": [
+            0.7681266411418679,
+            0.9400177360805718
+          ],
+          "rbu_all": 0.8625954198473282,
+          "rbu_all_ci": [
+            0.7358764643947474,
+            0.9284711268088608
+          ]
+        }
+      },
+      "k50_T1": {
+        "rbu_mean": 0.6374045801526718,
+        "rbu_mean_ci": [
+          0.4567552342519054,
+          0.7333090762646454
+        ],
+        "rbu_all": 0.5870229007633587,
+        "rbu_all_ci": [
+          0.41334224094489364,
+          0.6738372536422995
+        ],
+        "share_fail_at_first_token": 0.5681318681318681,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.5517241379310345
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.40952380952380957
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.6347031963470319
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 0.7873263888888888
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.5466666666666666
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.34463276836158185
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 0.7571428571428571
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.6021505376344086
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.6214689265536723
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.37037037037037035
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.16049382716049382
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.7142493638676846,
+          "rbu_mean_ci": [
+            0.534428252530969,
+            0.808406507061106
+          ],
+          "rbu_all": 0.6778625954198473,
+          "rbu_all_ci": [
+            0.4872352851911458,
+            0.7776101246794005
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.7829516539440202,
+          "rbu_mean_ci": [
+            0.6250894323132813,
+            0.8643221134376058
+          ],
+          "rbu_all": 0.7480916030534351,
+          "rbu_all_ci": [
+            0.5806377027782957,
+            0.8369282178217821
+          ]
+        }
+      },
+      "minp0.05_T1": {
+        "rbu_mean": 0.9743002544529261,
+        "rbu_mean_ci": [
+          0.9371438227717672,
+          0.9896517327861377
+        ],
+        "rbu_all": 0.966412213740458,
+        "rbu_all_ci": [
+          0.9157972205463207,
+          0.9867829094333196
+        ],
+        "share_fail_at_first_token": 0.8572544933576453,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.9022988505747126
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.8857142857142857
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.958904109589041
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 1.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.9533333333333335
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 1.0
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.8494623655913978
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.9642184557438794
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.8333333333333334
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.8641975308641975
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.983969465648855,
+          "rbu_mean_ci": [
+            0.959897010883853,
+            0.9936323130878367
+          ],
+          "rbu_all": 0.9801526717557252,
+          "rbu_all_ci": [
+            0.9512723950246846,
+            0.991955756661639
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9880407124681934,
+          "rbu_mean_ci": [
+            0.96896475209141,
+            0.995592404618259
+          ],
+          "rbu_all": 0.9854961832061069,
+          "rbu_all_ci": [
+            0.9622617716338718,
+            0.9945028927052124
+          ]
+        }
+      },
+      "minp0.10_T1": {
+        "rbu_mean": 0.9821882951653944,
+        "rbu_mean_ci": [
+          0.9567383131905389,
+          0.9927324705963986
+        ],
+        "rbu_all": 0.9770992366412213,
+        "rbu_all_ci": [
+          0.9438420442056418,
+          0.9908442788898999
+        ],
+        "share_fail_at_first_token": 0.8674075988627552,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.9367816091954024
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.8952380952380952
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.9680365296803651
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 1.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.98
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.9943502824858758
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 1.0
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.8924731182795699
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.9755178907721281
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.9259259259259258
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.9012345679012347
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.9875318066157761,
+          "rbu_mean_ci": [
+            0.9674487516690365,
+            0.9953357500320656
+          ],
+          "rbu_all": 0.9847328244274809,
+          "rbu_all_ci": [
+            0.9611367540854958,
+            0.9940597219776697
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9918575063613231,
+          "rbu_mean_ci": [
+            0.9788045997382485,
+            0.9971246243406259
+          ],
+          "rbu_all": 0.9900763358778626,
+          "rbu_all_ci": [
+            0.9731978913463174,
+            0.9966260170342219
+          ]
+        }
+      },
+      "untruncated_T1": {
+        "rbu_mean": 0.0,
+        "rbu_mean_ci": [
+          0.0,
+          0.0
+        ],
+        "rbu_all": 0.0,
+        "rbu_all_ci": [
+          0.0,
+          0.0
+        ],
+        "share_fail_at_first_token": NaN,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 58,
+            "rbu_mean": 0.0
+          },
+          "kerala_rivers": {
+            "n_rec": 35,
+            "rbu_mean": 0.0
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 73,
+            "rbu_mean": 0.0
+          },
+          "japanese_novelists": {
+            "n_rec": 384,
+            "rbu_mean": 0.0
+          },
+          "nepal_mountains": {
+            "n_rec": 50,
+            "rbu_mean": 0.0
+          },
+          "brazil_universities": {
+            "n_rec": 177,
+            "rbu_mean": 0.0
+          },
+          "finland_lakes": {
+            "n_rec": 280,
+            "rbu_mean": 0.0
+          },
+          "nigerian_painters": {
+            "n_rec": 31,
+            "rbu_mean": 0.0
+          },
+          "bengali_film_directors": {
+            "n_rec": 177,
+            "rbu_mean": 0.0
+          },
+          "assamese_writers": {
+            "n_rec": 18,
+            "rbu_mean": 0.0
+          },
+          "us_state_capitals": {
+            "n_rec": 27,
+            "rbu_mean": 0.0
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.0,
+          "rbu_mean_ci": [
+            0.0,
+            0.0
+          ],
+          "rbu_all": 0.0,
+          "rbu_all_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.0,
+          "rbu_mean_ci": [
+            0.0,
+            0.0
+          ],
+          "rbu_all": 0.0,
+          "rbu_all_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "p_star_T1_quantiles_recognised": {
+      "0.5": 0.9980897605419159,
+      "0.75": 0.9997439235448837,
+      "0.9": 0.999982762336731,
+      "0.95": 0.9999967217445374
+    },
+    "sample_check": {
+      "shipped_hf": {
+        "violations": 0,
+        "boundary_hits": 0,
+        "exact_violations": 0,
+        "noncanonical": 0,
+        "n_samples": 11000,
+        "n_valid_text": 3561,
+        "n_id_prefix_hits": 3561,
+        "distinct_id_prefix_hits": 15
+      },
+      "p0.90_T1": {
+        "violations": 0,
+        "boundary_hits": 1,
+        "exact_violations": 1,
+        "noncanonical": 0,
+        "n_samples": 11000,
+        "n_valid_text": 3581,
+        "n_id_prefix_hits": 3749,
+        "distinct_id_prefix_hits": 44
+      }
+    }
+  },
+  "base": {
+    "model": "Qwen/Qwen2.5-7B",
+    "validity": {
+      "auroc_yesno": 0.8139290416589728,
+      "mc_accuracy": 0.7279411764705882,
+      "n_members": 2312,
+      "n_foils": 1724,
+      "n_recognised": 1215,
+      "tau_per_category": {
+        "tamil_poets": 0.7549252757008607,
+        "kerala_rivers": 0.7310698149996475,
+        "tamilnadu_hindu_temples": 0.8519566672043105,
+        "japanese_novelists": 0.24630447728635882,
+        "nepal_mountains": 0.5281089934808233,
+        "brazil_universities": 0.37753964864366973,
+        "finland_lakes": 0.6791927662195061,
+        "nigerian_painters": 0.7451291951118674,
+        "bengali_film_directors": 0.651386444574612,
+        "assamese_writers": 0.835485193794301,
+        "us_state_capitals": 0.3486681710240618
+      }
+    },
+    "margin": 0.75,
+    "specs": {
+      "p0.80_T1": {
+        "rbu_mean": 0.7626886145404663,
+        "rbu_mean_ci": [
+          0.6237246818763648,
+          0.8358217261375455
+        ],
+        "rbu_all": 0.7119341563786008,
+        "rbu_all_ci": [
+          0.5773824310586754,
+          0.7838387343695554
+        ],
+        "share_fail_at_first_token": 0.45808488249736934,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.6121212121212122
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.6231884057971014
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.8112449799196787
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.898843930635838
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.8431372549019608
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.7430167597765365
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.8073770491803276
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.37878787878787873
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.7037037037037037
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.4603174603174602
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.043859649122807015
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.8375857338820302,
+          "rbu_mean_ci": [
+            0.7088994910941475,
+            0.9033437956522322
+          ],
+          "rbu_all": 0.805761316872428,
+          "rbu_all_ci": [
+            0.6655790464399414,
+            0.876597723760644
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.8962962962962963,
+          "rbu_mean_ci": [
+            0.7960050828888051,
+            0.9461107587534637
+          ],
+          "rbu_all": 0.8748971193415638,
+          "rbu_all_ci": [
+            0.7561670239960419,
+            0.9340756120227666
+          ]
+        }
+      },
+      "p0.90_T1": {
+        "rbu_mean": 0.5242798353909465,
+        "rbu_mean_ci": [
+          0.3918840201379824,
+          0.6105696142972497
+        ],
+        "rbu_all": 0.4699588477366255,
+        "rbu_all_ci": [
+          0.3515195446336334,
+          0.548618990167594
+        ],
+        "share_fail_at_first_token": 0.28023312287518215,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.37575757575757573
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.2753623188405797
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.6144578313253013
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.6859344894026976
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.6078431372549019
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.4283054003724395
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.5505464480874315
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.16666666666666669
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.46840958605664484
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.20634920634920634
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.0
+          }
+        },
+        "rbu_mean_by_margin": {
+          "0.0": 0.6397805212620028,
+          "0.25": 0.5994513031550069,
+          "0.5": 0.5582990397805213,
+          "1.0": 0.4853223593964334,
+          "2.0": 0.35939643347050754,
+          "4.0": 0.18271604938271607
+        },
+        "exact": {
+          "rbu_mean": 0.6397805212620028,
+          "rbu_mean_ci": [
+            0.4984270981058109,
+            0.7285446332796772
+          ],
+          "rbu_all": 0.5818930041152264,
+          "rbu_all_ci": [
+            0.44859386031828474,
+            0.6676994106090373
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.7486968449931413,
+          "rbu_mean_ci": [
+            0.6065369091721563,
+            0.8283380896505103
+          ],
+          "rbu_all": 0.6938271604938272,
+          "rbu_all_ci": [
+            0.5523541766151996,
+            0.7762003346138977
+          ]
+        }
+      },
+      "p0.95_T1": {
+        "rbu_mean": 0.33305898491083685,
+        "rbu_mean_ci": [
+          0.23102247891267969,
+          0.39569698755550686
+        ],
+        "rbu_all": 0.28888888888888886,
+        "rbu_all_ci": [
+          0.2013007910128572,
+          0.3389786676786703
+        ],
+        "share_fail_at_first_token": 0.16050244242847173,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.2909090909090909
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.17391304347826086
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.38955823293172687
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.44990366088632
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.2875816993464052
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.2476722532588454
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.3702185792349727
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.0
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.289760348583878
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.14285714285714285
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.0
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.4271604938271605,
+          "rbu_mean_ci": [
+            0.2999042788593023,
+            0.5082926360651155
+          ],
+          "rbu_all": 0.37613168724279833,
+          "rbu_all_ci": [
+            0.2621465773809524,
+            0.4505964682207701
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.5270233196159122,
+          "rbu_mean_ci": [
+            0.392982271119362,
+            0.615088985564564
+          ],
+          "rbu_all": 0.4641975308641975,
+          "rbu_all_ci": [
+            0.3435530161404987,
+            0.5455895691609977
+          ]
+        }
+      },
+      "p0.90_T0.7": {
+        "rbu_mean": 0.8532235939643348,
+        "rbu_mean_ci": [
+          0.7185873421133486,
+          0.9269802625792368
+        ],
+        "rbu_all": 0.8238683127572016,
+        "rbu_all_ci": [
+          0.6798168896570219,
+          0.9029814599733299
+        ],
+        "share_fail_at_first_token": 0.6319135410044501,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.7393939393939395
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.6811594202898551
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.8795180722891566
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.9845857418111755
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.9346405228758171
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.808193668528864
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.9207650273224044
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.5606060606060606
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.7821350762527234
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.6031746031746031
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.13157894736842102
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.910562414266118,
+          "rbu_mean_ci": [
+            0.8107713192189279,
+            0.9582690770905337
+          ],
+          "rbu_all": 0.8938271604938272,
+          "rbu_all_ci": [
+            0.7792038085710713,
+            0.9497047712534951
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9489711934156378,
+          "rbu_mean_ci": [
+            0.8856304520099304,
+            0.9779646132999791
+          ],
+          "rbu_all": 0.9358024691358025,
+          "rbu_all_ci": [
+            0.853877815222752,
+            0.971944356001723
+          ]
+        }
+      },
+      "k20_T1": {
+        "rbu_mean": 0.6458161865569274,
+        "rbu_mean_ci": [
+          0.4552968108101359,
+          0.7465893879348307
+        ],
+        "rbu_all": 0.6090534979423868,
+        "rbu_all_ci": [
+          0.42853963543874524,
+          0.7062246877624804
+        ],
+        "share_fail_at_first_token": 0.7125100240577386,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.48484848484848486
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.5217391304347826
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.7228915662650602
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.788053949903661
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.5032679738562091
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.2849162011173184
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.7718579234972678
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.6363636363636362
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.6993464052287581
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.5714285714285714
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.4035087719298246
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.7454046639231824,
+          "rbu_mean_ci": [
+            0.5421680170195419,
+            0.8514321984343963
+          ],
+          "rbu_all": 0.7226337448559671,
+          "rbu_all_ci": [
+            0.520998628159584,
+            0.8292551915806106
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.8342935528120713,
+          "rbu_mean_ci": [
+            0.6604270750988142,
+            0.9265790616035029
+          ],
+          "rbu_all": 0.8164609053497942,
+          "rbu_all_ci": [
+            0.632232058872351,
+            0.916416954745443
+          ]
+        }
+      },
+      "k50_T1": {
+        "rbu_mean": 0.4271604938271606,
+        "rbu_mean_ci": [
+          0.2719235341072761,
+          0.5220845391784316
+        ],
+        "rbu_all": 0.39753086419753086,
+        "rbu_all_ci": [
+          0.24797021276595746,
+          0.4938076407399722
+        ],
+        "share_fail_at_first_token": 0.6304347826086957,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.3212121212121212
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.34782608695652173
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.5542168674698795
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.4903660886319847
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.3202614379084967
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.11918063314711361
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.5969945355191257
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.45454545454545453
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.47494553376906323
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.38095238095238093
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.09649122807017545
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.5349794238683128,
+          "rbu_mean_ci": [
+            0.352054815785275,
+            0.6360165070147173
+          ],
+          "rbu_all": 0.502880658436214,
+          "rbu_all_ci": [
+            0.32448031781882714,
+            0.6045709853807797
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.6617283950617284,
+          "rbu_mean_ci": [
+            0.4541234968317095,
+            0.76549021519529
+          ],
+          "rbu_all": 0.6353909465020576,
+          "rbu_all_ci": [
+            0.4365244086499358,
+            0.7382116387244612
+          ]
+        }
+      },
+      "minp0.05_T1": {
+        "rbu_mean": 0.8008230452674897,
+        "rbu_mean_ci": [
+          0.6335096959365939,
+          0.8944573251343102
+        ],
+        "rbu_all": 0.7720164609053498,
+        "rbu_all_ci": [
+          0.6017355423526471,
+          0.8650412323886991
+        ],
+        "share_fail_at_first_token": 0.6528619528619528,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.6303030303030303
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.6086956521739131
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.7911646586345382
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.9633911368015415
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.8496732026143792
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.6797020484171321
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.907103825136612
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.606060606060606
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.7276688453159043
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.5555555555555556
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.07017543859649122
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.8801097393689987,
+          "rbu_mean_ci": [
+            0.7485687388731358,
+            0.9483796647113582
+          ],
+          "rbu_all": 0.8518518518518519,
+          "rbu_all_ci": [
+            0.6954972863476533,
+            0.9323995001646744
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9272976680384089,
+          "rbu_mean_ci": [
+            0.8361380843425043,
+            0.9721584640678539
+          ],
+          "rbu_all": 0.91440329218107,
+          "rbu_all_ci": [
+            0.8072817058623973,
+            0.9673336303990412
+          ]
+        }
+      },
+      "minp0.10_T1": {
+        "rbu_mean": 0.8721536351165982,
+        "rbu_mean_ci": [
+          0.7324280579391831,
+          0.9441662593592509
+        ],
+        "rbu_all": 0.8436213991769548,
+        "rbu_all_ci": [
+          0.6797334850114849,
+          0.92915545390148
+        ],
+        "share_fail_at_first_token": 0.7378219050574,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.7636363636363637
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.6811594202898551
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.8634538152610443
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.9932562620423893
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.9215686274509803
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.7579143389199257
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.9672131147540983
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.6818181818181818
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.860566448801743
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.6349206349206349
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.21052631578947367
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.924554183813443,
+          "rbu_mean_ci": [
+            0.8314716156566986,
+            0.9712128231029458
+          ],
+          "rbu_all": 0.9078189300411522,
+          "rbu_all_ci": [
+            0.7941783389228645,
+            0.9645588970956844
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.9613168724279836,
+          "rbu_mean_ci": [
+            0.9106301106301105,
+            0.9856716847360592
+          ],
+          "rbu_all": 0.9506172839506173,
+          "rbu_all_ci": [
+            0.8838257575757577,
+            0.9832004995458674
+          ]
+        }
+      },
+      "untruncated_T1": {
+        "rbu_mean": 0.0,
+        "rbu_mean_ci": [
+          0.0,
+          0.0
+        ],
+        "rbu_all": 0.0,
+        "rbu_all_ci": [
+          0.0,
+          0.0
+        ],
+        "share_fail_at_first_token": NaN,
+        "per_category": {
+          "tamil_poets": {
+            "n_rec": 55,
+            "rbu_mean": 0.0
+          },
+          "kerala_rivers": {
+            "n_rec": 23,
+            "rbu_mean": 0.0
+          },
+          "tamilnadu_hindu_temples": {
+            "n_rec": 83,
+            "rbu_mean": 0.0
+          },
+          "japanese_novelists": {
+            "n_rec": 346,
+            "rbu_mean": 0.0
+          },
+          "nepal_mountains": {
+            "n_rec": 51,
+            "rbu_mean": 0.0
+          },
+          "brazil_universities": {
+            "n_rec": 179,
+            "rbu_mean": 0.0
+          },
+          "finland_lakes": {
+            "n_rec": 244,
+            "rbu_mean": 0.0
+          },
+          "nigerian_painters": {
+            "n_rec": 22,
+            "rbu_mean": 0.0
+          },
+          "bengali_film_directors": {
+            "n_rec": 153,
+            "rbu_mean": 0.0
+          },
+          "assamese_writers": {
+            "n_rec": 21,
+            "rbu_mean": 0.0
+          },
+          "us_state_capitals": {
+            "n_rec": 38,
+            "rbu_mean": 0.0
+          }
+        },
+        "rbu_mean_by_margin": null,
+        "exact": {
+          "rbu_mean": 0.0,
+          "rbu_mean_ci": [
+            0.0,
+            0.0
+          ],
+          "rbu_all": 0.0,
+          "rbu_all_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "upper": {
+          "rbu_mean": 0.0,
+          "rbu_mean_ci": [
+            0.0,
+            0.0
+          ],
+          "rbu_all": 0.0,
+          "rbu_all_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "p_star_T1_quantiles_recognised": {
+      "0.5": 0.9471288919448853,
+      "0.75": 0.9834718108177185,
+      "0.9": 0.994522750377655,
+      "0.95": 0.9974117815494538
+    }
+  },
+  "decision": {
+    "verdict": "BLOCKED",
+    "checks": {
+      "V1_no_sampling_violations": true,
+      "V2_recognition_auroc_ge_0.85": false,
+      "V3_at_least_300_recognised": true
+    },
+    "notes": [
+      "validity checks failed: ['V2_recognition_auroc_ge_0.85']. Fix these before reading any RBU number."
+    ],
+    "paired_p0.90_T1": {
+      "instruct_only_unreachable": 456,
+      "base_only_unreachable": 5,
+      "z": 21.005164120751267,
+      "p_two_sided": 5.882993993169263e-98
+    }
+  },
+  "decision_if_exact_rbu": "BLOCKED"
+}

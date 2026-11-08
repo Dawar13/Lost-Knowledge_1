@@ -1,0 +1,211 @@
+{
+  "total": {
+    "distinct": 119,
+    "unreachable": 0,
+    "robust_unreachable@0.25": 0,
+    "robust_unreachable@0.5": 0,
+    "robust_unreachable@0.75": 0,
+    "robust_unreachable@1.0": 0,
+    "robust_unreachable@1.5": 0,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "shipped_hf": 0.0,
+    "p0.90_T1": 0.0
+  },
+  "epsilon_rule": 0.25,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 155,
+      "mean": 4.202444707193682e-05,
+      "q0.5": 3.337860107421875e-05,
+      "q0.9": 7.352828979492187e-05,
+      "q0.99": 0.0001314640045166019,
+      "q0.999": 0.000171255111694336,
+      "max": 0.00017404556274414062
+    },
+    "rel_near": {
+      "n_positions": 155,
+      "mean": 8.109308058215726e-06,
+      "q0.5": 5.7220458984375e-06,
+      "q0.9": 1.9645690917968745e-05,
+      "q0.99": 4.0779113769531296e-05,
+      "q0.999": 6.484603881835947e-05,
+      "max": 6.866455078125e-05
+    },
+    "dG_T1.0": {
+      "n_positions": 155,
+      "mean": 2.6149134482106853e-07,
+      "q0.5": 0.0,
+      "q0.9": 6.139278411865233e-07,
+      "q0.99": 3.1617283821106055e-06,
+      "q0.999": 5.632311105728157e-06,
+      "max": 5.9604644775390625e-06
+    },
+    "dG_T0.7": {
+      "n_positions": 155,
+      "mean": 4.720303320115612e-07,
+      "q0.5": 0.0,
+      "q0.9": 1.2516975402832031e-06,
+      "q0.99": 6.705522537231481e-06,
+      "q0.999": 1.315355300903322e-05,
+      "max": 1.3887882232666016e-05
+    },
+    "drank": {
+      "n_positions": 155,
+      "mean": 0.0,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 0.0,
+      "q0.999": 0.0,
+      "max": 0.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "shipped_hf",
+      "category": "tamil_poets",
+      "n_samples": 40,
+      "distinct_sequences": 33,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "kerala_rivers",
+      "n_samples": 40,
+      "distinct_sequences": 10,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 40,
+      "distinct_sequences": 39,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 40,
+      "distinct_sequences": 37,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    }
+  ],
+  "meta": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "commit": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "code": {
+      "tree_sha256": "c5c9e647456ed059",
+      "git_head": "80979a4365c69b6154e055eea7d331b079253aa0",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "cpu",
+    "utc": "2026-11-08T07:02:26Z",
+    "cuda_visible_devices": "",
+    "seconds": 296.8745505809784,
+    "args": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "data": "data/tailcat/pilot",
+      "out": "results/cputest_selfcheck",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 40,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 0,
+      "gap_samples": 10,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cpu",
+      "limit_categories": 2
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      },
+      "shipped_hf": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repetition_penalty": 1.1
+      }
+    }
+  }
+}

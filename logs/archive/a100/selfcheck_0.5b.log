@@ -1,0 +1,25 @@
+[gpu] 18.0 GiB free of 79.2 GiB; this job is capped at 6.7 GiB, leaving at least 11.4 GiB for others
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 5484.11it/s]
+[selfcheck] shipped_hf   tamil_poets                distinct  263 unreachable 33
+[selfcheck] shipped_hf   kerala_rivers              distinct   18 unreachable 0
+[selfcheck] shipped_hf   tamilnadu_hindu_temples    distinct   83 unreachable 11
+[selfcheck] shipped_hf   japanese_novelists         distinct   95 unreachable 21
+[selfcheck] shipped_hf   nepal_mountains            distinct    2 unreachable 0
+[selfcheck] shipped_hf   brazil_universities        distinct   20 unreachable 0
+[selfcheck] shipped_hf   finland_lakes              distinct   80 unreachable 8
+[selfcheck] shipped_hf   nigerian_painters          distinct  250 unreachable 19
+[selfcheck] shipped_hf   bengali_film_directors     distinct  156 unreachable 5
+[selfcheck] shipped_hf   assamese_writers           distinct  218 unreachable 18
+[selfcheck] shipped_hf   us_state_capitals          distinct    1 unreachable 0
+[selfcheck] p0.90_T1     tamil_poets                distinct  472 unreachable 10
+[selfcheck] p0.90_T1     kerala_rivers              distinct  305 unreachable 8
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  389 unreachable 4
+[selfcheck] p0.90_T1     japanese_novelists         distinct  354 unreachable 10
+[selfcheck] p0.90_T1     nepal_mountains            distinct   33 unreachable 0
+[selfcheck] p0.90_T1     brazil_universities        distinct  236 unreachable 5
+[selfcheck] p0.90_T1     finland_lakes              distinct  399 unreachable 4
+[selfcheck] p0.90_T1     nigerian_painters          distinct  491 unreachable 12
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  450 unreachable 7
+[selfcheck] p0.90_T1     assamese_writers           distinct  474 unreachable 4
+[selfcheck] p0.90_T1     us_state_capitals          distinct   13 unreachable 1
+[selfcheck] TOTAL distinct 4802 unreachable 180 (FAIL) in 1.7 min

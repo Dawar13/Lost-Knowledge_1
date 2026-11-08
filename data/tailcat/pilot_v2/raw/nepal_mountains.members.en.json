@@ -1,0 +1,1609 @@
+{
+  "key": "017632cc548bd717",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q8502 ; wdt:P17 wd:Q837 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:26:46Z",
+  "rows": [
+    {
+      "qid": "Q82019",
+      "label": "Kanchenjunga",
+      "aliases": [
+        "Kanchinjinga",
+        "Kangchenjunga",
+        "Kañcanjaṅghā",
+        "Kangchendzonga"
+      ],
+      "sitelinks": 102
+    },
+    {
+      "qid": "Q165440",
+      "label": "Dhaulagiri",
+      "aliases": [
+        "Dhaulagiri I",
+        "Dhwalagiri"
+      ],
+      "sitelinks": 90
+    },
+    {
+      "qid": "Q168702",
+      "label": "Lhotse",
+      "aliases": [
+        "Lho Tse"
+      ],
+      "sitelinks": 86
+    },
+    {
+      "qid": "Q106556789",
+      "label": "Tserko Ri",
+      "aliases": [
+        "Tsergo Ri"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q389456",
+      "label": "Cholatse",
+      "aliases": [
+        "Chola Tse"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q449534",
+      "label": "Annapurna II",
+      "aliases": [
+        "Annapūrna II"
+      ],
+      "sitelinks": 24
+    },
+    {
+      "qid": "Q527197",
+      "label": "Kangtega",
+      "aliases": [
+        "Kantaiga",
+        "Kantega",
+        "Kāṅtegā"
+      ],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q619781",
+      "label": "Imja Tse",
+      "aliases": [
+        "Island Peak"
+      ],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q968606",
+      "label": "Pokalde",
+      "aliases": [
+        "Pokhalde"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q1051394",
+      "label": "Machhapuchhre",
+      "aliases": [
+        "Fishtail Mountain",
+        "Mt. Fish Tail"
+      ],
+      "sitelinks": 37
+    },
+    {
+      "qid": "Q513",
+      "label": "Mount Everest",
+      "aliases": [
+        "Chomolangma",
+        "Himalaya Peak XV",
+        "Mount Chomolubutangma",
+        "Mount Qomolangma",
+        "Mount Sagarmatha",
+        "Mt Everest",
+        "Peak XV",
+        "Qomolangma Feng",
+        "World highest peak"
+      ],
+      "sitelinks": 238
+    },
+    {
+      "qid": "Q1137644",
+      "label": "Pumori",
+      "aliases": [
+        "Pumo Ri"
+      ],
+      "sitelinks": 43
+    },
+    {
+      "qid": "Q1139538",
+      "label": "Nuptse",
+      "aliases": [
+        "Nubtse",
+        "Nup Tse"
+      ],
+      "sitelinks": 39
+    },
+    {
+      "qid": "Q1237414",
+      "label": "Jannu",
+      "aliases": [
+        "Kumbhakarna Mountain",
+        "Mount Kumbhakarna",
+        "Phoktanglungma"
+      ],
+      "sitelinks": 28
+    },
+    {
+      "qid": "Q1377280",
+      "label": "Putha Hiunchuli",
+      "aliases": [
+        "Dhaulagiri VII"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q1496289",
+      "label": "Gauri Sankar",
+      "aliases": [
+        "Gauri Shankar",
+        "Gaurishankar",
+        "Gaurisankar",
+        "Jomo Tseringma"
+      ],
+      "sitelinks": 32
+    },
+    {
+      "qid": "Q1551402",
+      "label": "Langtang Lirung",
+      "aliases": [
+        "Lāṅtāṅ Liruṅ"
+      ],
+      "sitelinks": 29
+    },
+    {
+      "qid": "Q1740694",
+      "label": "Mount Khumbila",
+      "aliases": [
+        "Khumbila"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q1754634",
+      "label": "Ngadi Chuli",
+      "aliases": [
+        "Harka Gurung Chuli",
+        "Gurkha Massif"
+      ],
+      "sitelinks": 28
+    },
+    {
+      "qid": "Q1826566",
+      "label": "Lingtren",
+      "aliases": [
+        "Lingtrennup"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q2143811",
+      "label": "Tilicho Peak",
+      "aliases": [
+        "Tilitso"
+      ],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3695890",
+      "label": "Dorje Lhakpa",
+      "aliases": [
+        "Dorje Lakpa"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q3695902",
+      "label": "Tharpu Chuli",
+      "aliases": [
+        "Tent Peak"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q20191139",
+      "label": "Parchamo",
+      "aliases": [
+        "Pachermo",
+        "Pachhermo",
+        "Parchemuche"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20191165",
+      "label": "Pharilapcha",
+      "aliases": [
+        "Phari Lapcha",
+        "Machhermo Peak"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20191203",
+      "label": "Ramdung Go",
+      "aliases": [
+        "Ramdang Go",
+        "Ramdung"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20748056",
+      "label": "Shar Tse",
+      "aliases": [
+        "Junction Peak",
+        "Shartse"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20754005",
+      "label": "Kangchungtse",
+      "aliases": [
+        "Makalu II",
+        "Makālu II"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20757618",
+      "label": "Drangnag Ri",
+      "aliases": [
+        "Dragnag Ri",
+        "Thāngnāk Ri"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20757619",
+      "label": "Gurja Himal",
+      "aliases": [
+        "Mount Gurja"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q20757616",
+      "label": "Chhukung Ri",
+      "aliases": [
+        "Chukhung Ri"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20757617",
+      "label": "Chukyima Go",
+      "aliases": [
+        "Chugimago",
+        "Chukima"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20757621",
+      "label": "Hungchi",
+      "aliases": [
+        "Chakhung"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20757627",
+      "label": "Likhu Chuli",
+      "aliases": [
+        "Big Phera-Go Shar",
+        "Big Pherago Shar",
+        "Pig Phera-Go Shar",
+        "Pig Pherago Shar"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20757624",
+      "label": "Karyolung",
+      "aliases": [
+        "Kareluṅ Ḍā̃ḍā"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20757625",
+      "label": "Khangri Shar",
+      "aliases": [
+        "Khangri East"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20757629",
+      "label": "Malāṅphulāṅ",
+      "aliases": [
+        "Malangphutang",
+        "Malangphulang",
+        "Malanphulan"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q20757637",
+      "label": "Panbari",
+      "aliases": [
+        "Panbari Himal"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20757644",
+      "label": "Churen Himal",
+      "aliases": [
+        "Churen Himāl"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q20757649",
+      "label": "Takargo",
+      "aliases": [
+        "Dragkar-Go"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q21000079",
+      "label": "Pemthang Karpo Ri",
+      "aliases": [
+        "Dôme Blanc",
+        "Ramthang Karpo Ri"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q21561056",
+      "label": "Kokthang",
+      "aliases": [
+        "Koktang",
+        "Kokthāṅ"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q25378206",
+      "label": "Rathong",
+      "aliases": [
+        "Rāthoṅ"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q25378204",
+      "label": "Ramthang Lho",
+      "aliases": [
+        "Ramthang South"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q28183964",
+      "label": "Chandragiri Hill",
+      "aliases": [
+        "Chandragiri Hill (Nepal)",
+        "Chandragiri Hills, Nepal"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q29015389",
+      "label": "Tsoboje",
+      "aliases": [
+        "Chobuje",
+        "Chobutse"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q31652166",
+      "label": "Bhrānge",
+      "aliases": [
+        "Paldor"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q31652613",
+      "label": "Varaha Shikhar",
+      "aliases": [
+        "Fang",
+        "Annapurna Fang"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q56305304",
+      "label": "Phurbi Chhyachu",
+      "aliases": [
+        "Phurbi Chyachu"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3695952",
+      "label": "Yala Peak",
+      "aliases": [
+        "Tserko Peak"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4134792",
+      "label": "Khartaphu",
+      "aliases": [
+        "Kardapu"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q4221152",
+      "label": "Kirat Chuli",
+      "aliases": [
+        "Tent Peak"
+      ],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q4312814",
+      "label": "Nangpai Gosum",
+      "aliases": [
+        "Cho Aui I",
+        "Jasemba",
+        "Pasang Lhamu Chuli"
+      ],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q4536616",
+      "label": "Yakawa Kang",
+      "aliases": [
+        "Yākwākāṅ"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4840748",
+      "label": "Baden-Powell Peak",
+      "aliases": [
+        "Urkema Peak"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q5069463",
+      "label": "Chamar",
+      "aliases": [
+        "Chamar Mountain",
+        "Chamar Parvat"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q5520839",
+      "label": "Ganesh NW",
+      "aliases": [
+        "Ganesh II"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q6429186",
+      "label": "Kongde Ri",
+      "aliases": [
+        "Kwangde",
+        "Kwāngde",
+        "Tārtikhā"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q6448208",
+      "label": "Kusum Kanguru",
+      "aliases": [
+        "Kusumkhan Karda"
+      ],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q6620670",
+      "label": "Singu Chuli",
+      "aliases": [
+        "Fluted Peak"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7403706",
+      "label": "Salasungo",
+      "aliases": [
+        "Ganesh III",
+        "Ganesh III/IV"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q9268113",
+      "label": "Gimmigela Chuli",
+      "aliases": [
+        "The Twins"
+      ],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q11752821",
+      "label": "Langtang Ri",
+      "aliases": [
+        "Lāṅtāṅ Ri"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q11873899",
+      "label": "Kyashar",
+      "aliases": [
+        "Peak 43",
+        "Thangnaktse"
+      ],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q111010303",
+      "label": "Ponggen Dopku",
+      "aliases": [
+        "Pangen Dobku",
+        "Pongen Dopku"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q130266608",
+      "label": "Cholo",
+      "aliases": [
+        "Abi",
+        "Kangchung Nup",
+        "Kangchung West"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q130373062",
+      "label": "Nupla",
+      "aliases": [
+        "Chamunāpāro Ḍā̃ḍā",
+        "Chamunaparo Danda"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134600289",
+      "label": "Shalbachum",
+      "aliases": [
+        "Phrul Rangien Ri",
+        "Phrul Rangtshan Ri"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q134622192",
+      "label": "Gandharwa Chuli",
+      "aliases": [
+        "Gandharbha Chuli"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q135286570",
+      "label": "Amotsang",
+      "aliases": [
+        "Amotsang Himal"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q135930803",
+      "label": "Changdi",
+      "aliases": [
+        "Lalung"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q137971685",
+      "label": "Pāniyo Tāpā",
+      "aliases": [
+        "Panaiotapa",
+        "Paniyo Tapa",
+        "Paniyo Tippa"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q13423903",
+      "label": "Talung",
+      "aliases": [
+        "Kabru III",
+        "Tāluṅ"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q14227691",
+      "label": "Numbur",
+      "aliases": [
+        "Numberchuli",
+        "Numburchuili",
+        "Numburchuli",
+        "Shorong Yul Lha"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q16466024",
+      "label": "Annapurna I",
+      "aliases": [
+        "Annapurna",
+        "Annapurna I Main"
+      ],
+      "sitelinks": 26
+    },
+    {
+      "qid": "Q16901410",
+      "label": "Tenzing Peak",
+      "aliases": [
+        "Ngojumba Kang",
+        "Ngozumpa Kang I"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q19283615",
+      "label": "Gangchempo",
+      "aliases": [
+        "Ganchempo",
+        "Ganchenpo",
+        "Gang Chhempo",
+        "Gangchenpo"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19287915",
+      "label": "Kimshung",
+      "aliases": [
+        "Chanbu",
+        "Chāṅbu",
+        "Tsangbu Ri"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19288849",
+      "label": "Langtang Himal",
+      "aliases": [
+        "Langtang",
+        "Langtang Himāl",
+        "Lāṅṭāṅ Himāl"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19297118",
+      "label": "Naya Kanga",
+      "aliases": [
+        "Nasum Kang",
+        "Nasum Khang"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q19298140",
+      "label": "Pabil",
+      "aliases": [
+        "Ganesh IV"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q20164740",
+      "label": "Tengkangpoche",
+      "aliases": [
+        "Thyāṅmoche"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20190945",
+      "label": "Kongma Tse",
+      "aliases": [
+        "Khongma Tse"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q31653304",
+      "label": "Gyajin Kang",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653321",
+      "label": "Machhuwā Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653337",
+      "label": "Kālsi̇̄ Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653353",
+      "label": "Bedāṅ Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653402",
+      "label": "Pāri̇̄ Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653417",
+      "label": "Yubrā Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653558",
+      "label": "Liṅsiṅ Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653757",
+      "label": "Lumbo Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653883",
+      "label": "Kālo Pokhari̇̄ Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653912",
+      "label": "Lāri̇̄",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653927",
+      "label": "Rināmo Hill",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31654114",
+      "label": "Kāṅālā Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31654130",
+      "label": "Dorje Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31654146",
+      "label": "Liṅsin Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31654163",
+      "label": "Panchpokhari̇̄ Lek",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31654287",
+      "label": "Urkiṅ Kāṅgāri̇̄",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31654397",
+      "label": "Ṭapalḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34865940",
+      "label": "Chang Samarphu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q56293740",
+      "label": "Nangpai Gosum II",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65040223",
+      "label": "Nupla Khang",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q65395645",
+      "label": "Chankheli Peak",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q110209814",
+      "label": "Sertojen Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110210158",
+      "label": "Maksyā Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110210663",
+      "label": "Yulkoṅmā Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110210673",
+      "label": "Rolājen Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110212292",
+      "label": "Kuldum Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110212346",
+      "label": "Nāgpi̇̄ Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110212401",
+      "label": "Chhāliṅ Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110212591",
+      "label": "Jhoṅpālā Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110212798",
+      "label": "Nisiṅyāṅ Ḍāḍā̃",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110212876",
+      "label": "Ītiṅ Ḍāḍā̃",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110213110",
+      "label": "Muga Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110213191",
+      "label": "Dābsāl Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110214098",
+      "label": "Mugu Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110214946",
+      "label": "Chhimi̇̄maru Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110215902",
+      "label": "Syānāṭh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q110216295",
+      "label": "Pāṅkāyāṅ Ḍā̃ḍā",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q111181569",
+      "label": "Purbung",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q113714118",
+      "label": "Tsergo Ri",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q131288401",
+      "label": "Phungi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q131299040",
+      "label": "Bhalu Lek",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q134044709",
+      "label": "Arakam Tse",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q134454728",
+      "label": "Pikey Peak",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q134513933",
+      "label": "Chulu East",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q136377029",
+      "label": "Tutse",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q169986",
+      "label": "Makalu",
+      "aliases": [],
+      "sitelinks": 89
+    },
+    {
+      "qid": "Q170070",
+      "label": "Manaslu",
+      "aliases": [],
+      "sitelinks": 82
+    },
+    {
+      "qid": "Q170089",
+      "label": "Cho Oyu",
+      "aliases": [],
+      "sitelinks": 84
+    },
+    {
+      "qid": "Q379143",
+      "label": "Baruntse",
+      "aliases": [],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q448932",
+      "label": "Cho Polu",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q451697",
+      "label": "Ama Dablam",
+      "aliases": [],
+      "sitelinks": 41
+    },
+    {
+      "qid": "Q564576",
+      "label": "Annapurna III",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q582128",
+      "label": "Gyachung Kang",
+      "aliases": [],
+      "sitelinks": 42
+    },
+    {
+      "qid": "Q1060898",
+      "label": "Chamlang",
+      "aliases": [],
+      "sitelinks": 25
+    },
+    {
+      "qid": "Q1133863",
+      "label": "Gangapurna",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q1145646",
+      "label": "Himalchuli",
+      "aliases": [],
+      "sitelinks": 33
+    },
+    {
+      "qid": "Q1207614",
+      "label": "Dhaulagiri II",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q1291226",
+      "label": "Lobuche",
+      "aliases": [],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q1410514",
+      "label": "Thamserku",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q1429708",
+      "label": "Num Ri",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q1441337",
+      "label": "Mera Peak",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q1511454",
+      "label": "Kala Patthar",
+      "aliases": [],
+      "sitelinks": 33
+    },
+    {
+      "qid": "Q1526943",
+      "label": "Peak 38",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q1718389",
+      "label": "Kang Guru",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q1723728",
+      "label": "Kangbachen",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q2386627",
+      "label": "Taboche",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q2981161",
+      "label": "Sandakpu",
+      "aliases": [],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q3115880",
+      "label": "Kabru",
+      "aliases": [],
+      "sitelinks": 25
+    },
+    {
+      "qid": "Q3138689",
+      "label": "Hiunchuli",
+      "aliases": [],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q4135266",
+      "label": "Nilgiri Himal",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q4141286",
+      "label": "Gokyo Ri",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q4217498",
+      "label": "Khatung Kang",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q4779782",
+      "label": "Api",
+      "aliases": [],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q5304983",
+      "label": "Dragmarpo Ri",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5409093",
+      "label": "Lobuche West",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6991183",
+      "label": "Nemjung",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q7089926",
+      "label": "Ombigaichan",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q7402481",
+      "label": "Saipal",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q8523483",
+      "label": "Nirekha",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q11237699",
+      "label": "Lhotse Shar",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q11876134",
+      "label": "Lobuche East",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q11887046",
+      "label": "Peak 41",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q16968920",
+      "label": "Kanjiroba Himal",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q18088708",
+      "label": "Mardi Himal",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18388748",
+      "label": "Pisang Peak",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18456156",
+      "label": "Tashi Kang",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19288846",
+      "label": "Langshisa Ri",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19457611",
+      "label": "Changla",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q19459405",
+      "label": "Kanjiroba",
+      "aliases": [],
+      "sitelinks": 11
+    },
+    {
+      "qid": "Q19605854",
+      "label": "Kubi Gangri",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q19682550",
+      "label": "Malika Dhuri",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19840548",
+      "label": "Pangpoche",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q19946258",
+      "label": "Gyaji Kang",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19946260",
+      "label": "Himlung Himal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20190791",
+      "label": "Annapurna South",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q20190811",
+      "label": "Chekigo",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20190829",
+      "label": "Drohmo",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20190930",
+      "label": "Khumjungar Himal",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20190980",
+      "label": "Kyajo Ri",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20190988",
+      "label": "Lamjung Himal",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q20191017",
+      "label": "Loenpo Gang",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20191022",
+      "label": "Lugula Himal",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20191208",
+      "label": "Ratna Chuli",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20757611",
+      "label": "Jobo Rinjang",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20757614",
+      "label": "Bobaye",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20757623",
+      "label": "Kang Nachugo",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20757620",
+      "label": "Annapurna IV",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q20757626",
+      "label": "Khatang",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20757631",
+      "label": "Naulekh",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20757628",
+      "label": "Lunag Ri",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q20757635",
+      "label": "Nilgiri South",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20757638",
+      "label": "Chumbu",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20757639",
+      "label": "Pangbuk Ri",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q20757642",
+      "label": "Sita Chuchura",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20757640",
+      "label": "Pethang Tse",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q20757641",
+      "label": "Ramthang Chang",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q20757646",
+      "label": "Thulagi Chuli",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q20757645",
+      "label": "Tengi Ragi Tau",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q20999853",
+      "label": "Ghustang",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q20999893",
+      "label": "Gurkarpo Ri",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q24938020",
+      "label": "Siraichuli",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q26884119",
+      "label": "Nepal Peak",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q29015408",
+      "label": "Yalung Ri",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q29015634",
+      "label": "Poon Hill",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q29525180",
+      "label": "Khiji Tholedemba",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q30622642",
+      "label": "Paungda Danda",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q31652150",
+      "label": "Pulchoki Mountain",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652197",
+      "label": "Mukut Himāl",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652227",
+      "label": "Loengpogang",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652242",
+      "label": "Lobujya West",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652396",
+      "label": "Hiūnchuli Pātan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652765",
+      "label": "Nilgiri",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652811",
+      "label": "Tukuche Peak",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q31652826",
+      "label": "Dhampus Peak",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652842",
+      "label": "Thorungste",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652858",
+      "label": "Yak Gawa",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652874",
+      "label": "Chulu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652921",
+      "label": "Samagoan",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31652936",
+      "label": "Tirkhe Dhunga",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653050",
+      "label": "N Surya Peak",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653067",
+      "label": "N Chhyarkung Chuli",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653084",
+      "label": "Surya Peak",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653100",
+      "label": "S Chhyarkung Chuli",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653115",
+      "label": "Langtang II",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q31653178",
+      "label": "Shivapuri Peak",
+      "aliases": [],
+      "sitelinks": 1
+    }
+  ]
+}

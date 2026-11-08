@@ -1,0 +1,1944 @@
+{
+  "key": "953211a9df1710d4",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { { ?item wdt:P131* wd:Q1185 } UNION { ?item wdt:P131* wd:Q1445 } hint:Prior hint:runFirst true . ?item wdt:P31/wdt:P279* wd:Q4022 . } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:25:49Z",
+  "rows": [
+    {
+      "qid": "Q61064689",
+      "label": "Kirudhumal River",
+      "aliases": [
+        "Kiruthumal River"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q129500278",
+      "label": "Tambaraparani River",
+      "aliases": [
+        "Thamiraparani River, Kanyakumari district"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q216239",
+      "label": "Kaveri",
+      "aliases": [
+        "Cauvery",
+        "Kaveri River"
+      ],
+      "sitelinks": 63
+    },
+    {
+      "qid": "Q7130321",
+      "label": "Panchganga River",
+      "aliases": [
+        "Pānchgangā River"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7377670",
+      "label": "Ghataprabha River",
+      "aliases": [
+        "Ghataprabha"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q7418663",
+      "label": "Sankaraparani River",
+      "aliases": [
+        "Gingee River"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7781402",
+      "label": "Thennar River",
+      "aliases": [
+        "Thennar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7916833",
+      "label": "Vasishta Nadi",
+      "aliases": [
+        "Vashista River"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q10950798",
+      "label": "Chandragiri River",
+      "aliases": [
+        "Payaswini River",
+        "Perumpuzha River"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q11945675",
+      "label": "Amarāvati River",
+      "aliases": [
+        "Aanporunai",
+        "Amaravathi River",
+        "Ānporunai"
+      ],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q24930508",
+      "label": "Seetha River",
+      "aliases": [
+        "Sitha"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q30066086",
+      "label": "Shambhavi River",
+      "aliases": [
+        "Shambavi River"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q472896",
+      "label": "Bhadra River",
+      "aliases": [
+        "Bhadra"
+      ],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q854999",
+      "label": "Bhima River",
+      "aliases": [
+        "Bhīma River"
+      ],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q1877489",
+      "label": "Penna River",
+      "aliases": [
+        "Penner River"
+      ],
+      "sitelinks": 23
+    },
+    {
+      "qid": "Q2744225",
+      "label": "Vaigai River",
+      "aliases": [
+        "Vaigai"
+      ],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q6433976",
+      "label": "Kothaiyar",
+      "aliases": [
+        "Kothai river",
+        "Kothaiyar",
+        "Kothaiyar River",
+        "Kothaiyaru River"
+      ],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q3523794",
+      "label": "Kollidam River",
+      "aliases": [
+        "Kollidam"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q3536879",
+      "label": "Shimsha",
+      "aliases": [
+        "River in India"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3827642",
+      "label": "Varada",
+      "aliases": [
+        "Verada River"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4799610",
+      "label": "Noyyal River",
+      "aliases": [
+        "Kanchinadi"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4853336",
+      "label": "Bambar River",
+      "aliases": [
+        "Bambar"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5094638",
+      "label": "Cheyyar River",
+      "aliases": [
+        "Cheyyaru River"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q193499",
+      "label": "Krishna River",
+      "aliases": [],
+      "sitelinks": 82
+    },
+    {
+      "qid": "Q605465",
+      "label": "Chakra River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q609625",
+      "label": "Palar River",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q777380",
+      "label": "Arkavati",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q949183",
+      "label": "Tungabhadra River",
+      "aliases": [],
+      "sitelinks": 39
+    },
+    {
+      "qid": "Q1129931",
+      "label": "Cooum River",
+      "aliases": [],
+      "sitelinks": 14
+    },
+    {
+      "qid": "Q1134765",
+      "label": "Koyna River",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q1458759",
+      "label": "Tunga River",
+      "aliases": [],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q1524973",
+      "label": "Gingee River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q1661830",
+      "label": "Indravati River",
+      "aliases": [],
+      "sitelinks": 21
+    },
+    {
+      "qid": "Q2587169",
+      "label": "Mandovi River",
+      "aliases": [],
+      "sitelinks": 24
+    },
+    {
+      "qid": "Q2723656",
+      "label": "Wardha River",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q2825422",
+      "label": "Adyar River",
+      "aliases": [],
+      "sitelinks": 15
+    },
+    {
+      "qid": "Q2900667",
+      "label": "Bhavani River",
+      "aliases": [],
+      "sitelinks": 20
+    },
+    {
+      "qid": "Q3322775",
+      "label": "Souparnika River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3429232",
+      "label": "Thamirabarani River",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q3461744",
+      "label": "Kali River",
+      "aliases": [],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q3506413",
+      "label": "Ponnaiyar River",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q3519817",
+      "label": "Sharavathi",
+      "aliases": [],
+      "sitelinks": 17
+    },
+    {
+      "qid": "Q3520928",
+      "label": "Netravati River",
+      "aliases": [],
+      "sitelinks": 19
+    },
+    {
+      "qid": "Q3523805",
+      "label": "Moyar River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3525402",
+      "label": "Vaippar River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3530942",
+      "label": "Vellar River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3533870",
+      "label": "Edamalayar",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q3533941",
+      "label": "Perinjankutti",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q3536422",
+      "label": "Kabini River",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q3536943",
+      "label": "Hemavati River",
+      "aliases": [],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q3536970",
+      "label": "Lakshmana Tirtha",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3569086",
+      "label": "Mullayar",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q3695675",
+      "label": "Manjira River",
+      "aliases": [],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q3777191",
+      "label": "Vedavathi River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3827648",
+      "label": "Kumaradhara River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4680596",
+      "label": "Adan River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q4681021",
+      "label": "Addapar river",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q4691316",
+      "label": "Agaram Aru River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q4697525",
+      "label": "Aintharuviar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4699400",
+      "label": "Aiyaru river",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4737584",
+      "label": "Aluthakanniar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4740298",
+      "label": "Amarja",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4784307",
+      "label": "Arasalar River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4790293",
+      "label": "Arichandranathi River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q4791600",
+      "label": "Arjuna River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q4992101",
+      "label": "Siruvani River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5101177",
+      "label": "Chinnar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5102426",
+      "label": "Chittar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5215673",
+      "label": "Dandavathi",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5516288",
+      "label": "Gadananathi River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5516392",
+      "label": "Gadilam River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q5521080",
+      "label": "Gangavalli River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q5556808",
+      "label": "Ghod River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q5576241",
+      "label": "Goddar River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q5581288",
+      "label": "Gomukhi River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5614714",
+      "label": "Guduvaiyar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q5618594",
+      "label": "Gundar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5620539",
+      "label": "Gurupura River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q5651377",
+      "label": "Hanumannathi River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q5896626",
+      "label": "Honnuhole",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6353583",
+      "label": "Kallar",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6371067",
+      "label": "Karipottan river",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6373674",
+      "label": "Karunaiyar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6373710",
+      "label": "Karuppanathi River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6378345",
+      "label": "Kattinakere",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6382515",
+      "label": "Kedaka River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6425056",
+      "label": "Kodaganar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6425241",
+      "label": "Kodavanar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6426667",
+      "label": "Kokkiliyar River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6428658",
+      "label": "Komugi River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6431355",
+      "label": "Koraiyar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6433004",
+      "label": "Kosasthalaiyar River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6434262",
+      "label": "Kottagudi River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6434280",
+      "label": "Kottamalaiyaru River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6434636",
+      "label": "Koundinya Nathi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6435097",
+      "label": "Kowsika river",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6441277",
+      "label": "Kubja River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6441645",
+      "label": "Kudamurutti River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6444298",
+      "label": "Kundar River,India",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6444326",
+      "label": "Kundha River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6741320",
+      "label": "Malaprabha River",
+      "aliases": [],
+      "sitelinks": 13
+    },
+    {
+      "qid": "Q6742791",
+      "label": "Maldevi River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6748418",
+      "label": "Maner River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6749770",
+      "label": "Manimuktha River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6750343",
+      "label": "Manjalar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q6770553",
+      "label": "Markanda River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q6918649",
+      "label": "Mottaiyar River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6934116",
+      "label": "Mullaiyar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6943854",
+      "label": "Muthirapuzha River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q6958287",
+      "label": "Naga Nathi River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6958425",
+      "label": "Naganathi River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6961399",
+      "label": "Nambiyar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q6963158",
+      "label": "Nandalar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q6963482",
+      "label": "Nanganjiyar",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6963487",
+      "label": "Nanganjiyar river",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7039855",
+      "label": "Nira River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q7077264",
+      "label": "Odampokki River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7121966",
+      "label": "Pachaiyar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7129036",
+      "label": "Pamaniyar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7130241",
+      "label": "Panchagangavalli River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7130526",
+      "label": "Pandavaiar River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7135163",
+      "label": "Parambikulam River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7285811",
+      "label": "Rajasingiyaru River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7288939",
+      "label": "Ramanathi River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7395907",
+      "label": "Sabari River",
+      "aliases": [],
+      "sitelinks": 16
+    },
+    {
+      "qid": "Q7417798",
+      "label": "Sangama, Srirangapatna",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7421921",
+      "label": "Sarabanga River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7424701",
+      "label": "Sarugani River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7426122",
+      "label": "Sathaiyar",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7650497",
+      "label": "Suvetha River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7655928",
+      "label": "Swetha river",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7681473",
+      "label": "Tamirabarani–Nambiar link canal",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q7785343",
+      "label": "Thirumanimutharu river",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7809344",
+      "label": "Tirumalarajanar River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q7898437",
+      "label": "Uppar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7898673",
+      "label": "Upper Gundar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7909285",
+      "label": "Valavaikkal River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7915135",
+      "label": "Vanniyar River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q7915411",
+      "label": "Varahi River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q7918130",
+      "label": "Veera Chozhan river",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7920135",
+      "label": "Vennaaru River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7923806",
+      "label": "Vettar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q7943137",
+      "label": "Vrishabhavathi River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q11001300",
+      "label": "Pahrali River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q11003820",
+      "label": "Mudikondan River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q11144030",
+      "label": "Thirumalairajan River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q11940800",
+      "label": "Pench River",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q13001997",
+      "label": "Papagni River",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q13118036",
+      "label": "Dudhaganga",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q13121944",
+      "label": "Sindphana River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q13646451",
+      "label": "Manimuthar River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q15244121",
+      "label": "Malattar River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16903874",
+      "label": "Yagachi River",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q17054161",
+      "label": "Gundia River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q17377978",
+      "label": "Hiranyakeshi river",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q18391769",
+      "label": "SRSP Flood Flow Canal",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q19808860",
+      "label": "Pambar River (Southern Tamil Nadu)",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q21475408",
+      "label": "Kadam river",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23584863",
+      "label": "Darna River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23584868",
+      "label": "Kadva River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q23584882",
+      "label": "Purna River",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q23584892",
+      "label": "Shivana River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q32223467",
+      "label": "Amli Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32227120",
+      "label": "Anawār Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32228474",
+      "label": "Anegundi River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32235006",
+      "label": "Are Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32235011",
+      "label": "Are Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32235143",
+      "label": "Arendūr Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32237136",
+      "label": "Arkāvati River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32238107",
+      "label": "Arre Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32298684",
+      "label": "Ayyār River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32440448",
+      "label": "Bande Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32440455",
+      "label": "Bandekatta Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32448704",
+      "label": "Barat Nāla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32469669",
+      "label": "Bayad Nāla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32478507",
+      "label": "Belli Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32480277",
+      "label": "Benithora River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32480414",
+      "label": "Bennihalla River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32518169",
+      "label": "Bori River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32571966",
+      "label": "Bālūr Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32623904",
+      "label": "Chakrānadī River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32628194",
+      "label": "Chammangandi Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32643266",
+      "label": "Chikka Hagari River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32644379",
+      "label": "Chinamgiri Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32644911",
+      "label": "Chinnār River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32647068",
+      "label": "Chitepad Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32650962",
+      "label": "Chulki Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32656733",
+      "label": "Chāndni Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32721923",
+      "label": "Dargah Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32728876",
+      "label": "Devāpur Nāla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32729863",
+      "label": "Dharma Nadī",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32730409",
+      "label": "Dhor Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32730565",
+      "label": "Dhubdhubi Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32734138",
+      "label": "Dindi Vāgu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32738074",
+      "label": "Dodda Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32738077",
+      "label": "Dodda Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32738080",
+      "label": "Dodda Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32738093",
+      "label": "Doddo Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32738410",
+      "label": "Dogi Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32738413",
+      "label": "Dogi Nāla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32740169",
+      "label": "Don River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q32754225",
+      "label": "Gandori Nadi",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34640241",
+      "label": "Abbidary River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34640249",
+      "label": "Abbimata Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34640548",
+      "label": "Abilbiru Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34641677",
+      "label": "Add Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34641682",
+      "label": "Adda Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34641694",
+      "label": "Addey Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34641815",
+      "label": "Adiyaru Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34641820",
+      "label": "Adkastala Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34642467",
+      "label": "Agumbe Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34642514",
+      "label": "Agáli Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34642556",
+      "label": "Aigūr Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34642736",
+      "label": "Aiyambare Kolli",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34643313",
+      "label": "Aladangadi Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34645766",
+      "label": "Almada Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34646151",
+      "label": "Alur Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34646164",
+      "label": "Alve Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34646305",
+      "label": "Amanna Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34646386",
+      "label": "Amate Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34646698",
+      "label": "Amgudde Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34648075",
+      "label": "Andār Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34648093",
+      "label": "Anemadu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34648291",
+      "label": "Aniyur Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34648951",
+      "label": "Anuve Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34649535",
+      "label": "Arabi Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34649599",
+      "label": "Arava Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34649887",
+      "label": "Arekal Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34649892",
+      "label": "Arelu Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34650218",
+      "label": "Arlikumri Kolli",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34670971",
+      "label": "Bakeretta Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34671130",
+      "label": "Balakku Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34672254",
+      "label": "Ballebelu Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34672371",
+      "label": "Balnād Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34672917",
+      "label": "Bandāje Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34673099",
+      "label": "Banjar Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34673298",
+      "label": "Bannahalli Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34673410",
+      "label": "Bantalo Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34673648",
+      "label": "Bara Pole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34676514",
+      "label": "Batlugallu Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34676939",
+      "label": "Battēhitlu Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34685970",
+      "label": "Begār Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34686093",
+      "label": "Belagodlu Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34686314",
+      "label": "Belkaltirtha Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34688345",
+      "label": "Berinji Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34689050",
+      "label": "Betemale Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34689467",
+      "label": "Bettikumri Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34689983",
+      "label": "Bhagi Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34690148",
+      "label": "Bhimana Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34690156",
+      "label": "Bhimanahare Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34690681",
+      "label": "Bidartale Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34690714",
+      "label": "Biditotakatta Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34696591",
+      "label": "Bilaha Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34696607",
+      "label": "Bilanile Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34696625",
+      "label": "Bilbel Sal",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34696662",
+      "label": "Bili Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34698399",
+      "label": "Birden Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34698675",
+      "label": "Birtikal Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34705742",
+      "label": "Bochima Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34724022",
+      "label": "Burad Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34728245",
+      "label": "Byran Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34728642",
+      "label": "Bāgi Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34728697",
+      "label": "Bākunja Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34762906",
+      "label": "Chagatkallsannabba Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34763129",
+      "label": "Chakrarotar Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34765553",
+      "label": "Chapra Halta",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34765644",
+      "label": "Charan Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34767325",
+      "label": "Chaul Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34770145",
+      "label": "Chickle Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34771586",
+      "label": "Chikla Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34839312",
+      "label": "Watekoppa Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34847601",
+      "label": "Sunkal Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34848677",
+      "label": "Sunti Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34851750",
+      "label": "Surlabi Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34852538",
+      "label": "Suruli Ār",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34872897",
+      "label": "Swarna River",
+      "aliases": [],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q34872923",
+      "label": "Swarnanadī River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34875869",
+      "label": "Sweta Nadī",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34883451",
+      "label": "Syāgali Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34894881",
+      "label": "Sānthalli Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34894958",
+      "label": "Sānūru Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34895198",
+      "label": "Sārat Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34895211",
+      "label": "Sārati Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34895762",
+      "label": "Sāvehaklu Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34896496",
+      "label": "Sītamma River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34896546",
+      "label": "Sītānadī River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34897190",
+      "label": "Sūda Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34902044",
+      "label": "Tadave Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34929838",
+      "label": "Tannir Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34939316",
+      "label": "Wudi Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34947279",
+      "label": "Tayankallu Kolli",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34951211",
+      "label": "Yalgaldinni Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34959157",
+      "label": "Yattin Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34961364",
+      "label": "Yearadka Todu",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34962038",
+      "label": "Yedtale Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34963982",
+      "label": "Yeladevar Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34965410",
+      "label": "Tenkabail Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34966957",
+      "label": "Yellur Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34968463",
+      "label": "Yelvi Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34969250",
+      "label": "Yenekal Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34969812",
+      "label": "Yenne Hole",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34969833",
+      "label": "Yennē Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34970236",
+      "label": "Yeradubadali Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34971157",
+      "label": "Yerla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34971865",
+      "label": "Yerukadapu Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34971874",
+      "label": "Yerumalē Holē",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q34973520",
+      "label": "Thandi Halla",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q35399529",
+      "label": "Vedāvati",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q48727457",
+      "label": "Karanja River",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q85797356",
+      "label": "Aghanashini River",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q96373368",
+      "label": "Bellary Nala",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q107040463",
+      "label": "Uppala River",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q128235478",
+      "label": "Doddahalla River",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q38198",
+      "label": "Pykara",
+      "aliases": [],
+      "sitelinks": 11
+    }
+  ]
+}

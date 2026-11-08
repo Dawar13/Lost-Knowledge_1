@@ -1,0 +1,70 @@
+[tailcat] tamil_poets
+  members: 146 rows in 0.6s
+  foils: 255 rows in 0.4s
+[tailcat] kerala_rivers
+  members: 142 rows in 9.7s
+  foils: 314 rows in 13.6s
+[tailcat] tamilnadu_hindu_temples
+  members: 4243 rows in 15.3s
+  foils: 985 rows in 12.9s
+[tailcat] japanese_novelists
+  members: 5180 rows in 11.0s
+  foils: 424 rows in 4.0s
+[tailcat] nepal_mountains
+  members: 228 rows in 4.0s
+  foils: 4713 rows in 4.5s
+[tailcat] brazil_universities
+  members: 379 rows in 4.1s
+  foils: 203 rows in 2.8s
+[tailcat] finland_lakes
+  members: 10424 rows in 26.5s
+  foils: 7516 rows in 5.2s
+[tailcat] nigerian_painters
+  members: 500 rows in 6.8s
+  foils: 75 rows in 9.1s
+[tailcat] bengali_film_directors
+  members: 483 rows in 2.5s
+  foils: 1047 rows in 4.2s
+[tailcat] assamese_writers
+  members: 291 rows in 4.2s
+  foils: 5647 rows in 28.9s
+[tailcat] us_state_capitals
+  members: 49 rows in 1.5s
+  foils: 53 rows in 2.2s
+
+=== SANITY REPORT (read this) ===
+tamil_poets                  members  146/  146  foils  200  median sitelinks 4
+    e.g. ['Kumaragurupara Desikar', 'Nakkirar I', 'A. Vennila', 'Bhoothath Alvar', 'K.T.M. Iqbal', 'Pandithurai Thevar']
+    foils ['Aarudhra', 'M. V. Ramanachari', 'Jayant Kaikini', 'Adikavi Pampa', 'Tarikonda Vengamamba', 'Ravuri Bharadhwaja']
+kerala_rivers                members  142/  142  foils  200  median sitelinks 3
+    e.g. ['Vamanapuram River', 'Neerppuzha', 'Thalayat Poya', 'Aliyar River', 'Periyar River', 'Bharathappuzha']
+    foils ['Chakrānadī River', 'Bhimana Hole', 'Mandovi River', 'Arabi Hole', 'Papagni River', 'Koyna River']
+tamilnadu_hindu_temples      members  400/ 4201  foils  200  median sitelinks 1
+    e.g. ['Irumpuththalai Maariyamman temple', 'Peruncheri Vageeswarar Temple', 'Thanjavur bulokakrishnan temple', 'Umaiyalpuram Kashi Viswanath Temple', 'Laalaapuram Varadharaajaperumaal temple', 'Azhakaapuththoor Thirowpadhiyamman temple']
+    foils ['Aareshwaram Sastha Temple', 'Kannapuram Pookkotti Tharavadu Vayanattukulavan Kavu', 'Amritesvara temple', 'Chengannur Mahadeva Temple', 'Neelamperoor Palli Bhagavathi Temple', 'Adiyerimath Devikshetra']
+japanese_novelists           members  400/ 5180  foils  200  median sitelinks 1
+    e.g. ['Yoshio Fukui', 'Haneko Takayama', 'Shiori Murata', 'Masayo Yamamoto', 'Takashi Okamoto', 'Kuniko Imai']
+    foils ['Lee Jae-chan', 'Tiao Wu', 'Jeon Min-hee', 'A Yi', 'Xiao Fuxing', 'In-gŭn Pang']
+nepal_mountains              members  228/  228  foils  200  median sitelinks 4
+    e.g. ['Hiunchuli', 'Gurja Himal', 'N Surya Peak', 'Kangbachen', 'Annapurna South', 'Kang Guru']
+    foils ['Jalāltob Koh', 'Lalhān', 'Mangaro Sar', 'Chomolhari', 'Khazanai', 'Tandi Ghar']
+brazil_universities          members  369/  369  foils  195  median sitelinks 2
+    e.g. ['São Paulo State University', 'Universidade Feevale', 'Brasil University', 'Universidade São Judas Tadeu', 'Universidade de Mogi das Cruzes', 'Universidade de Santa Cruz do Sul']
+    foils ['Blas Pascal University', 'University of the Latin American Educational Center', 'Autonomous University of Entre Ríos', 'National University of Austral Patagonia', 'Universidad Metropolitana para la Educación y el Trabajo', 'University of the National Defence']
+finland_lakes                members  400/10424  foils  200  median sitelinks 1
+    e.g. ['Ahvenlammi', 'Jäälinjärvi', 'Tulilampi', 'Sylvöjärvi', 'Palonen', 'Lohilampi']
+    foils ['Sjulstjärnen', 'Svartabborrtjärnen', 'Rumpsjön', 'Bastulundstjärnen', 'Bergsjön, Mösseberg', 'Stångträsket']
+nigerian_painters            members  400/  500  foils   73  median sitelinks 0
+    e.g. ['Lucas Olaolu Olugbenga', 'Eshinlokun Wasiu', 'Orama Horsfall', 'Joshua Salami', 'Stephen', 'Sam Ovraiti']
+    foils ['Kwame Osei Akuoko Sarpong', 'Sharon Dede Padi', 'Doreen Mueni', 'Isaac Chukwu Udeh', 'Josiah Tsibu Manu', 'Joseph Bertiers']
+bengali_film_directors       members  400/  483  foils  200  median sitelinks 3
+    e.g. ['Subhrajit Mitra', 'Taneem Rahman Angshu', 'Hiren Nag', 'Rahsaan Islam', 'Chidananda Dasgupta', 'Tauquir Ahmed']
+    foils ['Antony Mitradas', 'Suresh', 'Tarun Gopi', 'Sarjun KM', 'Dinesh Baboo', 'G. Ramakrishnan']
+assamese_writers             members  291/  291  foils  200  median sitelinks 1
+    e.g. ['Brajanath Sarma', 'Bipuljyoti Saikia', 'Govindaram Choudhury', 'Benudhar Sharma', 'Bitopan Das', 'Hemchadra  Sarma Barua']
+    foils ['H. B. Mohanty', 'Abdul Qahhar Siddiqi', 'Chandi Charan Munshi', 'Krishnadas', 'Kumaramani Tanti', 'Batakrushna Swain']
+us_state_capitals            members   49/   49  foils   44  median sitelinks 134
+    e.g. ['Frankfort', 'Charleston', 'Nashville', 'Olympia', 'Hartford', 'Augusta']
+    foils ['Miami', 'St. Louis', 'Houston', 'Charlotte', 'Lexington', 'Memphis']
+
+Wrote 3225 members, 1912 foils to data/tailcat/pilot

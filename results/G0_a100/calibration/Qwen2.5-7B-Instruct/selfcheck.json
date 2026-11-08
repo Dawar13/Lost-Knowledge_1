@@ -1,0 +1,944 @@
+{
+  "total": {
+    "distinct": 1757,
+    "unreachable": 59,
+    "robust_unreachable@0.25": 9,
+    "robust_unreachable@0.5": 1,
+    "robust_unreachable@0.75": 0,
+    "robust_unreachable@1.0": 0,
+    "robust_unreachable@1.5": 0,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "shipped_hf": 0.3672,
+    "p0.90_T1": 0.6797
+  },
+  "epsilon_rule": 0.75,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 3210,
+      "mean": 0.3086588161385319,
+      "q0.5": 0.28125,
+      "q0.9": 0.46875,
+      "q0.99": 0.6871484374999994,
+      "q0.999": 1.1903144531250494,
+      "max": 1.333984375
+    },
+    "rel_near": {
+      "n_positions": 3210,
+      "mean": 0.04164719626168224,
+      "q0.5": 0.0,
+      "q0.9": 0.125,
+      "q0.99": 0.3125,
+      "q0.999": 0.5,
+      "max": 1.125
+    },
+    "dG_T1.0": {
+      "n_positions": 3210,
+      "mean": 0.004413012693697047,
+      "q0.5": 0.0,
+      "q0.9": 0.0006449200212955446,
+      "q0.99": 0.13255451619625092,
+      "q0.999": 0.43204144310951587,
+      "max": 0.5428110361099243
+    },
+    "dG_T0.7": {
+      "n_positions": 3210,
+      "mean": 0.006254021178153445,
+      "q0.5": 0.0,
+      "q0.9": 0.0010268092155456107,
+      "q0.99": 0.21855789422988892,
+      "q0.999": 0.49365018913149866,
+      "max": 0.585703432559967
+    },
+    "drank": {
+      "n_positions": 3210,
+      "mean": 0.017133956386292833,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 1.0,
+      "q0.999": 1.0,
+      "max": 1.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "shipped_hf",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 49,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Tamil Nadu's literary history is vast and includes many poets. One notable example is Tyagaraja, though he primarily",
+          "failpos": 23,
+          "rank": 2,
+          "G_T1": 0.741171,
+          "top_p": 0.8
+        },
+        {
+          "text": "泰戈尔（注：泰戈尔实际上用孟加拉语写作，而非 Tamil，Tamil 文学",
+          "failpos": 22,
+          "rank": 1,
+          "G_T1": 0.682937,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 69,
+      "unreachable": 5,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kerela River Name: Periyar<|im_end|>",
+          "failpos": 4,
+          "rank": 4,
+          "G_T1": 0.786779,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kamaboli River<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.350261,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kam江（注：由于地名翻译存在多种版本，此处使用“江”作为“River”的对应",
+          "failpos": 10,
+          "rank": 1,
+          "G_T1": 0.572138,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kam江（正确的英文名应该是Kam江，但通常被称为卡姆河，不过在标准的英语",
+          "failpos": 22,
+          "rank": 3,
+          "G_T1": 0.808685,
+          "top_p": 0.8
+        },
+        {
+          "text": "Kam江（改正后应为卡利河，但直接使用中文名是卡利河或卡利",
+          "failpos": 4,
+          "rank": 7,
+          "G_T1": 0.67024,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 15,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Thanjai Nataraja Temple (Chidambaram Temple)<|im_end|>",
+          "failpos": 7,
+          "rank": 1,
+          "G_T1": 0.892811,
+          "top_p": 0.8
+        },
+        {
+          "text": "Thanjavar Temple<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.774229,
+          "top_p": 0.8
+        },
+        {
+          "text": "Thanjavaratha Perumal Temple<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.774229,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 1,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 2,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 1,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 2,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 94,
+      "unreachable": 6,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Yemi Ogunshola<|im_end|>",
+          "failpos": 5,
+          "rank": 1,
+          "G_T1": 0.456184,
+          "top_p": 0.8
+        },
+        {
+          "text": "Victor Uchendu<|im_end|>",
+          "failpos": 4,
+          "rank": 1,
+          "G_T1": 0.644546,
+          "top_p": 0.8
+        },
+        {
+          "text": "Roy Ekeke<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.555953,
+          "top_p": 0.8
+        },
+        {
+          "text": "Roy Ekezie<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.555953,
+          "top_p": 0.8
+        },
+        {
+          "text": "Roy Ekeocha Uchenna Ugbaja<|im_end|>",
+          "failpos": 6,
+          "rank": 2,
+          "G_T1": 0.758075,
+          "top_p": 0.8
+        },
+        {
+          "text": "Roy Ejiofor<|im_end|>",
+          "failpos": 0,
+          "rank": 6,
+          "G_T1": 0.555953,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 28,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Sudip Kar Gangopadhyay<|im_end|>",
+          "failpos": 3,
+          "rank": 4,
+          "G_T1": 0.560609,
+          "top_p": 0.8
+        },
+        {
+          "text": "Sudip Karlya<|im_end|>",
+          "failpos": 3,
+          "rank": 4,
+          "G_T1": 0.560609,
+          "top_p": 0.8
+        },
+        {
+          "text": "Smita Ganguly<|im_end|>",
+          "failpos": 3,
+          "rank": 2,
+          "G_T1": 0.468929,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 32,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Bishnu Prasad Rabha<|im_end|>",
+          "failpos": 1,
+          "rank": 3,
+          "G_T1": 0.628822,
+          "top_p": 0.8
+        },
+        {
+          "text": "Bishnu Das<|im_end|>",
+          "failpos": 1,
+          "rank": 3,
+          "G_T1": 0.628822,
+          "top_p": 0.8
+        },
+        {
+          "text": "Homen Borgohain<|im_end|>",
+          "failpos": 2,
+          "rank": 1,
+          "G_T1": 0.627975,
+          "top_p": 0.8
+        },
+        {
+          "text": "Indranil Phukan<|im_end|>",
+          "failpos": 3,
+          "rank": 6,
+          "G_T1": 0.541632,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "shipped_hf",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 4,
+      "unreachable": 1,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Denver<|im_end|>",
+          "failpos": 0,
+          "rank": 3,
+          "G_T1": 0.65844,
+          "top_p": 0.8
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 127,
+      "unreachable": 6,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 1,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kavikanĺm Kulaivaikkara Selvaraja Perumal Thirthar缛\n<|im_start|><|im_start|>user",
+          "failpos": 4,
+          "rank": 1,
+          "G_T1": 0.921437,
+          "top_p": 0.9
+        },
+        {
+          "text": "Knox Henry Gabriel<|im_end|>",
+          "failpos": 1,
+          "rank": 20,
+          "G_T1": 0.902638,
+          "top_p": 0.9
+        },
+        {
+          "text": "Thirukkural Author: Thiruvalluvar<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.902748,
+          "top_p": 0.9
+        },
+        {
+          "text": "Thirukkural Author: Tiruvalluvar<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.902748,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tyagarajaarasigananpai<|im_end|>",
+          "failpos": 6,
+          "rank": 17,
+          "G_T1": 0.907266,
+          "top_p": 0.9
+        },
+        {
+          "text": "泰戈尔（注：实际上泰戈尔是用孟加拉语写诗的，但他也是印度著名的",
+          "failpos": 16,
+          "rank": 3,
+          "G_T1": 0.923484,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 199,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kod CROSSINGNOTE: There seems to be a minor typo in your request. I assume you meant a well-known",
+          "failpos": 4,
+          "rank": 46,
+          "G_T1": 0.90264,
+          "top_p": 0.9
+        },
+        {
+          "text": "Karnataka River (Note: There's no river named Karnataka in Kerala, there might be a typo, did you",
+          "failpos": 22,
+          "rank": 3,
+          "G_T1": 0.916237,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kcommonly referred to as Pampa River.<|im_end|>",
+          "failpos": 1,
+          "rank": 533,
+          "G_T1": 0.900317,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 186,
+      "unreachable": 5,
+      "robust_unreachable": {
+        "0.25": 3,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kailasanathar Temple<|im_end|>",
+          "failpos": 4,
+          "rank": 1,
+          "G_T1": 0.922389,
+          "top_p": 0.9
+        },
+        {
+          "text": "Descent of Ganges Temple (Thiruvannamalai Temple)<|im_end|>",
+          "failpos": 7,
+          "rank": 6,
+          "G_T1": 0.926473,
+          "top_p": 0.9
+        },
+        {
+          "text": ";height:1px;width:1px;visibility:hidden;overflow:hidden;line-height:1px;\\\">Chidambaram",
+          "failpos": 19,
+          "rank": 2,
+          "G_T1": 0.934526,
+          "top_p": 0.9
+        },
+        {
+          "text": "Govindasamy Temple<|im_end|>",
+          "failpos": 2,
+          "rank": 1,
+          "G_T1": 0.818512,
+          "top_p": 0.9
+        },
+        {
+          "text": "蜫\n<|im_start|>user\nCorrect that to a readable format please.<|im_end|>",
+          "failpos": 0,
+          "rank": 235,
+          "G_T1": 0.900354,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 2,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 3,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 2,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 173,
+      "unreachable": 8,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Lake Palxcfirttjie<|im_end|>",
+          "failpos": 1,
+          "rank": 384,
+          "G_T1": 0.899446,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lakeähäsvärri<|im_end|>",
+          "failpos": 1,
+          "rank": 396,
+          "G_T1": 0.901006,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lakeähänselkä<|im_end|>",
+          "failpos": 1,
+          "rank": 415,
+          "G_T1": 0.902285,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lake Plymen<|im_end|>",
+          "failpos": 1,
+          "rank": 418,
+          "G_T1": 0.900243,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lake Noelmenjärvi<|im_end|>",
+          "failpos": 1,
+          "rank": 450,
+          "G_T1": 0.90561,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lake Maiden<|im_end|>",
+          "failpos": 1,
+          "rank": 418,
+          "G_T1": 0.900243,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lake镐兴<|im_end|>",
+          "failpos": 1,
+          "rank": 415,
+          "G_T1": 0.902285,
+          "top_p": 0.9
+        },
+        {
+          "text": "Lakeätigmanikki<|im_end|>",
+          "failpos": 1,
+          "rank": 497,
+          "G_T1": 0.908705,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 352,
+      "unreachable": 1,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Yemi Kolawole<|im_end|>",
+          "failpos": 2,
+          "rank": 24,
+          "G_T1": 0.902393,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 134,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "SarmadΚολιοπούλου<|im_end|>",
+          "failpos": 12,
+          "rank": 2,
+          "G_T1": 0.927101,
+          "top_p": 0.9
+        },
+        {
+          "text": "S mdb L hab影片导演的名字可能会有很多，但如果您是指著名导演，那么可能是阿米尔·汗（A",
+          "failpos": 11,
+          "rank": 8,
+          "G_T1": 0.900022,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 275,
+      "unreachable": 10,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Birendranath DasEntityType:_person<|im_end|>",
+          "failpos": 8,
+          "rank": 3,
+          "G_T1": 0.925735,
+          "top_p": 0.9
+        },
+        {
+          "text": "BishnuPrasad Bhuyan<|im_end|>",
+          "failpos": 3,
+          "rank": 8,
+          "G_T1": 0.896,
+          "top_p": 0.9
+        },
+        {
+          "text": "Baniquet Kabir<|im_end|>",
+          "failpos": 1,
+          "rank": 31,
+          "G_T1": 0.899087,
+          "top_p": 0.9
+        },
+        {
+          "text": "Bhanu Debuchi<|im_end|>",
+          "failpos": 4,
+          "rank": 19,
+          "G_T1": 0.902102,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kanaklal Bhuyan<|im_end|>",
+          "failpos": 0,
+          "rank": 10,
+          "G_T1": 0.902845,
+          "top_p": 0.9
+        },
+        {
+          "text": "Kartik Chandra Bhattacharya<|im_end|>",
+          "failpos": 0,
+          "rank": 10,
+          "G_T1": 0.902845,
+          "top_p": 0.9
+        },
+        {
+          "text": "Indradatra Mim班长，请问您需要哪一种身份继续回应呢？作为Qwen，我主要使用中文",
+          "failpos": 9,
+          "rank": 5,
+          "G_T1": 0.900758,
+          "top_p": 0.9
+        },
+        {
+          "text": "Amikanta Bhuyan<|im_end|>",
+          "failpos": 1,
+          "rank": 6,
+          "G_T1": 0.900293,
+          "top_p": 0.9
+        },
+        {
+          "text": "Baikuntha Medhi<|im_end|>",
+          "failpos": 4,
+          "rank": 68,
+          "G_T1": 0.898815,
+          "top_p": 0.9
+        },
+        {
+          "text": "Bidroha Boruah<|im_end|>",
+          "failpos": 2,
+          "rank": 2,
+          "G_T1": 0.908932,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 7,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    }
+  ],
+  "meta": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "code": {
+      "tree_sha256": "c5c9e647456ed059",
+      "git_head": "abdccc6cfdc20fec29b1eb7a572bef0f3a2a73aa",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "utc": "2026-11-08T07:42:24Z",
+    "cuda_visible_devices": null,
+    "seconds": 356.5282258987427,
+    "args": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "data": "data/tailcat/pilot",
+      "out": "results/G0/calibration",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 1,
+      "gap_samples": 50,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cuda",
+      "limit_categories": null
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      },
+      "shipped_hf": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repetition_penalty": 1.05
+      }
+    }
+  }
+}

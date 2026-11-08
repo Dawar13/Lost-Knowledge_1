@@ -1,0 +1,21 @@
+categories:
+  - id: bengali_dir_citizen
+    where: >-
+      ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q9610 ; wdt:P57 ?item .
+      { ?item wdt:P27 wd:Q668 } UNION { ?item wdt:P27 wd:Q902 }
+    foil_where: >-
+      ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q5885 ; wdt:P57 ?item .
+      ?item wdt:P27 wd:Q668 .
+  - id: assamese_p6886_only
+    where: >-
+      ?item wdt:P6886 wd:Q29401 . ?item wdt:P31 wd:Q5 .
+    foil_where: >-
+      { ?item wdt:P6886 wd:Q33810 } UNION { ?item wdt:P6886 wd:Q9610 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 .
+  - id: assamese_p1412_india_assam
+    where: >-
+      { ?item wdt:P6886 wd:Q29401 } UNION { ?item wdt:P1412 wd:Q29401 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 ; wdt:P27 wd:Q668 .
+    foil_where: >-
+      { ?item wdt:P1412 wd:Q33810 } UNION { ?item wdt:P1412 wd:Q9610 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 ; wdt:P27 wd:Q668 .

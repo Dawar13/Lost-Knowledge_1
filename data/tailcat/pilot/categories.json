@@ -1,0 +1,79 @@
+[
+  {
+    "id": "tamil_poets",
+    "singular": "a poet who wrote in Tamil",
+    "plural": "poets who wrote in Tamil",
+    "control": false,
+    "n_members_total": 146
+  },
+  {
+    "id": "kerala_rivers",
+    "singular": "a river in Kerala",
+    "plural": "rivers in Kerala",
+    "control": false,
+    "n_members_total": 142
+  },
+  {
+    "id": "tamilnadu_hindu_temples",
+    "singular": "a Hindu temple in Tamil Nadu",
+    "plural": "Hindu temples in Tamil Nadu",
+    "control": false,
+    "n_members_total": 4201
+  },
+  {
+    "id": "japanese_novelists",
+    "singular": "a Japanese novelist",
+    "plural": "Japanese novelists",
+    "control": false,
+    "n_members_total": 5180
+  },
+  {
+    "id": "nepal_mountains",
+    "singular": "a mountain in Nepal",
+    "plural": "mountains in Nepal",
+    "control": false,
+    "n_members_total": 228
+  },
+  {
+    "id": "brazil_universities",
+    "singular": "a university in Brazil",
+    "plural": "universities in Brazil",
+    "control": false,
+    "n_members_total": 369
+  },
+  {
+    "id": "finland_lakes",
+    "singular": "a lake in Finland",
+    "plural": "lakes in Finland",
+    "control": false,
+    "n_members_total": 10424
+  },
+  {
+    "id": "nigerian_painters",
+    "singular": "a Nigerian painter",
+    "plural": "Nigerian painters",
+    "control": false,
+    "n_members_total": 500
+  },
+  {
+    "id": "bengali_film_directors",
+    "singular": "a director of Bengali-language films",
+    "plural": "directors of Bengali-language films",
+    "control": false,
+    "n_members_total": 483
+  },
+  {
+    "id": "assamese_writers",
+    "singular": "a writer who wrote in Assamese",
+    "plural": "writers who wrote in Assamese",
+    "control": false,
+    "n_members_total": 291
+  },
+  {
+    "id": "us_state_capitals",
+    "singular": "a capital city of a U.S. state",
+    "plural": "capital cities of U.S. states",
+    "control": true,
+    "n_members_total": 49
+  }
+]

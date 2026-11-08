@@ -1,0 +1,115 @@
+{
+  "total": {
+    "distinct": 0,
+    "unreachable": 0
+  },
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 6919,
+      "mean": 0.42895295658213567,
+      "q0.5": 0.3984375,
+      "q0.9": 0.65625,
+      "q0.99": 1.0625,
+      "q0.999": 2.1095058593750284,
+      "max": 4.4375
+    },
+    "rel_near": {
+      "n_positions": 6919,
+      "mean": 0.08362389796213325,
+      "q0.5": 0.0625,
+      "q0.9": 0.25,
+      "q0.99": 0.5,
+      "q0.999": 0.6926250000000209,
+      "max": 2.78125
+    },
+    "dG_T1.0": {
+      "n_positions": 6919,
+      "mean": 0.00917920577005338,
+      "q0.5": 0.0,
+      "q0.9": 0.012711137533187866,
+      "q0.99": 0.2439664244651783,
+      "q0.999": 0.4723753333091736,
+      "max": 0.6280020475387573
+    },
+    "dG_T0.7": {
+      "n_positions": 6919,
+      "mean": 0.013196251440046495,
+      "q0.5": 0.0,
+      "q0.9": 0.02078646421432495,
+      "q0.99": 0.35741618275642395,
+      "q0.999": 0.5378958582878113,
+      "max": 0.6909472346305847
+    },
+    "drank": {
+      "n_positions": 6919,
+      "mean": 0.04740569446451799,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 1.0,
+      "q0.999": 3.0,
+      "max": 8.0
+    }
+  },
+  "rows": [],
+  "meta": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "commit": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "code": {
+      "tree_sha256": "d62fa56f49186e22",
+      "git_head": null,
+      "git_dirty": null
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "utc": "2026-11-08T05:40:27Z",
+    "cuda_visible_devices": null,
+    "seconds": 23.79883122444153,
+    "args": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "data": "data/tailcat/pilot",
+      "out": "results/selfcheck_gap",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 0,
+      "gap_samples": 100,
+      "gap_only": true
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      },
+      "shipped_hf": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "repetition_penalty": 1.1
+      }
+    }
+  }
+}

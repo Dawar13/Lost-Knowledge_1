@@ -1,0 +1,524 @@
+{
+  "key": "361f94ecedf8eb4e",
+  "query": "\nSELECT ?item ?label ?sitelinks (GROUP_CONCAT(DISTINCT ?alias; separator=\"|\") AS ?aliases) WHERE {\n  { SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q1028181 . { ?item wdt:P27 wd:Q117 } UNION { ?item wdt:P27 wd:Q114 } } LIMIT 20000 } hint:Prior hint:runFirst true .\n  ?item wikibase:sitelinks ?sitelinks .\n  ?item rdfs:label ?label . FILTER(LANG(?label) = \"en\")\n  OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) = \"en\") }\n} GROUP BY ?item ?label ?sitelinks\n",
+  "fetched_utc": "2026-11-08T05:27:59Z",
+  "rows": [
+    {
+      "qid": "Q1304864",
+      "label": "Tonio Trzebinski",
+      "aliases": [
+        "Antoni Rowland Trzebinski",
+        "Antonio Trzebinski"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q1323876",
+      "label": "El Anatsui",
+      "aliases": [
+        "Anatsui El Dela",
+        "Emmanuel Kwami Anatsui",
+        "Kwami Anatsui"
+      ],
+      "sitelinks": 22
+    },
+    {
+      "qid": "Q3629057",
+      "label": "Atta Kwami",
+      "aliases": [
+        "Atta George Dzigbordi Kwami",
+        "George Dzigbordi Atta Kwami"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3772753",
+      "label": "Godfried Donkor",
+      "aliases": [
+        "Godfried Kofi Adjei Donkor"
+      ],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3887749",
+      "label": "Owusu Ankomah",
+      "aliases": [
+        "Kwesi Owusu-Ankomah",
+        "K. O. Ankomah",
+        "K. O. Owusu-Ankomah",
+        "Kwesi Owusu- Ankomah",
+        "Owusu-Ankomah"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q4747518",
+      "label": "Amon Kotei",
+      "aliases": [
+        "Nii Amon Kotei"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q5972584",
+      "label": "David Maillu",
+      "aliases": [
+        "David Maulli",
+        "Vigad G. Mulila"
+      ],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q16039629",
+      "label": "Joseph Bertiers",
+      "aliases": [
+        "Joseph Mbatia Bertiers"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q16192678",
+      "label": "Allan deSouza",
+      "aliases": [
+        "Allan de Souza",
+        "Allan De Souza",
+        "Allan Desouza",
+        "Allan DeSouza",
+        "Al-An deSouza"
+      ],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q19800726",
+      "label": "Ibrahim Mahama",
+      "aliases": [
+        "Ibrahim Mahamah"
+      ],
+      "sitelinks": 12
+    },
+    {
+      "qid": "Q20810915",
+      "label": "Gani Odutokun",
+      "aliases": [
+        "Abdul Ganiyu Odutokun"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q21467258",
+      "label": "Kofi Antubam",
+      "aliases": [
+        "Kofi Anto"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q73356025",
+      "label": "Isaac Chukwu Udeh",
+      "aliases": [
+        "Chukwu the painter"
+      ],
+      "sitelinks": 4
+    },
+    {
+      "qid": "Q79322979",
+      "label": "Anita-Pearl Ankor",
+      "aliases": [
+        "Anita-Pearl Mwinnabang Ankor"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q80220002",
+      "label": "Amoako Boafo",
+      "aliases": [
+        "Thomas Amoako Boafo"
+      ],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q100574879",
+      "label": "Oscar Korbla Mawuli Awuku",
+      "aliases": [
+        "Yonga Arts"
+      ],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q108437306",
+      "label": "Conrad Egyir",
+      "aliases": [
+        "Conrad Yaw Egyir"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q111203199",
+      "label": "Vincent Kofi",
+      "aliases": [
+        "Vincent Akwete Kofi"
+      ],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q112709090",
+      "label": "Albert Osabu Bartimeus",
+      "aliases": [
+        "A. O. Bartimeus",
+        "A.O. Bartimeus",
+        "Albert O. Bartimeus"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q123111935",
+      "label": "Sharon Dede Padi",
+      "aliases": [
+        "Padiki"
+      ],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q125928952",
+      "label": "Ace-Liam",
+      "aliases": [
+        "Ace-Liam Nana Sam Ankrah"
+      ],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q130268344",
+      "label": "Alex Amofa",
+      "aliases": [
+        "Alexander Amofa"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138001414",
+      "label": "Sandra Wauye",
+      "aliases": [
+        "Sandy"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138818548",
+      "label": "Adwowa Ammah-Tagoe",
+      "aliases": [
+        "Anowa"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141835536",
+      "label": "David Ashitei Armah",
+      "aliases": [
+        "Davehunter"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141907089",
+      "label": "Kwame Osei Akuoko Sarpong",
+      "aliases": [
+        "Kwame Sarpong"
+      ],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q457420",
+      "label": "Wangechi Mutu",
+      "aliases": [],
+      "sitelinks": 18
+    },
+    {
+      "qid": "Q510045",
+      "label": "Kudjoe Affutu",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q2875120",
+      "label": "Azey",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q3359504",
+      "label": "P. O. Sika",
+      "aliases": [],
+      "sitelinks": 2
+    },
+    {
+      "qid": "Q3637919",
+      "label": "Ben Agbee",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q3806521",
+      "label": "James Cudjoe",
+      "aliases": [],
+      "sitelinks": 7
+    },
+    {
+      "qid": "Q3816136",
+      "label": "Kofi Setordji",
+      "aliases": [],
+      "sitelinks": 8
+    },
+    {
+      "qid": "Q3817626",
+      "label": "Kwadwo Ani",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q3935805",
+      "label": "Rikki Wemega-Kwawu",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4020589",
+      "label": "Wiz Kudowor",
+      "aliases": [],
+      "sitelinks": 9
+    },
+    {
+      "qid": "Q4448412",
+      "label": "Samuel Kane Kwei",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q6424432",
+      "label": "Kobina Nyarko",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q11296131",
+      "label": "Gabriel Eklou",
+      "aliases": [],
+      "sitelinks": 1
+    },
+    {
+      "qid": "Q26934896",
+      "label": "Philip Kojo Metz",
+      "aliases": [],
+      "sitelinks": 6
+    },
+    {
+      "qid": "Q51282423",
+      "label": "Michael Armitage",
+      "aliases": [],
+      "sitelinks": 3
+    },
+    {
+      "qid": "Q55607445",
+      "label": "Michael Wambua Soi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q62935045",
+      "label": "Betty Acquah",
+      "aliases": [],
+      "sitelinks": 10
+    },
+    {
+      "qid": "Q81800960",
+      "label": "Kofi Agorsor",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q84593196",
+      "label": "Ekaw Bentil",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q94519255",
+      "label": "Richard Onyango",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q106079938",
+      "label": "Kobina Bucknor",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q111784206",
+      "label": "Larry Otoo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q112401131",
+      "label": "Justus Kyalo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q113715380",
+      "label": "Joel Oswaggo",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q115732190",
+      "label": "Kaloki Nyamai",
+      "aliases": [],
+      "sitelinks": 5
+    },
+    {
+      "qid": "Q115776771",
+      "label": "Gideon Appah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q130268465",
+      "label": "G. M. F. Croffie",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q133295729",
+      "label": "Lois Selasie Arde-Acquah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137368733",
+      "label": "Nana Afia Sarpong Prempeh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137399010",
+      "label": "Wycliffe Ndwiga",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137399042",
+      "label": "David Michuki",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q137972503",
+      "label": "Eba Ussher",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138358874",
+      "label": "Doreen Mueni",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138632824",
+      "label": "Maku Azu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q138818336",
+      "label": "Victoria Abena Keta",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140984111",
+      "label": "Achola Odido",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q140996472",
+      "label": "Elizabeth Sekyiamah",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141450930",
+      "label": "Edward Ofosu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141639547",
+      "label": "Seth Clottey",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141640790",
+      "label": "Josiah Tsibu Manu",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141806042",
+      "label": "Ishmael Armarh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141809949",
+      "label": "Afia Prempeh",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141809953",
+      "label": "Ernest Victor Asihene",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141810909",
+      "label": "Allan Githuka",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141810915",
+      "label": "Michael Soi",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141810917",
+      "label": "Nedia Were",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141832358",
+      "label": "Daniel Gyekyi Gyan",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141837904",
+      "label": "Fridah Ijai",
+      "aliases": [],
+      "sitelinks": 0
+    },
+    {
+      "qid": "Q141872827",
+      "label": "Seth Fiifi Afful",
+      "aliases": [],
+      "sitelinks": 0
+    }
+  ]
+}

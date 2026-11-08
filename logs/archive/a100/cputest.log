@@ -1,0 +1,88 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 77/290 [00:00<00:00, 673.02it/s]Loading weights:  51%|█████     | 147/290 [00:00<00:00, 651.78it/s]Loading weights:  73%|███████▎  | 213/290 [00:00<00:00, 608.69it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 678.50it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.1'}
+[reach] 70 items (33 entities x forms x 1 templates)
+[reach] batch 1/9
+[reach] batch 9/9
+[recog] yes/no on 33 members and 1912 foils
+[sample] shipped_hf   tamil_poets                  valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   kerala_rivers                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   tamilnadu_hindu_temples      valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nepal_mountains              valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   brazil_universities          valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   nigerian_painters            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   bengali_film_directors       valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   assamese_writers             valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] shipped_hf   us_state_capitals            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamil_poets                  valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] Qwen2.5-0.5B-Instruct in 17.4 min -> results/cputest/Qwen2.5-0.5B-Instruct
+# Gate CPUTEST decision: **BLOCKED**
+
+Instruct model: `Qwen/Qwen2.5-0.5B-Instruct`
+
+Verdict computed on robust RBU (margin 0.75 raw logits: an entity counts as unreachable only if it stays cut with its logit raised by the margin; docs/04 section 2, notes/decisions.md). The same rules on exact RBU give: **BLOCKED**.
+
+## Validity checks
+
+- V1_no_sampling_violations: True
+- V2_recognition_auroc_ge_0.85: False
+- V3_at_least_300_recognised: False
+- recognition AUROC (yes/no, members vs foils): 0.686
+- 4-way accuracy on members: 0.394
+- recognised entities: 9 of 33
+
+## Sampling sanity check
+
+- shipped_hf: 220 samples, 0 valid, 0 id hits on 0 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+- p0.90_T1: 220 samples, 0 valid, 0 id hits on 0 distinct forms; violations (robustly unreachable yet sampled) **0**, boundary hits 0, exact-verdict violations 0, non-canonical paths 0
+
+## Recognised-but-unreachable rate (RBU)
+
+RBU mean = robust (headline); exact and upper use no margin and the opposite margin.
+
+| sampler | RBU mean | 95% CI | RBU all templates | fail at first token | exact | upper |
+|---|---|---|---|---|---|---|
+| shipped_hf | 100.0% | 100.0% to 100.0% | 100.0% | 55.6% | 100.0% | 100.0% |
+| p0.80_T1 | 77.8% | 42.9% to 100.0% | 77.8% | 62.5% | 100.0% | 100.0% |
+| p0.90_T1 | 55.6% | 12.5% to 90.0% | 55.6% | 50.0% | 66.7% | 88.9% |
+| p0.95_T1 | 33.3% | 0.0% to 66.7% | 33.3% | 33.3% | 33.3% | 55.6% |
+| p0.90_T0.7 | 100.0% | 100.0% to 100.0% | 100.0% | 55.6% | 100.0% | 100.0% |
+| k20_T1 | 55.6% | 12.5% to 90.0% | 55.6% | 66.7% | 66.7% | 88.9% |
+| k50_T1 | 44.4% | 0.0% to 80.0% | 44.4% | 60.0% | 55.6% | 55.6% |
+| minp0.05_T1 | 88.9% | 70.0% to 100.0% | 88.9% | 62.5% | 100.0% | 100.0% |
+| minp0.10_T1 | 100.0% | 100.0% to 100.0% | 100.0% | 55.6% | 100.0% | 100.0% |
+| untruncated_T1 | 0.0% | 0.0% to 0.0% | 0.0% | nan | 0.0% | 0.0% |
+
+## Sensitivity of RBU to the margin (RBU mean; margin in raw logits)
+
+| sampler | eps 0.0 | eps 0.25 | eps 0.5 | eps 1.0 | eps 2.0 | eps 4.0 |
+|---|---|---|---|---|---|---|
+| shipped_hf | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 55.6% |
+| p0.80_T1 | 100.0% | 88.9% | 88.9% | 77.8% | 66.7% | 33.3% |
+| p0.90_T1 | 66.7% | 66.7% | 66.7% | 44.4% | 33.3% | 33.3% |
+| p0.95_T1 | 33.3% | 33.3% | 33.3% | 33.3% | 33.3% | 11.1% |
+| p0.90_T0.7 | 100.0% | 100.0% | 100.0% | 100.0% | 77.8% | 55.6% |
+| k20_T1 | 66.7% | 66.7% | 66.7% | 55.6% | 55.6% | 11.1% |
+| k50_T1 | 55.6% | 55.6% | 55.6% | 44.4% | 44.4% | 11.1% |
+| minp0.05_T1 | 100.0% | 88.9% | 88.9% | 77.8% | 66.7% | 33.3% |
+| minp0.10_T1 | 100.0% | 100.0% | 100.0% | 88.9% | 77.8% | 33.3% |
+| untruncated_T1 | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+
+## Notes
+
+- validity checks failed: ['V2_recognition_auroc_ge_0.85', 'V3_at_least_300_recognised']. Fix these before reading any RBU number.
+
+Decision rules: docs/02_phases_and_gates.md. A human must sign off below before Phase 2.
+
+Sign-off: ____________________
