@@ -15,4 +15,5 @@ done_step "$OUT/OLMo-2-1124-7B-Instruct/frontier.json" || \
 python -m mb5.frontier --model allenai/OLMo-2-1124-7B-Instruct --data "$DATA" --out "$OUT" \
   --recog results/G1/OLMo-2-1124-7B-Instruct/recog.jsonl.gz --reference p0.90_T1 --margin 0.5
 python -m mb5.g3 --results "$OUT" --models Qwen2.5-7B-Instruct,OLMo-2-1124-7B-Instruct
+python -m mb5.invented_audit --results "$OUT" --data "$DATA" --models Qwen2.5-7B-Instruct,OLMo-2-1124-7B-Instruct
 echo "== decision written to results/gates/G3.md"
