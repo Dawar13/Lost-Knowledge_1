@@ -1,0 +1,54 @@
+{
+  "inputs_sha256": {
+    "OLMo-2-1124-7B-Instruct/reach.jsonl.gz": "a4847bff3cea89d2cc75268bb0e82f0ac531df508eed3e5e39e44ee5d418bfe4",
+    "OLMo-2-1124-7B-Instruct/recog.jsonl.gz": "12cb54fe44ef9154dfb7e5436115ed7b507597abd47d708313f9001d3a2f2305",
+    "OLMo-2-1124-7B-Instruct/meta.json": "7d831e32fc9655e441b67f5370eca88b89c5cfd5e60aeb1f64fc2fe433069b46",
+    "OLMo-2-1124-7B-Instruct/sample_check.json": null,
+    "calibration/OLMo-2-1124-7B-Instruct/selfcheck.json": null,
+    "OLMo-2-1124-7B/reach.jsonl.gz": "a7bc1189377970d6f1e19f49a4f16e0b7f2a0e530628e50760257cd2f336eb79",
+    "OLMo-2-1124-7B/recog.jsonl.gz": "75d53aacf946b4093c1d01aa1494587c20d5ce04ed601c70a533da6604c06b85",
+    "OLMo-2-1124-7B/meta.json": "e084eda5a86712c3ec4c9a6b9828f34de85a493da0d3882f7ca293f07c01a89d",
+    "OLMo-2-1124-7B/sample_check.json": null,
+    "calibration/OLMo-2-1124-7B/selfcheck.json": null,
+    "data:categories.json": "d3a10f2c393b9b1f455a28545924ee32b43c657af45950efc80eb706781ae7f1",
+    "data:entities.jsonl": "7cc454ad2d44a5dc1ed29a40ef9b891054d5ce3bb29dfd0318c037e0277ec122",
+    "data:foils.jsonl": "f58796b2a958d7dc8a562170ce1ced84d949df3e9fa9db70ca4201164eb2cce8",
+    "data:valid_names.json": "3ca540e23d848427a41d7822010df92d67f05ecae6973c441f4b350d8a26fb58",
+    "data:build_report.json": "0652a8d507b13e151f2aab89bde6b87787e6016aa6eb998641c93eeb7d62b141"
+  },
+  "code": {
+    "tree_sha256": "dae34f29e9e641cb",
+    "git_head": "ff7fce26086d1b889e86975a6f4608287ebc450e",
+    "git_dirty": false
+  },
+  "utc": "2026-11-08T17:48:44Z",
+  "args": {
+    "results": "results/P3_robust",
+    "data": "data/tailcat/pilot_v2",
+    "instruct": "OLMo-2-1124-7B-Instruct",
+    "base": "OLMo-2-1124-7B",
+    "metrics_dir": "metrics/olmo2"
+  },
+  "tables": [
+    "entities_OLMo-2-1124-7B-Instruct.csv",
+    "entities_OLMo-2-1124-7B.csv",
+    "failpos_OLMo-2-1124-7B-Instruct.csv",
+    "failpos_OLMo-2-1124-7B.csv",
+    "headline.json",
+    "length_OLMo-2-1124-7B-Instruct.csv",
+    "length_OLMo-2-1124-7B.csv",
+    "paired.csv",
+    "popularity_OLMo-2-1124-7B-Instruct.csv",
+    "popularity_OLMo-2-1124-7B.csv",
+    "rbu_OLMo-2-1124-7B-Instruct.csv",
+    "rbu_OLMo-2-1124-7B.csv",
+    "rbu_by_category_OLMo-2-1124-7B-Instruct.csv",
+    "rbu_by_category_OLMo-2-1124-7B.csv",
+    "rbu_curves_OLMo-2-1124-7B-Instruct.csv",
+    "rbu_curves_OLMo-2-1124-7B.csv",
+    "reachable_set_OLMo-2-1124-7B-Instruct.csv",
+    "reachable_set_OLMo-2-1124-7B.csv",
+    "validity_OLMo-2-1124-7B-Instruct.csv",
+    "validity_OLMo-2-1124-7B.csv"
+  ]
+}

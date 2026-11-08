@@ -1,0 +1,157 @@
+torch 2.15.0+cu132  transformers 5.22.2
+CUDA_VISIBLE_DEVICES=None
+GPU 0: NVIDIA GeForce RTX 5090  free 30.9 / 31.4 GiB
+pid, process_name, used_gpu_memory [MiB]
+6384, python, 498 MiB
+
+These processes belong to other experiments. Never kill or signal them.
+HF token present: False (needed for gated Llama and Gemma weights)
+.............                                                            [100%]
+13 passed in 3.97s
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 243/339 [00:00<00:00, 2421.11it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 2399.56it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1', 'shipped_hf': 'temperature=0.7, top_k=20, top_p=0.8, repetition_penalty=1.05'}
+[reach] 18355 items (2312 entities x forms x 5 templates)
+[reach] batch 1/574
+[reach] batch 21/574
+[reach] batch 41/574
+[reach] batch 61/574
+[reach] batch 81/574
+[reach] batch 101/574
+[reach] batch 121/574
+[reach] batch 141/574
+[reach] batch 161/574
+[reach] batch 181/574
+[reach] batch 201/574
+[reach] batch 221/574
+[reach] batch 241/574
+[reach] batch 261/574
+[reach] batch 281/574
+[reach] batch 301/574
+[reach] batch 321/574
+[reach] batch 341/574
+[reach] batch 361/574
+[reach] batch 381/574
+[reach] batch 401/574
+[reach] batch 421/574
+[reach] batch 441/574
+[reach] batch 461/574
+[reach] batch 481/574
+[reach] batch 501/574
+[reach] batch 521/574
+[reach] batch 541/574
+[reach] batch 561/574
+[reach] batch 574/574
+[recog] yes/no on 2312 members and 1724 foils
+[done] Qwen2.5-7B-Instruct in 4.4 min -> results/P3_robust/Qwen2.5-7B-Instruct
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:  74%|███████▍  | 252/339 [00:00<00:00, 2415.15it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 2457.57it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 18355 items (2312 entities x forms x 5 templates)
+[reach] batch 1/574
+[reach] batch 21/574
+[reach] batch 41/574
+[reach] batch 61/574
+[reach] batch 81/574
+[reach] batch 101/574
+[reach] batch 121/574
+[reach] batch 141/574
+[reach] batch 161/574
+[reach] batch 181/574
+[reach] batch 201/574
+[reach] batch 221/574
+[reach] batch 241/574
+[reach] batch 261/574
+[reach] batch 281/574
+[reach] batch 301/574
+[reach] batch 321/574
+[reach] batch 341/574
+[reach] batch 361/574
+[reach] batch 381/574
+[reach] batch 401/574
+[reach] batch 421/574
+[reach] batch 441/574
+[reach] batch 461/574
+[reach] batch 481/574
+[reach] batch 501/574
+[reach] batch 521/574
+[reach] batch 541/574
+[reach] batch 561/574
+[reach] batch 574/574
+[recog] yes/no on 2312 members and 1724 foils
+[done] Qwen2.5-7B in 3.5 min -> results/P3_robust/Qwen2.5-7B
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  83%|████████▎ | 295/355 [00:00<00:00, 2948.46it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 3033.98it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 18355 items (2312 entities x forms x 5 templates)
+[reach] batch 1/574
+[reach] batch 21/574
+[reach] batch 41/574
+[reach] batch 61/574
+[reach] batch 81/574
+[reach] batch 101/574
+[reach] batch 121/574
+[reach] batch 141/574
+[reach] batch 161/574
+[reach] batch 181/574
+[reach] batch 201/574
+[reach] batch 221/574
+[reach] batch 241/574
+[reach] batch 261/574
+[reach] batch 281/574
+[reach] batch 301/574
+[reach] batch 321/574
+[reach] batch 341/574
+[reach] batch 361/574
+[reach] batch 381/574
+[reach] batch 401/574
+[reach] batch 421/574
+[reach] batch 441/574
+[reach] batch 461/574
+[reach] batch 481/574
+[reach] batch 501/574
+[reach] batch 521/574
+[reach] batch 541/574
+[reach] batch 561/574
+[reach] batch 574/574
+[recog] yes/no on 2312 members and 1724 foils
+[done] OLMo-2-1124-7B-Instruct in 2.4 min -> results/P3_robust/OLMo-2-1124-7B-Instruct
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   0%|          | 1/355 [00:04<29:01,  4.92s/it]Loading weights:   1%|          | 2/355 [00:05<14:18,  2.43s/it]Loading weights:  13%|█▎        | 45/355 [00:05<00:21, 14.64it/s]Loading weights:  17%|█▋        | 62/355 [00:07<00:22, 13.01it/s]Loading weights:  21%|██        | 73/355 [00:07<00:20, 13.99it/s]Loading weights:  23%|██▎       | 81/355 [00:08<00:20, 13.62it/s]Loading weights:  25%|██▌       | 89/355 [00:08<00:16, 16.19it/s]Loading weights:  26%|██▋       | 94/355 [00:09<00:19, 13.58it/s]Loading weights:  28%|██▊       | 101/355 [00:09<00:15, 16.83it/s]Loading weights:  30%|██▉       | 106/355 [00:10<00:17, 14.22it/s]Loading weights:  32%|███▏      | 113/355 [00:10<00:16, 14.27it/s]Loading weights:  33%|███▎      | 116/355 [00:10<00:15, 15.39it/s]Loading weights:  35%|███▍      | 123/355 [00:10<00:11, 20.35it/s]Loading weights:  36%|███▌      | 127/355 [00:11<00:17, 13.15it/s]Loading weights:  37%|███▋      | 133/355 [00:11<00:13, 16.33it/s]Loading weights:  38%|███▊      | 136/355 [00:12<00:17, 12.39it/s]Loading weights:  39%|███▉      | 139/355 [00:12<00:15, 13.75it/s]Loading weights:  41%|████      | 145/355 [00:12<00:11, 18.94it/s]Loading weights:  42%|████▏     | 149/355 [00:12<00:14, 13.83it/s]Loading weights:  44%|████▍     | 157/355 [00:13<00:13, 14.85it/s]Loading weights:  45%|████▌     | 160/355 [00:13<00:11, 16.36it/s]Loading weights:  47%|████▋     | 167/355 [00:13<00:09, 20.89it/s]Loading weights:  48%|████▊     | 170/355 [00:14<00:13, 14.17it/s]Loading weights:  50%|█████     | 179/355 [00:14<00:12, 13.95it/s]Loading weights:  51%|█████     | 181/355 [00:14<00:12, 14.40it/s]Loading weights:  54%|█████▎    | 190/355 [00:15<00:10, 15.58it/s]Loading weights:  54%|█████▍    | 192/355 [00:15<00:10, 15.28it/s]Loading weights:  57%|█████▋    | 201/355 [00:16<00:09, 16.20it/s]Loading weights:  57%|█████▋    | 203/355 [00:16<00:09, 16.14it/s]Loading weights:  59%|█████▉    | 211/355 [00:16<00:06, 22.78it/s]Loading weights:  60%|██████    | 214/355 [00:16<00:09, 14.82it/s]Loading weights:  63%|██████▎   | 222/355 [00:17<00:06, 19.02it/s]Loading weights:  63%|██████▎   | 225/355 [00:18<00:14,  8.78it/s]Loading weights:  65%|██████▌   | 232/355 [00:18<00:10, 12.30it/s]Loading weights:  66%|██████▌   | 235/355 [00:19<00:12,  9.76it/s]Loading weights:  68%|██████▊   | 243/355 [00:19<00:08, 12.60it/s]Loading weights:  69%|██████▉   | 245/355 [00:20<00:13,  8.04it/s]Loading weights:  70%|██████▉   | 247/355 [00:20<00:12,  8.78it/s]Loading weights:  72%|███████▏  | 254/355 [00:20<00:07, 12.91it/s]Loading weights:  72%|███████▏  | 257/355 [00:21<00:09,  9.81it/s]Loading weights:  73%|███████▎  | 259/355 [00:21<00:09, 10.45it/s]Loading weights:  75%|███████▌  | 267/355 [00:21<00:07, 12.35it/s]Loading weights:  76%|███████▌  | 269/355 [00:22<00:06, 12.80it/s]Loading weights:  78%|███████▊  | 276/355 [00:22<00:04, 19.23it/s]Loading weights:  79%|███████▊  | 279/355 [00:22<00:06, 12.19it/s]Loading weights:  79%|███████▉  | 282/355 [00:22<00:05, 13.30it/s]Loading weights:  81%|████████▏ | 289/355 [00:23<00:05, 13.17it/s]Loading weights:  82%|████████▏ | 291/355 [00:23<00:05, 11.34it/s]Loading weights:  84%|████████▍ | 299/355 [00:23<00:03, 17.65it/s]Loading weights:  85%|████████▌ | 302/355 [00:24<00:04, 12.07it/s]Loading weights:  87%|████████▋ | 309/355 [00:24<00:02, 17.22it/s]Loading weights:  88%|████████▊ | 312/355 [00:25<00:03, 12.25it/s]Loading weights:  90%|█████████ | 320/355 [00:25<00:01, 17.81it/s]Loading weights:  91%|█████████ | 323/355 [00:25<00:02, 12.31it/s]Loading weights:  92%|█████████▏| 326/355 [00:26<00:02, 13.97it/s]Loading weights:  94%|█████████▎| 332/355 [00:26<00:01, 19.05it/s]Loading weights:  95%|█████████▍| 336/355 [00:26<00:01, 13.64it/s]Loading weights:  96%|█████████▋| 342/355 [00:26<00:00, 16.00it/s]Loading weights:  97%|█████████▋| 345/355 [00:27<00:00, 10.68it/s]Loading weights:  99%|█████████▉| 353/355 [00:27<00:00, 15.65it/s]Loading weights: 100%|██████████| 355/355 [00:27<00:00, 12.77it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'p0.90_T0.5': 'temperature=0.5, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 18355 items (2312 entities x forms x 5 templates)
+[reach] batch 1/574
+[reach] batch 21/574
+[reach] batch 41/574
+[reach] batch 61/574
+[reach] batch 81/574
+[reach] batch 101/574
+[reach] batch 121/574
+[reach] batch 141/574
+[reach] batch 161/574
+[reach] batch 181/574
+[reach] batch 201/574
+[reach] batch 221/574
+[reach] batch 241/574
+[reach] batch 261/574
+[reach] batch 281/574
+[reach] batch 301/574
+[reach] batch 321/574
+[reach] batch 341/574
+[reach] batch 361/574
+[reach] batch 381/574
+[reach] batch 401/574
+[reach] batch 421/574
+[reach] batch 441/574
+[reach] batch 461/574
+[reach] batch 481/574
+[reach] batch 501/574
+[reach] batch 521/574
+[reach] batch 541/574
+[reach] batch 561/574
+[reach] batch 574/574
+[recog] yes/no on 2312 members and 1724 foils
+[done] OLMo-2-1124-7B in 3.3 min -> results/P3_robust/OLMo-2-1124-7B
+[metrics] wrote 21 files to results/P3_robust/metrics/qwen2.5
+[metrics] wrote 21 files to results/P3_robust/metrics/olmo2
+== P3 robustness done
