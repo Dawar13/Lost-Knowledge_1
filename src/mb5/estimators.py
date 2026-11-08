@@ -93,10 +93,16 @@ def main():
     pooled = {}
     for spec in specs:
         rs = [r for r in rows if r["spec"] == spec]
-        pooled[spec] = {k: sum(r[k] for r in rs) for k in ("S_obs", "chao1", "ace", "members", "reachable",
+        pooled[spec] = {k: sum(r[k] for r in rs) for k in ("S_obs", "chao1", "members", "reachable",
                                                             "recognised", "recognised_and_reachable",
                                                             "sampled_outside_reachable")}
         p = pooled[spec]
+        # ACE is undefined in a category whose rare names were all seen exactly once (coverage 0):
+        # pool over the categories where it is defined and report how many were not.
+        ace_ok = [r for r in rs if r["ace"] == r["ace"]]
+        p["ace"] = sum(r["ace"] for r in ace_ok)
+        p["ace_undefined_categories"] = len(rs) - len(ace_ok)
+        p["S_obs_where_ace_defined"] = sum(r["S_obs"] for r in ace_ok)
         p["chao1_over_reachable"] = p["chao1"] / p["reachable"] if p["reachable"] else None
         p["chao1_over_recognised"] = p["chao1"] / p["recognised"] if p["recognised"] else None
         p["shortfall_vs_recognised"] = p["recognised"] - p["chao1"]
