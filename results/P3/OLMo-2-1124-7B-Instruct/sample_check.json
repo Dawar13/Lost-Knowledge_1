@@ -1,0 +1,7262 @@
+[
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 3,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 3,
+    "boundary_examples": [
+      {
+        "qid": "Q466330",
+        "form": "Mira",
+        "ids": [
+          44,
+          9008
+        ]
+      },
+      {
+        "qid": "Q466330",
+        "form": "Mira",
+        "ids": [
+          44,
+          9008
+        ]
+      },
+      {
+        "qid": "Q466330",
+        "form": "Mira",
+        "ids": [
+          44,
+          9008
+        ]
+      }
+    ],
+    "exact_violations": 3,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "poets__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "poets__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "poets__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 683,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 683,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2510589",
+      "Q3629422",
+      "Q4902185"
+    ],
+    "valid_counts": {
+      "Q4902185": 386,
+      "Q3629422": 291,
+      "Q2510589": 6
+    },
+    "category": "poets__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 540,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 540,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1076935",
+      "Q155845",
+      "Q230141",
+      "Q315362",
+      "Q339020",
+      "Q41488"
+    ],
+    "valid_counts": {
+      "Q339020": 331,
+      "Q230141": 4,
+      "Q315362": 16,
+      "Q41488": 131,
+      "Q1076935": 45,
+      "Q155845": 13
+    },
+    "category": "poets__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 191,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 190,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1778896",
+      "Q6450075",
+      "Q921435"
+    ],
+    "valid_counts": {
+      "Q1778896": 78,
+      "Q921435": 87,
+      "Q6450075": 26
+    },
+    "category": "poets__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 52,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 52,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1189001",
+      "Q1657674",
+      "Q1726746",
+      "Q260604",
+      "Q43293",
+      "Q4358028"
+    ],
+    "valid_counts": {
+      "Q1657674": 23,
+      "Q1189001": 18,
+      "Q4358028": 1,
+      "Q1726746": 8,
+      "Q43293": 1,
+      "Q260604": 1
+    },
+    "category": "poets__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 27,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 42,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2067820",
+      "Q2670449",
+      "Q2732406",
+      "Q3472868",
+      "Q3503054",
+      "Q562220",
+      "Q7585525"
+    ],
+    "valid_counts": {
+      "Q562220": 19,
+      "Q7585525": 2,
+      "Q2067820": 1,
+      "Q2732406": 1,
+      "Q3503054": 2,
+      "Q3472868": 1,
+      "Q2670449": 1
+    },
+    "category": "poets__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 127,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 127,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1500",
+      "Q1977234",
+      "Q5041871",
+      "Q6291949",
+      "Q7360587",
+      "Q983125"
+    ],
+    "valid_counts": {
+      "Q1500": 43,
+      "Q1977234": 67,
+      "Q7360587": 5,
+      "Q983125": 2,
+      "Q6291949": 4,
+      "Q5041871": 6
+    },
+    "category": "poets__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 592,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 592,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q313322",
+      "Q7022804",
+      "Q7022865"
+    ],
+    "valid_counts": {
+      "Q313322": 198,
+      "Q7022804": 330,
+      "Q7022865": 64
+    },
+    "category": "poets__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 180,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 180,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1797260",
+      "Q2607615",
+      "Q333632",
+      "Q333856",
+      "Q558615"
+    ],
+    "valid_counts": {
+      "Q333856": 159,
+      "Q333632": 2,
+      "Q558615": 16,
+      "Q1797260": 1,
+      "Q2607615": 2
+    },
+    "category": "poets__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 384,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 384,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q4381",
+      "Q46739"
+    ],
+    "valid_counts": {
+      "Q46739": 375,
+      "Q4381": 9
+    },
+    "category": "poets__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 277,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 277,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q909"
+    ],
+    "valid_counts": {
+      "Q909": 277
+    },
+    "category": "poets__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 15,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 15,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1537336",
+      "Q2983255"
+    ],
+    "valid_counts": {
+      "Q2983255": 5,
+      "Q1537336": 10
+    },
+    "category": "poets__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "poets__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "poets__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 519,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 519,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q18220929",
+      "Q3593699"
+    ],
+    "valid_counts": {
+      "Q3593699": 516,
+      "Q18220929": 3
+    },
+    "category": "poets__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 544,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 544,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q79822"
+    ],
+    "valid_counts": {
+      "Q79822": 544
+    },
+    "category": "poets__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 222,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 222,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q444876"
+    ],
+    "valid_counts": {
+      "Q444876": 222
+    },
+    "category": "poets__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 31,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 31,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q493"
+    ],
+    "valid_counts": {
+      "Q493": 31
+    },
+    "category": "poets__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "poets__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 89,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 89,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q334252"
+    ],
+    "valid_counts": {
+      "Q334252": 89
+    },
+    "category": "novelists__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 421,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 421,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q156501",
+      "Q2020488",
+      "Q3087962",
+      "Q3243146"
+    ],
+    "valid_counts": {
+      "Q3243146": 234,
+      "Q2020488": 60,
+      "Q3087962": 126,
+      "Q156501": 1
+    },
+    "category": "novelists__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q155845",
+      "Q230141"
+    ],
+    "valid_counts": {
+      "Q230141": 748,
+      "Q155845": 252
+    },
+    "category": "novelists__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 281,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 280,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1778896",
+      "Q298224",
+      "Q452860",
+      "Q572741",
+      "Q792956"
+    ],
+    "valid_counts": {
+      "Q298224": 241,
+      "Q1778896": 27,
+      "Q792956": 3,
+      "Q572741": 8,
+      "Q452860": 2
+    },
+    "category": "novelists__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 851,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 851,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q43293",
+      "Q47619"
+    ],
+    "valid_counts": {
+      "Q43293": 790,
+      "Q47619": 61
+    },
+    "category": "novelists__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 399,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 399,
+    "noncanonical_examples": [
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      },
+      {
+        "qid": "Q326935",
+        "text": "pramoedya ananta toer"
+      }
+    ],
+    "distinct_valid_qids": [
+      "Q326935"
+    ],
+    "valid_counts": {
+      "Q326935": 399
+    },
+    "category": "novelists__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 635,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 635,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q311145"
+    ],
+    "valid_counts": {
+      "Q311145": 635
+    },
+    "category": "novelists__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 672,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 672,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q154691"
+    ],
+    "valid_counts": {
+      "Q154691": 672
+    },
+    "category": "novelists__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 425,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 425,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q166590",
+      "Q186630",
+      "Q284560",
+      "Q324283",
+      "Q5042107",
+      "Q5997426",
+      "Q940594"
+    ],
+    "valid_counts": {
+      "Q284560": 328,
+      "Q324283": 48,
+      "Q940594": 9,
+      "Q5997426": 4,
+      "Q186630": 32,
+      "Q166590": 3,
+      "Q5042107": 1
+    },
+    "category": "novelists__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 536,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 564,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1556811",
+      "Q5878"
+    ],
+    "valid_counts": {
+      "Q5878": 531,
+      "Q1556811": 5
+    },
+    "category": "novelists__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 2,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 2,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q238970"
+    ],
+    "valid_counts": {
+      "Q238970": 2
+    },
+    "category": "novelists__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 120,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 120,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q10858601",
+      "Q1373235",
+      "Q2388709",
+      "Q315017"
+    ],
+    "valid_counts": {
+      "Q315017": 93,
+      "Q2388709": 23,
+      "Q1373235": 2,
+      "Q10858601": 2
+    },
+    "category": "novelists__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 898,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 898,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q241248",
+      "Q270739"
+    ],
+    "valid_counts": {
+      "Q270739": 281,
+      "Q241248": 617
+    },
+    "category": "novelists__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 609,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 609,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q254032",
+      "Q275175",
+      "Q347767",
+      "Q41502"
+    ],
+    "valid_counts": {
+      "Q41502": 546,
+      "Q254032": 26,
+      "Q275175": 36,
+      "Q347767": 1
+    },
+    "category": "novelists__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 70,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 70,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q193111"
+    ],
+    "valid_counts": {
+      "Q193111": 70
+    },
+    "category": "novelists__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "novelists__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3751683"
+    ],
+    "valid_counts": {
+      "Q3751683": 1
+    },
+    "category": "painters__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 118,
+    "distinct_valid": 9,
+    "n_id_prefix_hits": 117,
+    "distinct_id_prefix_hits": 9,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 2,
+    "noncanonical_examples": [
+      {
+        "qid": "Q15982534",
+        "text": "jamil naqsh"
+      },
+      {
+        "qid": "Q15982534",
+        "text": "jamil naqsh"
+      }
+    ],
+    "distinct_valid_qids": [
+      "Q104842676",
+      "Q15982534",
+      "Q27909549",
+      "Q4695968",
+      "Q5431345",
+      "Q6473892",
+      "Q732347",
+      "Q7462372",
+      "Q8074929"
+    ],
+    "valid_counts": {
+      "Q27909549": 9,
+      "Q732347": 75,
+      "Q7462372": 22,
+      "Q6473892": 1,
+      "Q15982534": 2,
+      "Q4695968": 5,
+      "Q104842676": 1,
+      "Q8074929": 2,
+      "Q5431345": 1
+    },
+    "category": "painters__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 233,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 220,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2443222",
+      "Q7282700",
+      "Q7461416"
+    ],
+    "valid_counts": {
+      "Q7461416": 73,
+      "Q2443222": 157,
+      "Q7282700": 3
+    },
+    "category": "painters__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 100,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 100,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1323876",
+      "Q3645490",
+      "Q4885605",
+      "Q98912334"
+    ],
+    "valid_counts": {
+      "Q4885605": 92,
+      "Q1323876": 4,
+      "Q3645490": 3,
+      "Q98912334": 1
+    },
+    "category": "painters__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 50,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 50,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q144653",
+      "Q3565686",
+      "Q522397",
+      "Q666092"
+    ],
+    "valid_counts": {
+      "Q144653": 2,
+      "Q666092": 28,
+      "Q3565686": 11,
+      "Q522397": 9
+    },
+    "category": "painters__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 230,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 233,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q19731731",
+      "Q2826050",
+      "Q4201116"
+    ],
+    "valid_counts": {
+      "Q2826050": 221,
+      "Q4201116": 2,
+      "Q19731731": 7
+    },
+    "category": "painters__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "painters__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 13,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 13,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3460141",
+      "Q513108"
+    ],
+    "valid_counts": {
+      "Q513108": 12,
+      "Q3460141": 1
+    },
+    "category": "painters__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "painters__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 44,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 44,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q332041"
+    ],
+    "valid_counts": {
+      "Q332041": 44
+    },
+    "category": "painters__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 809,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 809,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q817352"
+    ],
+    "valid_counts": {
+      "Q817352": 809
+    },
+    "category": "painters__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 635,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 622,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1344035",
+      "Q15698294",
+      "Q272877",
+      "Q332420"
+    ],
+    "valid_counts": {
+      "Q272877": 631,
+      "Q15698294": 1,
+      "Q332420": 2,
+      "Q1344035": 1
+    },
+    "category": "painters__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "painters__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 118,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 65,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1659496",
+      "Q3066849",
+      "Q5959081",
+      "Q800248"
+    ],
+    "valid_counts": {
+      "Q5959081": 8,
+      "Q1659496": 105,
+      "Q800248": 4,
+      "Q3066849": 1
+    },
+    "category": "painters__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 5,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 5,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1016269"
+    ],
+    "valid_counts": {
+      "Q1016269": 5
+    },
+    "category": "painters__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 4,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 4,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q465396"
+    ],
+    "valid_counts": {
+      "Q465396": 4
+    },
+    "category": "painters__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 16,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 16,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q170068"
+    ],
+    "valid_counts": {
+      "Q170068": 16
+    },
+    "category": "painters__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 202,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 202,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q215461"
+    ],
+    "valid_counts": {
+      "Q215461": 202
+    },
+    "category": "painters__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "film_directors__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 869,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 869,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3695153"
+    ],
+    "valid_counts": {
+      "Q3695153": 869
+    },
+    "category": "film_directors__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 320,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 320,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q6916984",
+      "Q7378684"
+    ],
+    "valid_counts": {
+      "Q6916984": 301,
+      "Q7378684": 19
+    },
+    "category": "film_directors__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 68,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 68,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1565403",
+      "Q16216728",
+      "Q16728582",
+      "Q18355952",
+      "Q3401333",
+      "Q5269330",
+      "Q7809625"
+    ],
+    "valid_counts": {
+      "Q3401333": 26,
+      "Q16216728": 1,
+      "Q1565403": 30,
+      "Q7809625": 2,
+      "Q18355952": 3,
+      "Q16728582": 3,
+      "Q5269330": 3
+    },
+    "category": "film_directors__sri_lanka"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 16,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 16,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16198160",
+      "Q5203004"
+    ],
+    "valid_counts": {
+      "Q16198160": 13,
+      "Q5203004": 3
+    },
+    "category": "film_directors__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 222,
+    "distinct_valid": 13,
+    "n_id_prefix_hits": 222,
+    "distinct_id_prefix_hits": 13,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q100879599",
+      "Q15733800",
+      "Q16004508",
+      "Q17711206",
+      "Q18344870",
+      "Q19559906",
+      "Q19561546",
+      "Q22583655",
+      "Q30039197",
+      "Q3393911",
+      "Q3510640",
+      "Q5096415",
+      "Q7961665"
+    ],
+    "valid_counts": {
+      "Q15733800": 12,
+      "Q100879599": 171,
+      "Q19561546": 9,
+      "Q5096415": 2,
+      "Q3393911": 12,
+      "Q16004508": 5,
+      "Q7961665": 2,
+      "Q17711206": 1,
+      "Q18344870": 2,
+      "Q30039197": 3,
+      "Q19559906": 1,
+      "Q3510640": 1,
+      "Q22583655": 1
+    },
+    "category": "film_directors__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "film_directors__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 282,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 282,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q13035667",
+      "Q3016485",
+      "Q322484",
+      "Q443106",
+      "Q6155523",
+      "Q715838",
+      "Q822240"
+    ],
+    "valid_counts": {
+      "Q13035667": 147,
+      "Q822240": 114,
+      "Q443106": 5,
+      "Q3016485": 7,
+      "Q322484": 3,
+      "Q6155523": 1,
+      "Q715838": 5
+    },
+    "category": "film_directors__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q11036795"
+    ],
+    "valid_counts": {
+      "Q11036795": 1000
+    },
+    "category": "film_directors__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q983322"
+    ],
+    "valid_counts": {
+      "Q983322": 1000
+    },
+    "category": "film_directors__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 11,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 11,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q5215938"
+    ],
+    "valid_counts": {
+      "Q5215938": 11
+    },
+    "category": "film_directors__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 229,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 229,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q55426"
+    ],
+    "valid_counts": {
+      "Q55426": 229
+    },
+    "category": "film_directors__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 845,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 845,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q179576",
+      "Q28028",
+      "Q55215"
+    ],
+    "valid_counts": {
+      "Q55215": 353,
+      "Q28028": 491,
+      "Q179576": 1
+    },
+    "category": "film_directors__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 13,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 13,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q126144",
+      "Q463860",
+      "Q5340700",
+      "Q6752402"
+    ],
+    "valid_counts": {
+      "Q6752402": 6,
+      "Q463860": 4,
+      "Q5340700": 1,
+      "Q126144": 2
+    },
+    "category": "film_directors__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 691,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 691,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2974216"
+    ],
+    "valid_counts": {
+      "Q2974216": 691
+    },
+    "category": "film_directors__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 820,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 820,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q53834",
+      "Q8006"
+    ],
+    "valid_counts": {
+      "Q8006": 801,
+      "Q53834": 19
+    },
+    "category": "film_directors__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "film_directors__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 28,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 28,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q126693",
+      "Q272718",
+      "Q328377"
+    ],
+    "valid_counts": {
+      "Q272718": 10,
+      "Q126693": 17,
+      "Q328377": 1
+    },
+    "category": "film_directors__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 70,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 70,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q106685"
+    ],
+    "valid_counts": {
+      "Q106685": 70
+    },
+    "category": "film_directors__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "film_directors__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "film_directors__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "film_directors__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q103774"
+    ],
+    "valid_counts": {
+      "Q103774": 1000
+    },
+    "category": "composers__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 177,
+    "distinct_valid": 8,
+    "n_id_prefix_hits": 177,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q15983276",
+      "Q299073",
+      "Q468356",
+      "Q5678180",
+      "Q59906326",
+      "Q60663491",
+      "Q7554628",
+      "Q7968320"
+    ],
+    "valid_counts": {
+      "Q299073": 158,
+      "Q7968320": 4,
+      "Q15983276": 2,
+      "Q5678180": 2,
+      "Q468356": 4,
+      "Q7554628": 2,
+      "Q59906326": 2,
+      "Q60663491": 3
+    },
+    "category": "composers__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 8,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 9,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q21228244"
+    ],
+    "valid_counts": {
+      "Q21228244": 8
+    },
+    "category": "composers__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 478,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 478,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q313868"
+    ],
+    "valid_counts": {
+      "Q313868": 478
+    },
+    "category": "composers__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 127,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 127,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q6430491",
+      "Q965420"
+    ],
+    "valid_counts": {
+      "Q965420": 49,
+      "Q6430491": 78
+    },
+    "category": "composers__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 31,
+    "distinct_valid": 10,
+    "n_id_prefix_hits": 34,
+    "distinct_id_prefix_hits": 10,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q12488088",
+      "Q146256",
+      "Q1957002",
+      "Q246594",
+      "Q364881",
+      "Q53620563",
+      "Q561596",
+      "Q6799750",
+      "Q717159",
+      "Q775883"
+    ],
+    "valid_counts": {
+      "Q246594": 12,
+      "Q717159": 1,
+      "Q775883": 5,
+      "Q6799750": 2,
+      "Q1957002": 1,
+      "Q12488088": 2,
+      "Q146256": 4,
+      "Q561596": 2,
+      "Q364881": 1,
+      "Q53620563": 1
+    },
+    "category": "composers__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 31,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 31,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q4681152",
+      "Q4917827",
+      "Q6147504",
+      "Q7283331",
+      "Q7476104"
+    ],
+    "valid_counts": {
+      "Q7283331": 16,
+      "Q4917827": 1,
+      "Q7476104": 11,
+      "Q6147504": 2,
+      "Q4681152": 1
+    },
+    "category": "composers__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 931,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 931,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q7383955"
+    ],
+    "valid_counts": {
+      "Q7383955": 931
+    },
+    "category": "composers__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 56,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 76,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q513108",
+      "Q724117"
+    ],
+    "valid_counts": {
+      "Q724117": 44,
+      "Q513108": 12
+    },
+    "category": "composers__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "composers__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 409,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 409,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q357326",
+      "Q715382",
+      "Q722627"
+    ],
+    "valid_counts": {
+      "Q357326": 399,
+      "Q715382": 8,
+      "Q722627": 2
+    },
+    "category": "composers__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "composers__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 18,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 18,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q43189",
+      "Q5976948",
+      "Q6278739",
+      "Q965888"
+    ],
+    "valid_counts": {
+      "Q6278739": 7,
+      "Q43189": 9,
+      "Q965888": 1,
+      "Q5976948": 1
+    },
+    "category": "composers__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 3,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 3,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q11482457",
+      "Q6883332"
+    ],
+    "valid_counts": {
+      "Q11482457": 1,
+      "Q6883332": 2
+    },
+    "category": "composers__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "composers__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 51,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 51,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q401893",
+      "Q430941",
+      "Q463541",
+      "Q709859",
+      "Q713757"
+    ],
+    "valid_counts": {
+      "Q430941": 3,
+      "Q709859": 31,
+      "Q401893": 15,
+      "Q713757": 1,
+      "Q463541": 1
+    },
+    "category": "composers__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "composers__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "composers__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "composers__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 179,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 179,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q128746"
+    ],
+    "valid_counts": {
+      "Q128746": 179
+    },
+    "category": "composers__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 30,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 30,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q19891088",
+      "Q380449",
+      "Q699145"
+    ],
+    "valid_counts": {
+      "Q380449": 3,
+      "Q699145": 26,
+      "Q19891088": 1
+    },
+    "category": "architects__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 126,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 130,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q13060129",
+      "Q17037925",
+      "Q62918",
+      "Q6944447",
+      "Q7282681"
+    ],
+    "valid_counts": {
+      "Q62918": 87,
+      "Q6944447": 36,
+      "Q13060129": 1,
+      "Q17037925": 1,
+      "Q7282681": 1
+    },
+    "category": "architects__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "architects__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q134165"
+    ],
+    "valid_counts": {
+      "Q134165": 1000
+    },
+    "category": "architects__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 43,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 45,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1442000",
+      "Q16242053",
+      "Q243295",
+      "Q6165718",
+      "Q671960",
+      "Q767114"
+    ],
+    "valid_counts": {
+      "Q16242053": 9,
+      "Q1442000": 15,
+      "Q767114": 4,
+      "Q243295": 11,
+      "Q671960": 3,
+      "Q6165718": 1
+    },
+    "category": "architects__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 31,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 31,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q309483",
+      "Q4714498",
+      "Q6299222",
+      "Q960240"
+    ],
+    "valid_counts": {
+      "Q4714498": 14,
+      "Q309483": 11,
+      "Q960240": 5,
+      "Q6299222": 1
+    },
+    "category": "architects__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "architects__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "architects__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 504,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 504,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 6,
+    "boundary_examples": [
+      {
+        "qid": "Q5951051",
+        "form": "Mohsen Foroughi",
+        "ids": [
+          83705,
+          12021,
+          1789,
+          1409,
+          72
+        ]
+      },
+      {
+        "qid": "Q5951051",
+        "form": "Mohsen Foroughi",
+        "ids": [
+          83705,
+          12021,
+          1789,
+          1409,
+          72
+        ]
+      },
+      {
+        "qid": "Q6894427",
+        "form": "Mohsen Mostafavi",
+        "ids": [
+          83705,
+          12021,
+          7648,
+          2642,
+          6321
+        ]
+      },
+      {
+        "qid": "Q6894427",
+        "form": "Mohsen Mostafavi",
+        "ids": [
+          83705,
+          12021,
+          7648,
+          2642,
+          6321
+        ]
+      },
+      {
+        "qid": "Q5951051",
+        "form": "Mohsen Foroughi",
+        "ids": [
+          83705,
+          12021,
+          1789,
+          1409,
+          72
+        ]
+      },
+      {
+        "qid": "Q5951051",
+        "form": "Mohsen Foroughi",
+        "ids": [
+          83705,
+          12021,
+          1789,
+          1409,
+          72
+        ]
+      }
+    ],
+    "exact_violations": 6,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q19830052",
+      "Q5951051",
+      "Q6894427",
+      "Q981828"
+    ],
+    "valid_counts": {
+      "Q19830052": 491,
+      "Q981828": 7,
+      "Q5951051": 4,
+      "Q6894427": 2
+    },
+    "category": "architects__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 30,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 29,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 1,
+    "noncanonical_examples": [
+      {
+        "qid": "Q549968",
+        "text": "sedad hakkı eldem"
+      }
+    ],
+    "distinct_valid_qids": [
+      "Q18603819",
+      "Q5372464",
+      "Q549968",
+      "Q6028416"
+    ],
+    "valid_counts": {
+      "Q6028416": 12,
+      "Q5372464": 16,
+      "Q18603819": 1,
+      "Q549968": 1
+    },
+    "category": "architects__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 9,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 9,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q154538"
+    ],
+    "valid_counts": {
+      "Q154538": 9
+    },
+    "category": "architects__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 51,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 51,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q312028"
+    ],
+    "valid_counts": {
+      "Q312028": 51
+    },
+    "category": "architects__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "architects__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "architects__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 969,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 969,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 35,
+    "boundary_examples": [
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      },
+      {
+        "qid": "Q214874",
+        "form": "Jhelum River",
+        "ids": [
+          41,
+          50222,
+          372,
+          11188
+        ]
+      }
+    ],
+    "exact_violations": 35,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q214874",
+      "Q7348"
+    ],
+    "valid_counts": {
+      "Q7348": 934,
+      "Q214874": 35
+    },
+    "category": "rivers__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 463,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 452,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q12977185",
+      "Q12982407",
+      "Q12986934",
+      "Q12988844",
+      "Q1518007",
+      "Q1634407",
+      "Q1738136"
+    ],
+    "valid_counts": {
+      "Q1738136": 210,
+      "Q1518007": 227,
+      "Q12986934": 5,
+      "Q1634407": 13,
+      "Q12988844": 3,
+      "Q12977185": 3,
+      "Q12982407": 2
+    },
+    "category": "rivers__sri_lanka"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 281,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 281,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q19287746",
+      "Q2095324",
+      "Q4461769",
+      "Q4463211",
+      "Q45403",
+      "Q695610"
+    ],
+    "valid_counts": {
+      "Q4461769": 40,
+      "Q695610": 104,
+      "Q19287746": 63,
+      "Q45403": 23,
+      "Q4463211": 32,
+      "Q2095324": 19
+    },
+    "category": "rivers__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 795,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q204806",
+      "Q3542"
+    ],
+    "valid_counts": {
+      "Q204806": 124,
+      "Q3542": 671
+    },
+    "category": "rivers__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 357,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 357,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1233042",
+      "Q4785194",
+      "Q58792399"
+    ],
+    "valid_counts": {
+      "Q1233042": 286,
+      "Q58792399": 63,
+      "Q4785194": 8
+    },
+    "category": "rivers__kenya"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 809,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 781,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1259188",
+      "Q139115",
+      "Q192415",
+      "Q2388692",
+      "Q252472",
+      "Q472715",
+      "Q635220"
+    ],
+    "valid_counts": {
+      "Q192415": 661,
+      "Q252472": 121,
+      "Q139115": 3,
+      "Q635220": 7,
+      "Q1259188": 5,
+      "Q472715": 10,
+      "Q2388692": 2
+    },
+    "category": "rivers__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 953,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 953,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q882739"
+    ],
+    "valid_counts": {
+      "Q882739": 953
+    },
+    "category": "rivers__ethiopia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 817,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 817,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q181475"
+    ],
+    "valid_counts": {
+      "Q181475": 817
+    },
+    "category": "rivers__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 293,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 290,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1631857",
+      "Q2902049",
+      "Q4891012",
+      "Q645047",
+      "Q7230272",
+      "Q848308",
+      "Q979518"
+    ],
+    "valid_counts": {
+      "Q2902049": 262,
+      "Q979518": 21,
+      "Q7230272": 4,
+      "Q645047": 2,
+      "Q1631857": 1,
+      "Q4891012": 1,
+      "Q848308": 2
+    },
+    "category": "rivers__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 998,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 998,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1025710",
+      "Q2095415"
+    ],
+    "valid_counts": {
+      "Q1025710": 969,
+      "Q2095415": 29
+    },
+    "category": "rivers__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 14,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 18,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1060805",
+      "Q2299182",
+      "Q41179"
+    ],
+    "valid_counts": {
+      "Q41179": 4,
+      "Q1060805": 9,
+      "Q2299182": 1
+    },
+    "category": "rivers__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 749,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 749,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q27035",
+      "Q6480184",
+      "Q7386286"
+    ],
+    "valid_counts": {
+      "Q7386286": 745,
+      "Q27035": 2,
+      "Q6480184": 2
+    },
+    "category": "rivers__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 896,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 896,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q127892",
+      "Q35827"
+    ],
+    "valid_counts": {
+      "Q127892": 864,
+      "Q35827": 32
+    },
+    "category": "rivers__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 281,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 281,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q191829",
+      "Q853332"
+    ],
+    "valid_counts": {
+      "Q191829": 246,
+      "Q853332": 35
+    },
+    "category": "rivers__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 109,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 109,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1472376",
+      "Q167814"
+    ],
+    "valid_counts": {
+      "Q167814": 102,
+      "Q1472376": 7
+    },
+    "category": "rivers__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 151,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 151,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1057961",
+      "Q188871",
+      "Q211089",
+      "Q257785",
+      "Q34589",
+      "Q35591"
+    ],
+    "valid_counts": {
+      "Q34589": 108,
+      "Q211089": 7,
+      "Q35591": 15,
+      "Q1057961": 8,
+      "Q188871": 9,
+      "Q257785": 4
+    },
+    "category": "rivers__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 189,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 195,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q736575",
+      "Q829866"
+    ],
+    "valid_counts": {
+      "Q736575": 184,
+      "Q829866": 5
+    },
+    "category": "rivers__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "rivers__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 56,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 56,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q325391"
+    ],
+    "valid_counts": {
+      "Q325391": 56
+    },
+    "category": "lakes__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 183,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 182,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2977085",
+      "Q523461",
+      "Q6841294"
+    ],
+    "valid_counts": {
+      "Q523461": 154,
+      "Q2977085": 28,
+      "Q6841294": 1
+    },
+    "category": "lakes__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 657,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 657,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2120180",
+      "Q3451065",
+      "Q619766"
+    ],
+    "valid_counts": {
+      "Q2120180": 571,
+      "Q3451065": 75,
+      "Q619766": 11
+    },
+    "category": "lakes__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 36,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 36,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2417904"
+    ],
+    "valid_counts": {
+      "Q2417904": 36
+    },
+    "category": "lakes__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 665,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 665,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 4,
+    "boundary_examples": [
+      {
+        "qid": "Q6474804",
+        "form": "Lake Apo",
+        "ids": [
+          82389,
+          5345,
+          78
+        ]
+      },
+      {
+        "qid": "Q6474804",
+        "form": "Lake Apo",
+        "ids": [
+          82389,
+          5345,
+          78
+        ]
+      },
+      {
+        "qid": "Q6474804",
+        "form": "Lake Apo",
+        "ids": [
+          82389,
+          5345,
+          78
+        ]
+      },
+      {
+        "qid": "Q6474804",
+        "form": "Lake Apo",
+        "ids": [
+          82389,
+          5345,
+          78
+        ]
+      }
+    ],
+    "exact_violations": 4,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1002637",
+      "Q1384940",
+      "Q537695",
+      "Q6474804"
+    ],
+    "valid_counts": {
+      "Q1384940": 604,
+      "Q1002637": 26,
+      "Q6474804": 4,
+      "Q537695": 31
+    },
+    "category": "lakes__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 25,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 25,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q22031000",
+      "Q22035388",
+      "Q661235"
+    ],
+    "valid_counts": {
+      "Q661235": 13,
+      "Q22031000": 11,
+      "Q22035388": 1
+    },
+    "category": "lakes__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 16,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 15,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q21842954"
+    ],
+    "valid_counts": {
+      "Q21842954": 16
+    },
+    "category": "lakes__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 793,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 793,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1552915",
+      "Q3049825"
+    ],
+    "valid_counts": {
+      "Q1552915": 785,
+      "Q3049825": 8
+    },
+    "category": "lakes__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "lakes__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "lakes__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "lakes__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "lakes__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 722,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 722,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q192770"
+    ],
+    "valid_counts": {
+      "Q192770": 722
+    },
+    "category": "lakes__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "lakes__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 78,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 78,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1169"
+    ],
+    "valid_counts": {
+      "Q1169": 78
+    },
+    "category": "lakes__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q43512"
+    ],
+    "valid_counts": {
+      "Q43512": 1000
+    },
+    "category": "mountains__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 195,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 195,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q513"
+    ],
+    "valid_counts": {
+      "Q513": 195
+    },
+    "category": "mountains__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 757,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 757,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q172070"
+    ],
+    "valid_counts": {
+      "Q172070": 757
+    },
+    "category": "mountains__kenya"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 267,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 271,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 1,
+    "boundary_examples": [
+      {
+        "qid": "Q867835",
+        "form": "Mount Abuna Yosef",
+        "ids": [
+          16683,
+          3765,
+          8733,
+          816,
+          974,
+          69
+        ]
+      }
+    ],
+    "exact_violations": 1,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q247952",
+      "Q2671162",
+      "Q275435",
+      "Q590742",
+      "Q867835"
+    ],
+    "valid_counts": {
+      "Q275435": 154,
+      "Q2671162": 99,
+      "Q247952": 11,
+      "Q867835": 1,
+      "Q590742": 2
+    },
+    "category": "mountains__ethiopia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 178,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 178,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1883683",
+      "Q213360"
+    ],
+    "valid_counts": {
+      "Q1883683": 154,
+      "Q213360": 24
+    },
+    "category": "mountains__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 931,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 931,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1451",
+      "Q1484",
+      "Q455963"
+    ],
+    "valid_counts": {
+      "Q1484": 82,
+      "Q1451": 292,
+      "Q455963": 557
+    },
+    "category": "mountains__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 935,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 935,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q123782"
+    ],
+    "valid_counts": {
+      "Q123782": 935
+    },
+    "category": "mountains__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q739484"
+    ],
+    "valid_counts": {
+      "Q739484": 1000
+    },
+    "category": "mountains__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 205,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 204,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 1,
+    "noncanonical_examples": [
+      {
+        "qid": "Q648551",
+        "text": "nevado del huila"
+      }
+    ],
+    "distinct_valid_qids": [
+      "Q2360498",
+      "Q578862",
+      "Q648551"
+    ],
+    "valid_counts": {
+      "Q578862": 203,
+      "Q648551": 1,
+      "Q2360498": 1
+    },
+    "category": "mountains__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 626,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 626,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q126804",
+      "Q72303"
+    ],
+    "valid_counts": {
+      "Q126804": 459,
+      "Q72303": 167
+    },
+    "category": "mountains__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 10,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 10,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q13360737",
+      "Q18691398"
+    ],
+    "valid_counts": {
+      "Q13360737": 9,
+      "Q18691398": 1
+    },
+    "category": "mountains__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "mountains__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 56,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 56,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3492"
+    ],
+    "valid_counts": {
+      "Q3492": 56
+    },
+    "category": "islands__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 938,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 938,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1061269",
+      "Q124873",
+      "Q125384"
+    ],
+    "valid_counts": {
+      "Q125384": 461,
+      "Q1061269": 356,
+      "Q124873": 121
+    },
+    "category": "islands__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 218,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 222,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q146695",
+      "Q1866965",
+      "Q32198496",
+      "Q32200450"
+    ],
+    "valid_counts": {
+      "Q146695": 192,
+      "Q1866965": 20,
+      "Q32200450": 4,
+      "Q32198496": 2
+    },
+    "category": "islands__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 324,
+    "distinct_valid": 8,
+    "n_id_prefix_hits": 324,
+    "distinct_id_prefix_hits": 8,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q10301217",
+      "Q1096095",
+      "Q1191273",
+      "Q1369095",
+      "Q181544",
+      "Q193264",
+      "Q2499945",
+      "Q629824"
+    ],
+    "valid_counts": {
+      "Q1096095": 122,
+      "Q1369095": 156,
+      "Q193264": 12,
+      "Q1191273": 8,
+      "Q181544": 5,
+      "Q629824": 12,
+      "Q2499945": 7,
+      "Q10301217": 2
+    },
+    "category": "islands__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 176,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 176,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1674067",
+      "Q492520",
+      "Q5921602"
+    ],
+    "valid_counts": {
+      "Q492520": 141,
+      "Q1674067": 29,
+      "Q5921602": 6
+    },
+    "category": "islands__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 32,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 32,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q211817",
+      "Q658437",
+      "Q950908"
+    ],
+    "valid_counts": {
+      "Q658437": 13,
+      "Q950908": 14,
+      "Q211817": 5
+    },
+    "category": "islands__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "islands__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 929,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 929,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1782980",
+      "Q849611"
+    ],
+    "valid_counts": {
+      "Q1782980": 788,
+      "Q849611": 141
+    },
+    "category": "universities__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__kenya"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1238770"
+    ],
+    "valid_counts": {
+      "Q1238770": 1000
+    },
+    "category": "universities__ethiopia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 958,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q475700",
+      "Q534643",
+      "Q951305"
+    ],
+    "valid_counts": {
+      "Q951305": 655,
+      "Q534643": 251,
+      "Q475700": 52
+    },
+    "category": "universities__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 648,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 649,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q534515"
+    ],
+    "valid_counts": {
+      "Q534515": 648
+    },
+    "category": "universities__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 268,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 509,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q10829064",
+      "Q16480583",
+      "Q3075696",
+      "Q3101701",
+      "Q943759",
+      "Q945839"
+    ],
+    "valid_counts": {
+      "Q3075696": 146,
+      "Q10829064": 34,
+      "Q945839": 18,
+      "Q943759": 57,
+      "Q3101701": 11,
+      "Q16480583": 2
+    },
+    "category": "universities__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 596,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 770,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q835960"
+    ],
+    "valid_counts": {
+      "Q835960": 596
+    },
+    "category": "universities__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 316,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 114,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1569421"
+    ],
+    "valid_counts": {
+      "Q1569421": 316
+    },
+    "category": "universities__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 63,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 63,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3086568",
+      "Q7685655"
+    ],
+    "valid_counts": {
+      "Q3086568": 43,
+      "Q7685655": 20
+    },
+    "category": "universities__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 553,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 572,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q144488",
+      "Q1718656"
+    ],
+    "valid_counts": {
+      "Q144488": 518,
+      "Q1718656": 35
+    },
+    "category": "universities__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "universities__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 33,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 33,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q51876"
+    ],
+    "valid_counts": {
+      "Q51876": 33
+    },
+    "category": "museums__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__sri_lanka"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 282,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 282,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1467125",
+      "Q2030607",
+      "Q924394"
+    ],
+    "valid_counts": {
+      "Q1467125": 280,
+      "Q2030607": 1,
+      "Q924394": 1
+    },
+    "category": "museums__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 132,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 132,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2110963"
+    ],
+    "valid_counts": {
+      "Q2110963": 132
+    },
+    "category": "museums__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1000,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q524249"
+    ],
+    "valid_counts": {
+      "Q524249": 1000
+    },
+    "category": "museums__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 744,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 857,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1109031"
+    ],
+    "valid_counts": {
+      "Q1109031": 744
+    },
+    "category": "museums__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q4533056"
+    ],
+    "valid_counts": {
+      "Q4533056": 1
+    },
+    "category": "museums__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1582462"
+    ],
+    "valid_counts": {
+      "Q1582462": 1
+    },
+    "category": "museums__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 32,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 40,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q11873586",
+      "Q17347150",
+      "Q1792414",
+      "Q2031357",
+      "Q6304688"
+    ],
+    "valid_counts": {
+      "Q11873586": 17,
+      "Q17347150": 5,
+      "Q2031357": 5,
+      "Q1792414": 4,
+      "Q6304688": 1
+    },
+    "category": "museums__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "museums__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 157,
+    "distinct_valid": 7,
+    "n_id_prefix_hits": 139,
+    "distinct_id_prefix_hits": 7,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1517901",
+      "Q15983217",
+      "Q19892170",
+      "Q4697372",
+      "Q4938860",
+      "Q6288564",
+      "Q7701717"
+    ],
+    "valid_counts": {
+      "Q1517901": 129,
+      "Q19892170": 14,
+      "Q6288564": 7,
+      "Q15983217": 1,
+      "Q4938860": 2,
+      "Q4697372": 3,
+      "Q7701717": 1
+    },
+    "category": "films__pakistan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 7,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 28,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q13059835",
+      "Q3204464",
+      "Q4454117",
+      "Q51838523"
+    ],
+    "valid_counts": {
+      "Q4454117": 2,
+      "Q13059835": 2,
+      "Q51838523": 1,
+      "Q3204464": 2
+    },
+    "category": "films__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 1,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1988473"
+    ],
+    "valid_counts": {
+      "Q1988473": 1
+    },
+    "category": "films__sri_lanka"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 83,
+    "distinct_valid": 12,
+    "n_id_prefix_hits": 89,
+    "distinct_id_prefix_hits": 14,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q13182339",
+      "Q16988101",
+      "Q20649646",
+      "Q25136340",
+      "Q25206775",
+      "Q25620285",
+      "Q47465219",
+      "Q5101201",
+      "Q6346430",
+      "Q6448222",
+      "Q6676053",
+      "Q6737127"
+    ],
+    "valid_counts": {
+      "Q5101201": 5,
+      "Q6737127": 8,
+      "Q6346430": 10,
+      "Q25620285": 31,
+      "Q13182339": 2,
+      "Q6676053": 19,
+      "Q25206775": 2,
+      "Q6448222": 1,
+      "Q25136340": 1,
+      "Q20649646": 2,
+      "Q47465219": 1,
+      "Q16988101": 1
+    },
+    "category": "films__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 15,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 14,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16733391",
+      "Q17013597",
+      "Q18171042",
+      "Q4676490",
+      "Q4920838"
+    ],
+    "valid_counts": {
+      "Q4676490": 4,
+      "Q4920838": 3,
+      "Q18171042": 3,
+      "Q16733391": 4,
+      "Q17013597": 1
+    },
+    "category": "films__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 637,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 637,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1338623",
+      "Q52272990"
+    ],
+    "valid_counts": {
+      "Q52272990": 208,
+      "Q1338623": 429
+    },
+    "category": "films__kenya"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 19,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 19,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16734168",
+      "Q18170073",
+      "Q7524583"
+    ],
+    "valid_counts": {
+      "Q16734168": 16,
+      "Q7524583": 2,
+      "Q18170073": 1
+    },
+    "category": "films__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 2,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q105754608"
+    ],
+    "valid_counts": {
+      "Q105754608": 1
+    },
+    "category": "films__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 6,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 48,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q105038164",
+      "Q4329857",
+      "Q6749657"
+    ],
+    "valid_counts": {
+      "Q4329857": 1,
+      "Q6749657": 3,
+      "Q105038164": 2
+    },
+    "category": "films__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 94,
+    "distinct_valid": 8,
+    "n_id_prefix_hits": 113,
+    "distinct_id_prefix_hits": 8,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 1,
+    "noncanonical_examples": [
+      {
+        "qid": "Q10935788",
+        "text": "the lotus flower"
+      }
+    ],
+    "distinct_valid_qids": [
+      "Q10935788",
+      "Q1193051",
+      "Q2253032",
+      "Q464653",
+      "Q48672561",
+      "Q602927",
+      "Q7774579",
+      "Q7982426"
+    ],
+    "valid_counts": {
+      "Q7982426": 10,
+      "Q1193051": 63,
+      "Q48672561": 4,
+      "Q2253032": 1,
+      "Q464653": 11,
+      "Q7774579": 3,
+      "Q602927": 1,
+      "Q10935788": 1
+    },
+    "category": "films__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 105,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 105,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q27959455"
+    ],
+    "valid_counts": {
+      "Q27959455": 105
+    },
+    "category": "films__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 3,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q19824642"
+    ],
+    "valid_counts": {
+      "Q19824642": 1
+    },
+    "category": "films__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 1,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 4,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 4,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q5423075"
+    ],
+    "valid_counts": {
+      "Q5423075": 4
+    },
+    "category": "films__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 2,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 5,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q17384605"
+    ],
+    "valid_counts": {
+      "Q17384605": 2
+    },
+    "category": "films__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "films__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 1000,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 986,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 1,
+    "boundary_examples": [
+      {
+        "qid": "Q16243716",
+        "form": "Bengaluru FC",
+        "ids": [
+          33,
+          833,
+          278,
+          21585,
+          16396
+        ]
+      }
+    ],
+    "exact_violations": 1,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16243716",
+      "Q935022"
+    ],
+    "valid_counts": {
+      "Q935022": 999,
+      "Q16243716": 1
+    },
+    "category": "football_clubs__india"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 100,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 316,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1188299",
+      "Q304792",
+      "Q532236"
+    ],
+    "valid_counts": {
+      "Q532236": 76,
+      "Q1188299": 2,
+      "Q304792": 22
+    },
+    "category": "football_clubs__bangladesh"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 195,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 194,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1355007",
+      "Q1814649",
+      "Q18351525"
+    ],
+    "valid_counts": {
+      "Q1355007": 189,
+      "Q1814649": 5,
+      "Q18351525": 1
+    },
+    "category": "football_clubs__nepal"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "football_clubs__nigeria"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 236,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 279,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16842558",
+      "Q16845490",
+      "Q3039805",
+      "Q48817472",
+      "Q960440"
+    ],
+    "valid_counts": {
+      "Q16842558": 143,
+      "Q3039805": 90,
+      "Q960440": 1,
+      "Q48817472": 1,
+      "Q16845490": 1
+    },
+    "category": "football_clubs__kenya"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 8,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 4,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 4,
+    "boundary_examples": [
+      {
+        "qid": "Q511902",
+        "form": "AshGold",
+        "ids": [
+          53856,
+          26509
+        ]
+      },
+      {
+        "qid": "Q511902",
+        "form": "AshGold",
+        "ids": [
+          53856,
+          26509
+        ]
+      },
+      {
+        "qid": "Q511902",
+        "form": "AshGold",
+        "ids": [
+          53856,
+          26509
+        ]
+      },
+      {
+        "qid": "Q511902",
+        "form": "AshGold",
+        "ids": [
+          53856,
+          26509
+        ]
+      }
+    ],
+    "exact_violations": 4,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q511902"
+    ],
+    "valid_counts": {
+      "Q511902": 8
+    },
+    "category": "football_clubs__ghana"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "football_clubs__ethiopia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 913,
+    "distinct_valid": 8,
+    "n_id_prefix_hits": 903,
+    "distinct_id_prefix_hits": 8,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q247731",
+      "Q25238665",
+      "Q412502",
+      "Q607939",
+      "Q784965",
+      "Q8027822",
+      "Q857048",
+      "Q884858"
+    ],
+    "valid_counts": {
+      "Q784965": 428,
+      "Q607939": 234,
+      "Q247731": 168,
+      "Q412502": 23,
+      "Q857048": 43,
+      "Q25238665": 11,
+      "Q884858": 5,
+      "Q8027822": 1
+    },
+    "category": "football_clubs__south_africa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 60,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 60,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1151980",
+      "Q1209713"
+    ],
+    "valid_counts": {
+      "Q1151980": 57,
+      "Q1209713": 3
+    },
+    "category": "football_clubs__indonesia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 26,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 121,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1188988",
+      "Q28439847",
+      "Q5064191"
+    ],
+    "valid_counts": {
+      "Q28439847": 17,
+      "Q1188988": 7,
+      "Q5064191": 2
+    },
+    "category": "football_clubs__philippines"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 109,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 104,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1116951",
+      "Q1201894",
+      "Q406796",
+      "Q560392"
+    ],
+    "valid_counts": {
+      "Q1201894": 9,
+      "Q560392": 29,
+      "Q406796": 70,
+      "Q1116951": 1
+    },
+    "category": "football_clubs__vietnam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "football_clubs__brazil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 864,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 864,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q30115953",
+      "Q459090",
+      "Q845859"
+    ],
+    "valid_counts": {
+      "Q459090": 753,
+      "Q845859": 101,
+      "Q30115953": 10
+    },
+    "category": "football_clubs__mexico"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 233,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 233,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q15799"
+    ],
+    "valid_counts": {
+      "Q15799": 233
+    },
+    "category": "football_clubs__argentina"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 861,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 861,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1424072",
+      "Q391984",
+      "Q47533"
+    ],
+    "valid_counts": {
+      "Q1424072": 347,
+      "Q391984": 456,
+      "Q47533": 58
+    },
+    "category": "football_clubs__colombia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 529,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 529,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q16932",
+      "Q738423",
+      "Q855401",
+      "Q874016"
+    ],
+    "valid_counts": {
+      "Q874016": 173,
+      "Q16932": 309,
+      "Q738423": 21,
+      "Q855401": 26
+    },
+    "category": "football_clubs__japan"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 531,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 531,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q242260"
+    ],
+    "valid_counts": {
+      "Q242260": 531
+    },
+    "category": "football_clubs__iran"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 478,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 478,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q495299"
+    ],
+    "valid_counts": {
+      "Q495299": 478
+    },
+    "category": "football_clubs__turkey"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 76,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 76,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q190943"
+    ],
+    "valid_counts": {
+      "Q190943": 76
+    },
+    "category": "football_clubs__poland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 788,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 791,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q208584",
+      "Q275138",
+      "Q382324",
+      "Q574997"
+    ],
+    "valid_counts": {
+      "Q208584": 763,
+      "Q574997": 12,
+      "Q275138": 11,
+      "Q382324": 2
+    },
+    "category": "football_clubs__finland"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "football_clubs__france"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 296,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 296,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q18380286",
+      "Q238593",
+      "Q309095",
+      "Q457163",
+      "Q642291"
+    ],
+    "valid_counts": {
+      "Q457163": 102,
+      "Q642291": 26,
+      "Q309095": 70,
+      "Q238593": 20,
+      "Q18380286": 78
+    },
+    "category": "football_clubs__usa"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 408,
+    "distinct_valid": 5,
+    "n_id_prefix_hits": 405,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1380058",
+      "Q3163288",
+      "Q3503350",
+      "Q3534380",
+      "Q665315"
+    ],
+    "valid_counts": {
+      "Q3163288": 115,
+      "Q3534380": 227,
+      "Q3503350": 11,
+      "Q665315": 29,
+      "Q1380058": 26
+    },
+    "category": "writers_lang__tamil"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 211,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 211,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q6343602",
+      "Q6361647"
+    ],
+    "valid_counts": {
+      "Q6343602": 178,
+      "Q6361647": 33
+    },
+    "category": "writers_lang__telugu"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 612,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 612,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3351108",
+      "Q3595870",
+      "Q4834111",
+      "Q724089",
+      "Q7668623",
+      "Q8049771"
+    ],
+    "valid_counts": {
+      "Q7668623": 556,
+      "Q724089": 26,
+      "Q3351108": 18,
+      "Q8049771": 9,
+      "Q3595870": 2,
+      "Q4834111": 1
+    },
+    "category": "writers_lang__kannada"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 230,
+    "distinct_valid": 3,
+    "n_id_prefix_hits": 230,
+    "distinct_id_prefix_hits": 3,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3532812",
+      "Q546044",
+      "Q6324052"
+    ],
+    "valid_counts": {
+      "Q3532812": 178,
+      "Q546044": 51,
+      "Q6324052": 1
+    },
+    "category": "writers_lang__malayalam"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 0,
+    "distinct_valid": 0,
+    "n_id_prefix_hits": 0,
+    "distinct_id_prefix_hits": 0,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [],
+    "valid_counts": {},
+    "category": "writers_lang__bengali"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 17,
+    "distinct_valid": 2,
+    "n_id_prefix_hits": 17,
+    "distinct_id_prefix_hits": 2,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q3631381",
+      "Q3631800"
+    ],
+    "valid_counts": {
+      "Q3631800": 16,
+      "Q3631381": 1
+    },
+    "category": "writers_lang__hindi"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 166,
+    "distinct_valid": 10,
+    "n_id_prefix_hits": 148,
+    "distinct_id_prefix_hits": 9,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q1033695",
+      "Q2587826",
+      "Q312555",
+      "Q3309785",
+      "Q3519978",
+      "Q3595577",
+      "Q55779",
+      "Q55781",
+      "Q7293156",
+      "Q7916323"
+    ],
+    "valid_counts": {
+      "Q55781": 14,
+      "Q312555": 117,
+      "Q7293156": 17,
+      "Q3309785": 6,
+      "Q1033695": 2,
+      "Q3519978": 3,
+      "Q2587826": 2,
+      "Q55779": 1,
+      "Q3595577": 3,
+      "Q7916323": 1
+    },
+    "category": "writers_lang__marathi"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 211,
+    "distinct_valid": 6,
+    "n_id_prefix_hits": 211,
+    "distinct_id_prefix_hits": 6,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q2721893",
+      "Q2723011",
+      "Q2723574",
+      "Q2727327",
+      "Q2765949",
+      "Q2767900"
+    ],
+    "valid_counts": {
+      "Q2723574": 197,
+      "Q2765949": 1,
+      "Q2727327": 3,
+      "Q2721893": 8,
+      "Q2767900": 1,
+      "Q2723011": 1
+    },
+    "category": "writers_lang__gujarati"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 49,
+    "distinct_valid": 1,
+    "n_id_prefix_hits": 49,
+    "distinct_id_prefix_hits": 1,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q5619923"
+    ],
+    "valid_counts": {
+      "Q5619923": 49
+    },
+    "category": "writers_lang__punjabi"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 24,
+    "distinct_valid": 10,
+    "n_id_prefix_hits": 24,
+    "distinct_id_prefix_hits": 10,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q15711266",
+      "Q19842252",
+      "Q29167788",
+      "Q31320029",
+      "Q31320058",
+      "Q3635688",
+      "Q3635724",
+      "Q5314070",
+      "Q5320261",
+      "Q5886890"
+    ],
+    "valid_counts": {
+      "Q15711266": 2,
+      "Q29167788": 1,
+      "Q5314070": 9,
+      "Q31320029": 1,
+      "Q5320261": 4,
+      "Q5886890": 3,
+      "Q3635688": 1,
+      "Q31320058": 1,
+      "Q19842252": 1,
+      "Q3635724": 1
+    },
+    "category": "writers_lang__odia"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 102,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 103,
+    "distinct_id_prefix_hits": 5,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q11012539",
+      "Q2223219",
+      "Q3595897",
+      "Q4900476"
+    ],
+    "valid_counts": {
+      "Q4900476": 77,
+      "Q2223219": 15,
+      "Q3595897": 8,
+      "Q11012539": 2
+    },
+    "category": "writers_lang__assamese"
+  },
+  {
+    "spec": "p0.90_T1",
+    "margin": 0.5,
+    "n_samples": 1000,
+    "n_valid_text": 355,
+    "distinct_valid": 4,
+    "n_id_prefix_hits": 355,
+    "distinct_id_prefix_hits": 4,
+    "violations": 0,
+    "violation_examples": [],
+    "boundary_hits": 0,
+    "boundary_examples": [],
+    "exact_violations": 0,
+    "noncanonical": 0,
+    "noncanonical_examples": [],
+    "distinct_valid_qids": [
+      "Q107000",
+      "Q156501",
+      "Q174152",
+      "Q3080325"
+    ],
+    "valid_counts": {
+      "Q174152": 6,
+      "Q107000": 328,
+      "Q156501": 11,
+      "Q3080325": 10
+    },
+    "category": "writers_lang__urdu"
+  }
+]
