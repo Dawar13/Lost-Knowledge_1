@@ -29,6 +29,15 @@ for judging generated names in P4 and P5). Full sha256 values: `metrics/manifest
 
 | `G1` | **gate G1 (P2)**: OLMo-2 base, SFT, DPO, Instruct; analysis also uses the Qwen pair from `G0_5090` | RTX 5090 32 GB, dedicated | 7a50eb9 | pilot_v2 | OLMo-2-1124-7B (7df9a82), -SFT (1de02c0), -DPO (e34ea60), -Instruct (470b1fb) | 0.5 | H2 HOLDS, H3 HOLDS | 0.257 incl. 0.013 failed run |
 
+| `P3_robust` | P3 robustness (E7): pilot_v2, 5 templates, temperature sweep (T 1.0 / 0.7 / 0.5 at top-p 0.9); Qwen and OLMo pairs | RTX 5090 | ff7fce2 | pilot_v2 | Qwen2.5-7B(-Instruct), OLMo-2-1124-7B(-Instruct) | Qwen 0.75, OLMo 0.5 | wording CV 0.009 to 0.106 (all below 0.25) | about 0.23 |
+| `P5` | **gate G3**: mitigation frontier (14 samplers incl. first-token relaxation), pilot_v2, template 0, 1,000 samples per category per sampler; `audit/` holds the invented-name sensitivity and the 200-answer hand-audit sheet | RTX 5090 | a2be437 (frontier), ca604db (audit) | pilot_v2 | Qwen2.5-7B-Instruct, OLMo-2-1124-7B-Instruct | Qwen 0.75, OLMo 0.5 | G3 FAIL (recovered 12.3% and 23.7%) | about 0.42 |
+| `P3` | **gate G2**: full TailCat capped split full_v1_s150 (277 categories, 33,437 members), 3 templates; sample check at scale for the instruct models; P4 estimator tables in `P3/metrics/` | RTX 5090 | 3053872 era (see meta.json) | full_v1_s150 | Qwen and OLMo pairs | Qwen 0.75, OLMo 0.5 | running at the time of writing | |
+| `P3_scale` | scale ladder (exploratory): Qwen2.5-Instruct 0.5B / 1.5B / 3B on pilot_v2 | RTX 5090 | | pilot_v2 | Qwen2.5-{0.5,1.5,3}B-Instruct | per model | queued | |
+
+Data split for P3: `data/tailcat/full_v1` (uncapped build, 346 categories; raw Wikidata cache as
+`data/tailcat/full_v1_raw.tar.gz`, sha256 dae975aa57d7a5928955cff45b27e4b14f30b8480fbb46d4c3951d3467bb2372)
+and `data/tailcat/full_v1_s150` (capped split used by the runs; copied in when P3 finishes).
+
 G1 layout: `G1/<model>/` as for G0 (plus `first_token.json`, `prompts.json`, `samples.jsonl.gz` for the
 post-trained stages); `G1/calibration/<model>/`; `G1/metrics/<model or pair>/` (mb5.metrics per model);
 `G1/stages.csv`, `G1/paired.csv`, `G1/mechanism.csv`, `G1/g1_summary.json` (mb5.analysis_multi).
