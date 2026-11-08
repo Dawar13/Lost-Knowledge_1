@@ -1,0 +1,42 @@
+{
+  "inputs_sha256": {
+    "OLMo-2-1124-7B-SFT/reach.jsonl.gz": "955a82cf53679a710573f9d6734f1963d1c655bfa74dc4fe30be82e02f43819c",
+    "OLMo-2-1124-7B-SFT/recog.jsonl.gz": "f357a9cfcc2253e53e0eddd6a58e339a739b790eee523333669006a66e565515",
+    "OLMo-2-1124-7B-SFT/meta.json": "ed00a47e9b46224fd796fb7eb9667ef7acf617b86ff03b327a4c1bcac8aacb5d",
+    "OLMo-2-1124-7B-SFT/sample_check.json": "a2fc1ab2ac396b288677a1f240d13c36f272c9999b18b34b09c5c7e31fe0f4c5",
+    "calibration/OLMo-2-1124-7B-SFT/selfcheck.json": "24eb8556932346a4c580a401bee9a47a8a76be731d0985255d65a9c3c0c01dc1",
+    "data:categories.json": "d3a10f2c393b9b1f455a28545924ee32b43c657af45950efc80eb706781ae7f1",
+    "data:entities.jsonl": "7cc454ad2d44a5dc1ed29a40ef9b891054d5ce3bb29dfd0318c037e0277ec122",
+    "data:foils.jsonl": "f58796b2a958d7dc8a562170ce1ced84d949df3e9fa9db70ca4201164eb2cce8",
+    "data:valid_names.json": "3ca540e23d848427a41d7822010df92d67f05ecae6973c441f4b350d8a26fb58",
+    "data:build_report.json": "0652a8d507b13e151f2aab89bde6b87787e6016aa6eb998641c93eeb7d62b141"
+  },
+  "code": {
+    "tree_sha256": "5767c412700cf7c8",
+    "git_head": "7a50eb932598d8c1aa018682bf98a04bac92bdbc",
+    "git_dirty": false
+  },
+  "utc": "2026-11-08T16:18:17Z",
+  "args": {
+    "results": "results/G1",
+    "data": "data/tailcat/pilot_v2",
+    "instruct": "OLMo-2-1124-7B-SFT",
+    "base": null,
+    "metrics_dir": "metrics/OLMo-2-1124-7B-SFT"
+  },
+  "tables": [
+    "calibration_OLMo-2-1124-7B-SFT.json",
+    "entities_OLMo-2-1124-7B-SFT.csv",
+    "failpos_OLMo-2-1124-7B-SFT.csv",
+    "headline.json",
+    "length_OLMo-2-1124-7B-SFT.csv",
+    "popularity_OLMo-2-1124-7B-SFT.csv",
+    "rbu_OLMo-2-1124-7B-SFT.csv",
+    "rbu_by_category_OLMo-2-1124-7B-SFT.csv",
+    "rbu_curves_OLMo-2-1124-7B-SFT.csv",
+    "reachable_set_OLMo-2-1124-7B-SFT.csv",
+    "sample_check_OLMo-2-1124-7B-SFT.csv",
+    "top_answers_OLMo-2-1124-7B-SFT.csv",
+    "validity_OLMo-2-1124-7B-SFT.csv"
+  ]
+}

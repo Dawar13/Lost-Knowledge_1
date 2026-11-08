@@ -1,0 +1,121 @@
+spec,category,rank,answer,count,share,distinct_answers_in_category,matched_member_qid,in_sampled_members,in_all_wikidata_members
+p0.90_T1,assamese_writers,1,bhabananda deka,99,0.099,674,Q4900476,True,True
+p0.90_T1,assamese_writers,2,bhabananda borah,22,0.022,674,,False,False
+p0.90_T1,assamese_writers,3,bhabesh bordoloi,17,0.017,674,,False,False
+p0.90_T1,assamese_writers,4,bhabani prasad rabha,16,0.016,674,,False,False
+p0.90_T1,assamese_writers,5,bhabendra nath saikia,15,0.015,674,Q2223219,True,True
+p0.90_T1,assamese_writers,6,jyoti prasad agarwala,15,0.015,674,,False,False
+p0.90_T1,assamese_writers,7,bishnu prasad rabha,14,0.014,674,,False,False
+p0.90_T1,assamese_writers,8,bhupen hazarika,10,0.01,674,,False,False
+p0.90_T1,assamese_writers,9,birendra kumar bhattacharya,10,0.01,674,Q3595897,True,True
+p0.90_T1,assamese_writers,10,jayanta mahapatra,9,0.009,674,,False,False
+p0.90_T1,assamese_writers,11,bhabananda borbhil,8,0.008,674,,False,False
+p0.90_T1,assamese_writers,12,bhabananda borowalia,7,0.007,674,,False,False
+p0.90_T1,assamese_writers,13,buranji deka,5,0.005,674,,False,False
+p0.90_T1,assamese_writers,14,bhabananda borbora,5,0.005,674,,False,False
+p0.90_T1,assamese_writers,15,bhabesh borah,5,0.005,674,,False,False
+p0.90_T1,bengali_film_directors,1,satyajit ray,1000,1.0,1,Q8873,True,True
+p0.90_T1,brazil_universities,1,universidade de são paulo (usp,322,0.322,8,,False,False
+p0.90_T1,brazil_universities,2,universidade de são paulo,223,0.223,8,Q835960,True,True
+p0.90_T1,brazil_universities,3,universidade federal de minas gerais (ufmg,201,0.201,8,,False,False
+p0.90_T1,brazil_universities,4,university of são paulo,188,0.188,8,Q835960,True,True
+p0.90_T1,brazil_universities,5,university of são paulo (usp,39,0.039,8,,False,False
+p0.90_T1,brazil_universities,6,universidade federal de rio de janeiro (ufrj,20,0.02,8,,False,False
+p0.90_T1,brazil_universities,7,universidade federal de rio grande do sul (ufrgs,4,0.004,8,,False,False
+p0.90_T1,brazil_universities,8,universidade federal de rio de janeiro,3,0.003,8,,False,False
+p0.90_T1,finland_lakes,1,saimaa,402,0.402,4,,False,True
+p0.90_T1,finland_lakes,2,lake saimaa,371,0.371,4,,False,True
+p0.90_T1,finland_lakes,3,päijänne,142,0.142,4,,False,True
+p0.90_T1,finland_lakes,4,saimaan,85,0.085,4,,False,False
+p0.90_T1,japanese_novelists,1,murakami haruki,517,0.517,42,,False,True
+p0.90_T1,japanese_novelists,2,murasaki shikibu,141,0.141,42,,False,True
+p0.90_T1,japanese_novelists,3,haruki murakami,115,0.115,42,,False,True
+p0.90_T1,japanese_novelists,4,yasutaka tsutsui,50,0.05,42,,False,True
+p0.90_T1,japanese_novelists,5,yukio mishima,36,0.036,42,,False,True
+p0.90_T1,japanese_novelists,6,natsume sōseki,34,0.034,42,,False,True
+p0.90_T1,japanese_novelists,7,kafka,24,0.024,42,,False,False
+p0.90_T1,japanese_novelists,8,yasunari kawabata,13,0.013,42,,False,True
+p0.90_T1,japanese_novelists,9,yoshikawa eiji,13,0.013,42,,False,True
+p0.90_T1,japanese_novelists,10,kenzaburō ōe,7,0.007,42,,False,True
+p0.90_T1,japanese_novelists,11,kenzaburo oë,6,0.006,42,,False,False
+p0.90_T1,japanese_novelists,12,kazuo ishiguro,6,0.006,42,,False,True
+p0.90_T1,japanese_novelists,13,kawabata yasunari,3,0.003,42,,False,False
+p0.90_T1,japanese_novelists,14,yoshika yamoto,3,0.003,42,,False,False
+p0.90_T1,japanese_novelists,15,kafka akutagawa,2,0.002,42,,False,False
+p0.90_T1,kerala_rivers,1,river periyar,465,0.465,192,,False,False
+p0.90_T1,kerala_rivers,2,muvattupuzha,35,0.035,192,,False,False
+p0.90_T1,kerala_rivers,3,bharathapuzha,34,0.034,192,,False,False
+p0.90_T1,kerala_rivers,4,ponnani river,32,0.032,192,,False,False
+p0.90_T1,kerala_rivers,5,river bharathapuzha,29,0.029,192,,False,False
+p0.90_T1,kerala_rivers,6,bhavani river,18,0.018,192,Q2900667,True,True
+p0.90_T1,kerala_rivers,7,valley,17,0.017,192,,False,False
+p0.90_T1,kerala_rivers,8,muvattupuzha river,17,0.017,192,,False,False
+p0.90_T1,kerala_rivers,9,river bharathappuzha,17,0.017,192,,False,False
+p0.90_T1,kerala_rivers,10,kaveri,17,0.017,192,,False,False
+p0.90_T1,kerala_rivers,11,valapattanam river,16,0.016,192,Q3521753,True,True
+p0.90_T1,kerala_rivers,12,ponnani,15,0.015,192,,False,False
+p0.90_T1,kerala_rivers,13,valapattanam,8,0.008,192,,False,False
+p0.90_T1,kerala_rivers,14,periyar river,8,0.008,192,Q2634049,True,True
+p0.90_T1,kerala_rivers,15,chaliyar,6,0.006,192,Q2604984,True,True
+p0.90_T1,nepal_mountains,1,everest,691,0.691,2,,False,False
+p0.90_T1,nepal_mountains,2,mount everest,309,0.309,2,Q513,True,True
+p0.90_T1,nigerian_painters,1,yinka shodeinde,193,0.193,337,,False,False
+p0.90_T1,nigerian_painters,2,ben enwonwu,75,0.075,337,Q4885605,True,True
+p0.90_T1,nigerian_painters,3,yemi fash-lanso,50,0.05,337,,False,False
+p0.90_T1,nigerian_painters,4,yemi aiyeola,42,0.042,337,,False,False
+p0.90_T1,nigerian_painters,5,yemi ajayi,38,0.038,337,,False,False
+p0.90_T1,nigerian_painters,6,yemi akintunde,28,0.028,337,,False,False
+p0.90_T1,nigerian_painters,7,elvis sekibo,28,0.028,337,,False,False
+p0.90_T1,nigerian_painters,8,yinka shonibar,21,0.021,337,,False,False
+p0.90_T1,nigerian_painters,9,wole soyinka,20,0.02,337,,False,False
+p0.90_T1,nigerian_painters,10,yinka shodeke,18,0.018,337,,False,False
+p0.90_T1,nigerian_painters,11,yinka shoda,15,0.015,337,,False,False
+p0.90_T1,nigerian_painters,12,yinka shodeka,11,0.011,337,,False,False
+p0.90_T1,nigerian_painters,13,yemi aiye,11,0.011,337,,False,False
+p0.90_T1,nigerian_painters,14,yinka shode,10,0.01,337,,False,False
+p0.90_T1,nigerian_painters,15,yinka shodipeh,10,0.01,337,,False,False
+p0.90_T1,tamil_poets,1,subramania bharati,149,0.149,249,,False,False
+p0.90_T1,tamil_poets,2,subramanya bharathi,138,0.138,249,Q256286,True,True
+p0.90_T1,tamil_poets,3,subramanya bharati,105,0.105,249,,False,False
+p0.90_T1,tamil_poets,4,பாரதியார்,73,0.073,249,,False,False
+p0.90_T1,tamil_poets,5,subramaniya bharati,55,0.055,249,,False,False
+p0.90_T1,tamil_poets,6,subramaniya bharathi,54,0.054,249,,False,False
+p0.90_T1,tamil_poets,7,subramania bharathi,42,0.042,249,Q256286,True,True
+p0.90_T1,tamil_poets,8,tolkaappiyar,27,0.027,249,,False,False
+p0.90_T1,tamil_poets,9,subramaniya bharathiyar,21,0.021,249,,False,False
+p0.90_T1,tamil_poets,10,bharathiyar,14,0.014,249,,False,False
+p0.90_T1,tamil_poets,11,tamil poet - subramanya bharathi,6,0.006,249,,False,False
+p0.90_T1,tamil_poets,12,பரிப்பெருமான்,6,0.006,249,,False,False
+p0.90_T1,tamil_poets,13,tamil,6,0.006,249,,False,False
+p0.90_T1,tamil_poets,14,tamil poet: subramanya bharati,6,0.006,249,,False,False
+p0.90_T1,tamil_poets,15,tamil poet: subramanya bharathi,5,0.005,249,,False,False
+p0.90_T1,tamilnadu_hindu_temples,1,meenakshi amman temple,837,0.837,47,Q1424358,True,True
+p0.90_T1,tamilnadu_hindu_temples,2,ranganathswamy temple,39,0.039,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,3,ranganathaswamy temple,23,0.023,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,4,thiruvannamalai,10,0.01,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,5,thirupathi,9,0.009,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,6,thirumalai nadar temple,8,0.008,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,7,thiruvarur temple,8,0.008,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,8,thiruchendur murugan temple,6,0.006,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,9,thiruvannaamalai,4,0.004,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,10,thiruchendur temple,4,0.004,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,11,thiruvenkatam,3,0.003,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,12,thirukkovil,3,0.003,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,13,thirupathi venkateswara temple,3,0.003,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,14,thiruvanaikaval,3,0.003,47,,False,False
+p0.90_T1,tamilnadu_hindu_temples,15,thiruvarangam temple,2,0.002,47,,False,False
+p0.90_T1,us_state_capitals,1,phoenix,275,0.275,18,Q16556,True,True
+p0.90_T1,us_state_capitals,2,montgomery,219,0.219,18,Q29364,True,True
+p0.90_T1,us_state_capitals,3,atlanta,178,0.178,18,Q23556,True,True
+p0.90_T1,us_state_capitals,4,albany,145,0.145,18,Q24861,True,True
+p0.90_T1,us_state_capitals,5,denver,28,0.028,18,Q16554,True,True
+p0.90_T1,us_state_capitals,6,springfield,26,0.026,18,Q28515,True,True
+p0.90_T1,us_state_capitals,7,austin,25,0.025,18,Q16559,True,True
+p0.90_T1,us_state_capitals,8,sacramento,23,0.023,18,Q18013,True,True
+p0.90_T1,us_state_capitals,9,"washington, d.c",20,0.02,18,,False,False
+p0.90_T1,us_state_capitals,10,washington,15,0.015,18,,False,False
+p0.90_T1,us_state_capitals,11,boston,13,0.013,18,Q100,True,True
+p0.90_T1,us_state_capitals,12,juneau,9,0.009,18,,False,False
+p0.90_T1,us_state_capitals,13,jackson,9,0.009,18,Q28198,True,True
+p0.90_T1,us_state_capitals,14,jacksonville,5,0.005,18,,False,False
+p0.90_T1,us_state_capitals,15,harrisburg,4,0.004,18,Q25280,True,True

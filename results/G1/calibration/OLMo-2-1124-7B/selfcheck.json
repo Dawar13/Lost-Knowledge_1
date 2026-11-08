@@ -1,0 +1,685 @@
+{
+  "total": {
+    "distinct": 4880,
+    "unreachable": 54,
+    "robust_unreachable@0.25": 1,
+    "robust_unreachable@0.5": 0,
+    "robust_unreachable@0.75": 0,
+    "robust_unreachable@1.0": 0,
+    "robust_unreachable@1.5": 0,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "p0.90_T1": 0.3359
+  },
+  "epsilon_rule": 0.5,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 10760,
+      "mean": 0.2672767309118824,
+      "q0.5": 0.25537109375,
+      "q0.9": 0.30078125,
+      "q0.99": 0.5914453124999994,
+      "q0.999": 3.479523437499992,
+      "max": 9.003585815429688
+    },
+    "rel_near": {
+      "n_positions": 10760,
+      "mean": 0.02652093197554904,
+      "q0.5": 0.0078125,
+      "q0.9": 0.078125,
+      "q0.99": 0.15625,
+      "q0.999": 0.25,
+      "max": 1.546875
+    },
+    "dG_T1.0": {
+      "n_positions": 10760,
+      "mean": 0.0023472448790162028,
+      "q0.5": 0.0,
+      "q0.9": 0.003909534215927124,
+      "q0.99": 0.03272418737411496,
+      "q0.999": 0.2887949434816834,
+      "max": 0.49467745423316956
+    },
+    "dG_T0.7": {
+      "n_positions": 10760,
+      "mean": 0.002651937175749846,
+      "q0.5": 0.0,
+      "q0.9": 0.003916102647781373,
+      "q0.99": 0.03420652866363524,
+      "q0.999": 0.4001873348355293,
+      "max": 0.5022957921028137
+    },
+    "drank": {
+      "n_positions": 10760,
+      "mean": 0.06013011152416357,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 1.0,
+      "q0.999": 3.0,
+      "max": 6.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 447,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Subramanya Bharati\n\nQuestion: Name a country in South Asia. Reply with only the name.\nAnswer: Afghanistan",
+          "failpos": 23,
+          "rank": 6,
+          "G_T1": 0.900033,
+          "top_p": 0.9
+        },
+        {
+          "text": " Bharathiyar\n\nQuestion: What was the nickname of Charles The First.\nAnswer: Hamlet\n\nQuestion: What",
+          "failpos": 13,
+          "rank": 121,
+          "G_T1": 0.899075,
+          "top_p": 0.9
+        },
+        {
+          "text": " திரு ஆண்டொல்லாக்க�",
+          "failpos": 12,
+          "rank": 4,
+          "G_T1": 0.900221,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 432,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Vamana River\n\nQuestion: Who was the winner of the first F1 Grand Prix of India?\nAnswer: Lewis",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.903147,
+          "top_p": 0.9
+        },
+        {
+          "text": " Vamvakaranyar\n\nQuestion: Name a state in India where the major occupation is agriculture. Reply with only",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.903147,
+          "top_p": 0.9
+        },
+        {
+          "text": " Vembanad Lake\n\nQuestion: Which US state is North Dakota closest to? Reply with only the name.\nAnswer",
+          "failpos": 12,
+          "rank": 79,
+          "G_T1": 0.899776,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 434,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Meenakshi amman temple\n\nQuestion: What is the capital of Queensland?\nAnswer: brisbane\n\nQuestion",
+          "failpos": 15,
+          "rank": 156,
+          "G_T1": 0.899487,
+          "top_p": 0.9
+        },
+        {
+          "text": " Taj Mahal\n\nQuestion: Name a James Bond movie.\nAnswer: Goldfinger\n\nThe way the quiz worked was a",
+          "failpos": 0,
+          "rank": 118,
+          "G_T1": 0.903313,
+          "top_p": 0.9
+        },
+        {
+          "text": " Tirumala venkateswara temple\n\nQuestion: Name an award given by the British Government to individuals for services",
+          "failpos": 3,
+          "rank": 8,
+          "G_T1": 0.900718,
+          "top_p": 0.9
+        },
+        {
+          "text": " Vishnu temple\n\nQuestion: Give an adjective of a kind of car. Reply with the car followed by \" is \"",
+          "failpos": 0,
+          "rank": 114,
+          "G_T1": 0.901311,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 456,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Hergo\n\nQuestion: Who made the movie \"Das Boot\"? Reply with only the name.\nAnswer: Wolfgang Peters",
+          "failpos": 11,
+          "rank": 339,
+          "G_T1": 0.900227,
+          "top_p": 0.9
+        },
+        {
+          "text": " Yukio Mishima\n\nQuestion: Name a famous Canadian. Reply with only the name.\nAnswer: Vincent Massey\n\n",
+          "failpos": 20,
+          "rank": 131,
+          "G_T1": 0.902398,
+          "top_p": 0.9
+        },
+        {
+          "text": " Yasunari Kawabata\n\nQuestion: I'm thinking of a number. If you subtract it from 50,",
+          "failpos": 9,
+          "rank": 12,
+          "G_T1": 0.900828,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 417,
+      "unreachable": 6,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Mount Everest\n\nQuestion: When is Charles Darwin's birthday? Reply with a single number.\nAnswer: 24th of",
+          "failpos": 14,
+          "rank": 2,
+          "G_T1": 0.880846,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: What is the name of a unit of measurement in England? Reply with only the unit.\nAnswer",
+          "failpos": 21,
+          "rank": 2,
+          "G_T1": 0.914746,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mount Everest\n\nQuestion: Name a commodity traded in the NYSE. Reply with only the commodity name.\nAnswer: Google",
+          "failpos": 18,
+          "rank": 1,
+          "G_T1": 0.90268,
+          "top_p": 0.9
+        },
+        {
+          "text": " Mt. Everest\n\nQuestion: Name a Christian religious holiday that takes place in the month of July. Reply with only the",
+          "failpos": 18,
+          "rank": 8,
+          "G_T1": 0.914523,
+          "top_p": 0.9
+        },
+        {
+          "text": " Himalayas\n\nQuestion: Who is the best known “Olympics” athlete?\nAnswer: Michael Phelps\n\nQuestion:",
+          "failpos": 13,
+          "rank": 2,
+          "G_T1": 0.90272,
+          "top_p": 0.9
+        },
+        {
+          "text": " Everest\n\nQuestion: Name a famous engineer.\nAnswer: James Watt\n\nQuestion: Name a famous economist.\nAnswer: Smith",
+          "failpos": 23,
+          "rank": 10,
+          "G_T1": 0.898191,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 465,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Itaubadin\n\nQuestion: Name a color. Reply with only the color.\nAnswer: Purple<|endoftext|>",
+          "failpos": 14,
+          "rank": 1,
+          "G_T1": 0.901558,
+          "top_p": 0.9
+        },
+        {
+          "text": " Fed. Univ. of Rio Grande\n\nQuestion: Name a bird. Reply with only the name.\nAnswer: albat",
+          "failpos": 7,
+          "rank": 2,
+          "G_T1": 0.900572,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 462,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " The Alvellskärken\n\nQuestion: How far is Earth from the sun? Reply with only the distance.\nAnswer",
+          "failpos": 5,
+          "rank": 184,
+          "G_T1": 0.898279,
+          "top_p": 0.9
+        },
+        {
+          "text": " Aland Sea\n\nQuestion: Who was the ruler of England at the time of Charles I's execution?\nAnswer: Crom",
+          "failpos": 16,
+          "rank": 10,
+          "G_T1": 0.90053,
+          "top_p": 0.9
+        },
+        {
+          "text": " Elgrjärvi\n\nQuestion: What's the name of the Spanish dance? Reply with only the name.\nAnswer",
+          "failpos": 0,
+          "rank": 326,
+          "G_T1": 0.899724,
+          "top_p": 0.9
+        },
+        {
+          "text": " LakeInari\n\nQuestion: Name the political party in Great Britain that formed on June 27, 1989.",
+          "failpos": 15,
+          "rank": 9,
+          "G_T1": 0.904766,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 420,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Ben Enwonwu\n\nQuestion: 1.27 x 10^6 ms^-2 = m/s\nAnswer",
+          "failpos": 7,
+          "rank": 18,
+          "G_T1": 0.901254,
+          "top_p": 0.9
+        },
+        {
+          "text": " Ben Enwonwu\n\nQuestion:  Name a Nigerian footballer who plays as a striker for the Nigeria national team",
+          "failpos": 7,
+          "rank": 18,
+          "G_T1": 0.901254,
+          "top_p": 0.9
+        },
+        {
+          "text": " Ben Enwonwu\n\nQuestion: I'll say a South American country. You give me an answer starting with E.\n",
+          "failpos": 11,
+          "rank": 126,
+          "G_T1": 0.899052,
+          "top_p": 0.9
+        },
+        {
+          "text": " Gabriel Oguntunde Adebayo\n\nQuestion: Name a non-American state that the USA has been involved in a war",
+          "failpos": 4,
+          "rank": 6,
+          "G_T1": 0.903892,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 419,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Satyajit Ray\n\nQuestion: The United States Supreme Court in United States v. Nixon (1974)",
+          "failpos": 14,
+          "rank": 12,
+          "G_T1": 0.904752,
+          "top_p": 0.9
+        },
+        {
+          "text": " Satyajit Ray\n\nQuestion: Name a famous girl born in Columbus.\nAnswer: Lauren Hutton\n\nQuestion:",
+          "failpos": 14,
+          "rank": 218,
+          "G_T1": 0.899972,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 479,
+      "unreachable": 14,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " Aima Bishwa\nRationale: Aima Bishwa is an Assamese novelist, short-story writer",
+          "failpos": 19,
+          "rank": 1,
+          "G_T1": 0.900025,
+          "top_p": 0.9
+        },
+        {
+          "text": " Jnanashakat Guru Atish Dipankar\n\nQuestion: Who wrote the song, ‘I’d love to",
+          "failpos": 4,
+          "rank": 12,
+          "G_T1": 0.903805,
+          "top_p": 0.9
+        },
+        {
+          "text": " Madhur Dhan Chen\nQuestion: Name a deity. Reply with only the name.\nAnswer: Jesus Christ\n",
+          "failpos": 5,
+          "rank": 229,
+          "G_T1": 0.900484,
+          "top_p": 0.9
+        },
+        {
+          "text": " Madan Chandra Goswami<|endoftext|>",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.8962,
+          "top_p": 0.9
+        },
+        {
+          "text": " mystic poet and spiritualist\n\nQuestion: Name a vegetable (food). Reply with only the name.\nAnswer: chili",
+          "failpos": 0,
+          "rank": 445,
+          "G_T1": 0.901354,
+          "top_p": 0.9
+        },
+        {
+          "text": " Miri Mesai\n\nQuestion: Name a scripture which begins with Upanishad.\nAnswer: Rigveda\n\n",
+          "failpos": 9,
+          "rank": 887,
+          "G_T1": 0.900303,
+          "top_p": 0.9
+        },
+        {
+          "text": " Rabindranath Tagore\n\nQuestion: Which is the only one of the six Indian Space Research Organization (ISRO",
+          "failpos": 18,
+          "rank": 203,
+          "G_T1": 0.899221,
+          "top_p": 0.9
+        },
+        {
+          "text": " Lakshminath Bezbarua\n\nQuestion: Name a religion followed by Indians. Reply with only the name.\nAnswer",
+          "failpos": 6,
+          "rank": 1,
+          "G_T1": 0.901655,
+          "top_p": 0.9
+        },
+        {
+          "text": " Lakshminath Bezbarua\n\nQuestion: Name a herb. Reply with only the name.\nAnswer: basil\n\n",
+          "failpos": 6,
+          "rank": 1,
+          "G_T1": 0.901655,
+          "top_p": 0.9
+        },
+        {
+          "text": " Lakshminath Bezbarua\n\nQuestion: Give an example of a usage of int.\nAnswer: int x;\n\n",
+          "failpos": 6,
+          "rank": 1,
+          "G_T1": 0.901655,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 449,
+      "unreachable": 9,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": " birmingham\n\nQuestion: Name a classic book that kids have to read in school. Reply with only the name.\nAnswer",
+          "failpos": 1,
+          "rank": 2,
+          "G_T1": 0.902568,
+          "top_p": 0.9
+        },
+        {
+          "text": " boise\n\nQuestion: Name something you might find in a pencil box. Reply with only the name.\nAnswer: er",
+          "failpos": 6,
+          "rank": 3,
+          "G_T1": 0.901253,
+          "top_p": 0.9
+        },
+        {
+          "text": " greenville<|endoftext|>",
+          "failpos": 0,
+          "rank": 212,
+          "G_T1": 0.903391,
+          "top_p": 0.9
+        },
+        {
+          "text": " Washington\n\nQuestion: What is the only state named after a President? Answer: Jefferson\nAnswer: Oklahoma<|endoftext|>",
+          "failpos": 14,
+          "rank": 2,
+          "G_T1": 0.900274,
+          "top_p": 0.9
+        },
+        {
+          "text": " Boston\n\nQuestion: If you want to buy a washer or dryer where should you go? Reply with only the name.\n",
+          "failpos": 4,
+          "rank": 14,
+          "G_T1": 0.900358,
+          "top_p": 0.9
+        },
+        {
+          "text": " Jackson\n\nQuestion: Name something you're running for. Reply with only the name.\nAnswer: office\n\nQuestion: Name",
+          "failpos": 5,
+          "rank": 3,
+          "G_T1": 0.90142,
+          "top_p": 0.9
+        },
+        {
+          "text": " Atlanta\n\nQuestion: Name something people put up over their bed. Reply with only the name.\nAnswer: fan\n\nQuestion",
+          "failpos": 5,
+          "rank": 3,
+          "G_T1": 0.900261,
+          "top_p": 0.9
+        },
+        {
+          "text": " Phoenix\n\nQuestion: Name a saint who could put out a fire. Reply with only the name.\nAnswer: Saint Nicholas",
+          "failpos": 9,
+          "rank": 48,
+          "G_T1": 0.900147,
+          "top_p": 0.9
+        },
+        {
+          "text": " Charleston\n\nQuestion: Name a fabric other than cotton. Reply with only the name.\nAnswer: Linen\n\nQuestion:",
+          "failpos": 7,
+          "rank": 25,
+          "G_T1": 0.901027,
+          "top_p": 0.9
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "model": "allenai/OLMo-2-1124-7B",
+    "commit": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+    "code": {
+      "tree_sha256": "5767c412700cf7c8",
+      "git_head": "7a50eb932598d8c1aa018682bf98a04bac92bdbc",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "utc": "2026-11-08T16:05:56Z",
+    "cuda_visible_devices": null,
+    "seconds": 135.74441742897034,
+    "peak_gpu_gib": 18.215267658233643,
+    "args": {
+      "model": "allenai/OLMo-2-1124-7B",
+      "data": "data/tailcat/pilot_v2",
+      "out": "results/G1/calibration",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 1,
+      "gap_samples": 50,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cuda",
+      "limit_categories": null
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      }
+    }
+  }
+}

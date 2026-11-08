@@ -1,0 +1,130 @@
+spec,category,rank,answer,count,share,distinct_answers_in_category,matched_member_qid,in_sampled_members,in_all_wikidata_members
+p0.90_T1,assamese_writers,1,bhabananda deka,66,0.066,712,Q4900476,True,True
+p0.90_T1,assamese_writers,2,bhabendra nath saikia,24,0.024,712,Q2223219,True,True
+p0.90_T1,assamese_writers,3,bhabananda borah,18,0.018,712,,False,False
+p0.90_T1,assamese_writers,4,birendra kumar bhattacharya,15,0.015,712,Q3595897,True,True
+p0.90_T1,assamese_writers,5,bishnu prasad rabha,14,0.014,712,,False,False
+p0.90_T1,assamese_writers,6,bhabesh kalita,12,0.012,712,,False,False
+p0.90_T1,assamese_writers,7,bharatiya gohain,12,0.012,712,,False,False
+p0.90_T1,assamese_writers,8,bhupen hazarika,11,0.011,712,,False,False
+p0.90_T1,assamese_writers,9,jyoti prasad agarwala,11,0.011,712,,False,False
+p0.90_T1,assamese_writers,10,bhabesh bordoloi,11,0.011,712,,False,False
+p0.90_T1,assamese_writers,11,gopi prasad,6,0.006,712,,False,False
+p0.90_T1,assamese_writers,12,jayanta mahapatra,5,0.005,712,,False,False
+p0.90_T1,assamese_writers,13,bhabesh bhuyan,5,0.005,712,,False,False
+p0.90_T1,assamese_writers,14,birendranath deka,4,0.004,712,,False,False
+p0.90_T1,assamese_writers,15,bhabesh borah,4,0.004,712,,False,False
+p0.90_T1,bengali_film_directors,1,satyajit ray,1000,1.0,1,Q8873,True,True
+p0.90_T1,brazil_universities,1,universidade de são paulo,502,0.502,15,Q835960,True,True
+p0.90_T1,brazil_universities,2,university of são paulo,229,0.229,15,Q835960,True,True
+p0.90_T1,brazil_universities,3,universidade de são paulo (usp,99,0.099,15,,False,False
+p0.90_T1,brazil_universities,4,universidade federal de minas gerais (ufmg,48,0.048,15,,False,False
+p0.90_T1,brazil_universities,5,universidade federal de minas gerais,45,0.045,15,Q132140,True,True
+p0.90_T1,brazil_universities,6,federal university of rio de janeiro (ufrj,25,0.025,15,,False,False
+p0.90_T1,brazil_universities,7,federal university of rio de janeiro,19,0.019,15,Q586904,True,True
+p0.90_T1,brazil_universities,8,federal university of são paulo (unifesp,7,0.007,15,,False,False
+p0.90_T1,brazil_universities,9,federal university of minas gerais (ufmg,6,0.006,15,,False,False
+p0.90_T1,brazil_universities,10,federal university of minas gerais,5,0.005,15,Q132140,True,True
+p0.90_T1,brazil_universities,11,federal university of são paulo,5,0.005,15,Q4384447,True,True
+p0.90_T1,brazil_universities,12,universidade federal de são paulo (unifesp,4,0.004,15,,False,False
+p0.90_T1,brazil_universities,13,universidade federal de são paulo,3,0.003,15,Q4384447,True,True
+p0.90_T1,brazil_universities,14,universidade federal de pernambuco,2,0.002,15,Q2322256,True,True
+p0.90_T1,brazil_universities,15,federal university of são paulo (universidade federal de são paulo,1,0.001,15,,False,False
+p0.90_T1,finland_lakes,1,saimaa,459,0.459,5,,False,True
+p0.90_T1,finland_lakes,2,lake saimaa,295,0.295,5,,False,True
+p0.90_T1,finland_lakes,3,päijänne,149,0.149,5,,False,True
+p0.90_T1,finland_lakes,4,saimaan,87,0.087,5,,False,False
+p0.90_T1,finland_lakes,5,saimaan lake,10,0.01,5,,False,False
+p0.90_T1,japanese_novelists,1,haruki murakami,615,0.615,52,,False,True
+p0.90_T1,japanese_novelists,2,murakami haruki,98,0.098,52,,False,True
+p0.90_T1,japanese_novelists,3,yukio mishima,54,0.054,52,,False,True
+p0.90_T1,japanese_novelists,4,kazuo ishiguro,28,0.028,52,,False,True
+p0.90_T1,japanese_novelists,5,junichiro tanizaki,25,0.025,52,,False,True
+p0.90_T1,japanese_novelists,6,yasutaka tsutsui,23,0.023,52,,False,True
+p0.90_T1,japanese_novelists,7,murasaki shikibu,23,0.023,52,,False,True
+p0.90_T1,japanese_novelists,8,kafka,15,0.015,52,,False,False
+p0.90_T1,japanese_novelists,9,kenzaburo oë,11,0.011,52,,False,False
+p0.90_T1,japanese_novelists,10,kobo abe,10,0.01,52,,False,True
+p0.90_T1,japanese_novelists,11,yasunari kawabata,10,0.01,52,,False,True
+p0.90_T1,japanese_novelists,12,kōbō abe,8,0.008,52,,False,True
+p0.90_T1,japanese_novelists,13,yoshikawa eiji,8,0.008,52,,False,True
+p0.90_T1,japanese_novelists,14,kenzaburo oe,8,0.008,52,,False,True
+p0.90_T1,japanese_novelists,15,kenzaburo oé,7,0.007,52,,False,False
+p0.90_T1,kerala_rivers,1,river periyar,377,0.377,232,,False,False
+p0.90_T1,kerala_rivers,2,kaveri,41,0.041,232,,False,False
+p0.90_T1,kerala_rivers,3,river bharathapuzha,37,0.037,232,,False,False
+p0.90_T1,kerala_rivers,4,ponnani river,27,0.027,232,,False,False
+p0.90_T1,kerala_rivers,5,river bharathappuzha,22,0.022,232,,False,False
+p0.90_T1,kerala_rivers,6,valapattanam river,19,0.019,232,Q3521753,True,True
+p0.90_T1,kerala_rivers,7,bharathapuzha,18,0.018,232,,False,False
+p0.90_T1,kerala_rivers,8,muvattupuzha,16,0.016,232,,False,False
+p0.90_T1,kerala_rivers,9,valapattanam,15,0.015,232,,False,False
+p0.90_T1,kerala_rivers,10,river pamba,14,0.014,232,,False,False
+p0.90_T1,kerala_rivers,11,ponnani,14,0.014,232,,False,False
+p0.90_T1,kerala_rivers,12,the river in kerala is the bharathapuzha,10,0.01,232,,False,False
+p0.90_T1,kerala_rivers,13,the river in kerala is called the bharathapuzha,10,0.01,232,,False,False
+p0.90_T1,kerala_rivers,14,periyar river,10,0.01,232,Q2634049,True,True
+p0.90_T1,kerala_rivers,15,neyyar river,10,0.01,232,,False,False
+p0.90_T1,nepal_mountains,1,mount everest,627,0.627,3,Q513,True,True
+p0.90_T1,nepal_mountains,2,everest,328,0.328,3,,False,False
+p0.90_T1,nepal_mountains,3,sagarmatha,45,0.045,3,,False,False
+p0.90_T1,nigerian_painters,1,yinka shodeinde,182,0.182,375,,False,False
+p0.90_T1,nigerian_painters,2,yinka shonibar,98,0.098,375,,False,False
+p0.90_T1,nigerian_painters,3,ben enwonwu,62,0.062,375,Q4885605,True,True
+p0.90_T1,nigerian_painters,4,yemi akintunde,37,0.037,375,,False,False
+p0.90_T1,nigerian_painters,5,yinka shode,32,0.032,375,,False,False
+p0.90_T1,nigerian_painters,6,yemi fash-lanso,21,0.021,375,,False,False
+p0.90_T1,nigerian_painters,7,yemi ajayi,21,0.021,375,,False,False
+p0.90_T1,nigerian_painters,8,yinka shodipẹ,20,0.02,375,,False,False
+p0.90_T1,nigerian_painters,9,yemi aiye,20,0.02,375,,False,False
+p0.90_T1,nigerian_painters,10,yinka shodipe,14,0.014,375,,False,False
+p0.90_T1,nigerian_painters,11,wole soyinka,12,0.012,375,,False,False
+p0.90_T1,nigerian_painters,12,yinka shodeka,10,0.01,375,,False,False
+p0.90_T1,nigerian_painters,13,yemi akinyemi,9,0.009,375,,False,False
+p0.90_T1,nigerian_painters,14,elvis sekibo,9,0.009,375,,False,False
+p0.90_T1,nigerian_painters,15,yemi aiyeola,8,0.008,375,,False,False
+p0.90_T1,tamil_poets,1,பாரதியார்,101,0.101,420,,False,False
+p0.90_T1,tamil_poets,2,subramanya bharathi,60,0.06,420,Q256286,True,True
+p0.90_T1,tamil_poets,3,subramania bharati,60,0.06,420,,False,False
+p0.90_T1,tamil_poets,4,subramaniya bharathi,40,0.04,420,,False,False
+p0.90_T1,tamil_poets,5,subramaniya bharati,34,0.034,420,,False,False
+p0.90_T1,tamil_poets,6,subramanya bharati,32,0.032,420,,False,False
+p0.90_T1,tamil_poets,7,பாரதிதாசன்,25,0.025,420,,False,False
+p0.90_T1,tamil_poets,8,திருவள்ளுவர்,20,0.02,420,,False,False
+p0.90_T1,tamil_poets,9,subramania bharathi,17,0.017,420,Q256286,True,True
+p0.90_T1,tamil_poets,10,subramaniya bharathiyar,17,0.017,420,,False,False
+p0.90_T1,tamil_poets,11,kambar,15,0.015,420,Q1535227,True,True
+p0.90_T1,tamil_poets,12,நக்கீரர்,11,0.011,420,,False,False
+p0.90_T1,tamil_poets,13,pablo neruda,11,0.011,420,,False,False
+p0.90_T1,tamil_poets,14,bharathiyar,10,0.01,420,,False,False
+p0.90_T1,tamil_poets,15,thiruvalluvar,9,0.009,420,,False,False
+p0.90_T1,tamilnadu_hindu_temples,1,meenakshi amman temple,754,0.754,98,Q1424358,True,True
+p0.90_T1,tamilnadu_hindu_temples,2,ranganathaswamy temple,37,0.037,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,3,sri ranganathaswamy temple,18,0.018,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,4,thiruvannamalai,14,0.014,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,5,ranganathswamy temple,14,0.014,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,6,thirumalai nadar temple,9,0.009,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,7,rameswaram temple,8,0.008,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,8,thirupathi venkateswara temple,7,0.007,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,9,ramanathaswamy temple,7,0.007,98,,False,True
+p0.90_T1,tamilnadu_hindu_temples,10,thirupathi,6,0.006,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,11,thiruvarur temple,5,0.005,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,12,thirumalai nayakkar mahal,5,0.005,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,13,thirukkovil,5,0.005,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,14,arulmigu meenakshi amman temple,4,0.004,98,,False,False
+p0.90_T1,tamilnadu_hindu_temples,15,thirumalai nayakkar temple,4,0.004,98,,False,False
+p0.90_T1,us_state_capitals,1,albany,260,0.26,31,Q24861,True,True
+p0.90_T1,us_state_capitals,2,phoenix,233,0.233,31,Q16556,True,True
+p0.90_T1,us_state_capitals,3,atlanta,138,0.138,31,Q23556,True,True
+p0.90_T1,us_state_capitals,4,montgomery,119,0.119,31,Q29364,True,True
+p0.90_T1,us_state_capitals,5,springfield,29,0.029,31,Q28515,True,True
+p0.90_T1,us_state_capitals,6,denver,24,0.024,31,Q16554,True,True
+p0.90_T1,us_state_capitals,7,austin,20,0.02,31,Q16559,True,True
+p0.90_T1,us_state_capitals,8,"washington, d.c",18,0.018,31,,False,False
+p0.90_T1,us_state_capitals,9,boston,18,0.018,31,Q100,True,True
+p0.90_T1,us_state_capitals,10,sacramento,17,0.017,31,Q18013,True,True
+p0.90_T1,us_state_capitals,11,washington,16,0.016,31,,False,False
+p0.90_T1,us_state_capitals,12,new york,12,0.012,31,,False,False
+p0.90_T1,us_state_capitals,13,jacksonville,10,0.01,31,,False,False
+p0.90_T1,us_state_capitals,14,oklahoma city,10,0.01,31,Q34863,True,True
+p0.90_T1,us_state_capitals,15,salt lake city,10,0.01,31,Q23337,True,True

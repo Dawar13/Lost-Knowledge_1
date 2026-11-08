@@ -1,0 +1,58 @@
+{
+  "inputs_sha256": {
+    "OLMo-2-1124-7B-Instruct/reach.jsonl.gz": "f68beb3a0826d84c52e58d6e73c21f94e742649596a1a6c064fa67416ccc06e2",
+    "OLMo-2-1124-7B-Instruct/recog.jsonl.gz": "fa4ad75dcfeff321f30237b830f317a0deabcee7e5263631c7556e40d6bcf254",
+    "OLMo-2-1124-7B-Instruct/meta.json": "60df42f0ba79c390e461490664bc24708a26f5dffb2a3b1128d761475bac5bd7",
+    "OLMo-2-1124-7B-Instruct/sample_check.json": "26ae1803dca50e5bf556cdf1fca70dcf1d7fb80deba21757b820553f59ee2387",
+    "calibration/OLMo-2-1124-7B-Instruct/selfcheck.json": "ad5d7b751a5502f2ba3f83c345ec72a84a235b4eda2e95fc8194db897510f512",
+    "OLMo-2-1124-7B/reach.jsonl.gz": "1948c69930802bc79210f59a13330a193ff751bc4e08a52534119d3c47869244",
+    "OLMo-2-1124-7B/recog.jsonl.gz": "02a0537aae701b6be45381ca1756978950a4c411bdcc7721ac46aa88d060d201",
+    "OLMo-2-1124-7B/meta.json": "45e68014916a9c2f578b51762a8780d10df2c22a742cc0ed4fc7f4dd5fdaf61a",
+    "OLMo-2-1124-7B/sample_check.json": null,
+    "calibration/OLMo-2-1124-7B/selfcheck.json": "3ecd6c0ab52aa15804b459b5ea53d13757737268be7f02bc330153b979682b01",
+    "data:categories.json": "d3a10f2c393b9b1f455a28545924ee32b43c657af45950efc80eb706781ae7f1",
+    "data:entities.jsonl": "7cc454ad2d44a5dc1ed29a40ef9b891054d5ce3bb29dfd0318c037e0277ec122",
+    "data:foils.jsonl": "f58796b2a958d7dc8a562170ce1ced84d949df3e9fa9db70ca4201164eb2cce8",
+    "data:valid_names.json": "3ca540e23d848427a41d7822010df92d67f05ecae6973c441f4b350d8a26fb58",
+    "data:build_report.json": "0652a8d507b13e151f2aab89bde6b87787e6016aa6eb998641c93eeb7d62b141"
+  },
+  "code": {
+    "tree_sha256": "5767c412700cf7c8",
+    "git_head": "7a50eb932598d8c1aa018682bf98a04bac92bdbc",
+    "git_dirty": false
+  },
+  "utc": "2026-11-08T16:18:23Z",
+  "args": {
+    "results": "results/G1",
+    "data": "data/tailcat/pilot_v2",
+    "instruct": "OLMo-2-1124-7B-Instruct",
+    "base": "OLMo-2-1124-7B",
+    "metrics_dir": "metrics/olmo2_instruct_vs_base"
+  },
+  "tables": [
+    "calibration_OLMo-2-1124-7B-Instruct.json",
+    "calibration_OLMo-2-1124-7B.json",
+    "entities_OLMo-2-1124-7B-Instruct.csv",
+    "entities_OLMo-2-1124-7B.csv",
+    "failpos_OLMo-2-1124-7B-Instruct.csv",
+    "failpos_OLMo-2-1124-7B.csv",
+    "headline.json",
+    "length_OLMo-2-1124-7B-Instruct.csv",
+    "length_OLMo-2-1124-7B.csv",
+    "paired.csv",
+    "popularity_OLMo-2-1124-7B-Instruct.csv",
+    "popularity_OLMo-2-1124-7B.csv",
+    "rbu_OLMo-2-1124-7B-Instruct.csv",
+    "rbu_OLMo-2-1124-7B.csv",
+    "rbu_by_category_OLMo-2-1124-7B-Instruct.csv",
+    "rbu_by_category_OLMo-2-1124-7B.csv",
+    "rbu_curves_OLMo-2-1124-7B-Instruct.csv",
+    "rbu_curves_OLMo-2-1124-7B.csv",
+    "reachable_set_OLMo-2-1124-7B-Instruct.csv",
+    "reachable_set_OLMo-2-1124-7B.csv",
+    "sample_check_OLMo-2-1124-7B-Instruct.csv",
+    "top_answers_OLMo-2-1124-7B-Instruct.csv",
+    "validity_OLMo-2-1124-7B-Instruct.csv",
+    "validity_OLMo-2-1124-7B.csv"
+  ]
+}

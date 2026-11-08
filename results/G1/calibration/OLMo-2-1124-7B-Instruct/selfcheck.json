@@ -1,0 +1,461 @@
+{
+  "total": {
+    "distinct": 968,
+    "unreachable": 19,
+    "robust_unreachable@0.25": 2,
+    "robust_unreachable@0.5": 0,
+    "robust_unreachable@0.75": 0,
+    "robust_unreachable@1.0": 0,
+    "robust_unreachable@1.5": 0,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "p0.90_T1": 0.3047
+  },
+  "epsilon_rule": 0.5,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 3310,
+      "mean": 0.27384118025396526,
+      "q0.5": 0.25,
+      "q0.9": 0.375,
+      "q0.99": 0.453125,
+      "q0.999": 0.5625,
+      "max": 0.625
+    },
+    "rel_near": {
+      "n_positions": 3310,
+      "mean": 0.034878918051359516,
+      "q0.5": 0.0,
+      "q0.9": 0.125,
+      "q0.99": 0.25,
+      "q0.999": 0.33139453124999463,
+      "max": 0.375
+    },
+    "dG_T1.0": {
+      "n_positions": 3310,
+      "mean": 0.003067817973406293,
+      "q0.5": 0.0,
+      "q0.9": 0.0037711262702941895,
+      "q0.99": 0.03348960101604458,
+      "q0.999": 0.47978881001472473,
+      "max": 0.5187050700187683
+    },
+    "dG_T0.7": {
+      "n_positions": 3310,
+      "mean": 0.0032610805913400793,
+      "q0.5": 0.0,
+      "q0.9": 0.0026845335960388184,
+      "q0.99": 0.043106133937835495,
+      "q0.999": 0.5148950219154358,
+      "max": 0.5427675247192383
+    },
+    "drank": {
+      "n_positions": 3310,
+      "mean": 0.028096676737160122,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 1.0,
+      "q0.999": 2.0,
+      "max": 6.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 174,
+      "unreachable": 9,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Sulaiman Ahmad<|endoftext|>",
+          "failpos": 0,
+          "rank": 8,
+          "G_T1": 0.901209,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sangamam<|endoftext|>",
+          "failpos": 0,
+          "rank": 8,
+          "G_T1": 0.900109,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sugumar<|endoftext|>",
+          "failpos": 0,
+          "rank": 8,
+          "G_T1": 0.900109,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sittampittan<|endoftext|>",
+          "failpos": 0,
+          "rank": 8,
+          "G_T1": 0.901209,
+          "top_p": 0.9
+        },
+        {
+          "text": "Sujata<|endoftext|>",
+          "failpos": 0,
+          "rank": 8,
+          "G_T1": 0.900109,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tolkaapiyan<|endoftext|>",
+          "failpos": 3,
+          "rank": 1,
+          "G_T1": 0.900412,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tamil: பரந்தாபாய்யர்",
+          "failpos": 19,
+          "rank": 3,
+          "G_T1": 0.911612,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tamililayalangu Aranganathan<|endoftext|>",
+          "failpos": 5,
+          "rank": 49,
+          "G_T1": 0.901373,
+          "top_p": 0.9
+        },
+        {
+          "text": "Tamilileatha poetahankaru bullankurunni nair illaya<|endoftext|>",
+          "failpos": 8,
+          "rank": 216,
+          "G_T1": 0.909538,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 151,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kunthapuram<|endoftext|>",
+          "failpos": 1,
+          "rank": 23,
+          "G_T1": 0.900071,
+          "top_p": 0.9
+        },
+        {
+          "text": "Mekon<|endoftext|>",
+          "failpos": 1,
+          "rank": 7,
+          "G_T1": 0.901287,
+          "top_p": 0.9
+        },
+        {
+          "text": "Purna<|endoftext|>",
+          "failpos": 1,
+          "rank": 9,
+          "G_T1": 0.896169,
+          "top_p": 0.9
+        },
+        {
+          "text": "Idikkasie River<|endoftext|>",
+          "failpos": 0,
+          "rank": 34,
+          "G_T1": 0.899917,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 31,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 15,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 2,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 8,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 4,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 175,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kikodua Williams<|endoftext|>",
+          "failpos": 0,
+          "rank": 24,
+          "G_T1": 0.898865,
+          "top_p": 0.9
+        },
+        {
+          "text": "Yinka Shodeika<|endoftext|>",
+          "failpos": 4,
+          "rank": 9,
+          "G_T1": 0.907552,
+          "top_p": 0.9
+        },
+        {
+          "text": "Osayom Mike<|endoftext|>",
+          "failpos": 0,
+          "rank": 27,
+          "G_T1": 0.906663,
+          "top_p": 0.9
+        },
+        {
+          "text": "Oszeni Lament<|endoftext|>",
+          "failpos": 0,
+          "rank": 27,
+          "G_T1": 0.906663,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 1,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 391,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "BISHNU CHARAN DASA<|endoftext|>",
+          "failpos": 1,
+          "rank": 67,
+          "G_T1": 0.900512,
+          "top_p": 0.9
+        },
+        {
+          "text": "Drukker<|endoftext|>",
+          "failpos": 2,
+          "rank": 85,
+          "G_T1": 0.901402,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 16,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    }
+  ],
+  "meta": {
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "commit": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+    "code": {
+      "tree_sha256": "5767c412700cf7c8",
+      "git_head": "7a50eb932598d8c1aa018682bf98a04bac92bdbc",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "utc": "2026-11-08T16:08:20Z",
+    "cuda_visible_devices": null,
+    "seconds": 43.416584491729736,
+    "peak_gpu_gib": 17.205987453460693,
+    "args": {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "data": "data/tailcat/pilot_v2",
+      "out": "results/G1/calibration",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 1,
+      "gap_samples": 50,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cuda",
+      "limit_categories": null
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      }
+    }
+  }
+}

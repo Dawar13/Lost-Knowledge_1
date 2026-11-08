@@ -1,0 +1,12 @@
+spec,category,n_samples,n_valid_text,distinct_valid,n_id_prefix_hits,distinct_id_prefix_hits,violations,boundary_hits,exact_violations,noncanonical,reachable_set_t0,sampled_within_reachable_t0,coverage_of_reachable_t0
+p0.90_T1,tamil_poets,1000,97,5,97,5,0,0,0,0,19,5,0.263158
+p0.90_T1,kerala_rivers,1000,76,11,88,12,0,0,0,0,25,11,0.44
+p0.90_T1,tamilnadu_hindu_temples,1000,754,1,754,1,0,0,0,0,10,1,0.1
+p0.90_T1,japanese_novelists,1000,5,2,5,2,0,0,0,0,5,2,0.4
+p0.90_T1,nepal_mountains,1000,627,1,627,1,0,0,0,0,1,1,1.0
+p0.90_T1,brazil_universities,1000,810,5,1000,5,0,0,0,0,6,5,0.833333
+p0.90_T1,finland_lakes,1000,0,0,0,0,0,0,0,0,0,0,
+p0.90_T1,nigerian_painters,1000,69,2,69,2,0,0,0,0,18,2,0.111111
+p0.90_T1,bengali_film_directors,1000,1000,1,1000,1,0,0,0,0,1,1,1.0
+p0.90_T1,assamese_writers,1000,108,6,109,7,0,0,0,0,44,6,0.136364
+p0.90_T1,us_state_capitals,1000,911,18,921,18,0,0,0,0,26,18,0.692308

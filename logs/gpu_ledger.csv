@@ -21,3 +21,11 @@ utc_time,host,gpu,script,model,gpu_hours,note
 2026-11-08T15:41:25Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,firsttoken,Qwen/Qwen2.5-7B-Instruct,0.0035,results/G0_5090 peak 14.3 GiB
 2026-11-08T15:41:39Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,firsttoken,Qwen/Qwen2.5-7B,0.0035,results/G0_5090 peak 14.3 GiB
 2026-11-08T16:00:03Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,allenai/OLMo-2-1124-7B,0.0131,results/G1/calibration FAILED out of memory inside our 20.3 GiB cap at generation batch 200 (OLMo-2 has no grouped-query attention); entered by agent
+2026-11-08T16:05:57Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,allenai/OLMo-2-1124-7B,0.0377,results/G1/calibration peak 18.2 GiB
+2026-11-08T16:06:48Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,allenai/OLMo-2-1124-7B-SFT,0.0134,results/G1/calibration peak 17.4 GiB
+2026-11-08T16:07:34Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,allenai/OLMo-2-1124-7B-DPO,0.0122,results/G1/calibration peak 17.4 GiB
+2026-11-08T16:08:20Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,selfcheck,allenai/OLMo-2-1124-7B-Instruct,0.0121,results/G1/calibration peak 17.2 GiB
+2026-11-08T16:10:48Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,allenai/OLMo-2-1124-7B,0.0405,results/G1 peak 17.3 GiB
+2026-11-08T16:13:19Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,allenai/OLMo-2-1124-7B-SFT,0.0408,results/G1 peak 17.3 GiB
+2026-11-08T16:15:47Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,allenai/OLMo-2-1124-7B-DPO,0.0402,results/G1 peak 17.3 GiB
+2026-11-08T16:18:12Z,3df1d0b4e020,NVIDIA GeForce RTX 5090,run_model,allenai/OLMo-2-1124-7B-Instruct,0.0398,results/G1 peak 17.3 GiB

@@ -1,0 +1,274 @@
+== environment and GPU
+torch 2.15.0+cu132  transformers 5.22.2
+CUDA_VISIBLE_DEVICES=None
+GPU 0: NVIDIA GeForce RTX 5090  free 30.9 / 31.4 GiB
+pid, process_name, used_gpu_memory [MiB]
+5148, python, 498 MiB
+
+These processes belong to other experiments. Never kill or signal them.
+HF token present: False (needed for gated Llama and Gemma weights)
+== unit tests (must pass before any GPU time)
+.............                                                            [100%]
+13 passed in 3.95s
+== calibrating the numeric margin (seed 1)
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   0%|          | 1/355 [00:04<24:06,  4.09s/it]Loading weights:   1%|          | 2/355 [00:04<12:51,  2.19s/it]Loading weights:  13%|█▎        | 47/355 [00:05<00:21, 14.35it/s]Loading weights:  16%|█▌        | 56/355 [00:05<00:18, 16.48it/s]Loading weights:  17%|█▋        | 60/355 [00:06<00:20, 14.06it/s]Loading weights:  19%|█▉        | 69/355 [00:06<00:18, 15.56it/s]Loading weights:  20%|██        | 72/355 [00:06<00:17, 16.38it/s]Loading weights:  22%|██▏       | 79/355 [00:07<00:13, 20.14it/s]Loading weights:  23%|██▎       | 83/355 [00:07<00:16, 16.46it/s]Loading weights:  25%|██▌       | 89/355 [00:07<00:13, 19.35it/s]Loading weights:  26%|██▌       | 92/355 [00:08<00:19, 13.80it/s]Loading weights:  27%|██▋       | 95/355 [00:08<00:17, 14.83it/s]Loading weights:  29%|██▊       | 102/355 [00:08<00:18, 13.43it/s]Loading weights:  31%|███▏      | 111/355 [00:09<00:12, 19.51it/s]Loading weights:  32%|███▏      | 114/355 [00:09<00:16, 14.89it/s]Loading weights:  34%|███▍      | 122/355 [00:09<00:11, 20.76it/s]Loading weights:  35%|███▌      | 126/355 [00:10<00:16, 13.50it/s]Loading weights:  38%|███▊      | 134/355 [00:10<00:13, 16.44it/s]Loading weights:  39%|███▊      | 137/355 [00:11<00:16, 13.07it/s]Loading weights:  41%|████      | 144/355 [00:11<00:12, 16.75it/s]Loading weights:  41%|████▏     | 147/355 [00:11<00:15, 13.28it/s]Loading weights:  42%|████▏     | 149/355 [00:11<00:15, 12.98it/s]Loading weights:  44%|████▍     | 157/355 [00:12<00:13, 14.73it/s]Loading weights:  45%|████▍     | 159/355 [00:12<00:13, 14.04it/s]Loading weights:  47%|████▋     | 167/355 [00:12<00:08, 21.22it/s]Loading weights:  48%|████▊     | 170/355 [00:13<00:13, 13.24it/s]Loading weights:  50%|████▉     | 177/355 [00:13<00:10, 16.98it/s]Loading weights:  51%|█████     | 180/355 [00:14<00:14, 11.70it/s]Loading weights:  51%|█████▏    | 182/355 [00:14<00:14, 11.82it/s]Loading weights:  53%|█████▎    | 189/355 [00:14<00:09, 17.66it/s]Loading weights:  54%|█████▍    | 192/355 [00:15<00:14, 11.22it/s]Loading weights:  56%|█████▌    | 199/355 [00:15<00:09, 16.94it/s]Loading weights:  57%|█████▋    | 203/355 [00:15<00:13, 11.64it/s]Loading weights:  59%|█████▉    | 211/355 [00:16<00:08, 17.08it/s]Loading weights:  61%|██████    | 215/355 [00:16<00:11, 12.27it/s]Loading weights:  63%|██████▎   | 222/355 [00:16<00:08, 16.29it/s]Loading weights:  63%|██████▎   | 225/355 [00:17<00:11, 11.75it/s]Loading weights:  65%|██████▌   | 232/355 [00:17<00:07, 17.07it/s]Loading weights:  66%|██████▋   | 236/355 [00:18<00:09, 12.39it/s]Loading weights:  69%|██████▉   | 245/355 [00:18<00:07, 14.47it/s]Loading weights:  70%|██████▉   | 248/355 [00:18<00:07, 15.06it/s]Loading weights:  72%|███████▏  | 255/355 [00:18<00:04, 20.04it/s]Loading weights:  73%|███████▎  | 259/355 [00:19<00:06, 14.34it/s]Loading weights:  75%|███████▍  | 266/355 [00:19<00:04, 18.56it/s]Loading weights:  76%|███████▌  | 269/355 [00:20<00:06, 12.92it/s]Loading weights:  78%|███████▊  | 276/355 [00:20<00:04, 18.19it/s]Loading weights:  79%|███████▉  | 280/355 [00:21<00:07,  9.78it/s]Loading weights:  81%|████████  | 288/355 [00:21<00:04, 15.11it/s]Loading weights:  83%|████████▎ | 293/355 [00:22<00:05, 11.16it/s]Loading weights:  84%|████████▍ | 299/355 [00:22<00:04, 13.23it/s]Loading weights:  85%|████████▌ | 302/355 [00:23<00:05,  9.81it/s]Loading weights:  87%|████████▋ | 309/355 [00:23<00:03, 13.88it/s]Loading weights:  88%|████████▊ | 312/355 [00:24<00:04,  9.79it/s]Loading weights:  90%|█████████ | 320/355 [00:24<00:02, 13.45it/s]Loading weights:  91%|█████████ | 323/355 [00:24<00:03, 10.34it/s]Loading weights:  92%|█████████▏| 325/355 [00:25<00:02, 10.48it/s]Loading weights:  94%|█████████▍| 333/355 [00:25<00:01, 11.65it/s]Loading weights:  94%|█████████▍| 335/355 [00:25<00:01, 12.07it/s]Loading weights:  96%|█████████▋| 342/355 [00:25<00:00, 17.75it/s]Loading weights:  97%|█████████▋| 345/355 [00:26<00:00, 11.23it/s]Loading weights: 100%|██████████| 355/355 [00:26<00:00, 13.32it/s]
+[selfcheck] gap rel_all  over 10760 positions: mean 0.2673, q0.5 0.2554, q0.9 0.3008, q0.99 0.5914, q0.999 3.4795, max 9.0036
+[selfcheck] gap rel_near over 10760 positions: mean 0.0265, q0.5 0.0078, q0.9 0.0781, q0.99 0.1562, q0.999 0.2500, max 1.5469
+[selfcheck] gap dG_T1.0  over 10760 positions: mean 0.0023, q0.5 0.0000, q0.9 0.0039, q0.99 0.0327, q0.999 0.2888, max 0.4947
+[selfcheck] gap dG_T0.7  over 10760 positions: mean 0.0027, q0.5 0.0000, q0.9 0.0039, q0.99 0.0342, q0.999 0.4002, max 0.5023
+[selfcheck] gap drank    over 10760 positions: mean 0.0601, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 3.0000, max 6.0000
+[selfcheck] p0.90_T1     tamil_poets                distinct  447 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  432 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct  434 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct  456 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct  417 exact-unreachable   6 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct  465 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct  462 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  420 exact-unreachable   4 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct  419 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  479 exact-unreachable  14 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct  449 exact-unreachable   9 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: p0.90_T1 0.336 -> epsilon rule gives 0.5
+[selfcheck] TOTAL distinct 4880 exact-unreachable 54 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 2.3 min (a margin passes when its robust count is 0)
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 58432.54it/s]
+[selfcheck] gap rel_all  over 3749 positions: mean 0.2567, q0.5 0.2500, q0.9 0.3188, q0.99 0.4688, q0.999 0.5625, max 0.6250
+[selfcheck] gap rel_near over 3749 positions: mean 0.0308, q0.5 0.0000, q0.9 0.1250, q0.99 0.2188, q0.999 0.3125, max 0.3594
+[selfcheck] gap dG_T1.0  over 3749 positions: mean 0.0024, q0.5 0.0000, q0.9 0.0049, q0.99 0.0287, q0.999 0.2762, max 0.4283
+[selfcheck] gap dG_T0.7  over 3749 positions: mean 0.0027, q0.5 0.0000, q0.9 0.0036, q0.99 0.0389, q0.999 0.3901, max 0.4758
+[selfcheck] gap drank    over 3749 positions: mean 0.0339, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 4.0000, max 6.0000
+[selfcheck] p0.90_T1     tamil_poets                distinct  267 exact-unreachable   3 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  162 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct   59 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct   33 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct    4 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct   28 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct    5 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  192 exact-unreachable   3 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  396 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct   34 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: p0.90_T1 0.258 -> epsilon rule gives 0.5
+[selfcheck] TOTAL distinct 1181 exact-unreachable 15 robust @0.25:2 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 0.8 min (a margin passes when its robust count is 0)
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 42576.29it/s]
+[selfcheck] gap rel_all  over 3557 positions: mean 0.2711, q0.5 0.2500, q0.9 0.3750, q0.99 0.4688, q0.999 0.6250, max 0.8125
+[selfcheck] gap rel_near over 3557 positions: mean 0.0353, q0.5 0.0000, q0.9 0.1250, q0.99 0.2500, q0.999 0.3507, max 0.5312
+[selfcheck] gap dG_T1.0  over 3557 positions: mean 0.0030, q0.5 0.0000, q0.9 0.0048, q0.99 0.0355, q0.999 0.2606, max 0.4843
+[selfcheck] gap dG_T0.7  over 3557 positions: mean 0.0031, q0.5 0.0000, q0.9 0.0035, q0.99 0.0431, q0.999 0.3176, max 0.5371
+[selfcheck] gap drank    over 3557 positions: mean 0.0270, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 2.0000, max 3.0000
+[selfcheck] p0.90_T1     tamil_poets                distinct  156 exact-unreachable   3 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  121 exact-unreachable   1 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct   33 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct   25 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct   12 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct    4 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  189 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  353 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct   20 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: p0.90_T1 0.102 -> epsilon rule gives 0.25
+[selfcheck] TOTAL distinct 916 exact-unreachable 6 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 0.7 min (a margin passes when its robust count is 0)
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  85%|████████▌ | 303/355 [00:00<00:00, 2992.21it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 3048.50it/s]
+[selfcheck] gap rel_all  over 3310 positions: mean 0.2738, q0.5 0.2500, q0.9 0.3750, q0.99 0.4531, q0.999 0.5625, max 0.6250
+[selfcheck] gap rel_near over 3310 positions: mean 0.0349, q0.5 0.0000, q0.9 0.1250, q0.99 0.2500, q0.999 0.3314, max 0.3750
+[selfcheck] gap dG_T1.0  over 3310 positions: mean 0.0031, q0.5 0.0000, q0.9 0.0038, q0.99 0.0335, q0.999 0.4798, max 0.5187
+[selfcheck] gap dG_T0.7  over 3310 positions: mean 0.0033, q0.5 0.0000, q0.9 0.0027, q0.99 0.0431, q0.999 0.5149, max 0.5428
+[selfcheck] gap drank    over 3310 positions: mean 0.0281, q0.5 0.0000, q0.9 0.0000, q0.99 1.0000, q0.999 2.0000, max 6.0000
+[selfcheck] p0.90_T1     tamil_poets                distinct  174 exact-unreachable   9 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     kerala_rivers              distinct  151 exact-unreachable   4 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     tamilnadu_hindu_temples    distinct   31 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     japanese_novelists         distinct   15 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nepal_mountains            distinct    2 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     brazil_universities        distinct    8 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     finland_lakes              distinct    4 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     nigerian_painters          distinct  175 exact-unreachable   4 robust @0.25:1 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     bengali_film_directors     distinct    1 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     assamese_writers           distinct  391 exact-unreachable   2 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] p0.90_T1     us_state_capitals          distinct   16 exact-unreachable   0 robust @0.25:0 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0
+[selfcheck] largest margin needed by a sampled sequence: p0.90_T1 0.305 -> epsilon rule gives 0.5
+[selfcheck] TOTAL distinct 968 exact-unreachable 19 robust @0.25:2 @0.5:0 @0.75:0 @1.0:0 @1.5:0 @2.0:0 @3.0:0 in 0.7 min (a margin passes when its robust count is 0)
+== numeric margin epsilon = 0.5 raw logits
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:   0%|          | 1/355 [00:04<26:45,  4.53s/it]Loading weights:   1%|          | 2/355 [00:05<12:43,  2.16s/it]Loading weights:  13%|█▎        | 45/355 [00:05<00:19, 15.94it/s]Loading weights:  15%|█▌        | 55/355 [00:05<00:18, 16.08it/s]Loading weights:  17%|█▋        | 62/355 [00:06<00:21, 13.79it/s]Loading weights:  19%|█▉        | 67/355 [00:06<00:18, 15.67it/s]Loading weights:  20%|██        | 72/355 [00:07<00:20, 14.14it/s]Loading weights:  22%|██▏       | 79/355 [00:07<00:15, 18.17it/s]Loading weights:  24%|██▎       | 84/355 [00:07<00:16, 16.08it/s]Loading weights:  25%|██▌       | 89/355 [00:07<00:14, 18.57it/s]Loading weights:  26%|██▌       | 93/355 [00:08<00:19, 13.14it/s]Loading weights:  29%|██▊       | 102/355 [00:09<00:16, 15.00it/s]Loading weights:  30%|██▉       | 105/355 [00:09<00:16, 15.46it/s]Loading weights:  32%|███▏      | 112/355 [00:09<00:11, 20.84it/s]Loading weights:  33%|███▎      | 116/355 [00:09<00:15, 15.37it/s]Loading weights:  34%|███▍      | 122/355 [00:09<00:11, 19.75it/s]Loading weights:  35%|███▌      | 126/355 [00:10<00:18, 12.66it/s]Loading weights:  38%|███▊      | 134/355 [00:10<00:11, 18.55it/s]Loading weights:  39%|███▉      | 138/355 [00:11<00:17, 12.42it/s]Loading weights:  41%|████      | 145/355 [00:11<00:12, 16.57it/s]Loading weights:  42%|████▏     | 149/355 [00:12<00:15, 13.12it/s]Loading weights:  44%|████▎     | 155/355 [00:12<00:11, 17.21it/s]Loading weights:  45%|████▍     | 159/355 [00:12<00:14, 13.33it/s]Loading weights:  47%|████▋     | 167/355 [00:12<00:09, 19.59it/s]Loading weights:  48%|████▊     | 171/355 [00:13<00:13, 14.11it/s]Loading weights:  50%|█████     | 179/355 [00:13<00:12, 14.57it/s]Loading weights:  51%|█████▏    | 182/355 [00:14<00:10, 15.89it/s]Loading weights:  53%|█████▎    | 188/355 [00:14<00:08, 20.52it/s]Loading weights:  54%|█████▍    | 192/355 [00:14<00:12, 13.57it/s]Loading weights:  56%|█████▌    | 199/355 [00:15<00:08, 17.62it/s]Loading weights:  57%|█████▋    | 202/355 [00:15<00:11, 13.34it/s]Loading weights:  58%|█████▊    | 205/355 [00:15<00:11, 13.34it/s]Loading weights:  60%|█████▉    | 212/355 [00:16<00:10, 13.69it/s]Loading weights:  60%|██████    | 214/355 [00:16<00:10, 13.70it/s]Loading weights:  63%|██████▎   | 222/355 [00:16<00:06, 20.37it/s]Loading weights:  63%|██████▎   | 225/355 [00:17<00:09, 13.63it/s]Loading weights:  65%|██████▌   | 232/355 [00:17<00:06, 19.56it/s]Loading weights:  66%|██████▋   | 236/355 [00:17<00:08, 13.80it/s]Loading weights:  69%|██████▊   | 244/355 [00:17<00:05, 20.75it/s]Loading weights:  70%|██████▉   | 248/355 [00:18<00:07, 14.81it/s]Loading weights:  72%|███████▏  | 254/355 [00:18<00:05, 17.87it/s]Loading weights:  73%|███████▎  | 258/355 [00:19<00:11,  8.12it/s]Loading weights:  75%|███████▌  | 267/355 [00:20<00:08, 10.08it/s]Loading weights:  76%|███████▌  | 269/355 [00:20<00:08, 10.65it/s]Loading weights:  78%|███████▊  | 276/355 [00:20<00:05, 15.54it/s]Loading weights:  79%|███████▉  | 280/355 [00:21<00:08,  9.25it/s]Loading weights:  81%|████████▏ | 289/355 [00:22<00:06, 10.52it/s]Loading weights:  82%|████████▏ | 292/355 [00:22<00:05, 11.04it/s]Loading weights:  84%|████████▍ | 299/355 [00:22<00:03, 15.24it/s]Loading weights:  85%|████████▌ | 302/355 [00:23<00:04, 10.61it/s]Loading weights:  87%|████████▋ | 310/355 [00:23<00:02, 15.05it/s]Loading weights:  88%|████████▊ | 313/355 [00:24<00:03, 11.15it/s]Loading weights:  90%|█████████ | 320/355 [00:24<00:02, 14.84it/s]Loading weights:  91%|█████████ | 323/355 [00:25<00:02, 10.69it/s]Loading weights:  93%|█████████▎| 331/355 [00:25<00:01, 16.14it/s]Loading weights:  94%|█████████▍| 334/355 [00:25<00:01, 11.19it/s]Loading weights:  96%|█████████▋| 342/355 [00:26<00:00, 15.54it/s]Loading weights:  97%|█████████▋| 345/355 [00:26<00:00, 10.94it/s]Loading weights:  98%|█████████▊| 347/355 [00:26<00:00, 11.43it/s]Loading weights: 100%|██████████| 355/355 [00:26<00:00, 13.21it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[done] OLMo-2-1124-7B in 2.4 min -> results/G1/OLMo-2-1124-7B
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 57389.78it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[sample] p0.90_T1     tamil_poets                  valid   97 distinct   5 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid   76 distinct  11 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid  754 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    5 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid  627 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid  810 distinct   5 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid   69 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid  108 distinct   6 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid  911 distinct  18 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] OLMo-2-1124-7B-SFT in 2.4 min -> results/G1/OLMo-2-1124-7B-SFT
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 40495.47it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[sample] p0.90_T1     tamil_poets                  valid  185 distinct   3 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid   70 distinct  11 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid  837 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid  309 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid  411 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid   82 distinct   3 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid  126 distinct   5 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid  949 distinct  12 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] OLMo-2-1124-7B-DPO in 2.4 min -> results/G1/OLMo-2-1124-7B-DPO
+[gpu] 30.9 GiB free of 31.4 GiB; this job is capped at 20.3 GiB, leaving at least 10.6 GiB for others
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  87%|████████▋ | 310/355 [00:00<00:00, 3089.25it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 3179.08it/s]
+[specs] {'untruncated_T1': 'no truncation, T=1', 'p0.80_T1': 'top_p=0.8', 'p0.90_T1': 'top_p=0.9', 'p0.95_T1': 'top_p=0.95', 'p0.90_T0.7': 'temperature=0.7, top_p=0.9', 'k20_T1': 'top_k=20', 'k50_T1': 'top_k=50', 'minp0.05_T1': 'min_p=0.05', 'minp0.10_T1': 'min_p=0.1'}
+[reach] 11013 items (2312 entities x forms x 3 templates)
+[reach] batch 1/345
+[reach] batch 21/345
+[reach] batch 41/345
+[reach] batch 61/345
+[reach] batch 81/345
+[reach] batch 101/345
+[reach] batch 121/345
+[reach] batch 141/345
+[reach] batch 161/345
+[reach] batch 181/345
+[reach] batch 201/345
+[reach] batch 221/345
+[reach] batch 241/345
+[reach] batch 261/345
+[reach] batch 281/345
+[reach] batch 301/345
+[reach] batch 321/345
+[reach] batch 341/345
+[reach] batch 345/345
+[recog] yes/no on 2312 members and 1724 foils
+[sample] p0.90_T1     tamil_poets                  valid  125 distinct   3 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     kerala_rivers                valid   99 distinct  10 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     tamilnadu_hindu_temples      valid  828 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     japanese_novelists           valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nepal_mountains              valid  195 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     brazil_universities          valid  621 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     finland_lakes                valid    0 distinct   0 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     nigerian_painters            valid  103 distinct   2 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     bengali_film_directors       valid 1000 distinct   1 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     assamese_writers             valid  102 distinct   4 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[sample] p0.90_T1     us_state_capitals            valid  940 distinct  12 violations 0 boundary 0 exact_viol 0 noncanonical 0
+[done] OLMo-2-1124-7B-Instruct in 2.4 min -> results/G1/OLMo-2-1124-7B-Instruct
+== metrics per model
+[metrics] wrote 14 files to results/G1/metrics/OLMo-2-1124-7B-SFT
+[metrics] wrote 14 files to results/G1/metrics/OLMo-2-1124-7B-DPO
+[metrics] wrote 25 files to results/G1/metrics/olmo2_instruct_vs_base
+== gate analysis
+# Gate G1: H2 HOLDS, H3 HOLDS
+
+**Story:** Both hold: alignment concentrates first-token mass; truncation deletes the tail. P5 fix targets the first token.
+
+RBU = robust RBU (docs/04 s.2), mean over templates, cluster-bootstrap 95% CI over categories. Recognition uses the a-priori probe (option B, notes/decisions.md).
+
+## RBU by family and stage
+
+| family | stage | AUROC | recognised | RBU p0.90_T1 (CI) | RBU k50_T1 | RBU min-p 0.10 | RBU shipped | fail at first token (p0.90) | first-token top-1 mass |
+|---|---|---|---|---|---|---|---|---|---|
+| qwen2.5 | base | 0.814 | 1215 | 52.4% (39.2% to 61.1%) | 42.7% | 87.2% | none shipped | 28.0% | 0.191 |
+| qwen2.5 | instruct | 0.835 | 1310 | 95.1% (88.0% to 98.2%) | 63.7% | 98.2% | 98.9% | 84.1% | 0.517 |
+| olmo2 | base | 0.818 | 1032 | 54.4% (43.0% to 60.6%) | 46.8% | 92.1% | none shipped | 32.4% | 0.245 |
+| olmo2 | sft | 0.813 | 1136 | 89.6% (77.2% to 94.2%) | 44.7% | 97.0% | none shipped | 63.9% | 0.474 |
+| olmo2 | dpo | 0.803 | 1148 | 93.8% (83.5% to 97.6%) | 48.8% | 98.0% | none shipped | 73.5% | 0.519 |
+| olmo2 | instruct | 0.801 | 1124 | 93.8% (83.7% to 97.6%) | 49.1% | 98.0% | none shipped | 73.8% | 0.528 |
+
+## Paired tests (template 0, entities recognised by both stages)
+
+| family | from | to | sampler | RBU from | RBU to | ratio | only-to unreachable | only-from unreachable | p |
+|---|---|---|---|---|---|---|---|---|---|
+| qwen2.5 | base | instruct | p0.90_T1 | 52.4% | 95.1% | 1.81 | 456 | 5 | 5.9e-98 |
+| qwen2.5 | base | instruct | k50_T1 | 42.7% | 63.7% | 1.49 | 236 | 45 | 4.5e-30 |
+| olmo2 | base | sft | p0.90_T1 | 54.4% | 89.6% | 1.65 | 336 | 3 | 4.1e-73 |
+| olmo2 | base | sft | k50_T1 | 46.8% | 44.7% | 0.96 | 43 | 117 | 4.9e-09 |
+| olmo2 | sft | dpo | p0.90_T1 | 89.6% | 93.8% | 1.05 | 15 | 2 | 0.0016 |
+| olmo2 | sft | dpo | k50_T1 | 44.7% | 48.8% | 1.09 | 75 | 21 | 3.6e-08 |
+| olmo2 | dpo | instruct | p0.90_T1 | 93.8% | 93.8% | 1.00 | 5 | 4 | 0.74 |
+| olmo2 | dpo | instruct | k50_T1 | 48.8% | 49.1% | 1.01 | 10 | 9 | 0.82 |
+| olmo2 | base | instruct | p0.90_T1 | 54.4% | 93.8% | 1.72 | 348 | 3 | 1e-75 |
+| olmo2 | base | instruct | k50_T1 | 46.8% | 49.1% | 1.05 | 73 | 98 | 0.056 |
+
+## Rules
+
+- H2 per family (ratio at least 1.5, p < 0.01, base to final): {'qwen2.5': True, 'olmo2': True}; OLMo dips across stages: 1 (at most 1 allowed) -> **H2 holds**
+- H3 per family (share failing at position 0 at least 60%, final model): {'qwen2.5': 0.841, 'olmo2': 0.738} -> **H3 holds**
+- Mechanism (exploratory): Spearman correlation of first-token top-1 mass with RBU across (model, category) points: 0.817 (n = 66)
+
+Decision rules: docs/02_phases_and_gates.md (P2). A human must sign off below before Phase 3.
+
+Sign-off: ____________________
+== decision written to results/gates/G1.md

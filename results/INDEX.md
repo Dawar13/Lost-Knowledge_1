@@ -27,6 +27,13 @@ for judging generated names in P4 and P5). Full sha256 values: `metrics/manifest
 | `G0_5090` | **gate, a-priori recognition probe** (proposed main analysis under option B) | RTX 5090 32 GB, dedicated | 9486a4b | pilot_v2 | same snapshots | 0.75 | BLOCKED: V2 AUROC 0.835 | 0.180 |
 | `G0_a3_5090` | gate, option A probe (worked examples): failed fix; sensitivity analysis; full prompt and sample artefacts | RTX 5090 32 GB, dedicated | 7660274 | pilot_v2 | same snapshots | 0.75 | BLOCKED: V2 AUROC 0.817 | 0.188 |
 
+| `G1` | **gate G1 (P2)**: OLMo-2 base, SFT, DPO, Instruct; analysis also uses the Qwen pair from `G0_5090` | RTX 5090 32 GB, dedicated | 7a50eb9 | pilot_v2 | OLMo-2-1124-7B (7df9a82), -SFT (1de02c0), -DPO (e34ea60), -Instruct (470b1fb) | 0.5 | H2 HOLDS, H3 HOLDS | 0.257 incl. 0.013 failed run |
+
+G1 layout: `G1/<model>/` as for G0 (plus `first_token.json`, `prompts.json`, `samples.jsonl.gz` for the
+post-trained stages); `G1/calibration/<model>/`; `G1/metrics/<model or pair>/` (mb5.metrics per model);
+`G1/stages.csv`, `G1/paired.csv`, `G1/mechanism.csv`, `G1/g1_summary.json` (mb5.analysis_multi).
+Gate report: `gates/G1.md`. First-token statistics for the G0 Qwen pair: `G0_5090/<model>/first_token.json`.
+
 Attempts 2 and 3 have identical reachability verdicts and calibrations (verified row by row); they differ
 only in the yes/no recognition prompt. So the prompts and sampled answers stored with attempt 3
 (`prompts.json`, `samples.jsonl.gz`, `selfcheck_samples.jsonl.gz`) are also those of attempt 2's

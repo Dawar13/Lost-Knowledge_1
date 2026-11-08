@@ -1,0 +1,435 @@
+{
+  "total": {
+    "distinct": 1181,
+    "unreachable": 15,
+    "robust_unreachable@0.25": 2,
+    "robust_unreachable@0.5": 0,
+    "robust_unreachable@0.75": 0,
+    "robust_unreachable@1.0": 0,
+    "robust_unreachable@1.5": 0,
+    "robust_unreachable@2.0": 0,
+    "robust_unreachable@3.0": 0
+  },
+  "required_margin": {
+    "p0.90_T1": 0.2578
+  },
+  "epsilon_rule": 0.5,
+  "epsilon_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+  ],
+  "logit_gap": {
+    "rel_all": {
+      "n_positions": 3749,
+      "mean": 0.25667726888628634,
+      "q0.5": 0.25,
+      "q0.9": 0.31875000000000053,
+      "q0.99": 0.46875,
+      "q0.999": 0.5625,
+      "max": 0.625
+    },
+    "rel_near": {
+      "n_positions": 3749,
+      "mean": 0.03079089319651907,
+      "q0.5": 0.0,
+      "q0.9": 0.125,
+      "q0.99": 0.21875,
+      "q0.999": 0.3125,
+      "max": 0.359375
+    },
+    "dG_T1.0": {
+      "n_positions": 3749,
+      "mean": 0.002420325318108434,
+      "q0.5": 0.0,
+      "q0.9": 0.004935693740844735,
+      "q0.99": 0.02865542411804199,
+      "q0.999": 0.276180402994152,
+      "max": 0.4283357560634613
+    },
+    "dG_T0.7": {
+      "n_positions": 3749,
+      "mean": 0.002683284342940822,
+      "q0.5": 0.0,
+      "q0.9": 0.0035919547080993765,
+      "q0.99": 0.03894778728485107,
+      "q0.999": 0.39012301754951434,
+      "max": 0.47577226161956787
+    },
+    "drank": {
+      "n_positions": 3749,
+      "mean": 0.033875700186716456,
+      "q0.5": 0.0,
+      "q0.9": 0.0,
+      "q0.99": 1.0,
+      "q0.999": 4.0,
+      "max": 6.0
+    }
+  },
+  "rows": [
+    {
+      "spec": "p0.90_T1",
+      "category": "tamil_poets",
+      "n_samples": 500,
+      "distinct_sequences": 267,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Thyagaraja Bhagavathar<|endoftext|>",
+          "failpos": 0,
+          "rank": 12,
+          "G_T1": 0.90071,
+          "top_p": 0.9
+        },
+        {
+          "text": "தண்டபுராணம்<|endoftext|>",
+          "failpos": 3,
+          "rank": 2,
+          "G_T1": 0.906735,
+          "top_p": 0.9
+        },
+        {
+          "text": "கணக்காசலம்<|endoftext|>",
+          "failpos": 5,
+          "rank": 1,
+          "G_T1": 0.903085,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "kerala_rivers",
+      "n_samples": 500,
+      "distinct_sequences": 162,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "The river in Kerala is called Periyar.<|endoftext|>",
+          "failpos": 6,
+          "rank": 3,
+          "G_T1": 0.925758,
+          "top_p": 0.9
+        },
+        {
+          "text": "The Bharathapuzha river is a major river in Kerala.<|endoftext|>",
+          "failpos": 6,
+          "rank": 5,
+          "G_T1": 0.93218,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "tamilnadu_hindu_temples",
+      "n_samples": 500,
+      "distinct_sequences": 59,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "japanese_novelists",
+      "n_samples": 500,
+      "distinct_sequences": 33,
+      "unreachable": 1,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Kaneto Shindo<|endoftext|>",
+          "failpos": 1,
+          "rank": 13,
+          "G_T1": 0.903725,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nepal_mountains",
+      "n_samples": 500,
+      "distinct_sequences": 4,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "brazil_universities",
+      "n_samples": 500,
+      "distinct_sequences": 28,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "finland_lakes",
+      "n_samples": 500,
+      "distinct_sequences": 5,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "nigerian_painters",
+      "n_samples": 500,
+      "distinct_sequences": 192,
+      "unreachable": 3,
+      "robust_unreachable": {
+        "0.25": 1,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Moses Gichuhi<|endoftext|>",
+          "failpos": 0,
+          "rank": 28,
+          "G_T1": 0.897925,
+          "top_p": 0.9
+        },
+        {
+          "text": "Yinka Shodipep<|endoftext|>",
+          "failpos": 5,
+          "rank": 101,
+          "G_T1": 0.904722,
+          "top_p": 0.9
+        },
+        {
+          "text": "Yinka Shasha.<|endoftext|>",
+          "failpos": 3,
+          "rank": 7,
+          "G_T1": 0.901807,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "bengali_film_directors",
+      "n_samples": 500,
+      "distinct_sequences": 1,
+      "unreachable": 0,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": []
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "assamese_writers",
+      "n_samples": 500,
+      "distinct_sequences": 396,
+      "unreachable": 4,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Hem Chunder Boshut<|endoftext|>",
+          "failpos": 3,
+          "rank": 1,
+          "G_T1": 0.903623,
+          "top_p": 0.9
+        },
+        {
+          "text": "MaaA(মাা)<|endoftext|>",
+          "failpos": 1,
+          "rank": 66,
+          "G_T1": 0.900155,
+          "top_p": 0.9
+        },
+        {
+          "text": "Nabanima Boro<|endoftext|>",
+          "failpos": 2,
+          "rank": 20,
+          "G_T1": 0.903661,
+          "top_p": 0.9
+        },
+        {
+          "text": "Author: Lakhyahira Phukan<|endoftext|>",
+          "failpos": 0,
+          "rank": 71,
+          "G_T1": 0.902434,
+          "top_p": 0.9
+        }
+      ]
+    },
+    {
+      "spec": "p0.90_T1",
+      "category": "us_state_capitals",
+      "n_samples": 500,
+      "distinct_sequences": 34,
+      "unreachable": 2,
+      "robust_unreachable": {
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 0,
+        "1.5": 0,
+        "2.0": 0,
+        "3.0": 0
+      },
+      "examples": [
+        {
+          "text": "Annapolis<|endoftext|>",
+          "failpos": 0,
+          "rank": 20,
+          "G_T1": 0.895878,
+          "top_p": 0.9
+        },
+        {
+          "text": "Jacksonville.<|endoftext|>",
+          "failpos": 2,
+          "rank": 1,
+          "G_T1": 0.903622,
+          "top_p": 0.9
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "model": "allenai/OLMo-2-1124-7B-SFT",
+    "commit": "1de02c0175118a9de5854aec80a1f970e701e928",
+    "code": {
+      "tree_sha256": "5767c412700cf7c8",
+      "git_head": "7a50eb932598d8c1aa018682bf98a04bac92bdbc",
+      "git_dirty": false
+    },
+    "transformers": "5.22.2",
+    "torch": "2.15.0+cu132",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "utc": "2026-11-08T16:06:48Z",
+    "cuda_visible_devices": null,
+    "seconds": 48.328197956085205,
+    "peak_gpu_gib": 17.42020320892334,
+    "args": {
+      "model": "allenai/OLMo-2-1124-7B-SFT",
+      "data": "data/tailcat/pilot_v2",
+      "out": "results/G1/calibration",
+      "specs": "shipped_hf,p0.90_T1",
+      "n_samples": 500,
+      "max_new_tokens": 24,
+      "batch_size": 32,
+      "seed": 1,
+      "gap_samples": 50,
+      "gap_only": false,
+      "gap_tf_batch": null,
+      "margins": "0.25,0.5,0.75,1.0,1.5,2.0,3.0",
+      "device": "cuda",
+      "limit_categories": null
+    },
+    "specs": {
+      "untruncated_T1": {},
+      "p0.80_T1": {
+        "top_p": 0.8
+      },
+      "p0.90_T1": {
+        "top_p": 0.9
+      },
+      "p0.95_T1": {
+        "top_p": 0.95
+      },
+      "p0.90_T0.7": {
+        "temperature": 0.7,
+        "top_p": 0.9
+      },
+      "k20_T1": {
+        "top_k": 20
+      },
+      "k50_T1": {
+        "top_k": 50
+      },
+      "minp0.05_T1": {
+        "min_p": 0.05
+      },
+      "minp0.10_T1": {
+        "min_p": 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "H2": true,
+  "H2_per_family": {
+    "qwen2.5": true,
+    "olmo2": true
+  },
+  "olmo_stage_dips": 1,
+  "olmo_monotone_ok": true,
+  "H3": true,
+  "H3_per_family": {
+    "qwen2.5": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "share": 0.8413499867127292,
+      "holds": true
+    },
+    "olmo2": {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "share": 0.7379310344827587,
+      "holds": true
+    }
+  },
+  "mechanism": {
+    "spearman_top1_mass_vs_rbu": 0.8165118463625928,
+    "n_points": 66
+  },
+  "story": "Both hold: alignment concentrates first-token mass; truncation deletes the tail. P5 fix targets the first token.",
+  "models": {
+    "qwen2.5:base": "results/G0_5090/Qwen2.5-7B",
+    "qwen2.5:instruct": "results/G0_5090/Qwen2.5-7B-Instruct",
+    "olmo2:base": "results/G1/OLMo-2-1124-7B",
+    "olmo2:sft": "results/G1/OLMo-2-1124-7B-SFT",
+    "olmo2:dpo": "results/G1/OLMo-2-1124-7B-DPO",
+    "olmo2:instruct": "results/G1/OLMo-2-1124-7B-Instruct"
+  }
+}
