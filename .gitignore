@@ -11,3 +11,8 @@ logs/run/
 
 # full TailCat raw Wikidata cache: stored compressed as data/tailcat/full_v1_raw.tar.gz (sha256 in results/INDEX.md)
 data/tailcat/full_v1/raw/
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.out
+paper/*.bbl
