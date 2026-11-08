@@ -331,9 +331,10 @@ def main():
     ap.add_argument("--data", default=None)
     ap.add_argument("--instruct", required=True)
     ap.add_argument("--base", default=None)
+    ap.add_argument("--metrics-dir", default="metrics", help="output folder under --results (several pairs per run)")
     args = ap.parse_args()
     root = Path(args.results)
-    out = root / "metrics"
+    out = root / args.metrics_dir
     out.mkdir(parents=True, exist_ok=True)
     models = {"instruct": args.instruct} | ({"base": args.base} if args.base else {})
     loaded, ent_rows, headline = {}, {}, {}
