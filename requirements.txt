@@ -1,0 +1,8 @@
+torch>=2.3
+transformers>=4.45
+numpy
+pyyaml
+requests
+pytest
+# Phase 3+ only (fast sampling at scale; cross-check against HF semantics first):
+# vllm

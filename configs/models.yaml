@@ -1,0 +1,26 @@
+# Models for MB5. Shipped sampler defaults are read at runtime from each
+# model's generation_config.json (never hardcode them). Verify every id exists
+# and record the commit hash (meta.json does this automatically).
+# gated: true needs HF_TOKEN with the licence accepted on huggingface.co.
+
+pilot:          # gate G0
+  - {id: Qwen/Qwen2.5-0.5B-Instruct, role: smoke_test, chat: true}
+  - {id: Qwen/Qwen2.5-7B-Instruct,  role: instruct,   chat: true,  family: qwen2.5}
+  - {id: Qwen/Qwen2.5-7B,           role: base,       chat: false, family: qwen2.5}
+
+stages:         # gate G1: the cleanest post-training natural experiment (open data, all stages)
+  - {id: allenai/OLMo-2-1124-7B,          stage: base,     chat: false}
+  - {id: allenai/OLMo-2-1124-7B-SFT,      stage: sft,      chat: true}
+  - {id: allenai/OLMo-2-1124-7B-DPO,      stage: dpo,      chat: true}
+  - {id: allenai/OLMo-2-1124-7B-Instruct, stage: instruct, chat: true}
+
+families:       # Phase 3: generality across labs
+  - {id: meta-llama/Llama-3.1-8B,          role: base,     chat: false, gated: true}
+  - {id: meta-llama/Llama-3.1-8B-Instruct, role: instruct, chat: true,  gated: true}
+  - {id: google/gemma-2-9b,                role: base,     chat: false, gated: true}
+  - {id: google/gemma-2-9b-it,             role: instruct, chat: true,  gated: true}
+
+scale:          # Phase 3, optional: does unreachability shrink with scale?
+  - {id: Qwen/Qwen2.5-1.5B-Instruct, chat: true}
+  - {id: Qwen/Qwen2.5-3B-Instruct,   chat: true}
+  - {id: Qwen/Qwen2.5-14B-Instruct,  chat: true}

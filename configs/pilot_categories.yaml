@@ -1,0 +1,132 @@
+# TailCat pilot for gate G0: 10 long-tail categories + 1 head control.
+# Each `where` binds ?item to members; each `foil_where` binds ?item to near-miss
+# non-members from sibling categories (members are filtered out in Python).
+#
+# QIDs were written from memory. tailcat.py prints a sanity report: any category
+# with < 30 members or foils, or with junk examples, has a wrong QID. Look the QID
+# up on wikidata.org and fix it here before running a model. Log fixes in notes/decisions.md.
+#
+# Key QIDs used: Q5 human, Q49757 poet, Q36180 writer, Q6625963 novelist, Q1028181 painter,
+# Q2526255 film director, Q11424 film, Q4022 river, Q23397 lake, Q8502 mountain,
+# Q3918 university, Q842402 Hindu temple, Q515 city, Q35657 U.S. state, Q1093829 city in the US.
+# Places: Q1186 Kerala, Q1185 Karnataka, Q1445 Tamil Nadu, Q668 India, Q17 Japan, Q884 South Korea,
+# Q148 China, Q837 Nepal, Q917 Bhutan, Q843 Pakistan, Q155 Brazil, Q414 Argentina, Q45 Portugal,
+# Q33 Finland, Q34 Sweden, Q1033 Nigeria, Q117 Ghana, Q114 Kenya.
+# Languages: Q5885 Tamil, Q8097 Telugu, Q33673 Kannada, Q9610 Bengali, Q29401 Assamese, Q33810 Odia.
+# Properties: P31 instance of, P279 subclass of, P106 occupation, P27 citizenship,
+# P1412 languages spoken/written, P6886 writing language, P131 located in admin. entity,
+# P17 country, P364 original language of film, P57 director, P36 capital, P1082 population.
+
+settings:
+  member_cap: 400      # per category, stratified over sitelink quantiles
+  foil_cap: 200
+  strata: 5
+  max_aliases: 3
+  seed: 0
+
+categories:
+  - id: tamil_poets
+    singular: a poet who wrote in Tamil
+    plural: poets who wrote in Tamil
+    where: >-
+      ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q49757 .
+      { ?item wdt:P6886 wd:Q5885 } UNION { ?item wdt:P1412 wd:Q5885 }
+    foil_where: >-
+      ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q49757 .
+      { ?item wdt:P1412 wd:Q8097 } UNION { ?item wdt:P1412 wd:Q33673 }
+
+  - id: kerala_rivers
+    singular: a river in Kerala
+    plural: rivers in Kerala
+    # Same membership as "P31/P279* river AND P131* Kerala", ordered so the place
+    # walk runs first (the original order times out on WDQS; see notes/decisions.md).
+    where: >-
+      { SELECT ?item WHERE { ?item wdt:P131* wd:Q1186 } } hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q4022 .
+    foil_where: >-
+      { ?item wdt:P131* wd:Q1185 } UNION { ?item wdt:P131* wd:Q1445 } hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q4022 .
+
+  - id: tamilnadu_hindu_temples
+    singular: a Hindu temple in Tamil Nadu
+    plural: Hindu temples in Tamil Nadu
+    where: >-
+      { SELECT ?item WHERE { ?item wdt:P131* wd:Q1445 } } hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q842402 .
+    foil_where: >-
+      { ?item wdt:P131* wd:Q1186 } UNION { ?item wdt:P131* wd:Q1185 } hint:Prior hint:runFirst true .
+      ?item wdt:P31/wdt:P279* wd:Q842402 .
+
+  - id: japanese_novelists
+    singular: a Japanese novelist
+    plural: Japanese novelists
+    where: >-
+      ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q6625963 ; wdt:P27 wd:Q17 .
+    foil_where: >-
+      ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q6625963 .
+      { ?item wdt:P27 wd:Q884 } UNION { ?item wdt:P27 wd:Q148 }
+
+  - id: nepal_mountains
+    singular: a mountain in Nepal
+    plural: mountains in Nepal
+    where: >-
+      ?item wdt:P31 wd:Q8502 ; wdt:P17 wd:Q837 .
+    foil_where: >-
+      ?item wdt:P31 wd:Q8502 .
+      { ?item wdt:P17 wd:Q917 } UNION { ?item wdt:P17 wd:Q843 }
+
+  - id: brazil_universities
+    singular: a university in Brazil
+    plural: universities in Brazil
+    where: >-
+      ?item wdt:P31/wdt:P279* wd:Q3918 ; wdt:P17 wd:Q155 .
+    foil_where: >-
+      ?item wdt:P31/wdt:P279* wd:Q3918 .
+      { ?item wdt:P17 wd:Q414 } UNION { ?item wdt:P17 wd:Q45 }
+
+  - id: finland_lakes
+    singular: a lake in Finland
+    plural: lakes in Finland
+    where: >-
+      ?item wdt:P31 wd:Q23397 ; wdt:P17 wd:Q33 .
+    foil_where: >-
+      ?item wdt:P31 wd:Q23397 ; wdt:P17 wd:Q34 .
+
+  - id: nigerian_painters
+    singular: a Nigerian painter
+    plural: Nigerian painters
+    where: >-
+      ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q1028181 ; wdt:P27 wd:Q1033 .
+    foil_where: >-
+      ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q1028181 .
+      { ?item wdt:P27 wd:Q117 } UNION { ?item wdt:P27 wd:Q114 }
+
+  - id: bengali_film_directors
+    singular: a director of Bengali-language films
+    plural: directors of Bengali-language films
+    where: >-
+      ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q9610 ; wdt:P57 ?item .
+    foil_where: >-
+      ?film wdt:P31 wd:Q11424 ; wdt:P364 wd:Q5885 ; wdt:P57 ?item .
+
+  - id: assamese_writers
+    singular: a writer who wrote in Assamese
+    plural: writers who wrote in Assamese
+    # Language pattern first: same membership, 0.6 s instead of 44 s.
+    where: >-
+      { ?item wdt:P6886 wd:Q29401 } UNION { ?item wdt:P1412 wd:Q29401 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 .
+    foil_where: >-
+      { ?item wdt:P1412 wd:Q33810 } UNION { ?item wdt:P1412 wd:Q9610 } hint:Prior hint:runFirst true .
+      ?item wdt:P31 wd:Q5 ; wdt:P106/wdt:P279* wd:Q36180 .
+
+  # Head control: every model should reach nearly all of these. If RBU is high
+  # here too, suspect a pipeline bug before believing anything else.
+  - id: us_state_capitals
+    control: true
+    singular: a capital city of a U.S. state
+    plural: capital cities of U.S. states
+    where: >-
+      ?state wdt:P31 wd:Q35657 ; wdt:P36 ?item .
+    foil_where: >-
+      ?item wdt:P31 wd:Q1093829 ; wdt:P1082 ?pop . FILTER(?pop > 250000)
