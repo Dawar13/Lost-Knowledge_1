@@ -141,15 +141,19 @@ The full frontier is the more useful result (Appendix~\ref{app:frontier}). Remov
 For each model we sample 500 answers per pilot category with a separate seed, compute for each distinct answer the logit shift at which its reachability verdict flips (by bisection), and set $\epsilon$ to the smallest value on the grid $\{0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 6\}$ that covers every sampled answer. For Qwen2.5-7B-Instruct, \gzCalSeqs{} distinct sampled answers gave \gzCalExact{} exact-verdict contradictions and none at $\epsilon=\gzEps$; the 99.9th percentile of the relevant logit gap was \gzGapQnine{}. In the Qwen sample check, \gzExactViolations{} sampled answer would have contradicted the exact verdict and none contradicted the robust one.
 
 \section{Recognition validity}\label{app:recognition}
-\missing{per-category AUROC table}
+\input{tables/recognition}
 
 \section{Walk-through examples}\label{app:walk}
-\missing{walk-through examples}
+Each table shows one recognised entity token by token under top-$p$ 0.9 (template 0): the chat model's verdict first, then the base model's. Source: 	exttt{results/*/examples/}.
+
+\input{tables/walkthrough}
 
 \section{Breakdowns}\label{app:breakdowns}
-\missing{region and type tables}
+\input{tables/by_region}
+
+\input{tables/by_type}
 
 \section{Mitigation frontier}\label{app:frontier}
-\missing{frontier tables}
+\input{tables/frontier}
 
 \end{document}
