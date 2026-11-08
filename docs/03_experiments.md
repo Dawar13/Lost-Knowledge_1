@@ -1,5 +1,22 @@
 # MB5 experiments
 
+## Status at 2026-11-09 (results registry: results/INDEX.md; reasoning: notes/decisions.md)
+
+| experiment | status | where |
+|---|---|---|
+| E0 instrument | done; numeric margin added (docs/04 s.2); 15 unit tests | tests/, results/dev_* |
+| E1 TailCat | pilot_v2 (11 categories) and full_v1 (277 kept of 346 built) | data/tailcat/ |
+| E2, E3, E4 G0 | done; signed under option B (V2 AUROC 0.835 < 0.85) | results/G0_5090, gates/G0*.md |
+| E5, E6 G1 | done; H2 and H3 hold; signed | results/G1, gates/G1.md |
+| E7 robustness | 5 wordings and temperature sweep on pilot_v2 (wording-robust) | results/P3_robust |
+| E7 self-preamble, non-canonical audit at scale | preamble not run; non-canonical counts come from the P3 sample check | results/P3 |
+| E8 multilingual | not run (no native-checked translations) | future work |
+| E9 popularity, G2 | running (P3) | results/P3/g2, gates/G2.md |
+| E10 estimators | pilot check done; at scale from P3 samples | results/P3/metrics/estimators_* |
+| E11 mitigation, G3 | done; G3 FAIL (frontier reported); hand audit pending | results/P5, gates/G3.md |
+| E12 closed models | not run | |
+| scale ladder | queued after P3 | results/P3_scale |
+
 Status key: **ready** = code in `src/mb5` runs it; **to build** = an agent writes it in that phase, reusing the existing modules. Every experiment writes to `results/<phase>/...` and appends to `logs/gpu_ledger.csv`.
 
 ## E0 Correctness of the instrument (P0, ready)
