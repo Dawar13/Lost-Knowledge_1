@@ -21,3 +21,5 @@ paper/*.bbl
 data/tailcat/pilot_v2_labels_ml/raw/
 # figure previews (rebuild with python -m mb5.figures)
 paper/figures/*.png
+# code bundle pieces made by scripts/remote/launch_from_local.sh
+scripts/remote/bundle/
