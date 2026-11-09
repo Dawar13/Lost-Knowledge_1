@@ -251,13 +251,31 @@ def e15_summary(samples, recog, scores, p5_reach, wide=WIDE_SPECS, ref=REFERENCE
     return res
 
 
+def apply_classes(samples: list[dict], classes: list[dict]) -> list[dict]:
+    """The P5 samples with class and member_qid replaced by the multilingual ones (mb5.invented_ml
+    samples_classes_<model>.jsonl.gz), joined on (spec, category, i). The file must have been made
+    from the same samples: its English class must equal the stored class on every row."""
+    idx = {(c["spec"], c["category"], c["i"]): c for c in classes}
+    out = []
+    for r in samples:
+        c = idx.get((r["spec"], r["category"], r["i"]))
+        if c is None or c["class_en"] != r["class"]:
+            raise ValueError(f"classes file does not match the samples at {(r['spec'], r['category'], r['i'])}")
+        out.append(dict(r, **{"class": c["class_ml"], "member_qid": c["member_qid_ml"]}))
+    if len(idx) != len(samples):
+        raise ValueError(f"classes file has {len(idx)} rows for {len(samples)} samples")
+    return out
+
+
 def g3b_decision(e15: dict[str, dict], wide=WIDE_SPECS) -> dict:
     by_sampler = {s: all(m["g3b"]["by_sampler"][s] for m in e15.values()) for s in wide}
     return {"by_sampler": by_sampler, "passes": any(by_sampler.values()),
             "recommended": [s for s, ok in by_sampler.items() if ok]}
 
 
-def g3b_report(e15: dict[str, dict], wide=WIDE_SPECS) -> str:
+def g3b_report(e15: dict[str, dict], wide=WIDE_SPECS, english: dict[str, dict] | None = None) -> str:
+    """english: the same summaries under the English-only invented-name metric, reported beside the
+    decisive multilingual ones (notes/decisions.md 2026-11-09). None: e15 itself is English-only."""
     d = g3b_decision(e15, wide)
     L = [f"# Gate G3b decision: **{'PASS' if d['passes'] else 'FAIL'}** (sample wide, then self-check; "
          "provisional until the hand audit of kept invented answers)", "",
@@ -291,6 +309,24 @@ def g3b_report(e15: dict[str, dict], wide=WIDE_SPECS) -> str:
         bad = {s: c for s, c in r.get("checks", {}).items() if not all(c.values())}
         if bad:
             L += [f"WARNING: unfiltered numbers do not reproduce frontier.json: {bad}", ""]
+    if english is not None:
+        de = g3b_decision(english, wide)
+        L += ["## English-only invented-name metric (reported beside; not decisive)", "",
+              "| wide sampler | passes for every model |", "|---|---|"]
+        L += [f"| {s} | {'yes' if ok else 'no'} |" for s, ok in de["by_sampler"].items()]
+        L += ["", "| model | sampler | invented rate kept | change vs reference | passes |", "|---|---|---|---|---|"]
+        for m, r in english.items():
+            for s, x in r["quantiles"][str(MAIN_Q)]["rows"].items():
+                if s in wide:
+                    L.append(f"| {m} | {s} | {fmt(x['filtered']['invented_rate'])} | "
+                             f"{100 * x['invented_delta_vs_reference']:+.1f} pts | {'yes' if x['passes'] else 'no'} |")
+        L.append("")
+        L += ["Notes: 'invented' is the multilingual class of mb5.invented_ml (decisive, fixed before the run): the "
+              "answer matches no label or alias, in any language Wikidata holds, of a member, an uncapped member or a "
+              "foil. The English-only class of mb5.frontier is reported above. Both include wrong answers (real "
+              "people of another category) and real names Wikidata misses. The hand audit is extended to 100 kept "
+              "invented answers per model (notes/decisions.md).", "", "Sign-off: ____________________"]
+        return "\n".join(L)
     L += ["Notes: 'invented' is mb5.frontier's automatic class (no member of the uncapped Wikidata list, no foil); "
           "it includes real names Wikidata misses, spelling variants and non-name text. The hand audit is extended "
           "to 100 kept invented answers per model (notes/decisions.md).", "", "Sign-off: ____________________"]
@@ -346,9 +382,13 @@ def main():
     ap.add_argument("--stages", default="results/G1/stages.csv")
     ap.add_argument("--gates", default="results/gates")
     ap.add_argument("--e14-variant", default="", help="suffix of a non-default E14 run, e.g. _member_or_valid")
+    ap.add_argument("--classes-dir", default=None,
+                    help="mb5.invented_ml output (samples_classes_<tag>.jsonl.gz): decide G3b under the multilingual "
+                         "invented-name metric and report the English-only one beside it (notes/decisions.md "
+                         "2026-11-09). Without it, the English-only P5 classes are used, as before.")
     args = ap.parse_args()
     root = Path(args.results)
-    all13, all14, all15 = {}, {}, {}
+    all13, all14, all15, all15_en = {}, {}, {}, {}
     for spec in args.model:
         tag, kv = _parse_model(spec)
         mdir, odir, p5 = root / tag, Path(kv["open"]), Path(kv["p5"])
@@ -369,19 +409,31 @@ def main():
             write_json(mdir / f"e14{args.e14_variant}_summary.json", all14[tag])
         if (mdir / "e15_scores.jsonl.gz").exists():
             fr = p5 / "frontier.json"
-            all15[tag] = e15_summary(read_jsonl(p5 / "samples_frontier.jsonl.gz"), recog,
-                                     read_jsonl(mdir / "e15_scores.jsonl.gz"), read_jsonl(p5 / "reach.jsonl.gz"),
-                                     frontier=json.loads(fr.read_text()) if fr.exists() else None)
+            samples = read_jsonl(p5 / "samples_frontier.jsonl.gz")
+            scores, p5_reach = read_jsonl(mdir / "e15_scores.jsonl.gz"), read_jsonl(p5 / "reach.jsonl.gz")
+            en = e15_summary(samples, recog, scores, p5_reach,
+                             frontier=json.loads(fr.read_text()) if fr.exists() else None)
+            if args.classes_dir:
+                ml = e15_summary(apply_classes(samples, read_jsonl(Path(args.classes_dir) /
+                                                                   f"samples_classes_{tag}.jsonl.gz")),
+                                 recog, scores, p5_reach)
+                all15[tag], all15_en[tag] = ml | {"metric": "multilingual"}, en | {"metric": "english"}
+                write_json(mdir / "e15_summary_en.json", all15_en[tag])
+            else:
+                all15[tag] = en
             write_json(mdir / "e15_summary.json", all15[tag])
     if all13 or all14:
         (root / "summary.md").write_text(summary_md(all13, all14), encoding="utf-8")
         print(summary_md(all13, all14))
     if all15 and len(all15) == len(args.model):
-        rep = g3b_report(all15)
+        rep = g3b_report(all15, english=all15_en or None)
         gates = Path(args.gates)
         gates.mkdir(parents=True, exist_ok=True)
         (gates / "G3b.md").write_text(rep, encoding="utf-8")
-        write_json(root / "g3b.json", g3b_decision(all15))
+        dec = g3b_decision(all15)
+        if all15_en:
+            dec |= {"metric": "multilingual", "english_only": g3b_decision(all15_en)}
+        write_json(root / "g3b.json", dec)
         print(rep)
 
 

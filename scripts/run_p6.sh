@@ -8,6 +8,11 @@ export PYTHONPATH=src
 OUT=${OUT:-results/P6}
 DATA=${DATA:-data/tailcat/pilot_v2}
 CUES=${CUES:-data/tailcat/pilot_v2_cues/cues.jsonl}
+# Multilingual invented-name classes (mb5.invented_ml, CPU; G3b is decided under them, notes/decisions.md 2026-11-09)
+CLASSES=${CLASSES:-results/analysis_cpu/invented_ml}
+for t in Qwen2.5-7B-Instruct OLMo-2-1124-7B-Instruct; do
+  [ -f "$CLASSES/samples_classes_$t.jsonl.gz" ] || { echo "missing $CLASSES/samples_classes_$t.jsonl.gz (run mb5.invented_ml analyse)"; exit 1; }
+done
 BS=${BS:-32}
 STEPS=${STEPS:-e13,e14,e15}
 QWEN=Qwen2.5-7B-Instruct

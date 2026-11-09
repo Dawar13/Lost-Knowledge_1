@@ -1,0 +1,19 @@
+{
+  "g3": {
+    "Qwen2.5-7B-Instruct": {
+      "recovered": 0.12277992277992283,
+      "invented_delta_en": -0.008454545454545492,
+      "invented_delta_ml": 0.0065454545454545765,
+      "passes_en": false,
+      "passes_ml": false
+    },
+    "OLMo-2-1124-7B-Instruct": {
+      "recovered": 0.23746452223273418,
+      "invented_delta_en": 0.030587078164130643,
+      "invented_delta_ml": 0.030121878848490324,
+      "passes_en": false,
+      "passes_ml": false
+    }
+  },
+  "note": "recovery does not depend on the invented-name metric; G3 keeps its decision (notes/decisions.md 2026-11-09)"
+}

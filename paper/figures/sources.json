@@ -1,0 +1,82 @@
+{
+ "fig1_mechanism": {
+  "code": {
+   "git_dirty": true,
+   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+   "tree_sha256": "df29639d40e0cc6a"
+  },
+  "inputs": {
+   "hf:Qwen/Qwen2.5-7B-Instruct/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+   "results/G0_5090/Qwen2.5-7B-Instruct/first_token.json": "13a3a5a18b885eb88549083ec00789becf845ac2e2106f5a5b23ac7abf872b80",
+   "results/G0_5090/Qwen2.5-7B/first_token.json": "ad79917b6a84eefcfa2f6d1f8da0d8ba1c175d706702a18b050820685530b4ac",
+   "results/G0_a3_5090/Qwen2.5-7B-Instruct/prompts.json": "ac853098576996b44a23fed2eee569511e104b51ac126164176568aeb1eb8a93",
+   "results/G0_a3_5090/Qwen2.5-7B-Instruct/reach.jsonl.gz": "e917785b977fd8ed91b0f55d9f656f649a21866cefe6c4e0b12966db43203c4d"
+  },
+  "width": "full"
+ },
+ "fig2_rbu_curves": {
+  "code": {
+   "git_dirty": true,
+   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+   "tree_sha256": "3fb8bafb40dbcb64"
+  },
+  "inputs": {
+   "results/P3/metrics/olmo2/rbu_curves_OLMo-2-1124-7B-Instruct.csv": "a87ae357ad837954934b67da41f8eda284fe11b4a3fd319f91e3a6938b26e678",
+   "results/P3/metrics/olmo2/rbu_curves_OLMo-2-1124-7B.csv": "09febd32f658b779ec081b116a64cd1b7885fe6b7e522f2e7c075ca5134726ca",
+   "results/P3/metrics/qwen2.5/rbu_curves_Qwen2.5-7B-Instruct.csv": "24ef821743126f0255eb075a7094a4eea2d7c3dbaeda2a85a24f2f532aeae89b",
+   "results/P3/metrics/qwen2.5/rbu_curves_Qwen2.5-7B.csv": "0ff833ebb4f198e43487b03cb0de32890e14d63a19677cb9d963962d858c958a"
+  },
+  "width": "full"
+ },
+ "fig3_stages": {
+  "code": {
+   "git_dirty": true,
+   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+   "tree_sha256": "3fb8bafb40dbcb64"
+  },
+  "inputs": {
+   "results/G1/stages.csv": "9b60b4e9847eaad29057ca99fb2c442de26f3d84f25d2c110fadf3b8332238cb"
+  },
+  "width": "full"
+ },
+ "fig4_popularity": {
+  "code": {
+   "git_dirty": true,
+   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+   "tree_sha256": "3fb8bafb40dbcb64"
+  },
+  "inputs": {
+   "results/P3/metrics/olmo2/popularity_OLMo-2-1124-7B-Instruct.csv": "cd551f23490310a520a2f1eb7eed6e0d63b8bf08b786d5f3eb0f7bd0cddd30ae",
+   "results/P3/metrics/olmo2/popularity_OLMo-2-1124-7B.csv": "bcfc16c5a4f4f7b1baf4595fa939280b77cf0a04c659af66d50646bf9c93fb6a",
+   "results/P3/metrics/qwen2.5/popularity_Qwen2.5-7B-Instruct.csv": "0714ca4fba99354a2e225ef787ca4a2595501c539ba61fd9d133cc79890d1415",
+   "results/P3/metrics/qwen2.5/popularity_Qwen2.5-7B.csv": "1fce85860387e61d5ed5493e6c570df085eebc1f338c05fee4e4be715d1585d7"
+  },
+  "width": "column"
+ },
+ "fig5_estimators": {
+  "code": {
+   "git_dirty": true,
+   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+   "tree_sha256": "3fb8bafb40dbcb64"
+  },
+  "inputs": {
+   "results/P3/metrics/estimators_OLMo-2-1124-7B-Instruct.json": "a1375264b45b35f43fc984f92b588886439c83b0df3a2691ecf8d6db5937c1e3",
+   "results/P3/metrics/estimators_Qwen2.5-7B-Instruct.json": "8ba5528123f7e5171282adb3aa36098205495e0bd3640f8761f12b86c16ff056",
+   "results/P3/metrics/rarefaction_OLMo-2-1124-7B-Instruct.csv": "7765707ecb683c8cf97d09dbcb0237e31892effc898e180d1aca31573757255d",
+   "results/P3/metrics/rarefaction_Qwen2.5-7B-Instruct.csv": "319997cb8873aafd4a51af3b24d4f70a556020600fbdae0e7d519fba149652e9"
+  },
+  "width": "full"
+ },
+ "fig6_frontier": {
+  "code": {
+   "git_dirty": true,
+   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+   "tree_sha256": "3fb8bafb40dbcb64"
+  },
+  "inputs": {
+   "results/P5/OLMo-2-1124-7B-Instruct/frontier.csv": "a1158a5dafca39b6489e8e446f95f9e6d60a531b28001f0ea4aac79f97e2ae66",
+   "results/P5/Qwen2.5-7B-Instruct/frontier.csv": "4287c592b561941b92c3f5188ea82fa7da7d7ddb4ca955df8957f35ef94c0e5a"
+  },
+  "width": "full"
+ }
+}

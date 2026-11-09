@@ -16,3 +16,8 @@ paper/*.log
 paper/*.blg
 paper/*.out
 paper/*.bbl
+
+# raw multilingual label cache: committed as data/tailcat/pilot_v2_labels_ml_raw.tar.gz
+data/tailcat/pilot_v2_labels_ml/raw/
+# figure previews (rebuild with python -m mb5.figures)
+paper/figures/*.png

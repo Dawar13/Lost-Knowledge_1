@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "results/P5/Qwen2.5-7B-Instruct/samples_frontier.jsonl.gz": "685cc3705137ce5b351199404f12c145b30687d40cfb5da2c7b2886732566297",
+    "results/P5/OLMo-2-1124-7B-Instruct/samples_frontier.jsonl.gz": "0bd159a04494c7fb8f7cc645657b5ced22bd59ed15e5ce7fe30393f8490ece14",
+    "data/tailcat/pilot_v2_labels_ml/labels.jsonl.gz": "94aeaa86c739dbaeceecc787868791c2f79ea55bdcf03adad87e6e845c25a738",
+    "data/tailcat/pilot_v2/entities.jsonl": "7cc454ad2d44a5dc1ed29a40ef9b891054d5ce3bb29dfd0318c037e0277ec122",
+    "data/tailcat/pilot_v2/foils.jsonl": "f58796b2a958d7dc8a562170ce1ced84d949df3e9fa9db70ca4201164eb2cce8",
+    "data/tailcat/pilot_v2/valid_names.json": "3ca540e23d848427a41d7822010df92d67f05ecae6973c441f4b350d8a26fb58"
+  },
+  "code": {
+    "tree_sha256": "9fa8792f12a457cb",
+    "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+    "git_dirty": true
+  },
+  "ambiguous_ml_member_names": {
+    "tamil_poets": 3,
+    "tamilnadu_hindu_temples": 10,
+    "nepal_mountains": 6,
+    "brazil_universities": 7,
+    "finland_lakes": 23,
+    "us_state_capitals": 1
+  },
+  "models": [
+    "Qwen2.5-7B-Instruct",
+    "OLMo-2-1124-7B-Instruct"
+  ]
+}

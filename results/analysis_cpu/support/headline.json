@@ -1,0 +1,1130 @@
+{
+  "pilot|Qwen2.5-7B|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 657,
+      "rbu_pairs": 0.5407407407407407,
+      "median_q_max": 2.9698023589983186e-09,
+      "median_q_any": 3.1576492335759645e-09,
+      "q_max_quartiles": [
+        3.965613916991751e-11,
+        4.0193949811781195e-07
+      ],
+      "median_samples_to_first_sight_q_max": 336722744.18196934,
+      "share_seen_q_max": {
+        "1000": 0.012986101038831232,
+        "10000": 0.05879239164628701,
+        "100000": 0.14304737295359393,
+        "1000000": 0.2343755115279344
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0,
+        "0.001": 0.0030441400304414,
+        "0.0001": 0.0350076103500761,
+        "1e-05": 0.1202435312024353,
+        "1e-06": 0.2100456621004566
+      },
+      "deleted_mass_per_prompt_mean": 0.0010928451437284435,
+      "reachable_median_q_max": 3.380072590822548e-05
+    },
+    "all_templates": {
+      "n_unreachable": 1911,
+      "rbu_pairs": 0.5242798353909465,
+      "median_q_max": 2.2050709370861283e-09,
+      "median_q_any": 2.381083217133655e-09,
+      "q_max_quartiles": [
+        3.0417485914639374e-11,
+        3.20652496276014e-07
+      ],
+      "median_samples_to_first_sight_q_max": 453500149.6693078,
+      "share_seen_q_max": {
+        "1000": 0.011881359838418438,
+        "10000": 0.056611003350681435,
+        "100000": 0.14054549165804672,
+        "1000000": 0.22775114163083468
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0,
+        "0.001": 0.0031397174254317113,
+        "0.0001": 0.03349031920460492,
+        "1e-05": 0.11669283097854527,
+        "1e-06": 0.20355834641548928
+      },
+      "deleted_mass_per_prompt_mean": 0.0009877850281169932,
+      "reachable_median_q_max": 2.8727627919560096e-05
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 175.8047058673396,
+        "E_untruncated_qany": 181.31491396893836,
+        "E_truncated_lo": 141.48228216427754,
+        "E_truncated_hi": 189.86383895216952
+      },
+      "10000": {
+        "E_untruncated_qmax": 295.9709065497836,
+        "E_untruncated_qany": 302.93638825795915,
+        "E_truncated_lo": 188.81995886216785,
+        "E_truncated_hi": 277.24906269603315
+      },
+      "100000": {
+        "E_untruncated_qmax": 444.20836674990005,
+        "E_untruncated_qany": 448.2149486472917,
+        "E_truncated_lo": 228.06108849934174,
+        "E_truncated_hi": 364.20805139334834
+      },
+      "1000000": {
+        "E_untruncated_qmax": 574.7329066248739,
+        "E_untruncated_qany": 576.3335245133823,
+        "E_truncated_lo": 254.61222624523296,
+        "E_truncated_hi": 428.4017088182078
+      },
+      "plateau_reachable": 558,
+      "n_recognised": 1215,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 735441.2249941753,
+      "n_star_qany_exceeds_plateau": 712928.575176296
+    }
+  },
+  "pilot|Qwen2.5-7B-Instruct|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 1248,
+      "rbu_pairs": 0.9526717557251908,
+      "median_q_max": 1.3092700162799079e-11,
+      "median_q_any": 1.3243665027790433e-11,
+      "q_max_quartiles": [
+        5.6206650303666475e-15,
+        7.400003009554942e-09
+      ],
+      "median_samples_to_first_sight_q_max": 76379348941.99432,
+      "share_seen_q_max": {
+        "1000": 0.01811498073296211,
+        "10000": 0.04376543116874391,
+        "100000": 0.08038676689201384,
+        "1000000": 0.12996277831480704
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0008012820512820513,
+        "0.001": 0.01282051282051282,
+        "0.0001": 0.035256410256410256,
+        "1e-05": 0.06971153846153846,
+        "1e-06": 0.11137820512820513
+      },
+      "deleted_mass_per_prompt_mean": 0.006888868152559765,
+      "reachable_median_q_max": 0.00037701387811989076
+    },
+    "all_templates": {
+      "n_unreachable": 3739,
+      "rbu_pairs": 0.9513994910941476,
+      "median_q_max": 1.2490483159619575e-11,
+      "median_q_any": 1.28987410636184e-11,
+      "q_max_quartiles": [
+        5.197281004182223e-15,
+        7.38678489637791e-09
+      ],
+      "median_samples_to_first_sight_q_max": 80060954185.73521,
+      "share_seen_q_max": {
+        "1000": 0.016326998341785127,
+        "10000": 0.040927916906404654,
+        "100000": 0.07782939290035232,
+        "1000000": 0.12579178317967757
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0005349023803155924,
+        "0.001": 0.010698047606311848,
+        "0.0001": 0.030756886868146562,
+        "1e-05": 0.06659534634929125,
+        "1e-06": 0.10858518320406525
+      },
+      "deleted_mass_per_prompt_mean": 0.005777933604227318,
+      "reachable_median_q_max": 0.0002648305569179948
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 50.35285792356968,
+        "E_untruncated_qany": 51.026368597835244,
+        "E_truncated_lo": 22.183463775038636,
+        "E_truncated_hi": 29.752007417095733
+      },
+      "10000": {
+        "E_untruncated_qmax": 92.01320732998217,
+        "E_untruncated_qany": 92.49569473641557,
+        "E_truncated_lo": 28.7459961136885,
+        "E_truncated_hi": 38.13473034280918
+      },
+      "100000": {
+        "E_untruncated_qmax": 145.23292823542778,
+        "E_untruncated_qany": 145.94503741432933,
+        "E_truncated_lo": 32.23611976575127,
+        "E_truncated_hi": 45.32583166922797
+      },
+      "1000000": {
+        "E_untruncated_qmax": 212.30666610186634,
+        "E_untruncated_qany": 213.18370361243385,
+        "E_truncated_lo": 33.8053921528984,
+        "E_truncated_hi": 50.39248701957936
+      },
+      "plateau_reachable": 62,
+      "n_recognised": 1310,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 2148.6549360496933,
+      "n_star_qany_exceeds_plateau": 2058.7132517055115
+    }
+  },
+  "pilot|Qwen2.5-7B-Instruct|shipped_hf": {
+    "q_exact": false,
+    "template0": {
+      "n_unreachable": 1295,
+      "rbu_pairs": 0.9885496183206107,
+      "median_q_max": 4.633467392845208e-15,
+      "median_q_any": 4.742574065921203e-15,
+      "q_max_quartiles": [
+        9.658888288501426e-20,
+        5.0188197337281754e-11
+      ],
+      "median_samples_to_first_sight_q_max": 215821093625079.78,
+      "share_seen_q_max": {
+        "1000": 0.013888083411196336,
+        "10000": 0.03105842155733218,
+        "100000": 0.05454643002522741,
+        "1000000": 0.08520868099624535
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0007722007722007722,
+        "0.001": 0.010038610038610039,
+        "0.0001": 0.02471042471042471,
+        "1e-05": 0.04555984555984556,
+        "1e-06": 0.07722007722007722
+      },
+      "deleted_mass_per_prompt_mean": 0.005182901872847104,
+      "reachable_median_q_max": 0.05220119160705756
+    },
+    "all_templates": {
+      "n_unreachable": 3888,
+      "rbu_pairs": 0.9893129770992366,
+      "median_q_max": 4.326433545955937e-15,
+      "median_q_any": 4.443610897792165e-15,
+      "q_max_quartiles": [
+        9.307120329152768e-20,
+        5.978878621366541e-11
+      ],
+      "median_samples_to_first_sight_q_max": 231137348868352.6,
+      "share_seen_q_max": {
+        "1000": 0.01333452229973409,
+        "10000": 0.02981704202192557,
+        "100000": 0.05328140640800166,
+        "1000000": 0.08394822469745777
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.001800411522633745,
+        "0.001": 0.009259259259259259,
+        "0.0001": 0.023148148148148147,
+        "1e-05": 0.045010288065843625,
+        "1e-06": 0.0763888888888889
+      },
+      "deleted_mass_per_prompt_mean": 0.006958766423018253,
+      "reachable_median_q_max": 0.05808727791155742
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 32.95315589167889,
+        "E_untruncated_qany": 33.07509972657311,
+        "E_truncated_lo": 3.0,
+        "E_truncated_hi": null
+      },
+      "10000": {
+        "E_untruncated_qmax": 55.220655916745166,
+        "E_untruncated_qany": 55.60727951991398,
+        "E_truncated_lo": 3.0,
+        "E_truncated_hi": null
+      },
+      "100000": {
+        "E_untruncated_qmax": 85.6376268826695,
+        "E_untruncated_qany": 85.75035711207404,
+        "E_truncated_lo": 3.0,
+        "E_truncated_hi": null
+      },
+      "1000000": {
+        "E_untruncated_qmax": 125.34524189013771,
+        "E_untruncated_qany": 125.60287707777523,
+        "E_truncated_lo": 3.0,
+        "E_truncated_hi": null
+      },
+      "plateau_reachable": 15,
+      "n_recognised": 1310,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 65.47344785891129,
+      "n_star_qany_exceeds_plateau": 63.19292230777286
+    }
+  },
+  "pilot|OLMo-2-1124-7B|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 573,
+      "rbu_pairs": 0.5552325581395349,
+      "median_q_max": 3.0398899011082106e-09,
+      "median_q_any": 3.508811620114528e-09,
+      "q_max_quartiles": [
+        9.58376857353826e-12,
+        5.550034409711155e-07
+      ],
+      "median_samples_to_first_sight_q_max": 328959282.25408554,
+      "share_seen_q_max": {
+        "1000": 0.015594132368098063,
+        "10000": 0.05864620143763646,
+        "100000": 0.14108271208991702,
+        "1000000": 0.246015100623763
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0,
+        "0.001": 0.0034904013961605585,
+        "0.0001": 0.038394415357766144,
+        "1e-05": 0.1099476439790576,
+        "1e-06": 0.225130890052356
+      },
+      "deleted_mass_per_prompt_mean": 0.0013616293095530562,
+      "reachable_median_q_max": 2.56908511565678e-05
+    },
+    "all_templates": {
+      "n_unreachable": 1684,
+      "rbu_pairs": 0.5439276485788114,
+      "median_q_max": 4.2861481390426e-09,
+      "median_q_any": 4.511947894956317e-09,
+      "q_max_quartiles": [
+        1.7412074097845537e-11,
+        6.757889082330064e-07
+      ],
+      "median_samples_to_first_sight_q_max": 233310277.823197,
+      "share_seen_q_max": {
+        "1000": 0.012378862329808397,
+        "10000": 0.05893631352779895,
+        "100000": 0.15190873845883662,
+        "1000000": 0.25995737018506504
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0,
+        "0.001": 0.0011876484560570072,
+        "0.0001": 0.03622327790973872,
+        "1e-05": 0.12351543942992874,
+        "1e-06": 0.2345605700712589
+      },
+      "deleted_mass_per_prompt_mean": 0.0008928111256740403,
+      "reachable_median_q_max": 4.533617102961377e-05
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 120.98051841192193,
+        "E_untruncated_qany": 124.1887460387935,
+        "E_truncated_lo": 98.80178474186872,
+        "E_truncated_hi": 128.4950062408072
+      },
+      "10000": {
+        "E_untruncated_qmax": 226.81954889949262,
+        "E_untruncated_qany": 232.89468631346293,
+        "E_truncated_lo": 154.9515640562289,
+        "E_truncated_hi": 205.59141509182717
+      },
+      "100000": {
+        "E_untruncated_qmax": 354.31773474488335,
+        "E_untruncated_qany": 359.74599665424216,
+        "E_truncated_lo": 205.89583699579038,
+        "E_truncated_hi": 279.36642162911374
+      },
+      "1000000": {
+        "E_untruncated_qmax": 473.3089208772037,
+        "E_untruncated_qany": 476.9284353218299,
+        "E_truncated_lo": 239.7632930858901,
+        "E_truncated_hi": 334.94476132797774
+      },
+      "plateau_reachable": 459,
+      "n_recognised": 1032,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 743462.0852894261,
+      "n_star_qany_exceeds_plateau": 684487.3405324136
+    }
+  },
+  "pilot|OLMo-2-1124-7B-SFT|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 1055,
+      "rbu_pairs": 0.9286971830985915,
+      "median_q_max": 2.2742748607072146e-09,
+      "median_q_any": 2.342248860029592e-09,
+      "q_max_quartiles": [
+        3.743503824162286e-12,
+        5.289921990879105e-07
+      ],
+      "median_samples_to_first_sight_q_max": 439700590.84636647,
+      "share_seen_q_max": {
+        "1000": 0.027938981089292846,
+        "10000": 0.07476469363625936,
+        "100000": 0.15349903159085265,
+        "1000000": 0.25634011771093845
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0009478672985781991,
+        "0.001": 0.016113744075829384,
+        "0.0001": 0.05402843601895735,
+        "1e-05": 0.12132701421800948,
+        "1e-06": 0.23127962085308057
+      },
+      "deleted_mass_per_prompt_mean": 0.008807966262211177,
+      "reachable_median_q_max": 0.0005339362378444995
+    },
+    "all_templates": {
+      "n_unreachable": 3055,
+      "rbu_pairs": 0.8964201877934272,
+      "median_q_max": 3.159570906297652e-09,
+      "median_q_any": 3.170088184472879e-09,
+      "q_max_quartiles": [
+        3.7637493061031974e-12,
+        6.598337347765318e-07
+      ],
+      "median_samples_to_first_sight_q_max": 316498673.28718644,
+      "share_seen_q_max": {
+        "1000": 0.02554548388784301,
+        "10000": 0.07530290072707473,
+        "100000": 0.160187821726937,
+        "1000000": 0.2625917067711859
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0003273322422258593,
+        "0.001": 0.013747954173486088,
+        "0.0001": 0.05499181669394435,
+        "1e-05": 0.1309328968903437,
+        "1e-06": 0.23469721767594107
+      },
+      "deleted_mass_per_prompt_mean": 0.005846498257315389,
+      "reachable_median_q_max": 0.00027931797196113143
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 70.20301196606569,
+        "E_untruncated_qany": 71.9204260486976,
+        "E_truncated_lo": 28.97716983283103,
+        "E_truncated_hi": 44.69662394999908
+      },
+      "10000": {
+        "E_untruncated_qmax": 134.84103378226527,
+        "E_untruncated_qany": 136.97972534719153,
+        "E_truncated_lo": 36.66887976307808,
+        "E_truncated_hi": 59.263107352692536
+      },
+      "100000": {
+        "E_untruncated_qmax": 229.71389963676583,
+        "E_untruncated_qany": 232.85985193683496,
+        "E_truncated_lo": 44.552121121488604,
+        "E_truncated_hi": 70.37166523250681
+      },
+      "1000000": {
+        "E_untruncated_qmax": 346.0356694102623,
+        "E_untruncated_qany": 348.99133241367053,
+        "E_truncated_lo": 50.41017461286316,
+        "E_truncated_hi": 76.941530963491
+      },
+      "plateau_reachable": 81,
+      "n_recognised": 1136,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 1578.085029994036,
+      "n_star_qany_exceeds_plateau": 1466.8110743237341
+    }
+  },
+  "pilot|OLMo-2-1124-7B-DPO|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 1080,
+      "rbu_pairs": 0.9407665505226481,
+      "median_q_max": 4.718979512374349e-10,
+      "median_q_any": 5.00163404601538e-10,
+      "q_max_quartiles": [
+        3.5634862485851597e-13,
+        2.0414523662166632e-07
+      ],
+      "median_samples_to_first_sight_q_max": 2121025393.009931,
+      "share_seen_q_max": {
+        "1000": 0.02355164159879272,
+        "10000": 0.058169555268023136,
+        "100000": 0.11854010800034366,
+        "1000000": 0.20918935098759084
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.002777777777777778,
+        "0.001": 0.01574074074074074,
+        "0.0001": 0.041666666666666664,
+        "1e-05": 0.09259259259259259,
+        "1e-06": 0.18796296296296297
+      },
+      "deleted_mass_per_prompt_mean": 0.011371874587684733,
+      "reachable_median_q_max": 0.00035549484384482944
+    },
+    "all_templates": {
+      "n_unreachable": 3231,
+      "rbu_pairs": 0.9381533101045296,
+      "median_q_max": 6.845772160843334e-10,
+      "median_q_any": 6.945575298452077e-10,
+      "q_max_quartiles": [
+        4.4009924232340064e-13,
+        2.9834608489859476e-07
+      ],
+      "median_samples_to_first_sight_q_max": 1460755597.0381718,
+      "share_seen_q_max": {
+        "1000": 0.024486253393627807,
+        "10000": 0.06464256772513532,
+        "100000": 0.13325892999932032,
+        "1000000": 0.22638958999299832
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0018570102135561746,
+        "0.001": 0.014856081708449397,
+        "0.0001": 0.04642525533890436,
+        "1e-05": 0.10430207366140513,
+        "1e-06": 0.20365212008666048
+      },
+      "deleted_mass_per_prompt_mean": 0.009127734611572865,
+      "reachable_median_q_max": 0.0003140650260208152
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 57.002063354392355,
+        "E_untruncated_qany": 57.71796400887648,
+        "E_truncated_lo": 21.035105469071055,
+        "E_truncated_hi": 33.94366533696472
+      },
+      "10000": {
+        "E_untruncated_qmax": 105.38246968182834,
+        "E_untruncated_qany": 107.07112783086895,
+        "E_truncated_lo": 26.04103328963509,
+        "E_truncated_hi": 45.090858132813615
+      },
+      "100000": {
+        "E_untruncated_qmax": 179.38264410087524,
+        "E_untruncated_qany": 181.6494592576924,
+        "E_truncated_lo": 31.404760731805432,
+        "E_truncated_hi": 54.2901518757122
+      },
+      "1000000": {
+        "E_untruncated_qmax": 285.72309455514403,
+        "E_untruncated_qany": 287.58918849797396,
+        "E_truncated_lo": 36.66537647738103,
+        "E_truncated_hi": 61.199743828596155
+      },
+      "plateau_reachable": 68,
+      "n_recognised": 1148,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 1889.8356851977483,
+      "n_star_qany_exceeds_plateau": 1791.0807659916638
+    }
+  },
+  "pilot|OLMo-2-1124-7B-Instruct|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 1057,
+      "rbu_pairs": 0.9403914590747331,
+      "median_q_max": 3.2549483260100444e-10,
+      "median_q_any": 3.2748650078177847e-10,
+      "q_max_quartiles": [
+        2.2600965778346607e-13,
+        1.837393345861561e-07
+      ],
+      "median_samples_to_first_sight_q_max": 3072245393.2957277,
+      "share_seen_q_max": {
+        "1000": 0.022841330578220926,
+        "10000": 0.05761308728962658,
+        "100000": 0.11836562978897398,
+        "1000000": 0.2055031056580401
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.002838221381267739,
+        "0.001": 0.014191106906338695,
+        "0.0001": 0.039735099337748346,
+        "1e-05": 0.0946073793755913,
+        "1e-06": 0.1825922421948912
+      },
+      "deleted_mass_per_prompt_mean": 0.009856624138062552,
+      "reachable_median_q_max": 0.0006277667387291277
+    },
+    "all_templates": {
+      "n_unreachable": 3162,
+      "rbu_pairs": 0.9377224199288257,
+      "median_q_max": 5.366254195425461e-10,
+      "median_q_any": 5.404337270425661e-10,
+      "q_max_quartiles": [
+        3.228370037996653e-13,
+        2.927512323725074e-07
+      ],
+      "median_samples_to_first_sight_q_max": 1863552735.2641792,
+      "share_seen_q_max": {
+        "1000": 0.02616109286179407,
+        "10000": 0.06532860748762609,
+        "100000": 0.1335941034891601,
+        "1000000": 0.2235598587583602
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0015812776723592662,
+        "0.001": 0.016761543327008223,
+        "0.0001": 0.04775458570524984,
+        "1e-05": 0.10784313725490197,
+        "1e-06": 0.20208728652751423
+      },
+      "deleted_mass_per_prompt_mean": 0.009491435376723971,
+      "reachable_median_q_max": 0.0003988410904417224
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 57.95588796558375,
+        "E_untruncated_qany": 58.598151791484604,
+        "E_truncated_lo": 22.176265827793614,
+        "E_truncated_hi": 35.58144963595644
+      },
+      "10000": {
+        "E_untruncated_qmax": 103.81170560228918,
+        "E_untruncated_qany": 105.36493902627267,
+        "E_truncated_lo": 27.45057476571862,
+        "E_truncated_hi": 45.287102412090114
+      },
+      "100000": {
+        "E_untruncated_qmax": 177.6827317204837,
+        "E_untruncated_qany": 179.82041827502695,
+        "E_truncated_lo": 33.8557612991394,
+        "E_truncated_hi": 55.37121138755612
+      },
+      "1000000": {
+        "E_untruncated_qmax": 277.9623723001377,
+        "E_untruncated_qany": 279.3672822509248,
+        "E_truncated_lo": 38.31378464097292,
+        "E_truncated_hi": 62.201042029730154
+      },
+      "plateau_reachable": 67,
+      "n_recognised": 1124,
+      "n_prompts": 11,
+      "n_star_qmax_exceeds_plateau": 1789.798157590244,
+      "n_star_qany_exceeds_plateau": 1700.2891421201741
+    }
+  },
+  "scale|Qwen2.5-7B|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 8999,
+      "rbu_pairs": 0.5520181572813152,
+      "median_q_max": 2.0830082329863706e-09,
+      "median_q_any": 2.1399927504605607e-09,
+      "q_max_quartiles": [
+        6.985660794250278e-12,
+        2.4732768247848826e-07
+      ],
+      "median_samples_to_first_sight_q_max": 480074914.810259,
+      "share_seen_q_max": {
+        "1000": 0.010292912612983334,
+        "10000": 0.048031554794311614,
+        "100000": 0.12203181627761527,
+        "1000000": 0.21607139663723096
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0,
+        "0.001": 0.001555728414268252,
+        "0.0001": 0.02833648183131459,
+        "1e-05": 0.09778864318257584,
+        "1e-06": 0.18790976775197243
+      },
+      "deleted_mass_per_prompt_mean": 0.00046493624402387684,
+      "reachable_median_q_max": 1.4297012759845794e-05
+    },
+    "all_templates": {
+      "n_unreachable": 26915,
+      "rbu_pairs": 0.5503414713941029,
+      "median_q_max": 1.947829041515442e-09,
+      "median_q_any": 1.995908906194894e-09,
+      "q_max_quartiles": [
+        6.106834722205621e-12,
+        2.2047953875327624e-07
+      ],
+      "median_samples_to_first_sight_q_max": 513392078.40436757,
+      "share_seen_q_max": {
+        "1000": 0.009821106955213548,
+        "10000": 0.04594958160980497,
+        "100000": 0.11812623478212664,
+        "1000000": 0.21112855244558731
+      },
+      "share_q_max_at_least": {
+        "0.01": 3.71540033438603e-05,
+        "0.001": 0.001857700167193015,
+        "0.0001": 0.026639420397547835,
+        "1e-05": 0.09440832249674902,
+        "1e-06": 0.18368939253204533
+      },
+      "deleted_mass_per_prompt_mean": 0.0004640481042198493,
+      "reachable_median_q_max": 1.3554678265183074e-05
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 1816.8601386033251,
+        "E_untruncated_qany": 1849.3708148148896,
+        "E_truncated_lo": 1481.6713863991038,
+        "E_truncated_hi": 1975.9470010428884
+      },
+      "10000": {
+        "E_untruncated_qmax": 3367.200535871466,
+        "E_untruncated_qany": 3407.3130471560485,
+        "E_truncated_lo": 2242.0635342726914,
+        "E_truncated_hi": 3166.0971618150443
+      },
+      "100000": {
+        "E_untruncated_qmax": 5173.833866265761,
+        "E_untruncated_qany": 5211.640905326239,
+        "E_truncated_lo": 2866.7836984702917,
+        "E_truncated_hi": 4258.3044084760995
+      },
+      "1000000": {
+        "E_untruncated_qmax": 7031.16457643741,
+        "E_untruncated_qany": 7065.300611786926,
+        "E_truncated_lo": 3343.754547897476,
+        "E_truncated_hi": 5230.650864550343
+      },
+      "plateau_reachable": 7303,
+      "n_recognised": 16302,
+      "n_prompts": 277,
+      "n_star_qmax_exceeds_plateau": 1406832.9540644737,
+      "n_star_qany_exceeds_plateau": 1348354.9935685224
+    }
+  },
+  "scale|Qwen2.5-7B-Instruct|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 14262,
+      "rbu_pairs": 0.9192986979502384,
+      "median_q_max": 1.3767963516426604e-11,
+      "median_q_any": 1.4126721734876663e-11,
+      "q_max_quartiles": [
+        2.5716760013226073e-15,
+        1.1021298756308862e-08
+      ],
+      "median_samples_to_first_sight_q_max": 72632383340.88019,
+      "share_seen_q_max": {
+        "1000": 0.013343307546414768,
+        "10000": 0.03469901841966672,
+        "100000": 0.06911226969172687,
+        "1000000": 0.12288335635988892
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.001051745898190997,
+        "0.001": 0.00827373439910251,
+        "0.0001": 0.026503996634413125,
+        "1e-05": 0.056163230963399244,
+        "1e-06": 0.10524470621231244
+      },
+      "deleted_mass_per_prompt_mean": 0.0022999206110233903,
+      "reachable_median_q_max": 1.5990884752186944e-05
+    },
+    "all_templates": {
+      "n_unreachable": 42778,
+      "rbu_pairs": 0.919126810192944,
+      "median_q_max": 1.1228477125389006e-11,
+      "median_q_any": 1.1525743119729815e-11,
+      "q_max_quartiles": [
+        2.0314299642240705e-15,
+        9.349026466932103e-09
+      ],
+      "median_samples_to_first_sight_q_max": 89059272653.73666,
+      "share_seen_q_max": {
+        "1000": 0.012464582587826544,
+        "10000": 0.03315213924372959,
+        "100000": 0.06679517141487003,
+        "1000000": 0.11914018425722636
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0007714245640282388,
+        "0.001": 0.007176586095656646,
+        "0.0001": 0.02550376361681238,
+        "1e-05": 0.05399971948197672,
+        "1e-06": 0.10178128944784702
+      },
+      "deleted_mass_per_prompt_mean": 0.002069581243193923,
+      "reachable_median_q_max": 1.4586905650637714e-05
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 575.0845407775882,
+        "E_untruncated_qany": 579.4969209762427,
+        "E_truncated_lo": 283.7576609941266,
+        "E_truncated_hi": 417.3482269581217
+      },
+      "10000": {
+        "E_untruncated_qmax": 1029.0571156502838,
+        "E_untruncated_qany": 1036.1186584949357,
+        "E_truncated_lo": 357.1446845967862,
+        "E_truncated_hi": 567.6744712878603
+      },
+      "100000": {
+        "E_untruncated_qmax": 1677.873675617822,
+        "E_untruncated_qany": 1688.3048418786477,
+        "E_truncated_lo": 426.73525459770445,
+        "E_truncated_hi": 720.6961139258005
+      },
+      "1000000": {
+        "E_untruncated_qmax": 2586.5131893937446,
+        "E_untruncated_qany": 2600.313057120915,
+        "E_truncated_lo": 485.2629481627931,
+        "E_truncated_hi": 863.0984509863977
+      },
+      "plateau_reachable": 1252,
+      "n_recognised": 15514,
+      "n_prompts": 277,
+      "n_star_qmax_exceeds_plateau": 24045.795725514537,
+      "n_star_qany_exceeds_plateau": 23327.58991340587
+    }
+  },
+  "scale|Qwen2.5-7B-Instruct|shipped_hf": {
+    "q_exact": false,
+    "template0": {
+      "n_unreachable": 15320,
+      "rbu_pairs": 0.987495165656826,
+      "median_q_max": 1.2485134145564915e-14,
+      "median_q_any": 1.2688709386294961e-14,
+      "q_max_quartiles": [
+        5.930675696702379e-20,
+        1.6657040454992516e-10
+      ],
+      "median_samples_to_first_sight_q_max": 80101073839485.03,
+      "share_seen_q_max": {
+        "1000": 0.01391132401440557,
+        "10000": 0.029527535432085993,
+        "100000": 0.052272376118559075,
+        "1000000": 0.0810479703961408
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0022193211488250653,
+        "0.001": 0.010182767624020888,
+        "0.0001": 0.024151436031331592,
+        "1e-05": 0.04445169712793734,
+        "1e-06": 0.07245430809399478
+      },
+      "deleted_mass_per_prompt_mean": 0.004249277843659238,
+      "reachable_median_q_max": 0.10890194032087133
+    },
+    "all_templates": {
+      "n_unreachable": 46000,
+      "rbu_pairs": 0.9883546044432985,
+      "median_q_max": 1.0024377286768226e-14,
+      "median_q_any": 1.0154553301724488e-14,
+      "q_max_quartiles": [
+        4.9132863745570615e-20,
+        1.3532616842731088e-10
+      ],
+      "median_samples_to_first_sight_q_max": 99756898955845.19,
+      "share_seen_q_max": {
+        "1000": 0.013782465968186232,
+        "10000": 0.02922846831415914,
+        "100000": 0.051416674965132206,
+        "1000000": 0.07969736234128488
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0023043478260869566,
+        "0.001": 0.010108695652173913,
+        "0.0001": 0.02356521739130435,
+        "1e-05": 0.04415217391304348,
+        "1e-06": 0.07091304347826087
+      },
+      "deleted_mass_per_prompt_mean": 0.004646394944892002,
+      "reachable_median_q_max": 0.1251302331733998
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 399.3132943341715,
+        "E_untruncated_qany": 400.6649558437524,
+        "E_truncated_lo": 86.98805036796648,
+        "E_truncated_hi": null
+      },
+      "10000": {
+        "E_untruncated_qmax": 643.8578735199195,
+        "E_untruncated_qany": 645.9621942722229,
+        "E_truncated_lo": 87.0,
+        "E_truncated_hi": null
+      },
+      "100000": {
+        "E_untruncated_qmax": 993.6580497552316,
+        "E_untruncated_qany": 997.1073305107471,
+        "E_truncated_lo": 87.0,
+        "E_truncated_hi": null
+      },
+      "1000000": {
+        "E_untruncated_qmax": 1434.7015265965513,
+        "E_untruncated_qany": 1439.1308801710334,
+        "E_truncated_lo": 87.0,
+        "E_truncated_hi": null
+      },
+      "plateau_reachable": 194,
+      "n_recognised": 15514,
+      "n_prompts": 277,
+      "n_star_qmax_exceeds_plateau": 48.684959698458336,
+      "n_star_qany_exceeds_plateau": 47.8831758477331
+    }
+  },
+  "scale|OLMo-2-1124-7B|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 7978,
+      "rbu_pairs": 0.6473547549496916,
+      "median_q_max": 4.7140898215497645e-09,
+      "median_q_any": 4.8220517194640595e-09,
+      "q_max_quartiles": [
+        1.3869370822016357e-11,
+        5.052343326989666e-07
+      ],
+      "median_samples_to_first_sight_q_max": 212131542.76110697,
+      "share_seen_q_max": {
+        "1000": 0.013725309295172626,
+        "10000": 0.05431564070774116,
+        "100000": 0.13470432306903588,
+        "1000000": 0.24503017285824227
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0,
+        "0.001": 0.004763098520932565,
+        "0.0001": 0.033968413136124344,
+        "1e-05": 0.10691902732514415,
+        "1e-06": 0.2149661569315618
+      },
+      "deleted_mass_per_prompt_mean": 0.0006362778096800173,
+      "reachable_median_q_max": 2.393442336696829e-05
+    },
+    "all_templates": {
+      "n_unreachable": 23185,
+      "rbu_pairs": 0.6270961808936493,
+      "median_q_max": 5.767469003309794e-09,
+      "median_q_any": 5.992995358752864e-09,
+      "q_max_quartiles": [
+        1.810192038120585e-11,
+        6.189093564702616e-07
+      ],
+      "median_samples_to_first_sight_q_max": 173386280.78037822,
+      "share_seen_q_max": {
+        "1000": 0.014249446696706226,
+        "10000": 0.05823788210692059,
+        "100000": 0.14264196917917157,
+        "1000000": 0.2557813487453592
+      },
+      "share_q_max_at_least": {
+        "0.01": 4.313133491481561e-05,
+        "0.001": 0.004313133491481561,
+        "0.0001": 0.03730860470131551,
+        "1e-05": 0.11369419883545395,
+        "1e-06": 0.2245417295665301
+      },
+      "deleted_mass_per_prompt_mean": 0.0006430784128543799,
+      "reachable_median_q_max": 3.56370519332804e-05
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 1214.682818247102,
+        "E_untruncated_qany": 1238.3756345817944,
+        "E_truncated_lo": 977.6004969109688,
+        "E_truncated_hi": 1272.0391911198321
+      },
+      "10000": {
+        "E_untruncated_qmax": 2309.59629901622,
+        "E_untruncated_qany": 2344.463562658721,
+        "E_truncated_lo": 1538.5859911221414,
+        "E_truncated_hi": 2021.393094066498
+      },
+      "100000": {
+        "E_untruncated_qmax": 3653.872280497069,
+        "E_untruncated_qany": 3688.549408374531,
+        "E_truncated_lo": 1986.6897450189824,
+        "E_truncated_hi": 2678.5903641718683
+      },
+      "1000000": {
+        "E_untruncated_qmax": 5102.034468562356,
+        "E_untruncated_qany": 5131.854742090125,
+        "E_truncated_lo": 2312.3584818277077,
+        "E_truncated_hi": 3218.907933033996
+      },
+      "plateau_reachable": 4346,
+      "n_recognised": 12324,
+      "n_prompts": 277,
+      "n_star_qmax_exceeds_plateau": 301764.19530181726,
+      "n_star_qany_exceeds_plateau": 285835.4750078547
+    }
+  },
+  "scale|OLMo-2-1124-7B-Instruct|p0.90_T1": {
+    "q_exact": true,
+    "template0": {
+      "n_unreachable": 10764,
+      "rbu_pairs": 0.9218121092746424,
+      "median_q_max": 2.9103759033264673e-10,
+      "median_q_any": 3.043938461557839e-10,
+      "q_max_quartiles": [
+        1.5727958074497665e-13,
+        1.4835192700098195e-07
+      ],
+      "median_samples_to_first_sight_q_max": 3435999433.848028,
+      "share_seen_q_max": {
+        "1000": 0.021921982667270905,
+        "10000": 0.060838731536423045,
+        "100000": 0.12212976139241827,
+        "1000000": 0.20025609695337268
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0007432181345224824,
+        "0.001": 0.011798587885544408,
+        "0.0001": 0.045336306205871424,
+        "1e-05": 0.1020066889632107,
+        "1e-06": 0.17827945001858045
+      },
+      "deleted_mass_per_prompt_mean": 0.0025198185992332542,
+      "reachable_median_q_max": 0.0002118128673992724
+    },
+    "all_templates": {
+      "n_unreachable": 31952,
+      "rbu_pairs": 0.9121064200279753,
+      "median_q_max": 3.9101657803864266e-10,
+      "median_q_any": 3.9937695817196463e-10,
+      "q_max_quartiles": [
+        2.2019827505572642e-13,
+        1.797554567923589e-07
+      ],
+      "median_samples_to_first_sight_q_max": 2557442188.4598947,
+      "share_seen_q_max": {
+        "1000": 0.024016956688813845,
+        "10000": 0.06553907080414934,
+        "100000": 0.1293814481861557,
+        "1000000": 0.20864291752721256
+      },
+      "share_q_max_at_least": {
+        "0.01": 0.0009076114171256885,
+        "0.001": 0.01314471707561342,
+        "0.0001": 0.04944917376064096,
+        "1e-05": 0.10881947921882824,
+        "1e-06": 0.18618552829243865
+      },
+      "deleted_mass_per_prompt_mean": 0.0027100516299151016,
+      "reachable_median_q_max": 0.00019308656395404853
+    },
+    "curve_t0": {
+      "1000": {
+        "E_untruncated_qmax": 625.4720643292761,
+        "E_untruncated_qany": 631.166753162893,
+        "E_truncated_lo": 311.5141655637619,
+        "E_truncated_hi": 421.93431399827045
+      },
+      "10000": {
+        "E_untruncated_qmax": 1179.8969276492244,
+        "E_untruncated_qany": 1190.032761312718,
+        "E_truncated_lo": 400.6223362985097,
+        "E_truncated_hi": 552.2153727289528
+      },
+      "100000": {
+        "E_untruncated_qmax": 1954.8431356813967,
+        "E_untruncated_qany": 1967.5887366061334,
+        "E_truncated_lo": 471.2332118966808,
+        "E_truncated_hi": 656.8464114734575
+      },
+      "1000000": {
+        "E_untruncated_qmax": 2874.7817062469703,
+        "E_untruncated_qany": 2888.500944576149,
+        "E_truncated_lo": 513.4218289014963,
+        "E_truncated_hi": 731.0810743213183
+      },
+      "plateau_reachable": 913,
+      "n_recognised": 11677,
+      "n_prompts": 277,
+      "n_star_qmax_exceeds_plateau": 3725.054623912676,
+      "n_star_qany_exceeds_plateau": 3601.8542849229466
+    }
+  },
+  "calibration": {
+    "Qwen2.5-7B-Instruct": {
+      "untruncated_T1": {
+        "samples": 11000,
+        "member_samples_observed": 3466,
+        "member_samples_predicted_any": 3653.13828221476,
+        "member_samples_predicted_max": 3372.2935777899993,
+        "distinct_members_observed": 75,
+        "distinct_members_predicted_any": 76.9724934229019,
+        "spearman_pred_any_vs_observed": {
+          "rho": 0.3052449939000833,
+          "p": 4.715490910268909e-51
+        },
+        "spearman_among_predicted_or_observed": {
+          "rho": 0.8133859537125385,
+          "p": 1.2374996949242986e-45,
+          "n": 188
+        },
+        "observed_with_predicted_below_0.05": {
+          "n_entities": 1,
+          "samples": 1,
+          "examples": [
+            {
+              "entity": "Q7635671|bengali_film_directors",
+              "label": "Sujit Guha",
+              "observed": 1,
+              "predicted_any": 0.03194650489890879
+            }
+          ]
+        }
+      },
+      "p0.90_T1": {
+        "samples": 11000,
+        "member_samples_observed": 3581,
+        "member_samples_predicted_lo": 3231.629873994377,
+        "member_samples_predicted_hi": 4552.018269826346,
+        "observed_samples_of_robustly_unreachable_entities": 0
+      },
+      "logp_agreement_with_open_run": {
+        "open_run": "results/G0_5090/Qwen2.5-7B-Instruct",
+        "n_forms": 3671,
+        "max_abs_diff": 1.1833231825730763,
+        "median_abs_diff": 0.0
+      }
+    },
+    "OLMo-2-1124-7B-Instruct": {
+      "untruncated_T1": {
+        "samples": 11000,
+        "member_samples_observed": 4042,
+        "member_samples_predicted_any": 4068.746634951436,
+        "member_samples_predicted_max": 3860.945538020882,
+        "distinct_members_observed": 78,
+        "distinct_members_predicted_any": 83.4566028804942,
+        "spearman_pred_any_vs_observed": {
+          "rho": 0.309825711896649,
+          "p": 1.2770565097185902e-52
+        },
+        "spearman_among_predicted_or_observed": {
+          "rho": 0.7520101813677138,
+          "p": 8.657532668400008e-43,
+          "n": 228
+        },
+        "observed_with_predicted_below_0.05": {
+          "n_entities": 2,
+          "samples": 2,
+          "examples": [
+            {
+              "entity": "Q7894373|brazil_universities",
+              "label": "Federal University of Juiz de Fora",
+              "observed": 1,
+              "predicted_any": 0.03448051123749734
+            },
+            {
+              "entity": "Q25330|us_state_capitals",
+              "label": "Trenton",
+              "observed": 1,
+              "predicted_any": 0.039107375223726315
+            }
+          ]
+        }
+      },
+      "p0.90_T1": {
+        "samples": 11000,
+        "member_samples_observed": 4362,
+        "member_samples_predicted_lo": 3642.1552918722055,
+        "member_samples_predicted_hi": 5354.265678627729,
+        "observed_samples_of_robustly_unreachable_entities": 0
+      },
+      "logp_agreement_with_open_run": {
+        "open_run": "results/G1/OLMo-2-1124-7B-Instruct",
+        "n_forms": 3671,
+        "max_abs_diff": 0.7412676594685763,
+        "median_abs_diff": 0.0
+      }
+    }
+  }
+}

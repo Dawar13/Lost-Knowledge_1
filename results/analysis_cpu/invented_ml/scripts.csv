@@ -1,0 +1,9 @@
+model,script,answers,share_of_nonempty,invented_en,invented_ml
+Qwen2.5-7B-Instruct,cjk,8767,0.056946,8767,8651
+Qwen2.5-7B-Instruct,latin,144930,0.941385,74589,63246
+Qwen2.5-7B-Instruct,none,15,9.7e-05,15,15
+Qwen2.5-7B-Instruct,other,242,0.001572,242,242
+OLMo-2-1124-7B-Instruct,cjk,6,3.9e-05,6,6
+OLMo-2-1124-7B-Instruct,latin,152238,0.988578,66338,48958
+OLMo-2-1124-7B-Instruct,none,5,3.2e-05,5,5
+OLMo-2-1124-7B-Instruct,other,1748,0.011351,1748,975

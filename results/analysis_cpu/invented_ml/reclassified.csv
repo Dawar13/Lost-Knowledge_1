@@ -1,0 +1,11 @@
+model,script,from,to,answers,distinct_answers
+Qwen2.5-7B-Instruct,cjk,invented,member,1,1
+Qwen2.5-7B-Instruct,cjk,invented,valid,115,6
+Qwen2.5-7B-Instruct,latin,invented,foil,170,1
+Qwen2.5-7B-Instruct,latin,invented,member,11143,17
+Qwen2.5-7B-Instruct,latin,invented,valid,30,5
+OLMo-2-1124-7B-Instruct,latin,invented,foil,707,11
+OLMo-2-1124-7B-Instruct,latin,invented,member,16498,38
+OLMo-2-1124-7B-Instruct,latin,invented,valid,175,22
+OLMo-2-1124-7B-Instruct,other,invented,member,732,6
+OLMo-2-1124-7B-Instruct,other,invented,valid,41,1

@@ -1,0 +1,264 @@
+{
+  "Qwen2.5-7B-Instruct": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "template": 0,
+    "n_members": 2312,
+    "specs": {
+      "untruncated_T1": {
+        "samples": 11000,
+        "member_samples_observed": 3466,
+        "member_samples_predicted_any": 3653.13828221476,
+        "member_samples_predicted_max": 3372.2935777899993,
+        "distinct_members_observed": 75,
+        "distinct_members_predicted_any": 76.9724934229019,
+        "spearman_pred_any_vs_observed": {
+          "rho": 0.3052449939000833,
+          "p": 4.715490910268909e-51
+        },
+        "spearman_among_predicted_or_observed": {
+          "rho": 0.8133859537125385,
+          "p": 1.2374996949242986e-45,
+          "n": 188
+        },
+        "observed_with_predicted_below_0.05": {
+          "n_entities": 1,
+          "samples": 1,
+          "examples": [
+            {
+              "entity": "Q7635671|bengali_film_directors",
+              "label": "Sujit Guha",
+              "observed": 1,
+              "predicted_any": 0.03194650489890879
+            }
+          ]
+        },
+        "per_category": {
+          "tamil_poets": {
+            "pred_any": 46.68938284352586,
+            "pred_max": 40.02289439422041,
+            "obs": 34,
+            "pred_distinct": 7.644222525301964,
+            "obs_distinct": 6
+          },
+          "kerala_rivers": {
+            "pred_any": 193.87405956195224,
+            "pred_max": 192.70062223475804,
+            "obs": 40,
+            "pred_distinct": 8.913190044486027,
+            "obs_distinct": 9
+          },
+          "tamilnadu_hindu_temples": {
+            "pred_any": 165.4058715894978,
+            "pred_max": 136.33715349496075,
+            "obs": 163,
+            "pred_distinct": 6.85320567936042,
+            "obs_distinct": 8
+          },
+          "japanese_novelists": {
+            "pred_any": 0.5025454533725595,
+            "pred_max": 0.4797649671752538,
+            "obs": 1,
+            "pred_distinct": 0.4545833078767182,
+            "obs_distinct": 1
+          },
+          "nepal_mountains": {
+            "pred_any": 495.4488367668672,
+            "pred_max": 495.25241970193537,
+            "obs": 488,
+            "pred_distinct": 6.615742691171472,
+            "obs_distinct": 6
+          },
+          "brazil_universities": {
+            "pred_any": 990.4637535785399,
+            "pred_max": 746.8715708526526,
+            "obs": 994,
+            "pred_distinct": 3.583855783179656,
+            "obs_distinct": 4
+          },
+          "finland_lakes": {
+            "pred_any": 0.22668023017975314,
+            "pred_max": 0.22668019033275988,
+            "obs": 0,
+            "pred_distinct": 0.2224136214900567,
+            "obs_distinct": 0
+          },
+          "nigerian_painters": {
+            "pred_any": 105.01760195762574,
+            "pred_max": 105.01758750022275,
+            "obs": 109,
+            "pred_distinct": 5.962030083915795,
+            "obs_distinct": 5
+          },
+          "bengali_film_directors": {
+            "pred_any": 654.4305084623968,
+            "pred_max": 654.422670725404,
+            "obs": 644,
+            "pred_distinct": 9.186916549815056,
+            "obs_distinct": 10
+          },
+          "assamese_writers": {
+            "pred_any": 30.386760438626837,
+            "pred_max": 30.27481090816662,
+            "obs": 26,
+            "pred_distinct": 5.350999813387209,
+            "obs_distinct": 6
+          },
+          "us_state_capitals": {
+            "pred_any": 970.692281332173,
+            "pred_max": 970.6874028201692,
+            "obs": 967,
+            "pred_distinct": 22.185333322917526,
+            "obs_distinct": 20
+          }
+        }
+      },
+      "p0.90_T1": {
+        "samples": 11000,
+        "member_samples_observed": 3581,
+        "member_samples_predicted_lo": 3231.629873994377,
+        "member_samples_predicted_hi": 4552.018269826346,
+        "observed_samples_of_robustly_unreachable_entities": 0
+      }
+    },
+    "logp_agreement_with_open_run": {
+      "open_run": "results/G0_5090/Qwen2.5-7B-Instruct",
+      "n_forms": 3671,
+      "max_abs_diff": 1.1833231825730763,
+      "median_abs_diff": 0.0
+    }
+  },
+  "OLMo-2-1124-7B-Instruct": {
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "template": 0,
+    "n_members": 2312,
+    "specs": {
+      "untruncated_T1": {
+        "samples": 11000,
+        "member_samples_observed": 4042,
+        "member_samples_predicted_any": 4068.746634951436,
+        "member_samples_predicted_max": 3860.945538020882,
+        "distinct_members_observed": 78,
+        "distinct_members_predicted_any": 83.4566028804942,
+        "spearman_pred_any_vs_observed": {
+          "rho": 0.309825711896649,
+          "p": 1.2770565097185902e-52
+        },
+        "spearman_among_predicted_or_observed": {
+          "rho": 0.7520101813677138,
+          "p": 8.657532668400008e-43,
+          "n": 228
+        },
+        "observed_with_predicted_below_0.05": {
+          "n_entities": 2,
+          "samples": 2,
+          "examples": [
+            {
+              "entity": "Q7894373|brazil_universities",
+              "label": "Federal University of Juiz de Fora",
+              "observed": 1,
+              "predicted_any": 0.03448051123749734
+            },
+            {
+              "entity": "Q25330|us_state_capitals",
+              "label": "Trenton",
+              "observed": 1,
+              "predicted_any": 0.039107375223726315
+            }
+          ]
+        },
+        "per_category": {
+          "tamil_poets": {
+            "pred_any": 115.03344233571703,
+            "pred_max": 93.44171094107152,
+            "obs": 114,
+            "pred_distinct": 7.947277854986235,
+            "obs_distinct": 8
+          },
+          "kerala_rivers": {
+            "pred_any": 67.85251152842136,
+            "pred_max": 67.69981993991463,
+            "obs": 81,
+            "pred_distinct": 11.472251832268597,
+            "obs_distinct": 11
+          },
+          "tamilnadu_hindu_temples": {
+            "pred_any": 741.3798167738445,
+            "pred_max": 739.8040115866371,
+            "obs": 761,
+            "pred_distinct": 3.395423542737719,
+            "obs_distinct": 3
+          },
+          "japanese_novelists": {
+            "pred_any": 1.094110541397812,
+            "pred_max": 1.0005107255121533,
+            "obs": 1,
+            "pred_distinct": 0.9316260232574806,
+            "obs_distinct": 1
+          },
+          "nepal_mountains": {
+            "pred_any": 180.83495845312842,
+            "pred_max": 180.68318997418794,
+            "obs": 169,
+            "pred_distinct": 3.2854112847572923,
+            "obs_distinct": 2
+          },
+          "brazil_universities": {
+            "pred_any": 927.3346657513209,
+            "pred_max": 743.2230722505907,
+            "obs": 892,
+            "pred_distinct": 11.168858459001154,
+            "obs_distinct": 12
+          },
+          "finland_lakes": {
+            "pred_any": 1.2430363374222175,
+            "pred_max": 1.2430341207429856,
+            "obs": 0,
+            "pred_distinct": 1.1612473815357396,
+            "obs_distinct": 0
+          },
+          "nigerian_painters": {
+            "pred_any": 80.64300190137654,
+            "pred_max": 80.6429465540015,
+            "obs": 68,
+            "pred_distinct": 3.6151273118697453,
+            "obs_distinct": 2
+          },
+          "bengali_film_directors": {
+            "pred_any": 967.4182326649938,
+            "pred_max": 967.4105075053349,
+            "obs": 968,
+            "pred_distinct": 4.630024774747047,
+            "obs_distinct": 3
+          },
+          "assamese_writers": {
+            "pred_any": 80.40721530783375,
+            "pred_max": 80.40248118559691,
+            "obs": 86,
+            "pred_distinct": 6.444289944265362,
+            "obs_distinct": 7
+          },
+          "us_state_capitals": {
+            "pred_any": 905.5056433559787,
+            "pred_max": 905.3942532372912,
+            "obs": 902,
+            "pred_distinct": 29.405064471067828,
+            "obs_distinct": 29
+          }
+        }
+      },
+      "p0.90_T1": {
+        "samples": 11000,
+        "member_samples_observed": 4362,
+        "member_samples_predicted_lo": 3642.1552918722055,
+        "member_samples_predicted_hi": 5354.265678627729,
+        "observed_samples_of_robustly_unreachable_entities": 0
+      }
+    },
+    "logp_agreement_with_open_run": {
+      "open_run": "results/G1/OLMo-2-1124-7B-Instruct",
+      "n_forms": 3671,
+      "max_abs_diff": 0.7412676594685763,
+      "median_abs_diff": 0.0
+    }
+  }
+}
