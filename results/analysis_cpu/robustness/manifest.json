@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "results\\G0_5090\\metrics\\validity_Qwen2.5-7B-Instruct.csv": "5f652779220eee8c938496aef3e7c9176ccb080419190ea8545c52047fb32331",
+    "results\\G0_5090\\metrics\\entities_Qwen2.5-7B-Instruct.csv": "ca4452ae19e59638cffd9e71ad41c08a8fdbd858f2d3c8424525e881e02a3fc4",
+    "results\\G0_5090\\metrics\\rbu_Qwen2.5-7B-Instruct.csv": "9514d2b5017aef58bc6a1601e2a1310da6ae2fb8b638701d97784f75ed008925",
+    "results\\G0_5090\\metrics\\entities_Qwen2.5-7B.csv": "45099df0a38328b1816ea7c329841dc9970cc49a26afcd9f56d933e3dff18ff6",
+    "results\\G0_5090\\metrics\\rbu_Qwen2.5-7B.csv": "01f22460f340643b10c8672cb98a2daa30586ef4817474569027bac4f376cd7a",
+    "results\\G0_a3_5090\\metrics\\validity_Qwen2.5-7B-Instruct.csv": "3205b333fa122ba5245991c5131267e650b6eac8613720ae2e7388241a9095be",
+    "results\\G0_a3_5090\\metrics\\entities_Qwen2.5-7B-Instruct.csv": "612fe1daf0fba115d293e05f4d14e9aba651f47b6801558d5f0ba0c4bcd1c5ec",
+    "results\\G0_a3_5090\\metrics\\rbu_Qwen2.5-7B-Instruct.csv": "803d0cdbdf8896992b7db22b95e082a66c58c4f29354280b520e20b6b8a9a6d7",
+    "results\\G0_a3_5090\\metrics\\entities_Qwen2.5-7B.csv": "c2ad179432236e6c0bae03539967c18dd244cda60df47c99d7ffdad8358f7b08",
+    "results\\G0_a3_5090\\metrics\\rbu_Qwen2.5-7B.csv": "c3a1de842ab8c8a9bffe1c2a2d42ea1c3b06f608de707e96dbb22d84967c0554",
+    "results\\G1\\metrics\\olmo2_instruct_vs_base\\validity_OLMo-2-1124-7B-Instruct.csv": "0af481580568c6b7c1804c99edf0dbaf5a965edbc25b77692abc7d342d8ad410",
+    "results\\G1\\metrics\\olmo2_instruct_vs_base\\entities_OLMo-2-1124-7B-Instruct.csv": "0e58c08e739ee7d0dd7147115362047c8c896482c9e0860464e05c7a17c774b1",
+    "results\\G1\\metrics\\olmo2_instruct_vs_base\\rbu_OLMo-2-1124-7B-Instruct.csv": "df485cb2ac2d40517530942a08678d844c1dc9074e80ba8056315186d712cde6",
+    "results\\G1\\metrics\\olmo2_instruct_vs_base\\entities_OLMo-2-1124-7B.csv": "dc6794035532dcc0ca6fc5142e8b61d5af26f73a253d005c80b4f2b00ae9a85c",
+    "results\\G1\\metrics\\olmo2_instruct_vs_base\\rbu_OLMo-2-1124-7B.csv": "7790bbe1bb487669d29a599c36b8486016a5374de892b83df6dc123b0f6bde75",
+    "results\\P3\\metrics\\qwen2.5\\validity_Qwen2.5-7B-Instruct.csv": "606e790788597771767b66c3bd1825691addc2d1be0be80804968fbd00ed9825",
+    "results\\P3\\metrics\\qwen2.5\\entities_Qwen2.5-7B-Instruct.csv": "dddc528d8731ebbf1fed259f7dfe43b0a216d2c8b9094297175b9ee550ba1dfa",
+    "results\\P3\\metrics\\qwen2.5\\rbu_Qwen2.5-7B-Instruct.csv": "4d01c7332f5c189bd7c4bcaa6f843b227d21bf8814a6c1e22505e437a42bbadd",
+    "results\\P3\\metrics\\qwen2.5\\entities_Qwen2.5-7B.csv": "da5ad7073fe7d66ce0186cbb15d161f46ff3e8d9e4ef85b3de10de58ddcf0dba",
+    "results\\P3\\metrics\\qwen2.5\\rbu_Qwen2.5-7B.csv": "35f1cb2eefa210c86c35cdf2ece5845949aff41e41cb5025c5d37524ff6ecc2d",
+    "results\\P3\\metrics\\olmo2\\validity_OLMo-2-1124-7B-Instruct.csv": "8c23275a979a482fb1e059b1bedc809bd302c4b7d06f623d65cb8abb2d338b76",
+    "results\\P3\\metrics\\olmo2\\entities_OLMo-2-1124-7B-Instruct.csv": "c3ac15b52ae1c87de7895c50aad9b5f49e54932ac0b01bf209317355c0a6a09e",
+    "results\\P3\\metrics\\olmo2\\rbu_OLMo-2-1124-7B-Instruct.csv": "d130558186f49a644ec4985612f876cf12f3e9b3d8e31654595ea94c920d50ff",
+    "results\\P3\\metrics\\olmo2\\entities_OLMo-2-1124-7B.csv": "b4f354a9fb69d61c35f9cab1bf5a1f3dd9462d25c631d3120c69f39159b7cc7d",
+    "results\\P3\\metrics\\olmo2\\rbu_OLMo-2-1124-7B.csv": "4a7fb71e1f617188c90aa34659592a68d7cbff5be97f9c6b132f697f7bbca756"
+  },
+  "code": {
+    "tree_sha256": "4fca47eeb39d520e",
+    "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
+    "git_dirty": true
+  },
+  "module": "mb5.robustness_cpu"
+}

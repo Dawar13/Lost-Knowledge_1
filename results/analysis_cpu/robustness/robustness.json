@@ -1,0 +1,759 @@
+{
+  "pilot_qwen": {
+    "v2_bar": 0.85,
+    "categories": 11,
+    "passing_categories": [
+      "brazil_universities",
+      "finland_lakes",
+      "japanese_novelists",
+      "nigerian_painters",
+      "us_state_capitals"
+    ],
+    "models": {
+      "Qwen2.5-7B-Instruct": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1310,
+            "rbu_mean": 0.9513994910941476,
+            "rbu_mean_ci": [
+              0.8783205961927476,
+              0.9810235767682576
+            ],
+            "rbu_all": 0.9404580152671755,
+            "rbu_all_ci": [
+              0.8509463444089808,
+              0.9772751196172249
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 5,
+            "n_recognised": 899,
+            "rbu_mean": 0.982202447163515,
+            "rbu_mean_ci": [
+              0.8964732650739478,
+              0.998892580287929
+            ],
+            "rbu_all": 0.978865406006674,
+            "rbu_all_ci": [
+              0.8805460750853242,
+              0.9980066445182725
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        },
+        "shipped_hf": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1310,
+            "rbu_mean": 0.9893129770992366,
+            "rbu_mean_ci": [
+              0.973565584025623,
+              0.9958602607182477
+            ],
+            "rbu_all": 0.9862595419847329,
+            "rbu_all_ci": [
+              0.9644362041467305,
+              0.9948411424903723
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 5,
+            "n_recognised": 899,
+            "rbu_mean": 0.9951798294401186,
+            "rbu_mean_ci": [
+              0.9738339021615472,
+              0.9993355481727575
+            ],
+            "rbu_all": 0.9922135706340378,
+            "rbu_all_ci": [
+              0.9562289562289562,
+              0.9993355481727575
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      },
+      "Qwen2.5-7B": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1215,
+            "rbu_mean": 0.5242798353909465,
+            "rbu_mean_ci": [
+              0.3877332528362639,
+              0.6089757261249685
+            ],
+            "rbu_all": 0.4699588477366255,
+            "rbu_all_ci": [
+              0.348246507242172,
+              0.5492875673718928
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 5,
+            "n_recognised": 829,
+            "rbu_mean": 0.5452352231604343,
+            "rbu_mean_ci": [
+              0.30977620730270905,
+              0.6428675175723592
+            ],
+            "rbu_all": 0.48492159227985526,
+            "rbu_all_ci": [
+              0.26855123674911663,
+              0.5740358405502151
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      }
+    }
+  },
+  "pilot_qwen_probe2": {
+    "v2_bar": 0.85,
+    "categories": 11,
+    "passing_categories": [
+      "brazil_universities",
+      "japanese_novelists",
+      "us_state_capitals"
+    ],
+    "models": {
+      "Qwen2.5-7B-Instruct": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1234,
+            "rbu_mean": 0.9478660183684495,
+            "rbu_mean_ci": [
+              0.8647879133138694,
+              0.9808178048856554
+            ],
+            "rbu_all": 0.9376012965964343,
+            "rbu_all_ci": [
+              0.8402846743921273,
+              0.9769471653034413
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 3,
+            "n_recognised": 588,
+            "rbu_mean": 0.9880952380952381,
+            "rbu_mean_ci": [
+              0.8285714285714286,
+              1.0
+            ],
+            "rbu_all": 0.9863945578231292,
+            "rbu_all_ci": [
+              0.8,
+              1.0
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        },
+        "shipped_hf": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1234,
+            "rbu_mean": 0.986223662884927,
+            "rbu_mean_ci": [
+              0.9628322151382608,
+              0.9949190781677575
+            ],
+            "rbu_all": 0.9821717990275527,
+            "rbu_all_ci": [
+              0.949475080695154,
+              0.9937891635665757
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 3,
+            "n_recognised": 588,
+            "rbu_mean": 0.9920634920634921,
+            "rbu_mean_ci": [
+              0.8952380952380953,
+              1.0
+            ],
+            "rbu_all": 0.9880952380952381,
+            "rbu_all_ci": [
+              0.8285714285714286,
+              1.0
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      },
+      "Qwen2.5-7B": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1217,
+            "rbu_mean": 0.5253355245138318,
+            "rbu_mean_ci": [
+              0.3791477733759725,
+              0.6068301770076987
+            ],
+            "rbu_all": 0.47082990961380444,
+            "rbu_all_ci": [
+              0.34247369595895777,
+              0.5454571668239487
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 3,
+            "n_recognised": 562,
+            "rbu_mean": 0.5551601423487544,
+            "rbu_mean_ci": [
+              0.0,
+              0.6850241545893719
+            ],
+            "rbu_all": 0.5,
+            "rbu_all_ci": [
+              0.0,
+              0.6144927536231884
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      }
+    }
+  },
+  "pilot_olmo": {
+    "v2_bar": 0.85,
+    "categories": 11,
+    "passing_categories": [
+      "bengali_film_directors",
+      "brazil_universities",
+      "finland_lakes",
+      "japanese_novelists"
+    ],
+    "models": {
+      "OLMo-2-1124-7B-Instruct": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1124,
+            "rbu_mean": 0.9377224199288257,
+            "rbu_mean_ci": [
+              0.8312997586368385,
+              0.9758995783063278
+            ],
+            "rbu_all": 0.9190391459074733,
+            "rbu_all_ci": [
+              0.7936776567410979,
+              0.9643436710974925
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 4,
+            "n_recognised": 837,
+            "rbu_mean": 0.985663082437276,
+            "rbu_mean_ci": [
+              0.9707835325365204,
+              0.9954158480681075
+            ],
+            "rbu_all": 0.977299880525687,
+            "rbu_all_ci": [
+              0.952191235059761,
+              0.9931237721021611
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      },
+      "OLMo-2-1124-7B": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 11,
+            "n_recognised": 1032,
+            "rbu_mean": 0.5439276485788115,
+            "rbu_mean_ci": [
+              0.42439266069887827,
+              0.6037584429884812
+            ],
+            "rbu_all": 0.4699612403100775,
+            "rbu_all_ci": [
+              0.3494753137727537,
+              0.5368438714235253
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 4,
+            "n_recognised": 762,
+            "rbu_mean": 0.5551181102362206,
+            "rbu_mean_ci": [
+              0.44166666666666665,
+              0.6130952380952385
+            ],
+            "rbu_all": 0.4776902887139108,
+            "rbu_all_ci": [
+              0.3488372093023256,
+              0.5551839464882943
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      }
+    }
+  },
+  "full_qwen": {
+    "v2_bar": 0.85,
+    "categories": 277,
+    "passing_categories": [
+      "architects__bangladesh",
+      "architects__france",
+      "architects__iran",
+      "architects__japan",
+      "architects__poland",
+      "architects__turkey",
+      "composers__bangladesh",
+      "composers__brazil",
+      "composers__france",
+      "composers__india",
+      "composers__indonesia",
+      "composers__iran",
+      "composers__japan",
+      "composers__pakistan",
+      "composers__poland",
+      "composers__turkey",
+      "composers__vietnam",
+      "film_directors__bangladesh",
+      "film_directors__france",
+      "film_directors__india",
+      "film_directors__iran",
+      "film_directors__japan",
+      "film_directors__nepal",
+      "film_directors__pakistan",
+      "film_directors__philippines",
+      "film_directors__poland",
+      "film_directors__sri_lanka",
+      "film_directors__turkey",
+      "film_directors__vietnam",
+      "football_clubs__argentina",
+      "football_clubs__brazil",
+      "football_clubs__colombia",
+      "football_clubs__ethiopia",
+      "football_clubs__finland",
+      "football_clubs__france",
+      "football_clubs__indonesia",
+      "football_clubs__iran",
+      "football_clubs__japan",
+      "football_clubs__kenya",
+      "football_clubs__mexico",
+      "football_clubs__nepal",
+      "football_clubs__philippines",
+      "football_clubs__poland",
+      "football_clubs__turkey",
+      "football_clubs__vietnam",
+      "islands__brazil",
+      "islands__france",
+      "islands__japan",
+      "islands__poland",
+      "islands__turkey",
+      "islands__vietnam",
+      "lakes__argentina",
+      "lakes__brazil",
+      "lakes__colombia",
+      "lakes__finland",
+      "lakes__france",
+      "lakes__indonesia",
+      "lakes__japan",
+      "lakes__poland",
+      "lakes__turkey",
+      "mountains__brazil",
+      "mountains__colombia",
+      "mountains__japan",
+      "mountains__kenya",
+      "mountains__turkey",
+      "mountains__vietnam",
+      "museums__bangladesh",
+      "museums__brazil",
+      "museums__colombia",
+      "museums__finland",
+      "museums__france",
+      "museums__india",
+      "museums__indonesia",
+      "museums__iran",
+      "museums__japan",
+      "museums__mexico",
+      "museums__philippines",
+      "museums__poland",
+      "museums__south_africa",
+      "museums__sri_lanka",
+      "museums__turkey",
+      "museums__usa",
+      "novelists__brazil",
+      "novelists__colombia",
+      "novelists__indonesia",
+      "novelists__iran",
+      "novelists__japan",
+      "novelists__nigeria",
+      "novelists__pakistan",
+      "novelists__poland",
+      "novelists__turkey",
+      "painters__bangladesh",
+      "painters__colombia",
+      "painters__indonesia",
+      "painters__iran",
+      "painters__japan",
+      "painters__pakistan",
+      "painters__philippines",
+      "painters__poland",
+      "painters__turkey",
+      "painters__vietnam",
+      "poets__brazil",
+      "poets__france",
+      "poets__indonesia",
+      "poets__iran",
+      "poets__japan",
+      "poets__nepal",
+      "poets__nigeria",
+      "poets__pakistan",
+      "poets__philippines",
+      "poets__poland",
+      "poets__turkey",
+      "poets__vietnam",
+      "rivers__brazil",
+      "rivers__japan",
+      "rivers__philippines",
+      "rivers__poland",
+      "rivers__south_africa",
+      "rivers__sri_lanka",
+      "rivers__usa",
+      "rivers__vietnam",
+      "universities__bangladesh",
+      "universities__brazil",
+      "universities__colombia",
+      "universities__ethiopia",
+      "universities__france",
+      "universities__india",
+      "universities__indonesia",
+      "universities__iran",
+      "universities__japan",
+      "universities__kenya",
+      "universities__mexico",
+      "universities__nigeria",
+      "universities__pakistan",
+      "universities__philippines",
+      "universities__poland",
+      "universities__south_africa",
+      "universities__usa",
+      "universities__vietnam"
+    ],
+    "models": {
+      "Qwen2.5-7B-Instruct": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 277,
+            "n_recognised": 15514,
+            "rbu_mean": 0.9191268101929441,
+            "rbu_mean_ci": [
+              0.9038462765877052,
+              0.9330356588008222
+            ],
+            "rbu_all": 0.897318550986206,
+            "rbu_all_ci": [
+              0.8787927874203014,
+              0.914141921343949
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 139,
+            "n_recognised": 11023,
+            "rbu_mean": 0.9308415736792766,
+            "rbu_mean_ci": [
+              0.9112877777337973,
+              0.9484248633117426
+            ],
+            "rbu_all": 0.9122743354803593,
+            "rbu_all_ci": [
+              0.8892877815067365,
+              0.9333361028511457
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        },
+        "shipped_hf": {
+          "all_categories": {
+            "n_categories": 277,
+            "n_recognised": 15514,
+            "rbu_mean": 0.9883546044432986,
+            "rbu_mean_ci": [
+              0.9860961867805638,
+              0.9903620962424047
+            ],
+            "rbu_all": 0.9847234755704525,
+            "rbu_all_ci": [
+              0.9815899005785541,
+              0.9874542889815361
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 139,
+            "n_recognised": 11023,
+            "rbu_mean": 0.9910792585200641,
+            "rbu_mean_ci": [
+              0.9888765702062997,
+              0.9931895416600064
+            ],
+            "rbu_all": 0.9882064773655085,
+            "rbu_all_ci": [
+              0.9850635122565619,
+              0.9912117823273945
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      },
+      "Qwen2.5-7B": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 277,
+            "n_recognised": 16302,
+            "rbu_mean": 0.5503414713941029,
+            "rbu_mean_ci": [
+              0.527241726973254,
+              0.5743330797637938
+            ],
+            "rbu_all": 0.5005520794994479,
+            "rbu_all_ci": [
+              0.4775415377479003,
+              0.5243351893606909
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 139,
+            "n_recognised": 11264,
+            "rbu_mean": 0.58203125,
+            "rbu_mean_ci": [
+              0.5503662243891189,
+              0.6126500125317788
+            ],
+            "rbu_all": 0.5324928977272727,
+            "rbu_all_ci": [
+              0.5014515550163168,
+              0.5640078010168974
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      }
+    }
+  },
+  "full_olmo": {
+    "v2_bar": 0.85,
+    "categories": 277,
+    "passing_categories": [
+      "architects__france",
+      "architects__japan",
+      "architects__poland",
+      "architects__turkey",
+      "composers__bangladesh",
+      "composers__indonesia",
+      "composers__japan",
+      "composers__pakistan",
+      "composers__poland",
+      "composers__turkey",
+      "composers__vietnam",
+      "film_directors__bangladesh",
+      "film_directors__france",
+      "film_directors__india",
+      "film_directors__iran",
+      "film_directors__japan",
+      "film_directors__nepal",
+      "film_directors__pakistan",
+      "film_directors__philippines",
+      "film_directors__poland",
+      "film_directors__sri_lanka",
+      "film_directors__turkey",
+      "film_directors__vietnam",
+      "football_clubs__brazil",
+      "football_clubs__colombia",
+      "football_clubs__finland",
+      "football_clubs__france",
+      "football_clubs__indonesia",
+      "football_clubs__iran",
+      "football_clubs__japan",
+      "football_clubs__mexico",
+      "football_clubs__nepal",
+      "football_clubs__poland",
+      "football_clubs__turkey",
+      "football_clubs__usa",
+      "football_clubs__vietnam",
+      "islands__brazil",
+      "islands__japan",
+      "islands__poland",
+      "islands__turkey",
+      "lakes__finland",
+      "lakes__france",
+      "lakes__japan",
+      "lakes__poland",
+      "mountains__japan",
+      "mountains__poland",
+      "mountains__turkey",
+      "museums__bangladesh",
+      "museums__brazil",
+      "museums__colombia",
+      "museums__finland",
+      "museums__france",
+      "museums__indonesia",
+      "museums__iran",
+      "museums__japan",
+      "museums__philippines",
+      "museums__poland",
+      "museums__south_africa",
+      "museums__sri_lanka",
+      "museums__turkey",
+      "museums__usa",
+      "novelists__brazil",
+      "novelists__indonesia",
+      "novelists__iran",
+      "novelists__japan",
+      "novelists__pakistan",
+      "novelists__poland",
+      "novelists__turkey",
+      "painters__bangladesh",
+      "painters__indonesia",
+      "painters__japan",
+      "painters__poland",
+      "painters__turkey",
+      "painters__vietnam",
+      "poets__france",
+      "poets__india",
+      "poets__indonesia",
+      "poets__iran",
+      "poets__japan",
+      "poets__nepal",
+      "poets__pakistan",
+      "poets__philippines",
+      "poets__poland",
+      "poets__turkey",
+      "poets__vietnam",
+      "rivers__japan",
+      "rivers__poland",
+      "rivers__south_africa",
+      "rivers__sri_lanka",
+      "rivers__usa",
+      "universities__brazil",
+      "universities__colombia",
+      "universities__ethiopia",
+      "universities__france",
+      "universities__indonesia",
+      "universities__iran",
+      "universities__japan",
+      "universities__kenya",
+      "universities__mexico",
+      "universities__philippines",
+      "universities__poland",
+      "universities__south_africa",
+      "universities__usa",
+      "universities__vietnam"
+    ],
+    "models": {
+      "OLMo-2-1124-7B-Instruct": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 277,
+            "n_recognised": 11677,
+            "rbu_mean": 0.9121064200279752,
+            "rbu_mean_ci": [
+              0.8961981089834112,
+              0.9263210055861985
+            ],
+            "rbu_all": 0.8852444977305814,
+            "rbu_all_ci": [
+              0.8662131170155161,
+              0.9024546843809585
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 104,
+            "n_recognised": 7030,
+            "rbu_mean": 0.9321005215742059,
+            "rbu_mean_ci": [
+              0.9127568996202493,
+              0.9491395776156756
+            ],
+            "rbu_all": 0.9092460881934566,
+            "rbu_all_ci": [
+              0.8862177270000371,
+              0.9300297900310289
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      },
+      "OLMo-2-1124-7B": {
+        "p0.90_T1": {
+          "all_categories": {
+            "n_categories": 277,
+            "n_recognised": 12324,
+            "rbu_mean": 0.6270961808936493,
+            "rbu_mean_ci": [
+              0.6002734720474692,
+              0.6546831888512121
+            ],
+            "rbu_all": 0.5627231418370658,
+            "rbu_all_ci": [
+              0.5345286929518016,
+              0.5915491197911201
+            ]
+          },
+          "v2_passing_categories": {
+            "n_categories": 104,
+            "n_recognised": 7328,
+            "rbu_mean": 0.6618449781659389,
+            "rbu_mean_ci": [
+              0.6239431906298039,
+              0.6970935011506377
+            ],
+            "rbu_all": 0.6018013100436681,
+            "rbu_all_ci": [
+              0.5621356624400392,
+              0.6381057001778235
+            ]
+          },
+          "check": {
+            "rbu_mean_matches": true,
+            "rbu_all_matches": true
+          }
+        }
+      }
+    }
+  }
+}
