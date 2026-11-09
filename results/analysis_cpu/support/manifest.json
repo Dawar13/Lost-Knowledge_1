@@ -1,10 +1,10 @@
 {
   "code": {
-    "tree_sha256": "9fa8792f12a457cb",
-    "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-    "git_dirty": true
+    "tree_sha256": "0cbb3f9ead770ca6",
+    "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+    "git_dirty": false
   },
-  "utc": "2026-11-09T07:27:10Z",
+  "utc": "2026-11-09T07:51:18Z",
   "command": "python -m mb5.support --run pilot:Qwen2.5-7B=results/G0_5090/Qwen2.5-7B --run pilot:Qwen2.5-7B-Instruct=results/G0_5090/Qwen2.5-7B-Instruct --run pilot:OLMo-2-1124-7B=results/G1/OLMo-2-1124-7B --run pilot:OLMo-2-1124-7B-SFT=results/G1/OLMo-2-1124-7B-SFT --run pilot:OLMo-2-1124-7B-DPO=results/G1/OLMo-2-1124-7B-DPO --run pilot:OLMo-2-1124-7B-Instruct=results/G1/OLMo-2-1124-7B-Instruct --run scale:Qwen2.5-7B=results/P3/Qwen2.5-7B --run scale:Qwen2.5-7B-Instruct=results/P3/Qwen2.5-7B-Instruct --run scale:OLMo-2-1124-7B=results/P3/OLMo-2-1124-7B --run scale:OLMo-2-1124-7B-Instruct=results/P3/OLMo-2-1124-7B-Instruct --calib Qwen2.5-7B-Instruct=results/P5/Qwen2.5-7B-Instruct --calib OLMo-2-1124-7B-Instruct=results/P5/OLMo-2-1124-7B-Instruct --specs p0.90_T1,p0.90_T0.7,shipped_hf",
   "inputs": {
     "results/G0_5090/Qwen2.5-7B/meta.json": "5462ad39c429c886b1df3b3b9f45e2e9458e8d675d1b24a6310c364e3ee6be66",

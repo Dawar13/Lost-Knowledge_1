@@ -1,9 +1,9 @@
 {
  "fig1_mechanism": {
   "code": {
-   "git_dirty": true,
-   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-   "tree_sha256": "df29639d40e0cc6a"
+   "git_dirty": false,
+   "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+   "tree_sha256": "0cbb3f9ead770ca6"
   },
   "inputs": {
    "hf:Qwen/Qwen2.5-7B-Instruct/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
@@ -16,9 +16,9 @@
  },
  "fig2_rbu_curves": {
   "code": {
-   "git_dirty": true,
-   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-   "tree_sha256": "3fb8bafb40dbcb64"
+   "git_dirty": false,
+   "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+   "tree_sha256": "0cbb3f9ead770ca6"
   },
   "inputs": {
    "results/P3/metrics/olmo2/rbu_curves_OLMo-2-1124-7B-Instruct.csv": "a87ae357ad837954934b67da41f8eda284fe11b4a3fd319f91e3a6938b26e678",
@@ -30,9 +30,9 @@
  },
  "fig3_stages": {
   "code": {
-   "git_dirty": true,
-   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-   "tree_sha256": "3fb8bafb40dbcb64"
+   "git_dirty": false,
+   "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+   "tree_sha256": "0cbb3f9ead770ca6"
   },
   "inputs": {
    "results/G1/stages.csv": "9b60b4e9847eaad29057ca99fb2c442de26f3d84f25d2c110fadf3b8332238cb"
@@ -41,9 +41,9 @@
  },
  "fig4_popularity": {
   "code": {
-   "git_dirty": true,
-   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-   "tree_sha256": "3fb8bafb40dbcb64"
+   "git_dirty": false,
+   "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+   "tree_sha256": "0cbb3f9ead770ca6"
   },
   "inputs": {
    "results/P3/metrics/olmo2/popularity_OLMo-2-1124-7B-Instruct.csv": "cd551f23490310a520a2f1eb7eed6e0d63b8bf08b786d5f3eb0f7bd0cddd30ae",
@@ -55,9 +55,9 @@
  },
  "fig5_estimators": {
   "code": {
-   "git_dirty": true,
-   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-   "tree_sha256": "3fb8bafb40dbcb64"
+   "git_dirty": false,
+   "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+   "tree_sha256": "0cbb3f9ead770ca6"
   },
   "inputs": {
    "results/P3/metrics/estimators_OLMo-2-1124-7B-Instruct.json": "a1375264b45b35f43fc984f92b588886439c83b0df3a2691ecf8d6db5937c1e3",
@@ -69,9 +69,9 @@
  },
  "fig6_frontier": {
   "code": {
-   "git_dirty": true,
-   "git_head": "0470ba852a55bf9fe47cbe9161b9d929086b7849",
-   "tree_sha256": "3fb8bafb40dbcb64"
+   "git_dirty": false,
+   "git_head": "d195fd1e37b553103a52e02909e570a662559464",
+   "tree_sha256": "0cbb3f9ead770ca6"
   },
   "inputs": {
    "results/P5/OLMo-2-1124-7B-Instruct/frontier.csv": "a1158a5dafca39b6489e8e446f95f9e6d60a531b28001f0ea4aac79f97e2ae66",
