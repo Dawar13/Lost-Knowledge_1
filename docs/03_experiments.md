@@ -11,11 +11,15 @@
 | E7 robustness | 5 wordings and temperature sweep on pilot_v2 (wording-robust) | results/P3_robust |
 | E7 self-preamble, non-canonical audit at scale | preamble not run; non-canonical counts come from the P3 sample check | results/P3 |
 | E8 multilingual | not run (no native-checked translations) | future work |
-| E9 popularity, G2 | running (P3) | results/P3/g2, gates/G2.md |
+| E9 popularity, G2 | done; popularity headline (decided under delegation) | results/P3/g2, gates/G2.md |
 | E10 estimators | pilot check done; at scale from P3 samples | results/P3/metrics/estimators_* |
 | E11 mitigation, G3 | done; G3 FAIL (frontier reported); hand audit pending | results/P5, gates/G3.md |
 | E12 closed models | not run | |
-| scale ladder | queued after P3 | results/P3_scale |
+| scale ladder | done (exploratory): RBU stays high from 1.5B to 7B | results/P3_scale |
+| Llama-3.1 (third family) | waiting for Meta access and a GPU; Granite script ready as fallback | scripts/run_granite.sh |
+| E13 ask-directly control | pre-registered 2026-11-09; code to write; needs GPU | notes/decisions.md |
+| E14 list control | pre-registered 2026-11-09; code to write; needs GPU | notes/decisions.md |
+| E15 sample wide then self-check, G3b | pre-registered 2026-11-09; code to write; needs GPU | notes/decisions.md |
 
 Status key: **ready** = code in `src/mb5` runs it; **to build** = an agent writes it in that phase, reusing the existing modules. Every experiment writes to `results/<phase>/...` and appends to `logs/gpu_ledger.csv`.
 
@@ -102,6 +106,18 @@ Status key: **ready** = code in `src/mb5` runs it; **to build** = an agent write
 ## E12 Closed models (optional, P3)
 
 API models do not expose full distributions, so exact reachability is impossible. Report only sampling coverage at their default settings on 20 categories, clearly labelled as a lower-bound comparison. Skip if budget is tight.
+
+## E13 Ask-directly control (cued recall; pre-registered 2026-11-09)
+
+Is a name that is unreachable under the open prompt reachable when the model is asked a question whose only answer is that name ("What is the capital of {state}?")? Cues from Wikidata (state of a capital; a film by a director; a notable work by a writer). Measure: share of open-prompt-unreachable recognised entities that are robustly reachable under the cue, and share answered greedily. Prediction H5: more than half. Full rules: notes/decisions.md.
+
+## E14 List control (pre-registered 2026-11-09)
+
+"List ten {plural}" with the five most frequent sampled answers pre-filled as items 1 to 5; is each other member reachable as item 6? Measure: robust RBU against the open prompt. Prediction H6: lower, but above the base model's open-prompt RBU.
+
+## E15 Sample wide, then self-check (gate G3b; pre-registered 2026-11-09)
+
+Reuse the stored P5 samples of untruncated and top-k 100 sampling, keep only answers the model itself endorses on the yes/no probe (V at least the fixed category threshold), and compare the invented-name rate with the reference sampler. G3b passes with at least 50% recovery and at most +2 points of invented names (the G3 rule).
 
 ## Compute plan (GPU-hours on one 80 GB card)
 
