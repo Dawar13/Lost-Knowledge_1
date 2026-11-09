@@ -84,6 +84,8 @@ OLMo-2 base, top-$p$ 0.9 & \goRbuOlmoBase & \ptRbuOlmoBase \\
 
 \paragraph{The effect is not a quirk of wording or temperature.} Across five prompt wordings the coefficient of variation of RBU at top-$p$ 0.9 is \rbCvQwenInst{} for Qwen2.5-7B-Instruct and \rbCvOlmoInst{} for OLMo-2-Instruct. Lowering the temperature raises RBU: for the Qwen base model from \rbTempQwenBaseTone{} at $T=1$ to \rbTempQwenBaseTseven{} at $T=0.7$ and \rbTempQwenBaseTfive{} at $T=0.5$. Counting only the canonical label, not aliases, gives \rbLabelOnlyQwenInst{} against \rbTempQwenInstTone{} with aliases.
 
+\paragraph{Scale does not remove it.} Across Qwen2.5-Instruct at 0.5B, 1.5B, 3B and 7B parameters the number of recognised pilot entities grows (\scRecognisedHalf{}, \scRecognisedOneHalf{}, \scRecognisedThree{} and \gzQwenInstRecognised{}), and the share unreachable under each model's shipped sampler stays high (\scShippedHalf{}, \scShippedOneHalf{}, \scShippedThree{} and \gzQwenInstShipped{}). The smallest model's recognition test is weak (AUROC \scAurocHalf{}), so its value is the least reliable.
+
 \paragraph{Even head knowledge collapses.} The head control, US state capitals, was meant to be reachable by every model. The base model reaches all \gzCapitalsMembers{} capitals in our pilot list under top-$p$ 0.9; the instruct model reaches \gzCapitalsReachInst{}.
 
 \section{Where it comes from}\label{sec:where}
