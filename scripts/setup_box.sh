@@ -8,7 +8,7 @@
 #   HF_TOKEN=... bash scripts/setup_box.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
-[ -d .venv ] || python3 -m venv .venv
+[ -d .venv ] || python3 -m venv .venv || { apt-get update -qq && apt-get install -y -qq python3-venv && python3 -m venv .venv; }
 source .venv/bin/activate
 python -m pip install -q --upgrade pip
 python -m pip install -q -r requirements-lock.txt

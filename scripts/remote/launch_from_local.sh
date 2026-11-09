@@ -4,7 +4,7 @@
 # the box's clone, then launch setup and every remaining run detached on the box.
 set -uo pipefail
 SP="$(cd "$(dirname "$0")" && pwd)"
-PORT=${PORT:-10647}; HOST=${HOST:-ssh3.vast.ai}
+PORT=${PORT:-10647}; HOST=${HOST:-ssh3.vast.ai}; EXTRAS=${MB5_EXTRAS:-0}
 OPTS="-o ConnectTimeout=15 -o BatchMode=yes -o StrictHostKeyChecking=no -o ServerAliveInterval=20 -o ServerAliveCountMax=6"
 SSH="ssh $OPTS -p $PORT root@$HOST"
 retry() { for t in 1 2 3 4 5 6; do "$@" && return 0; echo "  retry $t: $*" | cut -c1-120; sleep 10; done; return 1; }
@@ -16,12 +16,15 @@ done
 set -e
 retry scp -q $OPTS -P "$PORT" "$SP/remote_prepare.sh" "$SP/remote_launch.sh" root@$HOST:/root/
 retry $SSH 'bash /root/remote_prepare.sh' | grep -v -i "welcome\|have fun\|AI agents"
-BOXHEAD=$($SSH 'git -C /root/mb5 rev-parse HEAD' 2>/dev/null | tail -1)
+BOXHEAD=$($SSH 'git -C /root/mb5 rev-parse -q --verify HEAD || echo none' 2>/dev/null | tail -1)
 cd /c/Users/djtde/Downloads/ACL_1
 LOCAL=$(git rev-parse HEAD)
 if [ "$BOXHEAD" != "$LOCAL" ]; then
   rm -rf "$SP/bundle"; mkdir -p "$SP/bundle"
-  git bundle create "$SP/bundle/mb5.bundle" "$BOXHEAD..main" 2>/dev/null
+  # A fresh box has no commits (or one we do not know): send the whole history.
+  if git cat-file -e "$BOXHEAD^{commit}" 2>/dev/null; then RANGE="$BOXHEAD..main"; else RANGE=main; fi
+  echo "box head: $BOXHEAD; bundling $RANGE"
+  git bundle create "$SP/bundle/mb5.bundle" "$RANGE" 2>/dev/null
   (cd "$SP/bundle" && split -b 20m -d mb5.bundle part_ && sha256sum mb5.bundle > full.sha && sha256sum part_* > parts.sha)
   echo "bundle $(du -h "$SP/bundle/mb5.bundle" | cut -f1), $(ls "$SP/bundle"/part_* | wc -l) pieces"
   $SSH 'mkdir -p /root/bundle' >/dev/null 2>&1
@@ -36,5 +39,5 @@ if [ "$BOXHEAD" != "$LOCAL" ]; then
   retry $SSH 'cd /root/bundle && cat part_* > mb5.bundle && sha256sum -c full.sha && cd /root/mb5 && git pull -q --ff-only /root/bundle/mb5.bundle main && git log --oneline -1 && git status --short | head -3'
 fi
 T=$(cat ~/.cache/huggingface/token)
-retry $SSH "HF_TOKEN=$T bash /root/remote_launch.sh" | grep -v -i "welcome\|have fun\|AI agents"
+retry $SSH "HF_TOKEN=$T MB5_EXTRAS=$EXTRAS bash /root/remote_launch.sh" | grep -v -i "welcome\|have fun\|AI agents"
 echo "LAUNCHED at $(date -u +%H:%M:%S) UTC"

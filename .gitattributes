@@ -4,3 +4,6 @@ data/** -text
 results/** -text
 logs/** -text
 *.gz binary
+
+# Shell scripts are copied to Linux boxes directly from this checkout: always LF.
+*.sh text eol=lf

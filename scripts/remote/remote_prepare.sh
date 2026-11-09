@@ -5,7 +5,7 @@ set -euo pipefail
 cd /root
 if [ -d mb5/.git ] && [ ! -d mb5_old ]; then mv mb5 mb5_old; fi
 if [ ! -d mb5/.git ]; then
-  if [ -d mb5_old/.git ]; then git clone -q /root/mb5_old /root/mb5; else git init -q /root/mb5; fi
+  if [ -d mb5_old/.git ]; then git clone -q /root/mb5_old /root/mb5; else git init -q -b main /root/mb5; fi
 fi
 cd /root/mb5
 git config receive.denyCurrentBranch updateInstead

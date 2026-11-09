@@ -4,5 +4,5 @@ set -euo pipefail
 : "${HF_TOKEN:?}"
 cd /root/mb5
 mkdir -p logs
-nohup env HF_TOKEN="$HF_TOKEN" bash -c 'bash scripts/setup_box.sh > logs/setup_box.log 2>&1 && echo SETUP_OK >> logs/setup_box.log && bash scripts/run_remaining.sh > logs/run_remaining.log 2>&1; echo "EXIT $?" >> logs/run_remaining.log' > /dev/null 2>&1 &
+nohup env HF_TOKEN="$HF_TOKEN" MB5_EXTRAS="${MB5_EXTRAS:-0}" bash -c 'bash scripts/setup_box.sh > logs/setup_box.log 2>&1 && echo SETUP_OK >> logs/setup_box.log && bash scripts/run_remaining.sh > logs/run_remaining.log 2>&1; echo "EXIT $?" >> logs/run_remaining.log' > /dev/null 2>&1 &
 echo "launched pid $!"
