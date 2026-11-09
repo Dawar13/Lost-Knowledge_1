@@ -1,0 +1,24 @@
+data,statistic,value,ci_lo,ci_hi,n
+"pilot_v2 (results/G1/mechanism.csv), 6 models x 11 categories",pooled Spearman (as reported),0.816742,0.72028,0.890129,66
+pilot_v2,within olmo2:base: Spearman over 11 categories,0.127273,-0.590698,0.765866,11
+pilot_v2,within olmo2:dpo: Spearman over 11 categories,0.654545,0.089447,0.943925,11
+pilot_v2,within olmo2:instruct: Spearman over 11 categories,0.7,0.168224,0.934579,11
+pilot_v2,within olmo2:sft: Spearman over 11 categories,0.745455,0.138691,1.0,11
+pilot_v2,within qwen2.5:base: Spearman over 11 categories,0.754545,0.261477,0.971834,11
+pilot_v2,within qwen2.5:instruct: Spearman over 11 categories,0.790909,0.308393,0.990385,11
+pilot_v2,mean of the six within-model Spearman,0.628788,0.267851,0.816046,66
+pilot_v2,pooled correlation of within-model ranks (model fixed effect),0.628788,0.267851,0.816046,66
+pilot_v2,Pearson of within-model demeaned values (model fixed effect),0.598724,0.460149,0.746035,66
+pilot_v2,OLS slope of RBU on top-1 mass with model fixed effects,0.672145,0.352271,1.021137,66
+pilot_v2,OLMo-2 stages: mean within-category Spearman over 4 stages,0.540789,0.109091,0.881579,11
+pilot_v2,OLMo-2 stages: share of categories with a positive association,0.818182,0.545455,1.0,11
+pilot_v2,OLMo-2 stages: Pearson with category fixed effects,0.819923,0.707875,0.934665,11
+"full TailCat P3 (277 categories), 4 models",pooled Spearman,0.743024,0.71377,0.771382,1108
+full TailCat P3,within OLMo-2-1124-7B: Spearman over categories,0.454986,0.360744,0.545708,277
+full TailCat P3,within OLMo-2-1124-7B-Instruct: Spearman over categories,0.519001,0.426491,0.600034,277
+full TailCat P3,within Qwen2.5-7B: Spearman over categories,0.336892,0.231182,0.43793,277
+full TailCat P3,within Qwen2.5-7B-Instruct: Spearman over categories,0.588203,0.508889,0.662732,277
+full TailCat P3,mean of the within-model Spearman,0.474771,0.416471,0.532523,1108
+full TailCat P3,pooled correlation of within-model ranks (model fixed effect),0.474556,0.416266,0.532263,1108
+full TailCat P3,Pearson of within-model demeaned values (model fixed effect),0.442499,0.385286,0.497739,1108
+full TailCat P3,OLS slope of RBU on top-1 mass with model fixed effects,0.371739,0.323469,0.421993,1108

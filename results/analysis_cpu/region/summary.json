@@ -1,0 +1,857 @@
+{
+  "post_hoc": true,
+  "reference_region": "europe",
+  "west": [
+    "europe",
+    "north_america"
+  ],
+  "south": [
+    "south_asia",
+    "africa",
+    "southeast_asia"
+  ],
+  "models": {
+    "Qwen2.5-7B-Instruct": {
+      "first_token_json": true,
+      "n_recognised": 15514,
+      "specs": {
+        "p0.90_T1": {
+          "rows": 46542,
+          "dropped": {},
+          "gap": {
+            "M0": {
+              "or": 0.09635545778144332,
+              "ci": [
+                0.04344717302895397,
+                0.21369340274646256
+              ],
+              "p": 8.537172254525983e-09,
+              "converged": true,
+              "rho": 0.10382303485163126,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.11238008208893456,
+              "ci": [
+                0.04959830473174273,
+                0.25463134110374086
+              ],
+              "p": 1.6234249093677137e-07,
+              "converged": true,
+              "rho": 0.10409177553767125,
+              "share_of_M0": 0.934247152015034
+            },
+            "Mf": {
+              "or": 0.1407767609186144,
+              "ci": [
+                0.066261450639748,
+                0.2990893833955473
+              ],
+              "p": 3.4073998347886966e-07,
+              "converged": true,
+              "rho": 0.04839183560258776,
+              "share_of_M0": 0.8379580630969022
+            },
+            "Me": {
+              "or": 0.1771875239265132,
+              "ci": [
+                0.07562119023797877,
+                0.4151669464128742
+              ],
+              "p": 6.789680748399467e-05,
+              "converged": true,
+              "rho": 0.13610610562145795,
+              "share_of_M0": 0.7396411233046292
+            },
+            "Mall": {
+              "or": 0.246367674580404,
+              "ci": [
+                0.11054341236511081,
+                0.5490786812124208
+              ],
+              "p": 0.000612063266161559,
+              "converged": true,
+              "rho": 0.08670154775802962,
+              "share_of_M0": 0.5987620278057932
+            }
+          },
+          "gap_independence": {
+            "M0": {
+              "or": 0.08424721866349327,
+              "ci": [
+                0.035552335895162074,
+                0.19963790490346603
+              ],
+              "p": 1.904633440375068e-08,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.10094256395580208,
+              "ci": [
+                0.04182388432611443,
+                0.24362637239815207
+              ],
+              "p": 3.3731889135543525e-07,
+              "share_of_M0": 0.9269215255385643
+            },
+            "Mf": {
+              "or": 0.16246614841751603,
+              "ci": [
+                0.07372072388329036,
+                0.358043817141697
+              ],
+              "p": 6.5549904435921684e-06,
+              "share_of_M0": 0.7345536862066712
+            },
+            "Me": {
+              "or": 0.08189297175346189,
+              "ci": [
+                0.03453510661684806,
+                0.1941925037909551
+              ],
+              "p": 1.3444906691439889e-08,
+              "share_of_M0": 1.011456098125223
+            },
+            "Mall": {
+              "or": 0.1454278038223399,
+              "ci": [
+                0.0618464390176289,
+                0.34196384562352133
+              ],
+              "p": 9.879901977297923e-06,
+              "share_of_M0": 0.7793353778914626
+            }
+          },
+          "composition_term_Mc": {
+            "coef": 0.33696459083190794,
+            "se": 0.1263989436807208,
+            "p": 0.007678678042286441
+          }
+        },
+        "shipped_hf": {
+          "rows": 46542,
+          "dropped": {},
+          "gap": {
+            "M0": {
+              "or": 0.10890003520165131,
+              "ci": [
+                0.05019986774988798,
+                0.23624001812130987
+              ],
+              "p": 2.0011603372061045e-08,
+              "converged": true,
+              "rho": 0.010299841123966437,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.14011347762713636,
+              "ci": [
+                0.06398675321432006,
+                0.30681016970832176
+              ],
+              "p": 8.893793701830865e-07,
+              "converged": true,
+              "rho": 0.009925736555349498,
+              "share_of_M0": 0.8863394838308726
+            },
+            "Mf": {
+              "or": 0.11993946818347466,
+              "ci": [
+                0.054634537334681384,
+                0.26330370366297573
+              ],
+              "p": 1.2483505881810525e-07,
+              "converged": true,
+              "rho": 0.009339338571696448,
+              "share_of_M0": 0.9564534591211787
+            },
+            "Me": {
+              "or": 0.1179440803827967,
+              "ci": [
+                0.05082842950024028,
+                0.2736816036639072
+              ],
+              "p": 6.450842765690073e-07,
+              "converged": true,
+              "rho": 0.012782147939197167,
+              "share_of_M0": 0.9640195882135383
+            },
+            "Mall": {
+              "or": 0.1271753273237886,
+              "ci": [
+                0.05132289644330812,
+                0.31513349792676426
+              ],
+              "p": 8.419949989796676e-06,
+              "converged": true,
+              "rho": 0.018850776992920606,
+              "share_of_M0": 0.9300344710328945
+            }
+          },
+          "gap_independence": {
+            "M0": {
+              "or": 0.1164204341512657,
+              "ci": [
+                0.05161244800788173,
+                0.2626055924706266
+              ],
+              "p": 2.1980946714659962e-07,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.1524968054173058,
+              "ci": [
+                0.06746056372165928,
+                0.3447240043595597
+              ],
+              "p": 6.202444309415834e-06,
+              "share_of_M0": 0.8744805155974383
+            },
+            "Mf": {
+              "or": 0.13466234314541212,
+              "ci": [
+                0.059681417836868915,
+                0.30384577509501226
+              ],
+              "p": 1.3707437509513975e-06,
+              "share_of_M0": 0.9323137795510978
+            },
+            "Me": {
+              "or": 0.09024521031460375,
+              "ci": [
+                0.03929238666098938,
+                0.20727165430276248
+              ],
+              "p": 1.4316188752525052e-08,
+              "share_of_M0": 1.1184245319406363
+            },
+            "Mall": {
+              "or": 0.10331074330313554,
+              "ci": [
+                0.0427713262968998,
+                0.24953889920921118
+              ],
+              "p": 4.530488889761439e-07,
+              "share_of_M0": 1.055551767875193
+            }
+          },
+          "composition_term_Mc": {
+            "coef": 0.5833995652454157,
+            "se": 0.14043500812938395,
+            "p": 3.263822999960898e-05
+          }
+        }
+      }
+    },
+    "Qwen2.5-7B": {
+      "first_token_json": true,
+      "n_recognised": 16302,
+      "specs": {
+        "p0.90_T1": {
+          "rows": 48906,
+          "dropped": {},
+          "gap": {
+            "M0": {
+              "or": 0.408808678093185,
+              "ci": [
+                0.326140477156355,
+                0.5124311362437118
+              ],
+              "p": 8.462241514363137e-15,
+              "converged": true,
+              "rho": 0.09232271195465598,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.4704243141942299,
+              "ci": [
+                0.38131630362358654,
+                0.5803555559574636
+              ],
+              "p": 1.946569417899815e-12,
+              "converged": true,
+              "rho": 0.08306896353082148,
+              "share_of_M0": 0.843055830903346
+            },
+            "Mf": {
+              "or": 0.4535185751860891,
+              "ci": [
+                0.3694049584898468,
+                0.5567848869155706
+              ],
+              "p": 4.195513314434931e-14,
+              "converged": true,
+              "rho": 0.07443565455674613,
+              "share_of_M0": 0.8839708979105808
+            },
+            "Me": {
+              "or": 0.27035978609279054,
+              "ci": [
+                0.16981676964522122,
+                0.4304310704346058
+              ],
+              "p": 3.529704151434043e-08,
+              "converged": true,
+              "rho": 0.12389273833936214,
+              "share_of_M0": 1.4622581891304345
+            },
+            "Mall": {
+              "or": 0.4308141744700973,
+              "ci": [
+                0.3073429290931368,
+                0.6038884755604941
+              ],
+              "p": 1.0227361918646377e-06,
+              "converged": true,
+              "rho": 0.06773059869921719,
+              "share_of_M0": 0.9413872432391744
+            }
+          },
+          "gap_independence": {
+            "M0": {
+              "or": 0.3608986490147253,
+              "ci": [
+                0.2831548091722391,
+                0.45998807239549977
+              ],
+              "p": 1.8135332007242243e-16,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.41084637499971166,
+              "ci": [
+                0.32894360035144343,
+                0.5131418993105911
+              ],
+              "p": 4.4414820388781224e-15,
+              "share_of_M0": 0.8728144420973465
+            },
+            "Mf": {
+              "or": 0.3972584000654104,
+              "ci": [
+                0.3210840186654638,
+                0.49150448869570096
+              ],
+              "p": 1.9039878751422197e-17,
+              "share_of_M0": 0.9058146312534788
+            },
+            "Me": {
+              "or": 0.3421578170627761,
+              "ci": [
+                0.25430522537770545,
+                0.4603600716551681
+              ],
+              "p": 1.4010944200157382e-12,
+              "share_of_M0": 1.0523226805309331
+            },
+            "Mall": {
+              "or": 0.4632874691490682,
+              "ci": [
+                0.3419216199832753,
+                0.6277323998437052
+              ],
+              "p": 6.888834696962144e-07,
+              "share_of_M0": 0.7549442287521695
+            }
+          },
+          "composition_term_Mc": {
+            "coef": 0.3479970347456342,
+            "se": 0.06548005360995045,
+            "p": 1.0692107968437201e-07
+          }
+        }
+      }
+    },
+    "OLMo-2-1124-7B-Instruct": {
+      "first_token_json": true,
+      "n_recognised": 11677,
+      "specs": {
+        "p0.90_T1": {
+          "rows": 35031,
+          "dropped": {},
+          "gap": {
+            "M0": {
+              "or": 0.09835619969802496,
+              "ci": [
+                0.05526375170220418,
+                0.17505040322211649
+              ],
+              "p": 3.144435324686094e-15,
+              "converged": true,
+              "rho": 0.08670315415749114,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.12760670458584836,
+              "ci": [
+                0.07030682205150973,
+                0.2316058467744427
+              ],
+              "p": 1.2913613286661765e-11,
+              "converged": true,
+              "rho": 0.08661685034671386,
+              "share_of_M0": 0.8877363497332385
+            },
+            "Mf": {
+              "or": 0.147574335044647,
+              "ci": [
+                0.08482038829105273,
+                0.25675648040115134
+              ],
+              "p": 1.2701003596310123e-11,
+              "converged": true,
+              "rho": 0.03156987743654807,
+              "share_of_M0": 0.8250502389020744
+            },
+            "Me": {
+              "or": 0.14708292501720419,
+              "ci": [
+                0.06994260944502825,
+                0.3093019691897451
+              ],
+              "p": 4.3234603561100504e-07,
+              "converged": true,
+              "rho": 0.12501558534673202,
+              "share_of_M0": 0.8264884631643685
+            },
+            "Mall": {
+              "or": 0.149823276678537,
+              "ci": [
+                0.07500221139325541,
+                0.299284698647059
+              ],
+              "p": 7.567002625261371e-08,
+              "converged": true,
+              "rho": 0.04094054369775824,
+              "share_of_M0": 0.8185287264682884
+            }
+          },
+          "gap_independence": {
+            "M0": {
+              "or": 0.11025064283298137,
+              "ci": [
+                0.05477914414498524,
+                0.2218947454329364
+              ],
+              "p": 6.455791868903281e-10,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.1508815635816956,
+              "ci": [
+                0.07346188368781255,
+                0.30989194785150936
+              ],
+              "p": 2.5996976787970536e-07,
+              "share_of_M0": 0.8577147444009351
+            },
+            "Mf": {
+              "or": 0.17451688481842684,
+              "ci": [
+                0.09937065293954249,
+                0.30649031867847043
+              ],
+              "p": 1.2342256981633049e-09,
+              "share_of_M0": 0.7917163831578791
+            },
+            "Me": {
+              "or": 0.10923578857979117,
+              "ci": [
+                0.05293859900203816,
+                0.22540183781949785
+              ],
+              "p": 2.0822464143707742e-09,
+              "share_of_M0": 1.0041939254424186
+            },
+            "Mall": {
+              "or": 0.13739430413540402,
+              "ci": [
+                0.06962355545076297,
+                0.2711323012252893
+              ],
+              "p": 1.0449244170739326e-08,
+              "share_of_M0": 0.900182001939676
+            }
+          },
+          "composition_term_Mc": {
+            "coef": 0.42623578905780535,
+            "se": 0.11117980949951341,
+            "p": 0.00012620351194240006
+          }
+        }
+      }
+    },
+    "OLMo-2-1124-7B": {
+      "first_token_json": true,
+      "n_recognised": 12324,
+      "specs": {
+        "p0.90_T1": {
+          "rows": 36972,
+          "dropped": {},
+          "gap": {
+            "M0": {
+              "or": 0.3068245545748203,
+              "ci": [
+                0.23033831548203443,
+                0.4087088467805503
+              ],
+              "p": 6.674923083403251e-16,
+              "converged": true,
+              "rho": 0.10967199577928345,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.3736612590104029,
+              "ci": [
+                0.27839927818236626,
+                0.5015197503270075
+              ],
+              "p": 5.520989730513074e-11,
+              "converged": true,
+              "rho": 0.09985204458533005,
+              "share_of_M0": 0.833197600684957
+            },
+            "Mf": {
+              "or": 0.30815015290827574,
+              "ci": [
+                0.24728829443842948,
+                0.3839911507054219
+              ],
+              "p": 1.0022628937752819e-25,
+              "converged": true,
+              "rho": 0.056304158747416,
+              "share_of_M0": 0.9963511224381016
+            },
+            "Me": {
+              "or": 0.21906092545974873,
+              "ci": [
+                0.12754645878531204,
+                0.3762369376640643
+              ],
+              "p": 3.746721306070425e-08,
+              "converged": true,
+              "rho": 0.11370479860711619,
+              "share_of_M0": 1.2851732111711167
+            },
+            "Mall": {
+              "or": 0.20338115188472813,
+              "ci": [
+                0.1290139379775821,
+                0.32061569153207603
+              ],
+              "p": 6.967754587422415e-12,
+              "converged": true,
+              "rho": 0.08968293377418134,
+              "share_of_M0": 1.3480334603297655
+            }
+          },
+          "gap_independence": {
+            "M0": {
+              "or": 0.2876518852489907,
+              "ci": [
+                0.21186690208157755,
+                0.3905452256787085
+              ],
+              "p": 1.3899144025704468e-15,
+              "share_of_M0": 1.0
+            },
+            "Mc": {
+              "or": 0.3499385265255336,
+              "ci": [
+                0.2533965664713389,
+                0.48326216117341286
+              ],
+              "p": 1.824669930811729e-10,
+              "share_of_M0": 0.8426919639656218
+            },
+            "Mf": {
+              "or": 0.2852848614790536,
+              "ci": [
+                0.23087336144504778,
+                0.3525198909034577
+              ],
+              "p": 3.3802832752741933e-31,
+              "share_of_M0": 1.0066314558153686
+            },
+            "Me": {
+              "or": 0.27340169943813647,
+              "ci": [
+                0.19809957023961008,
+                0.377327871863879
+              ],
+              "p": 3.035887077638678e-15,
+              "share_of_M0": 1.04077745045168
+            },
+            "Mall": {
+              "or": 0.27219661412726803,
+              "ci": [
+                0.20518722766832484,
+                0.3610897110131696
+              ],
+              "p": 1.8009689448809296e-19,
+              "share_of_M0": 1.0443227745906012
+            }
+          },
+          "composition_term_Mc": {
+            "coef": 0.3459031395510296,
+            "se": 0.07877792912993721,
+            "p": 1.1290136345119699e-05
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "Qwen2.5-7B-Instruct vs Qwen2.5-7B": {
+      "europe": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "europe",
+        "rows_recognised_by_both": 7386,
+        "rbu_instruct": 0.967776875169239,
+        "rbu_base": 0.686163011102085,
+        "loss_rate_given_base_reachable": 0.9115616911130284,
+        "gained_rows": 33
+      },
+      "north_america": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "north_america",
+        "rows_recognised_by_both": 1872,
+        "rbu_instruct": 0.9941239316239316,
+        "rbu_base": 0.6490384615384616,
+        "loss_rate_given_base_reachable": 0.9832572298325722,
+        "gained_rows": 0
+      },
+      "east_asia": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "east_asia",
+        "rows_recognised_by_both": 4884,
+        "rbu_instruct": 0.9885339885339886,
+        "rbu_base": 0.6482391482391482,
+        "loss_rate_given_base_reachable": 0.969732246798603,
+        "gained_rows": 4
+      },
+      "west_asia": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "west_asia",
+        "rows_recognised_by_both": 6540,
+        "rbu_instruct": 0.8996941896024465,
+        "rbu_base": 0.5330275229357798,
+        "loss_rate_given_base_reachable": 0.8143418467583498,
+        "gained_rows": 89
+      },
+      "latin_america": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "latin_america",
+        "rows_recognised_by_both": 6888,
+        "rbu_instruct": 0.9098432055749129,
+        "rbu_base": 0.5595238095238095,
+        "loss_rate_given_base_reachable": 0.8141067897165458,
+        "gained_rows": 57
+      },
+      "south_asia": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "south_asia",
+        "rows_recognised_by_both": 4668,
+        "rbu_instruct": 0.863324764353042,
+        "rbu_base": 0.401885175664096,
+        "loss_rate_given_base_reachable": 0.7936962750716332,
+        "gained_rows": 62
+      },
+      "southeast_asia": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "southeast_asia",
+        "rows_recognised_by_both": 5208,
+        "rbu_instruct": 0.8652073732718893,
+        "rbu_base": 0.4162826420890937,
+        "loss_rate_given_base_reachable": 0.7884868421052632,
+        "gained_rows": 59
+      },
+      "africa": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "africa",
+        "rows_recognised_by_both": 2871,
+        "rbu_instruct": 0.8495297805642633,
+        "rbu_base": 0.4043887147335423,
+        "loss_rate_given_base_reachable": 0.7619883040935672,
+        "gained_rows": 25
+      },
+      "WEST": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "WEST",
+        "rows_recognised_by_both": 9258,
+        "rbu_instruct": 0.9731043421905379,
+        "rbu_base": 0.6786562972564268,
+        "loss_rate_given_base_reachable": 0.9273949579831933,
+        "gained_rows": 33
+      },
+      "SOUTH": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "SOUTH",
+        "rows_recognised_by_both": 12747,
+        "rbu_instruct": 0.8609868988781674,
+        "rbu_base": 0.40833137208755,
+        "loss_rate_given_base_reachable": 0.7844073190135242,
+        "gained_rows": 146
+      },
+      "OTHER": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "OTHER",
+        "rows_recognised_by_both": 18312,
+        "rbu_instruct": 0.9272062035823504,
+        "rbu_base": 0.5737221494102228,
+        "loss_rate_given_base_reachable": 0.8484499103253907,
+        "gained_rows": 150
+      },
+      "ALL": {
+        "pair": "Qwen2.5-7B-Instruct vs Qwen2.5-7B",
+        "spec": "p0.90_T1",
+        "region": "ALL",
+        "rows_recognised_by_both": 40317,
+        "rbu_instruct": 0.9168092864052385,
+        "rbu_base": 0.5455267008954039,
+        "loss_rate_given_base_reachable": 0.8349069475522567,
+        "gained_rows": 329
+      }
+    },
+    "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B": {
+      "europe": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "europe",
+        "rows_recognised_by_both": 5127,
+        "rbu_instruct": 0.9574800078018334,
+        "rbu_base": 0.7439048176321436,
+        "loss_rate_given_base_reachable": 0.853008377760853,
+        "gained_rows": 25
+      },
+      "north_america": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "north_america",
+        "rows_recognised_by_both": 1698,
+        "rbu_instruct": 0.9876325088339223,
+        "rbu_base": 0.784452296819788,
+        "loss_rate_given_base_reachable": 0.9426229508196722,
+        "gained_rows": 0
+      },
+      "east_asia": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "east_asia",
+        "rows_recognised_by_both": 3969,
+        "rbu_instruct": 0.9748047367094986,
+        "rbu_base": 0.6802721088435374,
+        "loss_rate_given_base_reachable": 0.9369582348305753,
+        "gained_rows": 20
+      },
+      "west_asia": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "west_asia",
+        "rows_recognised_by_both": 3741,
+        "rbu_instruct": 0.909382518043304,
+        "rbu_base": 0.5918203688853247,
+        "loss_rate_given_base_reachable": 0.8120497707924034,
+        "gained_rows": 52
+      },
+      "latin_america": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "latin_america",
+        "rows_recognised_by_both": 3321,
+        "rbu_instruct": 0.9048479373682625,
+        "rbu_base": 0.5353809093646492,
+        "loss_rate_given_base_reachable": 0.81399870382372,
+        "gained_rows": 29
+      },
+      "south_asia": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "south_asia",
+        "rows_recognised_by_both": 3138,
+        "rbu_instruct": 0.8240917782026769,
+        "rbu_base": 0.441363926067559,
+        "loss_rate_given_base_reachable": 0.7050770108385624,
+        "gained_rows": 35
+      },
+      "southeast_asia": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "southeast_asia",
+        "rows_recognised_by_both": 3594,
+        "rbu_instruct": 0.8522537562604341,
+        "rbu_base": 0.4788536449638286,
+        "loss_rate_given_base_reachable": 0.7437266417512013,
+        "gained_rows": 51
+      },
+      "africa": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "africa",
+        "rows_recognised_by_both": 1776,
+        "rbu_instruct": 0.8141891891891891,
+        "rbu_base": 0.44876126126126126,
+        "loss_rate_given_base_reachable": 0.6823289070480082,
+        "gained_rows": 19
+      },
+      "WEST": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "WEST",
+        "rows_recognised_by_both": 6825,
+        "rbu_instruct": 0.964981684981685,
+        "rbu_base": 0.753992673992674,
+        "loss_rate_given_base_reachable": 0.8725431804645623,
+        "gained_rows": 25
+      },
+      "SOUTH": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "SOUTH",
+        "rows_recognised_by_both": 8508,
+        "rbu_instruct": 0.8339210155148096,
+        "rbu_base": 0.4587447108603667,
+        "loss_rate_given_base_reachable": 0.7159609120521173,
+        "gained_rows": 105
+      },
+      "OTHER": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "OTHER",
+        "rows_recognised_by_both": 11031,
+        "rbu_instruct": 0.9315565225274227,
+        "rbu_base": 0.6066539751609101,
+        "loss_rate_given_base_reachable": 0.8492740262733348,
+        "gained_rows": 101
+      },
+      "ALL": {
+        "pair": "OLMo-2-1124-7B-Instruct vs OLMo-2-1124-7B",
+        "spec": "p0.90_T1",
+        "region": "ALL",
+        "rows_recognised_by_both": 26364,
+        "rbu_instruct": 0.9087012592929753,
+        "rbu_base": 0.5970641784251252,
+        "loss_rate_given_base_reachable": 0.7951614421538172,
+        "gained_rows": 231
+      }
+    }
+  },
+  "checks": {
+    "Qwen2.5-7B-Instruct|p0.90_T1|by_region_matches_g2": true,
+    "Qwen2.5-7B-Instruct|shipped_hf|by_region_matches_g2": true,
+    "Qwen2.5-7B|p0.90_T1|by_region_matches_g2": true,
+    "OLMo-2-1124-7B-Instruct|p0.90_T1|by_region_matches_g2": true,
+    "OLMo-2-1124-7B|p0.90_T1|by_region_matches_g2": true
+  }
+}

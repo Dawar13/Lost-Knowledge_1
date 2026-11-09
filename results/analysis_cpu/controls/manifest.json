@@ -1,0 +1,26 @@
+{
+  "inputs_sha256": {
+    "results\\G1\\mechanism.csv": "428dd6cf55e4cbf953f97c90f8c1658656d529a5e7db307bed1652ddbe06bc98",
+    "results\\analysis_cpu\\region\\categories.csv": "1bc67f96cfccc94c08f864400f9a9b3d718952c28a52a2481950bf1b9b35abe1",
+    "results\\P3\\g2\\popularity_gee.csv": "31084c339a206eb234ffa6abfb89026ec6dfd5ae3b3dac49b8cdbfa00630270e",
+    "results\\P3\\Qwen2.5-7B-Instruct\\reach.jsonl.gz": "ed2e74e51d1214cd896d9de910131ce4f9a12097fbe3128456cbed57dfcc19a9",
+    "results\\P3\\Qwen2.5-7B-Instruct\\recog.jsonl.gz": "0678320b3085fbaa8bce760760407249fcb6bf2f29cb6164177c18a950166e78",
+    "results\\P3\\Qwen2.5-7B\\reach.jsonl.gz": "06e89c9206be8500b85f2603db67f5073a79362df73c061ec093cea8ecfdb327",
+    "results\\P3\\Qwen2.5-7B\\recog.jsonl.gz": "810f64c67ce3a242d1a04e5f9d027aa410908a2afcd2bebd4c574069ab4f9384",
+    "results\\P3\\OLMo-2-1124-7B-Instruct\\reach.jsonl.gz": "9ba5c54a2a44d63ac7944165e906093b9da74a8f49f76bb3e83cb75992c9a78a",
+    "results\\P3\\OLMo-2-1124-7B-Instruct\\recog.jsonl.gz": "ff2939b2e8f13ea2fec8d6b400bc9bcc0f1632237134b27e7eead1f2bc9950fd",
+    "results\\P3\\OLMo-2-1124-7B\\reach.jsonl.gz": "aa058d84bae9f1fa5c6455ca8ef1efd7e36568025c26aa9c16121733ef382bda",
+    "results\\P3\\OLMo-2-1124-7B\\recog.jsonl.gz": "b30d981fd9ce8016144fdfd8609585484629cf8c4859dd20de205996e81f3c7c"
+  },
+  "code": {
+    "tree_sha256": "8d107e48fd320096",
+    "git_head": "bf150c1368d2ddc96757aab9ae806e095d9f2e49",
+    "git_dirty": true
+  },
+  "statsmodels": "0.14.6",
+  "bootstrap": {
+    "B": 2000,
+    "seed": 0
+  },
+  "command": "python -m mb5.controls --full results/P3 --data data/tailcat/full_v1_s150 --mechanism results/G1/mechanism.csv --region results/analysis_cpu/region --out results/analysis_cpu/controls --models Qwen2.5-7B-Instruct,Qwen2.5-7B,OLMo-2-1124-7B-Instruct,OLMo-2-1124-7B --skip_popularity False --skip_mechanism False"
+}
