@@ -1,0 +1,350 @@
+{
+  "key": "9b8ab95082194745",
+  "query": "\nSELECT ?item ?cue ?cueLabel ?cueSitelinks (COUNT(DISTINCT ?other) AS ?nAnswers) WHERE {\n  VALUES ?item { wd:Q100 wd:Q16554 wd:Q16556 wd:Q16559 wd:Q16567 wd:Q18013 wd:Q18094 wd:Q18383 wd:Q23197 wd:Q23337 wd:Q23556 wd:Q24861 wd:Q25280 wd:Q25330 wd:Q26426 wd:Q28180 wd:Q28198 wd:Q28206 wd:Q28218 wd:Q28237 wd:Q28249 wd:Q28260 wd:Q28271 wd:Q28515 wd:Q28603 wd:Q28848 wd:Q29364 wd:Q33405 wd:Q33486 wd:Q33518 wd:Q34863 wd:Q35775 wd:Q37043 wd:Q37066 wd:Q38453 wd:Q38555 wd:Q38733 wd:Q39042 wd:Q39709 wd:Q40747 wd:Q40881 wd:Q41057 wd:Q41087 wd:Q42735 wd:Q43421 wd:Q43788 wd:Q43919 wd:Q44564 wd:Q6346 }\n  ?cue wdt:P36 ?item ; wdt:P31 wd:Q35657 .\n  ?cue wdt:P36 ?other .\n  ?cue wikibase:sitelinks ?cueSitelinks .\n  OPTIONAL { ?cue rdfs:label ?cueLabel . FILTER(LANG(?cueLabel) = \"en\") }\n} GROUP BY ?item ?cue ?cueLabel ?cueSitelinks\n",
+  "fetched_utc": "2026-11-09T05:16:53Z",
+  "rows": [
+    {
+      "item": "Q18013",
+      "cue": "Q99",
+      "cueLabel": "California",
+      "cueSitelinks": "288",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28206",
+      "cue": "Q724",
+      "cueLabel": "Maine",
+      "cueSitelinks": "216",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q29364",
+      "cue": "Q173",
+      "cueLabel": "Alabama",
+      "cueSitelinks": "243",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28249",
+      "cue": "Q759",
+      "cueLabel": "New Hampshire",
+      "cueSitelinks": "216",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q100",
+      "cue": "Q771",
+      "cueLabel": "Massachusetts",
+      "cueSitelinks": "230",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q18094",
+      "cue": "Q782",
+      "cueLabel": "Hawaii",
+      "cueSitelinks": "268",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q37043",
+      "cue": "Q812",
+      "cueLabel": "Florida",
+      "cueSitelinks": "260",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q33486",
+      "cue": "Q779",
+      "cueLabel": "Connecticut",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q16556",
+      "cue": "Q816",
+      "cueLabel": "Arizona",
+      "cueSitelinks": "245",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q43919",
+      "cue": "Q824",
+      "cueLabel": "Oregon",
+      "cueSitelinks": "226",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28515",
+      "cue": "Q1204",
+      "cueLabel": "Illinois",
+      "cueSitelinks": "238",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q23337",
+      "cue": "Q829",
+      "cueLabel": "Utah",
+      "cueSitelinks": "227",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q39042",
+      "cue": "Q1214",
+      "cueLabel": "Wyoming",
+      "cueSitelinks": "217",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q40881",
+      "cue": "Q1227",
+      "cueLabel": "Nevada",
+      "cueSitelinks": "231",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28237",
+      "cue": "Q1166",
+      "cueLabel": "Michigan",
+      "cueSitelinks": "225",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q37066",
+      "cue": "Q1207",
+      "cueLabel": "North Dakota",
+      "cueSitelinks": "211",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q16554",
+      "cue": "Q1261",
+      "cueLabel": "Colorado",
+      "cueSitelinks": "230",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q42735",
+      "cue": "Q1223",
+      "cueLabel": "Washington",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q43421",
+      "cue": "Q1370",
+      "cueLabel": "Virginia",
+      "cueSitelinks": "234",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q35775",
+      "cue": "Q1221",
+      "cueLabel": "Idaho",
+      "cueSitelinks": "222",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q25280",
+      "cue": "Q1400",
+      "cueLabel": "Pennsylvania",
+      "cueSitelinks": "235",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q24861",
+      "cue": "Q1384",
+      "cueLabel": "New York",
+      "cueSitelinks": "247",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q40747",
+      "cue": "Q1211",
+      "cueLabel": "South Dakota",
+      "cueSitelinks": "213",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q44564",
+      "cue": "Q1371",
+      "cueLabel": "West Virginia",
+      "cueSitelinks": "215",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q18383",
+      "cue": "Q1387",
+      "cueLabel": "Rhode Island",
+      "cueSitelinks": "214",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q25330",
+      "cue": "Q1408",
+      "cueLabel": "New Jersey",
+      "cueSitelinks": "231",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q41087",
+      "cue": "Q1454",
+      "cueLabel": "North Carolina",
+      "cueSitelinks": "216",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q16567",
+      "cue": "Q1397",
+      "cueLabel": "Ohio",
+      "cueSitelinks": "235",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q38733",
+      "cue": "Q1212",
+      "cueLabel": "Montana",
+      "cueSitelinks": "217",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q16559",
+      "cue": "Q1439",
+      "cueLabel": "Texas",
+      "cueSitelinks": "260",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28271",
+      "cue": "Q1391",
+      "cueLabel": "Maryland",
+      "cueSitelinks": "230",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q39709",
+      "cue": "Q1546",
+      "cueLabel": "Iowa",
+      "cueSitelinks": "224",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28260",
+      "cue": "Q1553",
+      "cueLabel": "Nebraska",
+      "cueSitelinks": "221",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q38453",
+      "cue": "Q1456",
+      "cueLabel": "South Carolina",
+      "cueSitelinks": "217",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28848",
+      "cue": "Q1527",
+      "cueLabel": "Minnesota",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28198",
+      "cue": "Q1494",
+      "cueLabel": "Mississippi",
+      "cueSitelinks": "220",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6346",
+      "cue": "Q1415",
+      "cueLabel": "Indiana",
+      "cueSitelinks": "225",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q41057",
+      "cue": "Q1558",
+      "cueLabel": "Kansas",
+      "cueSitelinks": "225",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q33518",
+      "cue": "Q1393",
+      "cueLabel": "Delaware",
+      "cueSitelinks": "222",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q43788",
+      "cue": "Q1537",
+      "cueLabel": "Wisconsin",
+      "cueSitelinks": "225",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q23556",
+      "cue": "Q1428",
+      "cueLabel": "Georgia",
+      "cueSitelinks": "233",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28180",
+      "cue": "Q1581",
+      "cueLabel": "Missouri",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q34863",
+      "cue": "Q1649",
+      "cueLabel": "Oklahoma",
+      "cueSitelinks": "222",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q23197",
+      "cue": "Q1509",
+      "cueLabel": "Tennessee",
+      "cueSitelinks": "226",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28218",
+      "cue": "Q1588",
+      "cueLabel": "Louisiana",
+      "cueSitelinks": "224",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q26426",
+      "cue": "Q16551",
+      "cueLabel": "Vermont",
+      "cueSitelinks": "220",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q38555",
+      "cue": "Q1522",
+      "cueLabel": "New Mexico",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q28603",
+      "cue": "Q1603",
+      "cueLabel": "Kentucky",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q33405",
+      "cue": "Q1612",
+      "cueLabel": "Arkansas",
+      "cueSitelinks": "223",
+      "nAnswers": "1"
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "key": "5f4dd41e1dc0248f",
+  "query": "\nSELECT ?item ?cue ?cueLabel ?cueSitelinks (COUNT(DISTINCT ?other) AS ?nAnswers) WHERE {\n  VALUES ?item { wd:Q10019781 wd:Q10052957 wd:Q10109608 wd:Q10211579 wd:Q104177121 wd:Q104804956 wd:Q10529097 wd:Q10532392 wd:Q1053551 wd:Q107124663 wd:Q1072569 wd:Q10730187 wd:Q10772355 wd:Q1085452 wd:Q10856038 wd:Q10869255 wd:Q1091123 wd:Q10928485 wd:Q10931428 wd:Q1098512 wd:Q10990535 wd:Q110721351 wd:Q11088484 wd:Q11121899 wd:Q11179052 wd:Q11257760 wd:Q11258480 wd:Q11262787 wd:Q11344544 wd:Q11353026 wd:Q11353125 wd:Q11353321 wd:Q11354863 wd:Q11356297 wd:Q11356776 wd:Q11358655 wd:Q11359823 wd:Q11364035 wd:Q11364384 wd:Q11365132 wd:Q11367015 wd:Q11367131 wd:Q11369256 wd:Q11381717 wd:Q11384332 wd:Q1138463 wd:Q11388939 wd:Q11393752 wd:Q11398576 wd:Q11399185 wd:Q11401229 wd:Q11401974 wd:Q11412921 wd:Q11413410 wd:Q11414754 wd:Q11416955 wd:Q11417821 wd:Q11418092 wd:Q11418711 wd:Q11426149 wd:Q11429283 wd:Q11432421 wd:Q11434944 wd:Q11435365 wd:Q11436210 wd:Q11436520 wd:Q11437198 wd:Q11437791 wd:Q11438856 wd:Q11441784 wd:Q11447148 wd:Q11447593 wd:Q11447916 wd:Q11450723 wd:Q11453299 wd:Q11460052 wd:Q11462459 wd:Q11463216 wd:Q11470374 wd:Q11475994 wd:Q11477119 wd:Q11478078 wd:Q11478336 wd:Q11483108 wd:Q11485611 wd:Q11496208 wd:Q11496412 wd:Q11497486 wd:Q11502512 wd:Q11503892 wd:Q11516850 wd:Q11518213 wd:Q11519711 wd:Q11520565 wd:Q11522724 wd:Q11529542 wd:Q11531428 wd:Q11532151 wd:Q11533241 wd:Q11533865 wd:Q11533986 wd:Q11534123 wd:Q11534692 wd:Q11534906 wd:Q11538259 wd:Q11538390 wd:Q11538465 wd:Q11538865 wd:Q11540195 wd:Q11540745 wd:Q11544813 wd:Q11545305 wd:Q11546264 wd:Q11548464 wd:Q11550052 wd:Q11552569 wd:Q11555210 wd:Q11556250 wd:Q11557964 wd:Q11558343 wd:Q11558761 wd:Q11558985 wd:Q11562599 wd:Q11570705 wd:Q11575719 wd:Q11580554 wd:Q11581894 wd:Q11582857 wd:Q11583100 wd:Q11583249 wd:Q11584053 wd:Q11584994 wd:Q11586609 wd:Q11588849 wd:Q11597720 wd:Q11599787 wd:Q11603025 wd:Q11604370 wd:Q11607151 wd:Q11611603 wd:Q11614074 wd:Q11616185 wd:Q11619768 wd:Q11620568 wd:Q11620868 wd:Q11622391 wd:Q11623936 wd:Q11624554 wd:Q11628577 wd:Q11633136 wd:Q11633503 wd:Q11644706 wd:Q11647135 wd:Q11647949 wd:Q11649371 wd:Q11651647 wd:Q11653783 wd:Q11656815 wd:Q11656849 wd:Q11659750 wd:Q11661807 wd:Q11663624 wd:Q11665783 wd:Q11667615 wd:Q11668806 wd:Q11669311 wd:Q11670193 wd:Q11670944 wd:Q11678635 wd:Q11678757 wd:Q1185834 wd:Q1191142 wd:Q1191514 wd:Q1195876 wd:Q1196609 wd:Q120920514 wd:Q122452451 wd:Q1240552 wd:Q1259446 wd:Q125970 wd:Q12903 wd:Q130284068 wd:Q1338016 wd:Q1339252 wd:Q1346885 wd:Q1385614 wd:Q142444 wd:Q1453544 wd:Q1475238 wd:Q1595809 wd:Q15994210 wd:Q1615734 wd:Q16263629 wd:Q16265091 wd:Q1700094 wd:Q17158386 wd:Q17159858 wd:Q17217689 wd:Q1721901 wd:Q17229833 wd:Q1723404 wd:Q1741675 wd:Q1766181 wd:Q1797570 wd:Q18226849 wd:Q18335535 wd:Q18349 wd:Q18700410 wd:Q1892472 wd:Q1899252 wd:Q1942999 wd:Q1995462 wd:Q201580 wd:Q2026468 wd:Q2059319 wd:Q21015334 wd:Q21703888 wd:Q21703891 wd:Q21703898 wd:Q2226953 wd:Q2273747 wd:Q2278889 wd:Q2345434 wd:Q2352325 wd:Q2389416 wd:Q238970 wd:Q2392807 wd:Q2413886 wd:Q2439027 wd:Q2458501 wd:Q2458607 wd:Q24644348 wd:Q256177 wd:Q264247 wd:Q267746 wd:Q26776561 wd:Q271895 wd:Q2743605 wd:Q276260 wd:Q279987 wd:Q282859 wd:Q285084 wd:Q2856394 wd:Q2880354 wd:Q290021 wd:Q293259 wd:Q2945019 wd:Q3074999 wd:Q3082929 wd:Q30933986 wd:Q30944661 wd:Q3155705 wd:Q316217 wd:Q3197662 wd:Q3197667 wd:Q3208067 wd:Q3311512 wd:Q3342562 wd:Q3388183 wd:Q339670 wd:Q3454094 wd:Q3482122 wd:Q3482286 wd:Q3516091 wd:Q352561 wd:Q3541671 wd:Q3544406 wd:Q3548308 wd:Q356960 wd:Q3572681 wd:Q3573157 wd:Q376499 wd:Q3777938 wd:Q378425 wd:Q3811337 wd:Q382681 wd:Q3850922 wd:Q385747 wd:Q38849 wd:Q390868 wd:Q4220002 wd:Q430795 wd:Q4335017 wd:Q435085 wd:Q4390323 wd:Q445839 wd:Q447073 wd:Q448707 wd:Q4496801 wd:Q451058 wd:Q454888 wd:Q460430 wd:Q46167337 wd:Q462172 wd:Q4674189 wd:Q4701187 wd:Q4817814 wd:Q51166392 wd:Q515651 wd:Q516003 wd:Q516128 wd:Q519158 wd:Q529072 wd:Q529086 wd:Q530588 wd:Q5358877 wd:Q5364444 wd:Q5364647 wd:Q5364986 wd:Q5366685 wd:Q5367518 wd:Q541039 wd:Q54867718 wd:Q552593 wd:Q552990 wd:Q5533165 wd:Q55433191 wd:Q554810 wd:Q5588109 wd:Q5610225 wd:Q5676192 wd:Q5771054 wd:Q577180 wd:Q592895 wd:Q6136815 wd:Q618886 wd:Q62601452 wd:Q63131193 wd:Q6387189 wd:Q6392984 wd:Q644365 wd:Q6455182 wd:Q6455299 wd:Q651258 wd:Q65264125 wd:Q654954 wd:Q66134375 wd:Q662980 wd:Q6746571 wd:Q6763461 wd:Q6782658 wd:Q684481 wd:Q6862777 wd:Q6883194 wd:Q6937254 wd:Q6957387 wd:Q6964766 wd:Q697008 wd:Q7051278 wd:Q7113161 wd:Q717936 wd:Q739129 wd:Q7403217 wd:Q7469332 wd:Q766235 wd:Q7678089 wd:Q7681894 wd:Q7706860 wd:Q7820136 wd:Q7986901 wd:Q8013071 wd:Q8046829 wd:Q8054532 wd:Q8056037 wd:Q8062081 wd:Q8135976 wd:Q8146535 wd:Q841464 wd:Q842334 wd:Q8435594 wd:Q843830 wd:Q8439476 wd:Q848530 wd:Q854737 wd:Q8917937 wd:Q8977128 wd:Q8977487 wd:Q8978811 wd:Q9007130 wd:Q9016212 wd:Q904686 wd:Q9046969 wd:Q907166 wd:Q910874 wd:Q9131973 wd:Q9146626 wd:Q9146642 wd:Q9190598 wd:Q9203014 wd:Q926034 wd:Q9296017 wd:Q9320644 wd:Q9345866 wd:Q9372466 wd:Q944894 wd:Q966701 wd:Q97456371 wd:Q97496327 wd:Q985992 wd:Q994434 }\n  ?item wdt:P800 ?cue .\n  ?cue wdt:P50 ?item .\n  ?cue wdt:P50 ?other .\n  ?cue wikibase:sitelinks ?cueSitelinks .\n  OPTIONAL { ?cue rdfs:label ?cueLabel . FILTER(LANG(?cueLabel) = \"en\") }\n} GROUP BY ?item ?cue ?cueLabel ?cueSitelinks\n",
+  "fetched_utc": "2026-11-09T05:17:44Z",
+  "rows": [
+    {
+      "item": "Q2413886",
+      "cue": "Q65040591",
+      "cueLabel": "Ciconia When They Cry",
+      "cueSitelinks": "7",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q994434",
+      "cue": "Q107347924",
+      "cueLabel": "Ballad of a Shinigami",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11538465",
+      "cue": "Q108315010",
+      "cueLabel": "Sakurajima",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q104804956",
+      "cue": "Q109360134",
+      "cueLabel": "The Last Ten Years",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11669311",
+      "cue": "Q109519667",
+      "cueLabel": "Trapezium",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q115164758",
+      "cueLabel": "The Name of the Game is a Kidnapping",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q238970",
+      "cue": "Q115799118",
+      "cueLabel": "Shirakawa yofune o yobune",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11359823",
+      "cue": "Q137639660",
+      "cueLabel": "Lila and the Winds of War",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q9146626",
+      "cue": "Q483535",
+      "cueLabel": "My Little Sister Can't Be This Cute",
+      "cueSitelinks": "21",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q448707",
+      "cue": "Q488129",
+      "cueLabel": "Red River",
+      "cueSitelinks": "10",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q9320644",
+      "cue": "Q492884",
+      "cueLabel": "The \"Hentai\" Prince and the Stony Cat",
+      "cueSitelinks": "16",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q38849",
+      "cue": "Q697260",
+      "cueLabel": "Season of the Sun",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q684481",
+      "cue": "Q22127371",
+      "cueLabel": "Shinri-sensei",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q22127805",
+      "cueLabel": "Kurara no Shukke",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q22128673",
+      "cueLabel": "Osue no Shi",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q51166392",
+      "cue": "Q22130305",
+      "cueLabel": "Ascendance of a Bookworm",
+      "cueSitelinks": "17",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11623936",
+      "cue": "Q24867819",
+      "cueLabel": "Kodoku no Hito",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q24644348",
+      "cue": "Q24874162",
+      "cueLabel": "Classroom of the Elite",
+      "cueSitelinks": "25",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q21703888",
+      "cue": "Q48747953",
+      "cueLabel": "Nidome no Natsu, Nidoto Aenai Kimi",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q65264125",
+      "cue": "Q48938269",
+      "cueLabel": "Bottom-tier Character Tomozaki",
+      "cueSitelinks": "12",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q21703888",
+      "cue": "Q60997673",
+      "cueLabel": "Deatte Hitotsuki de Zecchō Jorei!",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q63439732",
+      "cueLabel": "Black Fog over Japan",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1196609",
+      "cue": "Q701383",
+      "cueLabel": "Legend of the Galactic Heroes",
+      "cueSitelinks": "27",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3548308",
+      "cue": "Q702597",
+      "cueLabel": "Shōnen Onmyōji",
+      "cueSitelinks": "10",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q7403217",
+      "cue": "Q702922",
+      "cueLabel": "Sister Princess",
+      "cueSitelinks": "9",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q841464",
+      "cue": "Q703977",
+      "cueLabel": "Fumō Chitai",
+      "cueSitelinks": "7",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q841464",
+      "cue": "Q710660",
+      "cueLabel": "Karei-naru Ichizoku",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q710681",
+      "cueLabel": "Journey Under the Midnight Sun",
+      "cueSitelinks": "8",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q4390323",
+      "cue": "Q420892",
+      "cueLabel": "Gosick",
+      "cueSitelinks": "22",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q907166",
+      "cue": "Q482535",
+      "cueLabel": "Welcome to the N.H.K.",
+      "cueSitelinks": "28",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q4674189",
+      "cue": "Q482870",
+      "cueLabel": "Haganai",
+      "cueSitelinks": "20",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5364444",
+      "cue": "Q483263",
+      "cueLabel": "Baka and Test",
+      "cueSitelinks": "20",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q711166",
+      "cueLabel": "Ryūsei no Kizuna",
+      "cueSitelinks": "9",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q841464",
+      "cue": "Q841416",
+      "cueLabel": "Shiroi Kyotō",
+      "cueSitelinks": "7",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q847426",
+      "cueLabel": "The Devotion of Suspect X",
+      "cueSitelinks": "12",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q238970",
+      "cue": "Q849015",
+      "cueLabel": "NP",
+      "cueSitelinks": "9",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q1054767",
+      "cueLabel": "Naoko",
+      "cueSitelinks": "9",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q541039",
+      "cue": "Q1154026",
+      "cueLabel": "Nise Murasaki Inaka Genji",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q717936",
+      "cue": "Q1202156",
+      "cueLabel": "Japan Sinks",
+      "cueSitelinks": "15",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1196609",
+      "cue": "Q2453911",
+      "cueLabel": "The Heroic Legend of Arslan",
+      "cueSitelinks": "21",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q2633405",
+      "cueLabel": "Sansho the Bailiff",
+      "cueSitelinks": "28",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q2790868",
+      "cueLabel": "Vita Sexualis",
+      "cueSitelinks": "9",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q3738975",
+      "cueLabel": "Tokyo Express",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q592895",
+      "cue": "Q3761739",
+      "cueLabel": "Battle Royale",
+      "cueSitelinks": "23",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q17224376",
+      "cueLabel": "Okitsuya goemon no isho",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q17226953",
+      "cueLabel": "Sahashi Jingoro",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q18918071",
+      "cueLabel": "Inspector Imanishi Investigates",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2226953",
+      "cue": "Q20041574",
+      "cueLabel": "Den'en no Yūutsu",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q21015400",
+      "cueLabel": "Jikkenshitsu",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q766235",
+      "cue": "Q22125765",
+      "cueLabel": "Ginjirō no Kataude",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q697008",
+      "cue": "Q22126477",
+      "cueLabel": "Hihon Sangokushi",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q651258",
+      "cue": "Q11615539",
+      "cueLabel": "Hana monogatari",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11657723",
+      "cueLabel": "The Abe Family",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2880354",
+      "cue": "Q11658263",
+      "cueLabel": "Onmyōji",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11519711",
+      "cue": "Q11659841",
+      "cueLabel": "Setchūbai",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11661407",
+      "cueLabel": "Seinen",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11671982",
+      "cueLabel": "Takasebune",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q11678886",
+      "cueLabel": "Black Leather Notebook",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q14566547",
+      "cueLabel": "The Miracles of the Namiya General Store",
+      "cueSitelinks": "10",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11384332",
+      "cue": "Q17190569",
+      "cueLabel": "Aa Gyokuhai ni Hana Ukete",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q21703888",
+      "cue": "Q17213681",
+      "cueLabel": "Shimoneta",
+      "cueSitelinks": "20",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q18700410",
+      "cue": "Q17215635",
+      "cueLabel": "Bungo Stray Dogs",
+      "cueSitelinks": "26",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11260464",
+      "cueLabel": "Utakata no ki",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3516091",
+      "cue": "Q11264576",
+      "cueLabel": "Gaki-Dēka",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q9296017",
+      "cue": "Q11310834",
+      "cueLabel": "Joker Game",
+      "cueSitelinks": "8",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q385747",
+      "cue": "Q11349334",
+      "cueLabel": "Leyte Senki",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q904686",
+      "cue": "Q11351056",
+      "cueLabel": "Stories of the Romans",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q11362546",
+      "cueLabel": "Reckonings that Carry Men Through the World",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11583100",
+      "cue": "Q11388020",
+      "cueLabel": "Genroku Chūshingura",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2439027",
+      "cue": "Q11388266",
+      "cueLabel": "Hikari o Ōte",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q11410906",
+      "cueLabel": "Essay of Yamatai",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3516091",
+      "cue": "Q11419096",
+      "cueLabel": "Kigeki Shin Sōdai Kei",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q11446683",
+      "cueLabel": "Five Women Who Loved Love",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q651258",
+      "cue": "Q11450533",
+      "cueLabel": "Ataka-ke no Hitobito",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q11495917",
+      "cueLabel": "A Certain Legend of the Kokura Diary",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q11514036",
+      "cueLabel": "Unearthing the Shōwa Period",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11514591",
+      "cueLabel": "Fushinchu",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11515556",
+      "cueLabel": "Saigo no ikku",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q519158",
+      "cue": "Q11544643",
+      "cueLabel": "Lemon",
+      "cueSitelinks": "8",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q11546576",
+      "cueLabel": "Transmission of the Martial Arts",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q256177",
+      "cue": "Q11549629",
+      "cueLabel": "Hyōten",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11574776",
+      "cueLabel": "Ikutagawa",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q290021",
+      "cue": "Q1314114",
+      "cueLabel": "Brave Story",
+      "cueSitelinks": "14",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5771054",
+      "cue": "Q1314872",
+      "cueLabel": "Modern Magic Made Simple",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1191142",
+      "cue": "Q1333063",
+      "cueLabel": "Crest of the Stars",
+      "cueSitelinks": "10",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q4701187",
+      "cue": "Q1367069",
+      "cueLabel": "Hyakka Ryōran",
+      "cueSitelinks": "11",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q1394138",
+      "cueLabel": "The Life of an Amorous Woman",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q238970",
+      "cue": "Q2246971",
+      "cueLabel": "Kitchen",
+      "cueSitelinks": "15",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q3870179",
+      "cueLabel": "The Great Mirror of Male Love",
+      "cueSitelinks": "7",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q316217",
+      "cue": "Q3960523",
+      "cueLabel": "Silence",
+      "cueSitelinks": "28",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q4655795",
+      "cueLabel": "A Certain Woman",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q290021",
+      "cue": "Q4729627",
+      "cueLabel": "All She Was Worth",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5771054",
+      "cue": "Q4729904",
+      "cueLabel": "All You Need Is Kill",
+      "cueSitelinks": "18",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q5364477",
+      "cueLabel": "Kaga series",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q385747",
+      "cue": "Q5451950",
+      "cueLabel": "Fires on the Plain",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q6132330",
+      "cueLabel": "Samayou Yaiba",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q448707",
+      "cue": "Q7261409",
+      "cueLabel": "Purple Eyes in the Dark",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q7728837",
+      "cueLabel": "The Dancing Girl",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q7051278",
+      "cue": "Q7742904",
+      "cueLabel": "The Jade Trilogy",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q38849",
+      "cue": "Q7742990",
+      "cueLabel": "The Japan That Can Say No",
+      "cueSitelinks": "3",
+      "nAnswers": "2"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q7774861",
+      "cueLabel": "The Wild Geese",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q201580",
+      "cue": "Q8069515",
+      "cueLabel": "Zero Focus",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q9018172",
+      "cueLabel": "The Life of an Amorous Man",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q10885794",
+      "cueLabel": "Galileo Series",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q841464",
+      "cue": "Q10942804",
+      "cueLabel": "Nyokeikazoku",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q352561",
+      "cue": "Q11086445",
+      "cueLabel": "The Eternal Storehouse of Japan",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q125970",
+      "cue": "Q10938783",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q356960",
+      "cue": "Q11260514",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q684481",
+      "cue": "Q11410319",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q11458701",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q519158",
+      "cue": "Q11544742",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11179052",
+      "cue": "Q11567365",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6455299",
+      "cue": "Q11613858",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6455299",
+      "cue": "Q11630101",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q684481",
+      "cue": "Q21015251",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q684481",
+      "cue": "Q22123290",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q22124488",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q22125704",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q22128616",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q684481",
+      "cue": "Q24864194",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q577180",
+      "cue": "Q28689370",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q530588",
+      "cue": "Q97376141",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q530588",
+      "cue": "Q109357601",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    }
+  ]
+}

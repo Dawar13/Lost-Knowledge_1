@@ -1,0 +1,54 @@
+{
+  "source_split": "data/tailcat/pilot_v2",
+  "categories": {
+    "us_state_capitals": {
+      "kind": "capital",
+      "entities": 49,
+      "kept": 49,
+      "skipped": {},
+      "query_rows": 49
+    },
+    "bengali_film_directors": {
+      "kind": "director",
+      "entities": 304,
+      "kept": 296,
+      "skipped": {
+        "no_english_label": 3,
+        "not_unique": 5
+      },
+      "query_rows": 1469
+    },
+    "japanese_novelists": {
+      "kind": "work",
+      "entities": 400,
+      "kept": 55,
+      "skipped": {
+        "no_candidate": 342,
+        "no_english_label": 3
+      },
+      "query_rows": 123
+    },
+    "tamil_poets": {
+      "kind": "work",
+      "entities": 123,
+      "kept": 32,
+      "skipped": {
+        "cue_contains_answer": 1,
+        "no_candidate": 82,
+        "no_english_label": 8
+      },
+      "query_rows": 64
+    },
+    "assamese_writers": {
+      "kind": "work",
+      "entities": 83,
+      "kept": 9,
+      "skipped": {
+        "no_candidate": 74
+      },
+      "query_rows": 14
+    }
+  },
+  "rule": "notes/decisions.md 2026-11-09 (E13); module docstring for the cue definitions",
+  "total_kept": 441
+}

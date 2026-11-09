@@ -1,0 +1,440 @@
+{
+  "key": "c742ff925336cfa7",
+  "query": "\nSELECT ?item ?cue ?cueLabel ?cueSitelinks (COUNT(DISTINCT ?other) AS ?nAnswers) WHERE {\n  VALUES ?item { wd:Q102075429 wd:Q10841404 wd:Q1088645 wd:Q11020530 wd:Q118466832 wd:Q1206629 wd:Q12973678 wd:Q12973848 wd:Q12974626 wd:Q12974758 wd:Q12975166 wd:Q12976003 wd:Q12976026 wd:Q12976191 wd:Q12976618 wd:Q12978403 wd:Q12978480 wd:Q12978803 wd:Q12980015 wd:Q12982461 wd:Q12984752 wd:Q12985023 wd:Q12985690 wd:Q12985893 wd:Q12986448 wd:Q12987090 wd:Q12987410 wd:Q12987783 wd:Q12987860 wd:Q12987956 wd:Q12988906 wd:Q1380058 wd:Q1385918 wd:Q1535227 wd:Q1570434 wd:Q16104871 wd:Q16309831 wd:Q16310034 wd:Q16313887 wd:Q1741798 wd:Q19808888 wd:Q19812453 wd:Q2075161 wd:Q23879711 wd:Q246260 wd:Q256286 wd:Q2587183 wd:Q275146 wd:Q2873107 wd:Q30121942 wd:Q30323761 wd:Q3032538 wd:Q31367919 wd:Q3151355 wd:Q3349404 wd:Q3462523 wd:Q3494321 wd:Q3519662 wd:Q3519797 wd:Q3522026 wd:Q3522337 wd:Q3522642 wd:Q3523919 wd:Q3523946 wd:Q3523967 wd:Q3531581 wd:Q3533917 wd:Q3534483 wd:Q3535929 wd:Q3536126 wd:Q3537100 wd:Q3790097 wd:Q3790117 wd:Q3826232 wd:Q4458118 wd:Q4460484 wd:Q4648413 wd:Q465030 wd:Q467231 wd:Q470875 wd:Q47540093 wd:Q4802194 wd:Q48734946 wd:Q5512506 wd:Q55163759 wd:Q56133394 wd:Q61066275 wd:Q6167515 wd:Q6342979 wd:Q6360377 wd:Q6372729 wd:Q6443534 wd:Q6753231 wd:Q6754663 wd:Q6826901 wd:Q6932965 wd:Q6956345 wd:Q6960666 wd:Q7117603 wd:Q7129065 wd:Q7137115 wd:Q7168986 wd:Q7259176 wd:Q7262543 wd:Q7273910 wd:Q7273942 wd:Q7282934 wd:Q7387351 wd:Q7387425 wd:Q7418647 wd:Q7483232 wd:Q7668423 wd:Q7668487 wd:Q7670566 wd:Q7785243 wd:Q7785413 wd:Q7881177 wd:Q7905985 wd:Q7912417 wd:Q7920084 wd:Q8060326 wd:Q94488 wd:Q96372348 }\n  ?item wdt:P800 ?cue .\n  ?cue wdt:P50 ?item .\n  ?cue wdt:P50 ?other .\n  ?cue wikibase:sitelinks ?cueSitelinks .\n  OPTIONAL { ?cue rdfs:label ?cueLabel . FILTER(LANG(?cueLabel) = \"en\") }\n} GROUP BY ?item ?cue ?cueLabel ?cueSitelinks\n",
+  "fetched_utc": "2026-11-09T05:17:52Z",
+  "rows": [
+    {
+      "item": "Q3537100",
+      "cue": "Q115812153",
+      "cueLabel": "Irantam Tiruvantati",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3523967",
+      "cue": "Q116784010",
+      "cueLabel": "Tirupallantu",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q256286",
+      "cue": "Q140244404",
+      "cueLabel": "Gnanaratham",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1535227",
+      "cue": "Q140246645",
+      "cueLabel": "Sempor Silai Ezhubadhu",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q256286",
+      "cue": "Q140247085",
+      "cueLabel": "Vedharishigalin kavidhai",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q470875",
+      "cue": "Q140247916",
+      "cueLabel": "Parasakthi",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q16310034",
+      "cue": "Q140247999",
+      "cueLabel": "Kathirai Siladai Venpa",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3536126",
+      "cue": "Q140251454",
+      "cueLabel": "Pattinappalai Moolamum Uraiyum",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3534483",
+      "cue": "Q140263114",
+      "cueLabel": "Azhagin Sirippu",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3533917",
+      "cue": "Q140263175",
+      "cueLabel": "Theviyin Keerthanangal",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q61066275",
+      "cue": "Q140263972",
+      "cueLabel": "Kaar Naarpathu Moolamum",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3533917",
+      "cue": "Q140264022",
+      "cueLabel": "Malarum Maalaiyum",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q7273942",
+      "cue": "Q140264053",
+      "cueLabel": "Kurunthogai Vilakkam",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q256286",
+      "cue": "Q140264180",
+      "cueLabel": "Kannan Paattu",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q7785243",
+      "cue": "Q140308604",
+      "cueLabel": "Tamil Thendral",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12976026",
+      "cue": "Q4662771",
+      "cueLabel": "Aathichoodi",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q31367919",
+      "cue": "Q5124829",
+      "cueLabel": "Ciṟupañcamūlam",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12976191",
+      "cue": "Q5368687",
+      "cueLabel": "Elāti",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q16313887",
+      "cue": "Q6103530",
+      "cueLabel": "Iṉiyavai Nāṟpatu",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6167515",
+      "cue": "Q6352892",
+      "cueLabel": "Kalingattuparani",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q61066275",
+      "cue": "Q6454280",
+      "cueLabel": "Kār Nāṟpatu",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12987410",
+      "cue": "Q6791990",
+      "cueLabel": "Maturaikkāñci",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12978480",
+      "cue": "Q6963823",
+      "cueLabel": "Nanneri",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3536126",
+      "cue": "Q7171080",
+      "cueLabel": "Perumpāṇāṟṟuppaṭai",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q11020530",
+      "cue": "Q7238649",
+      "cueLabel": "Prathapa Mudaliar Charithram",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1380058",
+      "cue": "Q7532308",
+      "cueLabel": "Sivagamiyin Sapatham",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12986448",
+      "cue": "Q12974702",
+      "cueLabel": "Ravana Kaaviyam",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1535227",
+      "cue": "Q12980851",
+      "cueLabel": "Silaiyezhupathu",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2873107",
+      "cue": "Q12984950",
+      "cueLabel": "Nalvazhi",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12987956",
+      "cue": "Q12985805",
+      "cueLabel": "Paḻamoḻi Nāṉūṟu",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3536126",
+      "cue": "Q14472476",
+      "cueLabel": "Paṭṭiṉappālai",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2587183",
+      "cue": "Q16308375",
+      "cueLabel": "Tiruvaymoli",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q256286",
+      "cue": "Q16312928",
+      "cueLabel": "Panjali Sabatham",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1385918",
+      "cue": "Q16313532",
+      "cueLabel": "Thirukkovaiyar",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3523919",
+      "cue": "Q113641519",
+      "cueLabel": "Perumal Tirumoli",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2587183",
+      "cue": "Q113648930",
+      "cueLabel": "Tiruviruttam",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3523967",
+      "cue": "Q115516777",
+      "cueLabel": "Periyalvar Tirumoli",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2587183",
+      "cue": "Q115803836",
+      "cueLabel": "Tiruvasiriyam",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3523946",
+      "cue": "Q115806564",
+      "cueLabel": "Kanninun Cirutampu",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2587183",
+      "cue": "Q115806929",
+      "cueLabel": "Periya Tiruvantati",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3790097",
+      "cue": "Q115809627",
+      "cueLabel": "Mutal Tiruvantati",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1535227",
+      "cue": "Q386021",
+      "cueLabel": "Ramavataram",
+      "cueSitelinks": "16",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1570434",
+      "cue": "Q1480970",
+      "cueLabel": "Manimekalai",
+      "cueSitelinks": "8",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12984752",
+      "cue": "Q2418484",
+      "cueLabel": "Tolkāppiyam",
+      "cueSitelinks": "18",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3032538",
+      "cue": "Q3115588",
+      "cueLabel": "Silappatikaram",
+      "cueSitelinks": "18",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q465030",
+      "cue": "Q3260667",
+      "cueLabel": "Tiruppavai",
+      "cueSitelinks": "9",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q465030",
+      "cue": "Q3313117",
+      "cueLabel": "Nachiyar Tirumoli",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1380058",
+      "cue": "Q3429999",
+      "cueLabel": "Ponniyin Selvan",
+      "cueSitelinks": "10",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3523919",
+      "cue": "Q4306830",
+      "cueLabel": "Mukundamala",
+      "cueSitelinks": "6",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3519797",
+      "cue": "Q12974549",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12976003",
+      "cue": "Q12975817",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12982461",
+      "cue": "Q12978264",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12975166",
+      "cue": "Q12978482",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12975166",
+      "cue": "Q12979495",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3462523",
+      "cue": "Q12981091",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12975166",
+      "cue": "Q12984265",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12975166",
+      "cue": "Q12986891",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q1206629",
+      "cue": "Q16312016",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q12982461",
+      "cue": "Q16312859",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q7137115",
+      "cue": "Q16313034",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q256286",
+      "cue": "Q16313685",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q7785243",
+      "cue": "Q140302902",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6754663",
+      "cue": "Q140303114",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6754663",
+      "cue": "Q140306304",
+      "cueSitelinks": "0",
+      "nAnswers": "1"
+    }
+  ]
+}

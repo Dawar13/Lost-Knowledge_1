@@ -98,6 +98,48 @@ def cached_query(out: Path, cid: str, kind: str, where: str, lang: str, refresh:
     return rows
 
 
+def run_sparql(q: str, retries: int = 4) -> list[dict]:
+    """Any SELECT query (POST, so long VALUES lists fit). Rows are {variable: value};
+    entity URIs are reduced to their QIDs. Same retry policy as run_query."""
+    for attempt in range(retries):
+        try:
+            r = requests.post(ENDPOINT, data={"query": q}, headers=HEADERS, timeout=180)
+            if r.status_code == 429:
+                time.sleep(30 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            return [{k: (v["value"].rsplit("/", 1)[-1] if v.get("type") == "uri" and "/entity/Q" in v["value"]
+                         else v["value"]) for k, v in b.items()} for b in r.json()["results"]["bindings"]]
+        except requests.RequestException as e:
+            code = getattr(getattr(e, "response", None), "status_code", None)
+            print(f"  query failed ({code or type(e).__name__}); attempt {attempt + 1}/{retries}", flush=True)
+            if code == 504 and attempt >= 1:
+                break
+            time.sleep(10 * (attempt + 1))
+    raise RuntimeError("Wikidata query failed repeatedly; put the most selective pattern first "
+                       "(VALUES or hint:Prior hint:runFirst) and avoid P131* / P279* paths.")
+
+
+def cached_sparql(out: Path, name: str, q: str, refresh: bool = False) -> list[dict]:
+    """run_sparql with the same raw cache and provenance record as cached_query
+    (query text, key, UTC fetch time), for queries whose SELECT is not the member
+    list (e.g. the E13 cues in mb5.cues)."""
+    key = hashlib.sha256(q.encode()).hexdigest()[:16]
+    path = out / "raw" / f"{name}.json"
+    if not refresh and path.exists():
+        d = json.loads(path.read_text(encoding="utf-8"))
+        if d.get("key") == key:
+            print(f"  {name}: {len(d['rows'])} rows from cache ({d['fetched_utc']})", flush=True)
+            return d["rows"]
+    t = time.time()
+    rows = run_sparql(q)
+    print(f"  {name}: {len(rows)} rows in {time.time() - t:.1f}s", flush=True)
+    write_json(path, {"key": key, "query": q, "fetched_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                      "rows": rows})
+    time.sleep(2)  # be polite to the public endpoint
+    return rows
+
+
 _QID = re.compile(r"^Q\d+$")
 
 

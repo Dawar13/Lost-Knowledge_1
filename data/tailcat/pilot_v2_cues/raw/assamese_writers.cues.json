@@ -1,0 +1,105 @@
+{
+  "key": "b09ad35f51057ad6",
+  "query": "\nSELECT ?item ?cue ?cueLabel ?cueSitelinks (COUNT(DISTINCT ?other) AS ?nAnswers) WHERE {\n  VALUES ?item { wd:Q105942231 wd:Q11012539 wd:Q11182920 wd:Q12420448 wd:Q12450873 wd:Q12816986 wd:Q13357892 wd:Q13358508 wd:Q13420234 wd:Q135040170 wd:Q13515794 wd:Q16056606 wd:Q16079112 wd:Q17326189 wd:Q17379292 wd:Q17682579 wd:Q17715240 wd:Q17751560 wd:Q17751742 wd:Q17806293 wd:Q18010497 wd:Q18014889 wd:Q18014938 wd:Q18068002 wd:Q18107612 wd:Q18145776 wd:Q19689135 wd:Q19742284 wd:Q19742545 wd:Q20685394 wd:Q21104167 wd:Q21598123 wd:Q2223219 wd:Q2254757 wd:Q23015032 wd:Q24285755 wd:Q25681765 wd:Q25681813 wd:Q26236281 wd:Q26465757 wd:Q26923076 wd:Q27063529 wd:Q31319739 wd:Q31319793 wd:Q31319807 wd:Q31319849 wd:Q31319867 wd:Q35475311 wd:Q3595894 wd:Q3595897 wd:Q3633986 wd:Q44201021 wd:Q4741478 wd:Q4751350 wd:Q4777884 wd:Q4802141 wd:Q4802297 wd:Q4818777 wd:Q4890686 wd:Q4900476 wd:Q491474 wd:Q4916340 wd:Q5269812 wd:Q5277181 wd:Q54961529 wd:Q56165430 wd:Q5656831 wd:Q5756276 wd:Q5756306 wd:Q5756388 wd:Q5756665 wd:Q5769768 wd:Q61929805 wd:Q6733996 wd:Q6960908 wd:Q7037128 wd:Q7198609 wd:Q7301619 wd:Q7427513 wd:Q7586585 wd:Q7660270 wd:Q7673594 wd:Q85967845 }\n  ?item wdt:P800 ?cue .\n  ?cue wdt:P50 ?item .\n  ?cue wdt:P50 ?other .\n  ?cue wikibase:sitelinks ?cueSitelinks .\n  OPTIONAL { ?cue rdfs:label ?cueLabel . FILTER(LANG(?cueLabel) = \"en\") }\n} GROUP BY ?item ?cue ?cueLabel ?cueSitelinks\n",
+  "fetched_utc": "2026-11-09T05:17:57Z",
+  "rows": [
+    {
+      "item": "Q5756306",
+      "cue": "Q4998781",
+      "cueLabel": "Burhi Aair Sadhu",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2254757",
+      "cue": "Q7124321",
+      "cueLabel": "Pages Stained With Blood",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q2254757",
+      "cue": "Q7750025",
+      "cueLabel": "The Man from Chinnamasta",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5756665",
+      "cue": "Q25681803",
+      "cueLabel": "Makam",
+      "cueSitelinks": "4",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q3595897",
+      "cue": "Q25681852",
+      "cueLabel": "Iyaruingam",
+      "cueSitelinks": "3",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5756306",
+      "cue": "Q25682395",
+      "cueLabel": "Belimar",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5756306",
+      "cue": "Q25682398",
+      "cueLabel": "Joymoti Kunwari",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5756306",
+      "cue": "Q25682396",
+      "cueLabel": "Chakraddhaj Singha",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q4741478",
+      "cue": "Q31316270",
+      "cueLabel": "Bedanara Ulka",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q31319807",
+      "cue": "Q31316315",
+      "cueLabel": "Adhunika Galpa Sahitya",
+      "cueSitelinks": "2",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q5756665",
+      "cue": "Q31316363",
+      "cueLabel": "Deo Langkhui",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q4916340",
+      "cue": "Q31316903",
+      "cueLabel": "Asamar Lok-Sanskriti",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q6960908",
+      "cue": "Q56192599",
+      "cueLabel": "Alakananda",
+      "cueSitelinks": "5",
+      "nAnswers": "1"
+    },
+    {
+      "item": "Q4777884",
+      "cue": "Q120282126",
+      "cueLabel": "Naharar Niribila Chan",
+      "cueSitelinks": "1",
+      "nAnswers": "1"
+    }
+  ]
+}
