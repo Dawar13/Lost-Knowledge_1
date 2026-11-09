@@ -9,4 +9,5 @@ cd "$(dirname "$0")/.."
 export MB5_WAIT_GPU_MIN="${MB5_WAIT_GPU_MIN:-30}"
 STEPS=e15,e13,e14 scripts/mb5env.sh bash scripts/run_p6.sh
 scripts/mb5env.sh bash scripts/run_llama.sh
+bash scripts/run_extra_llama.sh
 echo "== all remaining GPU experiments done"
